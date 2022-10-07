@@ -1,0 +1,137 @@
+---
+sidebar: sidebar 
+permalink: concepts/equinix.html 
+keywords: netapp, keystone, Equinix 
+summary: Keystone與Equinix 
+---
+= Keystone代管服務採用Equinix技術
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp已與Equinix合作、在NetApp Keystone Equinix資料中心內代管各項功能、確保為您提供統一化的解決方案。
+
+採用Equinix技術的Keystone代管（Co-Loo）服務與標準Keystone服務產品不變。
+
+在本服務中：
+
+* Equinix提供空間、電力、冷卻、網路及發票、 和儲存設備。
+* 對某些Keystone銷售提案提供支援。
+* 這項服務在11個國家/地區的21個資料中心均受到支援。
+
+
+Equinix的資料中心位於以下位置：
+
+|===
+| 資料中心 | 國家/地區 
+
+
+ a| 
+阿姆斯特丹
+| 荷蘭 
+
+
+ a| 
+亞特蘭大
+| 美國 
+
+
+ a| 
+芝加哥
+| 美國 
+
+
+ a| 
+達拉斯
+| 美國 
+
+
+ a| 
+丹佛
+| 美國 
+
+
+ a| 
+法蘭克福
+| 德國 
+
+
+ a| 
+倫敦
+| 英國 
+
+
+ a| 
+失落的洛杉磯
+| 美國 
+
+
+ a| 
+馬德里
+| 西班牙 
+
+
+ a| 
+墨爾本
+| 澳洲 
+
+
+ a| 
+邁阿密
+| 美國 
+
+
+ a| 
+米蘭
+| 義大利 
+
+
+ a| 
+大阪
+| 日本 
+
+
+ a| 
+巴黎
+| 法國 
+
+
+ a| 
+西雅圖
+| 美國 
+
+
+ a| 
+矽谷
+| 美國 
+
+
+ a| 
+雪梨
+| 澳洲 
+
+
+ a| 
+東京
+| 日本 
+
+
+ a| 
+多倫多
+| 加拿大 
+
+
+ a| 
+華盛頓特區
+| 美國 
+
+
+ a| 
+蘇黎世
+| 瑞士 
+|===

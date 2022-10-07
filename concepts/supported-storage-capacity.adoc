@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: concepts/supported-storage-capacity.html 
+keywords: storage capacity, capacity definition, keystone STaaS storage capacity, 
+summary: 支援的儲存容量 
+---
+= Keystone中支援的儲存容量
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+此功能包括：NetApp Keystone
+
+
+
+== 邏輯容量
+
+這是客戶放入Keystone基礎架構的資料。所有Keystone容量均指邏輯容量。例如、如果基礎架構上儲存了1個TiB檔案、則必須購買至少1個TiB容量。
+
+
+
+== 承諾容量
+
+每月在期限內計費的最低邏輯容量：
+
+* 容量會投入每個服務層級。
+* 在期限內、可新增已認可的容量和額外的服務層級。
+
+
+
+
+=== 已認可容量的變更
+
+在訂閱期間、您可以變更已提交的容量。不過、有些先決條件是：
+
+* 可根據特定條件減少已認可的容量。如需相關資訊、請參閱 link:../concepts/capacity-requirements.html["容量減量"]。
+* 承諾的容量不得在您的訂閱到期前 90 天增加、除非該訂閱將續約 12 個月。
+* 您可以透過Cloud Manager介面或Keystone Success Manager要求變更已提交的容量。如需要求變更的相關資訊、請參閱 link:../concepts/gssc.html["NetApp全球服務支援中心"]。
+
+
+
+
+== 已用容量
+
+耗用容量是指服務目前使用的儲存設備 TiB 容量。Keystone服務會將特定服務層級上所有磁碟區的邏輯使用大小總和（而非使用的實體容量）視為該服務層級的已用容量。
+
+
+
+== 突發容量
+
+這是已用容量超過已提交容量的容量。請注意以下幾點：
+
+* Keystone服務提供超過承諾容量20%的容量。
+* 突發容量可以彈性使用、並依每日耗用的平均來收費。
+* 高達 20% 的突發容量會以與已認可容量相同的速率充電。
+
+
+
+
+== 計費容量
+
+每月帳單 = （提交容量 [TiB] * 提交率 [$/TiB] ） + （每日平均資源配置突發容量 [TiB] * 資源暴增率 [$/TiB] ）。每月帳單包含根據承諾容量所計算的最低費用。
+
+每月帳單金額會根據每日平均突發容量使用量而異、超過最低收費。

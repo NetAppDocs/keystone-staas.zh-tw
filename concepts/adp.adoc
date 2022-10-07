@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: concepts/adp.html 
+keywords: data protection advanced 
+summary: 進階資料保護 
+---
+= 進階資料保護
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在Keystone訂閱中訂閱進階資料保護附加服務。
+
+如需基礎儲存設備和雲端儲存服務的相關資訊、請參閱 link:../concepts/supported-storage-services.html["支援的儲存服務"]
+
+如需服務層級的相關資訊、請參閱 link:../concepts/service-levels.html["Keystone中的服務層級"]
+
+Keystone進階資料保護服務可同步將資料鏡射至次要站台、如果主要站台發生災難、次要站台可以接管資料、而不會遺失任何資料。這項功能運用MetroCluster 兩個站台之間的「支援資料保護」功能。您只能針對檔案和區塊儲存服務使用進階資料保護附加服務。如需ONTAP MetroCluster 有關資料、請參閱 link:https://docs.netapp.com/us-en/ontap-metrocluster["資訊文件MetroCluster"]
+
+附加費用適用於訂閱中的所有容量、亦即來源、鏡射複本和無鏡射資料。
+
+請注意下列事項：
+
+* 對於此服務、相關儲存服務上100%的已提交容量會設定為已提交容量。
+* 來源叢集和目的地叢集的儲存設備均需付費。這項附加服務也會針對主要和次要（鏡射）磁碟區付費。
+* 費用僅適用於您的檔案和區塊儲存服務。
+

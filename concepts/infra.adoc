@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: concepts/infra.html 
+keywords: keystone infrastructure, infra 
+summary: Keystone基礎架構 
+---
+= Keystone基礎架構
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+本節說明NetApp Keystone 適用於NetApp和客戶營運環境的不完整基礎架構、架構和管理應用程式。
+
+Keystone基礎架構、設計、技術選擇及元件產品、完全由NetApp提供。NetApp 保留採取下列行動的權利：
+
+* 選擇、替代或重新規劃產品。
+* 視情況而定、以新技術更新產品。
+* 增加或減少產品容量以符合服務需求。
+* 修改架構、技術及 / 或產品、以符合服務需求。
+
+
+Keystone基礎架構包含多個元件、例如下列元件：
+
+* 包含儲存控制器的Keystone基礎架構
+* 管理及操作服務的工具、例如 OpsRamp 、 Active IQ VMware 及 Active IQ Unified Manager VMware 等。
+
+
+
+
+== 儲存平台
+
+企業應用程式需要儲存平台來支援快速的資源配置工作流程、維持持續可用度、以低延遲維持高工作負載、提供更高效能、並支援與主要雲端供應商的整合。NetApp有多種產品和技術可支援這些需求。對於Keystone服務、NetApp使用AFF 了各種功能的不穩定平台。StorageGRID
+
+
+
+== 監控工具
+
+在Keystone客戶操作服務中、您的站台會安裝儲存基礎架構和監控工具。儲存基礎架構包含支援初始訂單所需的儲存硬體、並可於稍後訂購更多儲存設備。
+
+除了儲存設備之外、還配置了兩種監控工具來監控儲存設備和使用量。
+
+* OpsRamp本機閘道：OpsRamp是雲端型應用程式、用於監控您的網路。它內建與NetApp儲存平台的整合功能、可收集環境資料並監控網路。此服務是在使用安裝在您站台上的本機閘道與雲端入口網站通訊的協助下啟用。以取得相關資訊
+* Keystone Data Collector：Keystone Collector為Keystone客戶提供帳單服務。此應用程式隨Active IQ Unified Manager 附於NetApp。每ONTAP 五分鐘會StorageGRID 定期從VMware及VMware控制器收集資料。資料會經過處理、中繼資料Active IQ 會透過AutoSupport 用於產生帳單資料的流程機制、傳送到集中式的資料湖。所學專業：電子商務（電子商務）Active IQ客戶入口網站可讓您登入、並檢視您的Keystone訂閱訂閱的訂閱與使用詳細資料。Active IQ Digital Advisor
+
+
+image:mgmt-stack.png[""]
+
+如需詳細資訊、請參閱 link:../integrations/keystone-aiq.html["Keystone與Active IQ Digital Advisor"]

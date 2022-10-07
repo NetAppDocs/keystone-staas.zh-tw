@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concepts/data-flow.html 
+keywords: data flow 
+summary: Keystone資料流程 
+---
+= Keystone資料流
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone系統會遇到兩個系統的資料流：Keystone Collector流量、以及監控資料流。
+
+
+
+== Keystone Collector資料流
+
+Keystone Collector會定期啟動對儲存控制器的REST API呼叫、並取得控制器的使用詳細資料、如下列映像所述..
+
+image:collector-data-flow.png[""]
+
+.圖例
+. NetApp Collector會啟動HTTPS工作階段至Active IQ Cloud入口網站。
+. 由客戶操作的防火牆必須允許此連線。
+. 這個解決方案可接受連線、並建立通往NetApp Collector的通道。Active IQ
+. NetApp收集器會建立REST API工作階段至儲存控制器的管理連線、取得環境資料、並將其傳送至Active IQ 該入口網站。
+
+
+
+
+== 監控資料流
+
+持續監控儲存基礎架構的健全狀況、是Keystone服務最重要的功能之一。為進行監控、Keystone使用OpsRamp、這需要遠端存取客戶網路。下圖說明OpsRamper工具如何保護遠端存取客戶位置的安全。
+
+image:monitoring-flow.png[""]
+
+.圖例
+. OpsRamper閘道會啟動TLS工作階段、前往雲端中的OpsRamper雲端入口網站。
+. 由客戶操作的防火牆必須允許此連線。
+. 雲端中的OpsRamp伺服器接受連線。
+. TLS通道建立於OpsRamp雲端入口網站和OpsRamp本機閘道之間。
+. NetApp控制器會使用SNMP傳輸協定傳送警示、或回應OpsRamp本機閘道的API要求。
+. OpsRamp本機閘道會使用之前建立的TLS工作階段、將這些警示傳送至其雲端入口網站。
+

@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: concepts/overview.html 
+keywords: learn about keystone, keystone introduction, keystone, STaaS, service, offering, overview 
+summary: 歡迎使用Keystone 
+---
+= 深入瞭解NetApp Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp（Keystone）是一種隨需付費的訂閱型服務模式、可為偏好營運成本使用模式的使用者、提供無縫的混合雲體驗、以利預先支付資本支出或租賃。NetApp Keystone
+
+它可減少與管理無法預測的容量成長及處理複雜採購週期相關的障礙、讓客戶加速實現價值所需時間。Keystone可讓客戶根據業務優先順序調整經濟效益與營運。
+
+image:nkfsosm_image2.png["錯誤：缺少圖形影像"]
+
+Keystone是一項訂閱型服務、可針對可部署於內部部署的區塊、檔案和物件資料類型、提供預先定義服務層級的儲存容量、並可由NetApp、合作夥伴或客戶操作。此外、它也可與NetApp雲端服務搭配使用、例如Cloud Volumes ONTAP 可部署在您選擇的超純量環境中的功能。
+
+
+
+== Keystone儲存即服務（STaaas）
+
+雖然大多數企業仍在制定混合雲策略、但身為客戶、您可能不想延遲進入以營運成本為基礎的_按使用付費_消費模式。您可能無法檢視何時將特定部分或所有工作負載移至雲端、但最終可能需要移至雲端。Keystone儲存即服務提供靈活度、讓您從內部部署服務開始著手、稍後再決定適當的工作負載、以及移轉至雲端的時間點。Keystone儲存即服務（STaaS）可為您提供跨部署模式的承諾保護、而非將更多的雲端服務成本堆疊在內部部署上、客戶可以重新分配內部部署的費用來新增雲端服務、並基本上支付在重新分配之前所承諾的每月最低費用。

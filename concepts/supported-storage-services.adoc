@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: concepts/supported-storage-services.html 
+keywords: storage service, service definition, keystone STaaS storage service, 
+summary: 支援的儲存服務 
+---
+= 支援的儲存服務
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone服務支援ONTAP 基礎儲存類型的功能、例如檔案和區塊儲存。它也支援StorageGRID 物件儲存功能、以利實現物件儲存。同時支援資料管理功能以利Cloud Volumes ONTAP 執行。
+
+如需服務層級的相關資訊、請參閱 link:../concepts/service-levels.html["Keystone中的服務層級"]
+
+
+
+== 基礎儲存服務
+
+|===
+| 儲存服務 | 基礎 | 支援的功能 | 通訊協定 
+
+
+ a| 
+檔案儲存設備
+| 以ONTAP 支援的技術為基礎 | 支援ONTAP 的功能：FlexVol FlexGroup 不支援Snapshot複本SnapMirror（非同步）SnapVault SnapLock 功能不支援企業FabricPool /雲端分層還原SnapCenter Clone（包含授權、但這不是Keystone服務的一部分、也不提供保證管理） | NFS、CIFS和S3（FabricPool 用於不確定目標） 
+
+
+ a| 
+區塊儲存
+| 以ONTAP 支援的技術為基礎 | 支援ONTAP 的功能：FlexVol FlexGroup 不支援Snapshot複本SnapMirror（非同步）SnapVault SnapLock 功能不支援企業FabricPool /雲端分層還原SnapCenter Clone（包含授權、但這不是Keystone服務的一部分、也不提供保證管理） | FC、iSCSI和S3（FabricPool 用於不確定目標） 
+
+
+ a| 
+物件儲存
+| 以StorageGRID 整個平台為基礎 | 支援跨多個站台的多重資訊生命週期管理（ILM）原則。附註：每個網站都必須有個別的訂閱。 | S3 
+|===
+
+NOTE: 資料分層至NetApp儲存目標預設包含在檔案與區塊儲存服務層中。
+
+如需資料分層的詳細資訊、請參閱 link:../concepts/data-tiering.html["資料分層"]如需資料保護服務的相關資訊、請參閱 link:../concepts/adp.html["進階資料保護"]
+
+
+
+== 雲端儲存服務
+
+Keystone支援Cloud Volumes ONTAP AWS、Azure和Google_所支援的_資料管理功能。此服務可與您現有的訂閱共同訂閱。在服務期間、您可以隨時納入雲端服務。不過、如果您不打算續約、則在訂閱的最後90天內、您將無法納入雲端服務。
+
+
+NOTE: 超純量型運算與儲存基礎架構並非由NetApp提供、因此您必須向超純量雲端服務供應商購買。

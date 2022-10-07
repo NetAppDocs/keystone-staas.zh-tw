@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: concepts/uscs.html 
+keywords: netapp, keystone, US citizen support, USCS GSSC, Keystone Success Manager, USCS support 
+summary: 美國公民支援（ USCS ） 
+---
+= 美國公民支援（USCS）
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+美國公民支援（USCS）是NetApp Keystone 針對各種訂閱的附加產品。您有權從美國獲得持續基礎概念服務的交付與支援美國公民土壤。
+
+請閱讀下列各節、瞭解您的訂閱內容受此附加服務約束、並依據NetApp Keystone 《銷售協議》條款提供。註腳：免責聲明1[此處說明的服務與產品受完整執行的Keystone協議約束、限制及管轄。]
+
+
+
+== NetApp全球服務支援中心監控
+
+NetApp全球服務與支援中心（GSSC）可監控您產品和訂閱服務的健全狀況、提供遠端支援、並與Keystone Success Manager合作。所有監控相關Keystone訂購訂單相關產品的人員、均為美國公民土壤。
+
+
+
+== Keystone成功管理程式
+
+Keystone Success Manager是美國美國公民土壤。他們的責任請在NetApp Keystone 您的《不確定協議》中說明。
+
+
+
+== 部署活動
+
+如適用、現場與遠端部署與安裝活動均由美國政府執行美國公民土壤。註腳：免責聲明[適當人員是否可用於現場活動、取決於Keystone系統部署所在的地理位置。]
+
+
+
+== 支援
+
+必要的現場疑難排解與支援活動、均由美國政府執行美國公民土壤。註腳：免責聲明[]

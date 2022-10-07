@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: concepts/burst-consumption-billing.html 
+keywords: burst consumption billing 
+summary: 根據尖峰使用量進行計費 
+---
+= 根據尖峰使用量進行計費
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+根據您所訂閱的服務層級之已認可容量、根據突發容量（亦即您所耗用的容量）來計算費用（Keystone）NetApp Keystone 。
+
+當耗用容量大於服務層級的已認可容量時、系統會記錄突發消耗、並據此套用費用。產生的每個使用記錄都會執行此程序。因此、「暴增使用量」反映出您的過度使用容量在承諾容量之外的數量和使用期限。
+
+如需Keystone支援的不同容量資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone中支援的儲存容量"]

@@ -1,0 +1,73 @@
+---
+sidebar: sidebar 
+permalink: concepts/misc-volume-billing.html 
+keywords: Billing and miscellaneous scenarios 
+summary: 根據雜項Volume類型進行收費 
+---
+= Keystone計費的其他案例
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone計費有幾種案例、您應該熟悉這些案例。
+
+
+
+== 複製磁碟區的收費
+
+如果將磁碟區複製到 ONTAP 支援區中、並將其用於備份及還原資料、您可以繼續使用複本、而無需支付任何額外費用。然而、貴企業長期用於任何其他用途的複製磁碟區則需支付費用。
+
+請注意下列事項：
+
+* 在建立複製磁碟區的前 24 小時內、不會考慮使用複製磁碟區；在此期間不會產生任何費用。
+* 如果未將新資料寫入磁碟區、則不考慮使用標準和價值服務層級的複製磁碟區。例如、在備份或還原使用案例中、從複製磁碟區備份或還原資料不會變更複製磁碟區本身的資料、也不會將其視為使用量。
+
+
+
+
+== 進階資料保護計費
+
+進階資料保護功能使用 NetApp MetroCluster 功能、在兩個實體分隔的叢集之間鏡射資料。對於鏡射式集合體、資料會在每個叢集上寫入兩次。MetroClusterKeystone服務會獨立收取每一端的使用費用、因此會產生兩個相同的使用記錄。如果您透過ONTAP 《系統管理程式》（System Manager）或Active IQ Unified Manager 《統一化管理程式》（Unified Manager）監控叢集、您可能會發現這些工具和Keystone上報告的使用量差異。System Manager和Unified Manager不會在鏡射（遠端）叢集上報告磁碟區、因此會報告Keystone服務報告的使用量數據一半。
+
+站台A和站台B是MetroCluster 以不一樣的組態設定。當使用者在站台 A 中建立 10TB 的磁碟區時、站台 B 會建立相同的 10TB 磁碟區Keystone可識別每個站台的10TB使用量、總計增加20TB。System Manager和Unified Manager會報告站台A中建立的10TB磁碟區、但不會在站台B中報告10TB磁碟區
+
+此外、在具有進階資料保護的Keystone系統上建立的所有磁碟區、都會被計入進階資料保護的使用量、無論這些磁碟區是否為鏡射。
+
+
+
+== 暫用磁碟區收費
+
+有時 ONTAP 、當搬移 Volume 時、會由現象開發出暫用（ TMP ） Volume 。這些暫存磁碟區的壽命很短、而且不會測量這些磁碟區的使用量以供計費。
+
+
+
+== 計費和調適性 QoS 原則
+
+Keystone會根據服務層級來衡量使用量。每個服務層級都與特定的調適性服務品質（QoS）原則相關聯。在部署期間、系統會通知您訂閱的Keystone服務的每個QoS原則詳細資料。在儲存管理作業期間、請確定您的磁碟區已根據訂閱的服務層級指派適當的QoS原則、以避免發生非預期的計費。如需 ONTAP 更多有關 QoS 原則的資訊、請參閱 link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["透過 QoS 總覽來保證處理量"]。
+
+
+
+== SnapMirror 目的地收費
+
+SnapMirror目的地Volume的定價受來源所指派服務層級的QoS原則所規範。但是、如果來源沒有相關聯的 QoS 原則、則會根據可用的最低服務層級來計費目的地。
+
+
+
+== LUN 計費
+
+對於 LUN 、通常會遵循與 QoS 原則所管理的磁碟區相同的計費模式。如果在 LUN 上設定個別的 QoS 原則、則：
+
+* LUN 的大小會根據該 LUN 的相關服務層級來計算、以供使用。
+* 磁碟區中剩餘空間（如果有）會根據在磁碟區上設定之服務層級的 QoS 原則來收費。
+
+
+
+
+== 系統和根磁碟區
+
+系統和根磁碟區會在Keystone服務的整體監控中受到監控、但不會計入或計費。這些磁碟區的使用量可免除計費。

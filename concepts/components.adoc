@@ -1,0 +1,120 @@
+---
+sidebar: sidebar 
+permalink: concepts/components.html 
+keywords: infrastructure component, deployment requirement, installation requirement 
+summary: 基礎架構元件 
+---
+= 用於部署的元件
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+在NetApp Keystone 您的環境中啟用「功能性」服務有多項需求。
+
+
+
+== 站台需求
+
+有些站台特定的需求、例如空間、機架、PDU、電力、 以及散熱、以及此處討論的其他網路和安全需求。
+
+
+
+=== 空間
+
+用於裝載Keystone基礎架構設備的場地空間（由客戶提供）。NetApp 會根據最終組態提供重量規格。
+
+
+
+=== 機架
+
+客戶營運產品中的四個柱式機架（由客戶提供）。在 NetApp 營運的產品中、 NetApp 或客戶可以視需求提供機架。NetApp 提供 42 個深機架。
+
+
+
+=== PDU
+
+您應該提供電力分配單元（ PDU ）、連接到兩個獨立且受保護的電路、並有足夠的 C13 插座。在客戶營運的產品中、在某些情況下、需要 C19 插座。在NetApp營運的產品中、NetApp或客戶可視需求提供PDU。
+
+
+
+=== 強大威力
+
+您應該提供所需的電力。NetApp 將根據 200V 額定值（典型 A 、 Max A 、典型 W 、最大 W 、電源線類型、 和數量）。所有元件都有備援電源供應器。NetApp 將提供機櫃內的電源線。
+
+
+
+=== 散熱
+
+NetApp 可根據最終組態和需求、提供散熱需求規格（一般 BTU 、最大 BTU ）。
+
+
+
+=== 儲存虛擬機器
+
+儲存虛擬機器（儲存VM）應搭配下列項目部署、以支援Keystone訂閱的監控和計量。Keystone Collector需要一個儲存VM；OpsRamp閘道則需要另一個儲存VM
+
+* Keystone收集器-用於收集使用量標準：
++
+** VCPU：4.
+** VRAM：16 GB
+** vDisk：200 GB
+
+
+* OpsRamp閘道–用於即時監控+ ONTAP Keystone GSSC的遠端支援
++
+** VCPU：8.
+** VRAM：16 GB
+** vDisk：100 GB
+
+
+
+
+
+
+=== 部署選項
+
+Keystone Collector可透過下列方法進行部署：
+
+* VMware OVA範本（需要VMware vCenter Server 6.7或更新版本）
+* 客戶提供Red Hat Enterprise Linux 7或8或CentOS 7 Linux伺服器、而Keystone軟體則是透過「.rpm」安裝程序來安裝。
+
+
+OpsRamp閘道部署於下列組態：
+
+* VMware OVA範本（需要VMware vCenter Server 6.7或更新版本）
+* 的可開機.ISO安裝程式
++
+** Citrix XenServer
+** Microsoft Hyper-V
+** 核心型虛擬機器（Linux KVM）
+
+
+
+
+
+
+=== 網路
+
+下列服務需要傳出存取、才能執行Keystone Collector和OpsRamp閘道的作業和維護作業：
+
+* support.netapp.com（使用資料上傳）
+* keystone.netapp.com（軟體更新）
+* hub.Docker（IO）（軟體更新）
+
+
+根據客戶需求和使用的儲存控制器、NetApp可在客戶現場提供10 GB、40 GB和100 GB的連線能力。
+
+NetApp僅為NetApp提供的基礎架構裝置提供所需的收發器。您應該提供客戶裝置所需的收發器、以及連接至NetApp提供之Keystone基礎架構裝置的纜線。
+
+
+
+== 遠端存取需求
+
+在客戶資料中心安裝的儲存基礎架構或客戶擁有的代管服務與Keystone作業中心之間、需要網路連線。客戶負責提供運算和虛擬機器、以及網際網路服務。網路設計將透過安全的傳輸協定進行、而防火牆原則將由NetApp與客戶雙方核准。
+
+NetApp需要存取安裝用於監控和管理的硬體和軟體元件、才能為Keystone客戶提供監控和計費等服務。最常見的方法是建立與客戶網路的虛擬私有網路（VPN）連線、並存取所需的資料。為了克服客戶從開啟防火牆連接埠到新服務所產生的任何作業複雜度、監控工具會啟動外部連線。NetApp雲端應用程式（例如OpsRamp和期望）會使用此連線來執行各自的服務。此方法符合客戶的要求、即不開放防火牆連接埠、但可存取此服務的監控元件。

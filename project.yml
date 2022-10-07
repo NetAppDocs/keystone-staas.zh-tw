@@ -1,0 +1,136 @@
+---
+settings:
+  name: Keystone
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+    langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,fr-fr
+  langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,fr-fr
+sidebar:
+  entries:
+  - title: Keystone文件
+    url: "/index.html"
+  - title: 開始使用
+    entries:
+    - title: 深入瞭解Keystone
+      url: "/concepts/overview.html"
+    - title: Keystone中支援的儲存容量
+      url: "/concepts/supported-storage-capacity.html"
+    - title: Keystone服務的度量和定義
+      url: "/concepts/metrics.html"
+    - title: Keystone中支援的儲存類型
+      url: "/concepts/supported-storage-services.html"
+    - title: Keystone中的服務層級
+      url: "/concepts/service-levels.html"
+    - title: 附加服務
+      entries:
+      - title: 資料分層
+        url: "/concepts/data-tiering.html"
+      - title: 進階資料保護
+        url: "/concepts/adp.html"
+      - title: 美國公民支援（USCS）
+        url: "/concepts/uscs.html"
+      - title: 不可回收、非揮發性元件及SnapLock 不符合要求
+        url: "/concepts/nrnvc.html"
+      - title: Keystone與Equinix
+        url: "/concepts/equinix.html"
+  - title: 深入瞭解服務層級
+    entries:
+    - title: 服務品質
+      url: "/concepts/qos.html"
+    - title: 服務層級的容量需求
+      url: "/concepts/capacity-requirements.html"
+  - title: 帳單
+    entries:
+    - title: Keystone定價
+      url: "/concepts/pricing.html"
+    - title: 根據已提交的容量進行計費
+      url: "/concepts/committed-capacity-billing.html"
+    - title: 根據耗用容量進行計量
+      url: "/concepts/consumed-capacity-billing.html"
+    - title: 根據尖峰使用量進行計費
+      url: "/concepts/burst-consumption-billing.html"
+    - title: 根據雜項Volume類型進行收費
+      url: "/concepts/misc-volume-billing.html"
+    - title: 帳單排程
+      url: "/concepts/billing-schedules.html"
+  - title: 合作夥伴與客戶營運環境
+    url: "/concepts/operational-models.html"
+  - title: Keystone基礎架構
+    entries:
+    - title: 基礎架構詳細資料
+      url: "/concepts/infra.html"
+    - title: 元件
+      url: "/concepts/components.html"
+    - title: OpsRamp是監控應用程式
+      url: "/concepts/opsramp.html"
+    - title: 資料流
+      url: "/concepts/data-flow.html"
+  - title: NetApp全球服務支援中心
+    url: "/concepts/gssc.html"
+  - title: Keystone服務可讓您做更多工作
+    entries:
+    - title: Keystone與Cloud Manager
+      url: "/integrations/keystone-cm.html"
+    - title: Keystone與Active IQ Digital Advisor
+      url: "/integrations/keystone-aiq.html"
+  - title: 法律聲明
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 什麼是 NetApp Keystone 功能？
+      url: "/concepts/overview.html"
+    - title: 測量單位為何？
+      url: "/concepts/metrics.html"
+    - title: 支援的基礎儲存設備為何？
+      url: "/concepts/supported-storage-services.html"
+    - title: 什麼是資料分層？
+      url: "/concepts/data-tiering.html"
+    - title: 我的Keystone資料是否受到保護？
+      url: "/concepts/adp.html"
+  - title: Keystone中的服務層級
+    links:
+    - title: Keystone服務層級
+      url: "/concepts/service-levels.html"
+    - title: 服務品質（QoS）
+      url: "/concepts/qos.html"
+    - title: 服務層級的容量需求
+      url: "/concepts/capacity-requirements.html"
+    - title: 如何查看使用量資料？
+      url: "/integrations/keystone-aiq.html"
+  - title: Keystone定價
+    links:
+    - title: 瞭解Keystone計費
+      url: "/concepts/pricing.html"
+    - title: 我的帳單排程
+      url: "/concepts/billing-schedules.html"
+    - title: 根據已提交的容量進行計費
+      url: "/concepts/committed-capacity-billing.html"
+    - title: 根據耗用容量進行計量
+      url: "/concepts/consumed-capacity-billing.html"
+    - title: 如果耗用的容量超過承諾容量、會發生什麼情況？
+      url: "/concepts/burst-consumption-billing.html"
+  - title: Keystone服務可讓您做更多工作
+    links:
+    - title: 瞭解您的支援團隊（Keystone GSSC）
+      url: "/concepts/gssc.html"
+    - title: Keystone與Cloud Manager
+      url: "/integrations/keystone-cm.html"
+    - title: Keystone與Active IQ Digital Advisor
+      url: "/integrations/keystone-aiq.html"
+    - title: 美國公民支援
+      url: "/concepts/uscs.html"
+  - title: 瞭解更多資訊
+    links:
+    - title: Keystone Flex 訂閱
+      url: https://docs.netapp.com/us-en/keystone/
+    - title: Active IQ Digital Advisor
+      url: https://docs.netapp.com/us-en/active-iq/index.html
+    - title: Cloud Manager
+      url: https://docs.netapp.com/us-en/cloud-manager-family/
+    - title: Active IQ Unified Manager
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager/
