@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    
+    
+  
+
+  
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/adp.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/billing-schedules.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/burst-consumption-billing.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/capacity-requirements.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/committed-capacity-billing.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/components.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/consumed-capacity-billing.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/data-flow.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/equinix.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/gssc.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/infra.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/integrations/keystone-aiq.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/integrations/keystone-cm.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/legal-notices.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/metrics.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/misc-volume-billing.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/nrnvc.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/operational-models.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/opsramp.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/overview.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/pricing.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/qos.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas//search.html</loc>
+      
+      <lastmod>2022-10-07T21:23:31+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/service-levels.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/supported-storage-capacity.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/supported-storage-services.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/data-tiering.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/keystone-staas/concepts/uscs.html</loc>
+      
+      <lastmod>2022-10-07T21:23:12+00:00</lastmod>
+      
+    </url>
+  
+
+  
+  
+</urlset>
