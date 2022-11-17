@@ -25,28 +25,8 @@
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
 
-  <!-- Controls AsciiDoctor Admonition Blocks -->
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/font-awesome.min.css">
-
-  <!-- Controls the shadow effect for search dropdown menu -->
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/boxshadowproperties.css">
-
-  <!-- NetApp CSS controls the technical content -->
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/netapp.css">
-
-  <!-- WWW CSS Content -->
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/www-luci-dotcom.min.css">
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/www-netapp-dotcom.css">
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/www-netapp-library-critical.min.css" media="all" >
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/www-netapp-library-global-header-footer.min.css">
-
-  <!-- NetApp IE Customizations -->
-  <link rel="stylesheet" href='/zh-tw/keystone-staas/css/na-utility.css' type='text/css'>
-  <link rel="stylesheet" href='/zh-tw/keystone-staas/css/na-sidebar.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/clouddocs.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/custom-dropdown.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/na-pagenav.css' type='text/css'>
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/netappdocs.css">
 
   
   <link rel="stylesheet" href="/zh-tw/keystone-staas/css/landing-page.css" type="text/css">
@@ -98,11 +78,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-tw/keystone-staas/js/na-search.js'></script><script src='/zh-tw/keystone-staas/js/na-pagenav.js'></script><link rel='stylesheet' href='/zh-tw/keystone-staas/css/prism.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/prism-netapp.css' type='text/css'>
-
-
-  <script src='/zh-tw/keystone-staas/js/na-utility.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-tw/keystone-staas/js/na-search.js'></script><script src='/zh-tw/keystone-staas/js/na-pagenav.js'></script><script src='/zh-tw/keystone-staas/js/na-utility.js'></script>
   <script src='/zh-tw/keystone-staas/js/clouddocs.js'></script>
   <script src='/zh-tw/keystone-staas/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -141,6 +117,17 @@
           $("#expandAll").click(function(e) {
               e.preventDefault();
               $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/zh-tw/keystone-staas"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
           });
 
       });
@@ -612,7 +599,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 開始使用</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="深入瞭解Keystone"
@@ -656,7 +643,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 附加服務</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="資料分層"
@@ -700,7 +687,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 深入瞭解服務層級</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="服務品質"
@@ -723,7 +710,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 帳單</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone定價"
@@ -781,7 +768,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone基礎架構</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="基礎架構詳細資料"
@@ -825,7 +812,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone服務可讓您做更多工作</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone與Cloud Manager"
@@ -858,6 +845,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -909,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-10-07 21:23:12 +0000">10/07/2022</time>
+    <time datetime="2022-11-17 09:44:53 +0000">11/17/2022</time>
     
   
 
@@ -920,22 +908,34 @@
 </p>
 
 <div class="paragraph lead">
-<p>您可以在Keystone訂閱中訂閱進階資料保護附加服務。</p>
+<p>您可以在Keystone訂閱中訂閱進階資料保護附加服務。這項附加服務運用NetApp MetroCluster 的技術、確保在0恢復點目標（RPO）為您的關鍵任務工作負載提供高效率的資料保護。</p>
 </div>
 <div class="paragraph">
-<p>如需基礎儲存設備和雲端儲存服務的相關資訊、請參閱 <a href="../concepts/supported-storage-services.html">"支援的儲存服務"</a></p>
+<p>Keystone的基礎儲存服務可提供資料保護服務（運用NetApp技術、例如SnapMirror、SnapVault SnapMirror和Snapshot）來提供檔案和區塊儲存服務。</p>
 </div>
 <div class="paragraph">
-<p>如需服務層級的相關資訊、請參閱 <a href="../concepts/service-levels.html">"Keystone中的服務層級"</a></p>
+<p>如需基礎儲存設備和雲端儲存服務的相關資訊、請參閱 <a href="../concepts/supported-storage-services.html">"支援的儲存服務"</a>。</p>
 </div>
 <div class="paragraph">
-<p>Keystone進階資料保護服務可同步將資料鏡射至次要站台、如果主要站台發生災難、次要站台可以接管資料、而不會遺失任何資料。這項功能運用MetroCluster 兩個站台之間的「支援資料保護」功能。您只能針對檔案和區塊儲存服務使用進階資料保護附加服務。如需ONTAP MetroCluster 有關資料、請參閱 <a href="https://docs.netapp.com/us-en/ontap-metrocluster">"資訊文件MetroCluster"</a></p>
+<p>如需服務層級的相關資訊、請參閱 <a href="../concepts/service-levels.html">"Keystone中的服務層級"</a>。</p>
 </div>
 <div class="paragraph">
-<p>附加費用適用於訂閱中的所有容量、亦即來源、鏡射複本和無鏡射資料。</p>
+<p>Keystone進階資料保護服務可同步將資料鏡射至次要站台。萬一主站台發生災難、二線站台可以接管、而不會遺失任何資料。這項功能運用MetroCluster 兩個站台之間的「支援資料保護」功能。您只能將進階資料保護附加服務用於檔案和區塊儲存服務。如需ONTAP MetroCluster 有關資料、請參閱 <a href="https://docs.netapp.com/us-en/ontap-metrocluster">"資訊文件MetroCluster"</a>。</p>
 </div>
 <div class="paragraph">
-<p>請注意下列事項：</p>
+<p>附加費用適用於訂閱中的所有容量：來源、鏡射複本及無鏡射資料。</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/keystone-staas/images/note.svg" alt="附註">
+</td>
+<td class="content">
+附註：
+</td>
+</tr>
+</table>
 </div>
 <div class="ulist">
 <ul>
@@ -946,9 +946,12 @@
 <p>來源叢集和目的地叢集的儲存設備均需付費。這項附加服務也會針對主要和次要（鏡射）磁碟區付費。</p>
 </li>
 <li>
-<p>費用僅適用於您的檔案和區塊儲存服務。</p>
+<p>費用僅適用於您的檔案和區塊儲存服務。支援下列MetroCluster 功能：</p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../media/mcc.png" alt="Keystone支援的組態MetroCluster"></span></p>
 </div>
 
     </article>

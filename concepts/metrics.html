@@ -25,28 +25,8 @@
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
 
-  <!-- Controls AsciiDoctor Admonition Blocks -->
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/font-awesome.min.css">
-
-  <!-- Controls the shadow effect for search dropdown menu -->
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/boxshadowproperties.css">
-
-  <!-- NetApp CSS controls the technical content -->
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/netapp.css">
-
-  <!-- WWW CSS Content -->
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/www-luci-dotcom.min.css">
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/www-netapp-dotcom.css">
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/www-netapp-library-critical.min.css" media="all" >
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/www-netapp-library-global-header-footer.min.css">
-
-  <!-- NetApp IE Customizations -->
-  <link rel="stylesheet" href='/zh-tw/keystone-staas/css/na-utility.css' type='text/css'>
-  <link rel="stylesheet" href='/zh-tw/keystone-staas/css/na-sidebar.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/clouddocs.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/custom-dropdown.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/na-pagenav.css' type='text/css'>
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/netappdocs.css">
 
   
   <link rel="stylesheet" href="/zh-tw/keystone-staas/css/landing-page.css" type="text/css">
@@ -98,11 +78,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-tw/keystone-staas/js/na-search.js'></script><script src='/zh-tw/keystone-staas/js/na-pagenav.js'></script><link rel='stylesheet' href='/zh-tw/keystone-staas/css/prism.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/prism-netapp.css' type='text/css'>
-
-
-  <script src='/zh-tw/keystone-staas/js/na-utility.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-tw/keystone-staas/js/na-search.js'></script><script src='/zh-tw/keystone-staas/js/na-pagenav.js'></script><script src='/zh-tw/keystone-staas/js/na-utility.js'></script>
   <script src='/zh-tw/keystone-staas/js/clouddocs.js'></script>
   <script src='/zh-tw/keystone-staas/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -141,6 +117,17 @@
           $("#expandAll").click(function(e) {
               e.preventDefault();
               $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/zh-tw/keystone-staas"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
           });
 
       });
@@ -612,7 +599,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 開始使用</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="深入瞭解Keystone"
@@ -656,7 +643,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 附加服務</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="資料分層"
@@ -700,7 +687,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 深入瞭解服務層級</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="服務品質"
@@ -723,7 +710,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 帳單</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone定價"
@@ -781,7 +768,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone基礎架構</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="基礎架構詳細資料"
@@ -825,7 +812,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone服務可讓您做更多工作</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone與Cloud Manager"
@@ -858,6 +845,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -909,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-10-07 21:23:12 +0000">10/07/2022</time>
+    <time datetime="2022-11-17 09:44:53 +0000">11/17/2022</time>
     
   
 
@@ -951,26 +939,26 @@
 <div class="ulist">
 <ul>
 <li>
-<p>以GiB、TiB和PIB為單位的容量測量。*使用以1024為基礎的資料儲存容量測量（1 GiB = 101010<sup>3</sup>位元組、1 TiB = 10104^位元組、以及1 PiB = 104<sup>5</sup>位元組）。</p>
+<p>以GiB、TiB及PIB為單位的容量測量*：以1024為基礎的資料儲存容量測量（1 GiB = 101010<sup>3</sup>位元組、1 TiB = 1010<sup>4</sup>位元組、以及1 PiB = 104<sup>5</sup>位元組）。</p>
 </li>
 <li>
 <p>*作業計數器表：IOPS/TiB。*應用程式要求的每秒傳輸協定作業量、除以工作負載使用的磁碟區大小。</p>
 </li>
 <li>
-<p>*可用度*是以服務成功回應的I/O要求數百分比（除以對服務提出的I/O要求總數）來衡量。這是在一個月內的服務標界時進行測量、不包括排定的服務停機時間、或是客戶所提供的設施、網路或其他服務無法使用。</p>
+<p><strong>可用度</strong>：以服務已成功回應的I/O要求數百分比（除以對服務提出的I/O要求總數）計算。這是在一個月內的服務標界時進行測量、不包括排定的服務停機時間、或是客戶所提供的設施、網路或其他服務無法使用。</p>
 </li>
 <li>
-<p>* 持久性 * 是指在不影響保真度的情況下存取資料的百分比、不包括客戶造成的刪除或毀損。</p>
+<p><strong>持久性</strong>：存取資料時不損失保真度的百分比、不包括客戶造成的刪除或毀損。</p>
 </li>
 <li>
-<p>* 延遲 * 從用戶端收到的 I/O 要求服務時間、以服務劃分（儲存控制器 I/O 連接埠）為測量單位。</p>
+<p><strong>延遲</strong>：服務從用戶端接收到I/O要求的時間、以服務標界（儲存控制器I/O連接埠）為測量單位。</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
 <h3 id="處理量效能指標">處理量效能指標</h3>
 <div class="paragraph">
-<p>處理量效能指標僅適用於檔案和區塊服務。它們的基礎是：</p>
+<p>處理量效能指標僅適用於檔案和區塊服務、其基礎為：</p>
 </div>
 <div class="ulist">
 <ul>
@@ -986,12 +974,12 @@
 <div class="sect2">
 <h3 id="io密度差異">IO密度差異</h3>
 <div class="paragraph">
-<p>以IOPS/TiB和/或Mbps/TiB為單位計算的IO密度可能會因下列因素而異：</p>
+<p>以IOPS/TiB和/或Mbps/TiB為單位計算的IO密度會因下列因素而異：</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>工作負載特性：</p>
+<p>工作負載特性</p>
 </li>
 <li>
 <p>延遲、不包括下列項目：</p>
@@ -1019,7 +1007,7 @@
 <p>使用者與Snapshot複本資料、被視為已使用容量的一部分</p>
 </li>
 <li>
-<p>無論ONTAP 每個資料量為何、在每個流通量上所配置的絕對最低IOPS：</p>
+<p>無論ONTAP 磁碟區中的資料量為何、每個資料區上所配置的絕對最小IOPS：</p>
 <div class="ulist">
 <ul>
 <li>
@@ -1035,7 +1023,7 @@
 </div>
 </li>
 <li>
-<p>使用進階資料保護附加服務時、目標延遲僅適用於處理來自本機儲存設備的IO要求</p>
+<p>使用進階資料保護附加服務時、目標延遲僅適用於處理來自本機儲存設備的IO要求。</p>
 </li>
 </ul>
 </div>

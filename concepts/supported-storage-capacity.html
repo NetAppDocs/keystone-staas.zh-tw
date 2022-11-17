@@ -25,28 +25,8 @@
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
 
-  <!-- Controls AsciiDoctor Admonition Blocks -->
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/font-awesome.min.css">
-
-  <!-- Controls the shadow effect for search dropdown menu -->
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/boxshadowproperties.css">
-
-  <!-- NetApp CSS controls the technical content -->
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/netapp.css">
-
-  <!-- WWW CSS Content -->
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/www-luci-dotcom.min.css">
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/www-netapp-dotcom.css">
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/www-netapp-library-critical.min.css" media="all" >
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/www-netapp-library-global-header-footer.min.css">
-
-  <!-- NetApp IE Customizations -->
-  <link rel="stylesheet" href='/zh-tw/keystone-staas/css/na-utility.css' type='text/css'>
-  <link rel="stylesheet" href='/zh-tw/keystone-staas/css/na-sidebar.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/clouddocs.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/custom-dropdown.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/na-pagenav.css' type='text/css'>
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/netappdocs.css">
 
   
   <link rel="stylesheet" href="/zh-tw/keystone-staas/css/landing-page.css" type="text/css">
@@ -98,11 +78,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-tw/keystone-staas/js/na-search.js'></script><script src='/zh-tw/keystone-staas/js/na-pagenav.js'></script><link rel='stylesheet' href='/zh-tw/keystone-staas/css/prism.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/prism-netapp.css' type='text/css'>
-
-
-  <script src='/zh-tw/keystone-staas/js/na-utility.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-tw/keystone-staas/js/na-search.js'></script><script src='/zh-tw/keystone-staas/js/na-pagenav.js'></script><script src='/zh-tw/keystone-staas/js/na-utility.js'></script>
   <script src='/zh-tw/keystone-staas/js/clouddocs.js'></script>
   <script src='/zh-tw/keystone-staas/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -141,6 +117,17 @@
           $("#expandAll").click(function(e) {
               e.preventDefault();
               $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/zh-tw/keystone-staas"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
           });
 
       });
@@ -612,7 +599,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 開始使用</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="深入瞭解Keystone"
@@ -656,7 +643,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 附加服務</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="資料分層"
@@ -700,7 +687,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 深入瞭解服務層級</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="服務品質"
@@ -723,7 +710,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 帳單</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone定價"
@@ -781,7 +768,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone基礎架構</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="基礎架構詳細資料"
@@ -825,7 +812,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone服務可讓您做更多工作</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone與Cloud Manager"
@@ -858,6 +845,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -909,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-10-07 21:23:12 +0000">10/07/2022</time>
+    <time datetime="2022-11-17 09:44:53 +0000">11/17/2022</time>
     
   
 
@@ -930,7 +918,7 @@
 <h2 id="邏輯容量">邏輯容量</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>這是客戶放入Keystone基礎架構的資料。所有Keystone容量均指邏輯容量。例如、如果基礎架構上儲存了1個TiB檔案、則必須購買至少1個TiB容量。</p>
+<p>這是客戶放置在Keystone基礎架構上的資料。所有Keystone容量均指邏輯容量。例如、如果基礎架構上儲存了1個TiB檔案、則至少應購買1個TiB容量。</p>
 </div>
 </div>
 </div>
@@ -938,7 +926,7 @@
 <h2 id="承諾容量">承諾容量</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>每月在期限內計費的最低邏輯容量：</p>
+<p>訂購期間每月計費的最低邏輯容量：</p>
 </div>
 <div class="ulist">
 <ul>
@@ -975,7 +963,7 @@
 <h2 id="已用容量">已用容量</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>耗用容量是指服務目前使用的儲存設備 TiB 容量。Keystone服務會將特定服務層級上所有磁碟區的邏輯使用大小總和（而非使用的實體容量）視為該服務層級的已用容量。</p>
+<p>耗用容量是指服務目前使用的容量（以儲存設備的TiB為單位）。Keystone服務會考量特定服務層級上所有磁碟區的邏輯使用大小總和（而非使用的實體容量）、以計算該服務層級的已用容量。</p>
 </div>
 </div>
 </div>
@@ -983,7 +971,19 @@
 <h2 id="突發容量">突發容量</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>這是已用容量超過已提交容量的容量。請注意以下幾點：</p>
+<p>這是已用容量超過已提交容量的容量。</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/keystone-staas/images/note.svg" alt="附註">
+</td>
+<td class="content">
+附註：
+</td>
+</tr>
+</table>
 </div>
 <div class="ulist">
 <ul>
@@ -991,10 +991,10 @@
 <p>Keystone服務提供超過承諾容量20%的容量。</p>
 </li>
 <li>
-<p>突發容量可以彈性使用、並依每日耗用的平均來收費。</p>
+<p>突發容量可以彈性使用、並依每日耗用的平均量計費。</p>
 </li>
 <li>
-<p>高達 20% 的突發容量會以與已認可容量相同的速率充電。</p>
+<p>高達20%的突發容量會以與已認可容量相同的速率充電。</p>
 </li>
 </ul>
 </div>

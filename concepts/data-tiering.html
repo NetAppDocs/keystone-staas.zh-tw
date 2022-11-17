@@ -25,28 +25,8 @@
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
 
-  <!-- Controls AsciiDoctor Admonition Blocks -->
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/font-awesome.min.css">
-
-  <!-- Controls the shadow effect for search dropdown menu -->
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/boxshadowproperties.css">
-
-  <!-- NetApp CSS controls the technical content -->
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/netapp.css">
-
-  <!-- WWW CSS Content -->
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/www-luci-dotcom.min.css">
-  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/www-netapp-dotcom.css">
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/www-netapp-library-critical.min.css" media="all" >
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="stylesheet" href="/zh-tw/keystone-staas/css/www-netapp-library-global-header-footer.min.css">
-
-  <!-- NetApp IE Customizations -->
-  <link rel="stylesheet" href='/zh-tw/keystone-staas/css/na-utility.css' type='text/css'>
-  <link rel="stylesheet" href='/zh-tw/keystone-staas/css/na-sidebar.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/clouddocs.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/custom-dropdown.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/na-pagenav.css' type='text/css'>
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/zh-tw/keystone-staas/css/netappdocs.css">
 
   
   <link rel="stylesheet" href="/zh-tw/keystone-staas/css/landing-page.css" type="text/css">
@@ -98,11 +78,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-tw/keystone-staas/js/na-search.js'></script><script src='/zh-tw/keystone-staas/js/na-pagenav.js'></script><link rel='stylesheet' href='/zh-tw/keystone-staas/css/prism.css' type='text/css'>
-  <link rel='stylesheet' href='/zh-tw/keystone-staas/css/prism-netapp.css' type='text/css'>
-
-
-  <script src='/zh-tw/keystone-staas/js/na-utility.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-tw/keystone-staas/js/na-search.js'></script><script src='/zh-tw/keystone-staas/js/na-pagenav.js'></script><script src='/zh-tw/keystone-staas/js/na-utility.js'></script>
   <script src='/zh-tw/keystone-staas/js/clouddocs.js'></script>
   <script src='/zh-tw/keystone-staas/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -141,6 +117,17 @@
           $("#expandAll").click(function(e) {
               e.preventDefault();
               $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/zh-tw/keystone-staas"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
           });
 
       });
@@ -612,7 +599,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 開始使用</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="深入瞭解Keystone"
@@ -656,7 +643,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 附加服務</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="資料分層"
@@ -700,7 +687,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 深入瞭解服務層級</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="服務品質"
@@ -723,7 +710,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 帳單</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone定價"
@@ -781,7 +768,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone基礎架構</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="基礎架構詳細資料"
@@ -825,7 +812,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone服務可讓您做更多工作</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone與Cloud Manager"
@@ -858,6 +845,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -909,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-10-07 21:23:12 +0000">10/07/2022</time>
+    <time datetime="2022-11-17 09:44:53 +0000">11/17/2022</time>
     
   
 
@@ -920,34 +908,28 @@
 </p>
 
 <div class="paragraph lead">
-<p>支援NetApp所擁有、部署及管理的冷儲存設備、可識別使用頻率較低的資料、並利用訂閱的檔案和區塊服務來分層處理。NetApp Keystone</p>
+<p>根據預設、Keystone基礎服務包含分層功能、可與訂閱的檔案和區塊服務一起識別使用較少的資料、並將其分層至由NetApp擁有、部署及管理的冷儲存設備。如果您想要將冷資料分層至任何非NetApp儲存設備（例如任何企業雲端儲存設備）、您可以使用附加服務進行分層。</p>
 </div>
 <div class="paragraph">
-<p>您可以訂閱此附加服務、作為Keystone訂閱的一部分。如需基礎儲存設備和雲端儲存服務的相關資訊、請參閱 <a href="../concepts/supported-storage-services.html">"支援的儲存服務"</a></p>
+<p>只有當資料分層至AWS S3、Azure Blob和EMC ECS等任何非NetApp儲存設備時、才需要分層附加服務。</p>
 </div>
 <div class="paragraph">
-<p>如需服務層級的相關資訊、請參閱 <a href="../concepts/service-levels.html">"Keystone中的服務層級"</a></p>
+<p>如需基礎儲存設備和雲端儲存服務的相關資訊、請參閱 <a href="../concepts/supported-storage-services.html">"支援的儲存服務"</a>。</p>
 </div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/keystone-staas/images/note.svg" alt="附註">
-</td>
-<td class="content">
-資料分層至NetApp儲存目標預設包含在檔案與區塊儲存服務層中。只有在資料分層任何非NetApp儲存設備（例如AWS S3、Azure Blob和EMC ECS）時、才需要附加服務。
-</td>
-</tr>
-</table>
+<div class="paragraph">
+<p>如需服務層級的相關資訊、請參閱 <a href="../concepts/service-levels.html">"Keystone中的服務層級"</a>。</p>
 </div>
 <div class="paragraph">
 <p>分層功能運用 NetApp FabricPool 的技術、可將資料自動分層至內部或外部的低成本物件儲存層。有了這項功能、不常存取的資料會根據議定的服務、自動分層至內部部署或雲端的低成本儲存設備。</p>
 </div>
 <div class="paragraph">
-<p>分層服務可讓您從極致、優質、效能、標準及價值層級分層至物件目標。熱層和冷層分別計費和開立發票。您可以隨時新增資料分層、無需變更定價、並在熱/冷比率方面增加更多靈活度。</p>
+<p>附加分層服務可讓您從極致、優質、效能、標準及價值層級分層至物件目標。熱層和冷層分別計費和開立發票。</p>
 </div>
 <div class="paragraph">
-<p>請進行下列計算、以便更深入瞭解：</p>
+<p>資料分層可隨時新增、價格不變、而且在冷熱比方面增加更多靈活度。要階層化的熱/冷資料比例並未固定、且分層實體區塊的數量會分開測量。</p>
+</div>
+<div class="paragraph">
+<p>如需詳細資訊、請參閱下列計算：</p>
 </div>
 <div class="paragraph">
 <p>如果冷儲存層的目標是：</p>
@@ -955,7 +937,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p>價值層（最高500 TiB）、物件層（&gt;500 TiB）、現有SGWS網格（客戶擁有）–不需額外付費、而且是基本儲存服務的一部分。</p>
+<p>價值層（最高500 TiB）、物件層（&gt;500 TiB）、現有SGWS網格（客戶擁有）–不需額外付費；這是基本儲存服務的一部分。</p>
 </li>
 <li>
 <p>公有雲（AWS、Azure、Google）和任何其他第三方支援的物件儲存設備、會額外收取資料容量費用、以分層收費的形式進行。</p>
@@ -963,7 +945,7 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>附加分層訂閱所涉及的費用並非一次性費用、您必須支付整個期間的費用、才能維持Keystone內部部署檔案與區塊服務與協力廠商支援的物件儲存目標之間的分層關係。</p>
+<p>附加分層訂閱所涉及的費用並非一次性收費。您必須支付整個期限的費用、才能維持Keystone內部部署檔案與區塊服務與協力廠商支援的物件儲存目標之間的分層關係。</p>
 </div>
 <div class="paragraph">
 <p>這項服務只能將冷資料分層至較便宜的目標儲存設備、而非公有雲/超純量基礎架構成本。</p>
