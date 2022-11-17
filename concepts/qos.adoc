@@ -22,7 +22,7 @@ summary: Keystone中的服務品質
 
 == 調適性QoS
 
-調適性QoS用於Keystone服務、因為大小不同、會自動套用QoS原則、因此維持IOPS與TB/GBs的比率。如需調適性QoS的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["關於調適性QoS"]。
+隨著QoS原則的大小不同、會自動套用調適性QoS、因此Keystone服務可維持IOPS與TB/GBs的比率。如需調適性QoS的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["關於調適性QoS"]。
 
 Keystone提供自適性QoS原則、讓您在叢集正式作業後即可設定。您應確保所有磁碟區都與系統中已建立且可用的正確調適性QoS原則相關聯。
 
@@ -60,7 +60,7 @@ NOTE: 這不是IOPS密度（例如75 IOPS/TiB）、而是絕對最小IOPS數。
 
 === 至尊服務層級的設定
 
-對於「極致」服務層級、以下是設定與命令：
+Extreme服務層級的設定與命令：
 
 * 命令範例：
 
@@ -76,8 +76,7 @@ qos adaptive-policy-group create -policy group <Keystone_extreme> -vserver <SVM_
 
 === 優質服務層級的設定
 
-對於優質服務層級、以下是設定與命令：
-
+ Settings and commands for the Premium service level:
 * 命令範例：
 
 
@@ -92,7 +91,7 @@ qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_
 
 === 效能服務層級的設定
 
-對於效能服務層級、這些設定和命令如下：
+效能服務層級的設定與命令：
 
 * 命令範例：
 
@@ -108,8 +107,7 @@ qos adaptive-policy-group create -policy group <Keystone_performance> -vserver <
 
 === 價值服務層級的設定
 
-對於價值服務層級、這些是設定和命令：
-
+ Settings and commands for the Value  service level:
 * 命令範例：
 
 

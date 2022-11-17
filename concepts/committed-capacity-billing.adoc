@@ -18,4 +18,4 @@ summary: 支援的儲存容量
 
 承諾容量是指您與NetApp /合作夥伴所接受的單一訂閱中各種服務的容量。此容量會在每個Keystone訂單上註明、而且會計費、無論實際使用量為何。
 
-如需Keystone支援的不同容量資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone中支援的儲存容量"]
+如需Keystone支援的不同容量資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone中支援的儲存容量"]。

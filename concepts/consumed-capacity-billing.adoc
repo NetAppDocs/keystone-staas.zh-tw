@@ -16,6 +16,6 @@ summary: 根據消耗容量進行計費
 [role="lead"]
 Keystone也會根據您在服務使用期間所耗用的容量進行計量。
 
-作爲Keystone服務部署的一部分，NetApp會持續監控和衡量服務的使用量。系統每五分鐘會產生一筆使用量記錄、詳述您訂閱的目前使用容量。這些記錄會在計費期間內彙總、以產生發票和使用報告
+作爲Keystone服務部署的一部分，NetApp會持續監控和衡量服務的使用量。系統每五分鐘會產生一筆使用量記錄、詳述您訂閱的目前使用容量。這些記錄會在計費期間內彙總、以產生發票和使用報告。
 
-如需Keystone支援的不同容量資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone中支援的儲存容量"]
+如需Keystone支援的不同容量資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone中支援的儲存容量"]。

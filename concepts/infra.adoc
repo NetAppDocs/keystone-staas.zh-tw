@@ -26,7 +26,7 @@ Keystone基礎架構、設計、技術選擇及元件產品、完全由NetApp提
 
 Keystone基礎架構包含多個元件、例如下列元件：
 
-* 包含儲存控制器的Keystone基礎架構
+* 包含儲存控制器的Keystone基礎架構。
 * 管理及操作服務的工具、例如 OpsRamp 、 Active IQ VMware 及 Active IQ Unified Manager VMware 等。
 
 
@@ -50,4 +50,4 @@ Keystone基礎架構包含多個元件、例如下列元件：
 
 image:mgmt-stack.png[""]
 
-如需詳細資訊、請參閱 link:../integrations/keystone-aiq.html["Keystone與Active IQ Digital Advisor"]
+如需詳細資訊、請參閱 link:../integrations/keystone-aiq.html["Keystone與Active IQ Digital Advisor"]。

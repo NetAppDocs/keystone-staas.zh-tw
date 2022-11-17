@@ -21,7 +21,7 @@ NetApp已與Equinix合作、在NetApp Keystone Equinix資料中心內代管各�
 在本服務中：
 
 * Equinix提供空間、電力、冷卻、網路及發票、 和儲存設備。
-* 對某些Keystone銷售提案提供支援。
+* 針對某些Keystone銷售提案提供支援。
 * 這項服務在11個國家/地區的21個資料中心均受到支援。
 
 

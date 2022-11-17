@@ -15,6 +15,6 @@ summary: Keystone與Active IQ Digital Advisor
 
 如果您訂閱NetApp Keystone 了「支援服務」、您可以在Active IQ Digital Advisor 「支援服務」儀表板上檢視您的使用報告和圖表。利用此功能、您可以檢視儲存即服務（STaaas）詳細資料、以及您所擁有NetApp基礎架構的相關資訊。Active IQ Digital Advisor利用可建立詳細報告的功能、可提供單一儀表板檢視、清楚掌握容量使用情況和趨勢資料。Active IQ Digital Advisor您也可以透過Active IQ Digital Advisor NetApp管理Keystone訂閱、以便訂購新服務、並更新任何現有服務的容量。
 
-如需 Active IQ Digital Advisor 數位顧問的詳細資訊，請參閱 https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html["Active IQ Digital Advisor 數位顧問文件"]
+如需 Active IQ Digital Advisor 數位顧問的詳細資訊，請參閱 https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html["Active IQ Digital Advisor 數位顧問文件"]。
 
 如需資料流的詳細資訊、請參閱 link:../concepts/infra.html["監控工具"]。

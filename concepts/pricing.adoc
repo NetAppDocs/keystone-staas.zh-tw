@@ -20,12 +20,12 @@ summary: Keystone定價
 
 Keystone提供您下列帳單管理功能：
 
-* 您可以根據 IOPS 和延遲承諾容量來支付費用、以滿足各種工作負載需求。不同的效能服務層級：Extreme、Premium、Performance、Standard、Value、 和物件可讓您根據購買的Keystone服務層級來管理儲存設備。
+* 您可以根據 IOPS 和延遲承諾容量來支付費用、以滿足各種工作負載需求。不同的效能服務層級：Extreme、Premium、Performance、Standard、Value、 物件可讓您根據購買的服務層級來管理儲存設備。
 * 它提供可預測的計費方式、可針對已提交的容量、以及針對可變（突發）容量使用量的「依使用量付費」。
 * 您可以針對硬體、核心作業系統及支援選擇套裝組合價格、只需支付一美元 / TiB 的價格。每種儲存類型、檔案、區塊、物件或雲端儲存服務都有一張發票。
-* 選擇靈活的服務條款與付款條件：您可以選擇每個站台12個月、25TiB或更多。之後您可以自動續約12個月。
+* 選擇靈活的服務條款與付款條件：您可以選擇每個站台12個月、25TiB或更多。之後、您可以自動續約12個月。
 
 
 Keystone計費是根據已提交的容量和可變的突發消耗量來計算。
 
-如需Keystone支援的不同容量資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone中支援的儲存容量"]
+如需Keystone支援的不同容量資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone中支援的儲存容量"]。
