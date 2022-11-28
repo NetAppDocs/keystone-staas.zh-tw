@@ -623,11 +623,11 @@
         Keystone服務的度量和定義
       </a></li><li 
       data-pdf-exists="true" 
-      data-pdf-filename="Keystone中支援的儲存類型"
+      data-pdf-filename="Keystone中支援的儲存服務"
       data-li-level="2#" 
       class="  active "
     ><a class="na-navbar-padding" href="/zh-tw/keystone-staas/concepts/supported-storage-services.html">
-        Keystone中支援的儲存類型
+        Keystone中支援的儲存服務
       </a></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone中的服務層級"
@@ -815,18 +815,18 @@
       <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
-      data-pdf-filename="Keystone與Cloud Manager"
+      data-pdf-filename="Keystone與BlueXP"
       data-li-level="2#" 
       class=" "
     ><a class="na-navbar-padding" href="/zh-tw/keystone-staas/integrations/keystone-cm.html">
-        Keystone與Cloud Manager
+        Keystone與BlueXP
       </a></li><li 
       data-pdf-exists="true" 
-      data-pdf-filename="Keystone與Active IQ Digital Advisor"
+      data-pdf-filename="Keystone與Digital Advisor"
       data-li-level="2#" 
       class=" "
     ><a class="na-navbar-padding" href="/zh-tw/keystone-staas/integrations/keystone-aiq.html">
-        Keystone與Active IQ Digital Advisor
+        Keystone與Digital Advisor
       </a></li></ul></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="法律聲明"
@@ -897,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-17 09:44:53 +0000">11/17/2022</time>
+    <time datetime="2022-11-28 10:27:12 +0000">11/28/2022</time>
     
   
 
@@ -921,7 +921,7 @@
 <h2 id="基礎儲存服務">基礎儲存服務</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Keystone的基礎儲存服務運用NetApp技術（例如SnapMirror、SnapVault SnapMirror和Snapshot）、以及支援的NetApp儲存目標上的分層功能、提供資料保護服務、以提供檔案和區塊儲存服務。您也可以選擇附加服務來保護資料和分層。如需附加服務的相關資訊、請參閱 <a href="../concepts/adp.html">"進階資料保護"</a> 和 <a href="../concepts/data-tiering.html">"資料分層"</a>。</p>
+<p>檔案和區塊的基礎儲存服務可運用NetApp技術、例如SnapMirror、SnapVault SnapMirror和Snapshot、提供預設的資料保護服務。檔案與區塊儲存服務層級預設也會包含資料分層至NetApp儲存目標。您也可以選擇附加服務來保護資料和分層。如需附加服務的相關資訊、請參閱 <a href="../concepts/adp.html">"進階資料保護"</a> 和 <a href="../concepts/data-tiering.html">"資料分層"</a>。</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -945,7 +945,7 @@
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">以ONTAP 支援的技術為基礎</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">支援ONTAP 的功能：FlexVol FlexGroup 不支援Snapshot複本SnapMirror（非同步）SnapVault SnapLock 功能不支援企業FabricPool /雲端分層還原SnapCenter Clone（包含授權、但這不是Keystone服務的一部分、也不提供保證管理）</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">NFS、CIFS和S3（FabricPool 用於不確定目標）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NFS與CIFS：</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
@@ -953,7 +953,7 @@
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">以ONTAP 支援的技術為基礎</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">支援ONTAP 的功能：FlexVol FlexGroup 不支援Snapshot複本SnapMirror（非同步）SnapVault SnapLock 功能不支援企業FabricPool /雲端分層還原SnapCenter Clone（包含授權、但這不是Keystone服務的一部分、也不提供保證管理）</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">FC、iSCSI和S3（FabricPool 用於不確定目標）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FC與iSCSI</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
@@ -965,21 +965,6 @@
 </tr>
 </tbody>
 </table>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/keystone-staas/images/note.svg" alt="附註">
-</td>
-<td class="content">
-資料分層至NetApp儲存目標預設包含在檔案與區塊儲存服務層中。
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>如需資料分層的詳細資訊、請參閱 <a href="../concepts/data-tiering.html">"資料分層"</a>。如需資料保護服務的相關資訊、請參閱 <a href="../concepts/adp.html">"進階資料保護"</a>。</p>
-</div>
 </div>
 </div>
 <div class="sect1">
