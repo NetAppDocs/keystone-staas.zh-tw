@@ -16,7 +16,7 @@ summary: 附加元件、額外服務詳細資料、資料分層
 [role="lead"]
 根據預設、Keystone基礎服務包含分層功能、可與訂閱的檔案和區塊服務一起識別使用較少的資料、並將其分層至由NetApp擁有、部署及管理的冷儲存設備。如果您想要將冷資料分層至任何非NetApp儲存設備（例如任何企業雲端儲存設備）、您可以使用附加服務進行分層。
 
-只有當資料分層至AWS S3、Azure Blob和EMC ECS等任何非NetApp儲存設備時、才需要分層附加服務。
+只有當資料分層至任何非NetApp儲存設備（例如Amazon Web Services（AWS）S3、Azure Blob、Google Cloud Platform（GCP）及其他支援的S3相容協力廠商物件儲存設備）時、才需要分層附加服務。
 
 如需基礎儲存設備和雲端儲存服務的相關資訊、請參閱 link:../concepts/supported-storage-services.html["支援的儲存服務"]。
 

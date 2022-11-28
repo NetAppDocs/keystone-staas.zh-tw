@@ -19,7 +19,7 @@ sidebar:
       url: "/concepts/supported-storage-capacity.html"
     - title: Keystone服務的度量和定義
       url: "/concepts/metrics.html"
-    - title: Keystone中支援的儲存類型
+    - title: Keystone中支援的儲存服務
       url: "/concepts/supported-storage-services.html"
     - title: Keystone中的服務層級
       url: "/concepts/service-levels.html"
@@ -71,9 +71,9 @@ sidebar:
     url: "/concepts/gssc.html"
   - title: Keystone服務可讓您做更多工作
     entries:
-    - title: Keystone與Cloud Manager
+    - title: Keystone與BlueXP
       url: "/integrations/keystone-cm.html"
-    - title: Keystone與Active IQ Digital Advisor
+    - title: Keystone與Digital Advisor
       url: "/integrations/keystone-aiq.html"
   - title: 法律聲明
     url: "/legal-notices.html"
@@ -117,9 +117,9 @@ homepage:
     links:
     - title: 瞭解您的支援團隊（Keystone GSSC）
       url: "/concepts/gssc.html"
-    - title: Keystone與Cloud Manager
+    - title: Keystone與BlueXP
       url: "/integrations/keystone-cm.html"
-    - title: Keystone與Active IQ Digital Advisor
+    - title: Keystone與Digital Advisor
       url: "/integrations/keystone-aiq.html"
     - title: 美國公民支援
       url: "/concepts/uscs.html"
@@ -127,9 +127,9 @@ homepage:
     links:
     - title: Keystone Flex 訂閱
       url: https://docs.netapp.com/us-en/keystone/
-    - title: Active IQ Digital Advisor
+    - title: 數位顧問
       url: https://docs.netapp.com/us-en/active-iq/index.html
-    - title: Cloud Manager
+    - title: 藍圖
       url: https://docs.netapp.com/us-en/cloud-manager-family/
     - title: Active IQ Unified Manager
       url: https://docs.netapp.com/us-en/active-iq-unified-manager/

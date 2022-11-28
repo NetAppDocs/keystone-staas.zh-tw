@@ -22,7 +22,7 @@ Keystone服務支援ONTAP 基礎儲存類型的功能、包括：功能、檔案
 
 == 基礎儲存服務
 
-Keystone的基礎儲存服務運用NetApp技術（例如SnapMirror、SnapVault SnapMirror和Snapshot）、以及支援的NetApp儲存目標上的分層功能、提供資料保護服務、以提供檔案和區塊儲存服務。您也可以選擇附加服務來保護資料和分層。如需附加服務的相關資訊、請參閱 link:../concepts/adp.html["進階資料保護"] 和 link:../concepts/data-tiering.html["資料分層"]。
+檔案和區塊的基礎儲存服務可運用NetApp技術、例如SnapMirror、SnapVault SnapMirror和Snapshot、提供預設的資料保護服務。檔案與區塊儲存服務層級預設也會包含資料分層至NetApp儲存目標。您也可以選擇附加服務來保護資料和分層。如需附加服務的相關資訊、請參閱 link:../concepts/adp.html["進階資料保護"] 和 link:../concepts/data-tiering.html["資料分層"]。
 
 |===
 | 儲存服務 | 基礎 | 支援的功能 | 通訊協定 
@@ -30,23 +30,18 @@ Keystone的基礎儲存服務運用NetApp技術（例如SnapMirror、SnapVault S
 
  a| 
 檔案儲存設備
-| 以ONTAP 支援的技術為基礎 | 支援ONTAP 的功能：FlexVol FlexGroup 不支援Snapshot複本SnapMirror（非同步）SnapVault SnapLock 功能不支援企業FabricPool /雲端分層還原SnapCenter Clone（包含授權、但這不是Keystone服務的一部分、也不提供保證管理） | NFS、CIFS和S3（FabricPool 用於不確定目標） 
+| 以ONTAP 支援的技術為基礎 | 支援ONTAP 的功能：FlexVol FlexGroup 不支援Snapshot複本SnapMirror（非同步）SnapVault SnapLock 功能不支援企業FabricPool /雲端分層還原SnapCenter Clone（包含授權、但這不是Keystone服務的一部分、也不提供保證管理） | NFS與CIFS： 
 
 
  a| 
 區塊儲存
-| 以ONTAP 支援的技術為基礎 | 支援ONTAP 的功能：FlexVol FlexGroup 不支援Snapshot複本SnapMirror（非同步）SnapVault SnapLock 功能不支援企業FabricPool /雲端分層還原SnapCenter Clone（包含授權、但這不是Keystone服務的一部分、也不提供保證管理） | FC、iSCSI和S3（FabricPool 用於不確定目標） 
+| 以ONTAP 支援的技術為基礎 | 支援ONTAP 的功能：FlexVol FlexGroup 不支援Snapshot複本SnapMirror（非同步）SnapVault SnapLock 功能不支援企業FabricPool /雲端分層還原SnapCenter Clone（包含授權、但這不是Keystone服務的一部分、也不提供保證管理） | FC與iSCSI 
 
 
  a| 
 物件儲存
 | 以StorageGRID 整個平台為基礎 | 支援跨多個站台的多重資訊生命週期管理（ILM）原則。附註：每個網站都應該有個別的訂閱。 | S3 
 |===
-
-NOTE: 資料分層至NetApp儲存目標預設包含在檔案與區塊儲存服務層中。
-
-如需資料分層的詳細資訊、請參閱 link:../concepts/data-tiering.html["資料分層"]。如需資料保護服務的相關資訊、請參閱 link:../concepts/adp.html["進階資料保護"]。
-
 
 
 == 雲端儲存服務

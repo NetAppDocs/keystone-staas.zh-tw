@@ -197,7 +197,6 @@
   <block id="38ee5c58ab48cb8a1b633c2aea7a1e45" category="list-text">可根據特定條件減少已認可的容量。如需相關資訊、請參閱 <block ref="bce311488cda7b3fc83e86e7b3939fd8" category="inline-link-macro-rx"></block>。</block>
   <block id="c7ba6335b772c84090b8f2d9dd8b58a3" category="list-text">承諾的容量不得在您的訂閱到期前 90 天增加、除非該訂閱將續約 12 個月。</block>
   <block id="1df0745e84cded8b1998d4aaf3fce411" category="inline-link-macro">NetApp全球服務支援中心</block>
-  <block id="441fb9755b7dbda078af7adc172f0826" category="list-text">您可以透過Cloud Manager介面或Keystone Success Manager要求變更已提交的容量。如需要求變更的相關資訊、請參閱 <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>。</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">已用容量</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">突發容量</block>
   <block id="dfe3a64edf2cc8e36f72d43579e07d11" category="list-text">Keystone服務提供超過承諾容量20%的容量。</block>
@@ -219,9 +218,7 @@
   <block id="6961b64b96800d43e0da115e9763a226" category="paragraph">在Keystone客戶操作服務中、您的站台會安裝儲存基礎架構和監控工具。儲存基礎架構包含支援初始訂單所需的儲存硬體、並可於稍後訂購更多儲存設備。</block>
   <block id="ae031eb46bb3af9ef59c200e318f13e4" category="paragraph">除了儲存設備之外、還配置了兩種監控工具來監控儲存設備和使用量。</block>
   <block id="fd743d6b8cc0efa021c01a2c37789e28" category="list-text">OpsRamp本機閘道：OpsRamp是雲端型應用程式、用於監控您的網路。它內建與NetApp儲存平台的整合功能、可收集環境資料並監控網路。此服務是在使用安裝在您站台上的本機閘道與雲端入口網站通訊的協助下啟用。以取得相關資訊</block>
-  <block id="da1a82eaffa9f0ef5a1b5cd7a2262bd3" category="list-text">Keystone Data Collector：Keystone Collector為Keystone客戶提供帳單服務。此應用程式隨Active IQ Unified Manager 附於NetApp。每ONTAP 五分鐘會StorageGRID 定期從VMware及VMware控制器收集資料。資料會經過處理、中繼資料Active IQ 會透過AutoSupport 用於產生帳單資料的流程機制、傳送到集中式的資料湖。所學專業：電子商務（電子商務）Active IQ客戶入口網站可讓您登入、並檢視您的Keystone訂閱訂閱的訂閱與使用詳細資料。Active IQ Digital Advisor</block>
   <block id="4a08d1835c4f40051f2bf2514b677434" category="paragraph"><block ref="4a08d1835c4f40051f2bf2514b677434" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a3297beb0c913ab1ce7de0647b5264d0" category="inline-link-macro">Keystone與Active IQ Digital Advisor</block>
   <block id="8ef6698c4c0c28e13ff87fec7e5388eb" category="summary">進階資料保護</block>
   <block id="d6caec3bda3124681a05dff706499611" category="inline-link-macro">支援的儲存服務</block>
   <block id="c575a20db4934726a8fadd53d81a0c98" category="inline-link-macro">Keystone中的服務層級</block>
@@ -396,13 +393,9 @@
   <block id="4bf6c8c02a43c4ae5ff566acdd8213b8" category="paragraph">檔案儲存設備</block>
   <block id="741322ba61dd4c577d5dc30397f52fe2" category="cell">以ONTAP 支援的技術為基礎</block>
   <block id="b68e99791b7967f2041fc05f31780e0d" category="cell">支援ONTAP 的功能：FlexVol FlexGroup 不支援Snapshot複本SnapMirror（非同步）SnapVault SnapLock 功能不支援企業FabricPool /雲端分層還原SnapCenter Clone（包含授權、但這不是Keystone服務的一部分、也不提供保證管理）</block>
-  <block id="ac0ead2363f24a0d46b14287c8e81d6a" category="cell">NFS、CIFS和S3（FabricPool 用於不確定目標）</block>
   <block id="4f0550f066ae72bb8c24fc3f59c323bf" category="paragraph">區塊儲存</block>
-  <block id="cd2ccc0aa3cb84e9852fdab3c8b018f0" category="cell">FC、iSCSI和S3（FabricPool 用於不確定目標）</block>
   <block id="d8a33f6a10e7aaefaa9bf3609a074745" category="cell">以StorageGRID 整個平台為基礎</block>
   <block id="e2ab7c65b21ed8cc1c3b642b5e36429e" category="cell">S3</block>
-  <block id="c511e47fd0656457345ee7e6849c30a3" category="admonition">資料分層至NetApp儲存目標預設包含在檔案與區塊儲存服務層中。</block>
-  <block id="0d4b35794b8fba9c7d6ede84f16deb21" category="inline-link-macro">資料分層</block>
   <block id="88be929536f637e07b3e198ba685668a" category="section-title">雲端儲存服務</block>
   <block id="02de04a8ab8cebed30d4a10b9f5a2868" category="summary">Keystone資料流程</block>
   <block id="8b9ebc949c2bd3b7f585608d2fec312f" category="doc">Keystone資料流</block>
@@ -445,15 +438,7 @@
   <block id="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link"><block ref="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link-rx"></block></block>
   <block id="0f185ccd88416daec4eee0a846d110b8" category="list-text">NetApp 產品文件<block ref="2e85fc867cab94d246e0bf6043b361cd" category="inline-link-rx"></block></block>
   <block id="8ed38172f401cd08c379f8397810fe02" category="section-title">GSSC監控</block>
-  <block id="e2997dee828588be220f904bec8caf05" category="summary">Keystone與Active IQ Digital Advisor</block>
-  <block id="578256180f87784448843bdfee5b208b" category="paragraph">如果您訂閱NetApp Keystone 了「支援服務」、您可以在Active IQ Digital Advisor 「支援服務」儀表板上檢視您的使用報告和圖表。利用此功能、您可以檢視儲存即服務（STaaas）詳細資料、以及您所擁有NetApp基礎架構的相關資訊。Active IQ Digital Advisor利用可建立詳細報告的功能、可提供單一儀表板檢視、清楚掌握容量使用情況和趨勢資料。Active IQ Digital Advisor您也可以透過Active IQ Digital Advisor NetApp管理Keystone訂閱、以便訂購新服務、並更新任何現有服務的容量。</block>
-  <block id="8aec6a2bcfb78af1fffa4f2c52dfe49d" category="inline-link">Active IQ Digital Advisor 數位顧問文件</block>
   <block id="b89d8ed8d5adb2dd42ea11be1617f29c" category="paragraph">如需資料流的詳細資訊、請參閱 <block ref="f2276c2e5545294a1a6121724c0f31c5" category="inline-link-macro-rx"></block>。</block>
-  <block id="d06f2a2be4d5f2408ff1403abde75c10" category="summary">Keystone與Cloud Manager</block>
-  <block id="5978a793dfb6cd15988f80e52890ea01" category="paragraph">如果您在Keystone訂閱中購買雲端服務、您可以透過Cloud Manager存取及管理這些服務。</block>
-  <block id="42596fd4ac4fbcb2bfb3ba8877629d54" category="paragraph">身為Keystone客戶、如果您Cloud Volumes ONTAP 訂閱的是功能不全的資訊、您可以使用Keystone服務來為Cloud Volumes ONTAP 您的使用情況充電、並透過Cloud Manager檢視您的帳單與使用詳細資料。</block>
-  <block id="c31fa1b1fd103b5d5427452c13c1dc54" category="paragraph">為此、您應該建立一或多個Cloud Manager帳戶、並將其與Keystone帳戶連結。透過Keystone購買雲端服務時、您必須將Cloud Manager帳戶的詳細資料提供給Keystone Success Manager。如此一來、您就能透過Keystone訂閱、正確計量雲端服務使用量並為其充電。</block>
-  <block id="04eed0527b438cb694999e2a56342fe6" category="paragraph">如需詳細資訊、請參閱 Cloud Manager 文件中的下列連結：</block>
   <block id="fc860be5f135f0d58f6a4cc1a552d57f" category="inline-link">Keystone訂閱</block>
   <block id="3b5d653ddd0a374a81cc285aeb9e4408" category="list-text"><block ref="3b5d653ddd0a374a81cc285aeb9e4408" category="inline-link-rx"></block></block>
   <block id="ae45517d4d9ba30bece696a3b49d1b3f" category="inline-link">管理基礎概念訂閱</block>
@@ -465,7 +450,6 @@
   <block id="4c9a4fbc49b946c974f43f9b95467093" category="sidebar">深入瞭解Keystone</block>
   <block id="9e7726388491901aceba9f74c81020a7" category="sidebar">Keystone中支援的儲存容量</block>
   <block id="3db0f7c8d33366749c373c5802d2d1c0" category="sidebar">Keystone服務的度量和定義</block>
-  <block id="152f76edbe755ad0fcf4b57373cc4511" category="sidebar">Keystone中支援的儲存類型</block>
   <block id="8c2dbe4be9f9daf82f71c41e1cd8f1e1" category="sidebar">附加服務</block>
   <block id="5acf3eaacab2f897759e5e1e27667847" category="sidebar">深入瞭解服務層級</block>
   <block id="8bc14f0cb78851f59e85c1d447c2c99f" category="sidebar">服務品質</block>
@@ -490,11 +474,8 @@
   <block id="0e0fe605239796a7018441e65fa28979" category="sidebar">美國公民支援</block>
   <block id="f0411ca83e625da2c18b5f0c0682bd93" category="sidebar">瞭解更多資訊</block>
   <block id="a47bcecd4f4a1f89ad4e82bca88975ab" category="sidebar">Keystone Flex 訂閱</block>
-  <block id="dab2edf9eaac3950e92c281ce358af01" category="sidebar">Active IQ Digital Advisor</block>
-  <block id="315474a8ef79b74899073fc979f12da4" category="sidebar">Cloud Manager</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
   <block id="553e6fab6cd550aad417a0527857e797" category="paragraph">根據預設、Keystone基礎服務包含分層功能、可與訂閱的檔案和區塊服務一起識別使用較少的資料、並將其分層至由NetApp擁有、部署及管理的冷儲存設備。如果您想要將冷資料分層至任何非NetApp儲存設備（例如任何企業雲端儲存設備）、您可以使用附加服務進行分層。</block>
-  <block id="3072002c947fdfd9740f1a7c8b5e7515" category="paragraph">只有當資料分層至AWS S3、Azure Blob和EMC ECS等任何非NetApp儲存設備時、才需要分層附加服務。</block>
   <block id="d6678a7a494c08165e52f4868397b56d" category="paragraph">如需基礎儲存設備和雲端儲存服務的相關資訊、請參閱 <block ref="f6a6b9b5f978ea05dc72fa8625771489" category="inline-link-macro-rx"></block>。</block>
   <block id="352a60ab05e46c12f3319134b5ec7ee2" category="paragraph">如需服務層級的相關資訊、請參閱 <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>。</block>
   <block id="01d7b046af5b1c78aa989b64e1469eed" category="paragraph">分層功能運用 NetApp FabricPool 的技術、可將資料自動分層至內部或外部的低成本物件儲存層。有了這項功能、不常存取的資料會根據議定的服務、自動分層至內部部署或雲端的低成本儲存設備。</block>
@@ -509,7 +490,6 @@
   <block id="6dd7fd4aac069a06bec3ae24a6b1b39b" category="paragraph">如需Keystone支援的不同容量資訊、請參閱 <block ref="85c4e06da3b978d5cb2b8ba9dc870124" category="inline-link-macro-rx"></block>。</block>
   <block id="8816d718cde960556e2d767cd7bc6a24" category="paragraph">請閱讀下列各節、瞭解您的訂閱內容受此附加服務約束、並根據NetApp Keystone 《銷售協議》條款提供。註腳：免責聲明1[此處說明的服務與產品受完整執行的Keystone協議約束、且受限且受其管轄。]</block>
   <block id="0d3d10747b66177a1b3af60bfd44a1fb" category="list-text">包含儲存控制器的Keystone基礎架構。</block>
-  <block id="ec705feb6583a49031a2383a07d69339" category="paragraph">如需詳細資訊、請參閱 <block ref="a744b29bbc6a9b79feb7932381ec9110" category="inline-link-macro-rx"></block>。</block>
   <block id="89cef79468c8f24b5592618910250749" category="paragraph">OpsRampa是SaaS型應用程式、Keystone用來探索、監控及持續管理資產。OpsRamp可讓NetApp的監控團隊遠端為部署Keystone的客戶提供遠端監控與管理服務。</block>
   <block id="5d57eb43585ab01713e66412df10a352" category="paragraph">此外、OpsRamps還提供Keystone的下列安全功能：</block>
   <block id="e1466eb3e782c18a45e9d3b56d234cf9" category="list-text">OpsRamps會維護使用者活動的記錄、而Keystone則可針對使用者活動產生臨機操作或排程報告。</block>
@@ -553,9 +533,7 @@
   <block id="60da46ad32edbb2f2b3eccbbafedcd9f" category="list-text">這些服務取決於雲端儲存設備和運算特性。</block>
   <block id="ac35a2f0fd80032a8afab921296aa304" category="paragraph">Keystone服務支援ONTAP 基礎儲存類型的功能、包括：功能、檔案和區塊。它也支援StorageGRID 物件儲存功能、以利實現適用於Cloud Volumes ONTAP 整個過程的平台和資料管理功能。</block>
   <block id="3f20b3134627198be1e0ff879a88cd8f" category="inline-link-macro">進階資料保護</block>
-  <block id="35d065fd0902af00a396fc0e0436f3ed" category="paragraph">Keystone的基礎儲存服務運用NetApp技術（例如SnapMirror、SnapVault SnapMirror和Snapshot）、以及支援的NetApp儲存目標上的分層功能、提供資料保護服務、以提供檔案和區塊儲存服務。您也可以選擇附加服務來保護資料和分層。如需附加服務的相關資訊、請參閱 <block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block> 和 <block ref="a37b84ef7962958683b36fdd11870efe" category="inline-link-macro-rx"></block>。</block>
   <block id="8ed2e199eeb09d05002bcdc96c0a510e" category="cell">支援跨多個站台的多重資訊生命週期管理（ILM）原則。附註：每個網站都應該有個別的訂閱。</block>
-  <block id="ac033949b918d2d029194ef92d2313d9" category="paragraph">如需資料分層的詳細資訊、請參閱 <block ref="972dbd9e2ad7e594a9f7684973004b2c" category="inline-link-macro-rx"></block>。如需資料保護服務的相關資訊、請參閱 <block ref="975e05366acb844a211ea737d80f3250" category="inline-link-macro-rx"></block>。</block>
   <block id="3ec23f9e0f61451206f7d49f9ff486b5" category="paragraph">Keystone支援Cloud Volumes ONTAP Amazon Web Services（AWS）、Microsoft Azure和Google Cloud Platform上的資料管理功能。此服務可與您現有的訂閱共同訂閱。在服務期間、您可以隨時納入雲端服務。不過、如果您不打算續約、則在訂閱的最後90天內、您將無法納入雲端服務。</block>
   <block id="77810f754f0d83cb5519f01e38866b76" category="paragraph">如果將磁碟區複製到ONTAP 支援區中、並將其用於備份及還原資料、您可以繼續使用複本、而無需支付任何額外費用。然而、貴企業長期用於任何其他用途的複製磁碟區則需支付費用。</block>
   <block id="a1cc3d09aee1ee7b9c7c5bb4e7c0be32" category="list-text">如果新資料未寫入磁碟區、則不考慮使用標準和價值服務層級的複製磁碟區。例如、在備份或還原使用案例中、從複製磁碟區備份或還原資料不會變更複製磁碟區本身的資料、也不會將其視為使用量。</block>
@@ -603,5 +581,23 @@
   <block id="72a2e26ee3dd7a4431c7b48558a4e647" category="paragraph">您應提供電力分配單元（PDU）、連接至兩個獨立且受保護的電路、並具有足夠的C13插座。在客戶營運的產品中、在某些情況下、需要 C19 插座。在NetApp營運的產品中、NetApp或客戶可視需求提供PDU。</block>
   <block id="9696806b0bc121063e619b6f0922f330" category="paragraph">根據客戶需求和使用的儲存控制器、NetApp可在客戶的站台提供10 GB、40 GB和100 GB的連線能力。</block>
   <block id="9e5608e7c0a5ea33b2dac7e4f4da76e0" category="paragraph">客戶資料中心安裝的儲存基礎架構或客戶擁有的代管服務、以及Keystone作業中心之間、都需要網路連線。客戶負責提供運算與虛擬機器、以及網際網路服務。網路設計應採用安全的傳輸協定、而防火牆原則將由NetApp與客戶雙方核准。</block>
-  <block id="9e50bb29a9b0f642367577e8a4719fdd" category="paragraph">如需 Active IQ Digital Advisor 數位顧問的詳細資訊，請參閱<block ref="f764c240dcd6d91e5520526132ec0ef1" category="inline-link-rx"></block>。</block>
+  <block id="580577f00c6e952d8dad642fa30380db" category="summary">Keystone與Digital Advisor</block>
+  <block id="f85f145e4fb1764b96430e325c6d16a9" category="paragraph">如果您訂閱NetApp Keystone 了「支援服務」、您可以在「數位顧問」儀表板上檢視使用報告和圖表。Digital Advisor可讓您檢視儲存即服務（STaaas）詳細資料、以及您所擁有NetApp基礎架構的相關資訊。數位顧問提供單一儀表板檢視、可清楚掌握容量使用量和趨勢資料、並可建立詳細報告。您也可以透過Digital Advisor管理Keystone訂閱、以便訂購新服務、並更新任何現有服務的容量。</block>
+  <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">數位顧問文件</block>
+  <block id="abf31de248022188b4e0cfaec81947f2" category="paragraph">如需Digital Advisor的詳細資訊、請參閱<block ref="cf7e774d2d0935d58fa0d9f18081b471" category="inline-link-rx"></block>。</block>
+  <block id="d98e1323795a96bdb4ab923442544f4f" category="summary">Keystone與BlueXP</block>
+  <block id="3736dc740e568bfea8adb597902add6e" category="paragraph">如果您在Keystone訂閱中購買雲端服務、則可透過BlueXP存取及管理這些服務。</block>
+  <block id="ec5a85d1400f8bf17dec61b11740d60c" category="paragraph">身為Keystone客戶、如果您Cloud Volumes ONTAP 訂閱的是功能不全的資訊、您可以使用Keystone服務來為Cloud Volumes ONTAP 您的使用情況充電、並透過BlueXP檢視您的帳單與使用詳細資料。</block>
+  <block id="cfb16de358c598792e5fbae89fd64275" category="paragraph">為此、您應該建立一或多個BlueXP帳戶、並將其與Keystone帳戶連結。透過Keystone購買雲端服務時、您必須將BlueXP帳戶的詳細資料提供給Keystone Success Manager。如此一來、您就能透過Keystone訂閱、正確計量雲端服務使用量並為其充電。</block>
+  <block id="96fa8aa61a1fe15e7eef1735e177eb30" category="paragraph">如需詳細資訊、請參閱BlueXP文件中的下列連結：</block>
+  <block id="3f9aa6b65a7549ff79df4ad3ec361c52" category="list-text">您可以透過BlueXP介面或Keystone Success Manager要求變更已提交的容量。如需要求變更的相關資訊、請參閱 <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>。</block>
+  <block id="0b037665426a8a78eebdcf102f1360cb" category="paragraph">檔案和區塊的基礎儲存服務可運用NetApp技術、例如SnapMirror、SnapVault SnapMirror和Snapshot、提供預設的資料保護服務。檔案與區塊儲存服務層級預設也會包含資料分層至NetApp儲存目標。您也可以選擇附加服務來保護資料和分層。如需附加服務的相關資訊、請參閱 <block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block> 和 <block ref="a37b84ef7962958683b36fdd11870efe" category="inline-link-macro-rx"></block>。</block>
+  <block id="311d44f85685df1a9d85e36babc02b80" category="cell">NFS與CIFS：</block>
+  <block id="f208065131ee7ec38a881083b91c06e2" category="cell">FC與iSCSI</block>
+  <block id="64ffe96859dc5a51dab366b753c3030e" category="list-text">Keystone Data Collector：Keystone Collector為Keystone客戶提供帳單服務。此應用程式隨Active IQ Unified Manager 附於NetApp。每ONTAP 五分鐘會StorageGRID 定期從VMware及VMware控制器收集資料。資料會經過處理、中繼資料Active IQ 會透過AutoSupport 用於產生帳單資料的流程機制、傳送到集中式的資料湖。所學專業：電子商務（電子商務）Active IQ數位顧問客戶入口網站可讓您登入、並檢視您的Keystone訂閱的訂閱與使用詳細資料。</block>
+  <block id="190ac7d594730826c98618f6c64ccefa" category="paragraph">如需詳細資訊、請參閱 <block ref="b7b6a2338cb0518cc39a6d3713bb6e47" category="inline-link-macro-rx"></block>。</block>
+  <block id="73048abeaabf1a7960049e1e6dbe6bbb" category="paragraph">只有當資料分層至任何非NetApp儲存設備（例如Amazon Web Services（AWS）S3、Azure Blob、Google Cloud Platform（GCP）及其他支援的S3相容協力廠商物件儲存設備）時、才需要分層附加服務。</block>
+  <block id="aa015ff5a74c1ffdc387c997b5c8f48b" category="sidebar">Keystone中支援的儲存服務</block>
+  <block id="f079f17b0940258743d34e7b771c715f" category="sidebar">數位顧問</block>
+  <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="sidebar">藍圖</block>
 </blocks>
