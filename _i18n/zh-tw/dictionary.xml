@@ -600,4 +600,6 @@
   <block id="aa015ff5a74c1ffdc387c997b5c8f48b" category="sidebar">Keystone中支援的儲存服務</block>
   <block id="f079f17b0940258743d34e7b771c715f" category="sidebar">數位顧問</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="sidebar">藍圖</block>
+  <block id="f6ea502258d48432c7bda8b0eeca5dbe" category="paragraph-title">區塊大小計算範例</block>
+  <block id="81eeab9506186e2dca8faefa78d54067" category="paragraph-title">範例：</block>
 </blocks>

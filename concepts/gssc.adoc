@@ -48,6 +48,7 @@ NOTE: 在合作夥伴營運模式中、租戶和租戶的服務要求會指派�
 
 NetApp全球服務與支援中心（GSSC）可監控您產品和訂閱服務的健全狀況、提供遠端支援、並與Keystone Success Manager合作。所有監控相關Keystone訂購訂單相關產品的人員、均為美國公民土壤。
 
+.Keystone成功管理程式
 Keystone Success Manager是美國美國公民土壤。您NetApp Keystone 的《不確定協議》中有明確的責任。
 
 如需相關資訊、請參閱 link:../concepts/uscs.html["美國公民支援（USCS）"]。

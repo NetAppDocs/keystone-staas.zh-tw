@@ -136,6 +136,7 @@ qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_
 * TB = 1000GB；GB = 1000MB；MB = 1000KB；KB = 1000Bytes；根據基礎10
 
 
+.區塊大小計算範例
 若要計算A服務層級的處理量、例如「Extreme」服務層級：
 
 * IOPS上限：12、288
