@@ -28,7 +28,7 @@ NetApp全球服務與支援中心（GSSC）可監控您產品和訂閱服務的�
 
 == Keystone成功管理程式
 
-Keystone Success Manager是美國美國公民土壤。他們的責任請在NetApp Keystone 您的《不確定協議》中說明。
+Keystone Success Manager（KSM）為美國美國公民土壤。他們的責任請在NetApp Keystone 您的《不確定協議》中說明。
 
 
 

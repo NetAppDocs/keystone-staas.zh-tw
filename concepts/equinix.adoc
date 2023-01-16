@@ -14,7 +14,7 @@ summary: Keystone與Equinix
 
 
 [role="lead"]
-NetApp已與Equinix合作、在NetApp Keystone Equinix資料中心內代管各項功能、確保為您提供統一化的解決方案。
+NetApp已與Equinix合作、在NetApp Keystone Equinix資料中心內代管應用不穩定的STaaas服務、確保為您提供統一化的解決方案。
 
 採用Equinix技術的Keystone代管（Co-Loo）服務與標準Keystone服務產品不變。
 

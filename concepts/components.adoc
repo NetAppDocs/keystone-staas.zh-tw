@@ -14,7 +14,7 @@ summary: 基礎架構元件
 
 
 [role="lead"]
-本節列出在NetApp Keystone 您的環境中啟用「支援功能」所需的元件。
+本節列出在NetApp Keystone 您的環境中啟用IaaS服務所需的元件。
 
 
 

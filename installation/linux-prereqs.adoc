@@ -1,0 +1,228 @@
+---
+sidebar: sidebar 
+permalink: installation/linux-prereqs.html 
+keywords: prerequisites, Linux 
+summary: 在Linux系統上安裝Keystone收集器的先決條件 
+---
+= Linux系統需求
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+在Linux系統上安裝Keystone Collector需要幾種組態。
+
+需要下列組態：
+
+* 作業系統：CentOS 7或Red Hat Enterprise Linux 8．6或更新版本
+* Chroyd時間同步
+* 存取標準Linux標準軟體儲存庫
+
+
+同一部伺服器也應該具有下列協力廠商套件：
+
+* Pod管理程式
+* SOS
+* 時間
+* Python 3（3.6.8至3.9.13）
+
+
+
+
+== 其他需求
+
+請持續滿足下列一般需求：
+
+
+
+=== 網路需求
+
+下表說明Keystone Collector的網路需求。
+
+
+NOTE: Keystone Collector需要網際網路連線。您可以透過預設閘道（透過NAT）或透過HTTP Proxy直接路由傳送來提供網際網路連線。這兩種變體都在這裡說明。
+
+|===
+
+
+| 來源 | 目的地 | 服務 | 傳輸協定與連接埠 | 類別 | 目的 
+
+
+ a| 
+Keystone收集器
+ a| 
+部門（Unified Manager Active IQ Unified Manager ）
+ a| 
+HTTPS
+ a| 
+TCP 443
+ a| 
+必填
+ a| 
+Keystone Collector使用量度量集合
+
+
+
+ a| 
+Keystone收集器
+ a| 
+網際網路（根據稍後提供的URL需求）
+ a| 
+HTTP、HTTPS
+ a| 
+TCP 80、TCP 443
+ a| 
+必要（網際網路連線）
+ a| 
+Keystone Collector軟體、作業系統更新和計量資料上傳
+
+
+
+ a| 
+Keystone收集器
+ a| 
+客戶HTTP Proxy
+ a| 
+HTTP Proxy
+ a| 
+客戶Proxy連接埠
+ a| 
+必要（網際網路連線）
+ a| 
+Keystone Collector軟體、作業系統更新和計量資料上傳
+
+
+
+ a| 
+Keystone收集器
+ a| 
+客戶DNS伺服器
+ a| 
+DNS
+ a| 
+TCP / udp 53
+ a| 
+必填
+ a| 
+DNS解析
+
+
+
+ a| 
+Keystone收集器
+ a| 
+客戶NTP伺服器
+ a| 
+NTP
+ a| 
+udp 123
+ a| 
+必填
+ a| 
+時間同步
+
+
+
+ a| 
+客戶的營運工作站
+ a| 
+Keystone收集器
+ a| 
+SSH
+ a| 
+TCP 22
+ a| 
+管理
+ a| 
+存取Keystone Collector Management
+
+
+
+ a| 
+NetApp ONTAP 的叢集與節點管理位址
+ a| 
+Keystone收集器
+ a| 
+HTTP 8000、ping
+ a| 
+TCP 8000、ICMP回應要求/回覆
+ a| 
+選用功能
+ a| 
+Webserver、提供ONTAP 韌體更新功能
+
+
+
+ a| 
+Keystone收集器
+ a| 
+Unified Manager
+ a| 
+MySQL
+ a| 
+TCP 3306
+ a| 
+選用功能
+ a| 
+Keystone Collector的效能指標集合
+
+
+
+ a| 
+Keystone收集器
+ a| 
+客戶監控系統
+ a| 
+HTTP
+ a| 
+TCP 777
+ a| 
+選用功能
+ a| 
+Keystone Collector健全狀況報告
+
+|===
+
+
+=== URL存取
+
+Keystone Collector需要存取下列網際網路主機：
+
+|===
+
+
+| 地址 | 理由 
+
+
+ a| 
+https://keystone.netapp.com[]
+ a| 
+Keystone Collector軟體更新與使用量報告
+
+
+
+ a| 
+https://support.netapp.com[]
+ a| 
+NetApp HQ提供帳單資訊和AutoSupport 供應功能
+
+
+
+ a| 
+https://mirror.centos.org[]
+https://mirrorlist.centos.org[]
+ a| 
+Keystone Collector的作業系統更新（僅適用於OVA部署）
+
+
+
+ a| 
+http://repo.mysql.com[]
+ a| 
+下載並更新mySQL相依性（僅適用於Linux部署）
+
+|===

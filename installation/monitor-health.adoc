@@ -1,0 +1,107 @@
+---
+sidebar: sidebar 
+permalink: installation/monitor-health.html 
+keywords: monitoring system health 
+summary: 透過Keystone收集器監控系統健全狀況 
+---
+= 監控系統健全狀況
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用任何支援HTTP要求的監控系統、透過Keystone Collector服務監控系統健全狀況。
+
+根據預設、Keystone健全狀況服務不會接受來自localhost以外任何IP的連線。Keystone健全狀況端點為 `/uber/health`、並在連接埠上偵聽Keystone Collector伺服器的所有介面 `7777`。查詢時、端點會傳回具有Json輸出的HTTP要求狀態代碼作為回應、說明Keystone Collector系統的狀態。Json實體提供的整體健全狀況狀態 `is_healthy` 屬性、為布林值、以及每個元件的詳細狀態清單 `component_details` 屬性。範例如下：
+
+[listing]
+----
+$ curl http://127.0.0.1:7777/uber/health
+{"is_healthy": true, "component_details": {"vicmet": "Running", "minio": "Running", "ks-collector": "Running", "ks-billing": "Running", "chronyd": "Running"}}
+----
+這些狀態代碼會傳回：
+
+* * 200*：表示所有受監控的元件都正常運作
+* * 503 *：表示一或多個元件不正常
+* * 409*：表示查詢健全狀況狀態的HTTP用戶端不在「允許」清單中、這是允許的網路CIDR清單。對於此狀態、不會傳回任何健全狀況資訊。「允許_」清單使用網路CIDR方法來控制哪些網路裝置可以查詢Keystone健全狀況系統。如果您收到此錯誤、請從* Keystone Collector management TUI > Configure > Health Monitoring *將監控系統新增至_allow_清單。
+
+
+.Linux使用者請注意以下已知問題：
+
+NOTE: *問題說明*：Keystone Collector會在使用量測系統中執行多個容器。當Red Hat Enterprise Linux 8.x伺服器使用美國國防資訊系統署（DISA）安全技術實作指南（STIG）原則強化時、會間歇性看到有關fapolicyd（檔案存取原則精靈）的已知問題。此問題識別為 link:https://bugzilla.redhat.com/show_bug.cgi?id=1907870["錯誤1907870"]。*因應措施*：在Red Hat Enterprise解決之前、NetApp建議您採用以下方法來解決此問題 `fapolicyd` 進入許可模式。在中 /`etc/fapolicyd/fapolicyd.conf`、設定的值 `permissive = 1`。
+
+
+
+== 檢視系統記錄
+
+您可以檢視Keystone Collector系統記錄、以檢閱系統資訊、並使用這些記錄執行疑難排解。Keystone Collector使用主機的_journalald記錄系統、系統記錄可透過標準_journalctl_系統公用程式檢閱。您可以使用下列關鍵服務來檢查記錄：
+
+* KS-collector
+* KS-Health
+* KS-aupdate
+
+
+主要的資料收集服務_ks-collection_會以Json格式產生含有的記錄 `run-id` 與每個排程資料收集工作相關的屬性。以下是成功收集標準使用資料的範例：
+
+[listing]
+----
+{"level":"info","time":"2022-10-31T05:20:01.831Z","caller":"light-collector/main.go:31","msg":"initialising light collector with run-id cdflm0f74cgphgfon8cg","run-id":"cdflm0f74cgphgfon8cg"}
+{"level":"info","time":"2022-10-31T05:20:04.624Z","caller":"ontap/service.go:215","msg":"223 volumes collected for cluster a2049dd4-bfcf-11ec-8500-00505695ce60","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:18.821Z","caller":"ontap/service.go:215","msg":"697 volumes collected for cluster 909cbacc-bfcf-11ec-8500-00505695ce60","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:41.598Z","caller":"ontap/service.go:215","msg":"7 volumes collected for cluster f7b9a30c-55dc-11ed-9c88-005056b3d66f","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:48.247Z","caller":"ontap/service.go:215","msg":"24 volumes collected for cluster a9e2dcff-ab21-11ec-8428-00a098ad3ba2","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:48.786Z","caller":"worker/collector.go:75","msg":"4 clusters collected","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:48.839Z","caller":"reception/reception.go:75","msg":"Sending file 65a71542-cb4d-bdb2-e9a7-a826be4fdcb7_1667193648.tar.gz type=ontap to reception","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:48.840Z","caller":"reception/reception.go:76","msg":"File bytes 123425","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"reception/reception.go:99","msg":"uploaded usage file to reception with status 201 Created","run-id":"cdflm0f74cgphgfon8cg"}
+----
+以下是可選效能資料收集作業成功的範例：
+
+[listing]
+----
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sql/service.go:28","msg":"initialising MySql service at 10.128.114.214"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sql/service.go:55","msg":"Opening MySql db connection at server 10.128.114.214"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sql/service.go:39","msg":"Creating MySql db config object"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sla_reporting/service.go:69","msg":"initialising SLA service"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sla_reporting/service.go:71","msg":"SLA service successfully initialised"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"worker/collector.go:217","msg":"Performance data would be collected for timerange: 2022-10-31T10:24:52~2022-10-31T10:29:52"}
+
+{"level":"info","time":"2022-10-31T05:21:31.385Z","caller":"worker/collector.go:244","msg":"New file generated: 65a71542-cb4d-bdb2-e9a7-a826be4fdcb7_1667193651.tar.gz"}
+
+{"level":"info","time":"2022-10-31T05:21:31.385Z","caller":"reception/reception.go:75","msg":"Sending file 65a71542-cb4d-bdb2-e9a7-a826be4fdcb7_1667193651.tar.gz type=ontap-perf to reception","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:21:31.386Z","caller":"reception/reception.go:76","msg":"File bytes 17767","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:21:33.025Z","caller":"reception/reception.go:99","msg":"uploaded usage file to reception with status 201 Created","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:21:33.025Z","caller":"light-collector/main.go:88","msg":"exiting","run-id":"cdflm0f74cgphgfon8cg"}
+----
+
+
+== 產生並收集支援套裝組合
+
+Keystone Collector TUI可讓您產生支援套裝組合、然後將其新增至服務要求、以解決支援問題。請遵循下列程序：
+
+.步驟
+. 開啟Keystone Collector管理TUI公用程式：
+`$ keystone-collector-tui`
+. 請參閱*疑難排解>產生支援產品組合*。image:tui-sup-bundl.png[""]
+. 產生時、會顯示儲存套件組合的位置。使用FTP、SFTP或scp連線至該位置、並將記錄檔下載至本機系統。image:tui-sup-bundl-2.png[""]
+. 下載檔案後、您可以將其附加至Keystone ServiceNow支援服務單。如需相關資訊、請參閱 link:../concepts/gssc.html["正在產生服務要求"]。
+

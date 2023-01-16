@@ -14,7 +14,7 @@ summary: Keystone基礎架構
 
 
 [role="lead"]
-本節說明NetApp Keystone 適用於NetApp和客戶營運環境的不完整基礎架構、架構和管理應用程式。
+本節說明NetApp Keystone 適用於NetApp和客戶營運環境的《NetApp IaaS基礎架構、架構和管理應用程式》。
 
 Keystone基礎架構、設計、技術選擇及元件產品、完全由NetApp提供。NetApp 保留採取下列行動的權利：
 

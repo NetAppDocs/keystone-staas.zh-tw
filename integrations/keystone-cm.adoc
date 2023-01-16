@@ -18,7 +18,7 @@ summary: Keystone與BlueXP
 
 身為Keystone客戶、如果您Cloud Volumes ONTAP 訂閱的是功能不全的資訊、您可以使用Keystone服務來為Cloud Volumes ONTAP 您的使用情況充電、並透過BlueXP檢視您的帳單與使用詳細資料。
 
-為此、您應該建立一或多個BlueXP帳戶、並將其與Keystone帳戶連結。透過Keystone購買雲端服務時、您必須將BlueXP帳戶的詳細資料提供給Keystone Success Manager。如此一來、您就能透過Keystone訂閱、正確計量雲端服務使用量並為其充電。
+為此、您應該建立一或多個BlueXP帳戶、並將其與Keystone帳戶連結。透過Keystone購買雲端服務時、您必須將BlueXP帳戶的詳細資料提供給Keystone Success Manager（KSM）。如此一來、您就能透過Keystone訂閱、正確計量雲端服務使用量並為其充電。
 
 如需詳細資訊、請參閱BlueXP文件中的下列連結：
 

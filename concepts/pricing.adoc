@@ -14,7 +14,7 @@ summary: Keystone定價
 
 
 [role="lead"]
-支援可預測且預先定價的儲存訂閱方案。NetApp Keystone
+利用NetApp技術、您可以針對儲存訂閱進行可預測的預先定價NetApp Keystone 。
 
 如果您偏好營運支出（營運支出）消費模式、而非資本支出（資本支出）或租賃模式、您可以選擇Keystone隨成長付費模式、以因應靈活且可擴充的消費需求。
 

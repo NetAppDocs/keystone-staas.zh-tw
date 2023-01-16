@@ -14,7 +14,7 @@ summary: Keystone資料流程
 
 
 [role="lead"]
-Keystone系統會遇到流經Keystone Collector流量和監控資料流的資料流。
+Keystone STaaS系統會遇到經由Keystone Collector流量和監控資料流的資料流。
 
 
 

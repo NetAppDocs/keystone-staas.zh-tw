@@ -1,0 +1,67 @@
+---
+sidebar: sidebar 
+permalink: installation/vapp-installation.html 
+keywords: install, VMware 
+summary: 在VMware系統上安裝Keystone收集器 
+---
+= 在VMware vSphere系統上部署Keystone Collector
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+在VMware vSphere系統上部署Keystone Collector包括下載OVA範本、使用*部署OVF範本*精靈來部署範本、驗證憑證的完整性、以及驗證VM的整備度。
+
+
+
+== 部署OVA範本
+
+請遵循下列步驟：
+
+.步驟
+. 請從下載OVA檔案 https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova[] 並將其儲存在VMware vSphere系統上。
+. 在VMware vSphere系統上、瀏覽至* VM and Templates"（虛擬機器與範本）檢視。
+. 在虛擬機器（VM）（或資料中心、如果未使用VM資料夾）所需的資料夾上按一下滑鼠右鍵、然後選取*部署OVF範本*。
+. 在「*部署OVF範本*」精靈的「步驟1」上、按一下「*選取」和「OVF範本*」以選取下載的項目 `KeystoneCollector-latest.ova` 檔案：
+. 在步驟2 _上、指定VM名稱並選取VM資料夾。
+. 在_Step 3_上、指定執行VM所需的運算資源。
+. 在_步驟4：檢閱詳細資料_、確認OVA的正確性與真僞。產品名稱應顯示為_Sector_ NetApp Keystone 。image:ova-deploy.png[""]vCenter會驗證OVA內容的完整性、並針對OVA所包含的檔案提供有效的程式碼簽署摘要。不過、它並不會驗證程式碼簽署憑證的真僞。若要驗證完整性、您應該下載完整的簽署摘要憑證、並對照Keystone發佈的公開憑證進行驗證。
++
+.. 按一下*出版者*連結、即可下載完整的簽署摘要憑證。
+.. 下載_基礎概念帳單_公共憑證： https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem[]。
+.. 使用OpenSSL驗證OVA簽署憑證的驗證是否為公開憑證：
+`openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
+
+
+. 在「*部署OVF範本*」精靈的步驟5_上、指定儲存VM的位置。
+. 在步驟6_上、選取要使用VM的目的地網路。
+. 在步驟7自訂範本_上、指定管理使用者帳戶的初始網路位址和密碼。
++
+
+NOTE: 管理密碼以可還原格式儲存在vCenter中、應作為開機認證、以取得對VMware vSphere系統的初始存取權。在初始軟體組態期間、應變更此管理員密碼。應以CIDR表示法提供IPV4位址的子網路遮罩。例如、子網路遮罩的值為24、子網路遮罩為255．255．255．0。
+
+. 在「*部署OVF範本*」精靈的步驟8「準備好完成」上、檢閱組態並確認您已正確設定OVA部署的參數。
+
+
+從範本部署VM並開啟電源後、請開啟VM的SSH工作階段、並以暫用的管理認證登入、以驗證VM是否已準備好進行組態。
+
+
+
+== 初始系統組態
+
+在VMware vSphere系統上執行下列步驟、以初始設定透過OVA部署的Keystone Collector伺服器：
+
+
+NOTE: 完成部署時、您可以使用Keystone Collector Management終端使用者介面（TUI）公用程式來執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。
+
+. 開啟至Keystone Collector伺服器的SSH工作階段。登入時、便會顯示TUI。您也可以執行手動啟動TUI `keystone-collector-tui` CLI命令。
+. 如有需要、請在TUI的「*組態>網路*」區段中設定Proxy詳細資料。
+. 使用*維護>更新系統*選項來更新系統/收集器。某些選取的鏡像可能無法使用、系統詳細資料會在重試幾次後更新。
+. 在「*組態>系統*」區段中設定系統主機名稱、位置和NTP伺服器。
+. 在「*維護>使用者*」區段中更新管理員密碼。
+. 在「*組態>進階*」區段中、將初始OVA組態標示為完成。
+

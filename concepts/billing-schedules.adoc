@@ -14,7 +14,7 @@ summary: 基礎計費排程
 
 
 [role="lead"]
-Keystone訂閱每月和每年收費。
+Keystone STaaS訂閱每月和每年都會收費。
 
 
 

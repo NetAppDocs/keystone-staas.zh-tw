@@ -1,0 +1,19 @@
+---
+sidebar: sidebar 
+permalink: installation/validation.html 
+keywords: validate, validation 
+summary: 驗證Linux系統上的Keystone收集器 
+---
+= 自動驗證軟體完整性
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+驗證Keystone軟體完整性的程序是一項重申程序。
+
+中提供的Keystone YUM儲存庫用戶端組態 `keystonerepo.rpm` 在透過此儲存庫下載的所有軟體上使用強制GPG檢查（gpgchecking = 1）。透過Keystone儲存庫下載的任何未通過簽章驗證的RPM都無法安裝。此功能用於Keystone Collector的排程自動更新功能、以確保您的站台僅安裝有效且真實的軟體。

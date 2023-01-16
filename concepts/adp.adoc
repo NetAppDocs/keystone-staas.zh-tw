@@ -14,11 +14,12 @@ summary: 進階資料保護
 
 
 [role="lead"]
-您可以在Keystone訂閱中訂閱進階資料保護附加服務。這項附加服務運用NetApp MetroCluster 的技術、確保在0恢復點目標（RPO）為您的關鍵任務工作負載提供高效率的資料保護。
+您可以訂閱進階資料保護附加服務、作為Keystone STaaS訂閱的一部分。這項附加服務運用NetApp MetroCluster 的技術、確保在0恢復點目標（RPO）為您的關鍵任務工作負載提供高效率的資料保護。
 
-Keystone的基礎儲存服務可提供資料保護服務（運用NetApp技術、例如SnapMirror、SnapVault SnapMirror和Snapshot）來提供檔案和區塊儲存服務。
 
-如需基礎儲存設備和雲端儲存服務的相關資訊、請參閱 link:../concepts/supported-storage-services.html["支援的儲存服務"]。
+NOTE: Keystone STaaS檔案與區塊儲存標準服務可運用NetApp技術提供預設的資料保護服務、例如SnapMirror、SnapVault SnapMirror和Snapshot。
+
+如需標準與雲端服務的相關資訊、請參閱 link:../concepts/supported-storage-services.html["Keystone STaaS服務"]。
 
 如需服務層級的相關資訊、請參閱 link:../concepts/service-levels.html["Keystone中的服務層級"]。
 
@@ -29,9 +30,9 @@ Keystone進階資料保護服務可同步將資料鏡射至次要站台。萬一
 
 NOTE: 附註：
 
-* 對於此服務、相關儲存服務上100%的已提交容量會設定為已提交容量。
+* 對於此服務、關聯儲存設備上100%的已提交容量會設定為已提交容量。
 * 來源叢集和目的地叢集的儲存設備均需付費。這項附加服務也會針對主要和次要（鏡射）磁碟區付費。
-* 費用僅適用於您的檔案和區塊儲存服務。支援下列MetroCluster 功能：
+* 費用僅適用於您的檔案和區塊儲存設備。支援下列MetroCluster 功能：
 
 
 image:mcc.png["Keystone支援的組態MetroCluster"]
