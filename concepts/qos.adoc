@@ -14,15 +14,15 @@ summary: Keystone中的服務品質
 
 
 [role="lead"]
-儲存服務品質（QoS）是一項關鍵技術、可確保應用程式獲得一致且可預測的效能。如果沒有QoS、某些工作負載（例如多個系統開機）可能會佔用一段時間的整個資源、並影響其他工作負載。如需QoS的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["透過 QoS 總覽來保證處理量"]。
+儲存服務品質（QoS）是一項關鍵技術、可確保應用程式獲得一致且可預測的效能。如果沒有QoS、某些工作負載（例如多個系統開機）可能會佔用一段時間的整個資源、並影響其他工作負載。如需QoS的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["透過 QoS 總覽來保證處理量"^]。
 
-應用QoS可確保應用程式每次都能獲得一致的效能。NetApp ONTAP 旨在定義QoS上限的兩個參數、 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max["QoS最大值"]和處理量最低 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min["QoS最低"]。QoS最大值代表工作負載可達到的IOPS、Mbps或IOPS和Mbps的最大數目。另一方面、QoS Min則保證工作負載的處理量不會低於特定的IOPS或Mbps、或IOPS和Mbps。
+應用QoS可確保應用程式每次都能獲得一致的效能。NetApp ONTAP 旨在定義QoS的兩個參數： https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max["QoS最大值"^]和處理量最低 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min["QoS最低"^]。QoS最大值代表工作負載可達到的IOPS、Mbps或IOPS和Mbps的最大數目。另一方面、QoS Min則保證工作負載的處理量不會低於特定的IOPS或Mbps、或IOPS和Mbps。
 
 
 
 == 調適性QoS
 
-隨著QoS原則的大小不同、會自動套用調適性QoS、因此Keystone服務可維持IOPS與TB/GBs的比率。如需調適性QoS的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["關於調適性QoS"]。
+隨QoS原則的大小變化、會自動套用調適性QoS（AQO）作為Keystone服務、以維持IOPS與TB/GBs的比率。如需調適性QoS的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["關於調適性QoS"^]。
 
 Keystone提供自適性QoS原則、讓您在叢集正式作業後即可設定。您應確保所有磁碟區都與系統中已建立且可用的正確調適性QoS原則相關聯。
 
@@ -35,26 +35,26 @@ NOTE: 如果您尚未在磁碟區上正確套用調適性QoS原則、則這些�
 
 您可以設定調適性QoS原則、自動將處理量上限或樓層調整為Volume大小。若要設定原則、您應注意下列事項：
 
-* 原則群組名稱：調適性QoS原則群組的名稱。例如、「Keystone極致」。
-* Vserver：Vserver或儲存VM（儲存虛擬機器）的名稱。
-* 預期IOPS：ONTAP 只要有效能保證、即可將VMware提供的IOPS/TiB數量降至最低。
-* 尖峰IOPS：在效能受到限制之前、磁碟區可用的IOPS/TiB最大數量。
-* 預期IOPS配置：無論是已配置空間或已用空間、都會考量預期的IOPS。此欄位可控制磁碟區的預期IOPS是否取決於已配置或已使用的磁碟區大小。在Keystone中、所有的QoS計算都是根據已用空間。
-* 尖峰IOPS配置：無論是已配置空間或已用空間、都會考慮使用尖峰IOPS。此欄位可控制磁碟區可用的尖峰IOPS是否取決於已配置或已使用的磁碟區大小。在Keystone中、所有的QoS計算都是根據已用空間。
-* 絕對最小IOPS：如果磁碟區大小非常小、將套用至磁碟區的預期IOPS數目最低、否則會導致不可接受的IOPS數目。此值的預設值為「Extreme」為1、000、「Premium」為500、其他服務層級則為75。
+* *原則群組名稱*：調適性QoS原則群組的名稱。例如、 `Keystone_extreme`。
+* * vserver*：Vserver或儲存VM（儲存虛擬機器）的名稱。
+* *預期IOPS *：ONTAP 只要有效能保證、即可提供最低IOPS / TiB數量。
+* *尖峰IOPS *：在效能受到限制之前、磁碟區可用的最大IOPS / TiB數量。
+* *預期IOPS分配*：此欄位可控制磁碟區的預期IOPS是否取決於已分配或已使用的磁碟區大小。在Keystone中、這是根據已分配的空間而定。
+* *尖峰IOPS配置*：此欄位可控制磁碟區可用的尖峰IOPS是否取決於已分配或已使用的磁碟區大小。在Keystone中、這是根據已用空間而定。
+* *絕對最小IOPS *：如果磁碟區大小非常小、將套用至磁碟區的預期IOPS最低數目、否則會導致不可接受的IOPS數目。此值預設為1、000 `Extreme`、500代表 `Premium`和75表示其他服務層級。
 +
 
 NOTE: 這不是IOPS密度（例如75 IOPS/TiB）、而是絕對最小IOPS數。
 
 
 
-如需詳細資訊、請參閱 https://docs.netapp.com/us-en/ontap/performance-admin/adaptive-qos-policy-groups-task.html["使用調適性QoS原則群組"]。
+如需IO密度的相關資訊、請參閱 link:../concepts/metrics.html["Keystone服務中使用的度量和定義"]。如需AQO原則群組的詳細資訊、請參閱 https://docs.netapp.com/us-en/ontap/performance-admin/adaptive-qos-policy-groups-task.html["使用調適性QoS原則群組"^]。
 
 
 
 == 調適性QoS原則的設定
 
-調適性QoS原則的設定因服務層級而異。
+下列各節將說明各服務層級的調適性QoS原則設定。此處提供的每個服務層級的最小和最大Volume大小、可為磁碟區提供最佳的IOPs和延遲值。在這些準則之外建立太多磁碟區、可能會對這些磁碟區的效能造成負面影響。
 
 
 
@@ -66,7 +66,7 @@ Extreme服務層級的設定與命令：
 
 
 ....
-qos adaptive-policy-group create -policy group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+qos adaptive-policy-group create -policy-group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 1000
 ....
 * 最小Volume大小：100GiB、0.1TiB
 * 最大Volume大小：10TiB
@@ -76,12 +76,13 @@ qos adaptive-policy-group create -policy group <Keystone_extreme> -vserver <SVM_
 
 === 優質服務層級的設定
 
- Settings and commands for the Premium service level:
+優質服務層級的設定與命令：
+
 * 命令範例：
 
 
 ....
-qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+qos adaptive-policy-group create -policy-group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 500
 ....
 * 最小Volume大小：500GiB、0.5TiB
 * 最大Volume大小：50TiB
@@ -97,7 +98,7 @@ qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_
 
 
 ....
-qos adaptive-policy-group create -policy group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+qos adaptive-policy-group create -policy-group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 250
 ....
 * 最小Volume大小：500GiB、0.5TiB
 * 最大Volume大小：80TiB
@@ -105,14 +106,15 @@ qos adaptive-policy-group create -policy group <Keystone_performance> -vserver <
 
 
 
-=== 價值服務層級的設定
+=== 標準服務層級的設定
 
- Settings and commands for the Value  service level:
+標準服務層級的設定與命令：
+
 * 命令範例：
 
 
 ....
-qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+qos adaptive-policy-group create -policy-group <Keystone_standard> -vserver <SVM_name> -expected-iops 256 -peak-iops 512 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 77
 ....
 * 最小Volume大小：1TiB
 * 最大Volume大小：100TiB
@@ -120,9 +122,19 @@ qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_
 
 
 
-=== 建議使用Volume大小
+=== 價值服務層級的設定
 
-此處說明的每個服務層級的最小和最大磁碟區大小、可為磁碟區提供最佳的IOPs和延遲值。在這些準則之外建立太多磁碟區、可能會對這些磁碟區的效能造成負面影響。
+價值服務層級的設定與命令：
+
+* 命令範例：
+
+
+....
+qos adaptive-policy-group create -policy-group <Keystone_value> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 59
+....
+* 最小Volume大小：1TiB
+* 最大Volume大小：100TiB
+
 
 
 

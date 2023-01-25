@@ -99,6 +99,8 @@ sidebar:
       url: "/integrations/keystone-cm.html"
     - title: Keystone與Digital Advisor
       url: "/integrations/keystone-aiq.html"
+    - title: 數位顧問基礎概念儀表板與報告
+      url: "/integrations/aiq-keystone-details.html"
   - title: 法律聲明
     url: "/legal-notices.html"
 homepage:
@@ -127,6 +129,8 @@ homepage:
       url: "/concepts/data-tiering.html"
     - title: 我的Keystone資料是否受到保護？
       url: "/concepts/adp.html"
+    - title: 我要如何查看每個服務層級的使用量？
+      url: "/integrations/aiq-keystone-details.html"
   - title: Keystone定價
     links:
     - title: 瞭解Keystone計費

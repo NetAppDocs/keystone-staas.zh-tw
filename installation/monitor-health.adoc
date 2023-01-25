@@ -32,7 +32,7 @@ $ curl http://127.0.0.1:7777/uber/health
 
 .Linux使用者請注意以下已知問題：
 
-NOTE: *問題說明*：Keystone Collector會在使用量測系統中執行多個容器。當Red Hat Enterprise Linux 8.x伺服器使用美國國防資訊系統署（DISA）安全技術實作指南（STIG）原則強化時、會間歇性看到有關fapolicyd（檔案存取原則精靈）的已知問題。此問題識別為 link:https://bugzilla.redhat.com/show_bug.cgi?id=1907870["錯誤1907870"]。*因應措施*：在Red Hat Enterprise解決之前、NetApp建議您採用以下方法來解決此問題 `fapolicyd` 進入許可模式。在中 /`etc/fapolicyd/fapolicyd.conf`、設定的值 `permissive = 1`。
+NOTE: *問題說明*：Keystone Collector會在使用量測系統中執行多個容器。當Red Hat Enterprise Linux 8.x伺服器使用美國國防資訊系統署（DISA）安全技術實作指南（STIG）原則強化時、會間歇性看到有關fapolicyd（檔案存取原則精靈）的已知問題。此問題識別為 link:https://bugzilla.redhat.com/show_bug.cgi?id=1907870["錯誤1907870"^]。*因應措施*：在Red Hat Enterprise解決之前、NetApp建議您採用以下方法來解決此問題 `fapolicyd` 進入許可模式。在中 /`etc/fapolicyd/fapolicyd.conf`、設定的值 `permissive = 1`。
 
 
 

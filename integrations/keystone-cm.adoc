@@ -22,6 +22,6 @@ summary: Keystone與BlueXP
 
 如需詳細資訊、請參閱BlueXP文件中的下列連結：
 
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#keystone-flex-subscription["Keystone訂閱"]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-keystone.html["管理基礎概念訂閱"]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#keystone-flex-subscription["Keystone訂閱"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-keystone.html["管理基礎概念訂閱"^]
 
