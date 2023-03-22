@@ -46,7 +46,7 @@ NOTE: Keystone Collector需要網際網路連線。您可以透過預設閘道�
 
 
  a| 
-Keystone收集器
+Keystone收集器（用於Keystone ONTAP ）
  a| 
 部門（Unified Manager Active IQ Unified Manager ）
  a| 
@@ -54,14 +54,29 @@ HTTPS
  a| 
 TCP 443
  a| 
-必填
+必填（若使用Keystone ONTAP ）
  a| 
-Keystone Collector使用量度量集合
+Keystone Collector使用量數據收集ONTAP 以供參考
 
 
 
  a| 
-Keystone收集器
+Keystone收集器（用於Keystone StorageGRID ）
+ a| 
+系統管理節點StorageGRID
+ a| 
+HTTPS
+ a| 
+TCP 443
+ a| 
+必填（若使用Keystone StorageGRID ）
+ a| 
+Keystone Collector使用量數據收集StorageGRID 以供參考
+
+
+
+ a| 
+Keystone收集器（一般）
  a| 
 網際網路（根據稍後提供的URL需求）
  a| 
@@ -76,7 +91,7 @@ Keystone Collector軟體、作業系統更新和計量資料上傳
 
 
  a| 
-Keystone收集器
+Keystone收集器（一般）
  a| 
 客戶HTTP Proxy
  a| 
@@ -91,7 +106,7 @@ Keystone Collector軟體、作業系統更新和計量資料上傳
 
 
  a| 
-Keystone收集器
+Keystone收集器（一般）
  a| 
 客戶DNS伺服器
  a| 
@@ -106,7 +121,7 @@ DNS解析
 
 
  a| 
-Keystone收集器
+Keystone收集器（一般）
  a| 
 客戶NTP伺服器
  a| 
@@ -117,6 +132,36 @@ udp 123
 必填
  a| 
 時間同步
+
+
+
+ a| 
+Keystone收集器（用於Keystone ONTAP ）
+ a| 
+Unified Manager
+ a| 
+MySQL
+ a| 
+TCP 3306
+ a| 
+選用功能
+ a| 
+Keystone Collector的效能指標集合
+
+
+
+ a| 
+Keystone收集器（一般）
+ a| 
+客戶監控系統
+ a| 
+HTTP
+ a| 
+TCP 777
+ a| 
+選用功能
+ a| 
+Keystone Collector健全狀況報告
 
 
 
@@ -147,36 +192,6 @@ TCP 8000、ICMP回應要求/回覆
 選用功能
  a| 
 Webserver、提供ONTAP 韌體更新功能
-
-
-
- a| 
-Keystone收集器
- a| 
-Unified Manager
- a| 
-MySQL
- a| 
-TCP 3306
- a| 
-選用功能
- a| 
-Keystone Collector的效能指標集合
-
-
-
- a| 
-Keystone收集器
- a| 
-客戶監控系統
- a| 
-HTTP
- a| 
-TCP 777
- a| 
-選用功能
- a| 
-Keystone Collector健全狀況報告
 
 |===
 

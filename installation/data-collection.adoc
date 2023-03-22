@@ -1,0 +1,315 @@
+---
+sidebar: sidebar 
+permalink: installation/data-collection.html 
+keywords: type of data collected by Keystone collector 
+summary: Keystone收集器提供的帳單資料收集ONTAP 功能、以供收集和StorageGRID 收集 
+---
+= Keystone收集的使用者資料類型
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone會收集組態、狀態和使用資訊、以供Keystone ONTAP 、以及Keystone StoragGRID訂閱之用。如果ONTAP 在Keystone Collector中啟用此選項、也只能收集效能資料以供參考。
+
+
+
+== 資料收集ONTAP
+
+.收集ONTAP 的使用資料以供參考
+[%collapsible]
+====
+下表是針對ONTAP 下列項目收集的容量使用資料代表範例：
+
+* 叢集
++
+** 叢集UUID
+** 叢集名稱
+** 序號
+** 位置（根據ONTAP 在叢集中輸入的值）
+** 聯絡人
+** 版本
+
+
+* 節點
++
+** 序號
+** 節點名稱
+
+
+* 磁碟區
++
+** Aggregate名稱
+** Volume名稱
+** Volume InstanceUUID
+** IsCloneVolume旗標
+** IsFlexGroup組成 旗標
+** IsspaceEnforcement邏輯 旗標
+** IsSpaceReporting邏輯 旗標
+** LogicalspaceUsedByAfs
+** PercentSnapshotSpace
+** Performance TierInactiveUserData
+** Performance TierInactiveUserDataPercent
+** QoSAdaptivePolicyGroup名稱
+** QoSPolicyGroup名稱
+** 尺寸
+** 已使用
+** 實體使用
+** SizeUsedBySnapshots
+** 類型
+** Volume樣式擴充
+** Vserver名稱
+** IsVsRoot旗標
+
+
+* Vserver
++
+** VserverName
+** VserverUUID
+** 子類型
+
+
+* 儲存Aggregate
++
+** 儲存類型
+** Aggregate名稱
+** Aggregate UUID
+
+
+* Aggregate物件存放區
++
+** ObjectStoreName
+** ObjectStoreUUID
+** 提供者類型
+** Aggregate名稱
+
+
+* 複製磁碟區
++
+** FlexClone
+** 尺寸
+** 已使用
+** Vserver
+** 類型
+** ParentVolume
+** ParentVserver
+** Is組成
+** SplitEstimate
+** 州/省
+** FlexCloneUedPercent
+
+
+* 儲存LUN
++
+** LUN UUID
+** LUN名稱
+** 尺寸
+** 已使用
+** IsReserved旗標
+** IsRequest旗標
+** 邏輯單元名稱
+** QoSPolicyUUID
+** QoSPolicyName
+** Volume UUID
+** Volume名稱
+** SVMUUID
+** SVM名稱
+
+
+* 儲存磁碟區
++
+** Volume InstanceUUID
+** Volume名稱
+** SVMName
+** SVMUUID
+** QoSPolicyUUID
+** QoSPolicyName
+** 電容TierFootprint
+** 效能TierFootprint
+** 總佔用空間
+** 分層政策
+** IsProtected旗標
+** Is目的地 旗標
+** 已使用
+** 實體使用
+** CloneParentUUID
+** LogicalspaceUsedByAfs
+
+
+* QoS原則群組
++
+** PolicyGroup
+** QoSPolicyUUID
+** 最大處理量
+** 最小處理量
+** 最大輸入IOPS
+** 最大推入MBps
+** MinThroughputIOPS
+** MinThroughputMBps
+** IsShawred旗標
+
+
+* 可調式QoS原則群組ONTAP
++
+** QoSPolicyName
+** QoSPolicyUUID
+** PeakIOPS
+** PeakIOPsAllocate
+** 絕對MinIOPS
+** 高效能IOPS
+** ExpedIOPSAllocate
+** 區塊大小
+
+
+* 佔用空間
++
+** Vserver
+** Volume
+** 總佔用空間
+** Volume BlocksFootprintBin0
+** Volume BlocksFootprintBin1
+
+
+* 叢集MetroCluster
++
+** 叢集UUID
+** 叢集名稱
+** RemoteClusterUUID
+** RemoteCluserName
+** 本地組態狀態
+** RemoteConfiguration狀態
+** 模式
+
+
+* 收集器伺服效能指標
++
+** 收集時間
+** 查詢的是應用程式介面API端點Active IQ Unified Manager
+** 回應時間
+** 記錄數
+** AIQUMInstance IP
+** CollectorInstance ID
+
+
+
+
+====
+.針對ONTAP VMware所收集的效能資料
+[%collapsible]
+====
+下表為針對ONTAP VMware所收集之效能資料的代表性範例：
+
+* 叢集名稱
+* 叢集UUID
+* ObjectID
+* Volume名稱
+* Volume執行個體UUID
+* Vserver
+* VserverUUID
+* 節點序列
+* ONTAPVersion
+* AIQUM版本
+* Aggregate
+* AggregateUUID
+* 資源金鑰
+* 時間戳記
+* IOPSPerTb
+* 延遲
+* 讀入延遲
+* WriteMBps
+* QoSMinThroughutLatency
+* QoSNBladeLatency
+* 已使用的「總部」
+* CacheMissRatio
+* 其他延遲
+* QoSAgggreggregateLatency
+* IOPS
+* QoSNetworkLetency
+* 可用作業
+* 寫入延遲
+* QoSClocks延遲
+* QoSClusterInterconnectLatency
+* 其他MBps
+* QoSCopLatency
+* QoSDBladeLatency
+* 使用率
+* ReadIOPS
+* Mbps
+* 其他IOPS
+* QoSPolicyGroupLatency
+* ReadMBps
+* QoSSyncdSnapmirmirorLatency
+* 寫入IOPS
+
+
+====
+.限制私有資料存取時移除的項目清單
+[%collapsible]
+====
+在Keystone Collector上啟用「*移除私有資料*」選項時、ONTAP 下列使用資訊將不再用於支援。此選項預設為啟用。
+
+* 叢集名稱
+* 叢集位置
+* 叢集聯絡人
+* 節點名稱
+* Aggregate名稱
+* Volume名稱
+* QoSAdaptivePolicyGroup名稱
+* QoSPolicyGroup名稱
+* Vserver名稱
+* 儲存LUN名稱
+* Aggregate名稱
+* 邏輯單元名稱
+* SVM名稱
+* AIQUMInstance IP
+* FlexClone
+* RemoteClusterName
+
+
+====
+
+
+== 資料收集StorageGRID
+
+.收集StorageGRID 的使用資料以供參考
+[%collapsible]
+====
+下列清單為代表性的範例 `Logical Data` 收集StorageGRID 對象：
+
+* 身分證件StorageGRID
+* 帳戶ID
+* 帳戶名稱
+* 帳戶配額位元組
+* 儲存區名稱
+* 儲存區物件計數
+* 儲存區資料位元組
+
+
+下列清單為代表性的範例 `Physical Data` 收集StorageGRID 對象：
+
+* 身分證件StorageGRID
+* 節點ID
+* 站台ID
+* 站台名稱
+* 執行個體
+* 顯示儲存使用率位元組StorageGRID
+* 支援中繼資料位元組的儲存使用率StorageGRID
+
+
+====
+.限制私有資料存取時移除的項目清單
+[%collapsible]
+====
+在Keystone Collector上啟用「*移除私有資料*」選項時、StorageGRID 下列使用資訊將不再用於支援。此選項預設為啟用。
+
+* 帳戶名稱
+* BucketName
+* 站台名稱
+* 執行個體/節點名稱
+
+
+====

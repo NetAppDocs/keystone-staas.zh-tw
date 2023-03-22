@@ -25,7 +25,7 @@ Keystone Collector軟體由線上YUM軟體儲存庫散佈。您需要在Linux伺
 `# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint`正確的指紋如下所示：
 `90B3 83AF E07B 658A 6058  5B4E 76C2 45E4 33B6 C17D`
 . 下載 `keystonerepo.rpm` 檔案：
-`# wget https://keystone.netapp.com/repo/keystonerepo.rpm`
+`curl -O https://keystone.netapp.com/repo/keystonerepo.rpm`
 . 驗證檔案的真僞：
 `rpm --checksig -v keystonerepo.rpm`真實檔案的簽名如下所示：
 `Header V4 RSA/SHA512 Signature, key ID 33b6c17d: OK`
@@ -34,3 +34,6 @@ Keystone Collector軟體由線上YUM軟體儲存庫散佈。您需要在Linux伺
 . 安裝Keystone repo時、請透過YUM套件管理程式安裝Keystone收集器套件：
 `# yum install keystone-collector`
 
+
+
+NOTE: 完成安裝時、您可以使用Keystone Collector Management終端使用者介面（TUI）公用程式來執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。請參閱 link:../installation/configuration.html["設定Keystone Collector"] 和 link:../installation/monitor-health.html["監控系統健全狀況"]。

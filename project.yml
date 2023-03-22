@@ -17,14 +17,14 @@ sidebar:
     entries:
     - title: 什麼是Keystone Collector
       url: "/installation/installation-overview.html"
-    - title: 安裝先決條件
+    - title: 安裝Keystone Collector的必要條件
       entries:
       - title: VMware vSphere先決條件
         url: "/installation/vapp-prereqs.html"
       - title: Linux先決條件
         url: "/installation/linux-prereqs.html"
-      - title: 內部組態Active IQ Unified Manager
-        url: "/installation/aiqum-req.html"
+      - title: 關於功能的特定先決條件StorageGRID ONTAP
+        url: "/installation/addl-req.html"
     - title: 安裝程序
       entries:
       - title: VMware vSphere部署
@@ -37,6 +37,8 @@ sidebar:
       url: "/installation/configuration.html"
     - title: 監控系統健全狀況
       url: "/installation/monitor-health.html"
+    - title: 收集以供計費的資料
+      url: "/installation/data-collection.html"
   - title: 深入瞭解Keystone
     entries:
     - title: 支援的儲存容量
@@ -97,9 +99,9 @@ sidebar:
     entries:
     - title: Keystone與BlueXP
       url: "/integrations/keystone-cm.html"
-    - title: Keystone與Digital Advisor
+    - title: Keystone與Active IQ Digital Advisor
       url: "/integrations/keystone-aiq.html"
-    - title: 數位顧問基礎概念儀表板與報告
+    - title: Keystone報告Active IQ Digital Advisor
       url: "/integrations/aiq-keystone-details.html"
   - title: 法律聲明
     url: "/legal-notices.html"
@@ -149,7 +151,7 @@ homepage:
       url: "/concepts/gssc.html"
     - title: Keystone與BlueXP
       url: "/integrations/keystone-cm.html"
-    - title: Keystone與Digital Advisor
+    - title: Keystone與Active IQ Digital Advisor
       url: "/integrations/keystone-aiq.html"
     - title: 美國公民支援
       url: "/concepts/uscs.html"
@@ -157,7 +159,7 @@ homepage:
     links:
     - title: Keystone Flex 訂閱
       url: https://docs.netapp.com/us-en/keystone/
-    - title: 數位顧問
+    - title: Active IQ Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html
     - title: 藍圖
       url: https://docs.netapp.com/us-en/cloud-manager-family/

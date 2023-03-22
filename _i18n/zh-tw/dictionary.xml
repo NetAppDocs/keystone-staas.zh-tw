@@ -71,9 +71,7 @@
   <block id="6f84bbf222b31dbe79e07a2c75da49f7" category="inline-link">QoS最低</block>
   <block id="acdda1c20fb3985ce840929f7525c803" category="section-title">調適性QoS</block>
   <block id="24fe24243f6cf0a0fada99032a85c028" category="inline-link">關於調適性QoS</block>
-  <block id="5333a4037149d6d11a7f90a215530cfc" category="admonition">如果您尚未在磁碟區上正確套用調適性QoS原則、則這些磁碟區將會依照您的訂閱、以最高服務層級進行測量和收費。這可能導致意外的突發費用。</block>
   <block id="e1e6381427a3975fa7597be88e8d2f70" category="section-title">自適性QoS原則群組的組態</block>
-  <block id="c9e7ca1e0ddb7dc805d3f4b515bc5b5c" category="paragraph">您可以設定調適性QoS原則、自動將處理量上限或樓層調整為Volume大小。若要設定原則、您應注意下列事項：</block>
   <block id="4db69e448403f877751b701118fb0d6b" category="admonition">這不是IOPS密度（例如75 IOPS/TiB）、而是絕對最小IOPS數。</block>
   <block id="0dfe1d120dbd110a4d7bb29a9dea1779" category="inline-link">使用調適性QoS原則群組</block>
   <block id="2da83d8f6744d94e4db3195a4a4edfc0" category="section-title">調適性QoS原則的設定</block>
@@ -373,7 +371,6 @@
   <block id="f14c7b4687be07acacb0f5aeed1474f5" category="inline-link">什麼是呢SnapLock</block>
   <block id="da0abce09003b51065ed5b06d06021f1" category="doc">根據已提交的容量進行計費</block>
   <block id="6918efdb84c8dba836b132c8c389051f" category="summary">NetApp全球服務支援中心GSSC</block>
-  <block id="6996736fb79dd4178631c9db6807f60e" category="paragraph">利用NetApp全球服務與支援中心（GSSC）、《成功案例》（SESS- Success Manager）和《支援服務》（SESS- Service Delivery Manager）來執行支援服務。NetApp Keystone NetApp Keystone NetApp Keystone</block>
   <block id="10f15832f9a0baabcebb5224cb7b725e" category="section-title">NetApp 全球服務與支援中心（ GSSC ）</block>
   <block id="0a01a33e5f29d399207cdf2d0bedd8e4" category="section-title">其他資訊與支援聯絡人</block>
   <block id="41ac6df99b19964ddc5db21ba036a552" category="paragraph">NetApp全球服務與支援中心（GSSC）團隊主要支援NetApp Keystone 服務給客戶。您可以使用下列資訊聯絡支援團隊。</block>
@@ -444,7 +441,6 @@
   <block id="3ce74db0e604d780cccd03b9b8b34774" category="list-text">*合作夥伴營運模式*：合作夥伴或服務供應商為終端客戶提供服務。對於NetApp而言、合作夥伴是相關的合約方。租戶是合作夥伴的客戶、與NetApp並無計費關係。合作夥伴經營的模式具有多租戶環境、租戶和終端客戶/租戶都有自己的訂閱、由合作夥伴支付。合作夥伴管理員會為所有租戶執行管理工作。</block>
   <block id="542e65f5a286fa6467f7b1c33bc0dab8" category="paragraph">如需部署的詳細資訊、請參閱 <block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block> 和 <block ref="141d19b4a500cb7c8f293062f31c9e48" category="inline-link-macro-rx"></block>。</block>
   <block id="d96367d414f2f1ab0c8c14b8d62edc0e" category="list-text">針對某些Keystone銷售提案提供支援。</block>
-  <block id="62a55bd1cb01932a2345c6066f1d16c2" category="paragraph">Keystone提供自適性QoS原則、讓您在叢集正式作業後即可設定。您應確保所有磁碟區都與系統中已建立且可用的正確調適性QoS原則相關聯。</block>
   <block id="b6b6ef9bcccde24a7790b0a3093601da" category="paragraph">Extreme服務層級的設定與命令：</block>
   <block id="0a32480150714670b636bea04f9ef2a1" category="paragraph">效能服務層級的設定與命令：</block>
   <block id="36c275d62ed815270ea3f9f9ee07eae1" category="paragraph">此處列出檔案、區塊、物件和雲端服務的服務層級。</block>
@@ -468,7 +464,6 @@
   <block id="c34a82bbff22f4441417f697ffc59087" category="paragraph">NetApp 可遠端為 NetApp Keystone 客戶提供營運服務。這些服務涵蓋各種儲存管理活動的營運領域。這些服務包括資產與組態管理、容量與效能管理、變更管理、事件、事件與問題管理、服務要求履行及報告。NetApp會視需要展現控管狀態和支援證據。</block>
   <block id="11cc259f3fbff7a9b169739c7cd9d613" category="list-text">如果您有需要提報的待處理個案/問題單、請傳送電子郵件至下列其中一個地址：keystone.services@netapp.com keystone.escalations@netapp.com</block>
   <block id="d1add80e839b6da3fad5b5d1d018df10" category="list-text">NetApp使用OpsRamp,這是一種雲端型遠端閘道解決方案,可主動監控NetApp Keystone 及連線至該環境進行疑難排解。如需 OpsRamp 的相關資訊、請參閱<block ref="ddbfe3d63449639712fee69542f32fdc" category="inline-link-rx"></block>。</block>
-  <block id="c6adba6217951ed0e1a8ae3a9a50e632" category="paragraph">如需詳細資訊、請參閱：</block>
   <block id="a7bfd854f2e9dacfba92f6c8e2081c3e" category="list-text">此服務僅適用於檔案、區塊和物件服務。</block>
   <block id="b6a3337f47df4fd3f63ff2c1a9f8ec5b" category="paragraph">利用此技術、NRNVC功能可在磁碟區中設定的到期日之後、使磁碟機無法使用。SnapLock若要在SnapLock 您的磁碟區上使用支援技術、您必須訂閱NRNVC。這僅適用於檔案和區塊服務。</block>
   <block id="efdd84de779f9c449b249d2bf90a01c0" category="paragraph">如需SnapLock 有關支援技術的資訊、請參閱<block ref="7bc47f340e579853a1daae86dfb72c77" category="inline-link-rx"></block>。</block>
@@ -491,15 +486,10 @@
   <block id="d98e1323795a96bdb4ab923442544f4f" category="summary">Keystone與BlueXP</block>
   <block id="3736dc740e568bfea8adb597902add6e" category="paragraph">如果您在Keystone訂閱中購買雲端服務、則可透過BlueXP存取及管理這些服務。</block>
   <block id="ec5a85d1400f8bf17dec61b11740d60c" category="paragraph">身為Keystone客戶、如果您Cloud Volumes ONTAP 訂閱的是功能不全的資訊、您可以使用Keystone服務來為Cloud Volumes ONTAP 您的使用情況充電、並透過BlueXP檢視您的帳單與使用詳細資料。</block>
-  <block id="96fa8aa61a1fe15e7eef1735e177eb30" category="paragraph">如需詳細資訊、請參閱BlueXP文件中的下列連結：</block>
   <block id="f208065131ee7ec38a881083b91c06e2" category="cell">FC與iSCSI</block>
-  <block id="64ffe96859dc5a51dab366b753c3030e" category="list-text">Keystone Data Collector：Keystone Collector為Keystone客戶提供帳單服務。此應用程式隨Active IQ Unified Manager 附於NetApp。每ONTAP 五分鐘會StorageGRID 定期從VMware及VMware控制器收集資料。資料會經過處理、中繼資料Active IQ 會透過AutoSupport 用於產生帳單資料的流程機制、傳送到集中式的資料湖。所學專業：電子商務（電子商務）Active IQ數位顧問客戶入口網站可讓您登入、並檢視您的Keystone訂閱的訂閱與使用詳細資料。</block>
-  <block id="190ac7d594730826c98618f6c64ccefa" category="paragraph">如需詳細資訊、請參閱 <block ref="b7b6a2338cb0518cc39a6d3713bb6e47" category="inline-link-macro-rx"></block>。</block>
-  <block id="f079f17b0940258743d34e7b771c715f" category="sidebar">數位顧問</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="sidebar">藍圖</block>
   <block id="f6ea502258d48432c7bda8b0eeca5dbe" category="paragraph-title">區塊大小計算範例</block>
   <block id="81eeab9506186e2dca8faefa78d54067" category="paragraph-title">範例：</block>
-  <block id="a1c01978d5580580fa3d133f61c34a50" category="paragraph">如果您訂閱NetApp Keystone 了「支援服務」、您可以在「數位顧問」儀表板上檢視使用報告和圖表。</block>
   <block id="3bbfb69801d31eb97035c791f900fc27" category="paragraph">為此、您應該建立一或多個BlueXP帳戶、並將其與Keystone帳戶連結。透過Keystone購買雲端服務時、您必須將BlueXP帳戶的詳細資料提供給Keystone Success Manager（KSM）。如此一來、您就能透過Keystone訂閱、正確計量雲端服務使用量並為其充電。</block>
   <block id="2875c453ae21cf76b51a8fa4752d6e33" category="paragraph">下列詞彙與定義用於NetApp Keystone 《不完整（基礎概念）》（Keystone）STaaS服務、以測量數據：</block>
   <block id="c7c1919c4fd61189792daac01aa326b5" category="list-text">IO密度：IOPS/TiB：每秒處理的輸入/輸出作業數、以工作負載所耗用的總空間為單位（以TB為單位）。</block>
@@ -522,7 +512,6 @@
   <block id="d96faa9e821e8ffac65b118996a9a5e9" category="paragraph">分層功能運用NetApp FabricPool 的技術、可將不常存取的資料自動分層、以便在內部部署或外部建立物件式儲存層。</block>
   <block id="8f46846cb5a320a81c56569442428909" category="paragraph">附加資料分層服務可讓您從極致、優質、效能、標準及價值層級分層至物件儲存目標。要分層的熱/冷資料比例並未固定、而且每個層都會分別計費和開立發票。</block>
   <block id="71768d30a875fb63ecbab55da018a191" category="paragraph">例如、如果Cold儲存層的目標是：</block>
-  <block id="ea57181e4ce33c2393d6c03b983d0af0" category="list-text">Keystone STaaS價值層、Keystone STaaS StorageGRID 物件層、或現有SGWS網格（客戶擁有）-不需額外付費、這是標準服務的一部分。</block>
   <block id="e73034c8c3d954eb2e6e052c00601420" category="list-text">公有雲（AWS、Azure、Google）或Keystone STaaS支援的第三方物件儲存設備-分層至Cold儲存目標的資料容量需要額外付費。</block>
   <block id="c32944bc40d1accb43f1f8bfaf090dce" category="paragraph">附加分層服務的費用會在整個訂購期間內支付。</block>
   <block id="e72611e56e05f623af5dc7011928a294" category="admonition">NetApp並未提供由NetApp所需的超純量運算、儲存及網路服務Cloud Volumes ONTAP 、作為Keystone STaaS訂閱的一部分；這些服務必須直接向超純量雲端服務供應商購買。</block>
@@ -576,7 +565,6 @@
   <block id="f768fe86ef4edbeda93c2b9eb617765e" category="paragraph">* Keystone STaaS附加服務*：這些是可選的收費服務、除了提供標準Keystone STaaS訂閱服務之外、還能提供額外的公用程式與效益。</block>
   <block id="eb97c56b06427358a227f23b84d3b700" category="paragraph">Keystone STaaS服務可以彼此共存。例如、雲端儲存訂閱可以與檔案、區塊和物件儲存訂閱共同訂閱。雲端服務可在現有儲存訂閱的服務期間內隨時納入。不過、如果您不打算續約現有的檔案、區塊和物件訂閱、則無法在訂閱的最後90天內新增雲端儲存訂閱。</block>
   <block id="c8c350f712b7e8a483647c016478eb87" category="section-title">檔案、區塊和物件儲存服務</block>
-  <block id="2443904e0051d0495d84f24c99f99601" category="paragraph">Keystone STaaS服務可支援ONTAP 多StorageGRID 種功能和傳輸協定、以利資料的檔案和區塊儲存、以及物件儲存、下表說明：</block>
   <block id="8c4aa541ee911e8d80451ef8cc304806" category="cell">儲存設備</block>
   <block id="419f3742e6de8e0ec4b22cce005e7630" category="cell">平台</block>
   <block id="253b40ae359ba25b56231803430c4873" category="paragraph">ONTAP</block>
@@ -621,14 +609,9 @@
   <block id="89c3fbc86e0ef018aeeb33b0c6503ca0" category="list-text">開啟Keystone Collector管理TUI公用程式：<block ref="7ef986487970dbcf0ed301b58d2828c9" prefix=" " category="inline-code"></block></block>
   <block id="e385fa90b60165281bae11b6e25bff3d" category="list-text">請參閱*疑難排解&gt;產生支援產品組合*。<block ref="dc6483f3f6b233df000a8215567c9e17" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7521a40f5abb349afff3a7d5461c3d42" category="list-text">產生時、會顯示儲存套件組合的位置。使用FTP、SFTP或scp連線至該位置、並將記錄檔下載至本機系統。<block ref="0fc318456f84a64b43e2d29821df0fc8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ed045d10222ce3a6e2351fd3ee2f10ce" category="list-text">下載檔案後、您可以將其附加至Keystone ServiceNow支援服務單。如需相關資訊、請參閱 <block ref="a7ae718de79af41225531b7d4972e1ef" category="inline-link-macro-rx"></block>。</block>
   <block id="b34b056c73270f2209f1e8eeb513e7cc" category="summary">基礎概念收集器的組態</block>
   <block id="b44055e981e64c62a3ac7b6994a3f19b" category="doc">設定Keystone Collector</block>
-  <block id="708592bf4fe20baa1e707ab0e85d656b" category="paragraph">您需要完成幾項組態工作、才能讓Keystone Collector在儲存環境中收集使用資料。這是一次性活動、可啟動所需的收集器元件、並將其與Active IQ Unified Manager 下列項目建立關聯：（Unified Manager）。</block>
-  <block id="bd1c036bbba61bb99fdc5b65a4ab3388" category="paragraph">所有由Unified Manager管理的ONTAP 叢集均可監控。請遵循下列步驟：</block>
   <block id="8b66faad015dc0ff933cf2356b04c048" category="inline-link-macro">建立Unified Manager使用者</block>
-  <block id="e4c8fb0e590cef9ffac95a7f6ede4cb1" category="list-text">請移至「*組態&gt; KS-Collector*」以開啟Keystone Collector組態畫面、並新增Unified Manager伺服器和服務帳戶的詳細資料。如果此環境需要效能監控以用於SLA、請啟用「*收集ONTAP 效能資料*」選項、並提供Unified Manager資料庫使用者帳戶詳細資料。如需相關資訊、請參閱 <block ref="9bccb6411d292725bc16788ee7013ab5" category="inline-link-macro-rx"></block>。</block>
-  <block id="192ec221c58087c4d2616d633cc98c32" category="list-text">切換「*啟用KS-Collector Service*」欄位。</block>
   <block id="71c01bb6959115832ba956353d65fa60" category="list-text">按一下「**儲存」。<block ref="c1f5a4895b0ae5d84bc0370f9cb94b49" category="inline-image-macro-rx" type="image"></block></block>
   <block id="528f96a3d4b17dd41513f2405eff6632" category="list-text">返回TUI主畫面並確認「**服務狀態」資訊、以確保Keystone Collector處於正常狀態。系統應顯示服務處於「整體：健全」狀態。<block ref="fef529ed1713f5132fce937b8a727284" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3d3aea279fd0dfc2c6c0a6f4af62eaf7" category="list-text">在主畫面上選取「退出至Shell*」選項、結束Keystone Collector管理TUI。</block>
@@ -639,11 +622,7 @@
   <block id="5d6eeca323f191b847ccaa89868f1712" category="list-text">按一下「**儲存」。<block ref="063c967c4bf177e696bdec9de5a25cb2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d66ad38cacfcba154b86b0c6d12a28a9" category="section-title">限制私有資料的收集</block>
   <block id="38256db8ac1c2018564d3df7d3f55c3e" category="paragraph">Keystone Collector會收集執行訂閱計量所需的有限組態、狀態和效能資訊。您可以選擇進一步限制所收集的資訊、方法是從上傳的內容中遮罩敏感資訊。這不會影響計費計算。不過、限制資訊可能會影響報告資訊的使用性、因為使用者可以輕易識別的部分元素（例如Volume名稱）會被UID取代。</block>
-  <block id="20aec95d0298444a6bd38c326238ff42" category="paragraph">您可以在TUI組態畫面上設定限制資料的選項、即「*移除私有資料*」。此選項預設為停用。</block>
   <block id="fc377f8f82024ca34c5142f60fe2c788" category="paragraph"><block ref="fc377f8f82024ca34c5142f60fe2c788" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7b82fe6078598d0e52741c1259cbb33b" category="section-title">收集使用量資訊的範例清單</block>
-  <block id="4c307bdee469f719b5787a3d56e381fc" category="paragraph">下列清單是使用量集合中所含項目的代表範例：</block>
-  <block id="249694a485fc5d3289c38986b4f8e887" category="list-text">叢集</block>
   <block id="e63229ed25551e34e5f0a388c38141ed" category="list-text">叢集UUID</block>
   <block id="a54372ef430f726c8343fc5550fade42" category="list-text">序號</block>
   <block id="c391c76646a604c0d2afc578924ddf0f" category="list-text">位置（根據ONTAP 在叢集中輸入的值）</block>
@@ -662,84 +641,48 @@
   <block id="e67d1986af6ba48dc8f5756dffb5d558" category="list-text">PercentSnapshotSpace</block>
   <block id="0c0367fc2898d36afe4211424e0e747d" category="list-text">Performance TierInactiveUserData</block>
   <block id="6180aa9a6dffa24f8517c1e9a0b3d7ad" category="list-text">Performance TierInactiveUserDataPercent</block>
-  <block id="88d44b0014d5281b63a3dc3ac5ce7cef" category="list-text">QosAdapivePolicyGroup名稱</block>
-  <block id="12f4e68e8a00bc64351b0f34a3117287" category="list-text">QosPolicyGroup名稱</block>
   <block id="6f6cb72d544962fa333e2e34ce64f719" category="list-text">尺寸</block>
   <block id="338da082f9d5dc0142743bc84612d31f" category="list-text">SizeUsedBySnapshots</block>
   <block id="a1fa27779242b4902f7ae3bdd5c6d508" category="list-text">類型</block>
   <block id="87132800eba752a6465b5f7f6107e46f" category="list-text">Volume樣式擴充</block>
   <block id="143a9e7a312d8417274a97d0a8064dc2" category="list-text">Vserver名稱</block>
   <block id="ac4d39b6e8b3424c80e27156f65c48a4" category="list-text">IsVsRoot旗標</block>
-  <block id="94ce2d9d57f7bf279a8bfea2fa75c27e" category="list-text">StorageAggrs</block>
   <block id="d7eb6a2712e104a8f648247469fec6b1" category="list-text">儲存類型</block>
   <block id="ccaf0d2d7033af92241b8ff76cd0c8db" category="list-text">Aggregate名稱</block>
   <block id="555183afd135f0e16d6776427dedc84e" category="list-text">Aggregate UUID</block>
-  <block id="04c0cafaaf1e981fa3bcc3bdc2f7b9cf" category="list-text">AggregateObjectStores</block>
   <block id="c903827efbec61c2bd3045040cf53d2c" category="list-text">ObjectStoreName</block>
   <block id="4d4f75fbaf0d337bc2063c03d0ba28ea" category="list-text">ObjectStoreUUID</block>
   <block id="d6e877596803b14efe151a0543954e0f" category="list-text">提供者類型</block>
-  <block id="5f964849b2c68ebad9fe70f657ee19e3" category="list-text">儲存LUN</block>
-  <block id="64fce1f79a2e4522272d1b4656c22fcc" category="list-text">LUN UUID</block>
   <block id="019d1ca7d50cc54b995f60d456435e87" category="list-text">已使用</block>
   <block id="39911248bc0cf5c0d2f3470ab7c117ed" category="list-text">IsReserved旗標</block>
   <block id="b12e6cdf9bacb59a1f1f00f66e735715" category="list-text">IsRequest旗標</block>
   <block id="b1bbd0b58ca902b97c8ecacf17cdfc1f" category="list-text">邏輯單元名稱</block>
-  <block id="50eec87aa02d15d08419a72e66025391" category="list-text">QosPolicyUUID</block>
-  <block id="a556a97469c9c92ae96017110cf88869" category="list-text">QosPolicyName</block>
   <block id="06bd323ff2f6c72ae32689b8ed8391ca" category="list-text">Volume UUID</block>
   <block id="7171c6fe07e485363600c8f185ef3e94" category="list-text">Volume名稱</block>
-  <block id="1058855c946765e1927c10b82cfffc7c" category="list-text">SvmUUID</block>
-  <block id="fcdd950f49e7c76912a5d91e3c7d7f6a" category="list-text">SVM名稱</block>
   <block id="f6eedcf8e2a4c1a7a3123af2e66923b8" category="list-text">收集器伺服效能指標</block>
   <block id="b56d9954b4aacd967a89713e1e627122" category="list-text">收集時間</block>
-  <block id="4109ad08a06e4a86c420f1cd0eee7a15" category="list-text">查詢AIQUM API端點</block>
   <block id="e681e6a42b053db41f074d3ad74ef7f9" category="list-text">回應時間</block>
   <block id="ff1c5438feed00f19d54c7c95503e0cb" category="list-text">記錄數</block>
-  <block id="6274df323315b9a27da1f8726aeb6460" category="list-text">輔助執行個體IP</block>
   <block id="2f90c923a25e10268d0a9a59ce86e1e1" category="list-text">CollectorInstance ID</block>
   <block id="2a30ceba315ca4bc55f553102249b128" category="section-title">限制私有資料存取時移除的項目清單</block>
-  <block id="9f72b95558c0ff1879e6c5f111341f92" category="paragraph">當*移除私有資料*選項啟用時、下列資訊將會消失：</block>
   <block id="d6ed36bb2b00046e0edf3d24b526b7ad" category="list-text">叢集名稱</block>
   <block id="dc9549d0555ea98d49733096efa04a51" category="list-text">叢集位置</block>
   <block id="cbbe2529191684481dca437fbfd68bd8" category="list-text">叢集聯絡人</block>
   <block id="b42e7e9f43276548d600d26ad21cd252" category="list-text">節點名稱</block>
   <block id="5913e0dfd50273b54bb1d960674d7abb" category="summary">Keystone統一化管理程式先決條件</block>
-  <block id="4d88b7e790033ca4166ca4ab73cdf512" category="doc">必要條件Active IQ Unified Manager</block>
-  <block id="ac2e19aa7863e50ba1e9a70c83b8445b" category="paragraph">若要設定及啟用Keystone Collector、Active IQ Unified Manager 應以特定組態安裝支援功能（Unified Manager）。</block>
-  <block id="ad3045b448920c4dca9aa53735366dcc" category="paragraph">確認Unified Manager伺服器已設定為安裝Unified Manager 9.7或更新版本、且已啟用API閘道功能。</block>
-  <block id="b8f5f7a57bc1d52226404b891d492720" category="paragraph">如需安裝Unified Manager的相關資訊、請參閱下列連結：</block>
   <block id="d0b5d22f0f22d32554c2064ce1e75865" category="inline-link">在VMware vSphere系統上安裝Unified Manager</block>
   <block id="af5e840663cada43f534ae4ad3ceb289" category="inline-link">在Linux系統上安裝Unified Manager</block>
-  <block id="37f222b07ebf09dfe392475f07af56ed" category="paragraph">您應該在Unified Manager中建立下列使用者、以供Keystone Collector使用及收集效能資料：</block>
-  <block id="d5110307304cc56c38ba81dd00a2d42b" category="list-text">Keystone Collector的服務帳戶<block ref="e1b3ec89ead7f83a9245ed5c9cacfdbf" prefix=" " category="inline-code"></block> 使用者角色：此使用者必須負責收集使用量資料。Keystone Collector服務透過API與Unified Manager通訊。此服務帳戶是通訊所需的帳戶。</block>
-  <block id="c7bf1f1fe35564032c03d3430ffc9caf" category="list-text">答<block ref="e307db07b3975fef922a80d07455ee5e" prefix=" " category="inline-code"></block> 使用者帳戶<block ref="500e2a5ef3a5e2ed448264b61db39efd" prefix=" " category="inline-code"></block> 角色：此使用者是收集效能資料的必要使用者。</block>
-  <block id="46de504f526b45c0de06f852a29508a4" category="paragraph">如需使用者建立、使用者類型及使用者角色的相關資訊、請參閱下列連結：</block>
-  <block id="3ce21a8f47ccabc1588563bb15ad2eb4" category="inline-link">使用者類型定義</block>
   <block id="214e0ad375a14ed7b9c729ad961af779" category="inline-link">使用者角色定義</block>
-  <block id="eeb73764fe75de1f17f8fa939253d44f" category="inline-link">Unified Manager使用者角色與功能</block>
   <block id="af0d1e7c2a1092424d1db7635cad9143" category="inline-link">存取Unified Manager Web UI</block>
   <block id="e12cdb6af9280f76fbd409784aba300f" category="inline-link">新增使用者</block>
   <block id="50fd415addaa4c9909b813403a3c7bd4" category="inline-link">建立資料庫使用者</block>
-  <block id="c315b852e8d9f9ccef94be96ee14d237" category="paragraph"><block ref="c315b852e8d9f9ccef94be96ee14d237" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e248ff3e5885be0d25ca56d2853e64cf" category="section-title">在Unified Manager中啟用API閘道</block>
-  <block id="9e080d5e3d0873c0b22af56ab053b040" category="paragraph">Keystone Collector利用Unified Manager API閘道與ONTAP 各種叢集進行通訊。</block>
-  <block id="9ce86c493f199ef6d7b243021c36b016" category="paragraph">您可以從Web UI或透過Unified Manager CLI執行幾個命令來啟用API閘道。</block>
-  <block id="cba13d286dfb58e4fa7aa4c597f9618e" category="section-title">從Web UI啟用API閘道</block>
-  <block id="712755821401a9c96c96b0ede37ac613" category="paragraph">若要從Unified Manager Web UI啟用API閘道、請遵循下列步驟：</block>
   <block id="adaf9d0df55e24cafa452bb6683304c4" category="inline-link">啟用API閘道</block>
-  <block id="de99b8747e0d74962485b2b0ff2422a2" category="section-title">透過Unified Manager CLI啟用API閘道</block>
-  <block id="4d5b831c9948782f03d70dea8bd61ac2" category="paragraph">這些步驟說明如何透過Unified Manager CLI啟用API閘道存取。</block>
   <block id="349cd340e36e6c99b024c4cce5735bdc" category="inline-link">支援的Unified Manager CLI命令</block>
-  <block id="59b1195d93b77107c94f0ef2fdde18d4" category="list-text">在Unified Manager伺服器上、開始SSH工作階段並登入Unified Manager CLI。<block ref="0c8c524a89baf2ffad5c88cd862dc1cc" prefix=" " category="inline-code"></block></block>
-  <block id="901ed5e7d1cacfaba746d741e522220a" category="list-text">確認API閘道是否已啟用。<block ref="7489a0a94d756e7169db7db466391d65" prefix=" " category="inline-code"></block>如果傳回的值為<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>、表示已啟用API閘道功能。</block>
-  <block id="ed99779c4495e92781abe97e3cb78909" category="list-text">如果傳回的值為<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block>下、執行此命令以啟用API閘道功能：<block ref="b09cad6fba489605054fc3982bb55f65" prefix=" " category="inline-code"></block></block>
-  <block id="07e4e42c277e7989e64e6a8ca2abc411" category="list-text">重新啟動Unified Manager伺服器以套用設定。如需相關資訊：</block>
   <block id="963d08ca263f6cd538d14c2e7f2ec229" category="inline-link">重新啟動Unified Manager</block>
   <block id="f0534e91aef6ef17323964d9d72a8ced" category="inline-link">重新啟動Unified Manager虛擬機器</block>
   <block id="4d222ee5a437d16bcebf771263f107fb" category="summary">在Linux系統上安裝Keystone收集器的先決條件</block>
   <block id="ec42ecd035e3697033aaf0a3f87f6d29" category="doc">Linux系統需求</block>
   <block id="236d0b94e19b8de0c91e1d1af4193017" category="paragraph">在Linux系統上安裝Keystone Collector需要幾種組態。</block>
-  <block id="b2fd1805099cea10b9755cec2eb2f355" category="paragraph">需要下列組態：</block>
   <block id="29bc7d9ab3c94b603834dbbd074f9667" category="list-text">作業系統：CentOS 7或Red Hat Enterprise Linux 8．6或更新版本</block>
   <block id="6c0ecb6db472eae3c84276b7cd5ea34f" category="list-text">Chroyd時間同步</block>
   <block id="cb4ff22dcb36625e975bdc82452939ca" category="list-text">存取標準Linux標準軟體儲存庫</block>
@@ -764,7 +707,6 @@
   <block id="0e8433f9a404f1f3ba601c14b026d321" category="paragraph">HTTPS</block>
   <block id="5f76d762520637f1eb1b8dd5e4b71129" category="paragraph">TCP 443</block>
   <block id="e89ab59baea830bd940c300886c50efe" category="paragraph">必填</block>
-  <block id="772d1ee74946ca97e3ed2ff0026d1ac0" category="paragraph">Keystone Collector使用量度量集合</block>
   <block id="8e77c75fd2b5c8f6c41f3c1b738d2a22" category="paragraph">網際網路（根據稍後提供的URL需求）</block>
   <block id="1de3382e8d585a7e028aaf322ae1a2e1" category="paragraph">HTTP、HTTPS</block>
   <block id="77af2ba0b86f594a268203e05693cb8f" category="paragraph">TCP 80、TCP 443</block>
@@ -856,9 +798,6 @@
   <block id="0ec21884a1f8e084bc4142f4b280b4b0" category="paragraph">中提供的Keystone YUM儲存庫用戶端組態<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 在透過此儲存庫下載的所有軟體上使用強制GPG檢查（gpgchecking = 1）。透過Keystone儲存庫下載的任何未通過簽章驗證的RPM都無法安裝。此功能用於Keystone Collector的排程自動更新功能、以確保您的站台僅安裝有效且真實的軟體。</block>
   <block id="4fbba36ad0c25fac7911d3ecc475d459" category="summary">什麼是Keystone Collector</block>
   <block id="f5dfacf7a95f4945b3caa091e27ec747" category="doc">Keystone Collector總覽</block>
-  <block id="3ad8599d65f1ea6134d06c3e5b5c37c5" category="paragraph">若要使用及啟用Keystone服務、您應該在站台的VMware vSphere或Linux系統上安裝Keystone Collector。</block>
-  <block id="15264f674a628e8b6d0773cc8d1d23d5" category="admonition">此處提供的安裝與組態資訊僅適用於ONTAP 不適用的地區。</block>
-  <block id="5ccae855bf628e16de7db39004cc76f9" category="paragraph">Keystone Collector是Keystone計費平台的主要元件、可利用Active IQ Unified Manager 各種應用程式來連接ONTAP 至各個儲存系統、讓您在傳送帳單資料以進行報告時、也能監控儲存環境的健全狀況。</block>
   <block id="082821bd60f72deca861daa75a2c3020" category="paragraph">此架構圖表概述典型Keystone環境中的組成元件及其連線能力。</block>
   <block id="d2db1c2e2de5a83644c4f38115701005" category="paragraph"><block ref="d2db1c2e2de5a83644c4f38115701005" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8bc634756fc8c4a813837243b83f84e2" category="summary">在Linux上安裝Keystone收集器</block>
@@ -868,17 +807,14 @@
   <block id="6b0c7fd3768c26e569ee5662bdcc2738" category="list-text">SSH至Keystone Collector伺服器並升級至<block ref="63a9f0ea7bb98050796b649e85481845" prefix=" " category="inline-code"></block> 權限：</block>
   <block id="fafcabb6e961377fe2b62d0f1d2e62be" category="list-text">匯入Keystone公開簽署：<block ref="ccf45be91ebaeda977037b149762acbd" prefix=" " category="inline-code"></block></block>
   <block id="077a3466af24e8fb07c559fb31505772" category="list-text">請檢查RPM資料庫中Keystone Billing Platform的指紋、確認已匯入正確的公開憑證：<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block>正確的指紋如下所示：<block ref="0fd85ff4e797b2ec085aea480b3e9158" prefix=" " category="inline-code"></block></block>
-  <block id="b52fdb593add8bcf6dbc6992210a6702" category="list-text">下載<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 檔案：<block ref="bf3107618d1780d731e43697918843d5" prefix=" " category="inline-code"></block></block>
   <block id="5000c92898e0e1c2f66f175bc48765b6" category="list-text">驗證檔案的真僞：<block ref="50a551e75e87c897a8ad2128c42de747" prefix=" " category="inline-code"></block>真實檔案的簽名如下所示：<block ref="4fc602b120696aeae5ab8b4ebd2a36e8" prefix=" " category="inline-code"></block></block>
   <block id="eb1f328dadd504e03e367eafd0c1e18c" category="list-text">安裝YUM軟體儲存庫檔案：<block ref="90fdbfbbba2139b53a74cc0098f4e51e" prefix=" " category="inline-code"></block></block>
   <block id="9451601519fe8723586116a31c85beb6" category="list-text">安裝Keystone repo時、請透過YUM套件管理程式安裝Keystone收集器套件：<block ref="94b62ee97dbb40aa61dd0d85daf3c424" prefix=" " category="inline-code"></block></block>
   <block id="d40fe201ca96918eaf7db3c328dc1dac" category="sidebar">歡迎使用Keystone</block>
   <block id="4b5fef6350f906c92ead8e5fcb93fb21" category="sidebar">設定及設定Keystone</block>
   <block id="e5e7352eac1aab74c62e3fb3c13c93eb" category="sidebar">什麼是Keystone Collector</block>
-  <block id="b0f17f32f0719ed2f7f708126ca779c9" category="sidebar">安裝先決條件</block>
   <block id="d495047561c1a08074d3afeeb5b5d172" category="sidebar">VMware vSphere先決條件</block>
   <block id="634b2ff9559aed00b394d1ea933e1865" category="sidebar">Linux先決條件</block>
-  <block id="c92343ee4605153ea6b4fa0021ccacd3" category="sidebar">內部組態Active IQ Unified Manager</block>
   <block id="2ae485aa3ac00a7ebfcd427dc2f82aa4" category="sidebar">安裝程序</block>
   <block id="e1963f69cecc9ae42f0776dbde80b970" category="sidebar">VMware vSphere部署</block>
   <block id="1f331fee3a3f66a9a0cc8b4298329656" category="sidebar">Linux安裝</block>
@@ -893,9 +829,7 @@
   <block id="7653c2f7dacbc36a17ed707c1ae4abce" category="list-text"><block ref="7653c2f7dacbc36a17ed707c1ae4abce" category="inline-link-rx"></block></block>
   <block id="89fb8980c16c92d28af72e0579cfac9c" category="summary">Keystone訂閱報告與圖表</block>
   <block id="deaf5bbabe29231a9826b313fee569a1" category="doc">Keystone訂閱儀表板與報告</block>
-  <block id="783b1055c5e6aba9c0938d11966a2e98" category="paragraph">如果您已訂閱NetApp Keystone 了《Ssestrate-STaaas服務》、您可以在Digital Advisor儀表板上的「* Keystone Subscriptions *」（*基礎概念訂閱*）小工具上監控使用量。</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="inline-link">透過NetApp Keystone 「View訂閱」檢視容量使用率</block>
-  <block id="01c3a560c25b0965cc159e877afd7ebd" category="paragraph">如需Digital Advisor小工具的相關資訊、請參閱<block ref="29d7a7f90d7d38a5b51213a6c0579058" category="inline-link-rx"></block>。</block>
   <block id="530e795f91eac0d251eb1546c915f390" category="paragraph">按一下小工具上的*檢視更多詳細資料*、即可在「*基礎概念訂閱*」頁面上檢視磁碟區上的使用詳細資料和警示。或者、請從左側導覽窗格移至*一般&gt;基礎概念訂閱*。</block>
   <block id="2b5cc61793a2ba9e545466a73e93c16e" category="paragraph">此畫面上的不同索引標籤會顯示訂閱詳細資料、每個服務層級的使用量圖表、以及Volume詳細資料。</block>
   <block id="016b01bead3857be9fd51bfef49b23aa" category="admonition">Keystone訂閱的容量使用量會顯示在儀表板和報告的Tibs中、最多可顯示兩個小數位數。如果使用量低於0.01 TiB、則該值會顯示為0或<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>。如需其他使用量指標、請參閱 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>。如需Keystone中使用不同容量的相關資訊、請參閱 <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>。</block>
@@ -955,34 +889,19 @@
   <block id="2f79ebd4f32cabd1114c688445ebf53e" category="paragraph"><block ref="2f79ebd4f32cabd1114c688445ebf53e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7e3b81d04325da2b3bbb50d615754b46" category="paragraph">如需這些注意事項和警告訊息的詳細資訊、請聯絡支援部門。如需相關資訊、請參閱 <block ref="a7ae718de79af41225531b7d4972e1ef" category="inline-link-macro-rx"></block>。</block>
   <block id="f303aa2ecdcc69fbc97adcf5a2476825" category="paragraph">Digital Advisor可讓您檢視儲存即服務（STaaas）詳細資料、以及您所擁有NetApp基礎架構的相關資訊。數位顧問提供單一儀表板、可清楚掌握您的訂閱、服務層級和容量使用狀況、並可建立詳細報告。</block>
-  <block id="4399c15978a81e58a3e04abf32e24450" category="paragraph">如需有關Keystone的Digital Advisor儀表板小工具的詳細資訊、請參閱<block ref="83b41b6080697e04ba49f73c6bb33a7e" category="inline-link-rx"></block>。</block>
   <block id="7a00a46aa8b851e05a0a8783db55e3ab" category="paragraph">如需Keystone儀表板和報告的詳細資訊、請參閱 <block ref="e4a96850db17c7110d770223b8207b51" category="inline-link-macro-rx"></block>。</block>
   <block id="ac6a5de4e069a7968a64e732a7cbd9af" category="admonition">*問題說明*：Keystone Collector會在使用量測系統中執行多個容器。當Red Hat Enterprise Linux 8.x伺服器使用美國國防資訊系統署（DISA）安全技術實作指南（STIG）原則強化時、會間歇性看到有關fapolicyd（檔案存取原則精靈）的已知問題。此問題識別為 <block ref="c6da6cbf9dd009f994ed56cf4b1ffbbb" category="inline-link-macro-rx"></block>。*因應措施*：在Red Hat Enterprise解決之前、NetApp建議您採用以下方法來解決此問題<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> 進入許可模式。在中 <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>、設定的值<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>。</block>
   <block id="9893071aa012ae6b029eae73ae2be44e" category="list-text"><block ref="9893071aa012ae6b029eae73ae2be44e" category="inline-link-rx"></block></block>
   <block id="6bf0a6b5934bc27f34497309b1c2ce0a" category="list-text"><block ref="6bf0a6b5934bc27f34497309b1c2ce0a" category="inline-link-rx"></block></block>
-  <block id="2d529b5bfbdb6f2ea7a21515c9520115" category="list-text"><block ref="2d529b5bfbdb6f2ea7a21515c9520115" category="inline-link-rx"></block></block>
-  <block id="a9c3d6f1b9ab5326012f266697a5027c" category="list-text"><block ref="a9c3d6f1b9ab5326012f266697a5027c" category="inline-link-rx"></block></block>
-  <block id="1a558e30520bd539ad815f5b269ef544" category="list-text"><block ref="1a558e30520bd539ad815f5b269ef544" category="inline-link-rx"></block></block>
-  <block id="b6defa5b50b28932d58f77e1e765ba87" category="list-text">使用應用程式管理員使用者認證登入Unified Manager Web UI。系統會在安裝期間建立預設的系統管理員使用者。請參閱<block ref="17aa822f94d08050e378f9f079472ac0" category="inline-link-rx"></block>。</block>
-  <block id="236351c3ce34c9c6d35a533bd0d41e7b" category="list-text">使用建立使用者<block ref="cfa584c2240d69ed179ed60a2e698402" prefix=" " category="inline-code"></block>。請參閱<block ref="d546132ce86c2f4d7ae2da99a793de79" category="inline-link-rx"></block>。</block>
-  <block id="2aebcc6573599fb92a201792b1b79f6e" category="list-text">建立<block ref="e307db07b3975fef922a80d07455ee5e" prefix=" " category="inline-code"></block> 使用者：請參閱<block ref="c2493cbb2040ec99e85202f9d90c8a99" category="inline-link-rx"></block>。</block>
-  <block id="c3df6e35437f423efc3576bdf85c8c8b" category="list-text">如需啟用API閘道的相關資訊、請參閱<block ref="e799c624d1913638d4e246c84481fcd8" category="inline-link-rx"></block>。</block>
-  <block id="a41b0d48c6c6f2f876ec27a25b273ab0" category="paragraph">如需支援命令的詳細資訊、請參閱<block ref="174a15c90aa48055b15ccbe06d19bf76" category="inline-link-rx"></block>。</block>
-  <block id="716145cb0c54c69b84104e766f667c6d" category="list-text">在Linux系統上、請參閱<block ref="6eb822e8507f1f310b2723182652f292" category="inline-link-rx"></block>。</block>
-  <block id="f41275e3ce9174cd7c04319fc49798f9" category="list-text">在VMware vSphere系統上、請參閱<block ref="e7d492a81a8574f8c260a7a7e9130e4b" category="inline-link-rx"></block>。</block>
   <block id="e41d7b27749843cacc5b63d577d05563" category="paragraph">Keystone進階資料保護服務可同步將資料鏡射至次要站台。萬一主站台發生災難、二線站台可以接管、而不會遺失任何資料。這項功能運用MetroCluster 兩個站台之間的「支援資料保護」功能。您只能將進階資料保護附加服務用於檔案和區塊儲存服務。如需ONTAP MetroCluster 有關資料、請參閱 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>。</block>
   <block id="580c330994127defe5cd5153bad3a4ba" category="paragraph">儲存服務品質（QoS）是一項關鍵技術、可確保應用程式獲得一致且可預測的效能。如果沒有QoS、某些工作負載（例如多個系統開機）可能會佔用一段時間的整個資源、並影響其他工作負載。如需QoS的相關資訊、請參閱<block ref="3c8d0a20452a1fdd8de7e683059a52bc" category="inline-link-rx"></block>。</block>
   <block id="179e62f7e40ac7f5694e829467ad076f" category="paragraph">應用QoS可確保應用程式每次都能獲得一致的效能。NetApp ONTAP 旨在定義QoS的兩個參數：<block ref="f481633ea70c9b3dfd9b26e1e0045eee" category="inline-link-rx"></block>和處理量最低<block ref="406d3c0c34cedc53d1b49a1bfac79dea" category="inline-link-rx"></block>。QoS最大值代表工作負載可達到的IOPS、Mbps或IOPS和Mbps的最大數目。另一方面、QoS Min則保證工作負載的處理量不會低於特定的IOPS或Mbps、或IOPS和Mbps。</block>
-  <block id="1e75ab2f9751f71d24e5ca3107121437" category="paragraph">隨QoS原則的大小變化、會自動套用調適性QoS（AQO）作為Keystone服務、以維持IOPS與TB/GBs的比率。如需調適性QoS的相關資訊、請參閱<block ref="837de1b03a328f464002642d845ea947" category="inline-link-rx"></block>。</block>
-  <block id="e7c930482608603fab44c72884516b4d" category="list-text">*原則群組名稱*：調適性QoS原則群組的名稱。例如、<block ref="e22fe87dc37298f80d1bbd25d59219b8" prefix=" " category="inline-code"></block>。</block>
   <block id="e88f55d6b9c231a5c6bcae698bdfd7dc" category="list-text">* vserver*：Vserver或儲存VM（儲存虛擬機器）的名稱。</block>
   <block id="308ede543987c09a3ef34aff33fbd87f" category="list-text">*預期IOPS *：ONTAP 只要有效能保證、即可提供最低IOPS / TiB數量。</block>
   <block id="095c182a20e3d5d17cb203ffded54217" category="list-text">*尖峰IOPS *：在效能受到限制之前、磁碟區可用的最大IOPS / TiB數量。</block>
   <block id="b2744d264660e6ee9104834a92616c0f" category="list-text">*預期IOPS分配*：此欄位可控制磁碟區的預期IOPS是否取決於已分配或已使用的磁碟區大小。在Keystone中、這是根據已分配的空間而定。</block>
   <block id="48498032e36fc1bb3a4f2820d6c121e0" category="list-text">*尖峰IOPS配置*：此欄位可控制磁碟區可用的尖峰IOPS是否取決於已分配或已使用的磁碟區大小。在Keystone中、這是根據已用空間而定。</block>
-  <block id="4c90a7c231372c7d1bb879f2ac327854" category="list-text">*絕對最小IOPS *：如果磁碟區大小非常小、將套用至磁碟區的預期IOPS最低數目、否則會導致不可接受的IOPS數目。此值預設為1、000<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block>、500代表<block ref="8d5e7e72f12067991186cdf3cb7d5d9d" prefix=" " category="inline-code"></block>和75表示其他服務層級。</block>
   <block id="83968617de22b9218018ccb02b138d69" category="paragraph">如需IO密度的相關資訊、請參閱 <block ref="3ce2bf0236919e451c90f574367e80ae" category="inline-link-macro-rx"></block>。如需AQO原則群組的詳細資訊、請參閱<block ref="e1f6c27c218a9f9df79e5c49fb7040d6" category="inline-link-rx"></block>。</block>
-  <block id="192df84a9403e8f9211cf3ee869e0bcf" category="paragraph">下列各節將說明各服務層級的調適性QoS原則設定。此處提供的每個服務層級的最小和最大Volume大小、可為磁碟區提供最佳的IOPs和延遲值。在這些準則之外建立太多磁碟區、可能會對這些磁碟區的效能造成負面影響。</block>
   <block id="d1dc13c797f457ef0f8af6fba8c638fa" category="paragraph">優質服務層級的設定與命令：</block>
   <block id="7448ec74d1e6091b2ad38508ebdc37f4" category="section-title">標準服務層級的設定</block>
   <block id="f20f6fc30a0b0f9782dbad2fdc8d1694" category="paragraph">標準服務層級的設定與命令：</block>
@@ -998,6 +917,231 @@
   <block id="c9963abc84e870941cff082c5577ec18" category="paragraph">根據您所使用的容量、以及您所承諾的訂閱容量、依據「叢增容量」（Keystone）STaaS計費NetApp Keystone 。</block>
   <block id="7e974afef4ba00b90e789eeac590a840" category="paragraph">您的連拍限制是在Keystone協議中決定和指定的。通常比承諾容量高20%。</block>
   <block id="391a68f52dcd5fd65d9c97ad33e80a85" category="paragraph">承諾容量是指您在購買訂閱時所承諾的容量。承諾容量和突發容量是根據服務層級來測量。耗用容量是工作負載實際使用的容量。當耗用容量大於服務層級的已認可容量時、系統會記錄突發消耗、並據此收費。通常比承諾容量高20%。超過突發容量的使用量會顯示為「高於突發上限」。</block>
-  <block id="215e085cba06e994e7e4e5cf0797e2f7" category="sidebar">數位顧問基礎概念儀表板與報告</block>
   <block id="103955022b1603eabc8ae0b8c08e287a" category="sidebar">我要如何查看每個服務層級的使用量？</block>
+  <block id="1bcbd92a1182a8044032c0af47695d8a" category="list-text">下載<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 檔案：<block ref="d1ed07754d396f9745478bc6388ae23a" prefix=" " category="inline-code"></block></block>
+  <block id="61736ed4cf14c0d0047c1393f9ff68d3" category="admonition">完成安裝時、您可以使用Keystone Collector Management終端使用者介面（TUI）公用程式來執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。請參閱 <block ref="14e6b60cfb93c92598e40786e00457b6" category="inline-link-macro-rx"></block> 和 <block ref="81c399588663f35131a970a2d830c241" category="inline-link-macro-rx"></block>。</block>
+  <block id="757b4ebc5c20e88eeb53580e8bf338fd" category="summary">Keystone收集器提供的帳單資料收集ONTAP 功能、以供收集和StorageGRID 收集</block>
+  <block id="2a5a28f579ee3b6816454c527351ec56" category="doc">Keystone收集的使用者資料類型</block>
+  <block id="d980f7fd4d1a571450a5dfb6e21c1ca0" category="paragraph">Keystone會收集組態、狀態和使用資訊、以供Keystone ONTAP 、以及Keystone StoragGRID訂閱之用。如果ONTAP 在Keystone Collector中啟用此選項、也只能收集效能資料以供參考。</block>
+  <block id="e14f2b2670997486a2e4f3918cbe9cb6" category="section-title">資料收集ONTAP</block>
+  <block id="fb81e227d7ec41942ad20d4497532f70" category="example-title">收集ONTAP 的使用資料以供參考</block>
+  <block id="4752622b9e77aa409c0f10beb0726f74" category="paragraph">下表是針對ONTAP 下列項目收集的容量使用資料代表範例：</block>
+  <block id="9b99bf7d2bfd4b09363304c166832734" category="list-text">叢集</block>
+  <block id="9167f44e96ef14493eb91fa385a1b03a" category="list-text">叢集名稱</block>
+  <block id="34b6cd75171affba6957e308dcbd92be" category="list-text">版本</block>
+  <block id="16b3dcedf3f7512ac57bc6aaba0111bf" category="list-text">QoSAdaptivePolicyGroup名稱</block>
+  <block id="6c62f1f75b11c5904ec1b838493a986e" category="list-text">QoSPolicyGroup名稱</block>
+  <block id="f613eaede8ee76e8a5ef8c08d7677fd6" category="list-text">實體使用</block>
+  <block id="ea438094b2a4f42c2773255365acf94b" category="list-text">Vserver</block>
+  <block id="cfe6a9a8bc184fff2012f6f48e02ef24" category="list-text">VserverName</block>
+  <block id="14550a67badc66e8732d58938aaf83ad" category="list-text">VserverUUID</block>
+  <block id="071b8782129749bf39aad727ecb26d79" category="list-text">子類型</block>
+  <block id="ef4525b2334ade8c44cef9183f8044e9" category="list-text">儲存Aggregate</block>
+  <block id="5f092d1817e2430866ec8f3f6f624cb9" category="list-text">Aggregate物件存放區</block>
+  <block id="fee2a02b904d6d1f207e959dbd807a75" category="list-text">複製磁碟區</block>
+  <block id="b73733e57edbb3f1929ce8038f24f089" category="list-text">Vserver</block>
+  <block id="78eddfe68e4834428c6df59820a04df7" category="list-text">ParentVolume</block>
+  <block id="87325cdbd5af1d780ce7d658c4a881e4" category="list-text">ParentVserver</block>
+  <block id="73a7ca34698606d30cf4d22ac21020c1" category="list-text">Is組成</block>
+  <block id="e9782e3b710098314bf6fa20ad0f1180" category="list-text">SplitEstimate</block>
+  <block id="46a2a41cc6e552044816a2d04634545d" category="list-text">州/省</block>
+  <block id="b088c1c83a9cca3a0a8600b5a91635d8" category="list-text">FlexCloneUedPercent</block>
+  <block id="030a11012549d38ed8ec6bba580fee47" category="list-text">儲存LUN</block>
+  <block id="415de03f68bb9efc3c6e4fb0de75f4eb" category="list-text">LUN UUID</block>
+  <block id="43188da50098252bd688d8fdc94fa0c9" category="list-text">LUN名稱</block>
+  <block id="4f36f3d14aa1488f4aa8f9a0e414924b" category="list-text">QoSPolicyUUID</block>
+  <block id="1068c5a3769daaa4ccf4b69cc38740ff" category="list-text">QoSPolicyName</block>
+  <block id="b6e5caa11ce032a0e6cb4d6498bd8efa" category="list-text">SVMUUID</block>
+  <block id="c50f4a752643297cd09ba0deaf0c0827" category="list-text">SVM名稱</block>
+  <block id="22e802f805cc0ae139fc4fa75879cc1f" category="list-text">儲存磁碟區</block>
+  <block id="e790dfe9978be17c9fb3589339e80f1a" category="list-text">SVMName</block>
+  <block id="eaacf41582c0bb4547020cf087f1087c" category="list-text">電容TierFootprint</block>
+  <block id="c0c1b93e65285ee10103465b43b5687f" category="list-text">效能TierFootprint</block>
+  <block id="b872e9fe3ab7ed385230dd6764d6673a" category="list-text">總佔用空間</block>
+  <block id="a29f9e086b019514c2f3b670c2503f3b" category="list-text">分層政策</block>
+  <block id="ece4fcc898d2205466c58826dafa9f71" category="list-text">IsProtected旗標</block>
+  <block id="46307311d2bf0980e20971fc548055d1" category="list-text">Is目的地 旗標</block>
+  <block id="a94f0a2630b8f3a970ed15982f47f363" category="list-text">CloneParentUUID</block>
+  <block id="d652696dcf63b8343a323a9db5a7743c" category="list-text">QoS原則群組</block>
+  <block id="08f10ad62217aad2f17199a99df6664a" category="list-text">PolicyGroup</block>
+  <block id="59d6a947a3fa012342acb0cc5bb9f071" category="list-text">最大處理量</block>
+  <block id="feefc9f1a500f33c77ecf2d3e32aff8e" category="list-text">最小處理量</block>
+  <block id="89d5c68097857045e0569c808dc7146c" category="list-text">最大輸入IOPS</block>
+  <block id="d5d1ae1a459742eec1b9d42e1e81a2df" category="list-text">最大推入MBps</block>
+  <block id="f60ca754c2e402e52460e6e8a42ed78b" category="list-text">MinThroughputIOPS</block>
+  <block id="7e134db0ee1f91bffe5eaef1da5bf86e" category="list-text">MinThroughputMBps</block>
+  <block id="2c560901400a2229f3c385ef2c941f48" category="list-text">IsShawred旗標</block>
+  <block id="59e055ccbb3c17ee6bdb718716ea3ead" category="list-text">可調式QoS原則群組ONTAP</block>
+  <block id="da7f3e354315217a8d3c5dcbb4738f8c" category="list-text">PeakIOPS</block>
+  <block id="0eb19969399e8cfef4584ffa90a7b92e" category="list-text">PeakIOPsAllocate</block>
+  <block id="28e1f8fa02395e52c323a72f1c40732e" category="list-text">絕對MinIOPS</block>
+  <block id="34f69c5fc85b82becfb3c6f1034d0f5c" category="list-text">高效能IOPS</block>
+  <block id="9cf737e74d2ca4e47a565aa7007735bf" category="list-text">ExpedIOPSAllocate</block>
+  <block id="18d721bf398e589932630551a08d2b1a" category="list-text">區塊大小</block>
+  <block id="9d88c302759cca363a7d0977457ebe34" category="list-text">佔用空間</block>
+  <block id="bd7a9717d29c5ddcab1bc175eda1e298" category="list-text">Volume</block>
+  <block id="74042b56b5c7708c140406878f32f3af" category="list-text">Volume BlocksFootprintBin0</block>
+  <block id="be48bdf4b450783af38839f3a15aadd0" category="list-text">Volume BlocksFootprintBin1</block>
+  <block id="e112777481084d9223b96fb647b02196" category="list-text">叢集MetroCluster</block>
+  <block id="7f1ebd781923623a8e963c3c2c611842" category="list-text">RemoteClusterUUID</block>
+  <block id="9c527f3509679bea8efecc1c2c405bf9" category="list-text">RemoteCluserName</block>
+  <block id="c50b0f4e7fd670684a2dfa27df09c748" category="list-text">本地組態狀態</block>
+  <block id="6ed574c24191a7692aab50164f2950d3" category="list-text">RemoteConfiguration狀態</block>
+  <block id="650be61892bf690026089544abbd9d26" category="list-text">模式</block>
+  <block id="a38399fd05eed54a30356063875ba5c7" category="list-text">查詢的是應用程式介面API端點Active IQ Unified Manager</block>
+  <block id="81631db9933f83ee6511c56a7577d112" category="list-text">AIQUMInstance IP</block>
+  <block id="101f4a88b595ebd0ef997252c9f00966" category="example-title">針對ONTAP VMware所收集的效能資料</block>
+  <block id="06b0dd42b36609a32d1b4e237ca0b021" category="paragraph">下表為針對ONTAP VMware所收集之效能資料的代表性範例：</block>
+  <block id="878efc5de6def52e25be6f622fb5a7ee" category="list-text">叢集UUID</block>
+  <block id="8b3f98ef5143f8196aca53b61aeccebd" category="list-text">ObjectID</block>
+  <block id="fc04fed9886af801488144e5f6ba08df" category="list-text">Volume執行個體UUID</block>
+  <block id="36a8c723914330ec4860d294277ed4aa" category="list-text">節點序列</block>
+  <block id="a3e280679ff79302edae59279b6cb77e" category="list-text">ONTAPVersion</block>
+  <block id="ee58c2f2ea64f15f39a239bab09f9060" category="list-text">AIQUM版本</block>
+  <block id="2ee34178bb8415b7d7234cd27b83aed6" category="list-text">Aggregate</block>
+  <block id="d2c93fffe3fc237b120d0088af231d57" category="list-text">AggregateUUID</block>
+  <block id="16c68602949967966655cfce02724ef7" category="list-text">資源金鑰</block>
+  <block id="0a87878e34978e388b8cdaff2b730a12" category="list-text">時間戳記</block>
+  <block id="6933eaf9044b51d77f33bcde735298e5" category="list-text">IOPSPerTb</block>
+  <block id="26ae7bdd1d6fb8c4886e6fde8d12601c" category="list-text">延遲</block>
+  <block id="81338f08b1589f192ee03cd62124acab" category="list-text">讀入延遲</block>
+  <block id="b6435aa6b1713e19dffdf5f95d15d5cc" category="list-text">WriteMBps</block>
+  <block id="eee034afe0ee76e59cb0c9a6135d2db9" category="list-text">QoSMinThroughutLatency</block>
+  <block id="45b3ca481b949ff4d7232b4a1ab56545" category="list-text">QoSNBladeLatency</block>
+  <block id="34267f416301e46a62f8a3497a555fc8" category="list-text">已使用的「總部」</block>
+  <block id="8b6d378279239185299cf5d76c4892f2" category="list-text">CacheMissRatio</block>
+  <block id="ad1e9177dc1f24abd5281cbc8cf84543" category="list-text">其他延遲</block>
+  <block id="0b272bc0dbc72183094760e84e3fcdf7" category="list-text">QoSAgggreggregateLatency</block>
+  <block id="79073619fba8242703524f16870ff858" category="list-text">IOPS</block>
+  <block id="8616a83783abb33696434719e8db99fd" category="list-text">QoSNetworkLetency</block>
+  <block id="5754f2ee0de974a60a56d70a8dae0925" category="list-text">可用作業</block>
+  <block id="ae214f3b4e61e9c9267cbdd5d5d34b17" category="list-text">寫入延遲</block>
+  <block id="680e1fdb5516beca6fb2b45af013d8ce" category="list-text">QoSClocks延遲</block>
+  <block id="40212ef1af4ab6573fbccb59579e3e97" category="list-text">QoSClusterInterconnectLatency</block>
+  <block id="ca86ff37d8c0f15503b6694909dec49e" category="list-text">其他MBps</block>
+  <block id="6276b1d29fce8bbbb87c12541c357ce9" category="list-text">QoSCopLatency</block>
+  <block id="f36e8b3a6b85ff14265d49d7d0cd9ed6" category="list-text">QoSDBladeLatency</block>
+  <block id="a7d6e22f4e42b9f526689d7c05ed15ce" category="list-text">使用率</block>
+  <block id="b646f9e01aaf369deae647cf99806b14" category="list-text">ReadIOPS</block>
+  <block id="ce52b51ab4d71cd3295318ce62cfa7ee" category="list-text">Mbps</block>
+  <block id="e01447fc318f3ce4ba5fb566774f5373" category="list-text">其他IOPS</block>
+  <block id="2202d032b4f529ea9e11b385d82de8f6" category="list-text">QoSPolicyGroupLatency</block>
+  <block id="622ed11dd5a5b70f82c91123679be082" category="list-text">ReadMBps</block>
+  <block id="dd6b51fd52aa3e07c1dc87b12570932d" category="list-text">QoSSyncdSnapmirmirorLatency</block>
+  <block id="e6871f6e179f19bf305c7be5a0f3024b" category="list-text">寫入IOPS</block>
+  <block id="42e87ad71d949a61960ad83482cb58b0" category="paragraph">在Keystone Collector上啟用「*移除私有資料*」選項時、ONTAP 下列使用資訊將不再用於支援。此選項預設為啟用。</block>
+  <block id="973a9795a80306129b19cf9ac732cadc" category="list-text">儲存LUN名稱</block>
+  <block id="6519cc2cb2093a31c9e2c21cd389d7b6" category="list-text">RemoteClusterName</block>
+  <block id="8a5466dffc1fb3688afcf85af44acae0" category="section-title">資料收集StorageGRID</block>
+  <block id="e4045be0afd459dcae607006e83ba4cb" category="example-title">收集StorageGRID 的使用資料以供參考</block>
+  <block id="ead7f826444254c9fd18d42967aa1bdf" category="paragraph">下列清單為代表性的範例<block ref="655d716c75a0a3e6c9b4eb8987013918" prefix=" " category="inline-code"></block> 收集StorageGRID 對象：</block>
+  <block id="4b6e9c25ecc55504ebb330411f41421a" category="list-text">身分證件StorageGRID</block>
+  <block id="351a2eb8764e19b9e565e8a355469e70" category="list-text">帳戶ID</block>
+  <block id="5d55785a871474b5490ecc8da433a32d" category="list-text">帳戶名稱</block>
+  <block id="939b2d4bddcf500a462542e2030c1874" category="list-text">帳戶配額位元組</block>
+  <block id="1d606ad48cfdb776c19c079d7ecf686c" category="list-text">儲存區名稱</block>
+  <block id="aa6bae1eb1c833c18ec15ad5430e6d09" category="list-text">儲存區物件計數</block>
+  <block id="762730006f434275a930238bb9bf9d60" category="list-text">儲存區資料位元組</block>
+  <block id="3e71b5210e7190fb994895de9828d56c" category="paragraph">下列清單為代表性的範例<block ref="09a4c9275302765ecff4dc7a388b935e" prefix=" " category="inline-code"></block> 收集StorageGRID 對象：</block>
+  <block id="5c7209cbcf1475a6e48114564f387e20" category="list-text">節點ID</block>
+  <block id="b250a007769c7ffe655c74cfb8176b8c" category="list-text">站台ID</block>
+  <block id="668445f09da337d276dc852bb6a0dbb3" category="list-text">站台名稱</block>
+  <block id="d9a17c1c9e8ef6866e4dbeef41c741b2" category="list-text">執行個體</block>
+  <block id="5e472656324243cf75a48a2511d9db3b" category="list-text">顯示儲存使用率位元組StorageGRID</block>
+  <block id="e50cea427bf45d9fd842ca090a131a2e" category="list-text">支援中繼資料位元組的儲存使用率StorageGRID</block>
+  <block id="1b05ae60c6a95431d1144d1061deac4e" category="paragraph">在Keystone Collector上啟用「*移除私有資料*」選項時、StorageGRID 下列使用資訊將不再用於支援。此選項預設為啟用。</block>
+  <block id="ea0666b63b24bfb1928b030c255aa4e7" category="list-text">帳戶名稱</block>
+  <block id="b07e5b04b11dc203e124dd9f208e3c13" category="list-text">BucketName</block>
+  <block id="4af5ba8f28f864edfd068c1ed0926a13" category="list-text">站台名稱</block>
+  <block id="6e743d2fd74b2d2e5de8dbef07a01421" category="list-text">執行個體/節點名稱</block>
+  <block id="8cf5f59a1100fa36f9623b70bdb992ba" category="paragraph">若要使用Keystone服務並檢視使用資料、您應該在站台的VMware vSphere或Linux系統上安裝Keystone Collector。</block>
+  <block id="7114fdaf9483bf8fda55eeb6cced9e80" category="admonition">此處提供的安裝與組態資訊適用於ONTAP 供應器的版本StorageGRID 。要求和程序對ONTAP 整個過程而言均屬通用、StorageGRID 但有一些例外。</block>
+  <block id="dcca2c79206725f48705313592b94362" category="paragraph">Keystone Collector是Keystone計費平台的使用量採購元件、可利用Active IQ Unified Manager VMware和其他應用程式連線ONTAP 至VMware和StorageGRID VMware系統、收集Keystone訂閱的使用量和SLA效能計量所需的中繼資料。它可讓您監控系統健全狀況、同時傳送帳單資料以供報告。</block>
+  <block id="fb03e0490a19e5a8091adb56628a89c0" category="paragraph">Linux伺服器需要下列組態：</block>
+  <block id="875971a9a690ce8a36d7f42afd4543e1" category="paragraph">Keystone Collector伺服器虛擬機器（SVM）需要下列組態：</block>
+  <block id="3cd8ee624224889231554d68f6c0f471" category="list-text">核心：2個CPU</block>
+  <block id="729c0bdf36ec5a81531eff6e6786c89d" category="list-text">RAM：4 GB RAM</block>
+  <block id="6689c36f38716c4f3b09772966e38e5d" category="list-text">磁碟空間：50 GB vDisk</block>
+  <block id="825532bab792320adbfc19da4189a29f" category="paragraph">Keystone收集器（用於Keystone ONTAP ）</block>
+  <block id="13ac1069774f15afd8a2e57d64c6e26c" category="paragraph">必填（若使用Keystone ONTAP ）</block>
+  <block id="69c4b9572095206692a88cb65e57105e" category="paragraph">Keystone Collector使用量數據收集ONTAP 以供參考</block>
+  <block id="ce664ed1582986d4dd05b45447443992" category="paragraph">Keystone收集器（用於Keystone StorageGRID ）</block>
+  <block id="6d41df01ebe69f9a8cdb1f2a2c8a67db" category="paragraph">系統管理節點StorageGRID</block>
+  <block id="5f3404cf964777c8e1916a088cdbc3f1" category="paragraph">必填（若使用Keystone StorageGRID ）</block>
+  <block id="d5afaa3fa8ab0daf63847efd0d324dda" category="paragraph">Keystone Collector使用量數據收集StorageGRID 以供參考</block>
+  <block id="3a9be63d84e9a8b01937ad5727618ebd" category="paragraph">Keystone收集器（一般）</block>
+  <block id="5cf9b00e7eb204d30cc672cb9dc479ca" category="doc">其他必要條件、可用於ONTAP 執行效能提升和StorageGRID 效能提升</block>
+  <block id="5302a9af7c7db5b391c77f0b0b58a9ae" category="paragraph">您應該完成ONTAP 一些其他的先決條件、以利執行功能和StorageGRID 功能。除了Linux/VMware vSphere系統需求、請確定您已完成這些特定先決條件。按一下所需的索引標籤以深入瞭解。</block>
+  <block id="e3d9300aee94dbd6833b9b494b4e413a" category="paragraph">若要在ONTAP 更新版本中安裝Keystone Collector、請先執行下列步驟：</block>
+  <block id="6b127757330398600af046a789f68aff" category="list-text">確保Active IQ Unified Manager 將某部支援統一化管理程式9.7或更新版本的伺服器設定為支援（Unified Manager）。如需安裝Unified Manager的相關資訊、請參閱下列連結：</block>
+  <block id="29971410a584e921e5516d3f2b7bfb4d" category="inline-link">新增叢集</block>
+  <block id="86eb2db656d7aa748c750a4cf424c4f9" category="list-text">確保ONTAP 已將該叢集新增至Unified Manager。如需新增叢集的相關資訊、請參閱<block ref="b475884884d95a88bbe7062e46db77b2" category="inline-link-rx"></block>。</block>
+  <block id="8c600472916c85183244220ecd5f7a13" category="list-text">建立具有特定角色的Unified Manager使用者、以便收集使用量和效能資料。執行這些步驟。如需使用者角色的相關資訊、請參閱<block ref="710c561d5a618a0a66fb1efb6e45aca1" category="inline-link-rx"></block>。</block>
+  <block id="f4edd80748d802322bc79d366c818084" category="list-text">使用安裝期間產生的預設應用程式管理員使用者認證、登入Unified Manager Web UI。請參閱<block ref="17aa822f94d08050e378f9f079472ac0" category="inline-link-rx"></block>。</block>
+  <block id="aa70630748bc7b549b73d77c79a54b64" category="list-text">建立Keystone Collector的服務帳戶<block ref="e1b3ec89ead7f83a9245ed5c9cacfdbf" prefix=" " category="inline-code"></block> 使用者角色：Keystone Collector服務API使用此服務帳戶與Unified Manager通訊、並收集使用資料。請參閱<block ref="d546132ce86c2f4d7ae2da99a793de79" category="inline-link-rx"></block>。</block>
+  <block id="3af92af5e2510178716df31515a15c87" category="list-text">建立<block ref="e307db07b3975fef922a80d07455ee5e" prefix=" " category="inline-code"></block> 使用者帳戶<block ref="500e2a5ef3a5e2ed448264b61db39efd" prefix=" " category="inline-code"></block> 角色：此使用者是收集效能資料的必要使用者。請參閱<block ref="c2493cbb2040ec99e85202f9d90c8a99" category="inline-link-rx"></block>。</block>
+  <block id="cd538adb389ee22c5e1949befc2abd8e" category="list-text">在Unified Manager中啟用API閘道。Keystone Collector利用API閘道功能與ONTAP 各種叢集進行通訊。您可以從Web UI或透過Unified Manager CLI執行幾個命令來啟用API閘道。</block>
+  <block id="d4c97e5982498adeb9de460a81335d15" category="paragraph-title">Web UI</block>
+  <block id="7816621376966d4cc39d5feb436a6bc6" category="paragraph">若要從Unified Manager Web UI啟用API閘道、請登入Unified Manager Web UI並啟用API閘道。如需相關資訊、請參閱<block ref="e799c624d1913638d4e246c84481fcd8" category="inline-link-rx"></block>。</block>
+  <block id="91af5705f16502125e8b2187e64202c0" category="paragraph-title">CLI</block>
+  <block id="5ed5460e1bf9b1b6cc7df4f9e33ae998" category="paragraph">若要透過Unified Manager CLI啟用API閘道、請遵循下列步驟：</block>
+  <block id="b7796ede708f1359e9ae316d1d929e71" category="list-text">在Unified Manager伺服器上、開始SSH工作階段並登入Unified Manager CLI。<block ref="0c8c524a89baf2ffad5c88cd862dc1cc" prefix=" " category="inline-code"></block>如需CLI命令的相關資訊、請參閱<block ref="174a15c90aa48055b15ccbe06d19bf76" category="inline-link-rx"></block>。</block>
+  <block id="7d8783e4d7d329d0fcf7e72c11915e57" category="list-text">確認API閘道是否已啟用。<block ref="7489a0a94d756e7169db7db466391d65" prefix=" " category="inline-code"></block>答<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block> 值表示已啟用API閘道。</block>
+  <block id="fcfbc874f3615077bbc6781d4c993916" category="list-text">如果傳回的值為<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block>請執行下列命令：<block ref="b09cad6fba489605054fc3982bb55f65" prefix=" " category="inline-code"></block></block>
+  <block id="4e99491c2d3088c139b2c1bd76870b45" category="list-text">重新啟動Unified Manager伺服器：</block>
+  <block id="a58941d5b6d99d7749ea1df9930def5e" category="list-text">Linux：<block ref="6eb822e8507f1f310b2723182652f292" category="inline-link-rx"></block>。</block>
+  <block id="afa819b7cc8f00a6b6f99f036c86710d" category="list-text">VMware vSphere：<block ref="e7d492a81a8574f8c260a7a7e9130e4b" category="inline-link-rx"></block>。</block>
+  <block id="fd22d23fe0edf1a8c1823d661ceb51b0" category="paragraph">若要在StorageGRID 更新版本上安裝Keystone Collector、需要下列組態。</block>
+  <block id="76038d247a602c0245b0f461368bb87c" category="inline-link-macro">升級StorageGRID 版軟體：總覽</block>
+  <block id="7aa35054155773e318023838d4c86a8e" category="list-text">StorageGRID<block ref="86fb40f74065628551d7b9612d244430" prefix=" " category="inline-code"></block> 應安裝或更新版本。如需升級StorageGRID 功能的相關資訊、請參閱 <block ref="97cb3175bb06374adaf739435d4e2f76" category="inline-link-macro-rx"></block>。</block>
+  <block id="2cb4d48e9d39b65ee9a134ead27cec2e" category="list-text">應建立一個支援使用資料收集功能的本地管理員使用者帳戶StorageGRID 。Keystone Collector服務會使用此服務帳戶、StorageGRID 透過管理員節點API與效益進行通訊。</block>
+  <block id="bb0dd8b0b8efa5928afbafc369fda5e1" category="inline-link">登入Grid Manager</block>
+  <block id="ba43950d2b1731602400692e36f66ae6" category="list-text">登入Grid Manager。請參閱<block ref="8bf33c163893a69feada52e3ecdbe684" category="inline-link-rx"></block>。</block>
+  <block id="770ffb0f1bec28b16cc9a1229cf9be20" category="inline-link">建立管理群組</block>
+  <block id="866e27c1e21bfcffdf78d5c6422d9007" category="list-text">使用建立本機管理群組<block ref="2401c2414886730a773f9d61a9d03d0c" prefix=" " category="inline-code"></block>。請參閱<block ref="7ad90c2fe566a56773e078e9ab5e29d4" category="inline-link-rx"></block>。</block>
+  <block id="869e466aee4592c1d395838ef16af554" category="list-text">新增下列權限：</block>
+  <block id="ed521c8c5520a00a114abab07ebba56d" category="list-text">租戶帳戶</block>
+  <block id="10d0de28911c5f66463b9c8783f8148a" category="list-text">維護</block>
+  <block id="1d31884d14bc3c8944a94ba146af781a" category="list-text">度量查詢</block>
+  <block id="1b4fcfaacbd0ae3e24bc82f8d7a82211" category="inline-link">管理使用者</block>
+  <block id="8439ccf1446c67100be4a3a73c3d339f" category="list-text">建立Keystone服務帳戶使用者、並將其與管理群組建立關聯。請參閱<block ref="3f81d882f8eb86176175a8f2f30c48b0" category="inline-link-rx"></block>。</block>
+  <block id="82690bb37c8fd3910939c0d1c07adbfb" category="list-text">下載檔案後、您可以將其附加至Keystone ServiceNow支援服務單。如需有關開立Ticket的資訊、請參閱 <block ref="a7ae718de79af41225531b7d4972e1ef" category="inline-link-macro-rx"></block>。</block>
+  <block id="df14715a510ff9aeef732a94267cca9b" category="paragraph">您需要完成幾項組態工作、才能讓Keystone Collector在儲存環境中收集使用資料。這是一次性活動、可啟動所需的收集器元件、並將其與您的儲存環境建立關聯。</block>
+  <block id="9ab33c1f92542debbe7fbaf0686e8431" category="admonition">Keystone Collector可提供Keystone Collector Management終端使用者介面（TUI）公用程式、以執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。</block>
+  <block id="39c85d7f0eb110cd413fc170604d8bc6" category="list-text">請移至「*組態&gt; KS-Collector*」以開啟Keystone Collector組態畫面、以檢視可用的更新選項。</block>
+  <block id="dc6558c87d9624db4f0f78e602308c49" category="list-text">更新必要選項。</block>
+  <block id="14a76c71ca702ae118d765e420178711" category="example-title">不整合&lt;/strong&gt; &lt;strong&gt;</block>
+  <block id="32a4a00508204d0cb7ced3d936d4dc7a" category="list-text">*收集ONTAP 資料使用*：此選項可收集使用資料ONTAP 以供參考。新增Active IQ Unified Manager 有關伺服器和服務帳戶的詳細資料（Unified Manager）。</block>
+  <block id="c8be7cc513ae14bb1045efcf84ef815f" category="list-text">*收集ONTAP 效能資料*：此選項可收集效能資料ONTAP 以供參考。此功能預設為停用。如果您的環境需要進行效能監控才能達到SLA目的、請啟用此選項。提供Unified Manager資料庫使用者帳戶詳細資料。如需建立資料庫使用者的相關資訊、請參閱 <block ref="c307c105b0ab23fea8108ee840b19ed9" category="inline-link-macro-rx"></block>。</block>
+  <block id="c6f143141daaf99baf609e695430cce9" category="list-text">*移除私有資料*：此選項會移除客戶的特定私有資料、預設為啟用。如需在啟用此選項時、從度量中排除哪些資料的相關資訊、請參閱 <block ref="69ef82b790beb8f156793bc199a1126b" category="inline-link-macro-rx"></block>。</block>
+  <block id="e70948bd792d621d062233c6553df7a4" category="example-title">物件：StorageGR物件&lt;/strong&gt; &lt;strong&gt;</block>
+  <block id="12a12ceac3b9acaa003a52c7a4a9e107" category="list-text">*收集StorageGRID 資料使用*：此選項可收集節點使用詳細資料。新增StorageGRID 不完整的節點位址和使用者詳細資料。</block>
+  <block id="501fbebe1e3204d65370c54a952426d7" category="list-text">*移除私有資料*：此選項會移除客戶的特定私有資料、預設為啟用。如需在啟用此選項時、從度量中排除哪些資料的相關資訊、請參閱 <block ref="e1f64bf8f82fdbd22932ca9afa1da14a" category="inline-link-macro-rx"></block>。</block>
+  <block id="60027fcd2e5db75fada38cb8c25a89ad" category="list-text">切換「使用System*啟動KS-Collector」欄位。</block>
+  <block id="12d4a3f31d7915f04142a35be1ba5a37" category="paragraph">在Keystone Collector TUI畫面上、限制特定客戶資料的收集是可設定的選項。此選項*移除私有資料*預設為啟用。</block>
+  <block id="dd771779768817666d39c63b55339112" category="paragraph">如需ONTAP 瞭解有關在支援內部及StorageGRID 內部資料存取限制時所移除項目的資訊、請參閱 <block ref="461595833a51b2e2463fa89ad8a35ca1" category="inline-link-macro-rx"></block>。</block>
+  <block id="1188f42df486498dbe3703f5415c86aa" category="list-text">Keystone Data Collector：Keystone Collector為Keystone客戶提供帳單服務。此應用程式隨Active IQ Unified Manager 附於NetApp。每ONTAP 五分鐘會StorageGRID 定期從VMware及VMware控制器收集資料。資料會經過處理、中繼資料Active IQ 會透過AutoSupport 用於產生帳單資料的流程機制、傳送到集中式的資料湖。所學專業：電子商務（電子商務）Active IQ利用NetApp（數位顧問）Customer Portal、您可以登入並檢視Keystone訂閱的訂閱與使用詳細資料Active IQ Digital Advisor 。</block>
+  <block id="cf3d385bb2fcb3764b03ece3454042e6" category="paragraph">如需Digital Advisor儀表板上Keystone報告的詳細資訊、請參閱 <block ref="b7b6a2338cb0518cc39a6d3713bb6e47" category="inline-link-macro-rx"></block>。</block>
+  <block id="6b71507d392708444982d424df1963c2" category="paragraph">Keystone STaaS服務可支援ONTAP 多StorageGRID 種功能和傳輸協定、以利資料的檔案和區塊儲存、以及物件儲存、下表說明：</block>
+  <block id="661319c881749fc4ef06edb56f84c952" category="paragraph">NetApp全球服務與支援中心（GSSC）和NetApp Keystone 《SKETONE Success Manager》（KSM）負責為您提供Keystone訂閱服務。</block>
+  <block id="5e3fca9227064d2d04c47a0f13b4fffe" category="paragraph">如需Keystone服務的詳細資訊、請參閱：</block>
+  <block id="1ad935b10417da04d8f4a93ed39ce8a0" category="paragraph">隨QoS原則的大小變化、會自動套用調適性QoS（AQO）作為Keystone服務、以維持IOPS與TB/GBs的比率。如需AQO原則的相關資訊、請參閱<block ref="837de1b03a328f464002642d845ea947" category="inline-link-rx"></block>。</block>
+  <block id="b41d880d5f9cddb842b19d183ce73f2e" category="paragraph">Keystone提供AQO原則、讓您在叢集正式作業後即可設定。您應確保所有磁碟區都與系統中已建立且可用的正確AQO原則相關聯。</block>
+  <block id="843145f4887d94733db1d1b24ca3fdfa" category="admonition">如果您尚未在磁碟區上正確套用AQO原則、則這些磁碟區將會依照您的訂閱、以最高服務層級進行測量和收費。這可能導致意外的突發費用。</block>
+  <block id="445fbfc75bfa2a8ab6a7cdcb019f9838" category="paragraph">您可以設定調適性QoS（AQO）原則、自動將處理量上限或樓層調整為Volume大小。若要設定原則、您應注意下列事項：</block>
+  <block id="783c1c698cfe222ca1a1c69b815e8a3c" category="list-text">*原則群組名稱*：AQO原則群組的名稱。例如、<block ref="e22fe87dc37298f80d1bbd25d59219b8" prefix=" " category="inline-code"></block>。</block>
+  <block id="680fcae2005fb4b11fdcc18c27ddd58b" category="list-text">*絕對最小IOPS *：如果磁碟區大小非常小、將套用至磁碟區的預期IOPS最低數目、否則會導致不可接受的IOPS數目。此值預設為1、000<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block>、500代表<block ref="8d5e7e72f12067991186cdf3cb7d5d9d" prefix=" " category="inline-code"></block>和250（用於）<block ref="9446a98ad14416153cc4d45ab8b531bf" prefix=" " category="inline-code"></block>、75表示<block ref="eb6d8ae6f20283755b339c0dc273988b" prefix=" " category="inline-code"></block> 和<block ref="689202409e48743b914713f96d93947c" prefix=" " category="inline-code"></block> 服務層級：</block>
+  <block id="190dc75f5eac190e46db7ce571587dbc" category="paragraph">下列各節將說明各服務層級的調適性QoS（AQO）原則設定。此處提供的每個服務層級的最小和最大Volume大小、可為磁碟區提供最佳的IOPs和延遲值。在這些準則之外建立太多磁碟區、可能會對這些磁碟區的效能造成負面影響。</block>
+  <block id="c9b73422281776827a4c8f78b386d48d" category="list-text">Keystone STaaS價值層、Keystone STaaS StorageGRID 物件層、或現有SGWS網格（客戶擁有）-不需額外付費、這是標準服務的一部分。</block>
+  <block id="bdb55621cf8fb40ec7b1841db7d1f702" category="paragraph">如果您訂閱NetApp Keystone 了「支援服務」、您可以在Active IQ Digital Advisor 「支援服務」（Digital Advisor）儀表板上檢視您的使用報告和圖表。</block>
+  <block id="a8db66bfea8d3f0ff898a3ca39507082" category="paragraph">如需有關Keystone的Digital Advisor儀表板小工具的詳細資訊、請參閱<block ref="f1d08d608ab5c8900f388298993967cb" category="inline-link-rx"></block>。</block>
+  <block id="1df8c900e0f061f7bb2ff4a2177621de" category="paragraph">如果您已訂閱NetApp Keystone 了《Ssestrate-STaaas服務》、您可以在Active IQ Digital Advisor 「The Se（Digital Advisor）」儀表板上的「* Keystone Subscriptions *」（*基礎概念訂閱*）小工具上監控使用情形。</block>
+  <block id="9ff2a83b372e89b7fee5580c527d9e8e" category="paragraph">如需Digital Advisor小工具的相關資訊、請參閱<block ref="553d5c0a148912943ee201440d3b98c5" category="inline-link-rx"></block>。</block>
+  <block id="bea3a7144124c0e70f43a6748e2fb32b" category="paragraph">如需Keystone和BlueXP的詳細資訊、請參閱BlueXP文件中的下列連結：</block>
+  <block id="db9c0d8e0c5e9a6fc69af04d34b56fee" category="sidebar">安裝Keystone Collector的必要條件</block>
+  <block id="80d2bb01a7a85d4aa2c304e7cde98a6e" category="sidebar">關於功能的特定先決條件StorageGRID ONTAP</block>
+  <block id="cdc9f551ac993c356214a8c16ca3cec2" category="sidebar">收集以供計費的資料</block>
+  <block id="a3297beb0c913ab1ce7de0647b5264d0" category="sidebar">Keystone與Active IQ Digital Advisor</block>
+  <block id="9a404de1def328e606c1a36e84d959a4" category="sidebar">Keystone報告Active IQ Digital Advisor</block>
+  <block id="dab2edf9eaac3950e92c281ce358af01" category="sidebar">Active IQ Digital Advisor</block>
 </blocks>

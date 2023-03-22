@@ -14,9 +14,9 @@ summary: Keystone訂閱報告與圖表
 
 
 [role="lead"]
-如果您已訂閱NetApp Keystone 了《Ssestrate-STaaas服務》、您可以在Digital Advisor儀表板上的「* Keystone Subscriptions *」（*基礎概念訂閱*）小工具上監控使用量。
+如果您已訂閱NetApp Keystone 了《Ssestrate-STaaas服務》、您可以在Active IQ Digital Advisor 「The Se（Digital Advisor）」儀表板上的「* Keystone Subscriptions *」（*基礎概念訂閱*）小工具上監控使用情形。
 
-如需Digital Advisor小工具的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html["透過NetApp Keystone 「View訂閱」檢視容量使用率"^]。
+如需Digital Advisor小工具的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["透過NetApp Keystone 「View訂閱」檢視容量使用率"^]。
 
 按一下小工具上的*檢視更多詳細資料*、即可在「*基礎概念訂閱*」頁面上檢視磁碟區上的使用詳細資料和警示。或者、請從左側導覽窗格移至*一般>基礎概念訂閱*。
 

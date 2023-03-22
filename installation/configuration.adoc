@@ -14,15 +14,36 @@ summary: 基礎概念收集器的組態
 
 
 [role="lead"]
-您需要完成幾項組態工作、才能讓Keystone Collector在儲存環境中收集使用資料。這是一次性活動、可啟動所需的收集器元件、並將其與Active IQ Unified Manager 下列項目建立關聯：（Unified Manager）。
+您需要完成幾項組態工作、才能讓Keystone Collector在儲存環境中收集使用資料。這是一次性活動、可啟動所需的收集器元件、並將其與您的儲存環境建立關聯。
 
-所有由Unified Manager管理的ONTAP 叢集均可監控。請遵循下列步驟：
+
+NOTE: Keystone Collector可提供Keystone Collector Management終端使用者介面（TUI）公用程式、以執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。
 
 .步驟
 . 開啟Keystone Collector管理TUI公用程式：
 `$ keystone-collector-tui`
-. 請移至「*組態> KS-Collector*」以開啟Keystone Collector組態畫面、並新增Unified Manager伺服器和服務帳戶的詳細資料。如果此環境需要效能監控以用於SLA、請啟用「*收集ONTAP 效能資料*」選項、並提供Unified Manager資料庫使用者帳戶詳細資料。如需相關資訊、請參閱 link:../aiqum-req.html["建立Unified Manager使用者"]。
-. 切換「*啟用KS-Collector Service*」欄位。
+. 請移至「*組態> KS-Collector*」以開啟Keystone Collector組態畫面、以檢視可用的更新選項。
+. 更新必要選項。
++
+.不整合</strong> <strong>
+[%collapsible]
+====
+** *收集ONTAP 資料使用*：此選項可收集使用資料ONTAP 以供參考。新增Active IQ Unified Manager 有關伺服器和服務帳戶的詳細資料（Unified Manager）。
+** *收集ONTAP 效能資料*：此選項可收集效能資料ONTAP 以供參考。此功能預設為停用。如果您的環境需要進行效能監控才能達到SLA目的、請啟用此選項。提供Unified Manager資料庫使用者帳戶詳細資料。如需建立資料庫使用者的相關資訊、請參閱 link:../addl-req.html["建立Unified Manager使用者"]。
+** *移除私有資料*：此選項會移除客戶的特定私有資料、預設為啟用。如需在啟用此選項時、從度量中排除哪些資料的相關資訊、請參閱 link:../installation/configuration.html#limit-collection-of-private-data["限制私有資料的收集"]。
+
+
+====
++
+.物件：StorageGR物件</strong> <strong>
+[%collapsible]
+====
+** *收集StorageGRID 資料使用*：此選項可收集節點使用詳細資料。新增StorageGRID 不完整的節點位址和使用者詳細資料。
+** *移除私有資料*：此選項會移除客戶的特定私有資料、預設為啟用。如需在啟用此選項時、從度量中排除哪些資料的相關資訊、請參閱 link:../configuration.html#limit-collection-of-private-data["限制私有資料的收集"]。
+
+
+====
+. 切換「使用System*啟動KS-Collector」欄位。
 . 按一下「**儲存」。image:tui-1.png[""]
 . 返回TUI主畫面並確認「**服務狀態」資訊、以確保Keystone Collector處於正常狀態。系統應顯示服務處於「整體：健全」狀態。image:tui-2.png[""]
 . 在主畫面上選取「退出至Shell*」選項、結束Keystone Collector管理TUI。
@@ -47,113 +68,8 @@ Collector軟體支援使用HTTP Proxy與網際網路通訊。這可在TUI中設�
 
 Keystone Collector會收集執行訂閱計量所需的有限組態、狀態和效能資訊。您可以選擇進一步限制所收集的資訊、方法是從上傳的內容中遮罩敏感資訊。這不會影響計費計算。不過、限制資訊可能會影響報告資訊的使用性、因為使用者可以輕易識別的部分元素（例如Volume名稱）會被UID取代。
 
-您可以在TUI組態畫面上設定限制資料的選項、即「*移除私有資料*」。此選項預設為停用。
+在Keystone Collector TUI畫面上、限制特定客戶資料的收集是可設定的選項。此選項*移除私有資料*預設為啟用。
 
 image:tui-4.png[""]
 
-
-
-=== 收集使用量資訊的範例清單
-
-下列清單是使用量集合中所含項目的代表範例：
-
-* 叢集
-+
-** 叢集UUID
-** 序號
-** 位置（根據ONTAP 在叢集中輸入的值）
-** 聯絡人
-
-
-* 節點
-+
-** 序號
-** 節點名稱
-
-
-* 磁碟區
-+
-** Aggregate名稱
-** Volume名稱
-** Volume InstanceUUID
-** IsCloneVolume旗標
-** IsFlexGroup組成 旗標
-** IsspaceEnforcement邏輯 旗標
-** IsSpaceReporting邏輯 旗標
-** LogicalspaceUsedByAfs
-** PercentSnapshotSpace
-** Performance TierInactiveUserData
-** Performance TierInactiveUserDataPercent
-** QosAdapivePolicyGroup名稱
-** QosPolicyGroup名稱
-** 尺寸
-** SizeUsedBySnapshots
-** 類型
-** Volume樣式擴充
-** Vserver名稱
-** IsVsRoot旗標
-
-
-* StorageAggrs
-+
-** 儲存類型
-** Aggregate名稱
-** Aggregate UUID
-
-
-* AggregateObjectStores
-+
-** ObjectStoreName
-** ObjectStoreUUID
-** 提供者類型
-** Aggregate名稱
-
-
-* 儲存LUN
-+
-** LUN UUID
-** 尺寸
-** 已使用
-** IsReserved旗標
-** IsRequest旗標
-** 邏輯單元名稱
-** QosPolicyUUID
-** QosPolicyName
-** Volume UUID
-** Volume名稱
-** SvmUUID
-** SVM名稱
-
-
-* 收集器伺服效能指標
-+
-** 收集時間
-** 查詢AIQUM API端點
-** 回應時間
-** 記錄數
-** 輔助執行個體IP
-** CollectorInstance ID
-
-
-
-
-
-
-=== 限制私有資料存取時移除的項目清單
-
-當*移除私有資料*選項啟用時、下列資訊將會消失：
-
-* 叢集名稱
-* 叢集位置
-* 叢集聯絡人
-* 節點名稱
-* Aggregate名稱
-* Volume名稱
-* QosAdapivePolicyGroup名稱
-* QosPolicyGroup名稱
-* Vserver名稱
-* Aggregate名稱
-* 邏輯單元名稱
-* SVM名稱
-* 輔助執行個體IP
-
+如需ONTAP 瞭解有關在支援內部及StorageGRID 內部資料存取限制時所移除項目的資訊、請參閱 link:../installation/data-collection.html["限制私有資料存取時移除的項目清單"]。

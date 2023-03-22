@@ -20,7 +20,7 @@ summary: Keystone與BlueXP
 
 為此、您應該建立一或多個BlueXP帳戶、並將其與Keystone帳戶連結。透過Keystone購買雲端服務時、您必須將BlueXP帳戶的詳細資料提供給Keystone Success Manager（KSM）。如此一來、您就能透過Keystone訂閱、正確計量雲端服務使用量並為其充電。
 
-如需詳細資訊、請參閱BlueXP文件中的下列連結：
+如需Keystone和BlueXP的詳細資訊、請參閱BlueXP文件中的下列連結：
 
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#keystone-flex-subscription["Keystone訂閱"^]
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-keystone.html["管理基礎概念訂閱"^]
