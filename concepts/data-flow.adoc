@@ -14,36 +14,36 @@ summary: Keystone資料流程
 
 
 [role="lead"]
-Keystone STaaS系統會遇到經由Keystone Collector流量和監控資料流的資料流。
+Keystone STaaS 系統中的資料會流經 Keystone Collector 和相關的監控系統、即 AIOP 解決方案工具。
 
 
 
 == Keystone Collector資料流
 
-Keystone Collector會啟動對儲存控制器的REST API呼叫、並定期取得控制器的使用詳細資料。
+Keystone 收集器會對儲存控制器啟動 REST API 呼叫、並定期取得控制器的使用詳細資料、如以下流程圖所示：
 
 image:collector-data-flow.png[""]
 
 .圖例
 . NetApp Collector會啟動HTTPS工作階段至Active IQ雲端入口網站。
 . 由客戶操作的防火牆允許連線。
-. 這個解決方案可接受連線、並建立通往NetApp Collector的通道。Active IQ
-. NetApp收集器會建立REST API工作階段至儲存控制器的管理連線、取得環境資料、並將其傳送至Active IQ 該入口網站。
+. Active IQ 雲端入口網站接受連線、並建立通往 NetApp Collector 的通道。
+. NetApp 收集器會建立一個 REST API 工作階段、連接至儲存控制器的管理連線、取得環境資料、並將其傳送至 Active IQ 入口網站。
 
 
 
 
 == 監控資料流
 
-持續監控儲存基礎架構的健全狀況、是Keystone服務最重要的功能之一。為進行監控、Keystone使用OpsRamp、這需要遠端存取客戶的網路。下圖說明OpsRamper工具如何保護遠端存取客戶位置的安全。
+持續監控儲存基礎架構的健全狀況、是Keystone服務最重要的功能之一。針對監控和報告、 Keystone 使用 AIOP 解決方案、需要遠端存取客戶的網路。下圖說明如何使用 AIOP 解決方案工具來保護對客戶位置的遠端存取。
 
 image:monitoring-flow.png[""]
 
 .圖例
-. OpsRamper閘道會啟動TLS工作階段、前往雲端中的OpsRamper雲端入口網站。
+. AIOP 解決方案閘道會啟動 TLS 工作階段至其雲端入口網站。
 . 由客戶操作的防火牆允許連線。
-. 雲端中的OpsRamp伺服器接受連線。
-. 在OpsRamp雲端入口網站和OpsRamp本機閘道之間建立TLS通道。
-. NetApp控制器會使用SNMP傳輸協定傳送警示、或回應OpsRamp本機閘道的API要求。
-. OpsRamp本機閘道會使用之前建立的TLS工作階段、將這些警示傳送至其雲端入口網站。
+. 雲端中的 AIOPs 解決方案伺服器接受連線。
+. 在雲端入口網站和本機閘道之間建立 TLS 通道。
+. NetApp 控制器會使用 SNMP 通訊協定傳送警示、或回應 API 要求至本機閘道。
+. 本機閘道會使用之前建立的 TLS 工作階段、將這些警示傳送至其雲端入口網站。
 

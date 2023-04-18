@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: installation/upgrade.html 
+keywords: Keystone Collector upgrade 
+summary: 升級 Keystone Collector 
+---
+= 手動升級 Keystone Collector
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone Collector 中的自動更新功能預設為啟用、會在每個新版本中自動升級 Keystone Collector 軟體。不過、您可以停用此功能並手動升級軟體。
+
+.步驟
+. 啟動 Keystone Collector 管理 TUI 公用程式：
+`$ keystone-collector-tui`
+. 在維護畫面上、選取 * 立即更新收集器 * 選項。
++
+image:upgrade-1.png[""]
+
++
+或者、執行此命令以升級版本：
+
++
+[listing]
+----
+sudo yum clean metadata && sudo yum install keystone-collector
+----
++
+image:upgrade-2.png[""]
+
+. 重新啟動 Keystone Collector 管理 TUI 、您可以在主畫面左上角看到最新版本。
++
+或者、執行此命令以檢視最新版本：
+
++
+[listing]
+----
+rpm -q keystone-collector
+----
+

@@ -99,7 +99,7 @@ NOTE: *問題說明*：Keystone Collector會在使用量測系統中執行多個
 Keystone Collector TUI可讓您產生支援套裝組合、然後將其新增至服務要求、以解決支援問題。請遵循下列程序：
 
 .步驟
-. 開啟Keystone Collector管理TUI公用程式：
+. 啟動 Keystone Collector 管理 TUI 公用程式：
 `$ keystone-collector-tui`
 . 請參閱*疑難排解>產生支援產品組合*。image:tui-sup-bundl.png[""]
 . 產生時、會顯示儲存套件組合的位置。使用FTP、SFTP或scp連線至該位置、並將記錄檔下載至本機系統。image:tui-sup-bundl-2.png[""]

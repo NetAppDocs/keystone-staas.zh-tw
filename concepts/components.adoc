@@ -56,23 +56,7 @@ NetApp 可根據最終組態和需求、提供散熱需求規格（一般 BTU �
 
 === 儲存虛擬機器
 
-儲存虛擬機器（儲存VM）應搭配下列項目部署、以支援Keystone訂閱的監控和計量。Keystone Collector需要一個儲存VM；OpsRamp閘道則需要另一個儲存VM
-
-* Keystone收集器-用於收集使用量標準：
-+
-** VCPU：4.
-** VRAM：16 GB
-** vDisk：200 GB
-
-
-* OpsRamp閘道–用於即時監控+ ONTAP Keystone GSSC的遠端支援
-+
-** VCPU：8.
-** VRAM：16 GB
-** vDisk：100 GB
-
-
-
+部署 Keystone Collector 和 AIOP 解決方案閘道時、需要儲存虛擬機器（儲存 VM ）。安裝 Keystone Collector 的必要條件可在這裡取得： link:..//installation/installation-overview.html["Keystone Collector 安裝指南"]。其他需求則在部署期間共用。
 
 
 
@@ -81,10 +65,10 @@ NetApp 可根據最終組態和需求、提供散熱需求規格（一般 BTU �
 Keystone Collector可透過下列方法進行部署：
 
 * VMware OVA範本（需要VMware vCenter Server 6.7或更新版本）
-* 客戶提供Red Hat Enterprise Linux 7或8或CentOS 7 Linux伺服器、而Keystone軟體則是透過「.rpm」安裝程序來安裝。
+* 客戶提供 Red Hat Enterprise Linux 7 或 8 或 CentOS 7 Linux 伺服器。Keystone 軟體是透過安裝 `.rpm` 安裝程序。
 
 
-OpsRamp閘道部署於下列組態：
+AIOP 解決方案閘道部署在下列組態上：
 
 * VMware OVA範本（需要VMware vCenter Server 6.7或更新版本）
 * 的可開機.ISO安裝程式
@@ -100,7 +84,7 @@ OpsRamp閘道部署於下列組態：
 
 === 網路
 
-下列服務需要傳出存取、才能執行Keystone Collector和OpsRamp閘道的作業和維護作業：
+Keystone Collector 和 AIOP 解決方案閘道的作業和維護需要對下列服務進行輸出存取：
 
 * support.netapp.com（使用資料上傳）
 * keystone.netapp.com（軟體更新）
@@ -117,4 +101,4 @@ NetApp僅為NetApp提供的基礎架構裝置提供所需的收發器。您應�
 
 客戶資料中心安裝的儲存基礎架構或客戶擁有的代管服務、以及Keystone作業中心之間、都需要網路連線。客戶負責提供運算與虛擬機器、以及網際網路服務。網路設計應採用安全的傳輸協定、而防火牆原則將由NetApp與客戶雙方核准。
 
-NetApp需要存取安裝用於監控和管理的硬體和軟體元件、才能為Keystone客戶提供監控和計費等服務。最常見的方法是建立與客戶網路的虛擬私有網路（VPN）連線、並存取所需的資料。為了克服客戶從開啟防火牆連接埠到新服務所產生的任何作業複雜度、監控工具會啟動外部連線。NetApp雲端應用程式（例如OpsRamp和期望）會使用此連線來執行各自的服務。此方法符合客戶的要求、即不開放防火牆連接埠、但可存取此服務的監控元件。
+NetApp需要存取安裝用於監控和管理的硬體和軟體元件、才能為Keystone客戶提供監控和計費等服務。最常見的方法是建立與客戶網路的虛擬私有網路（VPN）連線、並存取所需的資料。為了克服客戶從開啟防火牆連接埠到新服務所產生的任何作業複雜度、監控工具會啟動外部連線。NetApp 雲端應用程式（例如 AIOP 解決方案和期望）使用此連線來執行各自的服務。此方法符合客戶的要求、即不開放防火牆連接埠、但可存取此服務的監控元件。

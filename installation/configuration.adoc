@@ -20,7 +20,7 @@ summary: 基礎概念收集器的組態
 NOTE: Keystone Collector可提供Keystone Collector Management終端使用者介面（TUI）公用程式、以執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。
 
 .步驟
-. 開啟Keystone Collector管理TUI公用程式：
+. 啟動 Keystone Collector 管理 TUI 公用程式：
 `$ keystone-collector-tui`
 . 請移至「*組態> KS-Collector*」以開啟Keystone Collector組態畫面、以檢視可用的更新選項。
 . 更新必要選項。
@@ -29,7 +29,7 @@ NOTE: Keystone Collector可提供Keystone Collector Management終端使用者介
 [%collapsible]
 ====
 ** *收集ONTAP 資料使用*：此選項可收集使用資料ONTAP 以供參考。新增Active IQ Unified Manager 有關伺服器和服務帳戶的詳細資料（Unified Manager）。
-** *收集ONTAP 效能資料*：此選項可收集效能資料ONTAP 以供參考。此功能預設為停用。如果您的環境需要進行效能監控才能達到SLA目的、請啟用此選項。提供Unified Manager資料庫使用者帳戶詳細資料。如需建立資料庫使用者的相關資訊、請參閱 link:../addl-req.html["建立Unified Manager使用者"]。
+** *收集ONTAP 效能資料*：此選項可收集效能資料ONTAP 以供參考。此功能預設為停用。如果您的環境需要進行效能監控才能達到SLA目的、請啟用此選項。提供Unified Manager資料庫使用者帳戶詳細資料。如需建立資料庫使用者的相關資訊、請參閱 link:../installation/addl-req.html["建立Unified Manager使用者"]。
 ** *移除私有資料*：此選項會移除客戶的特定私有資料、預設為啟用。如需在啟用此選項時、從度量中排除哪些資料的相關資訊、請參閱 link:../installation/configuration.html#limit-collection-of-private-data["限制私有資料的收集"]。
 
 
@@ -39,7 +39,7 @@ NOTE: Keystone Collector可提供Keystone Collector Management終端使用者介
 [%collapsible]
 ====
 ** *收集StorageGRID 資料使用*：此選項可收集節點使用詳細資料。新增StorageGRID 不完整的節點位址和使用者詳細資料。
-** *移除私有資料*：此選項會移除客戶的特定私有資料、預設為啟用。如需在啟用此選項時、從度量中排除哪些資料的相關資訊、請參閱 link:../configuration.html#limit-collection-of-private-data["限制私有資料的收集"]。
+** *移除私有資料*：此選項會移除客戶的特定私有資料、預設為啟用。如需在啟用此選項時、從度量中排除哪些資料的相關資訊、請參閱 link:../installation/configuration.html#limit-collection-of-private-data["限制私有資料的收集"]。
 
 
 ====
@@ -56,7 +56,7 @@ NOTE: Keystone Collector可提供Keystone Collector Management終端使用者介
 Collector軟體支援使用HTTP Proxy與網際網路通訊。這可在TUI中設定。
 
 .步驟
-. 如果已經關閉、請開啟Keystone Collector管理TUI公用程式：
+. 如果已關閉、請重新啟動 Keystone Collector 管理 TUI 公用程式：
 `$ keystone-collector-tui`
 . 切換「**HTTP Proxy**」欄位、並在需要驗證時新增HTTP Proxy伺服器、連接埠和認證的詳細資料。
 . 按一下「**儲存」。image:tui-3.png[""]

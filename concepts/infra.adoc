@@ -27,7 +27,7 @@ Keystone基礎架構、設計、技術選擇及元件產品、完全由NetApp提
 Keystone基礎架構包含多個元件、例如下列元件：
 
 * 包含儲存控制器的Keystone基礎架構。
-* 管理及操作服務的工具、例如 OpsRamp 、 Active IQ VMware 及 Active IQ Unified Manager VMware 等。
+* 管理和操作服務的工具、例如 AIOP 解決方案、 Active IQ 和 Active IQ Unified Manager 。
 
 
 
@@ -44,10 +44,10 @@ Keystone基礎架構包含多個元件、例如下列元件：
 
 除了儲存設備之外、還配置了兩種監控工具來監控儲存設備和使用量。
 
-* OpsRamp本機閘道：OpsRamp是雲端型應用程式、用於監控您的網路。它內建與NetApp儲存平台的整合功能、可收集環境資料並監控網路。此服務是在使用安裝在您站台上的本機閘道與雲端入口網站通訊的協助下啟用。以取得相關資訊
-* Keystone Data Collector：Keystone Collector為Keystone客戶提供帳單服務。此應用程式隨Active IQ Unified Manager 附於NetApp。每ONTAP 五分鐘會StorageGRID 定期從VMware及VMware控制器收集資料。資料會經過處理、中繼資料Active IQ 會透過AutoSupport 用於產生帳單資料的流程機制、傳送到集中式的資料湖。所學專業：電子商務（電子商務）Active IQ利用NetApp（數位顧問）Customer Portal、您可以登入並檢視Keystone訂閱的訂閱與使用詳細資料Active IQ Digital Advisor 。
+* AIOPs 解決方案本機閘道：用於監控網路的雲端型應用程式。它內建與NetApp儲存平台的整合功能、可收集環境資料並監控網路。此服務是在使用安裝在您站台上的本機閘道與雲端入口網站通訊的協助下啟用。
+* Keystone Data Collector：Keystone Collector為Keystone客戶提供帳單服務。此應用程式隨Active IQ Unified Manager 附於NetApp。它會從 ONTAP 和 StorageGRID 控制器收集資料、時間間隔為五分鐘。資料會經過處理、中繼資料Active IQ 會透過AutoSupport 用於產生帳單資料的流程機制、傳送到集中式的資料湖。Active IQ DATA lake 會處理帳單資料、並將其傳送給期望帳單的人員。
 
 
 image:mgmt-stack.png[""]
 
-如需Digital Advisor儀表板上Keystone報告的詳細資訊、請參閱 link:../integrations/keystone-aiq.html["Keystone與Digital Advisor"]。
+Active IQ Digital Advisor （數位顧問）可讓您登入並檢視 Keystone 訂閱的訂閱和使用詳細資料。如需Digital Advisor儀表板上Keystone報告的詳細資訊、請參閱 link:../integrations/keystone-aiq.html["Keystone與Digital Advisor"]。
