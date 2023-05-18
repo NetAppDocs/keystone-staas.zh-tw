@@ -40,7 +40,7 @@ IaaS（基礎概念）可提供兩種服務交付作業模式：合作夥伴營�
 * 部署
 * 正式上線
 
-| image:check.png[""] | 無 
+| image:check.png["勾選標記"] | 無 
 
 
  a| 
@@ -51,7 +51,7 @@ IaaS（基礎概念）可提供兩種服務交付作業模式：合作夥伴營�
 * 執行管理工作
 * 警示
 
-| 無 | image:check.png[""] 
+| 無 | image:check.png["勾選標記"] 
 
 
  a| 
@@ -61,7 +61,7 @@ IaaS（基礎概念）可提供兩種服務交付作業模式：合作夥伴營�
 * 管理效能
 * 管理 SLA
 
-| 無 | image:check.png[""] 
+| 無 | image:check.png["勾選標記"] 
 
 
  a| 
@@ -72,6 +72,6 @@ IaaS（基礎概念）可提供兩種服務交付作業模式：合作夥伴營�
 * 軟體支援
 * 升級與修補程式
 
-| image:check.png[""] | 無 
+| image:check.png["勾選標記"] | 無 
 |===
 如需部署的詳細資訊、請參閱 link:../concepts/infra.html["Keystone基礎架構"] 和 link:..//concepts/components.html["用於部署的元件"]。

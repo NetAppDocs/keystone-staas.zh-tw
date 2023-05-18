@@ -14,33 +14,59 @@ summary: Keystone中的服務品質
 
 
 [role="lead"]
-儲存服務品質（QoS）是一項關鍵技術、可確保應用程式獲得一致且可預測的效能。如果沒有QoS、某些工作負載（例如多個系統開機）可能會佔用一段時間的整個資源、並影響其他工作負載。如需QoS的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["透過 QoS 總覽來保證處理量"^]。
-
-應用QoS可確保應用程式每次都能獲得一致的效能。NetApp ONTAP 旨在定義QoS的兩個參數： https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max["QoS最大值"^]和處理量最低 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min["QoS最低"^]。QoS最大值代表工作負載可達到的IOPS、Mbps或IOPS和Mbps的最大數目。另一方面、 QoS Min 則保證工作負載的處理量不會低於特定的 IOPS 或 Mbps 、或 IOPS 和 Mbps 。
+儲存服務品質（QoS）是一項關鍵技術、可確保應用程式獲得一致且可預測的效能。如果沒有 QoS 、某些工作負載（例如用於開機多個系統的工作負載）可能會在一段時間內消耗大部分或全部資源、並影響其他工作負載。如需QoS的相關資訊、請參閱 https://["透過 QoS 總覽來保證處理量"^]。
 
 
 
 == 調適性QoS
 
-隨QoS原則的大小變化、會自動套用調適性QoS（AQO）作為Keystone服務、以維持IOPS與TB/GBs的比率。如需AQO原則的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["關於調適性QoS"^]。
+Keystone 服務會使用 Adaptive QoS （ AQO ）、根據磁碟區大小來動態維持 IOPS/TiB 比率。如需AQO原則的相關資訊、請參閱 https://["關於調適性QoS"^]。
 
 Keystone提供AQO原則、讓您在叢集正式作業後即可設定。您應確保所有磁碟區都與系統中已建立且可用的正確AQO原則相關聯。
 
+如果 ONTAP Volume 未套用 AQO 原則、則該磁碟區不符合法規要求。沒有 QoS 原則的磁碟區是系統提供任何可用輸入輸出作業的最後一個優先順序清單。不過、如果有任何輸入輸出作業可用、則該磁碟區可能會使用所有可用的 IOS 。
 
-NOTE: 如果您尚未在磁碟區上正確套用AQO原則、則這些磁碟區將會依照您的訂閱、以最高服務層級進行測量和收費。這可能導致意外的突發費用。
 
+NOTE: 如果您尚未將 AQO 原則套用至磁碟區、則會根據您的訂閱、以最高的服務層級來測量這些磁碟區並收取費用。這可能導致意外的突發費用。
+
+
+
+== 調適性 QoS 設定
+
+Adaptive QoS （ AQO ）設定會因服務層級而異。
+
+|===
+
+
+| * 政策名稱 * | * 極致 * | * 優質 * | *效能* | * 標準 * | * 價值 * 
+
+
+| * 預期的 IOPS * | 6 、 144 | 2 、 048 | 1 、 024 | 256 | 64 
+
+
+| * 預期的 IOPS 分配 * 5+| 已分配空間 
+
+
+| * 尖峰 IOPS * | 12288/3 | 4 、 096 | 2 、 048 | 512 | 128/128 
+
+
+| * 尖峰 IOPS 配置 * 5+| 已用空間 
+
+
+| *區塊大小* 5+| 32 萬 
+|===
 
 
 == 自適性QoS原則群組的組態
 
-您可以設定調適性QoS（AQO）原則、自動將處理量上限或樓層調整為Volume大小。若要設定原則、您應注意下列事項：
+您可以設定調適性QoS（AQO）原則、自動將處理量上限或樓層調整為Volume大小。並非所有 Keystone 服務層級都符合預設的 ONTAP QoS 原則。您可以為他們建立自訂 QoS 原則。若要設定原則、您應注意下列事項：
 
 * *原則群組名稱*：AQO原則群組的名稱。例如、 `Keystone_extreme`。
 * * vserver*：Vserver或儲存VM（儲存虛擬機器）的名稱。
-* *預期IOPS *：ONTAP 只要有效能保證、即可提供最低IOPS / TiB數量。
-* *尖峰IOPS *：在效能受到限制之前、磁碟區可用的最大IOPS / TiB數量。
-* *預期IOPS分配*：此欄位可控制磁碟區的預期IOPS是否取決於已分配或已使用的磁碟區大小。在Keystone中、這是根據已分配的空間而定。
-* *尖峰IOPS配置*：此欄位可控制磁碟區可用的尖峰IOPS是否取決於已分配或已使用的磁碟區大小。在Keystone中、這是根據已用空間而定。
+* * 預期的 IOPS * ：每個磁碟區的每個分配 TiB 的 IOPS 下限、系統會在有足夠的系統 IOPS 可用時嘗試提供。
+* * 尖峰 IOPS * ：每個磁碟區的每個已使用 TiB IOPS 最大數目、系統允許磁碟區在透過注入延遲來節流 IOPS 之前達到。
+* * 預期的 IOPS 分配 * ：此參數可控制磁碟區的預期可用 IOPS 、是否取決於磁碟區的分配或使用大小。在Keystone中、這是根據已分配的空間而定。
+* * 尖峰 IOPS 分配 * ：此參數可控制磁碟區可用的尖峰 IOPS 、是否根據已分配或已使用的磁碟區大小而定。在Keystone中、這是根據已用空間而定。
 * *絕對最小IOPS *：如果磁碟區大小非常小、將套用至磁碟區的預期IOPS最低數目、否則會導致不可接受的IOPS數目。此值預設為1、000 `Extreme`、500代表 `Premium`和250（用於） `Performance`、75表示 `Standard` 和 `Value` 服務層級：
 +
 
@@ -48,7 +74,7 @@ NOTE: 這不是IOPS密度（例如75 IOPS/TiB）、而是絕對最小IOPS數。
 
 
 
-如需IO密度的相關資訊、請參閱 link:../concepts/metrics.html["Keystone服務中使用的度量和定義"]。如需AQO原則群組的詳細資訊、請參閱 https://docs.netapp.com/us-en/ontap/performance-admin/adaptive-qos-policy-groups-task.html["使用調適性QoS原則群組"^]。
+如需IO密度的相關資訊、請參閱 link:../concepts/metrics.html["Keystone服務中使用的度量和定義"]。如需AQO原則群組的詳細資訊、請參閱 https://["使用調適性QoS原則群組"^]。
 
 
 

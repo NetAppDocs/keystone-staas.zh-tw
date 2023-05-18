@@ -23,4 +23,4 @@ Keystone Collector是Keystone計費平台的使用量採購元件、可利用Act
 
 此架構圖表概述典型Keystone環境中的組成元件及其連線能力。
 
-image:collector-arch.png[""]
+image:collector-arch.png["收集器架構"]

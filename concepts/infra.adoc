@@ -48,6 +48,6 @@ Keystone基礎架構包含多個元件、例如下列元件：
 * Keystone Data Collector：Keystone Collector為Keystone客戶提供帳單服務。此應用程式隨Active IQ Unified Manager 附於NetApp。它會從 ONTAP 和 StorageGRID 控制器收集資料、時間間隔為五分鐘。資料會經過處理、中繼資料Active IQ 會透過AutoSupport 用於產生帳單資料的流程機制、傳送到集中式的資料湖。Active IQ DATA lake 會處理帳單資料、並將其傳送給期望帳單的人員。
 
 
-image:mgmt-stack.png[""]
+image:mgmt-stack.png["管理堆疊"]
 
 Active IQ Digital Advisor （數位顧問）可讓您登入並檢視 Keystone 訂閱的訂閱和使用詳細資料。如需Digital Advisor儀表板上Keystone報告的詳細資訊、請參閱 link:../integrations/keystone-aiq.html["Keystone與Digital Advisor"]。

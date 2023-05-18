@@ -18,7 +18,7 @@ NetApp（Keystone）是一種隨需付費的訂閱型服務模式、可為偏好
 
 Keystone可減少管理無法預測的容量成長和複雜採購週期的障礙、讓客戶加速實現價值。Keystone可讓客戶根據業務優先順序調整經濟效益與營運。
 
-image:nkfsosm_image2.png["錯誤：缺少圖形影像"]
+image:nkfsosm_image2.png["Keystone"]
 
 Keystone針對區塊、檔案和物件資料類型、提供預先定義的服務層級儲存容量、這些資料類型可部署在內部部署、並由NetApp、合作夥伴或客戶操作。Keystone可與NetApp雲端服務搭配使用、例如Cloud Volumes ONTAP 可部署在您選擇的超純量環境中的功能。
 

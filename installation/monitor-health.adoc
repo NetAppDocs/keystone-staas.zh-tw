@@ -101,7 +101,7 @@ Keystone Collector TUI可讓您產生支援套裝組合、然後將其新增至�
 .步驟
 . 啟動 Keystone Collector 管理 TUI 公用程式：
 `$ keystone-collector-tui`
-. 請參閱*疑難排解>產生支援產品組合*。image:tui-sup-bundl.png[""]
-. 產生時、會顯示儲存套件組合的位置。使用FTP、SFTP或scp連線至該位置、並將記錄檔下載至本機系統。image:tui-sup-bundl-2.png[""]
+. 請參閱*疑難排解>產生支援產品組合*。image:tui-sup-bundl.png["TUI 畫面"]
+. 產生時、會顯示儲存套件組合的位置。使用FTP、SFTP或scp連線至該位置、並將記錄檔下載至本機系統。image:tui-sup-bundl-2.png["TUI 畫面"]
 . 下載檔案後、您可以將其附加至Keystone ServiceNow支援服務單。如需有關開立Ticket的資訊、請參閱 link:../concepts/gssc.html["正在產生服務要求"]。
 

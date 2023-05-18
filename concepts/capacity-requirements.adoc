@@ -111,7 +111,7 @@ Keystone STaaS服務層級的容量需求會因Keystone STaaS訂閱所支援的�
 
 容量減量（每年）適用於_年度預付款模式及內部部署。不適用於雲端服務或混合雲服務。它提供內部部署容量的資源、每次訂購的服務層級最多可減少25%。每年可進行一次此項減量、以在下一年度計費期間開始時生效。在期限內、內部部署服務的年度付款金額應在超過20萬美元的時間內隨時支付、以利利用容量減量。由於此計費模式僅支援內部部署、因此無法將內部部署的支出重新分配給雲端服務。下圖顯示年度容量減量的範例。
 
-image:capacity-reduction.png[""]
+image:capacity-reduction.png["顯示容量減量的影像"]
 
 
 
@@ -132,4 +132,4 @@ image:capacity-reduction.png[""]
 
 以下圖片說明每季重新分配支出的範例：
 
-image:spend-alloc.png[""]
+image:spend-alloc.png["如何分配支出"]

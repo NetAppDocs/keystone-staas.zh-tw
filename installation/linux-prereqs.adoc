@@ -16,11 +16,10 @@ summary: 在Linux系統上安裝Keystone收集器的先決條件
 [role="lead"]
 在Linux系統上安裝Keystone Collector需要幾種組態。
 
-Linux伺服器需要下列組態：
-
+.Linux 伺服器的必要條件：
 * 作業系統：CentOS 7或Red Hat Enterprise Linux 8．6或更新版本
 * Chroyd時間同步
-* 存取標準Linux標準軟體儲存庫
+* 存取標準 Linux 軟體儲存庫
 
 
 同一部伺服器也應該具有下列協力廠商套件：
@@ -31,8 +30,7 @@ Linux伺服器需要下列組態：
 * Python 3（3.6.8至3.9.13）
 
 
-Keystone Collector伺服器虛擬機器（SVM）需要下列組態：
-
+.Keystone Collector 伺服器 VM 的必要條件：
 * 核心：2個CPU
 * RAM：4 GB RAM
 * 磁碟空間：50 GB vDisk
@@ -42,13 +40,13 @@ Keystone Collector伺服器虛擬機器（SVM）需要下列組態：
 
 == 其他需求
 
-請持續滿足下列一般需求：
+確保符合下列一般要求：
 
 
 
 === 網路需求
 
-下表說明Keystone Collector的網路需求。
+下表列出 Keystone Collector 的網路需求。
 
 
 NOTE: Keystone Collector需要網際網路連線。您可以透過預設閘道（透過NAT）或透過HTTP Proxy直接路由傳送來提供網際網路連線。這兩種變體都在這裡說明。
@@ -221,30 +219,30 @@ Keystone Collector需要存取下列網際網路主機：
 
 
  a| 
-https://keystone.netapp.com[]
+https://[]
  a| 
 Keystone Collector軟體更新與使用量報告
 
 
 
  a| 
-https://support.netapp.com[]
+https://[]
  a| 
 NetApp HQ提供帳單資訊和AutoSupport 供應功能
 
 
 
  a| 
-https://mirror.centos.org[]
-https://mirrorlist.centos.org[]
+https://[]
+https://[]
  a| 
 Keystone Collector的作業系統更新（僅適用於OVA部署）
 
 
 
  a| 
-http://repo.mysql.com[]
+https://[]
  a| 
-下載並更新mySQL相依性（僅適用於Linux部署）
+下載並更新 MySQL 相依性（僅適用於 Linux 部署）
 
 |===

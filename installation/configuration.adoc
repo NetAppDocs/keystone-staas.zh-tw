@@ -44,8 +44,8 @@ NOTE: Keystone Collector可提供Keystone Collector Management終端使用者介
 
 ====
 . 切換「使用System*啟動KS-Collector」欄位。
-. 按一下「**儲存」。image:tui-1.png[""]
-. 返回TUI主畫面並確認「**服務狀態」資訊、以確保Keystone Collector處於正常狀態。系統應顯示服務處於「整體：健全」狀態。image:tui-2.png[""]
+. 按一下「**儲存」。image:tui-1.png["TUI 畫面"]
+. 返回TUI主畫面並確認「**服務狀態」資訊、以確保Keystone Collector處於正常狀態。系統應顯示服務處於「整體：健全」狀態。image:tui-2.png["TUI 畫面"]
 . 在主畫面上選取「退出至Shell*」選項、結束Keystone Collector管理TUI。
 
 
@@ -59,7 +59,7 @@ Collector軟體支援使用HTTP Proxy與網際網路通訊。這可在TUI中設�
 . 如果已關閉、請重新啟動 Keystone Collector 管理 TUI 公用程式：
 `$ keystone-collector-tui`
 . 切換「**HTTP Proxy**」欄位、並在需要驗證時新增HTTP Proxy伺服器、連接埠和認證的詳細資料。
-. 按一下「**儲存」。image:tui-3.png[""]
+. 按一下「**儲存」。image:tui-3.png["TUI 畫面"]
 
 
 
@@ -70,6 +70,6 @@ Keystone Collector會收集執行訂閱計量所需的有限組態、狀態和�
 
 在Keystone Collector TUI畫面上、限制特定客戶資料的收集是可設定的選項。此選項*移除私有資料*預設為啟用。
 
-image:tui-4.png[""]
+image:tui-4.png["TUI 畫面"]
 
 如需ONTAP 瞭解有關在支援內部及StorageGRID 內部資料存取限制時所移除項目的資訊、請參閱 link:../installation/data-collection.html["限制私有資料存取時移除的項目清單"]。

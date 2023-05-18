@@ -22,7 +22,7 @@ Keystone STaaS 系統中的資料會流經 Keystone Collector 和相關的監控
 
 Keystone 收集器會對儲存控制器啟動 REST API 呼叫、並定期取得控制器的使用詳細資料、如以下流程圖所示：
 
-image:collector-data-flow.png[""]
+image:collector-data-flow.png["顯示收集器元件內的資料流"]
 
 .圖例
 . NetApp Collector會啟動HTTPS工作階段至Active IQ雲端入口網站。
@@ -37,7 +37,7 @@ image:collector-data-flow.png[""]
 
 持續監控儲存基礎架構的健全狀況、是Keystone服務最重要的功能之一。針對監控和報告、 Keystone 使用 AIOP 解決方案、需要遠端存取客戶的網路。下圖說明如何使用 AIOP 解決方案工具來保護對客戶位置的遠端存取。
 
-image:monitoring-flow.png[""]
+image:monitoring-flow.png["資料流"]
 
 .圖例
 . AIOP 解決方案閘道會啟動 TLS 工作階段至其雲端入口網站。

@@ -42,8 +42,6 @@
   <block id="d701dcea67fd884a29f39c9adfdeb8bf" category="section-title">遠端存取需求</block>
   <block id="b33c741c562e791f067740096844ffe9" category="summary">歡迎使用Keystone</block>
   <block id="8ae3d79d3f1b6cb3022dbfb96c477b67" category="doc">深入瞭解NetApp Keystone</block>
-  <block id="341d84aa26cb4521474864e04ea2a63b" category="inline-image-macro">錯誤：缺少圖形影像</block>
-  <block id="fb2c4a4567f19f497aa52f4fa9fe5ad4" category="paragraph"><block ref="fb2c4a4567f19f497aa52f4fa9fe5ad4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b8ae90ca93129ae537095f32357022d7" category="section-title">Keystone儲存即服務（STaaas）</block>
   <block id="a6f1b0a7a0dc76c228aff931a7f131c9" category="summary">Keystone定價</block>
   <block id="20bf37f13c617e9f93531b4c89e316f7" category="paragraph">如果您偏好營運支出（營運支出）消費模式、而非資本支出（資本支出）或租賃模式、您可以選擇Keystone隨成長付費模式、以因應靈活且可擴充的消費需求。</block>
@@ -55,8 +53,6 @@
   <block id="77fb4a998df70518a615aa086dcede60" category="summary">Keystone中的服務品質</block>
   <block id="b0c2a97a674f701e042904eabd2ce86c" category="doc">Keystone中的服務品質（QoS）</block>
   <block id="bff19ffadab3b2c0f2336fe90bfd9be9" category="inline-link">透過 QoS 總覽來保證處理量</block>
-  <block id="4dbcb780b2afaca4e14c86b698ea3b98" category="inline-link">QoS最大值</block>
-  <block id="6f84bbf222b31dbe79e07a2c75da49f7" category="inline-link">QoS最低</block>
   <block id="acdda1c20fb3985ce840929f7525c803" category="section-title">調適性QoS</block>
   <block id="24fe24243f6cf0a0fada99032a85c028" category="inline-link">關於調適性QoS</block>
   <block id="e1e6381427a3975fa7597be88e8d2f70" category="section-title">自適性QoS原則群組的組態</block>
@@ -109,7 +105,6 @@
   <block id="130c3598aa08fc7ea1a58f5a13c59e7c" category="paragraph">採用Equinix技術的Keystone代管（Co-Loo）服務與標準Keystone服務產品不變。</block>
   <block id="ab8f1d41f34d86519574f8ff7d968420" category="paragraph">在本服務中：</block>
   <block id="2e986b8517427f1318fcb6cde88cfe70" category="list-text">Equinix提供空間、電力、冷卻、網路及發票、 和儲存設備。</block>
-  <block id="1ceb26b0e51c1e0eda91ef049cd504b2" category="list-text">這項服務在11個國家/地區的21個資料中心均受到支援。</block>
   <block id="4014aa6ca6c4b222aeea8afca1522395" category="paragraph">Equinix的資料中心位於以下位置：</block>
   <block id="70b8a65cfdc8cb99446cf0efce595a78" category="cell">資料中心</block>
   <block id="59716c97497eb9694541f7c3d37b1a4d" category="cell">國家/地區</block>
@@ -124,7 +119,6 @@
   <block id="d8b00929dec65d422303256336ada04f" category="cell">德國</block>
   <block id="59ead8d1e124ccfb79f3ace06f43e703" category="paragraph">倫敦</block>
   <block id="a98a6014b084f2a0c04df7f25ea1736f" category="cell">英國</block>
-  <block id="6b36360c14a3477023f0d543cc5727a5" category="paragraph">失落的洛杉磯</block>
   <block id="6314044c3803213e9fd3f3ecf8c90d65" category="paragraph">馬德里</block>
   <block id="907eba32d950bfab68227fd7ea22999b" category="cell">西班牙</block>
   <block id="7c885b9c7c703a77befcabeea54944d5" category="paragraph">墨爾本</block>
@@ -183,7 +177,6 @@
   <block id="2e36da56dea864a88d8bfe77e37ce8ce" category="section-title">監控工具</block>
   <block id="6961b64b96800d43e0da115e9763a226" category="paragraph">在Keystone客戶操作服務中、您的站台會安裝儲存基礎架構和監控工具。儲存基礎架構包含支援初始訂單所需的儲存硬體、並可於稍後訂購更多儲存設備。</block>
   <block id="ae031eb46bb3af9ef59c200e318f13e4" category="paragraph">除了儲存設備之外、還配置了兩種監控工具來監控儲存設備和使用量。</block>
-  <block id="4a08d1835c4f40051f2bf2514b677434" category="paragraph"><block ref="4a08d1835c4f40051f2bf2514b677434" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8ef6698c4c0c28e13ff87fec7e5388eb" category="summary">進階資料保護</block>
   <block id="c575a20db4934726a8fadd53d81a0c98" category="inline-link-macro">Keystone中的服務層級</block>
   <block id="7f4d4fbe08a8a895671d05c4a82b0c85" category="inline-link-macro">資訊文件MetroCluster</block>
@@ -234,9 +227,6 @@
   <block id="ea5d2f1c4608232e07d3aa3d998e5135" category="cell">64</block>
   <block id="c74d97b01eae257e44aa9d5bade97baf" category="cell">16</block>
   <block id="a87ff679a2f3e71d9181a67b7542122c" category="cell">4.</block>
-  <block id="eea2274bcc20c5ab5c322a30dcee6258" category="cell">* 延遲 *</block>
-  <block id="99f8d77b50f8491531357b2d907d59d1" category="cell">不到 1 毫秒</block>
-  <block id="342e06f2c04b016459176bdbbd984dfe" category="cell">低於 17 毫秒</block>
   <block id="670aaecb1a526fbed439dad3ec353a96" category="section-title">物件儲存</block>
   <block id="58d801506333ab644845942779162cbc" category="paragraph">* 支援的傳輸協定 * ： S3</block>
   <block id="497031794414a552435f90151ac3b54b" category="cell">物件</block>
@@ -277,7 +267,6 @@
   <block id="b0ba5edc3c109e946a18ba8c3e71362b" category="list-text">承諾的容量可在合約期間內變更、僅在特定條件下變更、如以下章節_Capacity re少_所述。</block>
   <block id="160614fcea2b5d18812256a37f251395" category="list-text">允許在訂閱期間增加容量或變更為更高的服務層級。不過、不允許從較高的服務層級移至較低的服務層級。</block>
   <block id="0b5abf5c3cccffbee4f48538a8f46c07" category="list-text">在服務期限的最後90天內、任何變更要求都必須將服務續約至少一年。</block>
-  <block id="9d1428ccdab4043962de6baff242d619" category="paragraph"><block ref="9d1428ccdab4043962de6baff242d619" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6e563e9d321b309cdef7d3f5a45b0d65" category="section-title">每季重新分配支出</block>
   <block id="075e59191efd36ae9c9c7094fbdab596" category="paragraph">訂購層級的要求與條件：</block>
   <block id="525638a12e9c8aa67d400bc4cae26beb" category="list-text">僅適用於ARREAR模式的每月帳單。</block>
@@ -286,7 +275,6 @@
   <block id="e1b83be7c1f4641d3c78efe1a0ad30aa" category="list-text">無法從雲端服務重新分配至內部部署。</block>
   <block id="e6174082850be1c9a7e5a9b03b3fd758" category="list-text">新的申請只會在下一個計費週期生效。</block>
   <block id="77bb86a7476fdc4f9b8e1320e8d3f8e8" category="paragraph">以下圖片說明每季重新分配支出的範例：</block>
-  <block id="0778919f1cae85d2f557cc72ce8c6ed0" category="paragraph"><block ref="0778919f1cae85d2f557cc72ce8c6ed0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c11d3902def90b2c39f1b05142fc762e" category="summary">Keystone中的運作模式</block>
   <block id="63e70807fd57df527662a30262f5b0cc" category="section-title">整個服務生命週期的角色與責任</block>
   <block id="06a0368e2f654d7dbee4961d201d589e" category="list-text">* 合作夥伴營運模式 * ：角色與責任的比例取決於您與服務供應商或合作夥伴之間的 SLA 。如需相關資訊、請聯絡您的服務供應商。</block>
@@ -299,7 +287,6 @@
   <block id="f1206f9fadc5ce41694f69129aecac26" category="list-text">設定</block>
   <block id="507a3a88cebc46603ce2be8eaa924eee" category="list-text">部署</block>
   <block id="79b7581616a6892a33647af8676f7c45" category="list-text">正式上線</block>
-  <block id="244f78a4e039400f39e0eb94595bdc02" category="cell"><block ref="244f78a4e039400f39e0eb94595bdc02" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6adf97f83acf6453d4a6a4b1070f3754" category="cell">無</block>
   <block id="b407d85189fae6568411d1e0477e1a61" category="paragraph">系統管理與監控</block>
   <block id="d2986ac8cb6bd55892099c1ffd6b1f6f" category="list-text">監控</block>
@@ -324,10 +311,8 @@
   <block id="02de04a8ab8cebed30d4a10b9f5a2868" category="summary">Keystone資料流程</block>
   <block id="8b9ebc949c2bd3b7f585608d2fec312f" category="doc">Keystone資料流</block>
   <block id="0476a04360a8efd6e70433fd2939cef7" category="section-title">Keystone Collector資料流</block>
-  <block id="7084d98d1c25d2e28eda5dd92c5dd52b" category="paragraph"><block ref="7084d98d1c25d2e28eda5dd92c5dd52b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9b27e12d584b3438e811533b32e026e8" category="list-title">圖例</block>
   <block id="4cf8f8268c14ee43943d5216b5df21a8" category="section-title">監控資料流</block>
-  <block id="325857741b37b2bb27cc84f38d841478" category="paragraph"><block ref="325857741b37b2bb27cc84f38d841478" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7621fcf3337893076016c8382d82f20e" category="summary">附加元件、額外服務詳細資料、資料分層</block>
   <block id="20ce0ec8b53728092deec662a7406cb1" category="summary">不可回收、非揮發性元件及SnapLock 不符合要求</block>
   <block id="240f8cd7a5a26e96dd18576d36e316a8" category="paragraph">作爲續訂的一部分NetApp Keystone 、NetApp將不可退回的非揮發性元件（NRNVC）產品延伸至您的檔案、區塊和物件服務。</block>
@@ -402,7 +387,6 @@
   <block id="d96367d414f2f1ab0c8c14b8d62edc0e" category="list-text">針對某些Keystone銷售提案提供支援。</block>
   <block id="b6b6ef9bcccde24a7790b0a3093601da" category="paragraph">Extreme服務層級的設定與命令：</block>
   <block id="0a32480150714670b636bea04f9ef2a1" category="paragraph">效能服務層級的設定與命令：</block>
-  <block id="36c275d62ed815270ea3f9f9ee07eae1" category="paragraph">此處列出檔案、區塊、物件和雲端服務的服務層級。</block>
   <block id="6511616eb91e4f26f7a37fb73c9823b2" category="list-text">雲端原生服務（例如運算、儲存設備、網路）由雲端供應商開立發票。</block>
   <block id="60da46ad32edbb2f2b3eccbbafedcd9f" category="list-text">這些服務取決於雲端儲存設備和運算特性。</block>
   <block id="77810f754f0d83cb5519f01e38866b76" category="paragraph">如果將磁碟區複製到ONTAP 支援區中、並將其用於備份及還原資料、您可以繼續使用複本、而無需支付任何額外費用。然而、貴企業長期用於任何其他用途的複製磁碟區則需支付費用。</block>
@@ -472,22 +456,8 @@
   <block id="e18765eb2b8dddd29b66918ffb976fcc" category="paragraph">Keystone STaaS訂閱每月和每年都會收費。</block>
   <block id="5979b85a79f05c1c731acd749343d5ff" category="list-text">您可以透過BlueXP介面或Keystone Success Manager（KSM）要求變更已提交的容量。如需要求變更的相關資訊、請參閱 <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>。</block>
   <block id="f8bd2c205fccea32b1d98118b791de1c" category="paragraph">本節說明NetApp Keystone 適用於NetApp和客戶營運環境的《NetApp IaaS基礎架構、架構和管理應用程式》。</block>
-  <block id="5e34e90f1e2704aa18ae93d8841518d8" category="paragraph">Keystone STaaS可在訂購的基礎上、以預先定義的效能服務層級（服務層級）提供資料儲存容量。</block>
-  <block id="864e6ceffc993de65f9913fb4c12ccc0" category="paragraph">服務層級的定義方式如下：</block>
-  <block id="a8507569e393fb5a553803555d766968" category="list-text">平均延遲</block>
-  <block id="ba3cb21e1e6e72e0502ac132232f5475" category="list-text">每個邏輯TiB每個磁碟區儲存的IOPS上限</block>
-  <block id="a5c52719ec1691dac340909acded274f" category="paragraph">磁碟區必須與服務層級相關聯。</block>
-  <block id="b2e5d13834e058927fb7583c9745e36d" category="section-title">支援儲存設備的服務層級</block>
-  <block id="1fdd389c21187d64915256967c8f2116" category="section-title">檔案與區塊儲存</block>
   <block id="9b25613e0d8ca22f20fe93edf63407f1" category="cell">*工作負載類型範例*</block>
   <block id="548dcac52aca7f6902fd2de4648c5e9e" category="cell">*每個磁碟區儲存的最大IOPS /邏輯Tibs *</block>
-  <block id="6c2e014c000f384666c794525cc81067" category="cell">*每個磁碟區儲存的最大Mbps/邏輯Tibs *</block>
-  <block id="6fad0b609a57af2ae4dbbf92ff728673" category="cell">低於 2 毫秒</block>
-  <block id="71d46f269394e963a516a1cc98340c17" category="cell">不到4毫秒</block>
-  <block id="188d13224eed451263dd6c85bd745307" category="list-text">檔案和區塊服務層級是以ONTAP 更新版本的版本為基礎。</block>
-  <block id="4aec33bed8da506bcfc723119af226a2" category="list-text">服務層級的IOPS/TiB和延遲值、是根據儲存在磁碟區中的邏輯資料量、32 KB區塊大小、以及70%讀取和/30%寫入IO的隨機組合而定。</block>
-  <block id="5d38020d77a978c981c3a5727882af55" category="list-text">實際IOPS / TiB和/或Mbps/TiB會因工作負載並行和使用模式而異。</block>
-  <block id="e1a5c627b57668717abd3786fef9b604" category="list-text">使用進階資料保護附加服務時、目標延遲僅適用於服務來自本機Keystone產品的IO要求。</block>
   <block id="93ed1a757e360a886c7ba5a5d93ba089" category="cell">*每個磁碟區儲存的最大IOPS /邏輯TiB *</block>
   <block id="a082738e5a73e8698a3682d9439c6131" category="cell">*每個磁碟區儲存的最大MBps/邏輯TiB *</block>
   <block id="61871926ab208323c9981229029b2c82" category="cell">*平均延遲*</block>
@@ -559,21 +529,15 @@
   <block id="605bfbf78c12bdf4b9a6daaba7623219" category="section-title">產生並收集支援套裝組合</block>
   <block id="d4bdb971d4927e036a3519461abe909f" category="paragraph">Keystone Collector TUI可讓您產生支援套裝組合、然後將其新增至服務要求、以解決支援問題。請遵循下列程序：</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
-  <block id="e385fa90b60165281bae11b6e25bff3d" category="list-text">請參閱*疑難排解&gt;產生支援產品組合*。<block ref="dc6483f3f6b233df000a8215567c9e17" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7521a40f5abb349afff3a7d5461c3d42" category="list-text">產生時、會顯示儲存套件組合的位置。使用FTP、SFTP或scp連線至該位置、並將記錄檔下載至本機系統。<block ref="0fc318456f84a64b43e2d29821df0fc8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b34b056c73270f2209f1e8eeb513e7cc" category="summary">基礎概念收集器的組態</block>
   <block id="b44055e981e64c62a3ac7b6994a3f19b" category="doc">設定Keystone Collector</block>
   <block id="8b66faad015dc0ff933cf2356b04c048" category="inline-link-macro">建立Unified Manager使用者</block>
-  <block id="71c01bb6959115832ba956353d65fa60" category="list-text">按一下「**儲存」。<block ref="c1f5a4895b0ae5d84bc0370f9cb94b49" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="528f96a3d4b17dd41513f2405eff6632" category="list-text">返回TUI主畫面並確認「**服務狀態」資訊、以確保Keystone Collector處於正常狀態。系統應顯示服務處於「整體：健全」狀態。<block ref="fef529ed1713f5132fce937b8a727284" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3d3aea279fd0dfc2c6c0a6f4af62eaf7" category="list-text">在主畫面上選取「退出至Shell*」選項、結束Keystone Collector管理TUI。</block>
   <block id="08762317d694c743ae82817d9e878a50" category="section-title">在Keystone Collector上設定HTTP Proxy</block>
   <block id="873671849cdb27df29bd825ffd9dbc0e" category="paragraph">Collector軟體支援使用HTTP Proxy與網際網路通訊。這可在TUI中設定。</block>
   <block id="7b7ae59492f5cdb1d6fbc156639ee5ac" category="list-text">切換「**HTTP Proxy**」欄位、並在需要驗證時新增HTTP Proxy伺服器、連接埠和認證的詳細資料。</block>
-  <block id="5d6eeca323f191b847ccaa89868f1712" category="list-text">按一下「**儲存」。<block ref="063c967c4bf177e696bdec9de5a25cb2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d66ad38cacfcba154b86b0c6d12a28a9" category="section-title">限制私有資料的收集</block>
   <block id="38256db8ac1c2018564d3df7d3f55c3e" category="paragraph">Keystone Collector會收集執行訂閱計量所需的有限組態、狀態和效能資訊。您可以選擇進一步限制所收集的資訊、方法是從上傳的內容中遮罩敏感資訊。這不會影響計費計算。不過、限制資訊可能會影響報告資訊的使用性、因為使用者可以輕易識別的部分元素（例如Volume名稱）會被UID取代。</block>
-  <block id="fc377f8f82024ca34c5142f60fe2c788" category="paragraph"><block ref="fc377f8f82024ca34c5142f60fe2c788" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e63229ed25551e34e5f0a388c38141ed" category="list-text">叢集UUID</block>
   <block id="a54372ef430f726c8343fc5550fade42" category="list-text">序號</block>
   <block id="c391c76646a604c0d2afc578924ddf0f" category="list-text">位置（根據ONTAP 在叢集中輸入的值）</block>
@@ -636,16 +600,13 @@
   <block id="236d0b94e19b8de0c91e1d1af4193017" category="paragraph">在Linux系統上安裝Keystone Collector需要幾種組態。</block>
   <block id="29bc7d9ab3c94b603834dbbd074f9667" category="list-text">作業系統：CentOS 7或Red Hat Enterprise Linux 8．6或更新版本</block>
   <block id="6c0ecb6db472eae3c84276b7cd5ea34f" category="list-text">Chroyd時間同步</block>
-  <block id="cb4ff22dcb36625e975bdc82452939ca" category="list-text">存取標準Linux標準軟體儲存庫</block>
   <block id="8dff4f66fbdc44d35cadc9cf566cab06" category="paragraph">同一部伺服器也應該具有下列協力廠商套件：</block>
   <block id="8a43eb05c3b74f093be84dcedec105e4" category="list-text">Pod管理程式</block>
   <block id="431e077067178a6dd061f1e2ab20209d" category="list-text">SOS</block>
   <block id="e284374909d82a81c5150b7908e00147" category="list-text">時間</block>
   <block id="3c048c264642c17c1d0bbd50b9e23bfe" category="list-text">Python 3（3.6.8至3.9.13）</block>
   <block id="8293f6bcd4201a597ff59371ddd65240" category="section-title">其他需求</block>
-  <block id="2deee91a2f1a0e5b01ed8c978ac2fc1c" category="paragraph">請持續滿足下列一般需求：</block>
   <block id="ddd31bebd407467c40be40bf75366dbd" category="section-title">網路需求</block>
-  <block id="7165a65e5b665d36c7742ce12856ddaa" category="paragraph">下表說明Keystone Collector的網路需求。</block>
   <block id="7ff386c96ae027b0684c69f8088eaa2b" category="admonition">Keystone Collector需要網際網路連線。您可以透過預設閘道（透過NAT）或透過HTTP Proxy直接路由傳送來提供網際網路連線。這兩種變體都在這裡說明。</block>
   <block id="f31bbdd1b3e85bccd652680e16935819" category="cell">來源</block>
   <block id="12007e1d59f4d09c87dbe2c438256244" category="cell">目的地</block>
@@ -703,12 +664,8 @@
   <block id="3acf02fc2ca7ab5b0947f4f2d11f7eb9" category="paragraph"><block ref="bacb3137924340d24117e6e30fe73d79" category="inline-link-rx"></block>
 <block ref="cd14c203c0553c3bd54d195d2a892a76" category="inline-link-rx"></block></block>
   <block id="f6de64b43a27abdda4e460df35405bcc" category="paragraph">Keystone Collector的作業系統更新（僅適用於OVA部署）</block>
-  <block id="82ca102fb0647c142d63d0e0d6b37fcf" category="paragraph"><block ref="82ca102fb0647c142d63d0e0d6b37fcf" category="inline-link-rx"></block></block>
-  <block id="9f562f4648359da0bc2600c6c36bc53a" category="paragraph">下載並更新mySQL相依性（僅適用於Linux部署）</block>
   <block id="fbf8359989576f0800cb2da4a25f4be1" category="summary">在VMware vSphere系統上安裝Keystone收集器的先決條件</block>
   <block id="2f0d22e6971fda1cbc3411961fec8360" category="doc">虛擬化基礎架構需求</block>
-  <block id="0a3bb0c5f2895e93f55bda877c73275c" category="paragraph">在VMware vSphere系統上安裝Keystone Collector需要幾種虛擬基礎架構組態。</block>
-  <block id="22170c9c9ee1ed17138fc54bef4fa3c6" category="paragraph">Keystone Collector伺服器虛擬機器應具備下列項目：</block>
   <block id="080838bb01c5d3b3c97a54a92d98023d" category="list-text">作業系統：VMware vCenter伺服器和ESXi 6.5或更新版本</block>
   <block id="a6074a8dda65f87c74db6e5b6a444683" category="list-text">核心：4個CPU</block>
   <block id="f003ca1f65b35534eb0dad8c4f388f6a" category="list-text">RAM：12 GB RAM</block>
@@ -724,22 +681,17 @@
   <block id="9a87285999e76f01064e09d4163dacb4" category="list-text">在「*部署OVF範本*」精靈的「步驟1」上、按一下「*選取」和「OVF範本*」以選取下載的項目<block ref="10e7fe8d7233c9952d9060893052d234" prefix=" " category="inline-code"></block> 檔案：</block>
   <block id="eb2f786d0356dd1cd28f20f376d5da2b" category="list-text">在步驟2 _上、指定VM名稱並選取VM資料夾。</block>
   <block id="ef93bcb8e06b73273019082b41d87115" category="list-text">在_Step 3_上、指定執行VM所需的運算資源。</block>
-  <block id="8e05ca1d53f8b5d2cadf235ed8c1d456" category="list-text">在_步驟4：檢閱詳細資料_、確認OVA的正確性與真僞。產品名稱應顯示為_Sector_ NetApp Keystone 。<block ref="63c113dd0f83c084bfe4502899944c8e" category="inline-image-macro-rx" type="image"></block>vCenter會驗證OVA內容的完整性、並針對OVA所包含的檔案提供有效的程式碼簽署摘要。不過、它並不會驗證程式碼簽署憑證的真僞。若要驗證完整性、您應該下載完整的簽署摘要憑證、並對照Keystone發佈的公開憑證進行驗證。</block>
   <block id="41466009ab38ed0e1dbd7f2358fa3825" category="list-text">按一下*出版者*連結、即可下載完整的簽署摘要憑證。</block>
   <block id="79aa6ff54605af89e06167728f22a5af" category="list-text">下載_基礎概念帳單_公共憑證：<block ref="ed42a04573e7bc8bae44a0216f31177e" category="inline-link-rx"></block>。</block>
   <block id="250e025c960accde58851d9cba806aa4" category="list-text">使用OpenSSL驗證OVA簽署憑證的驗證是否為公開憑證：<block ref="d67907543fcf70f6dfbc7d1139240042" prefix=" " category="inline-code"></block></block>
   <block id="09ecce71a847e29076b9c49beb846dae" category="list-text">在「*部署OVF範本*」精靈的步驟5_上、指定儲存VM的位置。</block>
-  <block id="260ce5f94156b2b43c34b17cb7bd376e" category="list-text">在步驟6_上、選取要使用VM的目的地網路。</block>
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">在步驟7自訂範本_上、指定管理使用者帳戶的初始網路位址和密碼。</block>
   <block id="8bcd74591dc72ada87f255c862348f72" category="admonition">管理密碼以可還原格式儲存在vCenter中、應作為開機認證、以取得對VMware vSphere系統的初始存取權。在初始軟體組態期間、應變更此管理員密碼。應以CIDR表示法提供IPV4位址的子網路遮罩。例如、子網路遮罩的值為24、子網路遮罩為255．255．255．0。</block>
   <block id="4ff6b73315fa76bc8171f5548ebb79ef" category="list-text">在「*部署OVF範本*」精靈的步驟8「準備好完成」上、檢閱組態並確認您已正確設定OVA部署的參數。</block>
   <block id="d5599cb082a40129e25bed4de770048b" category="paragraph">從範本部署VM並開啟電源後、請開啟VM的SSH工作階段、並以暫用的管理認證登入、以驗證VM是否已準備好進行組態。</block>
   <block id="a2840fbbafc1435ffe70d4b579b45ac6" category="section-title">初始系統組態</block>
-  <block id="cceb098128f31cc0140f185f7e51d8e1" category="paragraph">在VMware vSphere系統上執行下列步驟、以初始設定透過OVA部署的Keystone Collector伺服器：</block>
   <block id="a0416d96615fb872a7f19a13f6e245aa" category="admonition">完成部署時、您可以使用Keystone Collector Management終端使用者介面（TUI）公用程式來執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。</block>
-  <block id="e760c0b482edaaec1aad9f8b05666529" category="list-text">開啟至Keystone Collector伺服器的SSH工作階段。登入時、便會顯示TUI。您也可以執行手動啟動TUI<block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix=" " category="inline-code"></block> CLI命令。</block>
   <block id="25f96d2dea5d65fdf3a40639ee4d2baf" category="list-text">如有需要、請在TUI的「*組態&gt;網路*」區段中設定Proxy詳細資料。</block>
-  <block id="1f7c946f9a17292415862d8399a2468a" category="list-text">使用*維護&gt;更新系統*選項來更新系統/收集器。某些選取的鏡像可能無法使用、系統詳細資料會在重試幾次後更新。</block>
   <block id="ea0dbfc6ab6c0af39db6e8b2db365d7f" category="list-text">在「*組態&gt;系統*」區段中設定系統主機名稱、位置和NTP伺服器。</block>
   <block id="b6b465ab63a0aae38b40c4f7c52e2ebe" category="list-text">在「*維護&gt;使用者*」區段中更新管理員密碼。</block>
   <block id="6d001a04aa3a4da5de64981a8c657ad6" category="list-text">在「*組態&gt;進階*」區段中、將初始OVA組態標示為完成。</block>
@@ -750,7 +702,6 @@
   <block id="4fbba36ad0c25fac7911d3ecc475d459" category="summary">什麼是Keystone Collector</block>
   <block id="f5dfacf7a95f4945b3caa091e27ec747" category="doc">Keystone Collector總覽</block>
   <block id="082821bd60f72deca861daa75a2c3020" category="paragraph">此架構圖表概述典型Keystone環境中的組成元件及其連線能力。</block>
-  <block id="d2db1c2e2de5a83644c4f38115701005" category="paragraph"><block ref="d2db1c2e2de5a83644c4f38115701005" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8bc634756fc8c4a813837243b83f84e2" category="summary">在Linux上安裝Keystone收集器</block>
   <block id="0b5cbdf476372af38175e762b6d9caca" category="doc">在Linux系統上安裝Keystone Collector</block>
   <block id="1fb4cbb275f095e6c7e8f914d27ed735" category="paragraph">Keystone Collector軟體由線上YUM軟體儲存庫散佈。您需要在Linux伺服器上匯入及安裝檔案。</block>
@@ -784,50 +735,34 @@
   <block id="016b01bead3857be9fd51bfef49b23aa" category="admonition">Keystone訂閱的容量使用量會顯示在儀表板和報告的Tibs中、最多可顯示兩個小數位數。如果使用量低於0.01 TiB、則該值會顯示為0或<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>。如需其他使用量指標、請參閱 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>。如需Keystone中使用不同容量的相關資訊、請參閱 <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>。</block>
   <block id="b3c0ed0e576799a24c9e0fda06bee006" category="section-title">檢視訂閱詳細資料</block>
   <block id="b5d0d2658bdd7db17a2251c2d1fa6edb" category="paragraph">您可以在「*訂閱詳細資料*」標籤中檢視帳戶名稱的所有訂閱。</block>
-  <block id="3134c27d858b331bf91068bcd770722c" category="paragraph"><block ref="3134c27d858b331bf91068bcd770722c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="60d8073bb007efeabf44bc4eea759210" category="paragraph">您可以針對每個訂閱號碼查看下列資訊：</block>
   <block id="8e43124ddee77b223f1e720973e147e7" category="list-text">*訂閱編號*：NetApp指派的Keystone訂閱訂閱的訂閱編號。</block>
   <block id="f06c1648cc175308e5d0425681e31f63" category="list-text">*追蹤ID*：訂閱啟動時指派的追蹤ID。這是每個訂閱和網站的唯一ID、用於追蹤訂閱。</block>
   <block id="3644820829d44e327e43dd95769b1686" category="list-text">*帳單期間*：訂閱的帳單期間、例如每月、每季或每年。</block>
   <block id="58ddac2ef16530986372a556eb9e6b7a" category="list-text">*開始日期*：訂閱的開始日期。</block>
   <block id="83adb6d347afacf7d560a4bb6f74dfa1" category="list-text">*使用狀態*：指出已使用或過度使用的訂閱量。如果您想要檢視最高使用量記錄、可以依此欄排序清單。</block>
-  <block id="5ef0de341f3206ea121fbfbf51e38e32" category="list-text"><block ref="5d188bf7f39558255a337fa21a17a0b0" category="inline-image-macro-rx" type="image"></block>：單擊此圖標將打開*訂購時間系列*選項卡，您可以在該選項卡中查看此訂購中包含的每個服務級別的歷史使用數據</block>
-  <block id="dc73bcb00aeb285be26cfd179924fe9e" category="paragraph">您可以按一下向下箭頭查看更多詳細資料、以取得訂閱記錄。詳細資料、例如服務層級名稱、已提交、已耗用、可用容量、以及目前和預提的突發使用量、都會顯示在TiB中。顯示記錄較高使用量的特定服務層級。也會顯示針對您的Volume所產生的任何警告和警示。</block>
   <block id="736d5b3313fce2ba2126ffff61a7ec29" category="paragraph">您可以參閱下列使用指標、查看每個訂閱的使用狀態：</block>
-  <block id="3aaeea3f20263addb794c645bdef9c16" category="paragraph"><block ref="3aaeea3f20263addb794c645bdef9c16" category="inline-image-macro-rx" type="image"></block></block>
   <block id="88fa71f0a6e0dfedbb46d91cc0b37a50" category="paragraph-title">索引</block>
-  <block id="8cc14ca7f7b6ee943d77418dfa822731" category="paragraph"><block ref="56a93b6a2a3614c3aeb1b9851c5e43f2" category="inline-image-macro-rx" type="image"></block>：未記錄服務層級已認可容量的容量使用量<block ref="bb7f7720d1162aeddd650a9a9446141b" category="inline-image-macro-rx" type="image"></block>：使用量正常、在承諾容量的80%內<block ref="7646cb232eca2204ee8b299f2fdebfb4" category="inline-image-macro-rx" type="image"></block>：最大使用量、亦即使用量即將達到100%或以上的已認可容量。「*已用*」欄會針對超過承諾容量80%的任何使用量、顯示此指標<block ref="2acc4efd0d7d55d52fc790f88116c2e0" category="inline-image-macro-rx" type="image"></block>：使用量在連拍限制之內。「尖峰消耗」是指服務層級100%承諾容量的耗用量、且在議定的高載使用量限制範圍內、例如120%<block ref="9dd31109acddbedcca8dcf80e09eebda" category="inline-image-macro-rx" type="image"></block>：表示耗用量超過規定的突發量限制</block>
-  <block id="6258cb1a842831f15b22f87325717f37" category="section-title">檢視歷史訂閱資料</block>
   <block id="a514224616890dbac3dede8f0d533add" category="paragraph">「*訂閱時間系列*」索引標籤會顯示特定期間訂閱的歷史資料。垂直圖表會顯示所選時間範圍的使用詳細資料、並提供適當的指標、供您比較和產生報告。</block>
   <block id="c46ba64e2bab36ac2ede95ae5f0692dc" category="list-text">單擊*訂購時間序列*選項卡。</block>
   <block id="a49bb8de1f373a2c0821dd3715e2473c" category="list-text">選取您要檢視其詳細資料的必要訂閱。您帳戶名稱中的第一個訂閱依預設為選取狀態。</block>
-  <block id="4ace5fc4007e7d1732831506700b3e06" category="paragraph"><block ref="4ace5fc4007e7d1732831506700b3e06" category="inline-image-macro-rx" type="image"></block></block>
   <block id="35070e1c588eb56d935a4877ffdfdb10" category="paragraph">將顯示下列詳細資料：</block>
   <block id="c3b2392317dad26eb62ae53f36697f5e" category="list-text">紅色：暴增使用量（100%承諾容量達到議定的暴增限制）</block>
-  <block id="2ebe85ca38ab100590dc16fd81d18da1" category="paragraph"><block ref="2ebe85ca38ab100590dc16fd81d18da1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="section-title">產生報告</block>
-  <block id="b894fba1f7e89a49fc8cfb6cea7e1ee6" category="paragraph">您可以按一下「下載」按鈕、針對訂閱詳細資料、時間範圍的歷史使用量資料、以及每個索引標籤的系統詳細資料、來產生及檢視報告： <block ref="f865f0dd5bea740b7e77dd6862c1f366" category="inline-image-macro-rx" type="image"></block></block>
   <block id="03051fbd458dd7625e7969d74dd74735" category="paragraph">詳細資料會以CSV格式產生、您可以儲存以供未來使用。</block>
   <block id="3f564a49686a18ae09da9597e6538840" category="paragraph">*訂購時間系列*標籤的範例報告、其中會轉換圖形資料：</block>
-  <block id="0a5468723ee164f4220a0538b1ff32b4" category="paragraph"><block ref="0a5468723ee164f4220a0538b1ff32b4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">檢視警示</block>
   <block id="c71fcee7f813aa85774b9114dfba4ef1" category="paragraph">儀表板上的警示會傳送警示訊息、讓您瞭解儲存環境中發生的問題。</block>
   <block id="903961eaa166cc0c38b735276961eb0c" category="paragraph">警示可分為兩種類型：</block>
   <block id="d08b54ee187c7327910bae3997812ee1" category="list-text">*警告*：不符合法規的問題會顯示為警告。例如、如果託管叢集內有未附加調適性QoS（AQO）原則的磁碟區、您會看到一則警告訊息。您可以按一下警告訊息上的連結、在「*系統詳細資料*」索引標籤中查看不相容磁碟區的清單。</block>
   <block id="0fdfd6d11ae114ae172cdc0ad002c349" category="paragraph">如需AQO原則的相關資訊、請參閱 <block ref="ec50deebd618280d321c610a1ff0d73b" category="inline-link-macro-rx"></block>。</block>
-  <block id="2f79ebd4f32cabd1114c688445ebf53e" category="paragraph"><block ref="2f79ebd4f32cabd1114c688445ebf53e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f303aa2ecdcc69fbc97adcf5a2476825" category="paragraph">Digital Advisor可讓您檢視儲存即服務（STaaas）詳細資料、以及您所擁有NetApp基礎架構的相關資訊。數位顧問提供單一儀表板、可清楚掌握您的訂閱、服務層級和容量使用狀況、並可建立詳細報告。</block>
   <block id="7a00a46aa8b851e05a0a8783db55e3ab" category="paragraph">如需Keystone儀表板和報告的詳細資訊、請參閱 <block ref="e4a96850db17c7110d770223b8207b51" category="inline-link-macro-rx"></block>。</block>
   <block id="ac6a5de4e069a7968a64e732a7cbd9af" category="admonition">*問題說明*：Keystone Collector會在使用量測系統中執行多個容器。當Red Hat Enterprise Linux 8.x伺服器使用美國國防資訊系統署（DISA）安全技術實作指南（STIG）原則強化時、會間歇性看到有關fapolicyd（檔案存取原則精靈）的已知問題。此問題識別為 <block ref="c6da6cbf9dd009f994ed56cf4b1ffbbb" category="inline-link-macro-rx"></block>。*因應措施*：在Red Hat Enterprise解決之前、NetApp建議您採用以下方法來解決此問題<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> 進入許可模式。在中 <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>、設定的值<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>。</block>
   <block id="9893071aa012ae6b029eae73ae2be44e" category="list-text"><block ref="9893071aa012ae6b029eae73ae2be44e" category="inline-link-rx"></block></block>
   <block id="6bf0a6b5934bc27f34497309b1c2ce0a" category="list-text"><block ref="6bf0a6b5934bc27f34497309b1c2ce0a" category="inline-link-rx"></block></block>
   <block id="e41d7b27749843cacc5b63d577d05563" category="paragraph">Keystone進階資料保護服務可同步將資料鏡射至次要站台。萬一主站台發生災難、二線站台可以接管、而不會遺失任何資料。這項功能運用MetroCluster 兩個站台之間的「支援資料保護」功能。您只能將進階資料保護附加服務用於檔案和區塊儲存服務。如需ONTAP MetroCluster 有關資料、請參閱 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>。</block>
-  <block id="580c330994127defe5cd5153bad3a4ba" category="paragraph">儲存服務品質（QoS）是一項關鍵技術、可確保應用程式獲得一致且可預測的效能。如果沒有QoS、某些工作負載（例如多個系統開機）可能會佔用一段時間的整個資源、並影響其他工作負載。如需QoS的相關資訊、請參閱<block ref="3c8d0a20452a1fdd8de7e683059a52bc" category="inline-link-rx"></block>。</block>
   <block id="e88f55d6b9c231a5c6bcae698bdfd7dc" category="list-text">* vserver*：Vserver或儲存VM（儲存虛擬機器）的名稱。</block>
-  <block id="308ede543987c09a3ef34aff33fbd87f" category="list-text">*預期IOPS *：ONTAP 只要有效能保證、即可提供最低IOPS / TiB數量。</block>
-  <block id="095c182a20e3d5d17cb203ffded54217" category="list-text">*尖峰IOPS *：在效能受到限制之前、磁碟區可用的最大IOPS / TiB數量。</block>
-  <block id="b2744d264660e6ee9104834a92616c0f" category="list-text">*預期IOPS分配*：此欄位可控制磁碟區的預期IOPS是否取決於已分配或已使用的磁碟區大小。在Keystone中、這是根據已分配的空間而定。</block>
-  <block id="48498032e36fc1bb3a4f2820d6c121e0" category="list-text">*尖峰IOPS配置*：此欄位可控制磁碟區可用的尖峰IOPS是否取決於已分配或已使用的磁碟區大小。在Keystone中、這是根據已用空間而定。</block>
   <block id="83968617de22b9218018ccb02b138d69" category="paragraph">如需IO密度的相關資訊、請參閱 <block ref="3ce2bf0236919e451c90f574367e80ae" category="inline-link-macro-rx"></block>。如需AQO原則群組的詳細資訊、請參閱<block ref="e1f6c27c218a9f9df79e5c49fb7040d6" category="inline-link-rx"></block>。</block>
   <block id="d1dc13c797f457ef0f8af6fba8c638fa" category="paragraph">優質服務層級的設定與命令：</block>
   <block id="7448ec74d1e6091b2ad38508ebdc37f4" category="section-title">標準服務層級的設定</block>
@@ -835,8 +770,6 @@
   <block id="5cd7d5370bb2b4b9a46af59b9c5c279e" category="paragraph">價值服務層級的設定與命令：</block>
   <block id="31dc6a9375ebd13745edd88d9ad398fa" category="paragraph">Keystone會根據服務層級來衡量使用量。每個服務層級都與特定的調適性服務品質（QoS）原則相關聯。在部署期間、系統會通知您訂閱的Keystone服務的每個QoS原則詳細資料。在儲存管理作業期間、請確定您的磁碟區已根據訂閱的服務層級指派適當的QoS原則、以避免發生非預期的計費。如需 ONTAP 更多有關 QoS 原則的資訊、請參閱 <block ref="c361ea29a8da4892d7ebbf6b7b42594c" category="inline-link-macro-rx"></block>。</block>
   <block id="6ee89d6c0a15491675b7cc32e34a211d" category="list-text">*容量測量單位為單位元組（GiB）、小單位元組（TiB）和小單位元組（PIB）*：使用基礎為1024的資料儲存容量測量（1 GiB = 101010^3^位元組、1 TiB = 104^位元組、1 PiB = 1010%5^位元組）。</block>
-  <block id="da87ed8022acb452323aacf7d8c334ec" category="paragraph">請注意下列處理量效能指標點（僅適用於檔案）</block>
-  <block id="59e575bf50bc5d85d93d47cc7ef0e4e2" category="list-text">延遲不包括下列項目：-控制器連接埠之間的應用程式、主機或客戶網路延遲。—QoS會自動套用延遲、使IO保持在服務層級上限內。</block>
   <block id="60a76fbd6768a42afc35ac611d023d65" category="paragraph">《The》（《The》）《The》（《The》）NetApp Keystone 《The》</block>
   <block id="33fdcc4581188d05dc6308f0e1c577d9" category="paragraph">超過服務層級已認可容量的任何使用量、都是突發容量。</block>
   <block id="34d81e2d25f8511b6ab5f5b492c3aaa9" category="list-text">Keystone服務可讓您在服務層級的已認可容量上使用額外容量。這是突發容量。</block>
@@ -984,8 +917,6 @@
   <block id="8cf5f59a1100fa36f9623b70bdb992ba" category="paragraph">若要使用Keystone服務並檢視使用資料、您應該在站台的VMware vSphere或Linux系統上安裝Keystone Collector。</block>
   <block id="7114fdaf9483bf8fda55eeb6cced9e80" category="admonition">此處提供的安裝與組態資訊適用於ONTAP 供應器的版本StorageGRID 。要求和程序對ONTAP 整個過程而言均屬通用、StorageGRID 但有一些例外。</block>
   <block id="dcca2c79206725f48705313592b94362" category="paragraph">Keystone Collector是Keystone計費平台的使用量採購元件、可利用Active IQ Unified Manager VMware和其他應用程式連線ONTAP 至VMware和StorageGRID VMware系統、收集Keystone訂閱的使用量和SLA效能計量所需的中繼資料。它可讓您監控系統健全狀況、同時傳送帳單資料以供報告。</block>
-  <block id="fb03e0490a19e5a8091adb56628a89c0" category="paragraph">Linux伺服器需要下列組態：</block>
-  <block id="875971a9a690ce8a36d7f42afd4543e1" category="paragraph">Keystone Collector伺服器虛擬機器（SVM）需要下列組態：</block>
   <block id="3cd8ee624224889231554d68f6c0f471" category="list-text">核心：2個CPU</block>
   <block id="729c0bdf36ec5a81531eff6e6786c89d" category="list-text">RAM：4 GB RAM</block>
   <block id="6689c36f38716c4f3b09772966e38e5d" category="list-text">磁碟空間：50 GB vDisk</block>
@@ -1048,10 +979,7 @@
   <block id="6b71507d392708444982d424df1963c2" category="paragraph">Keystone STaaS服務可支援ONTAP 多StorageGRID 種功能和傳輸協定、以利資料的檔案和區塊儲存、以及物件儲存、下表說明：</block>
   <block id="661319c881749fc4ef06edb56f84c952" category="paragraph">NetApp全球服務與支援中心（GSSC）和NetApp Keystone 《SKETONE Success Manager》（KSM）負責為您提供Keystone訂閱服務。</block>
   <block id="5e3fca9227064d2d04c47a0f13b4fffe" category="paragraph">如需Keystone服務的詳細資訊、請參閱：</block>
-  <block id="1ad935b10417da04d8f4a93ed39ce8a0" category="paragraph">隨QoS原則的大小變化、會自動套用調適性QoS（AQO）作為Keystone服務、以維持IOPS與TB/GBs的比率。如需AQO原則的相關資訊、請參閱<block ref="837de1b03a328f464002642d845ea947" category="inline-link-rx"></block>。</block>
   <block id="b41d880d5f9cddb842b19d183ce73f2e" category="paragraph">Keystone提供AQO原則、讓您在叢集正式作業後即可設定。您應確保所有磁碟區都與系統中已建立且可用的正確AQO原則相關聯。</block>
-  <block id="843145f4887d94733db1d1b24ca3fdfa" category="admonition">如果您尚未在磁碟區上正確套用AQO原則、則這些磁碟區將會依照您的訂閱、以最高服務層級進行測量和收費。這可能導致意外的突發費用。</block>
-  <block id="445fbfc75bfa2a8ab6a7cdcb019f9838" category="paragraph">您可以設定調適性QoS（AQO）原則、自動將處理量上限或樓層調整為Volume大小。若要設定原則、您應注意下列事項：</block>
   <block id="783c1c698cfe222ca1a1c69b815e8a3c" category="list-text">*原則群組名稱*：AQO原則群組的名稱。例如、<block ref="e22fe87dc37298f80d1bbd25d59219b8" prefix=" " category="inline-code"></block>。</block>
   <block id="680fcae2005fb4b11fdcc18c27ddd58b" category="list-text">*絕對最小IOPS *：如果磁碟區大小非常小、將套用至磁碟區的預期IOPS最低數目、否則會導致不可接受的IOPS數目。此值預設為1、000<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block>、500代表<block ref="8d5e7e72f12067991186cdf3cb7d5d9d" prefix=" " category="inline-code"></block>和250（用於）<block ref="9446a98ad14416153cc4d45ab8b531bf" prefix=" " category="inline-code"></block>、75表示<block ref="eb6d8ae6f20283755b339c0dc273988b" prefix=" " category="inline-code"></block> 和<block ref="689202409e48743b914713f96d93947c" prefix=" " category="inline-code"></block> 服務層級：</block>
   <block id="190dc75f5eac190e46db7ce571587dbc" category="paragraph">下列各節將說明各服務層級的調適性QoS（AQO）原則設定。此處提供的每個服務層級的最小和最大Volume大小、可為磁碟區提供最佳的IOPs和延遲值。在這些準則之外建立太多磁碟區、可能會對這些磁碟區的效能造成負面影響。</block>
@@ -1068,10 +996,8 @@
   <block id="b8905d711198e80b0e2927dff32cfd11" category="list-text">*結束日期*：訂閱的結束日期。根據此日期、您可能會看到即將到期的訂閱資訊訊息。</block>
   <block id="8e7561ba1f78104b205962fa9d4b44a9" category="paragraph">如需Keystone儲存服務和相關服務層級的相關資訊、請參閱 <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>。</block>
   <block id="9ff2c2d2ffe68a2a0862d38fe356318c" category="list-text">從*開始日期*和*結束日期*欄位的行事曆圖示中選取時間範圍。預設時間範圍是從帳單期間的開始日期到目前日期。</block>
-  <block id="22dcf7d0676ff8f536ed431a7b672de7" category="list-text">按一下*檢視詳細資料*。每個服務層級的訂閱歷史使用量資料會根據所選時間範圍顯示。您可以將滑鼠游標停留在圖表上、以檢視該資料點上的已提交、已用、突發及超過突發限制資料的使用量明細。</block>
   <block id="8cdd8d8e55dfdcaf50118c634169eaf7" category="list-text">*訂閱詳細資料*：訂閱的開始與結束日期、以及計費期間、例如每季、每年等。</block>
   <block id="12ed0205cd7410bc01e15e4b8a285019" category="list-text">*使用圖表*：長條圖會顯示日期範圍內服務層級的名稱和該服務層級所耗用的容量。集合的日期和時間會顯示在圖表底部。</block>
-  <block id="a0844c086d0417165bb56c154e3ddbcc" category="admonition">根據查詢的日期範圍、使用量圖表會以30個資料點的範圍顯示。</block>
   <block id="3a6ef8ff534dc5701b3936464bf23441" category="paragraph">長條圖中的下列色彩表示服務層級中定義的耗用容量：</block>
   <block id="19e499aa450e552c41a06bb0742085d6" category="list-text">綠色：80%以內。</block>
   <block id="744f7cb6bd1aa9077ff244891a651e80" category="list-text">黃色：80%- 100%。</block>
@@ -1092,13 +1018,10 @@
   <block id="6f7e564e5f841331ad117d7eb3b3ae10" category="paragraph">針對功能、*系統詳細資料*索引標籤會顯示Keystone訂閱所管理儲存環境中磁碟區的容量使用量、磁碟區類型、叢集、Aggregate及服務層級等資訊ONTAP 。</block>
   <block id="d2c1241be04ae4d70013755a80c6cbd2" category="list-text">按一下*系統詳細資料*索引標籤。</block>
   <block id="ccdbd07a063ad5631511d37c5d2f5a36" category="list-text">選取訂閱編號。依預設、會選取第一個可用的訂閱號碼。</block>
-  <block id="881fb88f30cf9ba2d57147ddfb898685" category="paragraph">隨即顯示Volume詳細資料。您可以在欄之間捲動、並將滑鼠游標停留在欄標題旁的資訊圖示上、以深入瞭解這些欄。您可以依欄排序、並篩選清單以檢視特定資訊。您可以按一下*複製節點序號*按鈕來複製個別節點序號。</block>
   <block id="8b315ff987c2e0cfd5650f23e5464623" category="example-title">不只是個物件、更是個物件&lt;/strong&gt; &lt;strong&gt;</block>
   <block id="45cbe8d46cd75aedbf971e2391199759" category="paragraph">對於 StorageGRID 、此索引標籤會顯示物件儲存環境中節點的實體使用量。</block>
   <block id="4305e9b17980561df3c63a75f32b2075" category="list-text">選取訂閱編號。依預設、會選取第一個可用的訂閱號碼。選取訂閱編號後、即會啟用物件儲存詳細資料的連結。</block>
-  <block id="1690678f16ffa10ab1e26e44aa686db5" category="paragraph"><block ref="1690678f16ffa10ab1e26e44aa686db5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d599237a38a37deabe01bd34298be802" category="list-text">按一下連結以檢視每個節點的節點名稱和實體使用詳細資料。</block>
-  <block id="47e40976658c073c0e6048f08d9a27c6" category="paragraph"><block ref="47e40976658c073c0e6048f08d9a27c6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7a0a61d280e201148fcd091f8167d88f" category="list-text">*資訊*：如為訂閱即將結束等問題、您可以看到資訊警示。將游標停留在資訊圖示上、即可深入瞭解問題。</block>
   <block id="1aa4a8544fc94c7ce0ff8c9bc46bb523" category="paragraph">利用此功能（Digital Advisor）儀表板、您可以監控與您的訂閱有關的使用情況、並產生報告NetApp Keystone Active IQ Digital Advisor 。在訂購Keystone服務時、您可以在Digital Advisor儀表板上的* Keystone Subscriptions *（基礎概念訂閱）小工具上檢視訂閱與使用的詳細資料。</block>
   <block id="936acd8bca51b1c47ce51ce5d9e45134" category="admonition">此處提供的資訊同時適用於ONTAP 整個過程StorageGRID 。相關章節已指出例外情況。</block>
@@ -1115,9 +1038,7 @@
   <block id="303598db14cdac7b8531356d3fa6ae67" category="doc">手動升級 Keystone Collector</block>
   <block id="eb5316849956503093c848cdd2e2189f" category="paragraph">Keystone Collector 中的自動更新功能預設為啟用、會在每個新版本中自動升級 Keystone Collector 軟體。不過、您可以停用此功能並手動升級軟體。</block>
   <block id="c5bc18b9ae708308f165d213528edb66" category="list-text">在維護畫面上、選取 * 立即更新收集器 * 選項。</block>
-  <block id="5b540eaec8e7ad0922a0633df925d995" category="paragraph"><block ref="5b540eaec8e7ad0922a0633df925d995" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f8bc55f7c7f782e0fdeced65037abf84" category="paragraph">或者、執行此命令以升級版本：</block>
-  <block id="cc30a50a97fd139786e6b433136865ca" category="paragraph"><block ref="cc30a50a97fd139786e6b433136865ca" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b31f1ebf783dc22abf4699b042b9b3db" category="list-text">重新啟動 Keystone Collector 管理 TUI 、您可以在主畫面左上角看到最新版本。</block>
   <block id="bb05cc2f27b372eeefcaf8c9d31c4fba" category="paragraph">或者、執行此命令以檢視最新版本：</block>
   <block id="26ff0e396ade6fe360b35528d3afe577" category="paragraph">Keystone STaaS 系統中的資料會流經 Keystone Collector 和相關的監控系統、即 AIOP 解決方案工具。</block>
@@ -1142,8 +1063,128 @@
   <block id="ea105b45dba9cd611a536c923ac08e2a" category="paragraph">NetApp需要存取安裝用於監控和管理的硬體和軟體元件、才能為Keystone客戶提供監控和計費等服務。最常見的方法是建立與客戶網路的虛擬私有網路（VPN）連線、並存取所需的資料。為了克服客戶從開啟防火牆連接埠到新服務所產生的任何作業複雜度、監控工具會啟動外部連線。NetApp 雲端應用程式（例如 AIOP 解決方案和期望）使用此連線來執行各自的服務。此方法符合客戶的要求、即不開放防火牆連接埠、但可存取此服務的監控元件。</block>
   <block id="3db5d9db3e9bbb96192cdbca3e683f2d" category="list-text">NetApp 使用 AIOPs 解決方案主動監控並連線至 NetApp Keystone 環境進行疑難排解。</block>
   <block id="f117a997c71ee803b4f42cc859317819" category="admonition">在合作夥伴營運模式中、租戶和租戶的服務要求會指派給合作夥伴的服務台。合作夥伴的支援工具可能與 AIOP 解決方案和 GSSC 應用程式整合。只有 L3 問題會透過 GSSC 提報給 NetApp 。</block>
-  <block id="9a7e6b4e1f16d4dce53a800b22ea9ce5" category="paragraph">應用QoS可確保應用程式每次都能獲得一致的效能。NetApp ONTAP 旨在定義QoS的兩個參數：<block ref="f481633ea70c9b3dfd9b26e1e0045eee" category="inline-link-rx"></block>和處理量最低<block ref="406d3c0c34cedc53d1b49a1bfac79dea" category="inline-link-rx"></block>。QoS最大值代表工作負載可達到的IOPS、Mbps或IOPS和Mbps的最大數目。另一方面、 QoS Min 則保證工作負載的處理量不會低於特定的 IOPS 或 Mbps 、或 IOPS 和 Mbps 。</block>
   <block id="3416d8a49fd5d49140366de8fbebad06" category="paragraph">NetApp BlueXP 是一個完整的平台、可監控數百個資料來源、並提供自己的互動式視覺化儀表板。如果您在 NetApp Keystone 訂閱中購買雲端服務、則可透過 BlueXP 存取及管理這些服務。</block>
   <block id="eca1859cccb72b784538dc03d0802c4d" category="paragraph">BlueXP Digital Advisor 儀表板提供圖形化檢視和深入分析功能、可監控 Keystone 訂閱使用率並產生報告。如需數位顧問儀表板和 Keystone 的詳細資訊、請參閱 <block ref="e4a96850db17c7110d770223b8207b51" category="inline-link-macro-rx"></block>。</block>
   <block id="2951c1f61944250838607486af8b4ac0" category="sidebar">升級 Keystone Collector</block>
+  <block id="aabaac678332e131002e20e29c167e21" category="paragraph">確保符合下列一般要求：</block>
+  <block id="b455a3f7a48f5398cb25f05d53f89fac" category="paragraph">下表列出 Keystone Collector 的網路需求。</block>
+  <block id="12fbee90149a4e1d681959dfec25fb1a" category="paragraph"><block ref="12fbee90149a4e1d681959dfec25fb1a" category="inline-link-rx"></block></block>
+  <block id="47737e3c5a4b2d0fd67c3dce9a1b760c" category="paragraph">下載並更新 MySQL 相依性（僅適用於 Linux 部署）</block>
+  <block id="e3133a240fa8e815895c55d0ada23007" category="inline-image-macro">TUI 畫面</block>
+  <block id="a657a369973287753344838eade1c1cf" category="list-text">請參閱*疑難排解&gt;產生支援產品組合*。<block ref="1280bf937b214d88e2d48a727186f491" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f40a6998172198b5cbed1545525c61a3" category="list-text">產生時、會顯示儲存套件組合的位置。使用FTP、SFTP或scp連線至該位置、並將記錄檔下載至本機系統。<block ref="a24cbffb286645dc1d774a14fff7b6db" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1170813543a97280cd394731272e8720" category="paragraph">在 VMware vSphere 系統上安裝 Keystone Collector 時、需要一些虛擬基礎架構組態。</block>
+  <block id="e662e98288b349f4be4a3688e1269383" category="list-title">Keystone Collector 伺服器 VM 的必要條件：</block>
+  <block id="8dc9cd986817e3c7cecaf65e5d7c54c5" category="list-text">按一下「**儲存」。<block ref="dafab89b0bb1443c2d38b7c86b9e0d59" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bebf9fb0ed43850b1fc5af6a054407ae" category="list-text">返回TUI主畫面並確認「**服務狀態」資訊、以確保Keystone Collector處於正常狀態。系統應顯示服務處於「整體：健全」狀態。<block ref="1a287202385fee9a3ddf6bfc23656311" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="644e1419182976ec58cb5f686040e395" category="list-text">按一下「**儲存」。<block ref="f9c75b4391b0d2138da88ebbdb861c02" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="83358b34b4abb7dcc8940f33dbf53bee" category="paragraph"><block ref="83358b34b4abb7dcc8940f33dbf53bee" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b7d00c952bfb58048323cc58b966f1a0" category="paragraph"><block ref="b7d00c952bfb58048323cc58b966f1a0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="305955a2ac717f15ce5b0f0a3abc280a" category="paragraph"><block ref="305955a2ac717f15ce5b0f0a3abc280a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="260df4711332c71713eaccd137544035" category="inline-image-macro">ova UI</block>
+  <block id="755b21da384cfa7a50f9dd463bb59495" category="list-text">在 _ 步驟 4 ：檢閱詳細資料 _ 、確認 OVA 檔案的正確性與真實性。產品名稱應顯示為_Sector_ NetApp Keystone 。<block ref="1ff64d23a057ee58e587c113040b4ea5" category="inline-image-macro-rx" type="image"></block>vCenter 會驗證 OVA 檔案內容的完整性、並為 OVA 檔案中的檔案提供有效的程式碼簽署摘要。不過、它並不會驗證程式碼簽署憑證的真僞。若要驗證完整性、您應該下載完整的簽署摘要憑證、並對照Keystone發佈的公開憑證進行驗證。請遵循下列步驟：</block>
+  <block id="3a1e055c606dddb7ffa7ea4aa739f762" category="list-text">在 _Step 6_ 上、選取要用於虛擬機器的目的地網路。</block>
+  <block id="77c3a99746e93de71f55722d8f5802d8" category="paragraph">針對透過 OVA 部署的 Keystone Collector 伺服器、在 VMware vSphere 系統上執行下列步驟：</block>
+  <block id="02b9a7808a83ccb6ba15cb4854eba098" category="list-text">開啟至Keystone Collector伺服器的SSH工作階段。登入時、便會顯示TUI。或者、您也可以執行手動啟動 TUI<block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix=" " category="inline-code"></block> CLI命令。</block>
+  <block id="55706af0bb20ac5e8a85f57717da5aa8" category="list-text">使用 * 維護 &gt; 更新 System* 選項來更新收集器。某些選定的鏡像可能無法使用、系統詳細資料會在重試幾次之後更新。</block>
+  <block id="79e0703c840b981be16f9e1a40c5a0b4" category="inline-image-macro">收集器架構</block>
+  <block id="009d77d3b79ee4c7df16ef0658dd3bc3" category="paragraph"><block ref="009d77d3b79ee4c7df16ef0658dd3bc3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="334596810739cc736eac1fbc3858a305" category="list-title">Linux 伺服器的必要條件：</block>
+  <block id="25c10b524de794226cf520c9a3dacc83" category="list-text">存取標準 Linux 軟體儲存庫</block>
+  <block id="09bf9d4349f1cb8b47852b136c5b73f7" category="list-text">這些服務在 11 個國家 / 地區的資料中心提供支援。</block>
+  <block id="d0aa2dffa0da83f1f34681308d04db5d" category="paragraph">洛杉磯</block>
+  <block id="30b2358cb02ac28dab20e543f65090a3" category="inline-image-macro">顯示收集器元件內的資料流</block>
+  <block id="0eacfc824aac3b0caf281a91b0150a47" category="paragraph"><block ref="0eacfc824aac3b0caf281a91b0150a47" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cd7ff698af2c2f69b7a1e0b0f9bd6fc0" category="inline-image-macro">資料流</block>
+  <block id="70d6d93b80cc0f0a782725d14559b395" category="paragraph"><block ref="70d6d93b80cc0f0a782725d14559b395" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b8e36d91b1526b0c712db2327c72889e" category="inline-image-macro">Keystone</block>
+  <block id="e55277c0c3f0e910a9213c7bc485b55e" category="paragraph"><block ref="e55277c0c3f0e910a9213c7bc485b55e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="61d927a1aed666979cd431fa1e2acade" category="inline-image-macro">勾選標記</block>
+  <block id="afa99e6515d2d53209947ce07fcae1c0" category="cell"><block ref="afa99e6515d2d53209947ce07fcae1c0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5f558fad18c536fde918f6d8470c0f4c" category="paragraph">儲存服務品質（QoS）是一項關鍵技術、可確保應用程式獲得一致且可預測的效能。如果沒有 QoS 、某些工作負載（例如用於開機多個系統的工作負載）可能會在一段時間內消耗大部分或全部資源、並影響其他工作負載。如需QoS的相關資訊、請參閱<block ref="3c8d0a20452a1fdd8de7e683059a52bc" category="inline-link-rx"></block>。</block>
+  <block id="3e0c227cab019a94ad107467446bc4a1" category="paragraph">Keystone 服務會使用 Adaptive QoS （ AQO ）、根據磁碟區大小來動態維持 IOPS/TiB 比率。如需AQO原則的相關資訊、請參閱<block ref="837de1b03a328f464002642d845ea947" category="inline-link-rx"></block>。</block>
+  <block id="772f84cc1580c3b2eb870e7f4a05c668" category="paragraph">如果 ONTAP Volume 未套用 AQO 原則、則該磁碟區不符合法規要求。沒有 QoS 原則的磁碟區是系統提供任何可用輸入輸出作業的最後一個優先順序清單。不過、如果有任何輸入輸出作業可用、則該磁碟區可能會使用所有可用的 IOS 。</block>
+  <block id="8076a815ea253b898f1e1205fc7aa039" category="admonition">如果您尚未將 AQO 原則套用至磁碟區、則會根據您的訂閱、以最高的服務層級來測量這些磁碟區並收取費用。這可能導致意外的突發費用。</block>
+  <block id="bc26ba2885b2bd7d8c41202e1d58b847" category="section-title">調適性 QoS 設定</block>
+  <block id="d2c88ef05da757a3aeaaf8bc9fe70038" category="paragraph">Adaptive QoS （ AQO ）設定會因服務層級而異。</block>
+  <block id="3e1621011a15ff9b858d144dd8b32184" category="cell">* 政策名稱 *</block>
+  <block id="e61bad254169eaf696462c655e0bb47a" category="cell">* 預期的 IOPS *</block>
+  <block id="911c903acff40c3f442bbae7f73ea081" category="cell">6 、 144</block>
+  <block id="a980f22074119d4103953f70f2fd69ce" category="cell">1 、 024</block>
+  <block id="f718499c1c8cef6730f9fd03c8125cab" category="cell">256</block>
+  <block id="8dea0526cd966f1d2b8537ec99d156b6" category="cell">* 預期的 IOPS 分配 *</block>
+  <block id="d948b8bd026bed9e90e7989a41fdbb46" category="cell">已分配空間</block>
+  <block id="7954bc4f3c43f3e699c2169329a71b4b" category="cell">* 尖峰 IOPS *</block>
+  <block id="13533e52f2c161b3cad8ec91b2a8bc26" category="cell">* 尖峰 IOPS 配置 *</block>
+  <block id="aa06850d5c9d77127d7340a724cb89be" category="cell">已用空間</block>
+  <block id="fd5c2880a704553c642b2e60a6ff5cf2" category="cell">*區塊大小*</block>
+  <block id="de66b0668daa0803e4322ddd80158d6c" category="cell">32 萬</block>
+  <block id="1485819d1bb1109d78f142c11b8e830d" category="paragraph">您可以設定調適性QoS（AQO）原則、自動將處理量上限或樓層調整為Volume大小。並非所有 Keystone 服務層級都符合預設的 ONTAP QoS 原則。您可以為他們建立自訂 QoS 原則。若要設定原則、您應注意下列事項：</block>
+  <block id="d87e8cd2516a937506841a2ee6710603" category="list-text">* 預期的 IOPS * ：每個磁碟區的每個分配 TiB 的 IOPS 下限、系統會在有足夠的系統 IOPS 可用時嘗試提供。</block>
+  <block id="35c0bb4205f89d0eddba85d9bda132b6" category="list-text">* 尖峰 IOPS * ：每個磁碟區的每個已使用 TiB IOPS 最大數目、系統允許磁碟區在透過注入延遲來節流 IOPS 之前達到。</block>
+  <block id="be53c8157b32393bccd2e22d0b1536aa" category="list-text">* 預期的 IOPS 分配 * ：此參數可控制磁碟區的預期可用 IOPS 、是否取決於磁碟區的分配或使用大小。在Keystone中、這是根據已分配的空間而定。</block>
+  <block id="14d0dc302a669d6a99952e49afc7861a" category="list-text">* 尖峰 IOPS 分配 * ：此參數可控制磁碟區可用的尖峰 IOPS 、是否根據已分配或已使用的磁碟區大小而定。在Keystone中、這是根據已用空間而定。</block>
+  <block id="783d230c76cf1ff0dfbc8c98d7a8b01c" category="paragraph">Keystone STaaS可在訂購的基礎上、以預先定義的效能服務層級（服務層級）提供資料儲存容量。由Keystone服務管理的每個Volume都與服務層級相關聯。</block>
+  <block id="4d5ef2163c192509afec8de9ab79da82" category="paragraph">每個服務層級都是根據其 I/O 密度（即 IOPS/TiB/Volume ）來定義。這是效能的比率（每秒輸入 / 輸出作業次數 [IOP] ）、以及使用的儲存容量（ TiB ）、即每個磁碟區平均延遲的 IOPS/TiB 。</block>
+  <block id="46d655df10f0a99ca8d68059cbb399d8" category="paragraph">此處列出支援儲存類型、檔案、區塊、物件和雲端服務的服務層級。</block>
+  <block id="c5164a8ba9242ffd5faec20d25175dbe" category="section-title">檔案與區塊儲存的服務層級</block>
+  <block id="55b9320c8c3c184ea9542aa4a82ecd70" category="cell">* 每個磁碟區分配的最大 IOPS / 邏輯 Tibs *</block>
+  <block id="2951c92ac7129eb5950ee23f07140f99" category="cell">* 每個磁碟區儲存的最大 Mbps/ 邏輯 Tibs @ 32K B/S*</block>
+  <block id="2fab0c2c1260d4eab832ce495d9a945f" category="cell">1毫秒</block>
+  <block id="084351f847be6c607173d4bf38542f71" category="cell">2毫秒</block>
+  <block id="f694c7926734a582b5156c24b9e7b563" category="cell">4 毫秒</block>
+  <block id="f43c7285b135d5fc56405612d8c6e970" category="cell">17毫秒</block>
+  <block id="d6b228a8ed209a51c109dc08e1f357ce" category="cell">* 區塊大小 *</block>
+  <block id="333ed6369ef878defe6b851fcb7a250f" category="section-title">深入瞭解檔案與區塊儲存的服務層級</block>
+  <block id="c4701e06633afc0b1161fbc6049cc803" category="paragraph">服務層級度量取決於下列情況：</block>
+  <block id="210b39d4b6b8c3231fc8e5027adff975" category="list-text">檔案與區塊儲存的服務層級支援 ONTAP 9.7 及更新版本。</block>
+  <block id="5d743a4a8a32b74983387e8966fc8dfd" category="list-text">IOPS / TiB/Volume 、 Mbps/TiB/Volume 和服務層級的延遲值、是根據磁碟區中儲存的資料量、 32KB 區塊大小、以及 70% 讀取和 30% 寫入 IO 作業的隨機組合而定。</block>
+  <block id="1ce7cadb42fda63031710acdb1e36d13" category="list-text">實際的 IOPS/TiB/Volume 和 Mbps/TiB/Volume 可能會因實際或假設的區塊大小、系統工作負載並行處理或輸入輸出作業而異。</block>
+  <block id="58ec0dfd62f9630c9b479a35a8b38962" category="list-text">延遲不包括下列項目：</block>
+  <block id="e777748ce6788629275890358373ad33" category="list-text">應用程式或主機延遲</block>
+  <block id="303d588a44f75e97197277df23fe31a6" category="list-text">客戶與控制器連接埠之間的網路延遲</block>
+  <block id="66da45e9c280e17b214fda19697e0c52" category="list-text">在 FabricPool 的情況下、與資料傳輸相關的間接成本</block>
+  <block id="0fd1f337932287ae81d08c74974e8e88" category="list-text">QoS 會自動套用延遲、使 IO 保持在服務層級最大值內</block>
+  <block id="85bc0e8522deb39494936f2ff6c542e4" category="list-text">延遲值不適用於 MetroCluster 寫入作業。這些寫入作業需視遠端系統的距離而定。</block>
+  <block id="7f3016a798d65c7f0d25cbde5e2c95b6" category="list-text">如果儲存系統上的一個或多個磁碟區沒有指派 AQO 原則、則這些磁碟區會視為不相容的磁碟區、而且這些系統沒有適用的目標服務層級。</block>
+  <block id="d292740ed171285325a91f3bddbbc59d" category="list-text">除非分層原則設為「無」、而且雲端中沒有區塊、否則預期的 IOPS _ 才會針對 FabricPool 。預期的 IOPS _ 是針對非 SnapMirror 同步關係中的磁碟區。</block>
+  <block id="acad586f6e3c240e49bc22095d3d4c92" category="list-text">工作負載 IO 作業必須在所有部署的控制器之間進行平衡、這取決於 Keystone 順序。</block>
+  <block id="e6329950dc4e8e2123e22d6e9b5d6db8" category="inline-image-macro">管理堆疊</block>
+  <block id="385cf44e2725480b6b1fff1e85799b05" category="paragraph"><block ref="385cf44e2725480b6b1fff1e85799b05" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f8756595ddc69be34b9cf62194af80bc" category="inline-image-macro">顯示容量減量的影像</block>
+  <block id="c0674564129b3d9a1c0017000c9073f2" category="paragraph"><block ref="c0674564129b3d9a1c0017000c9073f2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0238a1ac6070262da13eddc5a79f01a9" category="inline-image-macro">如何分配支出</block>
+  <block id="afab5545c10451e1f3a9804afc7c00ed" category="paragraph"><block ref="afab5545c10451e1f3a9804afc7c00ed" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="41220b85d8467c5822466b54e2f77fdf" category="inline-image-macro">訂閱詳細資料索引標籤</block>
+  <block id="3863c999fd2904d6bd45c5fac0637857" category="paragraph"><block ref="3863c999fd2904d6bd45c5fac0637857" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="baec6461b0d69dde1b861aefbe375d8a" category="inline-image-macro">圖示</block>
+  <block id="f25b159b1158ec16d19a7bbad6cec289" category="list-text"><block ref="435e416487181a998706b8fd7ece7b01" category="inline-image-macro-rx" type="image"></block>：單擊此圖標將打開*訂購時間系列*選項卡，您可以在該選項卡中查看此訂購中包含的每個服務級別的歷史使用數據</block>
+  <block id="0e25c249c47d5b9cd3933dea0b0e9bfb" category="paragraph">您可以按一下向下箭頭查看更多詳細資料、以取得訂閱記錄。詳細資料、例如服務層級名稱、已提交、已耗用、可用容量、以及目前和預提的突發使用量、都會顯示在TiB中。</block>
+  <block id="3a6fffe4877ca42144b232cb74b25c92" category="admonition">顯示記錄較高使用量的特定服務層級。您也可以檢視針對磁碟區所產生的警告和警示。</block>
+  <block id="c86f468c0d26a49f12de126ed6868cbe" category="paragraph"><block ref="c86f468c0d26a49f12de126ed6868cbe" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="afcefd303655b7f65e49ebd8be60e0e7" category="inline-image-macro">灰點圖示</block>
+  <block id="c0ffa381f5b727ea5de2afacc2018783" category="inline-image-macro">綠點圖示</block>
+  <block id="f17cd43b9cda36a4b4fad09a0d2aab75" category="inline-image-macro">琥珀色圓點圖示</block>
+  <block id="f9f0c63a81657ad2d480fa16a33c0531" category="inline-image-macro">紅點圖示</block>
+  <block id="7d7d26ff83eab48a85cd445cd29bab2e" category="inline-image-macro">紫色圓點圖示</block>
+  <block id="134efb003c0c77dd5b7268102437409d" category="paragraph"><block ref="52273d64c65862ef424a47885fe81b01" category="inline-image-macro-rx" type="image"></block>：未記錄服務層級已認可容量的容量使用量<block ref="d72ea1f055275eb6c806c044808270ee" category="inline-image-macro-rx" type="image"></block>：使用量正常、在承諾容量的80%內<block ref="26b60b3bc680636be1bff71d9158314a" category="inline-image-macro-rx" type="image"></block>：最大使用量、亦即使用量即將達到100%或以上的已認可容量。「*已用*」欄會針對超過承諾容量80%的任何使用量、顯示此指標<block ref="25206057152159ddc0d0e53262070870" category="inline-image-macro-rx" type="image"></block>：使用量在連拍限制之內。「尖峰消耗」是指服務層級100%承諾容量的耗用量、且在議定的高載使用量限制範圍內、例如120%<block ref="49884f5051327fb7a920e2ee64178452" category="inline-image-macro-rx" type="image"></block>：表示耗用量超過規定的突發量限制</block>
+  <block id="ce124e8ce85a3b9897dfa2dbf4b6dd2e" category="section-title">檢視歷史訂閱資料圖表</block>
+  <block id="abc995760236584824b9e9fb494224ef" category="admonition">為獲得最佳效能和使用者體驗、請將查詢的日期範圍限制在三個月或更短。</block>
+  <block id="2d4b4ef84378e8e4f4407057e45d3b8b" category="list-text">按一下*檢視詳細資料*。每個服務層級的訂閱歷史使用量資料會根據所選時間範圍顯示。您可以將滑鼠游標停留在圖表上、以檢視當時已提交、已耗用、突發及超過突發限制資料的使用量明細。</block>
+  <block id="0822b24d655ec1572b18a2ff17d3ea35" category="inline-image-macro">時間系列索引標籤</block>
+  <block id="c146cff58b20f1e3ad6a2139acf308cc" category="paragraph"><block ref="c146cff58b20f1e3ad6a2139acf308cc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e8f49e2b6da7339d918b4030b299167c" category="admonition">根據查詢的日期範圍、使用圖表會顯示在 30 個資料收集點範圍內。</block>
+  <block id="793c1a98e090ba1b0f167e3a8b0c5b37" category="paragraph">隨即顯示Volume詳細資料。您可以在欄之間捲動、並將滑鼠游標停留在欄標題旁的資訊圖示上、以深入瞭解這些欄。您可以依欄排序、並篩選清單以檢視特定資訊。</block>
+  <block id="8bb44c11261c5988fa7a0b17c52ecf8a" category="admonition">您可以按一下*複製節點序號*按鈕來複製個別節點序號。</block>
+  <block id="0bb9d5f8cc89f1784aecd52a98b80f07" category="inline-image-macro">系統詳細資料索引標籤</block>
+  <block id="8b672bec07d1efa43e526f4981ffb4e7" category="paragraph"><block ref="8b672bec07d1efa43e526f4981ffb4e7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="71f95b1426db5071da237d6bf6575ce7" category="inline-image-macro">StorageGRID 快顯視窗</block>
+  <block id="01fbf3b3ab73f44b8a4319cd449a0e34" category="paragraph"><block ref="01fbf3b3ab73f44b8a4319cd449a0e34" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="758fb921b8f7f93b9953a0fbc2d3fb44" category="paragraph"><block ref="758fb921b8f7f93b9953a0fbc2d3fb44" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="673f6d6dd1bd7cf996e745b008b601ea" category="inline-image-macro">報告下載圖示</block>
+  <block id="7767eafc8f9b1e0dc39313a5621976b3" category="paragraph">您可以按一下「下載」按鈕、針對訂閱詳細資料、時間範圍的歷史使用量資料、以及每個索引標籤的系統詳細資料、來產生及檢視報告： <block ref="8dec166a4f6cf96a41e44a339dcc6d98" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4789923a07d70bc200da1637f48b083c" category="inline-image-macro">報告的 CSV</block>
+  <block id="8546ab2b8d3bedbd693707d07fe7de14" category="paragraph"><block ref="8546ab2b8d3bedbd693707d07fe7de14" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7ed21143076d0cca420653d4345baa2f" category="inline-image-macro">警示</block>
+  <block id="c5353e1a31b3a925fabe61c02b5bfc5e" category="paragraph"><block ref="c5353e1a31b3a925fabe61c02b5bfc5e" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
