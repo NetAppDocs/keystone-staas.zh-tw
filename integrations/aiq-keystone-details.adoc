@@ -19,7 +19,7 @@ summary: Keystone訂閱報告與圖表
 
 NOTE: 此處提供的資訊同時適用於ONTAP 整個過程StorageGRID 。相關章節已指出例外情況。
 
-如需Keystone Digital Advisor小工具的相關資訊、請參閱 https://["透過NetApp Keystone 「View訂閱」檢視容量使用率"^]。
+如需Keystone Digital Advisor小工具的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["透過NetApp Keystone 「View訂閱」檢視容量使用率"^]。
 
 若要檢視詳細資料、請執行下列步驟：
 
@@ -75,6 +75,10 @@ image:icon-grey.png["灰點圖示"]：未記錄服務層級已認可容量的容
 . 單擊*訂購時間序列*選項卡。
 . 選取您要檢視其詳細資料的必要訂閱。您帳戶名稱中的第一個訂閱依預設為選取狀態。
 . 從*開始日期*和*結束日期*欄位的行事曆圖示中選取時間範圍。預設時間範圍是從帳單期間的開始日期到目前日期。
++
+
+NOTE: 為獲得最佳效能和使用者體驗、請將查詢的日期範圍限制在三個月或更短。
+
 . 按一下*檢視詳細資料*。每個服務層級的訂閱歷史使用量資料會根據所選時間範圍顯示。您可以將滑鼠游標停留在圖表上、以檢視當時已提交、已耗用、突發及超過突發限制資料的使用量明細。
 
 

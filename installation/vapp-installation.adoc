@@ -23,7 +23,7 @@ summary: 在VMware系統上安裝Keystone收集器
 請遵循下列步驟：
 
 .步驟
-. 請從下載OVA檔案 https://[] 並將其儲存在VMware vSphere系統上。
+. 請從下載OVA檔案 https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova[] 並將其儲存在VMware vSphere系統上。
 . 在VMware vSphere系統上、瀏覽至* VM and Templates"（虛擬機器與範本）檢視。
 . 在虛擬機器（VM）（或資料中心、如果未使用VM資料夾）所需的資料夾上按一下滑鼠右鍵、然後選取*部署OVF範本*。
 . 在「*部署OVF範本*」精靈的「步驟1」上、按一下「*選取」和「OVF範本*」以選取下載的項目 `KeystoneCollector-latest.ova` 檔案：
@@ -32,7 +32,7 @@ summary: 在VMware系統上安裝Keystone收集器
 . 在 _ 步驟 4 ：檢閱詳細資料 _ 、確認 OVA 檔案的正確性與真實性。產品名稱應顯示為_Sector_ NetApp Keystone 。image:ova-deploy.png["ova UI"]vCenter 會驗證 OVA 檔案內容的完整性、並為 OVA 檔案中的檔案提供有效的程式碼簽署摘要。不過、它並不會驗證程式碼簽署憑證的真僞。若要驗證完整性、您應該下載完整的簽署摘要憑證、並對照Keystone發佈的公開憑證進行驗證。請遵循下列步驟：
 +
 .. 按一下*出版者*連結、即可下載完整的簽署摘要憑證。
-.. 下載_基礎概念帳單_公共憑證： https://[]。
+.. 下載_基礎概念帳單_公共憑證： https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem[]。
 .. 使用OpenSSL驗證OVA簽署憑證的驗證是否為公開憑證：
 `openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
 

@@ -24,22 +24,22 @@ summary: Keystone統一化管理程式先決條件
 
 . 確保Active IQ Unified Manager 將某部支援統一化管理程式9.7或更新版本的伺服器設定為支援（Unified Manager）。如需安裝Unified Manager的相關資訊、請參閱下列連結：
 +
-** https://["在VMware vSphere系統上安裝Unified Manager"^]
-** https://["在Linux系統上安裝Unified Manager"^]
+** https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["在VMware vSphere系統上安裝Unified Manager"^]
+** https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html["在Linux系統上安裝Unified Manager"^]
 
 
-. 確保ONTAP 已將該叢集新增至Unified Manager。如需新增叢集的相關資訊、請參閱 https://["新增叢集"^]。
-. 建立具有特定角色的Unified Manager使用者、以便收集使用量和效能資料。執行這些步驟。如需使用者角色的相關資訊、請參閱 https://["使用者角色定義"^]。
+. 確保ONTAP 已將該叢集新增至Unified Manager。如需新增叢集的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_clusters.html["新增叢集"^]。
+. 建立具有特定角色的Unified Manager使用者、以便收集使用量和效能資料。執行這些步驟。如需使用者角色的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html["使用者角色定義"^]。
 +
-.. 使用安裝期間產生的預設應用程式管理員使用者認證、登入Unified Manager Web UI。請參閱 https://["存取Unified Manager Web UI"^]。
-.. 建立Keystone Collector的服務帳戶 `Operator` 使用者角色：Keystone Collector服務API使用此服務帳戶與Unified Manager通訊、並收集使用資料。請參閱 https://["新增使用者"^]。
-.. 建立 `Database` 使用者帳戶 `Report Schema` 角色：此使用者是收集效能資料的必要使用者。請參閱 https://["建立資料庫使用者"^]。
+.. 使用安裝期間產生的預設應用程式管理員使用者認證、登入Unified Manager Web UI。請參閱 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["存取Unified Manager Web UI"^]。
+.. 建立Keystone Collector的服務帳戶 `Operator` 使用者角色：Keystone Collector服務API使用此服務帳戶與Unified Manager通訊、並收集使用資料。請參閱 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html["新增使用者"^]。
+.. 建立 `Database` 使用者帳戶 `Report Schema` 角色：此使用者是收集效能資料的必要使用者。請參閱 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html["建立資料庫使用者"^]。
 
 
 . 在Unified Manager中啟用API閘道。Keystone Collector利用API閘道功能與ONTAP 各種叢集進行通訊。您可以從Web UI或透過Unified Manager CLI執行幾個命令來啟用API閘道。
 +
 .Web UI
-若要從Unified Manager Web UI啟用API閘道、請登入Unified Manager Web UI並啟用API閘道。如需相關資訊、請參閱 https://["啟用API閘道"^]。
+若要從Unified Manager Web UI啟用API閘道、請登入Unified Manager Web UI並啟用API閘道。如需相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html["啟用API閘道"^]。
 
 +
 .CLI
@@ -47,15 +47,15 @@ summary: Keystone統一化管理程式先決條件
 
 +
 .. 在Unified Manager伺服器上、開始SSH工作階段並登入Unified Manager CLI。
-`um cli login -u _<umadmin>_`如需CLI命令的相關資訊、請參閱 https://["支援的Unified Manager CLI命令"^]。
+`um cli login -u _<umadmin>_`如需CLI命令的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["支援的Unified Manager CLI命令"^]。
 .. 確認API閘道是否已啟用。
 `um option list api.gateway.enabled`答 `true` 值表示已啟用API閘道。
 .. 如果傳回的值為 `false`請執行下列命令：
 `um option set api.gateway.enabled=true`
 .. 重新啟動Unified Manager伺服器：
 +
-*** Linux： https://["重新啟動Unified Manager"^]。
-*** VMware vSphere： https://["重新啟動Unified Manager虛擬機器"^]。
+*** Linux： https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html["重新啟動Unified Manager"^]。
+*** VMware vSphere： https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html["重新啟動Unified Manager虛擬機器"^]。
 
 
 
@@ -71,8 +71,8 @@ summary: Keystone統一化管理程式先決條件
 * 應建立一個支援使用資料收集功能的本地管理員使用者帳戶StorageGRID 。Keystone Collector服務會使用此服務帳戶、StorageGRID 透過管理員節點API與效益進行通訊。
 +
 .步驟
-.. 登入Grid Manager。請參閱 https://["登入Grid Manager"^]。
-.. 使用建立本機管理群組 `Access mode: Read-only`。請參閱 https://["建立管理群組"^]。
+.. 登入Grid Manager。請參閱 https://docs.netapp.com/us-en/storagegrid-116/admin/signing-in-to-grid-manager.html["登入Grid Manager"^]。
+.. 使用建立本機管理群組 `Access mode: Read-only`。請參閱 https://docs.netapp.com/us-en/storagegrid-116/admin/managing-admin-groups.html#create-an-admin-group["建立管理群組"^]。
 .. 新增下列權限：
 +
 *** 租戶帳戶
@@ -80,7 +80,7 @@ summary: Keystone統一化管理程式先決條件
 *** 度量查詢
 
 
-.. 建立Keystone服務帳戶使用者、並將其與管理群組建立關聯。請參閱 https://["管理使用者"]。
+.. 建立Keystone服務帳戶使用者、並將其與管理群組建立關聯。請參閱 https://docs.netapp.com/us-en/storagegrid-116/admin/managing-users.html["管理使用者"]。
 
 
 

@@ -185,29 +185,29 @@ Keystone Collector需要存取下列網際網路主機：
 
 
  a| 
-https://[]
+https://keystone.netapp.com[]
  a| 
 Keystone Collector軟體更新與使用量報告
 
 
 
  a| 
-https://[]
+https://support.netapp.com[]
  a| 
 NetApp HQ提供帳單資訊和AutoSupport 供應功能
 
 
 
  a| 
-https://[]
-https://[]
+https://mirror.centos.org[]
+https://mirrorlist.centos.org[]
  a| 
 Keystone Collector的作業系統更新（僅適用於OVA部署）
 
 
 
  a| 
-https://[]
+https://repo.mysql.com[]
  a| 
 下載並更新 MySQL 相依性（僅適用於 Linux 部署）
 
