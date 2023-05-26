@@ -993,7 +993,6 @@
   <block id="a3297beb0c913ab1ce7de0647b5264d0" category="sidebar">Keystone與Active IQ Digital Advisor</block>
   <block id="9a404de1def328e606c1a36e84d959a4" category="sidebar">Keystone報告Active IQ Digital Advisor</block>
   <block id="dab2edf9eaac3950e92c281ce358af01" category="sidebar">Active IQ Digital Advisor</block>
-  <block id="b8905d711198e80b0e2927dff32cfd11" category="list-text">*結束日期*：訂閱的結束日期。根據此日期、您可能會看到即將到期的訂閱資訊訊息。</block>
   <block id="8e7561ba1f78104b205962fa9d4b44a9" category="paragraph">如需Keystone儲存服務和相關服務層級的相關資訊、請參閱 <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>。</block>
   <block id="9ff2c2d2ffe68a2a0862d38fe356318c" category="list-text">從*開始日期*和*結束日期*欄位的行事曆圖示中選取時間範圍。預設時間範圍是從帳單期間的開始日期到目前日期。</block>
   <block id="8cdd8d8e55dfdcaf50118c634169eaf7" category="list-text">*訂閱詳細資料*：訂閱的開始與結束日期、以及計費期間、例如每季、每年等。</block>
@@ -1002,7 +1001,6 @@
   <block id="19e499aa450e552c41a06bb0742085d6" category="list-text">綠色：80%以內。</block>
   <block id="744f7cb6bd1aa9077ff244891a651e80" category="list-text">黃色：80%- 100%。</block>
   <block id="7673426e4a1c3cc1b97d1f96f8bd076a" category="list-text">紫色：超過連拍限制或<block ref="a9793d8430f5962bfc6384a1d9f6d19b" prefix=" " category="inline-code"></block>。</block>
-  <block id="fcdba6ace545174b3125451ecdd38a60" category="admonition">將滑鼠移到橫條圖上時、您可能會檢視 _ 臨時使用 _ 資料。這是在時間週期的確切資料無法使用時所記錄的使用量、並由先前資料收集點的可用資料取代。</block>
   <block id="e87913116d2be6cac8be4e9b2fdf61e4" category="list-text">*目前已用*：服務層級定義的已用容量（以TiB為單位）指標。此欄位使用特定色彩：</block>
   <block id="500993209cab49c52b98999c19742b12" category="list-text">灰色：無。</block>
   <block id="3cc6f4aa3b6f7beebb36ba03d0894c83" category="list-text">綠色：在承諾容量的80%以內。</block>
@@ -1187,4 +1185,6 @@
   <block id="8546ab2b8d3bedbd693707d07fe7de14" category="paragraph"><block ref="8546ab2b8d3bedbd693707d07fe7de14" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7ed21143076d0cca420653d4345baa2f" category="inline-image-macro">警示</block>
   <block id="c5353e1a31b3a925fabe61c02b5bfc5e" category="paragraph"><block ref="c5353e1a31b3a925fabe61c02b5bfc5e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e34cff1dbe58bcff4567c9224e5370c6" category="list-text">*結束日期*：訂閱的結束日期。空白日期表示訂閱沒有結束日期、而且會自動更新。根據這個日期、您可能會看到即將到期的訂閱資訊訊息、或附加了自動續約原則。</block>
+  <block id="85701aafc47f53d769db3988637e595c" category="admonition">空白圖表表示您的環境在該資料收集點沒有可用的資料。</block>
 </blocks>
