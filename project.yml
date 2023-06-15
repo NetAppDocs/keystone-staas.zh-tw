@@ -25,7 +25,7 @@ sidebar:
         url: "/installation/linux-prereqs.html"
       - title: 關於功能的特定先決條件StorageGRID ONTAP
         url: "/installation/addl-req.html"
-    - title: 安裝程序
+    - title: 安裝 Keystone Collector
       entries:
       - title: VMware vSphere部署
         url: "/installation/vapp-installation.html"
@@ -157,7 +157,7 @@ homepage:
       url: "/concepts/uscs.html"
   - title: 瞭解更多資訊
     links:
-    - title: Keystone Flex 訂閱
+    - title: Keystone 訂閱第 1 版（先前的 Keystone Flex 訂閱）
       url: https://docs.netapp.com/us-en/keystone/
     - title: Active IQ Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html

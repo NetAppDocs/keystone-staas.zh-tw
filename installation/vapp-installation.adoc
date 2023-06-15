@@ -23,19 +23,41 @@ summary: 在VMware系統上安裝Keystone收集器
 請遵循下列步驟：
 
 .步驟
-. 請從下載OVA檔案 https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova[] 並將其儲存在VMware vSphere系統上。
+. 請從下載OVA檔案 https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova["此連結"^] 並將其儲存在VMware vSphere系統上。
 . 在VMware vSphere系統上、瀏覽至* VM and Templates"（虛擬機器與範本）檢視。
 . 在虛擬機器（VM）（或資料中心、如果未使用VM資料夾）所需的資料夾上按一下滑鼠右鍵、然後選取*部署OVF範本*。
 . 在「*部署OVF範本*」精靈的「步驟1」上、按一下「*選取」和「OVF範本*」以選取下載的項目 `KeystoneCollector-latest.ova` 檔案：
 . 在步驟2 _上、指定VM名稱並選取VM資料夾。
 . 在_Step 3_上、指定執行VM所需的運算資源。
-. 在 _ 步驟 4 ：檢閱詳細資料 _ 、確認 OVA 檔案的正確性與真實性。產品名稱應顯示為_Sector_ NetApp Keystone 。image:ova-deploy.png["ova UI"]vCenter 會驗證 OVA 檔案內容的完整性、並為 OVA 檔案中的檔案提供有效的程式碼簽署摘要。不過、它並不會驗證程式碼簽署憑證的真僞。若要驗證完整性、您應該下載完整的簽署摘要憑證、並對照Keystone發佈的公開憑證進行驗證。請遵循下列步驟：
+. 在 _ 步驟 4 ：檢閱詳細資料 _ 、確認 OVA 檔案的正確性與真實性。
+7.0u2 之前的 vCenter 版本無法自動驗證程式碼簽署憑證的真實性。vCenter 7.0u2 及更新版本可執行驗證、但為此、應將簽署憑證授權單位新增至 vCenter 。請依照下列說明操作 vCenter 版本：
 +
+.vCenter 7.0u1 及更早版本：按一下這裡
+[%collapsible]
+====
+vCenter 會驗證 OVA 檔案內容的完整性、並為 OVA 檔案中的檔案提供有效的程式碼簽署摘要。不過、它並不會驗證程式碼簽署憑證的真僞。若要驗證完整性、您應該下載完整的簽署摘要憑證、並對照Keystone發佈的公開憑證進行驗證。
+
 .. 按一下*出版者*連結、即可下載完整的簽署摘要憑證。
-.. 下載_基礎概念帳單_公共憑證： https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem[]。
+.. 從下載 _Keystone Billing _ 公開憑證 https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem["此連結"^]。
 .. 使用OpenSSL驗證OVA簽署憑證的驗證是否為公開憑證：
 `openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
 
+
+====
++
+.vCenter 7.0u2 及更新版本：按一下這裡
+[%collapsible]
+====
+7.0u2 及更新版本的 vCenter 可在提供有效的程式碼簽署摘要時、驗證 OVA 檔案內容的完整性及程式碼簽署憑證的真實性。vCenter 根信任存放區僅包含 VMware 憑證。NetApp 使用 Entrust 做為認證機構、而這些憑證必須新增至 vCenter 信任存放區。
+
+.. 從 Entrust 下載程式碼簽署 CA 憑證 https://web.entrust.com/subca-certificates/OVCS2-CSBR1-crosscert.cer["請按這裡"^]。
+.. 請遵循中的步驟 `Resolution` 本知識庫（ KB ）文章的一節： https://kb.vmware.com/s/article/84240[]。
+
+
+====
++
+當 Keystone Collector OVA 的完整性和真實性通過驗證時、您可以看到文字 `(Trusted certificate)` 與發行者合作。
+image:ova-deploy.png["已驗證憑證的 ova UI"]
 
 . 在「*部署OVF範本*」精靈的步驟5_上、指定儲存VM的位置。
 . 在 _Step 6_ 上、選取要用於虛擬機器的目的地網路。

@@ -363,7 +363,6 @@
   <block id="a7c5201b644834daf4816d3080e93837" category="sidebar">瞭解您的支援團隊（Keystone GSSC）</block>
   <block id="0e0fe605239796a7018441e65fa28979" category="sidebar">美國公民支援</block>
   <block id="f0411ca83e625da2c18b5f0c0682bd93" category="sidebar">瞭解更多資訊</block>
-  <block id="a47bcecd4f4a1f89ad4e82bca88975ab" category="sidebar">Keystone Flex 訂閱</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
   <block id="352a60ab05e46c12f3319134b5ec7ee2" category="paragraph">如需服務層級的相關資訊、請參閱 <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>。</block>
   <block id="6dd7fd4aac069a06bec3ae24a6b1b39b" category="paragraph">如需Keystone支援的不同容量資訊、請參閱 <block ref="85c4e06da3b978d5cb2b8ba9dc870124" category="inline-link-macro-rx"></block>。</block>
@@ -675,14 +674,12 @@
   <block id="5636c5e292ad15c979ccdf35d4ddd63f" category="paragraph">在VMware vSphere系統上部署Keystone Collector包括下載OVA範本、使用*部署OVF範本*精靈來部署範本、驗證憑證的完整性、以及驗證VM的整備度。</block>
   <block id="9f42f344107d0334c53b7214197ab946" category="section-title">部署OVA範本</block>
   <block id="deadee5e2cfce7600cfd5def40a7d618" category="paragraph">請遵循下列步驟：</block>
-  <block id="333f303d3da33179663a76488da72b3b" category="list-text">請從下載OVA檔案<block ref="c28508f3358b4bad6b96fa0b8de677a2" category="inline-link-rx"></block> 並將其儲存在VMware vSphere系統上。</block>
   <block id="2cea028d7f417e050d146ae4d5405601" category="list-text">在VMware vSphere系統上、瀏覽至* VM and Templates"（虛擬機器與範本）檢視。</block>
   <block id="00b73a9cfc6c889062282db720dc980a" category="list-text">在虛擬機器（VM）（或資料中心、如果未使用VM資料夾）所需的資料夾上按一下滑鼠右鍵、然後選取*部署OVF範本*。</block>
   <block id="9a87285999e76f01064e09d4163dacb4" category="list-text">在「*部署OVF範本*」精靈的「步驟1」上、按一下「*選取」和「OVF範本*」以選取下載的項目<block ref="10e7fe8d7233c9952d9060893052d234" prefix=" " category="inline-code"></block> 檔案：</block>
   <block id="eb2f786d0356dd1cd28f20f376d5da2b" category="list-text">在步驟2 _上、指定VM名稱並選取VM資料夾。</block>
   <block id="ef93bcb8e06b73273019082b41d87115" category="list-text">在_Step 3_上、指定執行VM所需的運算資源。</block>
   <block id="41466009ab38ed0e1dbd7f2358fa3825" category="list-text">按一下*出版者*連結、即可下載完整的簽署摘要憑證。</block>
-  <block id="79aa6ff54605af89e06167728f22a5af" category="list-text">下載_基礎概念帳單_公共憑證：<block ref="ed42a04573e7bc8bae44a0216f31177e" category="inline-link-rx"></block>。</block>
   <block id="250e025c960accde58851d9cba806aa4" category="list-text">使用OpenSSL驗證OVA簽署憑證的驗證是否為公開憑證：<block ref="d67907543fcf70f6dfbc7d1139240042" prefix=" " category="inline-code"></block></block>
   <block id="09ecce71a847e29076b9c49beb846dae" category="list-text">在「*部署OVF範本*」精靈的步驟5_上、指定儲存VM的位置。</block>
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">在步驟7自訂範本_上、指定管理使用者帳戶的初始網路位址和密碼。</block>
@@ -717,7 +714,6 @@
   <block id="e5e7352eac1aab74c62e3fb3c13c93eb" category="sidebar">什麼是Keystone Collector</block>
   <block id="d495047561c1a08074d3afeeb5b5d172" category="sidebar">VMware vSphere先決條件</block>
   <block id="634b2ff9559aed00b394d1ea933e1865" category="sidebar">Linux先決條件</block>
-  <block id="2ae485aa3ac00a7ebfcd427dc2f82aa4" category="sidebar">安裝程序</block>
   <block id="e1963f69cecc9ae42f0776dbde80b970" category="sidebar">VMware vSphere部署</block>
   <block id="1f331fee3a3f66a9a0cc8b4298329656" category="sidebar">Linux安裝</block>
   <block id="5f263121a32bf1557841d7fe819ad1e8" category="sidebar">自動完整性驗證</block>
@@ -784,7 +780,6 @@
   <block id="2a5a28f579ee3b6816454c527351ec56" category="doc">Keystone收集的使用者資料類型</block>
   <block id="d980f7fd4d1a571450a5dfb6e21c1ca0" category="paragraph">Keystone會收集組態、狀態和使用資訊、以供Keystone ONTAP 、以及Keystone StoragGRID訂閱之用。如果ONTAP 在Keystone Collector中啟用此選項、也只能收集效能資料以供參考。</block>
   <block id="e14f2b2670997486a2e4f3918cbe9cb6" category="section-title">資料收集ONTAP</block>
-  <block id="fb81e227d7ec41942ad20d4497532f70" category="example-title">收集ONTAP 的使用資料以供參考</block>
   <block id="4752622b9e77aa409c0f10beb0726f74" category="paragraph">下表是針對ONTAP 下列項目收集的容量使用資料代表範例：</block>
   <block id="9b99bf7d2bfd4b09363304c166832734" category="list-text">叢集</block>
   <block id="9167f44e96ef14493eb91fa385a1b03a" category="list-text">叢集名稱</block>
@@ -850,7 +845,6 @@
   <block id="650be61892bf690026089544abbd9d26" category="list-text">模式</block>
   <block id="a38399fd05eed54a30356063875ba5c7" category="list-text">查詢的是應用程式介面API端點Active IQ Unified Manager</block>
   <block id="81631db9933f83ee6511c56a7577d112" category="list-text">AIQUMInstance IP</block>
-  <block id="101f4a88b595ebd0ef997252c9f00966" category="example-title">針對ONTAP VMware所收集的效能資料</block>
   <block id="06b0dd42b36609a32d1b4e237ca0b021" category="paragraph">下表為針對ONTAP VMware所收集之效能資料的代表性範例：</block>
   <block id="878efc5de6def52e25be6f622fb5a7ee" category="list-text">叢集UUID</block>
   <block id="8b3f98ef5143f8196aca53b61aeccebd" category="list-text">ObjectID</block>
@@ -893,7 +887,6 @@
   <block id="973a9795a80306129b19cf9ac732cadc" category="list-text">儲存LUN名稱</block>
   <block id="6519cc2cb2093a31c9e2c21cd389d7b6" category="list-text">RemoteClusterName</block>
   <block id="8a5466dffc1fb3688afcf85af44acae0" category="section-title">資料收集StorageGRID</block>
-  <block id="e4045be0afd459dcae607006e83ba4cb" category="example-title">收集StorageGRID 的使用資料以供參考</block>
   <block id="ead7f826444254c9fd18d42967aa1bdf" category="paragraph">下列清單為代表性的範例<block ref="655d716c75a0a3e6c9b4eb8987013918" prefix=" " category="inline-code"></block> 收集StorageGRID 對象：</block>
   <block id="4b6e9c25ecc55504ebb330411f41421a" category="list-text">身分證件StorageGRID</block>
   <block id="351a2eb8764e19b9e565e8a355469e70" category="list-text">帳戶ID</block>
@@ -1012,11 +1005,9 @@
   <block id="393e226f044ba6b817b81de6d94e7276" category="admonition">*目前耗用*、*目前爆發*及*預提爆發*指標、可決定訂閱計費期間的使用量、而非查詢的日期範圍。</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="section-title">檢視系統詳細資料</block>
   <block id="819abf779095094c4f296a2f1911a333" category="paragraph">在*系統詳細資料*索引標籤上、您可以在ONTAP 下列項目中檢視用量的使用量和其他詳細資料：針對功能、此索引標籤會顯示節點及其在物件儲存環境中的個別使用情形StorageGRID 。</block>
-  <block id="7fdbc37a63f55a7bf94c4f7eee9fbbb6" category="example-title">流通量資訊&lt;/strong&gt; &lt;strong&gt;</block>
   <block id="6f7e564e5f841331ad117d7eb3b3ae10" category="paragraph">針對功能、*系統詳細資料*索引標籤會顯示Keystone訂閱所管理儲存環境中磁碟區的容量使用量、磁碟區類型、叢集、Aggregate及服務層級等資訊ONTAP 。</block>
   <block id="d2c1241be04ae4d70013755a80c6cbd2" category="list-text">按一下*系統詳細資料*索引標籤。</block>
   <block id="ccdbd07a063ad5631511d37c5d2f5a36" category="list-text">選取訂閱編號。依預設、會選取第一個可用的訂閱號碼。</block>
-  <block id="8b315ff987c2e0cfd5650f23e5464623" category="example-title">不只是個物件、更是個物件&lt;/strong&gt; &lt;strong&gt;</block>
   <block id="45cbe8d46cd75aedbf971e2391199759" category="paragraph">對於 StorageGRID 、此索引標籤會顯示物件儲存環境中節點的實體使用量。</block>
   <block id="4305e9b17980561df3c63a75f32b2075" category="list-text">選取訂閱編號。依預設、會選取第一個可用的訂閱號碼。選取訂閱編號後、即會啟用物件儲存詳細資料的連結。</block>
   <block id="d599237a38a37deabe01bd34298be802" category="list-text">按一下連結以檢視每個節點的節點名稱和實體使用詳細資料。</block>
@@ -1079,8 +1070,6 @@
   <block id="83358b34b4abb7dcc8940f33dbf53bee" category="paragraph"><block ref="83358b34b4abb7dcc8940f33dbf53bee" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b7d00c952bfb58048323cc58b966f1a0" category="paragraph"><block ref="b7d00c952bfb58048323cc58b966f1a0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="305955a2ac717f15ce5b0f0a3abc280a" category="paragraph"><block ref="305955a2ac717f15ce5b0f0a3abc280a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="260df4711332c71713eaccd137544035" category="inline-image-macro">ova UI</block>
-  <block id="755b21da384cfa7a50f9dd463bb59495" category="list-text">在 _ 步驟 4 ：檢閱詳細資料 _ 、確認 OVA 檔案的正確性與真實性。產品名稱應顯示為_Sector_ NetApp Keystone 。<block ref="1ff64d23a057ee58e587c113040b4ea5" category="inline-image-macro-rx" type="image"></block>vCenter 會驗證 OVA 檔案內容的完整性、並為 OVA 檔案中的檔案提供有效的程式碼簽署摘要。不過、它並不會驗證程式碼簽署憑證的真僞。若要驗證完整性、您應該下載完整的簽署摘要憑證、並對照Keystone發佈的公開憑證進行驗證。請遵循下列步驟：</block>
   <block id="3a1e055c606dddb7ffa7ea4aa739f762" category="list-text">在 _Step 6_ 上、選取要用於虛擬機器的目的地網路。</block>
   <block id="77c3a99746e93de71f55722d8f5802d8" category="paragraph">針對透過 OVA 部署的 Keystone Collector 伺服器、在 VMware vSphere 系統上執行下列步驟：</block>
   <block id="02b9a7808a83ccb6ba15cb4854eba098" category="list-text">開啟至Keystone Collector伺服器的SSH工作階段。登入時、便會顯示TUI。或者、您也可以執行手動啟動 TUI<block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix=" " category="inline-code"></block> CLI命令。</block>
@@ -1187,4 +1176,32 @@
   <block id="c5353e1a31b3a925fabe61c02b5bfc5e" category="paragraph"><block ref="c5353e1a31b3a925fabe61c02b5bfc5e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e34cff1dbe58bcff4567c9224e5370c6" category="list-text">*結束日期*：訂閱的結束日期。空白日期表示訂閱沒有結束日期、而且會自動更新。根據這個日期、您可能會看到即將到期的訂閱資訊訊息、或附加了自動續約原則。</block>
   <block id="85701aafc47f53d769db3988637e595c" category="admonition">空白圖表表示您的環境在該資料收集點沒有可用的資料。</block>
+  <block id="885a7272db12515ccb176ecc5739bfc0" category="inline-link">適用於此產品的文件NetApp Keystone</block>
+  <block id="2aff714660911e754b718f59da053651" category="list-text">* 使用類型 * ：您可能已訂閱多個 Keystone （版本 1 ）或 Keystone STaaS （版本 2 ）訂閱。服務層級的費率計畫規則可能會因兩種訂閱類型而異。透過查看此欄中的值、您就知道使用類型是根據兩者的已配置或邏輯使用量計費<block ref="6654c734ccab8f440ff0825eb443dc7f" prefix=" " category="inline-code"></block> 或<block ref="1b267619c4812cc46ee281747884ca50" prefix=" " category="inline-code"></block>。如需 Keystone 訂閱第 1 版的詳細資訊、請參閱<block ref="04786649a4dbcc1655013fc588bcc7d4" category="inline-link-rx"></block>。</block>
+  <block id="382af8e8b2bf82c4df59a255786526a2" category="section-title">ONTAP Volume 詳細資料</block>
+  <block id="936ccdb97115e9f35a11d35e3d5b5cad" category="example-title">按一下這裡</block>
+  <block id="fc33c921eada2f71b3a548355734f006" category="section-title">StorageGRID 節點與使用詳細資料</block>
+  <block id="248ee1b5c36074ad26f09b9a95a55dca" category="admonition">如果您已訂閱單一服務層級或費率方案、您將無法看到不相容磁碟區的警示。</block>
+  <block id="136b0008f17d90b606be2c19f82e3657" category="paragraph">訂閱可以有多個費率方案、每個費率方案對應一個服務層級。每個費率計畫都有每個服務層級的已認可容量。</block>
+  <block id="08bc9c47f9116aac1e5b09b002ef9baa" category="example-title">為 ONTAP 收集的 &lt;strong&gt; 資料：按一下「 &lt;/strong&gt; 」</block>
+  <block id="4f578190261ed45b509224c2edf739f1" category="example-title">為 ONTAP 收集的 &lt;strong&gt; 資料：按一下「 &lt;/strong&gt; 」</block>
+  <block id="cd390c72a9953eea426540df402531d8" category="example-title">限制私有資料存取時移除的項目 &lt;strong&gt; 相關資訊：按一下 &lt;/strong&gt;</block>
+  <block id="d46219faf19708f0ca1ed17c243f5cf3" category="example-title">為 StorageGRID 收集的 &lt;strong&gt; 資料：按一下「 &lt;/strong&gt; 」</block>
+  <block id="c2e2fce3a995f59900d7afbbe58683f5" category="inline-link">此連結</block>
+  <block id="7656f92cecd653f72ca596d6def21867" category="list-text">請從下載OVA檔案<block ref="6a1066e952a937beb3c2b32013fd7738" category="inline-link-rx"></block> 並將其儲存在VMware vSphere系統上。</block>
+  <block id="6948cdf9e6c5bdc7d80925f15f8f873e" category="list-text">在 _ 步驟 4 ：檢閱詳細資料 _ 、確認 OVA 檔案的正確性與真實性。
+7.0u2 之前的 vCenter 版本無法自動驗證程式碼簽署憑證的真實性。vCenter 7.0u2 及更新版本可執行驗證、但為此、應將簽署憑證授權單位新增至 vCenter 。請依照下列說明操作 vCenter 版本：</block>
+  <block id="dca8969f962acd76587a818d56d8c5f7" category="example-title">vCenter 7.0u1 及更早版本：按一下這裡</block>
+  <block id="8b6cfff06473c4cd5cde3fa4ab929f0a" category="paragraph">vCenter 會驗證 OVA 檔案內容的完整性、並為 OVA 檔案中的檔案提供有效的程式碼簽署摘要。不過、它並不會驗證程式碼簽署憑證的真僞。若要驗證完整性、您應該下載完整的簽署摘要憑證、並對照Keystone發佈的公開憑證進行驗證。</block>
+  <block id="347aea822a41d615267a1a09f727c32d" category="list-text">從下載 _Keystone Billing _ 公開憑證<block ref="f8a06e82c439e6817414e7a6871c3ab6" category="inline-link-rx"></block>。</block>
+  <block id="b9fe920b385d36c5f104da8b5485cfd8" category="example-title">vCenter 7.0u2 及更新版本：按一下這裡</block>
+  <block id="45c3e42547d79b15a504fc354a5ea227" category="paragraph">7.0u2 及更新版本的 vCenter 可在提供有效的程式碼簽署摘要時、驗證 OVA 檔案內容的完整性及程式碼簽署憑證的真實性。vCenter 根信任存放區僅包含 VMware 憑證。NetApp 使用 Entrust 做為認證機構、而這些憑證必須新增至 vCenter 信任存放區。</block>
+  <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link">請按這裡</block>
+  <block id="7761f250d7d1edab3e627d211af402ab" category="list-text">從 Entrust 下載程式碼簽署 CA 憑證<block ref="d94e6f5bcf8381faff13e5c4999eb265" category="inline-link-rx"></block>。</block>
+  <block id="f35abf22d965c5c506fba6f9273a2895" category="list-text">請遵循中的步驟<block ref="b5a4b64b2aa505bd7c11f79b8a9f458d" prefix=" " category="inline-code"></block> 本知識庫（ KB ）文章的一節：<block ref="2e578ca4f24dfc2cfe15357800b939d4" category="inline-link-rx"></block>。</block>
+  <block id="6db4d1fb4f168710dad43e921e4fec52" category="inline-image-macro">已驗證憑證的 ova UI</block>
+  <block id="ba20b958dd73f9247c3247dbef41c8d4" category="paragraph">當 Keystone Collector OVA 的完整性和真實性通過驗證時、您可以看到文字<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 與發行者合作。
+<block ref="de3bc771b0100381aa743c5ecbd3a7df" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1f5e8b836d490bee65ada2e551662a8f" category="sidebar">安裝 Keystone Collector</block>
+  <block id="da152509ccdb6d6b167f659fc63ed210" category="sidebar">Keystone 訂閱第 1 版（先前的 Keystone Flex 訂閱）</block>
 </blocks>

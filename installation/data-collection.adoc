@@ -20,7 +20,7 @@ Keystone會收集組態、狀態和使用資訊、以供Keystone ONTAP 、以及
 
 == 資料收集ONTAP
 
-.收集ONTAP 的使用資料以供參考
+.為 ONTAP 收集的 <strong> 資料：按一下「 </strong> 」
 [%collapsible]
 ====
 下表是針對ONTAP 下列項目收集的容量使用資料代表範例：
@@ -198,7 +198,7 @@ Keystone會收集組態、狀態和使用資訊、以供Keystone ONTAP 、以及
 
 
 ====
-.針對ONTAP VMware所收集的效能資料
+.為 ONTAP 收集的 <strong> 資料：按一下「 </strong> 」
 [%collapsible]
 ====
 下表為針對ONTAP VMware所收集之效能資料的代表性範例：
@@ -247,7 +247,7 @@ Keystone會收集組態、狀態和使用資訊、以供Keystone ONTAP 、以及
 
 
 ====
-.限制私有資料存取時移除的項目清單
+.限制私有資料存取時移除的項目 <strong> 相關資訊：按一下 </strong>
 [%collapsible]
 ====
 在Keystone Collector上啟用「*移除私有資料*」選項時、ONTAP 下列使用資訊將不再用於支援。此選項預設為啟用。
@@ -275,7 +275,7 @@ Keystone會收集組態、狀態和使用資訊、以供Keystone ONTAP 、以及
 
 == 資料收集StorageGRID
 
-.收集StorageGRID 的使用資料以供參考
+.為 StorageGRID 收集的 <strong> 資料：按一下「 </strong> 」
 [%collapsible]
 ====
 下列清單為代表性的範例 `Logical Data` 收集StorageGRID 對象：
@@ -301,7 +301,7 @@ Keystone會收集組態、狀態和使用資訊、以供Keystone ONTAP 、以及
 
 
 ====
-.限制私有資料存取時移除的項目清單
+.限制私有資料存取時移除的項目 <strong> 相關資訊：按一下 </strong>
 [%collapsible]
 ====
 在Keystone Collector上啟用「*移除私有資料*」選項時、StorageGRID 下列使用資訊將不再用於支援。此選項預設為啟用。

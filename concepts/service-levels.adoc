@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concepts/service-levels.html 
-keywords: service levels, service level 
+keywords: service levels, service level, rate plan or service level 
 summary: 支援的服務層級 
 ---
 = Keystone中的服務層級
@@ -15,6 +15,8 @@ summary: 支援的服務層級
 
 [role="lead"]
 Keystone STaaS可在訂購的基礎上、以預先定義的效能服務層級（服務層級）提供資料儲存容量。由Keystone服務管理的每個Volume都與服務層級相關聯。
+
+訂閱可以有多個費率方案、每個費率方案對應一個服務層級。每個費率計畫都有每個服務層級的已認可容量。
 
 每個服務層級都是根據其 I/O 密度（即 IOPS/TiB/Volume ）來定義。這是效能的比率（每秒輸入 / 輸出作業次數 [IOP] ）、以及使用的儲存容量（ TiB ）、即每個磁碟區平均延遲的 IOPS/TiB 。
 
