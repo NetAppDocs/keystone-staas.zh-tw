@@ -177,7 +177,6 @@
   <block id="2e36da56dea864a88d8bfe77e37ce8ce" category="section-title">監控工具</block>
   <block id="6961b64b96800d43e0da115e9763a226" category="paragraph">在Keystone客戶操作服務中、您的站台會安裝儲存基礎架構和監控工具。儲存基礎架構包含支援初始訂單所需的儲存硬體、並可於稍後訂購更多儲存設備。</block>
   <block id="ae031eb46bb3af9ef59c200e318f13e4" category="paragraph">除了儲存設備之外、還配置了兩種監控工具來監控儲存設備和使用量。</block>
-  <block id="8ef6698c4c0c28e13ff87fec7e5388eb" category="summary">進階資料保護</block>
   <block id="c575a20db4934726a8fadd53d81a0c98" category="inline-link-macro">Keystone中的服務層級</block>
   <block id="7f4d4fbe08a8a895671d05c4a82b0c85" category="inline-link-macro">資訊文件MetroCluster</block>
   <block id="b21152b7b912739b58060e9f661767eb" category="list-text">來源叢集和目的地叢集的儲存設備均需付費。這項附加服務也會針對主要和次要（鏡射）磁碟區付費。</block>
@@ -474,11 +473,9 @@
   <block id="4dc2830ae7b31704bf74b200d5350dea" category="paragraph">本節列出在NetApp Keystone 您的環境中啟用IaaS服務所需的元件。</block>
   <block id="d9a2f9a8831ac707c49715a960ba187b" category="paragraph">利用NetApp技術、您可以針對儲存訂閱進行可預測的預先定價NetApp Keystone 。</block>
   <block id="0da0fcb34ab6233293608a6a36f3a615" category="paragraph">Keystone訂閱與費率方案相關聯。單一訂閱可附加多個費率計畫。</block>
-  <block id="54695ebc80c3da92b703e05eb198d2e8" category="paragraph">您可以訂閱進階資料保護附加服務、作為Keystone STaaS訂閱的一部分。這項附加服務運用NetApp MetroCluster 的技術、確保在0恢復點目標（RPO）為您的關鍵任務工作負載提供高效率的資料保護。</block>
   <block id="a0a3d7ac5998dcdf5286d5aa1997225c" category="admonition">Keystone STaaS檔案與區塊儲存標準服務可運用NetApp技術提供預設的資料保護服務、例如SnapMirror、SnapVault SnapMirror和Snapshot。</block>
   <block id="4a313a9affe19522ce794cef41abbe6f" category="paragraph">如需標準與雲端服務的相關資訊、請參閱 <block ref="32999c765ee523f7718a7908120f4502" category="inline-link-macro-rx"></block>。</block>
   <block id="4d194848bc2fab0aa3d23867126f7f3c" category="list-text">對於此服務、關聯儲存設備上100%的已提交容量會設定為已提交容量。</block>
-  <block id="3bed866597de0e328e69ae5fc7a77800" category="list-text">費用僅適用於您的檔案和區塊儲存設備。支援下列MetroCluster 功能：</block>
   <block id="5ad44de5caf375074e7467a13558fc7e" category="paragraph">根據Keystone訂閱中所承諾的容量來計算費用（Keystone）NetApp Keystone 。</block>
   <block id="659758cbadfbaf62f8c0cdaf453308f1" category="paragraph">承諾容量是指在購買訂閱時、針對特定服務層級所承諾的容量。承諾容量可以是您和NetApp /合作夥伴接受的單一訂閱中各種服務層級的總容量。此容量會在每個Keystone訂單上註明、而且會計費、無論實際的容量使用量為何。</block>
   <block id="86ba425a7f98b24ee3070233e0aabfd1" category="doc">Keystone STaaS服務支援的儲存設備</block>
@@ -728,7 +725,6 @@
   <block id="89fb8980c16c92d28af72e0579cfac9c" category="summary">Keystone訂閱報告與圖表</block>
   <block id="deaf5bbabe29231a9826b313fee569a1" category="doc">Keystone訂閱儀表板與報告</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="inline-link">透過NetApp Keystone 「View訂閱」檢視容量使用率</block>
-  <block id="016b01bead3857be9fd51bfef49b23aa" category="admonition">Keystone訂閱的容量使用量會顯示在儀表板和報告的Tibs中、最多可顯示兩個小數位數。如果使用量低於0.01 TiB、則該值會顯示為0或<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>。如需其他使用量指標、請參閱 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>。如需Keystone中使用不同容量的相關資訊、請參閱 <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>。</block>
   <block id="b3c0ed0e576799a24c9e0fda06bee006" category="section-title">檢視訂閱詳細資料</block>
   <block id="b5d0d2658bdd7db17a2251c2d1fa6edb" category="paragraph">您可以在「*訂閱詳細資料*」標籤中檢視帳戶名稱的所有訂閱。</block>
   <block id="60d8073bb007efeabf44bc4eea759210" category="paragraph">您可以針對每個訂閱號碼查看下列資訊：</block>
@@ -757,7 +753,6 @@
   <block id="ac6a5de4e069a7968a64e732a7cbd9af" category="admonition">*問題說明*：Keystone Collector會在使用量測系統中執行多個容器。當Red Hat Enterprise Linux 8.x伺服器使用美國國防資訊系統署（DISA）安全技術實作指南（STIG）原則強化時、會間歇性看到有關fapolicyd（檔案存取原則精靈）的已知問題。此問題識別為 <block ref="c6da6cbf9dd009f994ed56cf4b1ffbbb" category="inline-link-macro-rx"></block>。*因應措施*：在Red Hat Enterprise解決之前、NetApp建議您採用以下方法來解決此問題<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> 進入許可模式。在中 <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>、設定的值<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>。</block>
   <block id="9893071aa012ae6b029eae73ae2be44e" category="list-text"><block ref="9893071aa012ae6b029eae73ae2be44e" category="inline-link-rx"></block></block>
   <block id="6bf0a6b5934bc27f34497309b1c2ce0a" category="list-text"><block ref="6bf0a6b5934bc27f34497309b1c2ce0a" category="inline-link-rx"></block></block>
-  <block id="e41d7b27749843cacc5b63d577d05563" category="paragraph">Keystone進階資料保護服務可同步將資料鏡射至次要站台。萬一主站台發生災難、二線站台可以接管、而不會遺失任何資料。這項功能運用MetroCluster 兩個站台之間的「支援資料保護」功能。您只能將進階資料保護附加服務用於檔案和區塊儲存服務。如需ONTAP MetroCluster 有關資料、請參閱 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>。</block>
   <block id="e88f55d6b9c231a5c6bcae698bdfd7dc" category="list-text">* vserver*：Vserver或儲存VM（儲存虛擬機器）的名稱。</block>
   <block id="83968617de22b9218018ccb02b138d69" category="paragraph">如需IO密度的相關資訊、請參閱 <block ref="3ce2bf0236919e451c90f574367e80ae" category="inline-link-macro-rx"></block>。如需AQO原則群組的詳細資訊、請參閱<block ref="e1f6c27c218a9f9df79e5c49fb7040d6" category="inline-link-rx"></block>。</block>
   <block id="d1dc13c797f457ef0f8af6fba8c638fa" category="paragraph">優質服務層級的設定與命令：</block>
@@ -1113,7 +1108,6 @@
   <block id="14d0dc302a669d6a99952e49afc7861a" category="list-text">* 尖峰 IOPS 分配 * ：此參數可控制磁碟區可用的尖峰 IOPS 、是否根據已分配或已使用的磁碟區大小而定。在Keystone中、這是根據已用空間而定。</block>
   <block id="783d230c76cf1ff0dfbc8c98d7a8b01c" category="paragraph">Keystone STaaS可在訂購的基礎上、以預先定義的效能服務層級（服務層級）提供資料儲存容量。由Keystone服務管理的每個Volume都與服務層級相關聯。</block>
   <block id="4d5ef2163c192509afec8de9ab79da82" category="paragraph">每個服務層級都是根據其 I/O 密度（即 IOPS/TiB/Volume ）來定義。這是效能的比率（每秒輸入 / 輸出作業次數 [IOP] ）、以及使用的儲存容量（ TiB ）、即每個磁碟區平均延遲的 IOPS/TiB 。</block>
-  <block id="46d655df10f0a99ca8d68059cbb399d8" category="paragraph">此處列出支援儲存類型、檔案、區塊、物件和雲端服務的服務層級。</block>
   <block id="c5164a8ba9242ffd5faec20d25175dbe" category="section-title">檔案與區塊儲存的服務層級</block>
   <block id="55b9320c8c3c184ea9542aa4a82ecd70" category="cell">* 每個磁碟區分配的最大 IOPS / 邏輯 Tibs *</block>
   <block id="2951c92ac7129eb5950ee23f07140f99" category="cell">* 每個磁碟區儲存的最大 Mbps/ 邏輯 Tibs @ 32K B/S*</block>
@@ -1123,7 +1117,6 @@
   <block id="f43c7285b135d5fc56405612d8c6e970" category="cell">17毫秒</block>
   <block id="d6b228a8ed209a51c109dc08e1f357ce" category="cell">* 區塊大小 *</block>
   <block id="333ed6369ef878defe6b851fcb7a250f" category="section-title">深入瞭解檔案與區塊儲存的服務層級</block>
-  <block id="c4701e06633afc0b1161fbc6049cc803" category="paragraph">服務層級度量取決於下列情況：</block>
   <block id="210b39d4b6b8c3231fc8e5027adff975" category="list-text">檔案與區塊儲存的服務層級支援 ONTAP 9.7 及更新版本。</block>
   <block id="5d743a4a8a32b74983387e8966fc8dfd" category="list-text">IOPS / TiB/Volume 、 Mbps/TiB/Volume 和服務層級的延遲值、是根據磁碟區中儲存的資料量、 32KB 區塊大小、以及 70% 讀取和 30% 寫入 IO 作業的隨機組合而定。</block>
   <block id="1ce7cadb42fda63031710acdb1e36d13" category="list-text">實際的 IOPS/TiB/Volume 和 Mbps/TiB/Volume 可能會因實際或假設的區塊大小、系統工作負載並行處理或輸入輸出作業而異。</block>
@@ -1162,7 +1155,6 @@
   <block id="c146cff58b20f1e3ad6a2139acf308cc" category="paragraph"><block ref="c146cff58b20f1e3ad6a2139acf308cc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e8f49e2b6da7339d918b4030b299167c" category="admonition">根據查詢的日期範圍、使用圖表會顯示在 30 個資料收集點範圍內。</block>
   <block id="793c1a98e090ba1b0f167e3a8b0c5b37" category="paragraph">隨即顯示Volume詳細資料。您可以在欄之間捲動、並將滑鼠游標停留在欄標題旁的資訊圖示上、以深入瞭解這些欄。您可以依欄排序、並篩選清單以檢視特定資訊。</block>
-  <block id="8bb44c11261c5988fa7a0b17c52ecf8a" category="admonition">您可以按一下*複製節點序號*按鈕來複製個別節點序號。</block>
   <block id="0bb9d5f8cc89f1784aecd52a98b80f07" category="inline-image-macro">系統詳細資料索引標籤</block>
   <block id="8b672bec07d1efa43e526f4981ffb4e7" category="paragraph"><block ref="8b672bec07d1efa43e526f4981ffb4e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="71f95b1426db5071da237d6bf6575ce7" category="inline-image-macro">StorageGRID 快顯視窗</block>
@@ -1204,4 +1196,44 @@
 <block ref="de3bc771b0100381aa743c5ecbd3a7df" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1f5e8b836d490bee65ada2e551662a8f" category="sidebar">安裝 Keystone Collector</block>
   <block id="da152509ccdb6d6b167f659fc63ed210" category="sidebar">Keystone 訂閱第 1 版（先前的 Keystone Flex 訂閱）</block>
+  <block id="f4797200b978e2cdf72d828512836645" category="admonition">Keystone 訂閱的容量使用量會顯示在儀表板和報告的 Tibs 中、並四捨五入至兩位小數位數。如果使用量低於0.01 TiB、則該值會顯示為0或<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>。如需其他使用量指標、請參閱 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>。如需Keystone中使用不同容量的相關資訊、請參閱 <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>。</block>
+  <block id="2cee56420a8bf3ad373606551a8bc8bf" category="inline-link-macro">進階資料保護的其他詳細資料</block>
+  <block id="526c2c9d422fdf2baef9369203b39c92" category="admonition">如果您已訂閱進階資料保護附加服務、則可以按一下訂閱號碼上的工具提示、在 MetroCluster 設定中檢視合作夥伴訂閱的追蹤 ID 。若要瞭解如何檢視 MetroCluster 組態中合作夥伴訂閱的詳細使用量、請參閱 <block ref="f15f9282100c644cf5e8c3defc83d6f4" category="inline-link-macro-rx"></block>。</block>
+  <block id="42bebeddc58d2391cdbd55afc8071faa" category="paragraph">如果您已訂閱進階資料保護附加服務、您可以在 * 訂閱時間系列 * 標籤上檢視 MetroCluster 合作夥伴網站的使用資料分佈。</block>
+  <block id="3f20b3134627198be1e0ff879a88cd8f" category="inline-link-macro">進階資料保護</block>
+  <block id="31983c33f891876ff7bcaee65805fde0" category="paragraph">如需進階資料保護附加服務的相關資訊、請參閱 <block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block>。</block>
+  <block id="04db5afbef84567f5c1ef044a2971b66" category="paragraph">如果您的 ONTAP 儲存環境中的叢集是在 MetroCluster 設定中設定、則 Keystone 訂閱的使用量資料會分割成同一時間系列圖表、以顯示基礎服務層級的主要站台和鏡射站台使用量。</block>
+  <block id="569bc20a83ee79e720c8118dfd3197e4" category="admonition">消費橫條圖只會分割為基本服務層級。對於進階資料保護附加服務（即 _ 進階資料保護 _ 服務層級）、此標界不會出現。</block>
+  <block id="fb3cbb66357c55c4f429abc77ecde8bb" category="paragraph-title">進階資料保護服務層級</block>
+  <block id="5d9e0154046c312de36f5dd604c13626" category="paragraph">對於 _ 進階資料保護 _ 服務層級、總使用量會在合作夥伴網站之間分割、而每個合作夥伴網站的使用量會以個別訂閱方式反映並計費；這是一次主要網站訂閱、另一次則是鏡射網站訂閱。因此、當您在 * 訂閱時間系列 * 索引標籤上選取主要站台的訂閱編號時、進階資料保護附加服務的使用率圖表會僅顯示主要站台的個別使用量詳細資料。由於 MetroCluster 組態中的每個合作夥伴站台都會做為來源和鏡射、因此每個站台的總使用量都會包含在該站台建立的來源和鏡射磁碟區。</block>
+  <block id="dc22a90e0f32f2a7c39774489ee8fb79" category="admonition">「 * 訂閱詳細資料 * 」標籤中訂閱的 tacking ID 旁邊的工具提示可協助您在 MetroCluster 設定中識別合作夥伴訂閱。</block>
+  <block id="c3c3060e985c56412fb0189a9c010a6d" category="paragraph-title">基礎服務層級</block>
+  <block id="fe1654f1038a98c579f04107a47b091b" category="paragraph">對於基礎服務層級、每個磁碟區都會在主要站台和鏡射站台上依資源配置收費、因此相同的長條圖會根據主要站台和鏡射站台的使用量來分割。</block>
+  <block id="65626369a820db5271fac7f41d059e93" category="paragraph-title">主要訂閱內容</block>
+  <block id="6f66763d1fa17a342e4bfd7244527ffb" category="paragraph">下圖顯示 _ 極致 _ 服務層級（基本服務層級）和主要訂閱號碼的圖表。同一時間系列圖表會以主要站台所使用的彩色代碼較淡的陰影標記鏡射站台使用量。滑鼠游標上的工具提示會分別顯示主要站台和鏡射站台的消耗分佈（在 TiB 中）、分別為 1.02 TiB 和 1.05 TiB 。</block>
+  <block id="7cbd40b0470c3f0ea1063db9202530ff" category="inline-image-macro">MCC 主要</block>
+  <block id="69ee7237e9b9f659b4b0f2cee316a662" category="paragraph"><block ref="69ee7237e9b9f659b4b0f2cee316a662" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8aed2cb2a7e1e2ed4080282a23781e67" category="paragraph">對於 _ 進階資料保護 _ 服務層級、圖表如下所示：</block>
+  <block id="4bb0adac0644b7c8396196d410d47909" category="inline-image-macro">MCC 主要基礎</block>
+  <block id="252d078185bf1100894fa3aae110fb74" category="paragraph"><block ref="252d078185bf1100894fa3aae110fb74" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cd9124dc0715967bbbd4e31ad8a6f35d" category="paragraph-title">次要（鏡射網站）訂閱內容</block>
+  <block id="de7e96b640e5109ff5e8bcbb7abf5849" category="paragraph">當您檢查次要訂閱時、您會看到合作夥伴網站在同一個資料收集點的 _Extreme 服務層級（基礎服務層級）橫條圖反轉、而主要和鏡射網站的使用量分別為 1.05 TiB 和 1.02 TiB 。</block>
+  <block id="ff58d4e2d2a69e5e91f9509907ba3bd1" category="inline-image-macro">MCC 鏡射</block>
+  <block id="292d6b6f6df888f5de022ad6bebc7e52" category="paragraph"><block ref="292d6b6f6df888f5de022ad6bebc7e52" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="20222cfe14bec28299c2fc51ff2ec704" category="paragraph">對於 _ 進階資料保護 _ 服務層級、此圖表與合作夥伴網站上的相同集合點會顯示如下：</block>
+  <block id="ab682f0abbe8b97aaec76b435ca52575" category="inline-image-macro">MCC 鏡射基礎</block>
+  <block id="c2294c5f58d4fff77fcc282af6601d4a" category="paragraph"><block ref="c2294c5f58d4fff77fcc282af6601d4a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="48d59ef93e565c1c62d4604f7ddf6561" category="inline-link">瞭MetroCluster 解資料保護與災難恢復</block>
+  <block id="11faa60292999fe44e704021ce9a5657" category="paragraph">如需 MetroCluster 如何保護資料的相關資訊、請參閱<block ref="f22c59fda71318ed939c4a5a7c90b447" category="inline-link-rx"></block>。</block>
+  <block id="af16b731bd6e35896b00c75d9acfb1d5" category="admonition">對於進階資料保護附加服務、會出現另一欄、指出磁碟區是 MetroCluster 組態中的主要磁碟區還是鏡射磁碟區。您可以按一下*複製節點序號*按鈕來複製個別節點序號。</block>
+  <block id="815d49ae1d640489fc7d71580a9136fb" category="paragraph">您可以訂閱進階資料保護附加服務、作為 Keystone STaaS 訂閱的一部分。這項附加服務運用NetApp MetroCluster 的技術、確保在0恢復點目標（RPO）為您的關鍵任務工作負載提供高效率的資料保護。</block>
+  <block id="5d15d69b71166851acc9decce7574df8" category="paragraph">Keystone進階資料保護服務可同步將資料鏡射至次要站台。萬一主站台發生災難、二線站台可以接管、而不會遺失任何資料。這項功能運用MetroCluster 兩個站台之間的「支援資料保護」功能。您只能將進階資料保護附加服務用於檔案和區塊儲存服務。作為此附加服務的一部分<block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> 服務層級已指派給您的訂閱。
+如需ONTAP MetroCluster 有關資料、請參閱 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>。</block>
+  <block id="a59ea5d7cacb8e29da18d9bb6da809c7" category="paragraph">如需如何在 MetroCluster 組態中檢視使用量的相關資訊、請參閱 <block ref="f15f9282100c644cf5e8c3defc83d6f4" category="inline-link-macro-rx"></block>。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意下列事項：</block>
+  <block id="c2c11a830d011ece03d73534208897a1" category="list-text">費用僅適用於您的檔案和區塊儲存設備。</block>
+  <block id="3505917ad3d0afd6896fab28f67d309e" category="paragraph">支援下列MetroCluster 功能：</block>
+  <block id="fd625bdcc192280e06814e4fa60837f3" category="paragraph">您可以根據儲存環境、以及儲存與使用需求來選擇服務層級。根據預設、基本服務層級可供您使用。如果您已選擇附加服務、則可額外提供特定的服務層級。例如、對於進階資料保護附加服務、 _ 進階資料保護 _ 服務層級會指派給您的訂閱。</block>
+  <block id="725c798ca9f90c6a2a238988b14387a6" category="paragraph">此處列出支援儲存類型、檔案、區塊、物件和雲端服務的基礎服務層級。</block>
+  <block id="6839a21037309515ac19670a2a6b09fe" category="paragraph">基礎服務層級度量取決於下列情況：</block>
 </blocks>
