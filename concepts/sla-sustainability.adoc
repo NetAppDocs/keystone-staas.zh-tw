@@ -1,0 +1,95 @@
+---
+sidebar: sidebar 
+permalink: concepts/sla-sustainability.html 
+keywords: sustainability, sla, service level agreement, 
+summary: 永續性、 SLA 、服務層級協議 
+---
+= Keystone 的永續性 SLA
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone STaaas 提供服務層級協議或 SLA 支援的永續性服務層級、定義每個服務層級消耗的瓦數 / 層級上限、協助您規劃、監控及達成 IT 永續性目標。
+
+
+
+== 永續性指標
+
+下列指標用於定義及衡量永續性：
+
+* 瓦數： ONTAP AFF A 系列陣列和附加 SSD 機櫃的每日用電量。
+* TIB ：更多：
++
+** 服務層級的已認可容量和已分配的突發容量、或
+** 有效部署容量、假設儲存效率係數為 2 。如需儲存效率比率的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html["瞭解儲存效率"^]。
+
+
+
+
+
+
+== 永續性服務層級
+
+下表摘要說明永續性服務層級：極致、優質及效能：
+
+|===
+
+
+| * 服務層級 * | * SLA 標準 * | * 最低承諾容量 * | *平台* 
+
+
+ a| 
+極致
+| <= 8 W/TiB | 200 TiB | AFF A800 和 AFF A900 
+
+
+ a| 
+優質
+| <=4 瓦 / TiB | 300 TiB | AFF A800 和 AFF A900 
+
+
+ a| 
+效能
+| <=4 瓦 / TiB | 300 TiB | AFF A800 和 AFF A900 
+|===
+
+
+== 永續性 SLA 的合格標準
+
+符合下列條件的 Keystone STaaS 訂閱符合 SLA 資格：
+
+* 標準的非自訂 Keystone STaaas 訂閱、單一服務層級、每月收取發票以收取欠款。
+* 具有下列服務層級的訂閱符合資格： Extreme 、 Premium 和 Performance 服務層級。
+* 非自訂的基礎概念永續硬體組態、包括：
++
+** ONTAP AFF A 系列儲存陣列、例如 NetApp AFF A900 或 AFF A800 All Flash 儲存平台。如需相關資訊、請參閱 https://www.netapp.com/data-storage/aff-a-series["A系列AFF"^]。
+** 雙節點無交換器叢集。
+不支援混合式和 MetroCluster 組態。
+
+
+* Keystone 使用 AutoSupport 遙測資料和傳輸機制來收集永續性資料。AutoSupport 應在所有 ONTAP AFF 儲存陣列上啟用並運作。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^]。
+* 儲存的資料應達到兩個最低平均儲存效率係數。
+* 環境操作環境溫度應介於 25 ° C 至 27 ° C 之間
+* 應符合每個服務層級的最低承諾容量。
+
+
+
+
+== 永續性報告
+
+Active IQ Digital Advisor （數位顧問） Keystone 儀表板上的 SLA 標籤提供 Keystone 訂閱的永續性計量詳細檢視。您可以檢視指標、並產生報告以供未來分析和行動使用。
+
+如需Keystone儀表板和報告的詳細資訊、請參閱 link:../integrations/aiq-keystone-details.html["Keystone訂閱儀表板與報告"]。
+
+
+
+== 永續性服務學分
+
+如果瓦特 / TiB 使用量超過或未能符合服務層級 SLA 中指定的條件、則 NetApp 會針對所有合格訂閱、針對在計費期間回報的差異、提供服務額度付款。如果未達到服務層級 SLA 指標、請在服務結束前一週內聯絡 NetApp 全球服務支援中心（ GSSC ）在判定服務層級違規時、點數會根據服務層級的承諾容量來計算、並記入下個月的發票。
+
+如需相關資訊、請參閱 link:../concepts/gssc.html["NetApp全球服務支援中心"]。

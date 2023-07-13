@@ -32,7 +32,7 @@ summary: 在VMware系統上安裝Keystone收集器
 . 在 _ 步驟 4 ：檢閱詳細資料 _ 、確認 OVA 檔案的正確性與真實性。
 7.0u2 之前的 vCenter 版本無法自動驗證程式碼簽署憑證的真實性。vCenter 7.0u2 及更新版本可執行驗證、但為此、應將簽署憑證授權單位新增至 vCenter 。請依照下列說明操作 vCenter 版本：
 +
-.vCenter 7.0u1 及更早版本：按一下這裡
+.vCenter 7.0u1 及更早版本：深入瞭解
 [%collapsible]
 ====
 vCenter 會驗證 OVA 檔案內容的完整性、並為 OVA 檔案中的檔案提供有效的程式碼簽署摘要。不過、它並不會驗證程式碼簽署憑證的真僞。若要驗證完整性、您應該下載完整的簽署摘要憑證、並對照Keystone發佈的公開憑證進行驗證。
@@ -45,7 +45,7 @@ vCenter 會驗證 OVA 檔案內容的完整性、並為 OVA 檔案中的檔案�
 
 ====
 +
-.vCenter 7.0u2 及更新版本：按一下這裡
+.vCenter 7.0u2 及更新版本：深入瞭解
 [%collapsible]
 ====
 7.0u2 及更新版本的 vCenter 可在提供有效的程式碼簽署摘要時、驗證 OVA 檔案內容的完整性及程式碼簽署憑證的真實性。vCenter 根信任存放區僅包含 VMware 憑證。NetApp 使用 Entrust 做為認證機構、而這些憑證必須新增至 vCenter 信任存放區。

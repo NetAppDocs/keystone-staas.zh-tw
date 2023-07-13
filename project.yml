@@ -69,6 +69,8 @@ sidebar:
       url: "/concepts/qos.html"
     - title: 服務層級的容量需求
       url: "/concepts/capacity-requirements.html"
+    - title: 永續性 SLA 服務層級
+      url: "/concepts/sla-sustainability.html"
   - title: 帳單
     entries:
     - title: Keystone定價
