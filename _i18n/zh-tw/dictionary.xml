@@ -1179,13 +1179,9 @@
   <block id="3f20b3134627198be1e0ff879a88cd8f" category="inline-link-macro">進階資料保護</block>
   <block id="31983c33f891876ff7bcaee65805fde0" category="paragraph">如需進階資料保護附加服務的相關資訊、請參閱 <block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block>。</block>
   <block id="04db5afbef84567f5c1ef044a2971b66" category="paragraph">如果您的 ONTAP 儲存環境中的叢集是在 MetroCluster 設定中設定、則 Keystone 訂閱的使用量資料會分割成同一時間系列圖表、以顯示基礎服務層級的主要站台和鏡射站台使用量。</block>
-  <block id="569bc20a83ee79e720c8118dfd3197e4" category="admonition">消費橫條圖只會分割為基本服務層級。對於進階資料保護附加服務（即 _ 進階資料保護 _ 服務層級）、此標界不會出現。</block>
   <block id="fb3cbb66357c55c4f429abc77ecde8bb" category="paragraph-title">進階資料保護服務層級</block>
-  <block id="dc22a90e0f32f2a7c39774489ee8fb79" category="admonition">「 * 訂閱詳細資料 * 」標籤中訂閱的 tacking ID 旁邊的工具提示可協助您在 MetroCluster 設定中識別合作夥伴訂閱。</block>
   <block id="c3c3060e985c56412fb0189a9c010a6d" category="paragraph-title">基礎服務層級</block>
-  <block id="fe1654f1038a98c579f04107a47b091b" category="paragraph">對於基礎服務層級、每個磁碟區都會在主要站台和鏡射站台上依資源配置收費、因此相同的長條圖會根據主要站台和鏡射站台的使用量來分割。</block>
   <block id="65626369a820db5271fac7f41d059e93" category="paragraph-title">主要訂閱內容</block>
-  <block id="6f66763d1fa17a342e4bfd7244527ffb" category="paragraph">下圖顯示 _ 極致 _ 服務層級（基本服務層級）和主要訂閱號碼的圖表。同一時間系列圖表會以主要站台所使用的彩色代碼較淡的陰影標記鏡射站台使用量。滑鼠游標上的工具提示會分別顯示主要站台和鏡射站台的消耗分佈（在 TiB 中）、分別為 1.02 TiB 和 1.05 TiB 。</block>
   <block id="7cbd40b0470c3f0ea1063db9202530ff" category="inline-image-macro">MCC 主要</block>
   <block id="69ee7237e9b9f659b4b0f2cee316a662" category="paragraph"><block ref="69ee7237e9b9f659b4b0f2cee316a662" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8aed2cb2a7e1e2ed4080282a23781e67" category="paragraph">對於 _ 進階資料保護 _ 服務層級、圖表如下所示：</block>
@@ -1262,7 +1258,6 @@
   <block id="4678bee42b24b1f259e76813ce5c8c11" category="list-text">訂閱詳細資料：訂閱的開始與結束日期、以及帳單期間、例如每季、每年等。</block>
   <block id="0bb824bc11c0651d90f603b301be0454" category="list-text">使用率圖表：長條圖會顯示日期範圍內的服務層級名稱和該服務層級所耗用的容量。集合的日期和時間會顯示在圖表底部。</block>
   <block id="f7415915998d4b4ddd0480235cfc5147" category="paragraph">如果您已訂閱進階資料保護附加服務、您可以在 * 時間系列 * 標籤上檢視 MetroCluster 合作夥伴網站的使用資料分佈。</block>
-  <block id="fd8f042413e243ba85b89698462975b9" category="paragraph">對於 _ 進階資料保護 _ 服務層級、總使用量會在合作夥伴網站之間分割、而每個合作夥伴網站的使用量會以個別訂閱方式反映並計費；這是一次主要網站訂閱、另一次則是鏡射網站訂閱。因此、當您在 * 時間系列 * 索引標籤上選取主要網站的訂閱號碼時、進階資料保護附加服務的使用率圖表只會顯示主要網站的個別使用量詳細資料。由於 MetroCluster 組態中的每個合作夥伴站台都會做為來源和鏡射、因此每個站台的總使用量都會包含在該站台建立的來源和鏡射磁碟區。</block>
   <block id="1ab7bb685c5a04401573e75118c580cb" category="paragraph">* 時間序列 * 標籤的範例報告、其中會轉換圖形資料：</block>
   <block id="1d864ae11e362329da4731cbf31eca7b" category="summary">永續性、 SLA 、服務層級協議</block>
   <block id="da7b7e32fb13eed4f75ab9bd36eb819f" category="paragraph">NetApp Keystone STaaas 提供服務層級協議或 SLA 支援的永續性服務層級、定義每個服務層級消耗的瓦數 / 層級上限、協助您規劃、監控及達成 IT 永續性目標。</block>
@@ -1306,6 +1301,42 @@
   <block id="c1180c8c32ead64506dbcd62aa47c4c9" category="example-title">為 ONTAP 收集的 &lt;strong&gt; 相關資料： Learn &lt;/strong&gt;</block>
   <block id="fb4c693ae1537fcd9bba0f68cbeef17b" category="example-title">限制私有資料存取時移除的項目 &lt;strong&gt; ： Learn &lt;/strong&gt;</block>
   <block id="f2b69dc6ebbf3f5003867401fe70494a" category="example-title">為 StorageGRID 收集的 &lt;strong&gt; 相關資料： Learn &lt;/strong&gt;</block>
-  <block id="5d8bad95eb1baa3803b9e8dce984e67b" category="admonition">Keystone Collector 代表收集 Keystone 系統使用資料的標準方法。如果您的環境不支援 Keystone 收集器、您可以向 Keystone 產品管理尋求授權、以使用 AutoSupport 資料作為替代方案。如需 AutoSupport 遙測資料的相關資訊、請參閱<block ref="b096b20f4ffee8d064588e63f22e1fc6" category="inline-link-rx"></block>。</block>
   <block id="44a356ee93aa30cde0789bb1b6288edc" category="sidebar">永續性 SLA 服務層級</block>
+  <block id="c28b09cc41570276b2b0042903d57c79" category="admonition">消費橫條圖只會分割為基本服務層級。對於進階資料保護附加服務（即 _ 進階資料保護 _ 服務層級）、此標界不會出現。</block>
+  <block id="627187033e0d403fd6c6200ee1ae4adc" category="paragraph">對於 _ 進階資料保護 _ 服務層級、總使用量會在合作夥伴網站之間分割、而每個合作夥伴網站的使用量會以個別訂閱方式反映並計費、一次是主要網站訂閱、另一次則是鏡射網站訂閱。因此、當您在「 * 時間系列 * 」標籤上選取主要網站的訂閱編號時、進階資料保護附加服務的使用率圖表只會顯示主要網站的個別使用量詳細資料。由於 MetroCluster 組態中的每個合作夥伴站台都會做為來源站台和鏡射站台、因此每個站台的總使用量都會包含在該站台建立的來源磁碟區和鏡射磁碟區。</block>
+  <block id="fd52d7221e8b245c3170011b6a9ec588" category="admonition">「 * 訂閱詳細資料 * 」標籤中訂閱追蹤 ID 旁的工具提示、可協助您在 MetroCluster 設定中識別合作夥伴訂閱。</block>
+  <block id="b0fd82c95d4d70af17cabfddda9d8ba1" category="paragraph">對於基礎服務層級、每個磁碟區都會依照主要站台和鏡射站台的資源配置來收費、因此相同的長條圖會根據主要站台和鏡射站台的使用量來分割。</block>
+  <block id="8c7448231ca20d3d6396d889131809c0" category="paragraph">下圖顯示 _ 極致 _ 服務層級（基本服務層級）和主要訂閱號碼的圖表。同一時間系列圖表也會指出鏡射站台的使用量、其陰影較淺、與主要站台所使用的相同顏色代碼相同。滑鼠游標上的工具提示會顯示主要站台和鏡射站台分別為 1.02 TiB 和 1.05 TiB 的使用量分佈（在 TiB 中）。</block>
+  <block id="8bc5c0080c428076bcf05bc51bb14788" category="inline-link-macro">設定 Keystone 的 AutoSupport</block>
+  <block id="6d578c7641fb44c9c4f671451a0ca720" category="admonition">Keystone Collector 代表收集 Keystone 系統使用資料的標準方法。如果您的環境不支援 Keystone 收集器、您可以向 Keystone 產品管理尋求授權、以使用 AutoSupport 遙測機制作為替代方案。如需 AutoSupport 的相關資訊、請參閱<block ref="b096b20f4ffee8d064588e63f22e1fc6" category="inline-link-rx"></block>。如需設定 AutoSupport for Keystone 的相關資訊、請參閱 <block ref="580f515f260b4eafdf5c4395b86d5cc8" category="inline-link-macro-rx"></block>。</block>
+  <block id="a2cb1683fa1d21863cd2e58f04cb8840" category="summary">設定 Keystone AutoSupport 的程序</block>
+  <block id="108d99cfe6acee2f282b35eb37399a4a" category="paragraph">使用 AutoSupport 遙測機制時、 Keystone 服務會根據 AutoSupport 遙測資料執行使用量測。若要達到必要的精細度、您應該將 AutoSupport 設定為將 Keystone 資料納入 ONTAP 叢集所傳送的每日支援套件組合中。</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">開始之前</block>
+  <block id="b42d0b3eb8f170855db83a70fb500c9f" category="paragraph">在將 AutoSupport 設定為包含 Keystone 資料之前、請注意下列事項。</block>
+  <block id="2624c7604ba2852efeff8c117d2b3833" category="inline-link">管理AutoSupport 功能概述</block>
+  <block id="eaa7ee71946117afbd8b7b870c08c754" category="inline-link">叢集與SVM管理員</block>
+  <block id="4d58f253221193b9aefb05118d1f988b" category="list-text">您可以使用 ONTAP CLI 編輯 AutoSupport 遙測選項。如需管理 AutoSupport 服務和系統（叢集）管理員角色的相關資訊、請參閱<block ref="74c81977f67f7fd8730001b7bd71d272" category="inline-link-rx"></block> 和<block ref="39dd1478a2434d6fd2a2e23247a37102" category="inline-link-rx"></block>。</block>
+  <block id="9e86f3ba8d920b1df3ab63648bd8eb29" category="inline-link">什麼是子系統AutoSupport</block>
+  <block id="d247e9a9e4b2d045ed1836a1636dd501" category="list-text">您可以在 Daily AutoSupport 套裝組合中加入下列子系統、以確保 Keystone 的精確資料收集。如需 AutoSupport 子系統的相關資訊、請參閱<block ref="5cc209367930dbf9b2a8c95126c2b0b9" category="inline-link-rx"></block>。</block>
+  <block id="1529ae16a08da72c10cf08ee8267b2b7" category="cell">子系統名稱</block>
+  <block id="518cc8d86719655e7d0b3e47b00cfcc4" category="cell">Keystone 所需的資料項目</block>
+  <block id="8deea84f7a861bbe25e208fcbb02eef1" category="paragraph">WAFL</block>
+  <block id="ceea79966527e25b8813fd6eeb6f5f53" category="cell"><block ref="d85d77ffdc00a53694547877662a0963" prefix="" category="inline-code"></block></block>
+  <block id="c05f6c233521207f6fe311afef550c3c" category="paragraph">效能</block>
+  <block id="ae9231d884fca9aaf815810fa343d412" category="cell"><block ref="5031958c10a4bbf8dd2d0ffa99048d80" prefix="" category="inline-code"></block> 和<block ref="46182b51ebeba863e7a89f90cfa59b48" prefix=" " category="inline-code"></block></block>
+  <block id="c322d3de29d2b0c5e2e011dad5e77df2" category="paragraph">Snapshot</block>
+  <block id="bb65c8cd0470e288b9c75785564d6a2e" category="cell"><block ref="f709c12953aa6b2660ce761bc3f1deb1" prefix="" category="inline-code"></block></block>
+  <block id="34a6e5d64ade17ef4e51612c50dd72f5" category="paragraph">平台</block>
+  <block id="20633a185eef8cd0787928097ee67ed2" category="cell"><block ref="2e5491b472dcdbe9db18fd79935e0ccd" prefix="" category="inline-code"></block></block>
+  <block id="bcc16de506d1dbb7779a3062decf2fa6" category="paragraph">依預設、這些子系統會包含在每週的 AutoSupport 套裝組合中、其中包含<block ref="c2f7a910dac56891bdc98acd8bf80faa" prefix=" " category="inline-code"></block> 是 _DOT-Regal_ 、以及<block ref="155fe96c8db8042fed76defa0f5b6d97" prefix=" " category="inline-code"></block> 是 _HA 群組通知（每週記錄）通知 _ 。不過、您需要將它們新增至每日套件組合、以便擷取和報告 Keystone 使用資料。</block>
+  <block id="0615b5bfa7b669de144331b512440192" category="inline-link">使用 SSH 存取叢集</block>
+  <block id="75637cd8fe530b3ca0a91d01f7a154b3" category="list-text">以系統管理員使用者身分、使用 SSH 登入 Keystone ONTAP 叢集。如需相關資訊、請參閱<block ref="72c78e462556b03d46e2f3029d4a0613" category="inline-link-rx"></block>。</block>
+  <block id="8105c13cb7b1a6ae8cfa1eedb5f33c40" category="list-text">執行下列命令並驗證現有的組態：</block>
+  <block id="33b4af89f59af8bb80d82b221f1f8248" category="paragraph"><block ref="a036514af4c04ea01cab410ea50e1d6b" prefix="" category="inline-code"></block></block>
+  <block id="d4139f82ccaf32f8e108d4cd48dc0801" category="inline-link">系統節點AutoSupport 的資訊清單顯示</block>
+  <block id="fcd234d37052b608416125513e6350d6" category="paragraph">如需此命令的詳細資訊、請參閱<block ref="ebf3b588f9456f5d9eb4379234927367" category="inline-link-rx"></block>。</block>
+  <block id="b25e1baa640468dcaf7b5bcd975ace0a" category="list-text">執行下列命令來修改每日記錄內容：</block>
+  <block id="a7b3681fbca584aa4e58ecc74f068237" category="paragraph"><block ref="1835384cfbb7a783927d2d026c6446bc" prefix="" category="inline-code"></block></block>
+  <block id="20c41bcd9366cdbd961d6554489ea863" category="inline-link">系統節點AutoSupport 的不正常情況下修改觸發程序</block>
+  <block id="5f6d98c1ed4256fab45f6c20e637744e" category="paragraph">如需此命令的詳細資訊、請參閱<block ref="700e80291e0b2dbcd3452a610925a1ef" category="inline-link-rx"></block>。</block>
 </blocks>
