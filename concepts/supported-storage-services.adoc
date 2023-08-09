@@ -53,6 +53,7 @@ NFS與CIFS
 * SnapRestore
 * FlexClone
 * 包含授權、但並非Keystone服務的一部分、因此無法保證管理SnapCenter ）
+* 自主勒索軟體保護 ^1^
 
 
 
@@ -87,9 +88,13 @@ StorageGRID
  a| 
 S3
  a| 
-支援跨多個站台的多重資訊生命週期管理（ILM）原則。*附註*：每個網站都需要個別訂閱。
+支援跨多個站台的多重資訊生命週期管理（ ILM ）原則 ^2^
 
 |===
+
+NOTE: ^1^ 如需 ONTAP 中勒索軟體保護的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護"^]。
+^2^ 每個網站都需要個別訂閱。
+
 
 
 == 雲端儲存服務
