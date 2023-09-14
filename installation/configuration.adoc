@@ -73,3 +73,31 @@ Keystone Collector會收集執行訂閱計量所需的有限組態、狀態和�
 image:tui-4.png["TUI 畫面"]
 
 如需ONTAP 瞭解有關在支援內部及StorageGRID 內部資料存取限制時所移除項目的資訊、請參閱 link:../installation/data-collection.html["限制私有資料存取時移除的項目清單"]。
+
+
+
+== 信任自訂根 CA
+
+針對公共根憑證授權單位（ CA ）驗證憑證是 Keystone Collector 安全性功能的一部分。不過、如果需要、您可以將 Keystone Collector 設定為信任自訂根 CA 。
+
+如果您在系統防火牆中使用 SSL/TLS 檢查、則會導致網際網路流量使用自訂 CA 憑證重新加密。在接受根憑證並允許連線之前、必須設定設定以驗證來源為信任 CA 。請遵循下列步驟：
+
+.步驟
+. 準備 CA 憑證。它應該是 _base64 編碼的 X.509 檔案格式。
++
+
+NOTE: 支援的副檔名為 `.pem`、 `.crt`、 `.cert`。請確定憑證採用下列其中一種格式。
+
+. 將憑證複製到 Keystone Collector 伺服器。記下檔案複製的位置。
+. 在伺服器上開啟終端機、然後執行管理 TUI 公用程式。
+`$ keystone-collector-tui`
+. 移至 * 組態 > 進階 * 。
+. 啟用選項 * 啟用自訂根憑證 * 。
+. 針對 * 選取自訂根憑證路徑： * 、選取 `- Unset -`
+. 按Enter。此時會顯示一個對話方塊、用於選取憑證路徑。
+. 從檔案系統瀏覽器選取根憑證、或輸入正確的路徑。
+. 按Enter。您將返回 * 進階 * 畫面。
+. 選擇*保存*。已套用組態。
+
+
+image:kc-custom-ca.png["用於 CA 自訂的 TUI 畫面"]
