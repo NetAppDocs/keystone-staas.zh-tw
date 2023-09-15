@@ -14,15 +14,15 @@ summary: 附加元件、額外服務詳細資料、資料分層
 
 
 [role="lead"]
-Keystone STaaS檔案與區塊儲存標準服務包括分層功能、可識別較少使用的資料、並將其分層至Keystone STaaS-Supported NetApp Cold儲存設備。如果您想要將冷資料分層至任何Keystone STaaas支援的非NetApp儲存設備、您可以將資料分層作為附加服務。
+Keystone STaaS檔案與區塊儲存標準服務包括分層功能、可識別較少使用的資料、並將其分層至Keystone STaaS-Supported NetApp Cold儲存設備。如果您想要將冷資料分層至任何受 Keystone STaaS 支援的非 NetApp 儲存設備、則可以將資料分層作為附加服務。
 
 如需標準和附加服務的相關資訊、請參閱 link:../concepts/supported-storage-services.html["Keystone STaaS服務"]。如需服務層級的相關資訊、請參閱 link:../concepts/service-levels.html["Keystone中的服務層級"]。
 
-只有當資料分層至任何非NetApp儲存設備（例如Amazon Web Services（AWS）S3、Azure Blob、Google Cloud Platform（GCP）及其他基礎概念（Keystone STaaS支援）S3相容的協力廠商物件儲存設備）時、才需要分層附加服務。
+僅當資料分層至任何非 NetApp 儲存設備（例如 Amazon Web Services （ AWS ） S3 、 Azure Blob 、 Google Cloud Platform （ GCP ）及其他受 Keystone STaaas 支援、相容 S3 的協力廠商物件儲存設備）時、才需要分層附加服務。
 
 分層功能運用NetApp FabricPool 的技術、可將不常存取的資料自動分層、以便在內部部署或外部建立物件式儲存層。
 
-附加資料分層服務可讓您從極致、優質、效能、標準及價值層級分層至物件儲存目標。要分層的熱/冷資料比例並未固定、而且每個層都會分別計費和開立發票。
+附加資料分層服務可讓您從極致、優質、效能、標準及價值層級分層至物件儲存目標。要分層的熱資料與冷資料比例並不固定、而且每個階層都會單獨計費和開立發票。
 
 例如、如果Cold儲存層的目標是：
 

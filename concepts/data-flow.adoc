@@ -40,7 +40,7 @@ image:collector-data-flow.png["顯示收集器元件內的資料流"]
 image:monitoring-flow.png["資料流"]
 
 .圖例
-. AIOP 解決方案閘道會啟動 TLS 工作階段至其雲端入口網站。
+. AIOP 解決方案閘道會啟動通往雲端入口網站的 TLS 工作階段。
 . 由客戶操作的防火牆允許連線。
 . 雲端中的 AIOPs 解決方案伺服器接受連線。
 . 在雲端入口網站和本機閘道之間建立 TLS 通道。

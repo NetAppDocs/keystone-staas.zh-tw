@@ -16,7 +16,9 @@ summary: 透過Keystone收集器監控系統健全狀況
 [role="lead"]
 您可以使用任何支援HTTP要求的監控系統、透過Keystone Collector服務監控系統健全狀況。
 
-根據預設、Keystone健全狀況服務不會接受來自localhost以外任何IP的連線。Keystone健全狀況端點為 `/uber/health`、並在連接埠上偵聽Keystone Collector伺服器的所有介面 `7777`。查詢時、端點會傳回具有Json輸出的HTTP要求狀態代碼作為回應、說明Keystone Collector系統的狀態。Json實體提供的整體健全狀況狀態 `is_healthy` 屬性、為布林值、以及每個元件的詳細狀態清單 `component_details` 屬性。範例如下：
+根據預設、 Keystone 健全狀況服務不接受來自 localhost 以外任何 IP 的連線。Keystone健全狀況端點為 `/uber/health`、並在連接埠上偵聽Keystone Collector伺服器的所有介面 `7777`。查詢時、端點會傳回具有Json輸出的HTTP要求狀態代碼作為回應、說明Keystone Collector系統的狀態。
+Json實體提供的整體健全狀況狀態 `is_healthy` 屬性、為布林值、以及每個元件的詳細狀態清單 `component_details` 屬性。
+範例如下：
 
 [listing]
 ----

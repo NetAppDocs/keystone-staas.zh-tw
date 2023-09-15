@@ -175,7 +175,7 @@ qos adaptive-policy-group create -policy-group <Keystone_value> -vserver <SVM_na
 
 
 .區塊大小計算範例
-若要計算A服務層級的處理量、例如「Extreme」服務層級：
+以計算服務層級的處理量、例如 `Extreme` 服務層級：
 
 * IOPS上限：12、288
 * 每I/O區塊大小：32KB

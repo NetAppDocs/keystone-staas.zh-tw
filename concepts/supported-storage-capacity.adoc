@@ -39,7 +39,7 @@ summary: 支援的儲存容量
 在訂閱期間、您可以變更已提交的容量。不過、有些先決條件是：
 
 * 可根據特定條件減少已認可的容量。如需相關資訊、請參閱 link:../concepts/capacity-requirements.html["容量減量"]。
-* 承諾的容量不得在您的訂閱到期前 90 天增加、除非該訂閱將續約 12 個月。
+* 承諾容量不得在訂閱到期前 90 天增加、除非訂閱將續約 12 個月。
 * 您可以透過BlueXP介面或Keystone Success Manager（KSM）要求變更已提交的容量。如需要求變更的相關資訊、請參閱 link:../concepts/gssc.html["NetApp全球服務支援中心"]。
 
 

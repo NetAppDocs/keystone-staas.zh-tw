@@ -21,7 +21,7 @@ NOTE: Keystone STaaS檔案與區塊儲存標準服務可運用NetApp技術提供
 
 如需標準與雲端服務的相關資訊、請參閱 link:../concepts/supported-storage-services.html["Keystone STaaS服務"]。
 
-Keystone進階資料保護服務可同步將資料鏡射至次要站台。萬一主站台發生災難、二線站台可以接管、而不會遺失任何資料。這項功能運用MetroCluster 兩個站台之間的「支援資料保護」功能。您只能將進階資料保護附加服務用於檔案和區塊儲存服務。作為此附加服務的一部分 `Advanced Data-Protect` 服務層級已指派給您的訂閱。
+Keystone進階資料保護服務可同步將資料鏡射至次要站台。萬一主站台發生災難、二線站台可以接管、而不會遺失任何資料。此功能會利用兩個站台之間的 MetroCluster 組態來啟用資料保護。您只能將進階資料保護附加服務用於檔案和區塊儲存服務。作為此附加服務的一部分 `Advanced Data-Protect` 服務層級已指派給您的訂閱。
 如需ONTAP MetroCluster 有關資料、請參閱 link:https://docs.netapp.com/us-en/ontap-metrocluster["資訊文件MetroCluster"^]。
 
 如需如何在 MetroCluster 組態中檢視使用量的相關資訊、請參閱 link:../integrations/aiq-keystone-details.html#reference-charts-for-advanced-data-protection["進階資料保護的參考圖表"]。
