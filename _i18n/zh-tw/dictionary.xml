@@ -442,7 +442,6 @@
   <block id="1923c743bdc7a28d03225437a33faad3" category="paragraph">IaaS（基礎概念）可提供兩種服務交付作業模式：合作夥伴營運模式和客戶營運模式NetApp Keystone 。</block>
   <block id="ceaa88393b953e384cdb413dd3572b41" category="list-text">*客戶營運模式*：身為客戶、您可以根據所選的服務層級和儲存設備、訂閱Keystone服務。NetApp定義了架構和產品、並在您的內部部署Keystone。您需要透過儲存設備和IT資源來管理基礎架構。身為客戶、您是NetApp或合作夥伴/服務供應商的租戶或子租戶。根據您的合約、您可以提出服務要求、由NetApp或您的服務供應商處理。端點的系統管理員可以在您的站台（環境）執行系統管理工作。這些工作與您環境中的使用者有關。</block>
   <block id="d9074f8f6ffc16585a17ec283468500b" category="paragraph">Keystone STaaS會根據您在服務使用期間所耗用的容量進行計量。</block>
-  <block id="6d478c5e5b9eefab3f25d9f707b30bac" category="paragraph">承諾容量是指在購買訂閱時、針對特定服務層級所承諾的容量。耗用容量是工作負載實際使用的容量。作爲Keystone服務部署的一部分，NetApp會持續監控和衡量服務的使用量。系統每五分鐘會產生一筆使用量記錄、詳述您訂閱的目前使用容量。這些記錄會在計費期間內彙總、以產生發票和使用報告。</block>
   <block id="427fa3429ea764a6d2b1f1e8f8111b9e" category="list-text">與NRNVC相關的額外成本會以總訂購服務（包括標準服務、進階資料保護和資料分層）每月帳單的百分比計費。</block>
   <block id="4dc2830ae7b31704bf74b200d5350dea" category="paragraph">本節列出在NetApp Keystone 您的環境中啟用IaaS服務所需的元件。</block>
   <block id="d9a2f9a8831ac707c49715a960ba187b" category="paragraph">利用NetApp技術、您可以針對儲存訂閱進行可預測的預先定價NetApp Keystone 。</block>
@@ -1391,4 +1390,39 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="c6f432b1870f0e6972013545b17800a3" category="paragraph">如果您在系統防火牆中使用 SSL/TLS 檢查、則會導致網際網路流量使用自訂 CA 憑證重新加密。在接受根憑證並允許連線之前、必須設定設定以驗證來源為信任 CA 。請遵循下列步驟：</block>
   <block id="f9e29c5d1d04edbbfd564585d416bd59" category="list-text">選擇*保存*。已套用組態。</block>
   <block id="f481813467557e4621102213f070e886" category="admonition">管理密碼以可還原的格式儲存在 vCenter 中、並應作為引導式認證、以取得對 VMware vSphere 系統的初始存取權。在初始軟體組態期間、應變更此管理員密碼。應以CIDR表示法提供IPV4位址的子網路遮罩。例如、子網路遮罩的值為24、子網路遮罩為255．255．255．0。</block>
+  <block id="f55b179b8cade00ad34b1162d0791a0f" category="paragraph">承諾容量是指在購買訂閱時、針對特定服務層級所承諾的容量。耗用容量是工作負載實際使用的容量。
+作爲Keystone服務部署的一部分，NetApp會持續監控和衡量服務的使用量。每五分鐘至少一次、系統會產生一筆使用記錄、詳述您訂閱的目前使用容量。這些記錄會在計費期間內彙總、以產生發票和使用報告。</block>
+  <block id="24cba01226edf9c3d3a2a54ff2dcb01b" category="section-title">檢視 ONTAP Volume 效能</block>
+  <block id="3b53297f45bd7b71fc7268ad58677e21" category="paragraph">您可以按一下 * 效能 * 索引標籤、檢視 Keystone 訂閱所管理的 ONTAP 磁碟區效能詳細資料。</block>
+  <block id="0fb53446c9ba4fb31807c3858dd35fc5" category="paragraph">您可能無法使用此索引標籤來檢視 ONTAP 磁碟區上的效能指標。請聯絡支援部門以檢視此標籤。</block>
+  <block id="6e72d1d005343795162600a4ae63ec11" category="list-text">按一下 * 效能 * 標籤。</block>
+  <block id="f1addfc8f24f051397cc85f6926bf8ed" category="list-text">選取訂閱編號。依預設、會選取第一個訂閱號碼。</block>
+  <block id="f642e4642652119f9ec47a2dc27c51ff" category="list-text">從清單中選取所需的磁碟區名稱。</block>
+  <block id="52dc465dcb6a1292788d1d65f181d28c" category="inline-image-macro">圖表圖示</block>
+  <block id="c3663dd8e997e8e07f88f594ea89534a" category="paragraph">或者、您也可以按一下 <block ref="813df7a1965c665b3db93a22dec39701" category="inline-image-macro-rx" type="image"></block> 在 * Volumes （磁碟區） * 標籤中的 Volume （ ONTAP 磁碟區）上的圖示、可導覽至此標籤。</block>
+  <block id="748946393eca5431e5760647d605462b" category="list-text">選取查詢的日期範圍。日期範圍可以是月份的開始日期、或是訂閱開始日期到目前日期或訂閱結束日期。</block>
+  <block id="78ba841e2af7da29fc53dabaf1dfd5e5" category="inline-link-macro">Keystone 中的服務層級</block>
+  <block id="bb690fa6b66cd77f49761854afb035e2" category="paragraph">擷取的詳細資料是根據每個服務層級的服務層級目標而定。例如、尖峰 IOPS 、最大處理量、目標延遲和其他指標、都是由服務層級的個別設定所決定。如需設定的詳細資訊、請參閱 <block ref="7141573db29c2af45d0b9d0159276c43" category="inline-link-macro-rx"></block>。</block>
+  <block id="8145d7f98eef781aeba1bf4e2ed3d8a0" category="admonition">如果您選取 *SLO 參考線 * 核取方塊、則 IOPS 、處理量和延遲圖表會根據服務層級的服務層級目標呈現。否則，它們會以實際數字顯示。</block>
+  <block id="1c9f2c60f5b1a2cf540da5ecfcf8f343" category="paragraph">橫式圖表上顯示的效能資料是每五分鐘間隔的平均值、並依照查詢的日期範圍進行排列。您可以捲動圖表、將滑鼠移到特定的資料點上、進一步深入瞭解收集的資料。</block>
+  <block id="be7199993fdc167e8dadd6faa046275c" category="paragraph">您可以根據訂閱號碼、 Volume 名稱和所選日期範圍的組合、來檢視和比較下列各節中的效能指標。詳細資料會依指派給磁碟區的服務層級顯示。您可以看到叢集名稱和磁碟區類型、也就是指派給磁碟區的讀寫權限。也會顯示與該 Volume 相關的任何警告訊息。</block>
+  <block id="4f1b175c93064365bb72c5f847f7bbd0" category="section-title">IOPS/TiB</block>
+  <block id="a0746619a848c7d48f648ce50934b43d" category="paragraph">本節會根據查詢的日期範圍、顯示 Volume 中工作負載的輸入輸出圖形。顯示服務層級的尖峰 IOPS 和目前的 IOPS （過去五分鐘內、非根據查詢日期範圍）、以及時間範圍的最小、最大和平均 IOPS （以 IOPS/TiB 為單位）。</block>
+  <block id="39b7678a1c994ad158e2003e86860ff2" category="inline-image-macro">圖表的 IOPS 區段</block>
+  <block id="6eef5220ce0ee019d4add6ef8f2212e8" category="paragraph"><block ref="6eef5220ce0ee019d4add6ef8f2212e8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="35484398406e066f146becbf5ade9a1f" category="section-title">處理量（ Mbps/TiB ）</block>
+  <block id="da4fa7ec69d7af1bb610207a3c277040" category="paragraph">本節會根據查詢的日期範圍、顯示 Volume 中工作負載的處理量圖表。顯示服務層級（ SLO Max ）的最大處理量和目前處理量（過去五分鐘內、並非根據查詢的日期範圍）、以及時間範圍的最小、最大和平均處理量（以 Mbps/TiB 為單位）。</block>
+  <block id="7f753ebf99003e3a50de147adbf5688c" category="inline-image-macro">處理量圖表</block>
+  <block id="ded93b2a5ebed6aba8869fc052419dbb" category="paragraph"><block ref="ded93b2a5ebed6aba8869fc052419dbb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="561523f74b83ed5c17b02cb73ff8a80e" category="section-title">延遲（毫秒）</block>
+  <block id="e2ca784e5909e7dac9c413d2bf636dac" category="paragraph">本節會根據查詢的日期範圍、顯示 Volume 中工作負載的延遲圖表。會顯示服務層級（ SLO Target ）的最大延遲、以及目前延遲（過去五分鐘內、並非根據查詢的日期範圍）、以及時間範圍的最小、最大和平均延遲（以毫秒為單位）。</block>
+  <block id="edf72d8b9161ba73ea48bf2e68fe9aed" category="paragraph">此圖表具有下列色彩：</block>
+  <block id="81989d847dc8278048053c5d03a4bea2" category="list-text">淺藍色： _Latency 。這是實際延遲、包括 Keystone 服務以外的任何延遲。這可能包括額外的延遲、例如網路和用戶端之間的延遲。</block>
+  <block id="4c8726ebb2509982ab96801bddd96ce9" category="list-text">深藍色： _ 有效延遲 _ 。有效延遲僅適用於您的 Keystone 服務與 SLA 相關的延遲。</block>
+  <block id="ff4b5372ded8ea29de7805373e0a5338" category="inline-image-macro">效能圖表</block>
+  <block id="f00c097e03b4ce4a62527a13752de77d" category="paragraph"><block ref="f00c097e03b4ce4a62527a13752de77d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b8e154beb0e4292a33a0a1882f0e5a11" category="section-title">已用邏輯（ TiB ）</block>
+  <block id="72870aad377aa9744011edff931cfbe7" category="paragraph">此區段會顯示已配置的磁碟區容量和邏輯使用容量。目前的邏輯使用容量（過去五分鐘內、不是根據查詢的日期範圍）、以及時間範圍的最小、最大和平均使用量、都會顯示在 Tibs 中。在此圖表上、灰色區域代表已認可容量、黃色圖表則表示邏輯使用。</block>
+  <block id="55501f4ad85eceeadd5249ad583111f6" category="inline-image-macro">已用邏輯容量圖表</block>
+  <block id="5d511ef587684e994c938c0e19441988" category="paragraph"><block ref="5d511ef587684e994c938c0e19441988" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
