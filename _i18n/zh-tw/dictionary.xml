@@ -82,7 +82,6 @@
   <block id="83cd48b4617f1e69361a1ecec3f5b3a3" category="summary">根據雜項Volume類型進行收費</block>
   <block id="bb6903e39254cc1a8d4ee2116c8e91e1" category="doc">Keystone計費的其他案例</block>
   <block id="ff6306dccf086261b36fc9764ec0a69c" category="section-title">複製磁碟區的收費</block>
-  <block id="9ecca21c579121ef7bd72dc9d12e518a" category="list-text">在建立複製磁碟區的前 24 小時內、不會考慮使用複製磁碟區；在此期間不會產生任何費用。</block>
   <block id="d37a813a136d622d708c8200aef13f52" category="section-title">進階資料保護計費</block>
   <block id="eeeb76af3f8badbcccdfd5a1b14f4e37" category="paragraph">此外、在具有進階資料保護的Keystone系統上建立的所有磁碟區、都會被計入進階資料保護的使用量、無論這些磁碟區是否為鏡射。</block>
   <block id="ba4c22a98feebac558bbaac68b704e09" category="section-title">暫用磁碟區收費</block>
@@ -371,8 +370,6 @@
   <block id="d96367d414f2f1ab0c8c14b8d62edc0e" category="list-text">針對某些Keystone銷售提案提供支援。</block>
   <block id="b6b6ef9bcccde24a7790b0a3093601da" category="paragraph">Extreme服務層級的設定與命令：</block>
   <block id="0a32480150714670b636bea04f9ef2a1" category="paragraph">效能服務層級的設定與命令：</block>
-  <block id="77810f754f0d83cb5519f01e38866b76" category="paragraph">如果將磁碟區複製到ONTAP 支援區中、並將其用於備份及還原資料、您可以繼續使用複本、而無需支付任何額外費用。然而、貴企業長期用於任何其他用途的複製磁碟區則需支付費用。</block>
-  <block id="a1cc3d09aee1ee7b9c7c5bb4e7c0be32" category="list-text">如果新資料未寫入磁碟區、則不考慮使用標準和價值服務層級的複製磁碟區。例如、在備份或還原使用案例中、從複製磁碟區備份或還原資料不會變更複製磁碟區本身的資料、也不會將其視為使用量。</block>
   <block id="9899ef6b9a20de2fea89aa9492d2bbe6" category="paragraph">進階資料保護功能使用 NetApp MetroCluster 功能、在兩個實體分隔的叢集之間鏡射資料。對於鏡射式集合體、資料會在每個叢集上寫入兩次。MetroClusterKeystone服務會獨立收取每一端的使用費用、因此會產生兩個相同的使用記錄。附加費用會套用至訂閱中的所有容量、無論資料是位於來源、或是鏡射或無鏡射的資料。</block>
   <block id="536a21a9808fc714076b198f94a4a506" category="paragraph">如果您透過ONTAP 《系統管理程式》（System Manager）或Active IQ Unified Manager 《統一化管理程式》（Unified Manager）監控叢集、您可能會發現這些工具和Keystone上報告的使用量差異。System Manager和Unified Manager不會在鏡射（遠端）叢集上報告磁碟區、因此會報告Keystone服務報告的使用量數據一半。</block>
   <block id="34331c74c5db43631e74f0ed21504ce2" category="paragraph">SnapMirror目的地Volume的定價受來源所指派服務層級的QoS原則規範。但是、如果來源沒有相關聯的 QoS 原則、則會根據可用的最低服務層級來計費目的地。</block>
@@ -1425,4 +1422,8 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="72870aad377aa9744011edff931cfbe7" category="paragraph">此區段會顯示已配置的磁碟區容量和邏輯使用容量。目前的邏輯使用容量（過去五分鐘內、不是根據查詢的日期範圍）、以及時間範圍的最小、最大和平均使用量、都會顯示在 Tibs 中。在此圖表上、灰色區域代表已認可容量、黃色圖表則表示邏輯使用。</block>
   <block id="55501f4ad85eceeadd5249ad583111f6" category="inline-image-macro">已用邏輯容量圖表</block>
   <block id="5d511ef587684e994c938c0e19441988" category="paragraph"><block ref="5d511ef587684e994c938c0e19441988" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0e3a3dc0c3eeb16df240b7eafc4a840c" category="paragraph">如果將磁碟區複製到 ONTAP 支援區中、並將其用於備份及還原資料、您可以繼續使用複本、而無需支付任何額外費用。然而、貴企業長期用於任何其他用途的複製磁碟區則需支付費用。</block>
+  <block id="308838aa7669887098042a1899ce59bc" category="list-text">只要實體磁碟區的大小低於父磁碟區的 10% 、就不需要充電（與父磁碟區中使用的實體容量相比、複製磁碟區中使用的實體容量）。</block>
+  <block id="80a3381e7f0324d1481403cc81d8b605" category="list-text">複製的磁碟區沒有 24 小時寬限期、只會考慮複製的大小。</block>
+  <block id="5e46e614581cd458f9521294062d3783" category="list-text">一旦複製磁碟區超過父磁碟區實體大小的 10% 、複製就會以標準磁碟區（邏輯使用容量）計費。</block>
 </blocks>
