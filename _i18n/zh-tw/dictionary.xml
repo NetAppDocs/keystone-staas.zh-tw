@@ -1312,7 +1312,6 @@
   <block id="5c69a894a823a6f1e25d1f277385ff77" category="list-text">無色彩：突發或超過突發使用量。</block>
   <block id="c452de47d60f3598e66be78d36617ef7" category="list-text">灰色：無使用。</block>
   <block id="ece9b76d902f947684c80e55f9218ffd" category="list-text">琥珀色： 80% 的承諾用於突發容量。</block>
-  <block id="f1b2da32c9846a4c537afee772c677be" category="list-text">*目前爆發*：在定義的突發量限制內或以上耗用容量的指標。在議定的連拍限制內的任何使用量、例如超過承諾容量的20%、均在連拍限制內。進一步的使用量會被視為超出連拍限制的使用量。此欄位顯示特定色彩：</block>
   <block id="3fd44300bcd672c4c6d1dbe5de43532f" category="list-text">無色彩：無突發使用量。</block>
   <block id="bfaa63cafd86466ff5242aecfc7dad7c" category="list-text">紅色：突發使用量。</block>
   <block id="15956c549b6628aeb4d08a85d80be4b9" category="inline-image-macro">StorageGRID 對話方塊</block>
@@ -1424,7 +1423,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="85c7c9dc88496ccb44926915d526201d" category="inline-image-macro">容量趨勢索引標籤、內含詳細資料</block>
   <block id="476bf470b1b8dcf24df737be1ac03609" category="paragraph"><block ref="476bf470b1b8dcf24df737be1ac03609" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f8eaf321d70fdf3e9d097bb407d56130" category="paragraph">長條圖中的下列色彩代表服務層級中定義的耗用容量。圖表中的每月資料會以垂直線分隔。</block>
-  <block id="4bc2af7993e31ca7b54c80a630603236" category="paragraph">您可以按一下切換按鈕 * 顯示目前使用量 * 、以檢視訂閱計費期間的目前使用量和突發量使用量。這些不取決於查詢的日期範圍。</block>
   <block id="a122d7ff9fbb0694ecb095cdf8f27baa" category="section-title">檢視歷史突發資料</block>
   <block id="7f4aafd34e1281a2bb7098e5b06084bd" category="paragraph">如果您選擇了 * 累積突發 * 選項、依預設、您可以查看過去 12 個月的每月累計突發使用量資料。您可以依過去 30 個月的日期範圍查詢。</block>
   <block id="75ddfeb3beb9d2a265ac2ce3b66ef050" category="admonition">在目前的計費週期中、每月計算累積的突發使用量或消耗容量。根據以下公式、根據服務層級的已認可和使用容量來計算累積的突發使用量：<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>。</block>
@@ -1432,4 +1430,7 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="b9e135b5bcd23b0beff424e32497e77c" category="paragraph"><block ref="b9e135b5bcd23b0beff424e32497e77c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="36234decc68306d26e71012f98474aa1" category="paragraph">此功能可在僅預覽模式中使用。請聯絡您的 KSM 以深入瞭解此功能。</block>
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">選取查詢的日期範圍。日期範圍可以是月份的開始日期、或是訂閱開始日期到目前日期或訂閱結束日期。您無法選擇未來日期。</block>
+  <block id="4c81eafa216c925957e13d302baa98d5" category="paragraph">您可以按一下切換按鈕 * 顯示目前使用量 * 、以檢視目前計費週期的使用量、突發量使用量及累積量資料。這些詳細資料並非以查詢的日期範圍為基礎。</block>
+  <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">*目前爆發*：在定義的突發量限制內或以上耗用容量的指標。在訂閱的突發量上限內的任何使用量、例如、超過承諾容量 20% 的使用量、都在突發量上限內。進一步的使用量會被視為超出連拍限制的使用量。此欄位顯示特定色彩：</block>
+  <block id="6b7dfe5a7e219d1bb1b0d4dec89d1cb1" category="list-text">* 累積突發量 * ：目前計費期間每月計算的累計突發量或使用容量指標。應計的突發使用量是根據服務層級的已確認和已用容量來計算：<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>。</block>
 </blocks>
