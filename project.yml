@@ -17,13 +17,13 @@ sidebar:
     entries:
     - title: 什麼是Keystone Collector
       url: "/installation/installation-overview.html"
-    - title: 安裝Keystone Collector的必要條件
+    - title: 準備系統以安裝 Keystone Collector
       entries:
-      - title: VMware vSphere先決條件
+      - title: VMware vSphere需求
         url: "/installation/vapp-prereqs.html"
-      - title: Linux先決條件
+      - title: Linux 需求
         url: "/installation/linux-prereqs.html"
-      - title: 關於功能的特定先決條件StorageGRID ONTAP
+      - title: ONTAP 與 StorageGRID 需求
         url: "/installation/addl-req.html"
     - title: 安裝 Keystone Collector
       entries:
