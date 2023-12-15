@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: release-notes/fixed-issues.html 
+keywords: fixed issues 
+summary: 已在不同版本的 Keystone STaaS 中修正問題 
+---
+= 修正問題
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+舊版 NetApp Keystone STaaS 服務中發現的問題已在後續版本中修正。下表列出修正。
+
+[cols="3*"]
+|===
+| 問題說明 | 修正之後 | 已於版本中修正 
+
+
+ a| 
+突發使用量記錄的使用量指示器會以琥珀色顯示。
+ a| 
+指示燈會以紅色顯示。
+ a| 
+2023 年 12 月 13 日
+
+
+
+ a| 
+容量趨勢、目前使用量和效能標籤中的日期範圍和資料並未轉換為 UTC 時區。
+ a| 
+所有索引標籤中的查詢和資料日期範圍會以 UTC 時間（伺服器時區）顯示。UTC 時區也會根據索引標籤上的每個日期欄位顯示。
+ a| 
+2023 年 12 月 13 日
+
+
+
+ a| 
+索引標籤與下載的 CSV 報告之間的開始日期和結束日期不相符。
+ a| 
+固定。
+ a| 
+2023 年 12 月 13 日
+
+|===

@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: release-notes/known-issues.html 
+keywords: netapp, keystone, release notes, known issues 
+summary: NetApp 服務引擎的已知問題 
+---
+= NetApp 服務引擎的已知問題
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Keystone STaaas 報告了下列已知問題。當您在 Keystone 訂閱中配置或使用儲存設備時、可能會遇到此問題。
+
+[cols="3*"]
+|===
+| 已知問題 | 說明 | 因應措施 
+
+
+ a| 
+鏡射磁碟區衍生的服務層級不正確。
+ a| 
+如果在分層和物件儲存的速率計畫均適用的環境中同時啟用 MetroCluster 和 FabricPool 、則鏡射磁碟區（組成磁碟區和 FabricPool 磁碟區）衍生的服務層級可能不正確。
+ a| 
+無。
+
+|===

@@ -4,7 +4,7 @@ permalink: integrations/aiq-keystone-details.html
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports, iq sustainability, digital advisor sustainability, metrocluster, storagegrid, ontap, tracking id, burst usage, alerts 
 summary: Keystone訂閱報告與圖表 
 ---
-= Keystone訂閱儀表板與報告
+= 使用 Keystone 儀表板和報告
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -30,13 +30,13 @@ NOTE: 此處提供的資訊同時適用於ONTAP 整個過程StorageGRID 。相�
 
 
 
-NOTE: Keystone 訂閱的容量使用量會顯示在儀表板和報告的 Tibs 中、並四捨五入至兩位小數位數。如果使用量低於0.01 TiB、則該值會顯示為0或 `No Usage`。在這些索引標籤中輸入查詢的本機時間會轉換為 UTC 時間。因此、您可能會看到根據查詢時間傳回的資料有細微差異。
+NOTE: Keystone 訂閱的容量使用量會顯示在儀表板和報告的 Tibs 中、並四捨五入至兩位小數位數。如果使用量低於0.01 TiB、則該值會顯示為0或 `No Usage`。這些畫面上的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時、系統會自動將其視為 UTC 時間。
 
 如需使用量計量的相關資訊、請參閱 link:../concepts/metrics.html#metrics-measurement["指標測量"]。如需Keystone中使用不同容量的相關資訊、請參閱 link:../concepts/supported-storage-capacity.html["支援的儲存容量"]。
 
 
 
-== 檢視訂閱
+== 訂閱
 
 您可以在 * 訂閱 * 索引標籤中檢視所有訂閱的清單。
 
@@ -68,7 +68,7 @@ image:icon-grey.png["灰點圖示"]：未記錄服務層級已認可容量的容
 
 
 
-== 檢視訂閱的使用詳細資料
+== 目前使用量
 
 若要瞭解訂閱的使用詳細資料、請按一下 * 目前使用狀況 * 索引標籤、然後選取所需的訂閱號碼。
 
@@ -83,22 +83,29 @@ TIP: 。 image:icon-info.png["資訊圖示"] 每一欄旁邊的圖示提供該�
 
 
 
-== 檢視永續性 SLA 詳細資料
+== SLA 詳細資料
+
+服務層級協議（ SLA ）是 NetApp 雲端儲存解決方案的重要元件。SLA 旨在提供有效、高品質且可靠的儲存解決方案、作為 Keystone STaaS 服務方案的一部分。只有當您擁有有效的 NetApp 永續性 SLA 時、才能使用 *SLA 詳細資料 * 標籤。
+
+
+
+=== 檢視永續性 SLA 詳細資料
 
 .深入瞭解
 [%collapsible]
 ====
-只有在您與 NetApp 簽訂有效的永續性服務層級協議（ SLA ）時、才能使用「 *SLA 詳細資料 * 」標籤。如需 Keystone STaaS 中的永續性 SLA 相關資訊、請參閱 link:../concepts/sla-sustainability.html["Keystone 的永續性 SLA"]。
+只有在您與 NetApp 簽訂有效的永續性服務層級協議（ SLA ）時、才能使用「 * 永續性 SLA* 」標籤。如需 Keystone STaaas 永續發展的相關資訊、請參閱 link:../concepts/sla-sustainability.html["Keystone 的永續性 SLA"]。
 
-「 *SLA 詳細資料 * 」標籤提供永續性 SLA 詳細資料。
+「 * 永續性 SLA* 」標籤提供永續性 SLA 的詳細資料。
 
 .步驟
-. 按一下 * SLA 詳細資料 * 標籤。
+. 按一下 * 「 SLA 詳細資料」 > 「 Sustainability SLA* 」。
 . 選取您要檢視其詳細資料的必要訂閱。您只能檢視符合永續性 SLA 標準的訂閱。如需準則的相關資訊、請參閱 link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla["永續性 SLA 的合格標準"]。
-. 選取您要檢視詳細資料的年份和月份。您可以選擇訂閱活動的年月。
+. 選取您要檢視詳細資料的年份和月份。依預設、會顯示當月的資料。您可以選擇訂閱活動的年月。
+. 按一下*檢視詳細資料*。
 
 
-您可以查看所選月份的測量永續性相關指標每日細目：
+您可以查看所選月份的永續性指標每日明細：
 
 image:sla-sustainability.png["SLA 詳細資料標籤列出永續性詳細資料"]
 
@@ -124,7 +131,7 @@ image:sla-sustainability.png["SLA 詳細資料標籤列出永續性詳細資料"
 ====
 
 
-== 檢視歷史使用資料
+== 容量趨勢
 
 「 * 容量趨勢 * 」索引標籤會顯示您在特定期間內 Keystone 訂閱的歷史資料。垂直圖表會顯示所選時間範圍的使用詳細資料、並提供適當的指標、供您比較和產生報告。
 
@@ -253,7 +260,7 @@ image:adp-mir.png["MCC 鏡射基礎"]
 ====
 
 
-== 檢視磁碟區和物件詳細資料
+== Volume 與物件
 
 在 * Volume & Objects* 標籤上、您可以在 ONTAP 中檢視磁碟區的使用量和其他詳細資料。針對功能、此索引標籤會顯示節點及其在物件儲存環境中的個別使用情形StorageGRID 。
 
@@ -262,7 +269,7 @@ NOTE: 此索引標籤的名稱會因您站台的部署性質而異。如果您�
 
 
 
-=== ONTAP Volume 詳細資料
+=== 檢視 ONTAP Volume 詳細資料
 
 .深入瞭解
 [%collapsible]
@@ -286,12 +293,12 @@ image:aiq-ks-sysdtls.png["Volume  ；物件索引標籤"]
 ====
 
 
-=== StorageGRID 節點與使用詳細資料
+=== 檢視 StorageGRID 節點和使用量
 
 .深入瞭解
 [%collapsible]
 ====
-對於 StorageGRID 、此索引標籤會顯示物件儲存環境中節點的實體使用量。
+對於 StorageGRID 、此索引標籤會顯示物件儲存的節點實體使用量。
 
 .步驟
 . 按一下 * 物件 * 索引標籤。
@@ -308,11 +315,12 @@ image:sg-link-2.png["StorageGRID 對話方塊"]
 ====
 
 
-== 檢視 ONTAP Volume 效能
+== 效能
 
-您可以按一下 * 效能 * 索引標籤、檢視 Keystone 訂閱所管理的 ONTAP 磁碟區效能詳細資料。
+「 * 效能 * 」標籤可讓您檢視 Keystone 訂閱所管理的 ONTAP 磁碟區效能指標。
 
-您可能無法使用此索引標籤來檢視 ONTAP 磁碟區上的效能指標。請聯絡支援部門以檢視此標籤。
+
+TIP: 您也可以選擇使用此索引標籤。請聯絡支援部門以檢視此標籤。
 
 .步驟
 . 按一下 * 效能 * 標籤。

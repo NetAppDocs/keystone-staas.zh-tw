@@ -11,6 +11,16 @@ sidebar:
   entries:
   - title: Keystone文件
     url: "/index.html"
+  - title: 版本資訊
+    entries:
+    - title: Keystone STaaS 的新功能
+      url: "/release-notes/whats-new.html"
+    - title: 修正問題
+      url: "/release-notes/fixed-issues.html"
+    - title: 已知限制
+      url: "/release-notes/known-limitations.html"
+    - title: 已知問題
+      url: "/release-notes/known-issues.html"
   - title: 歡迎使用Keystone
     url: "/concepts/overview.html"
   - title: 設定及設定Keystone
@@ -43,6 +53,14 @@ sidebar:
       url: "/installation/asup-config.html"
     - title: 收集以供計費的資料
       url: "/installation/data-collection.html"
+  - title: Keystone服務可讓您做更多工作
+    entries:
+    - title: 檢視 Active IQ Digital Advisor 上的 Keystone 儀表板
+      url: "/integrations/keystone-aiq.html"
+    - title: 檢視使用詳細資料並產生報告
+      url: "/integrations/aiq-keystone-details.html"
+    - title: 管理 BlueXP 的 Keystone 訂閱
+      url: "/integrations/keystone-cm.html"
   - title: 深入瞭解Keystone
     entries:
     - title: 支援的儲存容量
@@ -71,7 +89,7 @@ sidebar:
       url: "/concepts/qos.html"
     - title: 服務層級的容量需求
       url: "/concepts/capacity-requirements.html"
-    - title: 永續性 SLA 服務層級
+    - title: 永續性 SLA
       url: "/concepts/sla-sustainability.html"
   - title: 帳單
     entries:
@@ -99,14 +117,6 @@ sidebar:
       url: "/concepts/data-flow.html"
   - title: NetApp全球服務支援中心
     url: "/concepts/gssc.html"
-  - title: Keystone服務可讓您做更多工作
-    entries:
-    - title: Keystone與BlueXP
-      url: "/integrations/keystone-cm.html"
-    - title: Keystone與Active IQ Digital Advisor
-      url: "/integrations/keystone-aiq.html"
-    - title: Keystone報告Active IQ Digital Advisor
-      url: "/integrations/aiq-keystone-details.html"
   - title: 法律聲明
     url: "/legal-notices.html"
 homepage:
@@ -119,27 +129,25 @@ homepage:
       url: "/installation/vapp-installation.html"
     - title: 在Linux上安裝Keystone Collector
       url: "/installation/linux-installation.html"
-    - title: 測量單位為何？
-      url: "/concepts/metrics.html"
-    - title: 支援的基礎儲存設備為何？
-      url: "/concepts/supported-storage-services.html"
-    - title: 如何查看使用量資料？
+    - title: 在 Digital Advisor 上檢視您的使用情形
       url: "/integrations/keystone-aiq.html"
+    - title: 產生使用量報告
+      url: "/integrations/aiq-keystone-details.html"
   - title: Keystone中支援的服務
     links:
     - title: Keystone服務層級
       url: "/concepts/service-levels.html"
     - title: 服務品質（QoS）
       url: "/concepts/qos.html"
-    - title: 什麼是資料分層？
-      url: "/concepts/data-tiering.html"
-    - title: 我的Keystone資料是否受到保護？
-      url: "/concepts/adp.html"
-    - title: 我要如何查看每個服務層級的使用量？
-      url: "/integrations/aiq-keystone-details.html"
-  - title: Keystone定價
+    - title: 測量單位為何？
+      url: "/concepts/metrics.html"
+    - title: 支援的基礎儲存設備為何？
+      url: "/concepts/supported-storage-services.html"
+    - title: 我可以將支出從內部部署重新分配到雲端嗎？
+      url: "/concepts/capacity-requirements.html#capacity-adjustments"
+  - title: Keystone 定價與計費
     links:
-    - title: 瞭解Keystone計費
+    - title: 瞭解 Keystone 定價
       url: "/concepts/pricing.html"
     - title: 我的帳單排程
       url: "/concepts/billing-schedules.html"
@@ -153,10 +161,12 @@ homepage:
     links:
     - title: 瞭解您的支援團隊（Keystone GSSC）
       url: "/concepts/gssc.html"
+    - title: 我可以如何處理冷資料或使用率較低的資料？
+      url: "/concepts/data-tiering.html"
+    - title: 如何保護我的 Keystone 資料？
+      url: "/concepts/adp.html"
     - title: Keystone與BlueXP
       url: "/integrations/keystone-cm.html"
-    - title: Keystone與Active IQ Digital Advisor
-      url: "/integrations/keystone-aiq.html"
     - title: 美國公民支援
       url: "/concepts/uscs.html"
   - title: 瞭解更多資訊

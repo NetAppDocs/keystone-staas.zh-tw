@@ -36,4 +36,4 @@ Keystone Collector軟體由線上YUM軟體儲存庫散佈。您需要在Linux伺
 
 
 
-NOTE: 完成安裝時、您可以使用Keystone Collector Management終端使用者介面（TUI）公用程式來執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。請參閱 link:../installation/configuration.html["設定Keystone Collector"] 和 link:../installation/monitor-health.html["監控系統健全狀況"]。
+NOTE: 完成安裝時、您可以使用Keystone Collector Management終端使用者介面（TUI）公用程式來執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。請參閱 link:../installation/configuration.html["設定Keystone Collector"] 和 link:../installation/monitor-health.html["監控系統健全狀況"] 以取得資訊。

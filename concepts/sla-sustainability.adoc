@@ -16,6 +16,8 @@ summary: 永續性、 SLA 、服務層級協議
 [role="lead"]
 NetApp Keystone STaaas 提供服務層級協議或 SLA 支援的永續性服務層級、定義每個服務層級消耗的瓦數 / 層級上限、協助您規劃、監控及達成 IT 永續性目標。
 
+您可以從 Active IQ Digital Advisor 儀表板上的 Keystone Widget 中瞭解任何與 SLA 相關的問題。
+
 
 
 == 永續性指標
@@ -61,7 +63,7 @@ NetApp Keystone STaaas 提供服務層級協議或 SLA 支援的永續性服務�
 
 == 永續性 SLA 的合格標準
 
-符合下列條件的 Keystone STaaS 訂閱符合 SLA 資格：
+符合下列條件的 Keystone STaaS 訂閱符合永續性 SLA 的資格：
 
 * 標準的非自訂 Keystone STaaas 訂閱、單一服務層級、每月收取發票以收取欠款。
 * 具有下列服務層級的訂閱符合資格： Extreme 、 Premium 和 Performance 服務層級。
@@ -88,7 +90,7 @@ Active IQ Digital Advisor （數位顧問） Keystone 儀表板上的 SLA 標籤
 
 
 
-== 永續性服務學分
+== 服務點數
 
 如果瓦特 / TiB 使用量超過或未能符合服務層級 SLA 中指定的條件、則 NetApp 會針對所有合格訂閱、針對在計費期間回報的差異、提供服務額度付款。如果未達到服務層級 SLA 指標、請在服務結束前一週內聯絡 NetApp 全球服務支援中心（ GSSC ）在判定服務層級違規後、點數會根據服務層級的承諾容量來計算、並記入下個月的發票。
 

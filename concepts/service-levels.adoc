@@ -23,7 +23,7 @@ Keystone STaaS可在訂購的基礎上、以預先定義的效能服務層級（
 您可以根據儲存環境、以及儲存與使用需求來選擇服務層級。根據預設、基本服務層級可供您使用。如果您已選擇附加服務、則可額外提供特定的服務層級。例如、對於進階資料保護附加服務、 _ 進階資料保護 _ 服務層級會指派給您的訂閱。
 
 
-TIP: 我們提供 NetApp Keystone STaaas 服務層級的詳細服務說明 https://www.netapp.com/pdf.html?item=/media/77179-Keystone-STaaS-Service-Description-On-Prem.pdf["請按這裡"]。
+TIP: 我們提供 NetApp Keystone STaaas 服務層級的詳細服務說明 https://www.netapp.com/pdf.html?item=/media/77179-Keystone-STaaS-Service-Description-On-Prem.pdf["請按這裡"^]。
 
 下列各節將說明支援的儲存類型、檔案、區塊、物件和雲端服務的基礎服務層級：
 
@@ -114,7 +114,7 @@ NOTE: 延遲不包括FabricPool 資料傳輸至物件存放區的間接成本、
 |===
 
 
-| * 服務層級 * | 英特爾®Cloud Volumes ONTAP 
+| * 服務層級 * | Cloud Volumes ONTAP 
 
 
 | * 工作負載類型 * | 災難恢復、軟體開發/測試、商業應用程式 

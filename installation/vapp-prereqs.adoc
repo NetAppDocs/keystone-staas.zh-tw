@@ -220,8 +220,8 @@ NetApp HQ提供帳單資訊和AutoSupport 供應功能
 
 
  a| 
-https://mirror.centos.org[]
-https://mirrorlist.centos.org[]
+http://mirror.centos.org[]
+http://mirrorlist.centos.org[]
  a| 
 Keystone Collector的作業系統更新（僅適用於OVA部署）
 
