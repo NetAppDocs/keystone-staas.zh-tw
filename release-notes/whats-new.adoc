@@ -18,6 +18,26 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 
 
+== 2024 年 1 月 11 日的新功能與增強功能
+
+瞭解此版本的新功能。
+
+Active IQ Digital Advisor （也稱為數位顧問）的 * 基礎概念訂閱 * 畫面已進行下列變更。
+
+
+
+=== 因累積突發而傳回的發票資料
+
+* 累積突發 * 的標籤現已修改為 * 容量趨勢 * 標籤中的 * 發票累積突發 * 。選取此選項可讓您檢視已計費之累積突發資料的每月圖表。如需詳細資訊、請參閱 link:../integrations/aiq-keystone-details.html#view-invoiced-accrued-burst["檢視已開發票的累積爆發"^]。
+
+
+
+=== 特定費率計畫的累積使用詳細資料
+
+如果您的訂閱具有 _ 零 _ 已認可容量的費率計畫、您可以在 * 容量趨勢 * 標籤中檢視累積的使用量詳細資料。選擇 * 已開票的累計使用 * 選項時、您可以檢視已計費的累計使用資料的每月圖表。
+
+
+
 == 2023 年 12 月 15 日的新功能與增強功能
 
 瞭解此版本的新功能。
@@ -26,7 +46,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 === 能夠依觀察名單進行搜尋
 
-Active IQ Digital Advisor （數位顧問）中的報價表支援已延伸至 Keystone 系統。您現在可以使用報價表來搜尋多位客戶的訂閱詳細資料。如需 Keystone STaas 中使用報價表的詳細資訊、請參閱 link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["使用 Keystone 觀察名單進行搜尋"^]。
+Active IQ Digital Advisor （也稱為數位顧問）中的報價表支援已延伸至包含 Keystone 系統。您現在可以使用報價表來搜尋多位客戶的訂閱詳細資料。如需 Keystone STaas 中使用報價表的詳細資訊、請參閱 link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["使用 Keystone 觀察名單進行搜尋"^]。
 
 
 

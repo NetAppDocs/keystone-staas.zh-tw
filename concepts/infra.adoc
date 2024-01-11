@@ -50,4 +50,4 @@ Keystone基礎架構包含多個元件、例如下列元件：
 
 image:mgmt-stack.png["管理堆疊"]
 
-Active IQ Digital Advisor （數位顧問）可讓您登入並檢視 Keystone 訂閱的訂閱和使用詳細資料。如需Digital Advisor儀表板上Keystone報告的詳細資訊、請參閱 link:../integrations/keystone-aiq.html["Keystone與Digital Advisor"]。
+Active IQ Digital Advisor （也稱為數位顧問）可讓您登入、並檢視 Keystone 訂閱的訂閱與使用詳細資料。如需Digital Advisor儀表板上Keystone報告的詳細資訊、請參閱 link:../integrations/keystone-aiq.html["Keystone與Digital Advisor"]。

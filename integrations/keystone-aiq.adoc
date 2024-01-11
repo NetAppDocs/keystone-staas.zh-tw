@@ -14,7 +14,7 @@ summary: Keystone與Digital Advisor
 
 
 [role="lead"]
-如果您已訂閱 NetApp Keystone STaaas 服務、您可以在 Active IQ Digital Advisor （數位顧問）儀表板的 * 基礎概念訂閱 * 小工具中、取得訂閱的概觀。
+如果您已訂閱 NetApp Keystone STaaas 服務、您可以在 Active IQ Digital Advisor （也稱為數位顧問）儀表板的 * 基礎概念訂閱 * 小工具中、取得訂閱的概觀。
 
 您可以依客戶名稱或包含多個客戶的報價表名稱來搜尋 Keystone 訂閱詳細資料。如需如何依報價表搜尋 Keystone STaaS 訂閱的相關資訊、請參閱 link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["使用 Keystone 觀察名單進行搜尋"]。
 

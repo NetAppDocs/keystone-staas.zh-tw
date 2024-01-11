@@ -29,3 +29,12 @@ Keystone提供您下列帳單管理功能：
 Keystone計費是根據已提交的容量和可變的突發消耗量來計算。
 
 如需Keystone支援的不同容量資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone中支援的儲存容量"]。
+
+*相關資訊*
+
+* link:../concepts/committed-capacity-billing.html["根據已提交的容量進行計費"]
+* link:../concepts/consumed-capacity-billing.html["根據耗用容量進行計量"]
+* link:../concepts/burst-consumption-billing.html["根據尖峰使用量進行計費"]
+* link:../concepts/misc-volume-billing.html["根據雜項Volume類型進行收費"]
+* link:../concepts/billing-schedules.html["帳單排程"]
+

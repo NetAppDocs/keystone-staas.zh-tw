@@ -53,7 +53,7 @@ sidebar:
       url: "/installation/asup-config.html"
     - title: 收集以供計費的資料
       url: "/installation/data-collection.html"
-  - title: Keystone服務可讓您做更多工作
+  - title: 檢視 Keystone 儀表板並管理訂閱
     entries:
     - title: 檢視 Active IQ Digital Advisor 上的 Keystone 儀表板
       url: "/integrations/keystone-aiq.html"
@@ -69,10 +69,12 @@ sidebar:
       url: "/concepts/metrics.html"
     - title: Keystone中支援的儲存設備
       url: "/concepts/supported-storage-services.html"
-    - title: Keystone中的服務層級
+    - title: Keystone 中的服務層級
       url: "/concepts/service-levels.html"
     - title: 附加服務
       entries:
+      - title: Keystone STaaS 中的附加服務
+        url: "/concepts/add-on.html"
       - title: 資料分層
         url: "/concepts/data-tiering.html"
       - title: 進階資料保護

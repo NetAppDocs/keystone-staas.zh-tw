@@ -16,7 +16,7 @@ summary: 永續性、 SLA 、服務層級協議
 [role="lead"]
 NetApp Keystone STaaas 提供服務層級協議或 SLA 支援的永續性服務層級、定義每個服務層級消耗的瓦數 / 層級上限、協助您規劃、監控及達成 IT 永續性目標。
 
-您可以從 Active IQ Digital Advisor 儀表板上的 Keystone Widget 中瞭解任何與 SLA 相關的問題。
+您可以從 Active IQ Digital Advisor （也稱為數位顧問）儀表板上的 Keystone Widget 、瞭解任何與 SLA 相關的問題。
 
 
 
@@ -84,7 +84,7 @@ NetApp Keystone STaaas 提供服務層級協議或 SLA 支援的永續性服務�
 
 == 永續性報告
 
-Active IQ Digital Advisor （數位顧問） Keystone 儀表板上的 SLA 標籤提供 Keystone 訂閱的永續性計量詳細檢視。您可以檢視指標、並產生報告以供未來分析和行動使用。
+數位顧問的 SLA 標籤 Keystone 儀表板提供您 Keystone 訂閱的永續性指標詳細檢視。您可以檢視指標、並產生報告以供未來分析和行動使用。
 
 如需Keystone儀表板和報告的詳細資訊、請參閱 link:../integrations/aiq-keystone-details.html["Keystone訂閱儀表板與報告"]。
 
