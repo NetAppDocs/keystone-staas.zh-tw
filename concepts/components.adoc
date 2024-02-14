@@ -56,7 +56,7 @@ NetApp 可根據最終組態和需求、提供散熱需求規格（一般 BTU �
 
 === 儲存虛擬機器
 
-部署 Keystone Collector 和 AIOP 解決方案閘道時、需要儲存虛擬機器（儲存 VM ）。安裝 Keystone Collector 的必要條件可在這裡取得： link:..//installation/installation-overview.html["Keystone Collector 安裝指南"]。其他需求則在部署期間共用。
+部署 Keystone Collector 和 AIOP 解決方案閘道時、需要儲存虛擬機器（儲存 VM ）。安裝 Keystone Collector 的必要條件可在這裡取得： link:../installation/installation-overview.html["Keystone Collector 安裝指南"]。其他需求則在部署期間共用。
 
 
 

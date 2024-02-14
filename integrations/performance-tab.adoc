@@ -1,0 +1,87 @@
+---
+sidebar: sidebar 
+permalink: integrations/performance-tab.html 
+keywords: keystone-aiq, digital advisor keystone, performance tab 
+summary: Keystone Subscription AIQ DA 儀表板上的效能標籤 
+---
+= 效能標籤
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+「 * 效能 * 」標籤可讓您檢視 Keystone 訂閱所管理的 ONTAP 磁碟區效能指標。
+
+
+TIP: 您也可以選擇使用此索引標籤。請聯絡支援部門以檢視此標籤。
+
+.步驟
+. 按一下 * 一般 > 基礎概念訂閱 > 效能 * 。
+. 選取訂閱編號。依預設、會選取第一個訂閱號碼。
+. 從清單中選取所需的磁碟區名稱。
++
+或者、您也可以按一下 image:aiq-ks-time-icon.png["圖表圖示"] 在 * Volumes （磁碟區） * 標籤中的 Volume （ ONTAP 磁碟區）上的圖示、可導覽至此標籤。
+
+. 選取查詢的日期範圍。日期範圍可以是月份的開始日期、或是訂閱開始日期到目前日期或訂閱結束日期。您無法選擇未來日期。
+
+
+擷取的詳細資料是根據每個服務層級的服務層級目標而定。例如、尖峰 IOPS 、最大處理量、目標延遲和其他指標、都是由服務層級的個別設定所決定。如需設定的詳細資訊、請參閱 link:../concepts/service-levels.html["Keystone 中的服務層級"]。
+
+
+NOTE: 如果您選取 *SLO 參考線 * 核取方塊、則 IOPS 、處理量和延遲圖表會根據服務層級的服務層級目標呈現。否則，它們會以實際數字顯示。
+
+橫式圖表上顯示的效能資料是每五分鐘間隔的平均值、並依照查詢的日期範圍進行排列。您可以捲動圖表、將滑鼠移到特定的資料點上、進一步深入瞭解收集的資料。
+
+您可以根據訂閱號碼、 Volume 名稱和所選日期範圍的組合、來檢視和比較下列各節中的效能指標。詳細資料會依指派給磁碟區的服務層級顯示。您可以看到叢集名稱和磁碟區類型、也就是指派給磁碟區的讀寫權限。也會顯示與該 Volume 相關的任何警告訊息。
+
+
+
+=== IOPS/TiB
+
+本節會根據查詢的日期範圍、顯示 Volume 中工作負載的輸入輸出圖形。顯示服務層級的尖峰 IOPS 和目前的 IOPS （過去五分鐘內、非根據查詢日期範圍）、以及時間範圍的最小、最大和平均 IOPS （以 IOPS/TiB 為單位）。
+
+image:perf-iops.png["圖表的 IOPS 區段"]
+
+
+
+=== 處理量（ Mbps/TiB ）
+
+本節會根據查詢的日期範圍、顯示 Volume 中工作負載的處理量圖表。顯示服務層級（ SLO Max ）的最大處理量和目前處理量（過去五分鐘內、並非根據查詢的日期範圍）、以及時間範圍的最小、最大和平均處理量（以 Mbps/TiB 為單位）。
+
+image:perf-thr.png["處理量圖表"]
+
+
+
+=== 延遲（毫秒）
+
+本節會根據查詢的日期範圍、顯示 Volume 中工作負載的延遲圖表。會顯示服務層級（ SLO Target ）的最大延遲、以及目前延遲（過去五分鐘內、並非根據查詢的日期範圍）、以及時間範圍的最小、最大和平均延遲（以毫秒為單位）。
+
+此圖表具有下列色彩：
+
+* 淺藍色： _Latency 。這是實際延遲、包括 Keystone 服務以外的任何延遲。這可能包括額外的延遲、例如網路和用戶端之間的延遲。
+* 深藍色： _ 有效延遲 _ 。有效延遲僅適用於您的 Keystone 服務與 SLA 相關的延遲。
+
+
+image:perf-lat.png["效能圖表"]
+
+
+
+=== 已用邏輯（ TiB ）
+
+此區段會顯示已配置的磁碟區容量和邏輯使用容量。目前的邏輯使用容量（過去五分鐘內、不是根據查詢的日期範圍）、以及時間範圍的最小、最大和平均使用量、都會顯示在 Tibs 中。在此圖表上、灰色區域代表已認可容量、黃色圖表則表示邏輯使用。
+
+image:perf-log-usd.png["已用邏輯容量圖表"]
+
+*相關資訊*
+
+* link:../integrations/aiq-keystone-details.html["使用 Keystone 儀表板和報告"]
+* link:../integrations/subscriptions-tab.html["訂閱"]
+* link:../integrations/current-usage-tab.html["目前使用量"]
+* link:../integrations/sla-details-tab.html["SLA 詳細資料"]
+* link:../integrations/capacity-trend-tab.html["容量趨勢"]
+* link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
+

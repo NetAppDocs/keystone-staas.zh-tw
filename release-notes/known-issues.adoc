@@ -14,7 +14,7 @@ summary: NetApp 服務引擎的已知問題
 
 
 [role="lead"]
-NetApp Keystone STaaas 報告了下列已知問題。當您在 Keystone 訂閱中配置或使用儲存設備時、可能會遇到此問題。
+NetApp Keystone STaaS 報告了下列已知問題。當您配置或使用由 Keystone 訂閱管理的儲存設備時、可能會遇到這些問題。
 
 [cols="3*"]
 |===
@@ -27,5 +27,14 @@ NetApp Keystone STaaas 報告了下列已知問題。當您在 Keystone 訂閱�
 如果在分層和物件儲存的速率計畫均適用的環境中同時啟用 MetroCluster 和 FabricPool 、則鏡射磁碟區（組成磁碟區和 FabricPool 磁碟區）衍生的服務層級可能不正確。
  a| 
 無。
+
+
+
+ a| 
+在 * 訂閱 * 標籤中部分可見的連結和圖示。
+ a| 
+有些連結和圖示、例如「 * 目前使用狀況 * 」標籤的連結、以及某些欄的工具提示都會部分顯示。
+ a| 
+不需要因應措施。連結如預期般運作。
 
 |===

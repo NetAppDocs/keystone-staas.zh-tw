@@ -1,0 +1,59 @@
+---
+sidebar: sidebar 
+permalink: integrations/sla-details-tab.html 
+keywords: keystone-aiq, digital advisor keystone, SLA details 
+summary: Keystone 和 Digital Advisor 上的 SLA 詳細資料索引標籤 
+---
+= 「 SLA 詳細資料」標籤
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+只有在您與 NetApp 之間有有效的服務層級協議（ SLA ）時、才能使用「 *SLA 詳細資料 * 」標籤。只有當您擁有有效的永續性 SLA 時、才能使用 * 永續性 SLA* 標籤。
+
+服務層級協議（ SLA ）是 NetApp 雲端儲存解決方案的重要元件。SLA 旨在提供有效、高品質且可靠的儲存解決方案、作為 Keystone STaaS 服務方案的一部分。如需 Keystone STaaas 永續發展的相關資訊、請參閱 link:../concepts/sla-sustainability.html["Keystone 的永續性 SLA"]。
+
+.步驟
+. 按一下 * 一般 > 基礎概念訂閱 > SLA 詳細資料 > Sustainability SLA* 。
+. 選取您要檢視其詳細資料的必要訂閱。您只能檢視符合永續性 SLA 標準的訂閱。如需準則的相關資訊、請參閱 link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla["永續性 SLA 的合格標準"]。
+. 選取您要檢視詳細資料的年份和月份。依預設、會顯示當月的資料。您可以選擇訂閱活動的年月。
+. 按一下*檢視詳細資料*。
+
+
+您可以查看所選月份的永續性指標每日明細：
+
+image:sla-sustainability.png["SLA 詳細資料標籤列出永續性詳細資料"]
+
+畫面會顯示下列詳細資料。對於某些欄位和欄、您可能會看到資訊圖示和工具提示、提供您有關資料的其他資訊。
+
+* * 平均永續性 * ：此訂閱最後一個計費週期的平均耗電量（以瓦特 / TiB 為單位）。
+* * 日期 * ：收集的 SLA 資料的日期。
+* * 平均瓦數 * ：叢集當天平均耗用的瓦數。
+* * 有效容量（ TiB* ）：服務層級的承諾容量和分配的突發容量總和。
+* * 實際瓦特數（ TiB* ）：實際瓦特數 / TiB 是叢集當天每 TiB 的實際耗電量。您可以將其與 *SLA Watts/TiB* 中的值進行比較、以分析任何過沖情形。
+* *SLA Watts/TiB* ： SLA 中定義之服務層級的瓦特數 / 層級值。
+* * 平均溫度（ ^o^C ） * ：當日平均環境溫度。
+* * 儲存效率比率 * ： Keystone 儲存環境中的儲存效率比率。這是啟用儲存效率設定後、系統使用的邏輯空間總計與用於儲存資料的實體空間總計的比率。如需儲存效率比率的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html["瞭解儲存效率"^]。
+
+
+如果發生 SLA 外洩、請使用 image:warning.png["警告圖示"] 欄旁邊的警告圖示會通知您資料外洩的性質。會顯示下列警告：
+
+* 環境溫度：如果溫度超出 25^o^C - 27^o^C 的範圍
+* SLA Watts/TiB ：如果不符合服務層級 SLA 指標。如需相關資訊、請參閱 link:../concepts/sla-sustainability.html#sustainability-service-level["永續性服務層級"]。
+* 儲存效率比率：如果儲存效率低於 2 ： 1 。
+
+
+*相關資訊*
+
+* link:../integrations/aiq-keystone-details.html["使用 Keystone 儀表板和報告"]
+* link:../integrations/subscriptions-tab.html["訂閱"]
+* link:../integrations/current-usage-tab.html["目前使用量"]
+* link:../integrations/capacity-trend-tab.html["容量趨勢"]
+* link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
+* link:../integrations/performance-tab.html["效能"]
+

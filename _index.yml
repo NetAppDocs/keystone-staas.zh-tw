@@ -1,0 +1,67 @@
+---
+indexpage:
+  title: Keystone文件
+  summary: NetApp Keystone 是一項隨成長付費的儲存即服務方案、可在單一訂閱下提供內部部署和雲端資料儲存服務、並可在雲端之間重新分配儲存支出。
+  keywords: Keystone STaaS
+  lead: NetApp Keystone 是彈性的隨成長付費訂閱型服務、可為偏好營運成本而非資本支出或租賃的客戶、提供順暢的混合雲體驗。它可讓您免除管理資源的
+    IT 負擔、並完成漫長的採購週期、進而加速實現價值所需的時間。瀏覽此文件庫中的文件、深入瞭解 ONTAP 或 StorageGRID 環境中的 NetApp
+    Keystone STaas 產品。
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 什麼是 NetApp Keystone 功能？
+      url: "/concepts/overview.html"
+    - title: 在VMware vSphere上安裝Keystone Collector
+      url: "/installation/vapp-installation.html"
+    - title: 在Linux上安裝Keystone Collector
+      url: "/installation/linux-installation.html"
+    - title: 在 Digital Advisor 上檢視您的使用情形
+      url: "/integrations/keystone-aiq.html"
+    - title: 產生使用量報告
+      url: "/integrations/aiq-keystone-details.html"
+  - title: Keystone中支援的服務
+    links:
+    - title: Keystone服務層級
+      url: "/concepts/service-levels.html"
+    - title: 服務品質（QoS）
+      url: "/concepts/qos.html"
+    - title: 測量單位為何？
+      url: "/concepts/metrics.html"
+    - title: 支援的基礎儲存設備為何？
+      url: "/concepts/supported-storage-services.html"
+    - title: 我可以將支出從內部部署重新分配到雲端嗎？
+      url: "/concepts/capacity-requirements.html#capacity-adjustments"
+  - title: Keystone 定價與計費
+    links:
+    - title: 瞭解 Keystone 定價
+      url: "/concepts/pricing.html"
+    - title: 我的帳單排程
+      url: "/concepts/billing-schedules.html"
+    - title: 根據已提交的容量進行計費
+      url: "/concepts/committed-capacity-billing.html"
+    - title: 根據耗用容量進行計量
+      url: "/concepts/consumed-capacity-billing.html"
+    - title: 如果耗用的容量超過承諾容量、會發生什麼情況？
+      url: "/concepts/burst-consumption-billing.html"
+  - title: Keystone服務可讓您做更多工作
+    links:
+    - title: 瞭解您的支援團隊（Keystone GSSC）
+      url: "/concepts/gssc.html"
+    - title: 我可以如何處理冷資料或使用率較低的資料？
+      url: "/concepts/data-tiering.html"
+    - title: 如何保護我的 Keystone 資料？
+      url: "/concepts/adp.html"
+    - title: Keystone與BlueXP
+      url: "/integrations/keystone-cm.html"
+    - title: 美國公民支援
+      url: "/concepts/uscs.html"
+  - title: 瞭解更多資訊
+    links:
+    - title: Keystone 訂閱第 1 版（先前的 Keystone Flex 訂閱）
+      url: https://docs.netapp.com/us-en/keystone/
+    - title: Active IQ Digital Advisor
+      url: https://docs.netapp.com/us-en/active-iq/index.html
+    - title: 藍圖
+      url: https://docs.netapp.com/us-en/cloud-manager-family/
+    - title: Active IQ Unified Manager
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager/

@@ -1,0 +1,68 @@
+---
+sidebar: sidebar 
+permalink: integrations/volumes-objects-tab.html 
+keywords: keystone-aiq, digital advisor keystone, volumes-objects-tab, StorageGRID objects details, ONTAP volumes 
+summary: Volumes 物件索引標籤 
+---
+= Volume & Objects 標籤
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+在 * Volume & Objects* 標籤上、您可以在 ONTAP 中檢視磁碟區的使用量和其他詳細資料。針對功能、此索引標籤會顯示節點及其在物件儲存環境中的個別使用情形StorageGRID 。
+
+
+NOTE: 此索引標籤的名稱會因您站台的部署性質而異。如果您同時擁有磁碟區和物件儲存區、您可以看到 * Volume & Objects* 標籤。如果您的儲存環境中只有 ONTAP Volume 、名稱會變更為 * Volumes * 。對於 StorageGRID 物件儲存、您可以看到 * 物件 * 索引標籤。
+
+
+
+== 檢視 ONTAP Volume 詳細資料
+
+對於 ONTAP 、 * Volumes （磁碟區） * 索引標籤會顯示資訊、例如 Keystone 訂閱所管理儲存環境中磁碟區的容量使用量、磁碟區類型、叢集、集合體和服務層級。
+
+.步驟
+. 按一下 * 一般 > 基礎概念訂閱 > Volumes （磁碟區） * 。
+. 選取訂閱編號。依預設、會選取第一個可用的訂閱號碼。
++
+隨即顯示Volume詳細資料。您可以在欄之間捲動、並將滑鼠游標停留在欄標題旁的資訊圖示上、以深入瞭解這些欄。您可以依欄排序、並篩選清單以檢視特定資訊。
+
++
+
+NOTE: 對於進階資料保護附加服務、會出現另一欄、指出磁碟區是 MetroCluster 組態中的主要磁碟區還是鏡射磁碟區。您可以按一下*複製節點序號*按鈕來複製個別節點序號。
+
+
+
+image:aiq-ks-sysdtls.png["Volume  ；物件索引標籤"]
+
+
+
+== 檢視 StorageGRID 節點和使用量
+
+對於 StorageGRID 、此索引標籤會顯示物件儲存的節點實體使用量。
+
+.步驟
+. 按一下 * 一般 > 基礎概念訂閱 > 物件 * 。
+. 選取訂閱編號。依預設、會選取第一個可用的訂閱號碼。選取訂閱編號後、即會啟用物件儲存詳細資料的連結。
++
+image:sg-link.png["StorageGRID 對話方塊"]
+
+. 按一下連結以檢視每個節點的節點名稱和實體使用詳細資料。
++
+image:sg-link-2.png["StorageGRID 對話方塊"]
+
+
+
+*相關資訊*
+
+* link:../integrations/aiq-keystone-details.html["使用 Keystone 儀表板和報告"]
+* link:../integrations/subscriptions-tab.html["訂閱"]
+* link:../integrations/current-usage-tab.html["目前使用量"]
+* link:../integrations/sla-details-tab.html["SLA 詳細資料"]
+* link:../integrations/capacity-trend-tab.html["容量趨勢"]
+* link:../integrations/performance-tab.html["效能"]
+

@@ -14,7 +14,7 @@ summary: Keystone與BlueXP
 
 
 [role="lead"]
-NetApp BlueXP 是一個完整的平台、可監控數百個資料來源、並提供自己的互動式視覺化儀表板。如果您在 NetApp Keystone 訂閱中購買雲端服務、則可透過 BlueXP 存取及管理這些服務。
+NetApp BlueXP 是單一控制面板、可在內部部署和雲端環境中建置、保護及管理資料。如果您在 NetApp Keystone 訂閱中購買雲端服務、則可透過 BlueXP 存取及管理這些服務。
 
 BlueXP Digital Advisor 儀表板提供圖形化檢視和深入分析功能、可監控 Keystone 訂閱使用率並產生報告。如需數位顧問儀表板和 Keystone 的詳細資訊、請參閱 link:../integrations/aiq-keystone-details.html["Keystone訂閱儀表板與報告"]。
 

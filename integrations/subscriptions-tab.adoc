@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: integrations/subscriptions-tab.html 
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab 
+summary: AIQ DA Keystone 儀表板上的訂閱索引標籤 
+---
+= 訂閱索引標籤
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在 * 訂閱 * 索引標籤中檢視所有訂閱的清單。
+
+若要檢視此索引標籤、請從左側瀏覽窗格移至 * 一般 > 基礎概念訂閱 > 訂閱 * 。
+
+image:all-subs.png["訂閱索引標籤的影像"]
+
+您可以看到下列資訊。對於某些欄位和欄、您可能會看到資訊或警告圖示和工具提示、提供您有關資料的其他資訊。
+
+* *訂閱編號*：NetApp指派的Keystone訂閱訂閱的訂閱編號。
+* *追蹤ID*：訂閱啟動時指派的追蹤ID。這是每個訂閱和網站的唯一ID、用於追蹤訂閱。
++
+
+TIP: 如果您已訂閱進階資料保護附加服務、則可以按一下訂閱號碼上的工具提示、在 MetroCluster 設定中檢視合作夥伴訂閱的追蹤 ID 。若要瞭解如何檢視 MetroCluster 組態中合作夥伴訂閱的詳細使用量、請參閱 link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection["進階資料保護的參考圖表"]。
+
+* * 使用類型 * ：您可能已訂閱多個 Keystone （版本 1 ）或 Keystone STaaS （版本 2 ）訂閱。服務層級的費率計畫規則可能會因兩種訂閱類型而異。透過查看此欄中的值、您就知道使用類型是根據兩者的已配置或邏輯使用量計費 `v1` 或 `v2`。如需 Keystone 訂閱第 1 版的詳細資訊、請參閱 https://docs.netapp.com/us-en/keystone/index.html["適用於此產品的文件NetApp Keystone"^]。
+* * 帳單期間 * ：訂閱的帳單期間、例如每月、每季或每年。
+* *開始日期*：訂閱的開始日期。
+* * 結束日期 * ：訂閱的結束日期。如果您有每月自動更新的計費月訂閱、您會看到 `Month-on-month` 而非結束日期。根據這個日期、您可能會看到即將結束或附加自動續約原則的訂閱通知。
+* * 使用狀態 * ：顯示使用量指標、以指出使用量是否在訂閱上限內。如果您想要檢視最高使用量記錄、可以依此欄排序清單。
+* image:subs-dtls-icon.png["圖示"]：按一下此圖示即可開啟 * 目前使用量 * 標籤、其中包含該訂閱的使用詳細資料。
+* image:aiq-ks-time-icon.png["圖示"]：按一下此圖示會開啟 * 容量趨勢 * 索引標籤、您可以在其中查看此訂閱所包含之每個服務層級的歷史使用資料。
+
+
+您可以參閱下列使用指標、查看每個訂閱的使用狀態：
+
+image:usage-indicator.png["圖示"]
+
+.索引
+image:icon-grey.png["灰點圖示"]：未記錄服務層級已認可容量的容量使用量image:icon-green.png["綠點圖示"]：使用量正常、在承諾容量的80%內image:icon-amber.png["琥珀色圓點圖示"]：最大使用量、亦即使用量即將達到100%或以上的已認可容量。「*已用*」欄會針對超過承諾容量80%的任何使用量、顯示此指標image:icon-red.png["紅點圖示"]：使用量在連拍限制之內。「尖峰消耗」是指服務層級100%承諾容量的耗用量、且在議定的高載使用量限制範圍內、例如120%image:icon-purple.png["紫色圓點圖示"]：表示耗用量超過規定的突發量限制
+
+*相關資訊*
+
+* link:../integrations/aiq-keystone-details.html["使用 Keystone 儀表板和報告"]
+* link:../integrations/current-usage-tab.html["目前使用量"]
+* link:../integrations/sla-details-tab.html["SLA 詳細資料"]
+* link:../integrations/capacity-trend-tab.html["容量趨勢"]
+* link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
+* link:../integrations/performance-tab.html["效能"]
+

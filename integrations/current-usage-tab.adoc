@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: integrations/current-usage-tab.html 
+keywords: keystone-aiq, digital advisor keystone, current usage tab 
+summary: AIQ DA Keystone 儀表板上的目前使用量索引標籤 
+---
+= 目前使用量索引標籤
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+「 * 目前使用狀況 * 」標籤會顯示您訂閱的使用詳細資料。
+
+若要檢視此索引標籤、請從左側瀏覽窗格移至 * 一般 > 基礎概念訂閱 > 目前使用量 * 、然後選取所需的訂閱號碼。
+
+image:aiq-ks-dtls.png["目前使用量索引標籤"]
+
+對於所選訂閱、您可以檢視詳細資料、例如訂閱的開始和結束日期、以及計費期間、例如每月或每年。作為訂閱使用的一部分、您可以檢視服務層級名稱、已承諾、已使用、可用容量、以及目前和累積的突發使用量（在 TiB 中）。
+
+
+TIP: 。 image:icon-info.png["資訊圖示"] 每一欄旁邊的圖示提供該欄的完整資訊。顯示記錄較高使用量的特定服務層級。您也可以檢視針對磁碟區所產生的警告和警示。
+
+如需Keystone儲存服務和相關服務層級的相關資訊、請參閱 link:../concepts/service-levels.html["Keystone中的服務層級"]。
+
+搭配目前的使用量、您可能會想要檢視歷史使用量資料以進行比較。按一下 * 檢視歷史資料 * 按鈕、瀏覽至 * 容量趨勢 * 標籤、以檢視相同訂閱的歷史資料。
+
+*相關資訊*
+
+* link:../integrations/aiq-keystone-details.html["使用 Keystone 儀表板和報告"]
+* link:../integrations/subscriptions-tab.html["訂閱"]
+* link:../integrations/sla-details-tab.html["SLA 詳細資料"]
+* link:../integrations/capacity-trend-tab.html["容量趨勢"]
+* link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
+* link:../integrations/performance-tab.html["效能"]
+

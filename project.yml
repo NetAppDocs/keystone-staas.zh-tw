@@ -56,9 +56,23 @@ sidebar:
   - title: 檢視 Keystone 儀表板並管理訂閱
     entries:
     - title: 檢視 Active IQ Digital Advisor 上的 Keystone 儀表板
-      url: "/integrations/keystone-aiq.html"
-    - title: 檢視使用詳細資料並產生報告
-      url: "/integrations/aiq-keystone-details.html"
+      entries:
+      - title: Keystone 和 Digital Advisor 儀表板
+        url: "/integrations/keystone-aiq.html"
+      - title: 檢視使用詳細資料並產生報告
+        url: "/integrations/aiq-keystone-details.html"
+      - title: 訂閱索引標籤
+        url: "/integrations/subscriptions-tab.html"
+      - title: 目前使用量索引標籤
+        url: "/integrations/current-usage-tab.html"
+      - title: "「 SLA 詳細資料」標籤"
+        url: "/integrations/sla-details-tab.html"
+      - title: 容量趨勢索引標籤
+        url: "/integrations/capacity-trend-tab.html"
+      - title: Volume & Objects 標籤
+        url: "/integrations/volumes-objects-tab.html"
+      - title: 效能標籤
+        url: "/integrations/performance-tab.html"
     - title: 管理 BlueXP 的 Keystone 訂閱
       url: "/integrations/keystone-cm.html"
   - title: 深入瞭解Keystone
@@ -121,63 +135,3 @@ sidebar:
     url: "/concepts/gssc.html"
   - title: 法律聲明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 開始使用
-    links:
-    - title: 什麼是 NetApp Keystone 功能？
-      url: "/concepts/overview.html"
-    - title: 在VMware vSphere上安裝Keystone Collector
-      url: "/installation/vapp-installation.html"
-    - title: 在Linux上安裝Keystone Collector
-      url: "/installation/linux-installation.html"
-    - title: 在 Digital Advisor 上檢視您的使用情形
-      url: "/integrations/keystone-aiq.html"
-    - title: 產生使用量報告
-      url: "/integrations/aiq-keystone-details.html"
-  - title: Keystone中支援的服務
-    links:
-    - title: Keystone服務層級
-      url: "/concepts/service-levels.html"
-    - title: 服務品質（QoS）
-      url: "/concepts/qos.html"
-    - title: 測量單位為何？
-      url: "/concepts/metrics.html"
-    - title: 支援的基礎儲存設備為何？
-      url: "/concepts/supported-storage-services.html"
-    - title: 我可以將支出從內部部署重新分配到雲端嗎？
-      url: "/concepts/capacity-requirements.html#capacity-adjustments"
-  - title: Keystone 定價與計費
-    links:
-    - title: 瞭解 Keystone 定價
-      url: "/concepts/pricing.html"
-    - title: 我的帳單排程
-      url: "/concepts/billing-schedules.html"
-    - title: 根據已提交的容量進行計費
-      url: "/concepts/committed-capacity-billing.html"
-    - title: 根據耗用容量進行計量
-      url: "/concepts/consumed-capacity-billing.html"
-    - title: 如果耗用的容量超過承諾容量、會發生什麼情況？
-      url: "/concepts/burst-consumption-billing.html"
-  - title: Keystone服務可讓您做更多工作
-    links:
-    - title: 瞭解您的支援團隊（Keystone GSSC）
-      url: "/concepts/gssc.html"
-    - title: 我可以如何處理冷資料或使用率較低的資料？
-      url: "/concepts/data-tiering.html"
-    - title: 如何保護我的 Keystone 資料？
-      url: "/concepts/adp.html"
-    - title: Keystone與BlueXP
-      url: "/integrations/keystone-cm.html"
-    - title: 美國公民支援
-      url: "/concepts/uscs.html"
-  - title: 瞭解更多資訊
-    links:
-    - title: Keystone 訂閱第 1 版（先前的 Keystone Flex 訂閱）
-      url: https://docs.netapp.com/us-en/keystone/
-    - title: Active IQ Digital Advisor
-      url: https://docs.netapp.com/us-en/active-iq/index.html
-    - title: 藍圖
-      url: https://docs.netapp.com/us-en/cloud-manager-family/
-    - title: Active IQ Unified Manager
-      url: https://docs.netapp.com/us-en/active-iq-unified-manager/
