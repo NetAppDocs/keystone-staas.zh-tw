@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: integrations/assets-tab.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab 
+summary: Keystone訂閱報告與圖表 
+---
+= 資產索引標籤
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用 * 資產 * 索引標籤、收集您對由 Keystone 訂閱管理的叢集和節點的看法。
+
+Active IQ Digital Advisor （數位顧問）提供完整的部署庫存層級資訊。另一方面、 Keystone 儀表板的 * 資產 * 索引標籤則會根據您的訂閱來累積叢集層級資訊、並將詳細資料的準確層級加以分隔。
+
+.步驟
+. 按一下 * 一般 > 基礎概念訂閱 > 資產 * 。
+. 選取您要檢視叢集的訂閱編號。
+
+
+您可以查看叢集詳細資料、並依儲存效率設定、平台類型和容量詳細資料進行細分。按一下其中一個叢集、即可前往 Digital Advisor 畫面上的 * 叢集 * 小工具、取得該叢集的其他資訊。
+
+image:assets-tab.png["資產索引標籤"]
+
+*相關資訊*
+
+* link:../integrations/aiq-keystone-details.html["使用 Keystone 儀表板和報告"]
+* link:../integrations/subscriptions-tab.html["訂閱"]
+* link:../integrations/current-usage-tab.html["目前使用量"]
+* link:../integrations/sla-details-tab.html["SLA 詳細資料"]
+* link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
+* link:../integrations/capacity-trend-tab.html["容量趨勢"]
+* link:../integrations/performance-tab.html["效能"]
+

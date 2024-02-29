@@ -14,10 +14,12 @@ summary: Keystone訂閱報告與圖表
 
 
 [role="lead"]
-Active IQ Digital Advisor （也稱為數位顧問）儀表板可讓您監控 NetApp Keystone 訂閱的使用情形、並產生報告。在訂購Keystone服務時、您可以在Digital Advisor儀表板上的* Keystone Subscriptions *（基礎概念訂閱）小工具上檢視訂閱與使用的詳細資料。
+您可以使用 Active IQ Digital Advisor （也稱為數位顧問）儀表板來訂閱 Keystone STaaS 、以監控容量使用量並產生報告。
+
+在訂購Keystone服務時、您可以在Digital Advisor儀表板上的* Keystone Subscriptions *（基礎概念訂閱）小工具上檢視訂閱與使用的詳細資料。
 
 
-NOTE: 此處提供的資訊同時適用於ONTAP 整個過程StorageGRID 。相關章節已指出例外情況。
+NOTE: 此處的資訊同時適用於 ONTAP 和 StorageGRID 。相關章節已指出例外情況。
 
 如需Keystone Digital Advisor小工具的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["透過NetApp Keystone 「View訂閱」檢視容量使用率"^]。
 

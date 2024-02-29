@@ -137,4 +137,5 @@ image:adp-mir.png["MCC 鏡射基礎"]
 * link:../integrations/sla-details-tab.html["SLA 詳細資料"]
 * link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
 * link:../integrations/performance-tab.html["效能"]
+* link:../integrations/assets-tab.html["資產"]
 

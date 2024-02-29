@@ -84,4 +84,5 @@ image:perf-log-usd.png["已用邏輯容量圖表"]
 * link:../integrations/sla-details-tab.html["SLA 詳細資料"]
 * link:../integrations/capacity-trend-tab.html["容量趨勢"]
 * link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
+* link:../integrations/assets-tab.html["資產"]
 

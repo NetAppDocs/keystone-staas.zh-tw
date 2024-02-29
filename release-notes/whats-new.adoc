@@ -18,9 +18,39 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 
 
+== 2024 年 2 月 29 日的新功能與增強功能
+
+Active IQ Digital Advisor （也稱為數位顧問）儀表板和 * 基礎概念訂閱 * 畫面已針對此版本進行多項增強：
+
+
+
+=== 新增資產索引標籤
+
+「 * 基礎概念訂閱 * 」畫面現在包含 * 資產 * 索引標籤。這個新索引標籤會根據您的訂閱內容、提供叢集層級的資訊。如需詳細資訊、請參閱 link:../integrations/assets-tab.html["資產索引標籤"^]。
+
+
+
+=== 「 Volume & Objects 」標籤的改良功能
+
+為了讓 ONTAP 系統磁碟區更清晰、 * Volume Summary* 和 * Volume Details* 這兩個新的標籤按鈕已新增至 * Volumes * 標籤。「 * Volume Summary 」（ Volume 摘要）標籤提供與您訂閱服務層級相關的整體磁碟區數、包括其 AQO 法規遵循狀態和容量資訊。「 * Volume 詳細資料 * 」標籤會列出所有磁碟區及其詳細資料。如需詳細資訊、請參閱 link:../integrations/volumes-objects-tab.html["Volume  ；物件索引標籤"^]。
+
+
+
+=== 增強數位顧問的搜尋體驗
+
+* 數位顧問 * 畫面上的搜尋參數現在包括 Keystone 訂閱號碼和為 Keystone 訂閱所建立的報價表。您可以輸入訂閱號碼或報價表名稱的前三個字元。如需詳細資訊、請參閱 link:../integrations/keystone-aiq.html["檢視 Active IQ Digital Advisor 上的 Keystone 儀表板"^]。
+
+
+
+=== 檢視使用資料的時間戳記
+
+您可以在 *Keystone Subscriptions * Widget 的舊儀表板上檢視使用資料時間戳記（以 UTC 為單位）。
+
+
+
 == 2024 年 2 月 13 日的新功能與增強功能
 
-Active IQ Digital Advisor （也稱為數位顧問）的 * 基礎概念訂閱 * 畫面已進行下列變更。
+Active IQ Digital Advisor （亦稱為數位顧問）的 * 基礎概念訂閱 * 畫面已進行下列增強。
 
 
 
@@ -34,7 +64,7 @@ Active IQ Digital Advisor （也稱為數位顧問）的 * 基礎概念訂閱 * 
 
 瞭解此版本的新功能。
 
-Active IQ Digital Advisor （也稱為數位顧問）的 * 基礎概念訂閱 * 畫面已進行下列變更。
+Active IQ Digital Advisor （也稱為數位顧問）的 * 基礎概念訂閱 * 畫面已進行下列增強功能。
 
 
 

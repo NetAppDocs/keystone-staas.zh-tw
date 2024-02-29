@@ -37,4 +37,5 @@ TIP: 。 image:icon-info.png["資訊圖示"] 每一欄旁邊的圖示提供該�
 * link:../integrations/capacity-trend-tab.html["容量趨勢"]
 * link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
 * link:../integrations/performance-tab.html["效能"]
+* link:../integrations/assets-tab.html["資產索引標籤"]
 

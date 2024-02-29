@@ -4,7 +4,7 @@ permalink: installation/linux-installation.html
 keywords: Linux installation Keystone, Linux Collector installation 
 summary: 在Linux上安裝Keystone收集器 
 ---
-= 在Linux系統上安裝Keystone Collector
+= 在 Linux 系統上安裝 Keystone Collector
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

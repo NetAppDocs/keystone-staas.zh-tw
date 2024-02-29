@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: release-notes/known-issues.html 
 keywords: netapp, keystone, release notes, known issues 
-summary: NetApp 服務引擎的已知問題 
+summary: Keystone STaaS 的已知問題 
 ---
-= NetApp 服務引擎的已知問題
+= Keystone STaaS 的已知問題
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,9 @@ summary: NetApp 服務引擎的已知問題
 
 
 [role="lead"]
-NetApp Keystone STaaS 報告了下列已知問題。當您配置或使用由 Keystone 訂閱管理的儲存設備時、可能會遇到這些問題。
+已知問題指出可能會導致您無法有效使用 Keystone 訂閱服務的問題。
+
+NetApp Keystone STaaS 報告了下列已知問題。
 
 [cols="3*"]
 |===
@@ -22,19 +24,28 @@ NetApp Keystone STaaS 報告了下列已知問題。當您配置或使用由 Key
 
 
  a| 
-鏡射磁碟區衍生的服務層級不正確。
+在 *Volumes （卷） * 選項卡中， AQO 不兼容卷的數量偶爾會不匹配。
  a| 
-如果在分層和物件儲存的速率計畫均適用的環境中同時啟用 MetroCluster 和 FabricPool 、則鏡射磁碟區（組成磁碟區和 FabricPool 磁碟區）衍生的服務層級可能不正確。
+如果指派兩個服務層級給某個磁碟區、只有一個服務層級符合 AQO 規範、則 * Volume Summary* 和 * Volume Details* 標籤上列出的 AQO 不相容磁碟區數量可能會有所不同。
  a| 
-無。
+無
 
 
 
  a| 
-在 * 訂閱 * 標籤中部分可見的連結和圖示。
+* 未填入 AutoSupport 訂閱的 Assets * 標籤。
  a| 
-有些連結和圖示、例如「 * 目前使用狀況 * 」標籤的連結、以及某些欄的工具提示都會部分顯示。
+如果 AutoSupport 遙測用於收集訂閱號碼的 Keystone 資料、則不會在 * Assets * 標籤上擷取任何資訊。
  a| 
-不需要因應措施。連結如預期般運作。
+無
+
+
+
+ a| 
+工具提示外觀不正確。
+ a| 
+* 目前點動 * 索引圖示的工具提示在 * 容量趨勢 * 標籤中顯示不正確。
+ a| 
+請參閱正確的工具提示文字「 _ 目前使用的突發容量量。請注意、這是針對目前的計費期間、而非所選的日期範圍。 _ 」
 
 |===

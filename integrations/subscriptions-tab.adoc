@@ -16,11 +16,11 @@ summary: AIQ DA Keystone 儀表板上的訂閱索引標籤
 [role="lead"]
 您可以在 * 訂閱 * 索引標籤中檢視所有訂閱的清單。
 
-若要檢視此索引標籤、請從左側瀏覽窗格移至 * 一般 > 基礎概念訂閱 > 訂閱 * 。
+若要檢視此索引標籤、請從左側瀏覽窗格移至 * 一般 > 基礎概念訂閱 > 訂閱 * 。您的所有訂閱都會列出。
 
 image:all-subs.png["訂閱索引標籤的影像"]
 
-您可以看到下列資訊。對於某些欄位和欄、您可能會看到資訊或警告圖示和工具提示、提供您有關資料的其他資訊。
+您可以按一下漢堡包圖示來篩選選取項目 image:icon-hamburger.png["漢堡代表"] 若為欄、或按一下 * 清除篩選 * 按鈕以檢視所有訂閱。對於某些欄位和欄、您可能會看到資訊或警告圖示和工具提示、提供您有關資料的其他資訊。
 
 * *訂閱編號*：NetApp指派的Keystone訂閱訂閱的訂閱編號。
 * *追蹤ID*：訂閱啟動時指派的追蹤ID。這是每個訂閱和網站的唯一ID、用於追蹤訂閱。
@@ -52,4 +52,5 @@ image:icon-grey.png["灰點圖示"]：未記錄服務層級已認可容量的容
 * link:../integrations/capacity-trend-tab.html["容量趨勢"]
 * link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
 * link:../integrations/performance-tab.html["效能"]
+* link:../integrations/assets-tab.html["資產"]
 

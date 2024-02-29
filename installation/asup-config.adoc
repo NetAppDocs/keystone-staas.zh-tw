@@ -14,9 +14,9 @@ summary: 設定 Keystone AutoSupport 的程序
 
 
 [role="lead"]
-使用 AutoSupport 遙測機制時、 Keystone 服務會根據 AutoSupport 遙測資料執行使用量測。若要達到必要的精細度、您應該將 AutoSupport 設定為將 Keystone 資料納入 ONTAP 叢集所傳送的每日支援套件組合中。
+當使用 AutoSupport 遙測機制時、 Keystone 會根據 AutoSupport 遙測資料來計算使用量。若要達到必要的精細度、您應該將 AutoSupport 設定為將 Keystone 資料納入 ONTAP 叢集所傳送的每日支援套件組合中。
 
-.開始之前
+.關於這項工作
 在將 AutoSupport 設定為包含 Keystone 資料之前、請注意下列事項。
 
 * 您可以使用 ONTAP CLI 編輯 AutoSupport 遙測選項。如需管理 AutoSupport 服務和系統（叢集）管理員角色的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html["管理AutoSupport 功能概述"^] 和 https://docs.netapp.com/us-en/ontap/system-admin/cluster-svm-administrators-concept.html["叢集與SVM管理員"^]。

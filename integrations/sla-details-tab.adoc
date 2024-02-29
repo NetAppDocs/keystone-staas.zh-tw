@@ -56,4 +56,5 @@ image:sla-sustainability.png["SLA 詳細資料標籤列出永續性詳細資料"
 * link:../integrations/capacity-trend-tab.html["容量趨勢"]
 * link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
 * link:../integrations/performance-tab.html["效能"]
+* link:../integrations/assets-tab.html["資產"]
 

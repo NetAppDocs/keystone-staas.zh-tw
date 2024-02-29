@@ -14,9 +14,11 @@ summary: 在Linux系統上安裝Keystone收集器的先決條件
 
 
 [role="lead"]
-在Linux系統上安裝Keystone Collector需要幾種組態。
+使用所需軟體準備 Linux 系統、可確保 Keystone Collector 能提供精確的安裝和資料收集。
 
-.Linux 伺服器的必要條件：
+請確定您的 Linux 和 Keystone Collector 伺服器 VM 具有這些組態。
+
+.Linux 伺服器：
 * 作業系統：CentOS 7或Red Hat Enterprise Linux 8．6或更新版本
 * Chroyd時間同步
 * 存取標準 Linux 軟體儲存庫
@@ -30,7 +32,7 @@ summary: 在Linux系統上安裝Keystone收集器的先決條件
 * Python 3（3.6.8至3.9.13）
 
 
-.Keystone Collector 伺服器 VM 的必要條件：
+.Keystone Collector 伺服器 VM ：
 * 核心：2個CPU
 * RAM：4 GB RAM
 * 磁碟空間：50 GB vDisk

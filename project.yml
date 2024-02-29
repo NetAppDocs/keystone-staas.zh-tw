@@ -27,7 +27,7 @@ sidebar:
     entries:
     - title: 什麼是Keystone Collector
       url: "/installation/installation-overview.html"
-    - title: 準備系統以安裝 Keystone Collector
+    - title: 準備您的系統
       entries:
       - title: VMware vSphere需求
         url: "/installation/vapp-prereqs.html"
@@ -73,6 +73,8 @@ sidebar:
         url: "/integrations/volumes-objects-tab.html"
       - title: 效能標籤
         url: "/integrations/performance-tab.html"
+      - title: 資產索引標籤
+        url: "/integrations/assets-tab.html"
     - title: 管理 BlueXP 的 Keystone 訂閱
       url: "/integrations/keystone-cm.html"
   - title: 深入瞭解Keystone
