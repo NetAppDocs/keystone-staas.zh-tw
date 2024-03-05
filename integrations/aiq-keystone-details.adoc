@@ -44,15 +44,16 @@ NOTE: Keystone 訂閱的容量使用量會顯示在儀表板和報告的 Tibs �
 * link:../integrations/capacity-trend-tab.html["容量趨勢"]
 * link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
 * link:../integrations/performance-tab.html["效能"]
+* link:../integrations/assets-tab.html["資產"]
 
 
 
 
 == 產生報告
 
-您可以按一下下載按鈕、從每個索引標籤產生及檢視訂閱詳細資料、時間範圍的歷史使用資料、以及每個索引標籤的 Volume 詳細資料： image:download-icon.png["報告下載圖示"]
+您可以產生及檢視 Keystone 資料的報告。「 * 基礎概念訂閱 * 」頁面上的每個索引標籤都可讓您按一下下載按鈕、以產生訂閱、歷史使用量和突發量使用量、效能、資產、以及磁碟區和物件的報告： image:download-icon.png["報告下載圖示"]
 
-詳細資料會以CSV格式產生、您可以儲存以供未來使用。
+這些詳細資料會以 CSV 格式產生、您可以儲存以供未來使用和比較。
 
 * 容量趨勢 * 標籤的範例報告、其中會轉換圖形資料：
 

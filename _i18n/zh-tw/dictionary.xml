@@ -669,7 +669,6 @@
   <block id="a49bb8de1f373a2c0821dd3715e2473c" category="list-text">選取您要檢視其詳細資料的必要訂閱。您帳戶名稱中的第一個訂閱依預設為選取狀態。</block>
   <block id="c3b2392317dad26eb62ae53f36697f5e" category="list-text">紅色：暴增使用量（100%承諾容量達到議定的暴增限制）</block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="section-title">產生報告</block>
-  <block id="03051fbd458dd7625e7969d74dd74735" category="paragraph">詳細資料會以CSV格式產生、您可以儲存以供未來使用。</block>
   <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">檢視警示</block>
   <block id="c71fcee7f813aa85774b9114dfba4ef1" category="paragraph">儀表板上的警示會傳送警示訊息、讓您瞭解儲存環境中發生的問題。</block>
   <block id="903961eaa166cc0c38b735276961eb0c" category="paragraph">警示可分為兩種類型：</block>
@@ -1209,7 +1208,6 @@
   <block id="f25c1d8bbc68ac70ff3f49b577f83657" category="admonition">在「 * 目前使用狀況 * 」標籤中、訂閱追蹤 ID 旁的工具提示可協助您識別 MetroCluster 設定中的合作夥伴訂閱。</block>
   <block id="e51f3e7f0941c06c83640e3bf3f8f64c" category="paragraph">下圖顯示 _ 極致 _ 服務層級（基本服務層級）和主要訂閱號碼的圖表。相同的歷史資料圖表也會指出鏡射站台使用量、其陰影較淺、與主要站台使用的相同顏色代碼相同。滑鼠游標上的工具提示會顯示主要站台和鏡射站台分別為 1.02 TiB 和 1.05 TiB 的使用量分佈（在 TiB 中）。</block>
   <block id="50dd3f9725af8367b4d116d8c903ab1f" category="inline-image-macro">Volume &amp;amp ；物件索引標籤</block>
-  <block id="297093c3fae3db4cf400ebe50badab45" category="paragraph">您可以按一下下載按鈕、從每個索引標籤產生及檢視訂閱詳細資料、時間範圍的歷史使用資料、以及每個索引標籤的 Volume 詳細資料： <block ref="8dec166a4f6cf96a41e44a339dcc6d98" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ae133bb1aeacd8e8e2cacbda0dd91045" category="paragraph">* 容量趨勢 * 標籤的範例報告、其中會轉換圖形資料：</block>
   <block id="cfa76bbfd0724f28399538bdb3182c2e" category="list-text">*警告*：不符合法規的問題會顯示為警告。例如、如果託管叢集內有未附加調適性QoS（AQO）原則的磁碟區、您會看到一則警告訊息。您可以按一下警告訊息上的連結、在 * Volumes （磁碟區） * 標籤中查看不相容磁碟區的清單。</block>
   <block id="a92886b7733793b3a223bd5644cc1363" category="list-text">* 結束日期 * ：訂閱的結束日期。如果您有每月自動更新的計費月訂閱、您會看到<block ref="3201d1330dc2228e5eaa1f9ecab30666" prefix=" " category="inline-code"></block> 而非結束日期。根據這個日期、您可能會看到即將結束或附加自動續約原則的訂閱通知。</block>
@@ -1617,4 +1615,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="50f8af23d47854d6e926cd5b6a614505" category="sidebar">在 VMware vSphere 上安裝 Keystone Collector</block>
   <block id="86215e54968c6d7de59c34d62652d9b9" category="sidebar">在 Linux 上安裝 Keystone Collector</block>
   <block id="b4c8d461cf544f3b1324e87e550416e1" category="sidebar">準備您的系統</block>
+  <block id="d44d28fd40b9c69ef8ce92777484e334" category="paragraph">您可以產生及檢視 Keystone 資料的報告。「 * 基礎概念訂閱 * 」頁面上的每個索引標籤都可讓您按一下下載按鈕、以產生訂閱、歷史使用量和突發量使用量、效能、資產、以及磁碟區和物件的報告： <block ref="8dec166a4f6cf96a41e44a339dcc6d98" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2982b614ac2cf7f1a9aabd6fd79028f2" category="paragraph">這些詳細資料會以 CSV 格式產生、您可以儲存以供未來使用和比較。</block>
 </blocks>
