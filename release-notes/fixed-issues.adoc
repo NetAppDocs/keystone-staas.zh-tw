@@ -22,6 +22,15 @@ summary: 已在不同版本的 Keystone STaaS 中修正問題
 
 
  a| 
+AutoSupport 訂閱的 * 資產 * 索引標籤上沒有可用的資訊。
+ a| 
+固定
+ a| 
+2024 年 3 月 14 日
+
+
+
+ a| 
 如果在分層和物件儲存的速率計畫均適用的環境中同時啟用 MetroCluster 和 FabricPool 、則鏡射磁碟區（組成磁碟區和 FabricPool 磁碟區）的服務層級可能會不正確地衍生。
  a| 
 將正確的服務層級套用至鏡射磁碟區。

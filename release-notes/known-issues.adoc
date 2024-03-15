@@ -24,18 +24,18 @@ NetApp Keystone STaaS 報告了下列已知問題。
 
 
  a| 
-在 *Volumes （卷） * 選項卡中， AQO 不兼容卷的數量偶爾會不匹配。
+AutoSupport 訂閱無法取得有關 AQO 不合規 Volume 和 MetroCluster 合作夥伴的資訊。
  a| 
-如果指派兩個服務層級給某個磁碟區、只有一個服務層級符合 AQO 規範、則 * Volume Summary* 和 * Volume Details* 標籤上列出的 AQO 不相容磁碟區數量可能會有所不同。
+如果 AutoSupport 遙測用於收集 Keystone 資料、則 * Volume Summary* 和 * 目前使用狀況 * 標籤上列出的 AQO 不相容磁碟區數、以及 MetroCluster 合作夥伴的相關資訊、若 Keystone 資料不存在 24 小時、則無法使用。
  a| 
 無
 
 
 
  a| 
-* 未填入 AutoSupport 訂閱的 Assets * 標籤。
+在 *Volumes （卷） * 選項卡中， AQO 不兼容卷的數量偶爾會不匹配。
  a| 
-如果 AutoSupport 遙測用於收集訂閱號碼的 Keystone 資料、則不會在 * Assets * 標籤上擷取任何資訊。
+如果指派兩個服務層級給某個磁碟區、只有一個服務層級符合 AQO 規範、則 * Volume Summary* 和 * Volume Details* 標籤上列出的 AQO 不相容磁碟區數量可能會有所不同。
  a| 
 無
 

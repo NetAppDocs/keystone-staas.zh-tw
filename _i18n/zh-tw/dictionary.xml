@@ -1541,8 +1541,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="f7168a4acbbbaa603715b2a0aeb4cea5" category="paragraph">NetApp Keystone STaaS 報告了下列已知問題。</block>
   <block id="b57ac208343300b485336a006b1b8d3a" category="paragraph">在 *Volumes （卷） * 選項卡中， AQO 不兼容卷的數量偶爾會不匹配。</block>
   <block id="e869f03abde9aeae1c0e990b9ab25b5d" category="paragraph">如果指派兩個服務層級給某個磁碟區、只有一個服務層級符合 AQO 規範、則 * Volume Summary* 和 * Volume Details* 標籤上列出的 AQO 不相容磁碟區數量可能會有所不同。</block>
-  <block id="dff510fff5f3e0445103891eda4984fa" category="paragraph">* 未填入 AutoSupport 訂閱的 Assets * 標籤。</block>
-  <block id="7ae14e4cb0932c9b84aa8e8223343a96" category="paragraph">如果 AutoSupport 遙測用於收集訂閱號碼的 Keystone 資料、則不會在 * Assets * 標籤上擷取任何資訊。</block>
   <block id="c3793f37646d7912d9f966e272bf6e19" category="paragraph">工具提示外觀不正確。</block>
   <block id="0fc4cafaef1f137e9c12e2f6d181561c" category="paragraph">* 目前點動 * 索引圖示的工具提示在 * 容量趨勢 * 標籤中顯示不正確。</block>
   <block id="1256b327f17e3f51e207a701dde2481e" category="paragraph">請參閱正確的工具提示文字「 _ 目前使用的突發容量量。請注意、這是針對目前的計費期間、而非所選的日期範圍。 _ 」</block>
@@ -1611,10 +1609,15 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="e2a2270c486beacf71e6bd4a48314991" category="list-text">按一下 * 一般 &gt; 基礎概念訂閱 &gt; 資產 * 。</block>
   <block id="89c9ef7132e6fac6325de01d876fc5aa" category="list-text">選取您要檢視叢集的訂閱編號。</block>
   <block id="1014f28a098809635129e3768d88c841" category="paragraph">您可以查看叢集詳細資料、並依儲存效率設定、平台類型和容量詳細資料進行細分。按一下其中一個叢集、即可前往 Digital Advisor 畫面上的 * 叢集 * 小工具、取得該叢集的其他資訊。</block>
-  <block id="fa664bb18e5c689d25a1899359c9245e" category="paragraph"><block ref="fa664bb18e5c689d25a1899359c9245e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="50f8af23d47854d6e926cd5b6a614505" category="sidebar">在 VMware vSphere 上安裝 Keystone Collector</block>
   <block id="86215e54968c6d7de59c34d62652d9b9" category="sidebar">在 Linux 上安裝 Keystone Collector</block>
   <block id="b4c8d461cf544f3b1324e87e550416e1" category="sidebar">準備您的系統</block>
   <block id="d44d28fd40b9c69ef8ce92777484e334" category="paragraph">您可以產生及檢視 Keystone 資料的報告。「 * 基礎概念訂閱 * 」頁面上的每個索引標籤都可讓您按一下下載按鈕、以產生訂閱、歷史使用量和突發量使用量、效能、資產、以及磁碟區和物件的報告： <block ref="8dec166a4f6cf96a41e44a339dcc6d98" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2982b614ac2cf7f1a9aabd6fd79028f2" category="paragraph">這些詳細資料會以 CSV 格式產生、您可以儲存以供未來使用和比較。</block>
+  <block id="27e4fdbd0cb158caedf682943810f5af" category="paragraph"><block ref="27e4fdbd0cb158caedf682943810f5af" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="16299daea8c4c1acc7d9eb66580654e7" category="paragraph">AutoSupport 訂閱的 * 資產 * 索引標籤上沒有可用的資訊。</block>
+  <block id="4457d440870ad6d42bab9082d9bf9b61" category="paragraph">固定</block>
+  <block id="824332c973fd0c189c484864ad8005ab" category="paragraph">2024 年 3 月 14 日</block>
+  <block id="bffa1ad2163e84c8afb350de90d9c62b" category="paragraph">AutoSupport 訂閱無法取得有關 AQO 不合規 Volume 和 MetroCluster 合作夥伴的資訊。</block>
+  <block id="a9984fe861efdaed7977f6ae7356a850" category="paragraph">如果 AutoSupport 遙測用於收集 Keystone 資料、則 * Volume Summary* 和 * 目前使用狀況 * 標籤上列出的 AQO 不相容磁碟區數、以及 MetroCluster 合作夥伴的相關資訊、若 Keystone 資料不存在 24 小時、則無法使用。</block>
 </blocks>
