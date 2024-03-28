@@ -40,7 +40,6 @@ NOTE: Keystone 訂閱的容量使用量會顯示在儀表板和報告的 Tibs �
 
 * link:../integrations/subscriptions-tab.html["訂閱"]
 * link:../integrations/current-usage-tab.html["目前使用量"]
-* link:../integrations/sla-details-tab.html["SLA 詳細資料"]
 * link:../integrations/capacity-trend-tab.html["容量趨勢"]
 * link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
 * link:../integrations/performance-tab.html["效能"]

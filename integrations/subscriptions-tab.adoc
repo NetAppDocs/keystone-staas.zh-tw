@@ -48,7 +48,6 @@ image:icon-grey.png["灰點圖示"]：未記錄服務層級已認可容量的容
 
 * link:../integrations/aiq-keystone-details.html["使用 Keystone 儀表板和報告"]
 * link:../integrations/current-usage-tab.html["目前使用量"]
-* link:../integrations/sla-details-tab.html["SLA 詳細資料"]
 * link:../integrations/capacity-trend-tab.html["容量趨勢"]
 * link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
 * link:../integrations/performance-tab.html["效能"]

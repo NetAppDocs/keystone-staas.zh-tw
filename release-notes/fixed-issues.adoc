@@ -22,6 +22,33 @@ summary: 已在不同版本的 Keystone STaaS 中修正問題
 
 
  a| 
+*Capacity Trend* 標籤中 * 目前的 Burst * 索引圖示的工具提示文字不正確。
+ a| 
+顯示正確的工具提示文字「 _ 目前使用的突發容量量。請注意、這是針對目前的計費期間、而非所選的日期範圍。 _ 」
+ a| 
+2024 年 3 月 28 日
+
+
+
+ a| 
+如果 Keystone 資料不存在 24 小時、則 AQO 不相容磁碟區和 MetroCluster 合作夥伴的相關資訊將無法用於 AutoSupport 訂閱。
+ a| 
+固定
+ a| 
+2024 年 3 月 28 日
+
+
+
+ a| 
+如果將兩個服務層級指派給一個僅符合一項服務層級的 Volume 、則在 * Volume Summary* 和 * Volume Details* 標籤上列出的 AQO 不相容磁碟區數量偶爾會不相符。
+ a| 
+固定
+ a| 
+2024 年 3 月 28 日
+
+
+
+ a| 
 AutoSupport 訂閱的 * 資產 * 索引標籤上沒有可用的資訊。
  a| 
 固定

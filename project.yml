@@ -65,8 +65,6 @@ sidebar:
         url: "/integrations/subscriptions-tab.html"
       - title: 目前使用量索引標籤
         url: "/integrations/current-usage-tab.html"
-      - title: "「 SLA 詳細資料」標籤"
-        url: "/integrations/sla-details-tab.html"
       - title: 容量趨勢索引標籤
         url: "/integrations/capacity-trend-tab.html"
       - title: Volume & Objects 標籤
@@ -107,8 +105,6 @@ sidebar:
       url: "/concepts/qos.html"
     - title: 服務層級的容量需求
       url: "/concepts/capacity-requirements.html"
-    - title: 永續性 SLA
-      url: "/concepts/sla-sustainability.html"
   - title: 帳單
     entries:
     - title: Keystone定價

@@ -232,19 +232,4 @@ https://support.netapp.com[]
  a| 
 NetApp HQ提供帳單資訊和AutoSupport 供應功能
 
-
-
- a| 
-http://mirror.centos.org[]
-http://mirrorlist.centos.org[]
- a| 
-Keystone Collector的作業系統更新（僅適用於OVA部署）
-
-
-
- a| 
-https://repo.mysql.com[]
- a| 
-下載並更新 MySQL 相依性（僅適用於 Linux 部署）
-
 |===
