@@ -24,7 +24,10 @@ Keystone Collector 中的自動更新功能預設為啟用、會在每個新版�
 image:upgrade-1.png["TUI 畫面"]
 
 +
-或者、執行此命令以升級版本：
+或者、請執行下列命令來升級版本：
+
++
+對於 CentOS ：
 
 +
 [listing]
@@ -34,13 +37,32 @@ sudo yum clean metadata && sudo yum install keystone-collector
 +
 image:upgrade-2.png["TUI 畫面"]
 
++
+對於 Debian ：
+
++
+[listing]
+----
+sudo apt-get update && sudo apt-get upgrade keystone-collector
+----
 . 重新啟動 Keystone Collector 管理 TUI 、您可以在主畫面左上角看到最新版本。
 +
-或者、執行此命令以檢視最新版本：
+或者、執行這些命令以檢視最新版本：
+
++
+對於 CentOS ：
 
 +
 [listing]
 ----
 rpm -q keystone-collector
+----
++
+對於 Debian ：
+
++
+[listing]
+----
+dpkg -l | grep keystone-collector
 ----
 

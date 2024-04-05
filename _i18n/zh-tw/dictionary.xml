@@ -564,7 +564,6 @@
   <block id="5f76d762520637f1eb1b8dd5e4b71129" category="paragraph">TCP 443</block>
   <block id="e89ab59baea830bd940c300886c50efe" category="paragraph">必填</block>
   <block id="8e77c75fd2b5c8f6c41f3c1b738d2a22" category="paragraph">網際網路（根據稍後提供的URL需求）</block>
-  <block id="1de3382e8d585a7e028aaf322ae1a2e1" category="paragraph">HTTP、HTTPS</block>
   <block id="77af2ba0b86f594a268203e05693cb8f" category="paragraph">TCP 80、TCP 443</block>
   <block id="882da07ddabac1aa28b5f358bcbeb2ce" category="paragraph">必要（網際網路連線）</block>
   <block id="01633331ef3bca3e96b0dfd60ceb54bd" category="paragraph">Keystone Collector軟體、作業系統更新和計量資料上傳</block>
@@ -594,7 +593,6 @@
   <block id="9bb201387a3fc98daabac0d0184d67b2" category="paragraph">TCP 3306</block>
   <block id="1cdcb6b512bcad3d3f44e441ef4b8b27" category="paragraph">Keystone Collector的效能指標集合</block>
   <block id="9dcb5a3c0168fd793b27b3a0ad251e42" category="paragraph">客戶監控系統</block>
-  <block id="293c9ea246ff9985dc6f62a650f78986" category="paragraph">HTTP</block>
   <block id="763598941dbbbfc084a41d50118d7cf0" category="paragraph">TCP 777</block>
   <block id="6ef2c9b331690e63d11b8024f8e69408" category="paragraph">Keystone Collector健全狀況報告</block>
   <block id="4e38d92cc04c51157b68c55909b859b7" category="section-title">URL存取</block>
@@ -606,9 +604,6 @@
   <block id="fbf8359989576f0800cb2da4a25f4be1" category="summary">在VMware vSphere系統上安裝Keystone收集器的先決條件</block>
   <block id="2f0d22e6971fda1cbc3411961fec8360" category="doc">虛擬化基礎架構需求</block>
   <block id="080838bb01c5d3b3c97a54a92d98023d" category="list-text">作業系統：VMware vCenter伺服器和ESXi 6.5或更新版本</block>
-  <block id="a6074a8dda65f87c74db6e5b6a444683" category="list-text">核心：4個CPU</block>
-  <block id="f003ca1f65b35534eb0dad8c4f388f6a" category="list-text">RAM：12 GB RAM</block>
-  <block id="12bd6e40a7bc94d413c13b8520e74365" category="list-text">磁碟空間：200 GB vDisk</block>
   <block id="b0450b259fdefd76bfc3006ccd12c375" category="summary">在VMware系統上安裝Keystone收集器</block>
   <block id="a1c9c4a1979d4de63c959aa0eb8db228" category="doc">在VMware vSphere系統上部署Keystone Collector</block>
   <block id="5636c5e292ad15c979ccdf35d4ddd63f" category="paragraph">在VMware vSphere系統上部署Keystone Collector包括下載OVA範本、使用*部署OVF範本*精靈來部署範本、驗證憑證的完整性、以及驗證VM的整備度。</block>
@@ -907,9 +902,7 @@
   <block id="303598db14cdac7b8531356d3fa6ae67" category="doc">手動升級 Keystone Collector</block>
   <block id="eb5316849956503093c848cdd2e2189f" category="paragraph">Keystone Collector 中的自動更新功能預設為啟用、會在每個新版本中自動升級 Keystone Collector 軟體。不過、您可以停用此功能並手動升級軟體。</block>
   <block id="c5bc18b9ae708308f165d213528edb66" category="list-text">在維護畫面上、選取 * 立即更新收集器 * 選項。</block>
-  <block id="f8bc55f7c7f782e0fdeced65037abf84" category="paragraph">或者、執行此命令以升級版本：</block>
   <block id="b31f1ebf783dc22abf4699b042b9b3db" category="list-text">重新啟動 Keystone Collector 管理 TUI 、您可以在主畫面左上角看到最新版本。</block>
-  <block id="bb05cc2f27b372eeefcaf8c9d31c4fba" category="paragraph">或者、執行此命令以檢視最新版本：</block>
   <block id="26ff0e396ade6fe360b35528d3afe577" category="paragraph">Keystone STaaS 系統中的資料會流經 Keystone Collector 和相關的監控系統、即 AIOP 解決方案工具。</block>
   <block id="9e2f9cd4a9ee8b88a18988f62eb67dd7" category="paragraph">Keystone 收集器會對儲存控制器啟動 REST API 呼叫、並定期取得控制器的使用詳細資料、如以下流程圖所示：</block>
   <block id="144be97e21d1c48cc88d9c1079fd7242" category="list-text">Active IQ 雲端入口網站接受連線、並建立通往 NetApp Collector 的通道。</block>
@@ -1555,4 +1548,11 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="2edc64c57ca29e2f950fd753874bafbc" category="list-text">從 * 效能 * 標籤 ONTAP 、</block>
   <block id="7a7b2bda8aa958fd2f922e2acb85ca1e" category="paragraph">所有這些項目都會根據所選的訂閱日期顯示資料。</block>
   <block id="f37be92ace88534a02480f8f04d48882" category="paragraph">未發現已知問題。</block>
+  <block id="5f2b8b9897b51974b3e829ddd4511e8e" category="paragraph">或者、請執行下列命令來升級版本：</block>
+  <block id="014327995266184e82832bad8c943216" category="paragraph">對於 CentOS ：</block>
+  <block id="21a26c88c032eccbe4aba03b7481511e" category="paragraph">對於 Debian ：</block>
+  <block id="6c6acbd25509a9e20307e1496a9b9db2" category="paragraph">或者、執行這些命令以檢視最新版本：</block>
+  <block id="0ed064e2cd201442fba4d1be4a8ee19c" category="list-text">核心： 1 個 CPU</block>
+  <block id="2e82715d47e898df71b0f37522311a05" category="list-text">RAM ： 2 GB RAM</block>
+  <block id="54c62dd9045f6805a09d9d86b629862d" category="list-text">磁碟空間： 20 GB vDisk</block>
 </blocks>

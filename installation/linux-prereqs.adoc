@@ -94,7 +94,7 @@ Keystone收集器（一般）
  a| 
 網際網路（根據稍後提供的URL需求）
  a| 
-HTTP、HTTPS
+HTTPS
  a| 
 TCP 80、TCP 443
  a| 
@@ -169,7 +169,7 @@ Keystone收集器（一般）
  a| 
 客戶監控系統
  a| 
-HTTP
+HTTPS
  a| 
 TCP 777
  a| 
