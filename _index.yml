@@ -57,8 +57,6 @@ indexpage:
       url: "/concepts/uscs.html"
   - title: 瞭解更多資訊
     links:
-    - title: Keystone 訂閱第 1 版（先前的 Keystone Flex 訂閱）
-      url: https://docs.netapp.com/us-en/keystone/
     - title: Active IQ Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html
     - title: 藍圖

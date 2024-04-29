@@ -420,7 +420,6 @@
   <block id="e7585d2ee2e8c627c9574df1d741ec59" category="paragraph">產生的每個使用記錄都會執行此程序。因此、「暴增使用量」反映出您的過度使用容量在承諾容量之外的數量和使用期限。</block>
   <block id="1923c743bdc7a28d03225437a33faad3" category="paragraph">IaaS（基礎概念）可提供兩種服務交付作業模式：合作夥伴營運模式和客戶營運模式NetApp Keystone 。</block>
   <block id="d9074f8f6ffc16585a17ec283468500b" category="paragraph">Keystone STaaS會根據您在服務使用期間所耗用的容量進行計量。</block>
-  <block id="427fa3429ea764a6d2b1f1e8f8111b9e" category="list-text">與NRNVC相關的額外成本會以總訂購服務（包括標準服務、進階資料保護和資料分層）每月帳單的百分比計費。</block>
   <block id="4dc2830ae7b31704bf74b200d5350dea" category="paragraph">本節列出在NetApp Keystone 您的環境中啟用IaaS服務所需的元件。</block>
   <block id="d9a2f9a8831ac707c49715a960ba187b" category="paragraph">利用NetApp技術、您可以針對儲存訂閱進行可預測的預先定價NetApp Keystone 。</block>
   <block id="0da0fcb34ab6233293608a6a36f3a615" category="paragraph">Keystone訂閱與費率方案相關聯。單一訂閱可附加多個費率計畫。</block>
@@ -1026,7 +1025,6 @@
   <block id="ba20b958dd73f9247c3247dbef41c8d4" category="paragraph">當 Keystone Collector OVA 的完整性和真實性通過驗證時、您可以看到文字<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 與發行者合作。
 <block ref="de3bc771b0100381aa743c5ecbd3a7df" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1f5e8b836d490bee65ada2e551662a8f" category="sidebar">安裝 Keystone Collector</block>
-  <block id="da152509ccdb6d6b167f659fc63ed210" category="sidebar">Keystone 訂閱第 1 版（先前的 Keystone Flex 訂閱）</block>
   <block id="3f20b3134627198be1e0ff879a88cd8f" category="inline-link-macro">進階資料保護</block>
   <block id="31983c33f891876ff7bcaee65805fde0" category="paragraph">如需進階資料保護附加服務的相關資訊、請參閱 <block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block>。</block>
   <block id="fb3cbb66357c55c4f429abc77ecde8bb" category="paragraph-title">進階資料保護服務層級</block>
@@ -1294,7 +1292,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="53c0c730b2c0dc69ef94550cb19434f5" category="paragraph">中提供的Keystone YUM儲存庫用戶端組態<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 使用強制 GPG 檢查 <block ref="5b974d7e48c1a0878cb562eeae59f1b6" prefix="(" category="inline-code"></block>）下載於此儲存庫的所有軟體。透過Keystone儲存庫下載的任何未通過簽章驗證的RPM都無法安裝。此功能用於Keystone Collector的排程自動更新功能、以確保您的站台僅安裝有效且真實的軟體。</block>
   <block id="1ae3a07b6896d577a03f95172e8b37ab" category="paragraph">如需SnapLock 有關支援技術的資訊、請參閱<block ref="75641a5590d09822bddecb04bdc449c0" category="inline-link-rx"></block>。</block>
   <block id="12d485f3f9a8db1779ed73cf44c137be" category="paragraph">儲存即服務（ STaaS ）產品旨在提供類似公有雲的模式、以供採購、部署及管理儲存基礎架構。雖然大多數企業仍在擬定混合雲的策略、但身為客戶、您可以選擇以營運成本為基礎的 _ 每次使用付費 _ 消費模式。您可能必須最終將所有工作負載移至雲端、但尚未制定明確的計畫或排程、將特定部分或所有工作負載移轉至雲端。Keystone STaaS 讓您可以靈活地從內部部署服務開始、稍後再決定適當的工作負載和移轉至雲端的時間點。Keystone STaaS可在部署模式之間提供承諾保護。您身為內部部署客戶、無需支付更多雲端服務費用、即可重新分配內部部署支出、以新增雲端服務、並基本上支付重新分配之前所承諾的相同月費。</block>
-  <block id="041eef05fb45fa5797cd9cf41ead45da" category="admonition">我們提供 NetApp Keystone STaaas 服務層級的詳細服務說明<block ref="4010e35cc53f92bff741331b17906456" category="inline-link-rx"></block>。</block>
   <block id="ff3ee75715261a301448444dad2f844d" category="list-text">全球服務聯絡人：
 <block ref="983f8b40dae4baa1de985ce6d2ebbb0c" category="inline-link-rx"></block></block>
   <block id="b2a258e6f0a0dc74fded47cb9cc5413c" category="paragraph"><block ref="b2a258e6f0a0dc74fded47cb9cc5413c" category="inline-link-rx"></block></block>
@@ -1508,7 +1505,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="ca5b91a68ba656cb1cb6cdd4e75f646a" category="section-title">依 Keystone 觀察名單搜尋</block>
   <block id="09efc0d47be03e64575f6beecbeabdbc" category="paragraph">對於 Keystone STaas 、您可以為客戶或訂閱號碼建立報價表。您可以在 Digital Advisor 畫面上依報價表名稱進行搜尋。在依報價表搜尋時、您可以在 * 基礎概念訂閱 * 小工具的 * 訂閱 * 下拉式清單中檢視客戶及其訂閱內容。</block>
   <block id="40a849f1b1a23a8ad5b9eda7fffbc498" category="admonition">依觀察名單搜尋會擷取舊儀表板上的訂閱清單。如果報價表包含訂閱號碼、數位顧問儀表板上只會顯示 * 基礎概念訂閱 * 小工具。</block>
-  <block id="4146f18ac24431c2a78e038a9f2ee172" category="paragraph">您可以使用 Active IQ Digital Advisor （也稱為數位顧問）儀表板來訂閱 Keystone STaaS 、以監控容量使用量並產生報告。</block>
   <block id="7bec9688ecf2b38ad916098d979ab11d" category="paragraph">在訂購Keystone服務時、您可以在Digital Advisor儀表板上的* Keystone Subscriptions *（基礎概念訂閱）小工具上檢視訂閱與使用的詳細資料。</block>
   <block id="72225f6e4157a41063cc314ef6fbee87" category="admonition">此處的資訊同時適用於 ONTAP 和 StorageGRID 。相關章節已指出例外情況。</block>
   <block id="b7cc0889730c8b9213fb62a17f5c9279" category="paragraph">使用 * 資產 * 索引標籤、收集您對由 Keystone 訂閱管理的叢集和節點的看法。</block>
@@ -1555,4 +1551,30 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="0ed064e2cd201442fba4d1be4a8ee19c" category="list-text">核心： 1 個 CPU</block>
   <block id="2e82715d47e898df71b0f37522311a05" category="list-text">RAM ： 2 GB RAM</block>
   <block id="54c62dd9045f6805a09d9d86b629862d" category="list-text">磁碟空間： 20 GB vDisk</block>
+  <block id="96080ddf71cf5d1dfd3f754a4886a2aa" category="doc">Keystone 訂閱服務 | 版本 1</block>
+  <block id="9b49427715766283678564a0225a2326" category="paragraph">Keystone STaaas 之前有 Keystone 訂閱服務（先前稱為 Keystone Flex Subscription 服務）。</block>
+  <block id="4ec497757752cb6159657c1bede33384" category="inline-link-macro">Keystone 儀表板</block>
+  <block id="33a8de12128f05beed2e492175b910f7" category="paragraph">雖然這兩種產品的導覽方式在中類似 <block ref="e4ac7569b2819e203ac84b88ffcbc154" category="inline-link-macro-rx"></block>Keystone 訂閱服務與 Keystone STaas 在組成服務層級、服務供應和計費原則上不同。截至 2024 年 4 月、 NetApp 僅維護和發佈 Keystone STaaas 文件。如果您仍在使用 Keystone 訂閱服務、請聯絡您的 KSM 以取得移轉至 Keystone STaaas 的支援。如有需要、您可以在此存取 PDF 版本的 Keystone 訂閱服務文件：</block>
+  <block id="78463a384a5aa4fad5fa73e2f506ecfc" category="inline-link">英文</block>
+  <block id="af2c06cfe43f3c916a4855b937acfd20" category="list-text"><block ref="af2c06cfe43f3c916a4855b937acfd20" category="inline-link-rx"></block></block>
+  <block id="f32ced6a9ba164c4b3c047fd1d7c882e" category="inline-link">日文</block>
+  <block id="b545d0529dd02aae23f9de0ef884e1bd" category="list-text"><block ref="b545d0529dd02aae23f9de0ef884e1bd" category="inline-link-rx"></block></block>
+  <block id="d0bdb3cde477d82e766da05ebda50ccb" category="inline-link">韓文</block>
+  <block id="b1536e71d762760dbe6654b6ae2bf152" category="list-text"><block ref="b1536e71d762760dbe6654b6ae2bf152" category="inline-link-rx"></block></block>
+  <block id="c6606fd0c7e63446a7839bd982c9ce7f" category="inline-link">中文（簡體）</block>
+  <block id="c629313dd4aede68d28a03a24b3e409c" category="list-text"><block ref="c629313dd4aede68d28a03a24b3e409c" category="inline-link-rx"></block></block>
+  <block id="658edc15e33dabbc949c26031c154fe8" category="inline-link">中文（繁體）</block>
+  <block id="05c0137648338f61e0270b71055f6cba" category="list-text"><block ref="05c0137648338f61e0270b71055f6cba" category="inline-link-rx"></block></block>
+  <block id="86bc3115eb4e9873ac96904a4a68e19e" category="inline-link">德文</block>
+  <block id="846dfb773bc637fe45a8aebe4122ed6d" category="list-text"><block ref="846dfb773bc637fe45a8aebe4122ed6d" category="inline-link-rx"></block></block>
+  <block id="cb5480c32e71778852b08ae1e8712775" category="inline-link">西班牙文</block>
+  <block id="70e2e0fdfefa1e524b105830b8116b79" category="list-text"><block ref="70e2e0fdfefa1e524b105830b8116b79" category="inline-link-rx"></block></block>
+  <block id="ad225f707802ba118c22987186dd38e8" category="inline-link">法文</block>
+  <block id="737069279f8616b0af23f56a5f3dee0e" category="list-text"><block ref="737069279f8616b0af23f56a5f3dee0e" category="inline-link-rx"></block></block>
+  <block id="4be8e06d27bca7e1828f2fa9a49ca985" category="inline-link">義大利文</block>
+  <block id="ad9e9c61c4a47bb6dfe2d4903529fe03" category="list-text"><block ref="ad9e9c61c4a47bb6dfe2d4903529fe03" category="inline-link-rx"></block></block>
+  <block id="2989a0ac8d994779e9ce3adf8ea66ee4" category="paragraph">您可以使用 Active IQ Digital Advisor （也稱為數位顧問）儀表板來檢視 Keystone 訂閱的詳細資料、監控容量使用量並產生報告。</block>
+  <block id="0c3292833800a62d7f718700dbce3a67" category="list-text">與 NRNVC 相關的額外成本、是以月總訂閱服務（包括標準服務、進階資料保護和資料分層）的百分比計費。</block>
+  <block id="e5a6cc7fd3fb0ce58296055c4fa99a5d" category="admonition">我們提供 NetApp Keystone STaaas 服務層級的詳細服務說明<block ref="d71be405d81c1e2747195607ed9eca90" category="inline-link-rx"></block>。</block>
+  <block id="087e52621b1299752b891e4115749950" category="sidebar">Keystone 訂閱服務第 1 版</block>
 </blocks>
