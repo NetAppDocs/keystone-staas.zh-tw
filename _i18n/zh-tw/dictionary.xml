@@ -619,12 +619,8 @@
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">在步驟7自訂範本_上、指定管理使用者帳戶的初始網路位址和密碼。</block>
   <block id="4ff6b73315fa76bc8171f5548ebb79ef" category="list-text">在「*部署OVF範本*」精靈的步驟8「準備好完成」上、檢閱組態並確認您已正確設定OVA部署的參數。</block>
   <block id="d5599cb082a40129e25bed4de770048b" category="paragraph">從範本部署VM並開啟電源後、請開啟VM的SSH工作階段、並以暫用的管理認證登入、以驗證VM是否已準備好進行組態。</block>
-  <block id="a2840fbbafc1435ffe70d4b579b45ac6" category="section-title">初始系統組態</block>
   <block id="a0416d96615fb872a7f19a13f6e245aa" category="admonition">完成部署時、您可以使用Keystone Collector Management終端使用者介面（TUI）公用程式來執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。</block>
-  <block id="25f96d2dea5d65fdf3a40639ee4d2baf" category="list-text">如有需要、請在TUI的「*組態&gt;網路*」區段中設定Proxy詳細資料。</block>
   <block id="ea0dbfc6ab6c0af39db6e8b2db365d7f" category="list-text">在「*組態&gt;系統*」區段中設定系統主機名稱、位置和NTP伺服器。</block>
-  <block id="b6b465ab63a0aae38b40c4f7c52e2ebe" category="list-text">在「*維護&gt;使用者*」區段中更新管理員密碼。</block>
-  <block id="6d001a04aa3a4da5de64981a8c657ad6" category="list-text">在「*組態&gt;進階*」區段中、將初始OVA組態標示為完成。</block>
   <block id="84f5023b640dd27c1674e40684ab2961" category="summary">驗證Linux系統上的Keystone收集器</block>
   <block id="35aa404988b4754613fc18c25cec1e7f" category="doc">自動驗證軟體完整性</block>
   <block id="cf28efdbdaf364aa104021336a5f5cf4" category="paragraph">驗證Keystone軟體完整性的程序是一項重申程序。</block>
@@ -937,7 +933,6 @@
   <block id="305955a2ac717f15ce5b0f0a3abc280a" category="paragraph"><block ref="305955a2ac717f15ce5b0f0a3abc280a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3a1e055c606dddb7ffa7ea4aa739f762" category="list-text">在 _Step 6_ 上、選取要用於虛擬機器的目的地網路。</block>
   <block id="77c3a99746e93de71f55722d8f5802d8" category="paragraph">針對透過 OVA 部署的 Keystone Collector 伺服器、在 VMware vSphere 系統上執行下列步驟：</block>
-  <block id="02b9a7808a83ccb6ba15cb4854eba098" category="list-text">開啟至Keystone Collector伺服器的SSH工作階段。登入時、便會顯示TUI。或者、您也可以執行手動啟動 TUI<block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix=" " category="inline-code"></block> CLI命令。</block>
   <block id="79e0703c840b981be16f9e1a40c5a0b4" category="inline-image-macro">收集器架構</block>
   <block id="009d77d3b79ee4c7df16ef0658dd3bc3" category="paragraph"><block ref="009d77d3b79ee4c7df16ef0658dd3bc3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="25c10b524de794226cf520c9a3dacc83" category="list-text">存取標準 Linux 軟體儲存庫</block>
@@ -1090,10 +1085,7 @@
   <block id="bcc16de506d1dbb7779a3062decf2fa6" category="paragraph">依預設、這些子系統會包含在每週的 AutoSupport 套裝組合中、其中包含<block ref="c2f7a910dac56891bdc98acd8bf80faa" prefix=" " category="inline-code"></block> 是 _DOT-Regal_ 、以及<block ref="155fe96c8db8042fed76defa0f5b6d97" prefix=" " category="inline-code"></block> 是 _HA 群組通知（每週記錄）通知 _ 。不過、您需要將它們新增至每日套件組合、以便擷取和報告 Keystone 使用資料。</block>
   <block id="0615b5bfa7b669de144331b512440192" category="inline-link">使用 SSH 存取叢集</block>
   <block id="75637cd8fe530b3ca0a91d01f7a154b3" category="list-text">以系統管理員使用者身分、使用 SSH 登入 Keystone ONTAP 叢集。如需相關資訊、請參閱<block ref="72c78e462556b03d46e2f3029d4a0613" category="inline-link-rx"></block>。</block>
-  <block id="d4139f82ccaf32f8e108d4cd48dc0801" category="inline-link">系統節點AutoSupport 的資訊清單顯示</block>
-  <block id="fcd234d37052b608416125513e6350d6" category="paragraph">如需此命令的詳細資訊、請參閱<block ref="ebf3b588f9456f5d9eb4379234927367" category="inline-link-rx"></block>。</block>
   <block id="b25e1baa640468dcaf7b5bcd975ace0a" category="list-text">執行下列命令來修改每日記錄內容：</block>
-  <block id="a7b3681fbca584aa4e58ecc74f068237" category="paragraph"><block ref="1835384cfbb7a783927d2d026c6446bc" prefix="" category="inline-code"></block></block>
   <block id="20c41bcd9366cdbd961d6554489ea863" category="inline-link">系統節點AutoSupport 的不正常情況下修改觸發程序</block>
   <block id="5f6d98c1ed4256fab45f6c20e637744e" category="paragraph">如需此命令的詳細資訊、請參閱<block ref="700e80291e0b2dbcd3452a610925a1ef" category="inline-link-rx"></block>。</block>
   <block id="766bf6a1b0285febc0d67565c929ccb2" category="paragraph">下列各節將說明支援的儲存類型、檔案、區塊、物件和雲端服務的基礎服務層級：</block>
@@ -1173,7 +1165,6 @@
   <block id="087c9dc5266982ef54ba80f023cbd793" category="list-text">按Enter。您將返回 * 進階 * 畫面。</block>
   <block id="03a891b6d33a248fa861083fe4247d1c" category="inline-image-macro">用於 CA 自訂的 TUI 畫面</block>
   <block id="8763d534a475bad985b63c246739efb2" category="paragraph"><block ref="8763d534a475bad985b63c246739efb2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="42b719750bcc67ec4565e4a291dd81b0" category="list-text">使用 * 維護 &gt; 更新 System* 選項更新 Keystone Collector 。某些選定的鏡像可能無法使用、系統詳細資料會在重試幾次之後更新。</block>
   <block id="62da9737386f7b0511bd36a15644e898" category="paragraph">Keystone進階資料保護服務可同步將資料鏡射至次要站台。萬一主站台發生災難、二線站台可以接管、而不會遺失任何資料。此功能會利用兩個站台之間的 MetroCluster 組態來啟用資料保護。您只能將進階資料保護附加服務用於檔案和區塊儲存服務。作為此附加服務的一部分<block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> 服務層級已指派給您的訂閱。
 如需ONTAP MetroCluster 有關資料、請參閱 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>。</block>
   <block id="0315debcd2143476e3ac1f5e6124081b" category="paragraph">由 Equinix 提供的 Keystone 代管（ Co-Lo ）服務、與標準 Keystone 服務方案保持不變。</block>
@@ -1417,8 +1408,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="694ddc221b1ba079b86890f70c44cb11" category="section-title">2024 年 2 月 13 日的新功能與增強功能</block>
   <block id="0031be5085bbcd93406b2aa424a49c42" category="section-title">可檢視連結至主要訂閱的訂閱</block>
   <block id="7a76691411d2b3f52e0613b9090e3000" category="paragraph">您的部分主要訂閱可能有連結的次要訂閱。如果是這種情況、主要訂閱號碼將繼續顯示在 * 訂閱號碼 * 欄中、而連結的訂閱號碼則會列在 * 訂閱 * 索引標籤上的新欄 * 連結訂閱 * 中。「 * 連結訂閱 * 」欄只有在您有連結的訂閱時才可供使用、而且您可以看到通知您的資訊訊息。</block>
-  <block id="75c6f7540c7b06e4afb66c0e49e2b6eb" category="list-text">執行下列命令、並驗證現有子系統的現有組態：</block>
-  <block id="3ae087a778fc31353925828cff4f6c5e" category="paragraph"><block ref="8c5d13e75d7b6fef515d481823c7b360" prefix="" category="inline-code"></block></block>
   <block id="6986ced354a8932900d97fca40ed0a5b" category="summary">Volumes 物件索引標籤</block>
   <block id="80a766e7eebce2ca48e414230534ddb7" category="doc">Volume &amp; Objects 標籤</block>
   <block id="7f54c89739f450385c8dcecb323dd15f" category="list-text">按一下 * 一般 &gt; 基礎概念訂閱 &gt; 物件 * 。</block>
@@ -1577,4 +1566,10 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="0c3292833800a62d7f718700dbce3a67" category="list-text">與 NRNVC 相關的額外成本、是以月總訂閱服務（包括標準服務、進階資料保護和資料分層）的百分比計費。</block>
   <block id="e5a6cc7fd3fb0ce58296055c4fa99a5d" category="admonition">我們提供 NetApp Keystone STaaas 服務層級的詳細服務說明<block ref="d71be405d81c1e2747195607ed9eca90" category="inline-link-rx"></block>。</block>
   <block id="087e52621b1299752b891e4115749950" category="sidebar">Keystone 訂閱服務第 1 版</block>
+  <block id="899a771b5dc110dfc5fafd791b598948" category="section-title">初始系統組態</block>
+  <block id="2cc31eb816941afbd27aaf7e157c893c" category="list-text">開啟至Keystone Collector伺服器的SSH工作階段。連線時、系統會提示您更新管理員密碼。視需要完成管理密碼更新。</block>
+  <block id="9b511d4b9fae2194e94ea56697f90270" category="list-text">使用新密碼登入以存取 TUI 。  登入時、便會顯示TUI。</block>
+  <block id="76a9fcc99866cc713d361014e5f04c71" category="paragraph">或者、您也可以執行手動啟動<block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix=" " category="inline-code"></block> CLI命令。</block>
+  <block id="c74d63e364ced8b98060b508c4df9160" category="list-text">如有需要、請在 TUI 的 * 組態 &gt; 網路區段 * 中設定 Proxy 詳細資料。</block>
+  <block id="3901dacdf71718d8755295861e5a2509" category="list-text">使用 * 維護 &gt; 更新收集器 * 選項更新 Keystone 收集器。更新之後、請重新啟動 Keystone Collector 管理 TUI 公用程式以套用變更。</block>
 </blocks>

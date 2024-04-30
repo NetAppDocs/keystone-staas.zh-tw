@@ -80,10 +80,12 @@ NOTE: 管理密碼以可還原的格式儲存在 vCenter 中、並應作為引�
 
 NOTE: 完成部署時、您可以使用Keystone Collector Management終端使用者介面（TUI）公用程式來執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。
 
-. 開啟至Keystone Collector伺服器的SSH工作階段。登入時、便會顯示TUI。或者、您也可以執行手動啟動 TUI `keystone-collector-tui` CLI命令。
-. 如有需要、請在TUI的「*組態>網路*」區段中設定Proxy詳細資料。
-. 使用 * 維護 > 更新 System* 選項更新 Keystone Collector 。某些選定的鏡像可能無法使用、系統詳細資料會在重試幾次之後更新。
+. 開啟至Keystone Collector伺服器的SSH工作階段。連線時、系統會提示您更新管理員密碼。視需要完成管理密碼更新。
+. 使用新密碼登入以存取 TUI 。  登入時、便會顯示TUI。
++
+或者、您也可以執行手動啟動 `keystone-collector-tui` CLI命令。
+
+. 如有需要、請在 TUI 的 * 組態 > 網路區段 * 中設定 Proxy 詳細資料。
 . 在「*組態>系統*」區段中設定系統主機名稱、位置和NTP伺服器。
-. 在「*維護>使用者*」區段中更新管理員密碼。
-. 在「*組態>進階*」區段中、將初始OVA組態標示為完成。
+. 使用 * 維護 > 更新收集器 * 選項更新 Keystone 收集器。更新之後、請重新啟動 Keystone Collector 管理 TUI 公用程式以套用變更。
 

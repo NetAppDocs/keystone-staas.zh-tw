@@ -52,17 +52,12 @@ Snapshot
 
 .步驟
 . 以系統管理員使用者身分、使用 SSH 登入 Keystone ONTAP 叢集。如需相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html["使用 SSH 存取叢集"^]。
-. 執行下列命令、並驗證現有子系統的現有組態：
-+
-`autosupport trigger show -node * -autosupport-message management.log -fields basic-additional`
-
-+
-如需此命令的詳細資訊、請參閱 https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-manifest-show.html#parameters["系統節點AutoSupport 的資訊清單顯示"^]。
-
 . 執行下列命令來修改每日記錄內容：
 +
-`autosupport trigger modify -node * -autosupport-message management.log -basic-additional _<existing comma-separated subsystems>_, _<new subsystems>_`
-
+[source]
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,nfs,performance,snapshot,platform,object_store_server,san,raid,snapmirror
+----
 +
 如需此命令的詳細資訊、請參閱 https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html["系統節點AutoSupport 的不正常情況下修改觸發程序"^]。
 
