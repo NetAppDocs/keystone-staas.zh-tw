@@ -39,8 +39,7 @@ image:old-db.png["舊儀表板"]
 * * 警示 * ：您可以查看各種情境的警示（如果適用）。
 +
 ** * 即將到期 * ：萬一您的訂閱在 90 天內到期。
-** * 關鍵硬體升級 * ：如果任何關鍵硬體升級仍在等待中。
-** * AQO 警告 * ：您的磁碟區沒有指派 AQO 原則。
+** * QoS 警告 * ：您的磁碟區沒有指派 AQO 原則。
 +
 
 TIP: 按一下 * 訂閱 * 連結、即可在 * 訂閱 * 索引標籤中檢視篩選的訂閱清單。
@@ -49,7 +48,7 @@ TIP: 按一下 * 訂閱 * 連結、即可在 * 訂閱 * 索引標籤中檢視篩
 
 
 
-image:new-db.png["全新儀表板"]
+image:new-db-2.png["全新儀表板"]
 
 如需有關Keystone的Digital Advisor儀表板小工具的詳細資訊、請參閱 https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["數位顧問文件"^]。
 

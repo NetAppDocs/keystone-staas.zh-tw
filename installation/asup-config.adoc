@@ -20,45 +20,28 @@ summary: 設定 Keystone AutoSupport 的程序
 在將 AutoSupport 設定為包含 Keystone 資料之前、請注意下列事項。
 
 * 您可以使用 ONTAP CLI 編輯 AutoSupport 遙測選項。如需管理 AutoSupport 服務和系統（叢集）管理員角色的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html["管理AutoSupport 功能概述"^] 和 https://docs.netapp.com/us-en/ontap/system-admin/cluster-svm-administrators-concept.html["叢集與SVM管理員"^]。
-* 您可以在 Daily AutoSupport 套裝組合中加入下列子系統、以確保 Keystone 的精確資料收集。如需 AutoSupport 子系統的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/system-admin/autosupport-subsystem-collection-reference.html["什麼是子系統AutoSupport"^]。
-+
-|===
-| 子系統名稱 | Keystone 所需的資料項目 
-
-
- a| 
-WAFL
-| `VOLUME-CLONE-SHOW.XML` 
-
-
- a| 
-效能
-| `QOS-POLICY-GROUP.XML` 和 `QOS-ADAPTIVE-POLICY.XML` 
-
-
- a| 
-Snapshot
-| `SNAPSHOT.XML` 
-
-
- a| 
-平台
-| `ENVIRONMENT.txt` 
-|===
-+
-依預設、這些子系統會包含在每週的 AutoSupport 套裝組合中、其中包含 `asup_type` 是 _DOT-Regal_ 、以及 `asup_subject` 是 _HA 群組通知（每週記錄）通知 _ 。不過、您需要將它們新增至每日套件組合、以便擷取和報告 Keystone 使用資料。
-
+* 您可以將子系統納入每日和每週 AutoSupport 套件、以確保 Keystone 的資料收集準確。如需 AutoSupport 子系統的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/system-admin/autosupport-subsystem-collection-reference.html["什麼是子系統AutoSupport"^]。
 
 
 .步驟
 . 以系統管理員使用者身分、使用 SSH 登入 Keystone ONTAP 叢集。如需相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html["使用 SSH 存取叢集"^]。
-. 執行下列命令來修改每日記錄內容：
+. 修改記錄內容。
++
+** 執行此命令以修改每日記錄內容：
 +
 [source]
 ----
 autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,nfs,performance,snapshot,platform,object_store_server,san,raid,snapmirror
 ----
+** 執行此命令以修改每週記錄內容：
++
+[source]
+----
+autosupport trigger modify -autosupport-message weekly -troubleshooting-additional wafl -node *
+----
 +
 如需此命令的詳細資訊、請參閱 https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html["系統節點AutoSupport 的不正常情況下修改觸發程序"^]。
+
+
 
 

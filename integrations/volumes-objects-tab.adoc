@@ -49,9 +49,14 @@ image:volume-summary-1.png["Volume Summary （ Volume 摘要）標籤"]
 
 NOTE: 對於進階資料保護附加服務、會出現另一欄、指出磁碟區是 MetroCluster 組態中的主要磁碟區還是鏡射磁碟區。您可以按一下*複製節點序號*按鈕來複製個別節點序號。
 
++
+
+NOTE: 對於同時涵蓋檔案和物件服務層級的訂閱、您可以按一下 * 物件儲存詳細資料 * 按鈕、以檢視物件儲存詳細資料。
+
++
+image:volume-details-2.png["Volume 詳細資料索引標籤"]
 
 
-image:volume-details-1.png["Volume 詳細資料索引標籤"]
 
 --
 ====
