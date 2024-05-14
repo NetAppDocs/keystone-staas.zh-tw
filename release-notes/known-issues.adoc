@@ -16,4 +16,18 @@ summary: Keystone STaaS 的已知問題
 [role="lead"]
 已知問題指出可能會導致您無法有效使用 Keystone 訂閱服務的問題。
 
-未發現已知問題。
+NetApp Keystone STaaS 報告了下列已知問題。
+
+[cols="3*"]
+|===
+| 已知問題 | 說明 | 因應措施 
+
+
+ a| 
+CSV 報告中 Keystone 資料的顯示不正確。
+ a| 
+如果 CSV 報告中的 *Account Name* 欄是從 *Capacity Trend* 標籤產生的、則會包含一個帳戶名稱、其中包含一個逗號 `(,)`、 Keystone 資料在 CSV 報告中似乎放錯位置。
+ a| 
+無
+
+|===

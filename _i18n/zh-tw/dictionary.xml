@@ -1307,7 +1307,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="c58866f1ef5f53d12f483be3139c8b21" category="paragraph">Active IQ Digital Advisor * Keystone Subscriptions * 畫面上傳回的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時、系統會自動將其視為 UTC 時間。如需詳細資訊、請參閱 <block ref="fd9d2abed6b27ddb199966f81ac84d0e" category="inline-link-macro-rx"></block>。</block>
   <block id="ba72cb24d1620c10dda9d29d238cd62f" category="summary">已在不同版本的 Keystone STaaS 中修正問題</block>
   <block id="69464e68a5cdd0b54694ac92276fa1a3" category="doc">修正問題</block>
-  <block id="3e6913b831218e5028d3a4532f801a65" category="cell">問題說明</block>
   <block id="ad7fffc52967fac2195a87d71ddfefed" category="cell">修正之後</block>
   <block id="daacdb57878cbe5d9fa64d7c020a2e9d" category="cell">已於版本中修正</block>
   <block id="ab8fe64a75f26e766fbdddeb24ad2b52" category="paragraph">突發使用量記錄的使用量指示器會以琥珀色顯示。</block>
@@ -1501,7 +1500,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="f9fb20285d9c1550cfd8af36cedeebff" category="list-text">使用量與累積的突發使用量資料、請參考 * 容量趨勢 * 標籤、</block>
   <block id="2edc64c57ca29e2f950fd753874bafbc" category="list-text">從 * 效能 * 標籤 ONTAP 、</block>
   <block id="7a7b2bda8aa958fd2f922e2acb85ca1e" category="paragraph">所有這些項目都會根據所選的訂閱日期顯示資料。</block>
-  <block id="f37be92ace88534a02480f8f04d48882" category="paragraph">未發現已知問題。</block>
   <block id="5f2b8b9897b51974b3e829ddd4511e8e" category="paragraph">或者、請執行下列命令來升級版本：</block>
   <block id="014327995266184e82832bad8c943216" category="paragraph">對於 CentOS ：</block>
   <block id="21a26c88c032eccbe4aba03b7481511e" category="paragraph">對於 Debian ：</block>
@@ -1568,4 +1566,11 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="001d654c5d010b25a953ace0dce0f14d" category="list-text">修改記錄內容。</block>
   <block id="a35e5b3497716ca18010e0be265afb3b" category="list-text">執行此命令以修改每日記錄內容：</block>
   <block id="9060a638913c522309cdbab6919eef2b" category="list-text">執行此命令以修改每週記錄內容：</block>
+  <block id="f7168a4acbbbaa603715b2a0aeb4cea5" category="paragraph">NetApp Keystone STaaS 報告了下列已知問題。</block>
+  <block id="e83464ce8bd634efb1f099c956ec64a8" category="cell">已知問題</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">說明</block>
+  <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">因應措施</block>
+  <block id="05890055e47d7356b21b212f915e3d3b" category="paragraph">CSV 報告中 Keystone 資料的顯示不正確。</block>
+  <block id="cf57a91fb76a6fe323d7bc94294753a2" category="paragraph">如果 CSV 報告中的 *Account Name* 欄是從 *Capacity Trend* 標籤產生的、則會包含一個帳戶名稱、其中包含一個逗號<block ref="e1266d71c305ae3767d9d953acaf0aae" prefix=" " category="inline-code"></block>、 Keystone 資料在 CSV 報告中似乎放錯位置。</block>
+  <block id="7186d4f0f71f9b706a05940b8abcacd0" category="cell">問題說明</block>
 </blocks>
