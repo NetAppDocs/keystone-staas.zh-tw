@@ -17,10 +17,10 @@ sidebar:
       url: "/release-notes/whats-new.html"
     - title: 修正問題
       url: "/release-notes/fixed-issues.html"
-    - title: 已知限制
-      url: "/release-notes/known-limitations.html"
     - title: 已知問題
       url: "/release-notes/known-issues.html"
+    - title: 已知限制
+      url: "/release-notes/known-limitations.html"
   - title: 歡迎使用Keystone
     url: "/concepts/overview.html"
   - title: 設定及設定Keystone
@@ -51,62 +51,58 @@ sidebar:
       url: "/installation/upgrade.html"
     - title: 設定 Keystone 的 AutoSupport
       url: "/installation/asup-config.html"
+    - title: Keystone Collector 安全性
+      url: "/installation/security.html"
     - title: 收集以供計費的資料
       url: "/installation/data-collection.html"
-  - title: 檢視 Keystone 儀表板並管理訂閱
+  - title: Keystone 儀表板
     entries:
-    - title: 檢視 Active IQ Digital Advisor 上的 Keystone 儀表板
-      entries:
-      - title: Keystone 和 Digital Advisor 儀表板
-        url: "/integrations/keystone-aiq.html"
-      - title: 檢視使用詳細資料並產生報告
-        url: "/integrations/aiq-keystone-details.html"
-      - title: 訂閱索引標籤
-        url: "/integrations/subscriptions-tab.html"
-      - title: 目前使用量索引標籤
-        url: "/integrations/current-usage-tab.html"
-      - title: 容量趨勢索引標籤
-        url: "/integrations/capacity-trend-tab.html"
-      - title: Volume & Objects 標籤
-        url: "/integrations/volumes-objects-tab.html"
-      - title: 效能標籤
-        url: "/integrations/performance-tab.html"
-      - title: 資產索引標籤
-        url: "/integrations/assets-tab.html"
+    - title: 檢視 Keystone 儀表板
+      url: "/integrations/keystone-aiq.html"
+    - title: 檢視使用詳細資料並產生報告
+      url: "/integrations/aiq-keystone-details.html"
+    - title: 訂閱索引標籤
+      url: "/integrations/subscriptions-tab.html"
+    - title: 目前使用量索引標籤
+      url: "/integrations/current-usage-tab.html"
+    - title: 容量趨勢索引標籤
+      url: "/integrations/capacity-trend-tab.html"
+    - title: Volume & Objects 標籤
+      url: "/integrations/volumes-objects-tab.html"
+    - title: 效能標籤
+      url: "/integrations/performance-tab.html"
+    - title: 資產索引標籤
+      url: "/integrations/assets-tab.html"
     - title: 管理 BlueXP 的 Keystone 訂閱
       url: "/integrations/keystone-cm.html"
-  - title: 深入瞭解Keystone
+  - title: Keystone STaaS服務
     entries:
-    - title: 支援的儲存容量
-      url: "/concepts/supported-storage-capacity.html"
     - title: 指標與定義
       url: "/concepts/metrics.html"
-    - title: Keystone中支援的儲存設備
-      url: "/concepts/supported-storage-services.html"
-    - title: Keystone 中的服務層級
-      url: "/concepts/service-levels.html"
-    - title: 附加服務
-      entries:
-      - title: Keystone STaaS 中的附加服務
-        url: "/concepts/add-on.html"
-      - title: 資料分層
-        url: "/concepts/data-tiering.html"
-      - title: 進階資料保護
-        url: "/concepts/adp.html"
-      - title: 美國公民支援（USCS）
-        url: "/concepts/uscs.html"
-      - title: 不可回收、非揮發性元件及SnapLock 不符合要求
-        url: "/concepts/nrnvc.html"
-      - title: Keystone與Equinix
-        url: "/concepts/equinix.html"
-    - title: Keystone 訂閱服務第 1 版
-      url: "/subscription-services-v1.html"
-  - title: 深入瞭解服務層級
-    entries:
     - title: 服務品質
       url: "/concepts/qos.html"
-    - title: 服務層級的容量需求
+    - title: 支援的儲存設備
+      url: "/concepts/supported-storage-services.html"
+    - title: 支援的容量
+      url: "/concepts/supported-storage-capacity.html"
+    - title: 服務層級
+      url: "/concepts/service-levels.html"
+    - title: 支援的服務層級容量
       url: "/concepts/capacity-requirements.html"
+    - title: Keystone 訂閱服務第 1 版
+      url: "/subscription-services-v1.html"
+    - title: 附加服務
+      entries:
+      - title: 進階資料保護
+        url: "/concepts/adp.html"
+      - title: 資料分層
+        url: "/concepts/data-tiering.html"
+      - title: Equinix 提供的服務
+        url: "/concepts/equinix.html"
+      - title: 不可回收、非揮發性元件及SnapLock 不符合要求
+        url: "/concepts/nrnvc.html"
+      - title: 美國公民支援（USCS）
+        url: "/concepts/uscs.html"
   - title: 帳單
     entries:
     - title: Keystone定價
