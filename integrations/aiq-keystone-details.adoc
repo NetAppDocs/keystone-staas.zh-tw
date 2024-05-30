@@ -67,7 +67,7 @@ image:report_1.png["報告的 CSV"]
 
 NOTE: 如果您已訂閱單一服務層級或費率方案、您將無法看到不相容磁碟區的警示。
 
-image:alert-aiq-1.png["警示"]
+image:alert-aiq-2.png["警示"]
 
 如需AQO原則的相關資訊、請參閱 link:../concepts/qos.html["調適性QoS"]。
 

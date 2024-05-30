@@ -18,9 +18,9 @@ Keystone Collector 包含安全功能、可監控 Keystone 系統的效能和使
 
 Keystone Collector 的功能是以下列安全原則為基礎：
 
-* * 隱私權 * - Keystone Collector 會收集有限數量的資料、以執行使用量測和效能監控。如需詳細資訊、請參閱 link:../installation/data-collection.html["收集以供計費的資料"^]。。 link:../installation/configuration.html#limit-collection-of-private-data["移除私有資料"] 此選項預設為啟用、可遮罩及保護敏感資訊。
-* * Access*Keystone Collector 需要最低權限來監控儲存系統、如此可將安全風險降至最低、並防止對資料進行任何非預期的修改。這種方法符合最低權限原則、可強化受監控環境的整體安全狀態。
-* * Framework* - Keystone 在整個開發週期中使用安全的軟體開發架構、可降低風險、減少弱點、並保護系統免受潛在威脅。
+* * 依設計的隱私權 * - Keystone 收集器會收集最小資料、以執行使用量測和效能監控。如需詳細資訊、請參閱 link:data-collection.html["收集以供計費的資料"^]。。 link:configuration.html#limit-collection-of-private-data["移除私有資料"] 此選項預設為啟用、可遮罩及保護敏感資訊。
+* * 最低權限存取 * - Keystone Collector 需要最低權限來監控儲存系統、如此可將安全風險降至最低、並防止對資料進行任何非預期的修改。這種方法符合最低權限原則、可強化受監控環境的整體安全狀態。
+* * 安全軟體開發架構 * ： Keystone 在整個開發週期中使用安全的軟體開發架構、可降低風險、減少弱點、並保護系統免於潛在威脅。
 
 
 
@@ -31,19 +31,19 @@ Keystone Collector 的功能是以下列安全原則為基礎：
 
 * Keystone Collector 虛擬機器的作業系統：
 +
-** 符合 CIS Debian Linux 12 基準測試標準。在 Keystone Collector 管理軟體之外對作業系統組態進行任何變更、可能會降低系統安全性。如需詳細資訊、請參閱 link:https://learn.cisecurity.org/benchmarks["CIS 基準測試指南"]。
-** 自動接收及安裝 Keystone Collector 透過自動更新功能驗證的安全性修補程式。停用此功能可能會導致軟體弱點。
+** 符合 CIS Debian Linux 12 基準測試標準。在 Keystone Collector 管理軟體之外對作業系統組態進行任何變更、可能會降低系統安全性。如需詳細資訊、請參閱 link:https://learn.cisecurity.org/benchmarks["CIS 基準測試指南"^]。
+** 自動接收及安裝 Keystone Collector 透過自動更新功能驗證的安全性修補程式。停用此功能可能會導致未修補的易受影響軟體。
 ** 驗證從 Keystone Collector 收到的更新。停用 APT 儲存庫驗證可能會導致自動安裝未獲授權的修補程式、可能會造成弱點。
 
 
 * Keystone Collector 會自動驗證 HTTPS 憑證、以確保連線安全。停用此功能可能會導致模擬外部端點和使用量資料外洩。
-* Keystone Collector 支援 link:../installation/configuration.html#trust-a-custom-root-ca["自訂信任的 CA"] 認證：依預設、它會信任由可辨識的公共根 CA 所簽署的憑證 link:https://wiki.mozilla.org/CA["Mozilla CA 憑證程式"]。Keystone Collector 可啟用其他信任的 CA 、針對與呈現這些憑證的端點的連線、啟用 HTTPS 憑證驗證。
-* Keystone 收集器預設會啟用 * 移除私有資料 * 選項、以遮罩及保護敏感資訊。如需詳細資訊、請參閱 link:../installation/configuration.html#limit-collection-of-private-data["限制私有資料的收集"^]。停用此選項會導致其他資料傳輸至 Keystone 系統。例如、它可以包含使用者輸入的資訊、例如可能被視為敏感資訊的磁碟區名稱。
+* Keystone Collector 支援 link:configuration.html#trust-a-custom-root-ca["自訂信任的 CA"] 認證：依預設、它會信任由可辨識的公共根 CA 所簽署的憑證 link:https://wiki.mozilla.org/CA["Mozilla CA 憑證程式"^]。Keystone Collector 可啟用其他信任的 CA 、針對與呈現這些憑證的端點的連線、啟用 HTTPS 憑證驗證。
+* Keystone 收集器預設會啟用 * 移除私有資料 * 選項、以遮罩及保護敏感資訊。如需詳細資訊、請參閱 link:configuration.html#limit-collection-of-private-data["限制私有資料的收集"^]。停用此選項會導致其他資料傳輸至 Keystone 系統。例如、它可以包含使用者輸入的資訊、例如可能被視為敏感資訊的磁碟區名稱。
 
 
 *相關資訊*
 
-* link:../installation/installation-overview.html["Keystone Collector總覽"]
-* link:../installation/vapp-prereqs.html["虛擬化基礎架構需求"]
-* link:../installation/configuration.html["設定Keystone Collector"]
+* link:installation-overview.html["Keystone Collector總覽"]
+* link:vapp-prereqs.html["虛擬化基礎架構需求"]
+* link:configuration.html["設定Keystone Collector"]
 
