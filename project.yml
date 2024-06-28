@@ -21,40 +21,52 @@ sidebar:
       url: "/release-notes/known-issues.html"
     - title: 已知限制
       url: "/release-notes/known-limitations.html"
-  - title: 歡迎使用Keystone
-    url: "/concepts/overview.html"
+  - title: 深入瞭解Keystone
+    entries:
+    - title: 總覽
+      url: "/concepts/overview.html"
+    - title: Keystone基礎架構
+      url: "/concepts/infra.html"
+    - title: 元件
+      url: "/concepts/components.html"
+    - title: 資料流
+      url: "/concepts/data-flow.html"
+    - title: 營運模式
+      url: "/concepts/operational-models.html"
+    - title: Keystone收集器
+      url: "/installation/installation-overview.html"
   - title: 設定及設定Keystone
     entries:
-    - title: 什麼是Keystone Collector
-      url: "/installation/installation-overview.html"
-    - title: 準備您的系統
+    - title: 需求
       entries:
-      - title: VMware vSphere需求
+      - title: VMware vSphere
         url: "/installation/vapp-prereqs.html"
-      - title: Linux 需求
+      - title: Linux
         url: "/installation/linux-prereqs.html"
-      - title: ONTAP 與 StorageGRID 需求
+      - title: ONTAP 與 StorageGRID
         url: "/installation/addl-req.html"
     - title: 安裝 Keystone Collector
       entries:
-      - title: VMware vSphere部署
+      - title: 在 VMware vSphere 上部署
         url: "/installation/vapp-installation.html"
-      - title: Linux安裝
+      - title: 在 Linux 上安裝
         url: "/installation/linux-installation.html"
-      - title: 自動完整性驗證
+      - title: 驗證完整性
         url: "/installation/validation.html"
     - title: 設定Keystone Collector
       url: "/installation/configuration.html"
-    - title: 監控系統健全狀況
-      url: "/installation/monitor-health.html"
-    - title: 升級 Keystone Collector
-      url: "/installation/upgrade.html"
-    - title: 設定 Keystone 的 AutoSupport
+    - title: 設定AutoSupport 功能
       url: "/installation/asup-config.html"
     - title: Keystone Collector 安全性
       url: "/installation/security.html"
     - title: 收集以供計費的資料
       url: "/installation/data-collection.html"
+  - title: 監控與升級
+    entries:
+    - title: 監控系統健全狀況
+      url: "/installation/monitor-health.html"
+    - title: 升級 Keystone Collector
+      url: "/installation/upgrade.html"
   - title: Keystone 儀表板
     entries:
     - title: 檢視 Keystone 儀表板
@@ -117,16 +129,6 @@ sidebar:
       url: "/concepts/misc-volume-billing.html"
     - title: 帳單排程
       url: "/concepts/billing-schedules.html"
-  - title: 合作夥伴與客戶營運環境
-    url: "/concepts/operational-models.html"
-  - title: Keystone基礎架構
-    entries:
-    - title: 基礎架構詳細資料
-      url: "/concepts/infra.html"
-    - title: 元件
-      url: "/concepts/components.html"
-    - title: 資料流
-      url: "/concepts/data-flow.html"
   - title: NetApp全球服務支援中心
     url: "/concepts/gssc.html"
   - title: 法律聲明

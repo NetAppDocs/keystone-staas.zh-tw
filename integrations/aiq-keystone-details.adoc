@@ -14,7 +14,7 @@ summary: Keystone訂閱報告與圖表
 
 
 [role="lead"]
-您可以使用 Active IQ Digital Advisor （也稱為數位顧問）儀表板來檢視 Keystone 訂閱的詳細資料、監控容量使用量並產生報告。
+您可以使用數位顧問儀表板來檢視 Keystone 訂閱的詳細資料、監控容量使用量並產生報告。
 
 在訂購Keystone服務時、您可以在Digital Advisor儀表板上的* Keystone Subscriptions *（基礎概念訂閱）小工具上檢視訂閱與使用的詳細資料。
 

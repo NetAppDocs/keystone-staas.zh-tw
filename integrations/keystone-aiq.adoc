@@ -4,7 +4,7 @@ permalink: integrations/keystone-aiq.html
 keywords: Keystone, Digital Advisor, keystone-aiq, aiq 
 summary: Keystone與Digital Advisor 
 ---
-= 檢視 Active IQ Digital Advisor 上的 Keystone 儀表板
+= 檢視 Digital Advisor 上的 Keystone 儀表板
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -58,7 +58,7 @@ image:new-db-2.png["全新儀表板"]
 
 == 依 Keystone 觀察名單搜尋
 
-觀察名單是 Active IQ Digital Advisor （數位顧問）的一項功能。如需相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["瞭解觀察名單"^]。如需建立報價表的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["建立觀察名單"^]。
+報價表是一項功能性的 Digital Advisor 。如需相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["瞭解觀察名單"^]。如需建立報價表的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["建立觀察名單"^]。
 
 對於 Keystone STaas 、您可以為客戶或訂閱號碼建立報價表。您可以在 Digital Advisor 畫面上依報價表名稱進行搜尋。在依報價表搜尋時、您可以在 * 基礎概念訂閱 * 小工具的 * 訂閱 * 下拉式清單中檢視客戶及其訂閱內容。
 

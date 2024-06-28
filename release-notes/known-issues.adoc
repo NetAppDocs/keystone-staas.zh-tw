@@ -4,7 +4,7 @@ permalink: release-notes/known-issues.html
 keywords: netapp, keystone, release notes, known issues 
 summary: Keystone STaaS 的已知問題 
 ---
-= Keystone STaaS 的已知問題
+= 已知問題
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,45 +16,4 @@ summary: Keystone STaaS 的已知問題
 [role="lead"]
 已知問題指出可能會導致您無法有效使用 Keystone 訂閱服務的問題。
 
-NetApp Keystone STaaS 報告了下列已知問題。
-
-[cols="3*"]
-|===
-| 已知問題 | 說明 | 因應措施 
-
-
- a| 
-在 * 容量趨勢 * 索引標籤中、可顯示延伸資料以供單日選擇。
- a| 
-當從 *Capacity Trends* 標籤中的 *Capacity Trend* 選項中選擇對應於今天的日期作爲上個月的開始和結束日期時，使用圖表將顯示從選定開始日期到當前日期的期間的數據， 而非顯示指定單日期間的資料。
- a| 
-無
-
-
-
- a| 
-歷史累積突發資料無法用於服務層級。
- a| 
-* 容量趨勢 * 標籤中 * CVO 主要 * 和 * CVO 次要 * 服務層級的歷史累積突發使用資料、無法用於未設定 MetroCluster 組態的訂閱。
- a| 
-無
-
-
-
- a| 
-AutoSupport 訂閱的物件儲存耗用值顯示不正確。
- a| 
-如果 AutoSupport 遙測用於收集 Keystone 資料、則在檔案、區塊和物件服務的訂閱中、 * Volume Details* 標籤上列出的物件儲存耗用值會顯示不正確。
- a| 
-如需正確資訊、請參閱「 * 目前使用狀況 * 」標籤中提及的物件儲存耗用值。
-
-
-
- a| 
-無法在 *Assets * 標籤中檢視叢集層級資訊。
- a| 
-對於使用 MetroCluster 組態設定的 AutoSupport 訂閱、無法從 * 資產 * 索引標籤取得叢集層級的詳細資料。
- a| 
-無
-
-|===
+目前尚無已知問題。

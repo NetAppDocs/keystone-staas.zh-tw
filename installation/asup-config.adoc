@@ -31,7 +31,7 @@ summary: 設定 Keystone AutoSupport 的程序
 +
 [source]
 ----
-autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,nfs,performance,snapshot,platform,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,platform,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
 ----
 ** 執行此命令以修改每週記錄內容：
 +

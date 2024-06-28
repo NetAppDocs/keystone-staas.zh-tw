@@ -20,6 +20,20 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 
 
+== 2024 年 6 月 27 日
+
+
+
+=== 一致的訂閱顯示
+
+「 *Keystone Subscriptions * 」畫面會更新、以顯示所有標籤的所選訂閱編號。
+
+* 重新整理 *Keystone Subscriptions* 畫面中的任何標籤時、畫面會自動瀏覽至 *Subscriptions* 標籤、並將所有標籤重設為 *Subscription* 下拉式清單中列出的第一個訂閱。
+* 如果所選訂閱未訂閱效能指標、 * 效能 * 索引標籤會在導覽時顯示 * 訂閱 * 下拉式清單中列出的第一個訂閱。
+
+
+
+
 == 2024 年 5 月 29 日
 
 
@@ -35,7 +49,7 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 包含服務層級 * CVO Primary * 和 * CVO Secondary * 、可支援 Cloud Volumes ONTAP 、以支援具有零承諾容量的費率方案、或是設定為 Metro 叢集的方案。
 
 * 您可以從 *Keystone Subscriptions * Widget 的舊儀表板和 *Capacity Trend* 索引標籤、檢視這些服務層級的容量使用率圖表、也可以從 *Current Usage* 索引標籤檢視詳細的使用資訊。
-* 在 *Subscription* 標籤中、這些服務層級會顯示為 `CVO (v2)` 在 * 使用類型 * 欄中、允許根據這些服務層級來識別帳單。
+* 在 * 訂閱 * 索引標籤中、這些服務層級會顯示為 `CVO (v2)` 在 * 使用類型 * 欄中、允許根據這些服務層級來識別帳單。
 
 
 
@@ -116,9 +130,7 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 
 
-== 2024 年 2 月 29 日的新功能與增強功能
-
-Active IQ Digital Advisor （也稱為數位顧問）儀表板和 * 基礎概念訂閱 * 畫面已針對此版本進行多項增強：
+== 2024 年 2 月 29 日
 
 
 
@@ -178,10 +190,10 @@ Active IQ Digital Advisor （也稱為數位顧問）儀表板和 * 基礎概念
 
 === 能夠依觀察名單進行搜尋
 
-Active IQ Digital Advisor （也稱為數位顧問）中的報價表支援已延伸至包含 Keystone 系統。您現在可以使用報價表來搜尋多位客戶的訂閱詳細資料。如需 Keystone STaas 中使用報價表的詳細資訊、請參閱 link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["使用 Keystone 觀察名單進行搜尋"^]。
+Digital Advisor 中的報價表支援已延伸至 Keystone 系統。您現在可以使用報價表來搜尋多位客戶的訂閱詳細資料。如需 Keystone STaas 中使用報價表的詳細資訊、請參閱 link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["使用 Keystone 觀察名單進行搜尋"^]。
 
 
 
 === 轉換為 UTC 時區的日期
 
-Active IQ Digital Advisor * Keystone Subscriptions * 畫面上傳回的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時、系統會自動將其視為 UTC 時間。如需詳細資訊、請參閱 link:../integrations/aiq-keystone-details.html["Keystone訂閱儀表板與報告"^]。
+數位顧問 * Keystone Subscriptions * 畫面上傳回的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時、系統會自動將其視為 UTC 時間。如需詳細資訊、請參閱 link:../integrations/aiq-keystone-details.html["Keystone訂閱儀表板與報告"^]。
