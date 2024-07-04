@@ -1574,7 +1574,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="c14158742caa91eb4e1b6152329dc0fb" category="paragraph">Digital Advisor 提供完整的部署庫存層級資訊。另一方面、 Keystone 儀表板的 * 資產 * 索引標籤則會根據您的訂閱來累積叢集層級資訊、並將詳細資料的準確層級加以分隔。</block>
   <block id="d6807769eefb798524ae26e4e26e380c" category="paragraph"><block ref="d6807769eefb798524ae26e4e26e380c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="160de0b8ef29975a3bcc6e2e2b61c540" category="paragraph">您可以按一下切換按鈕 * 顯示目前使用量 * 、以檢視目前計費週期的使用量、突發使用量及累積突發資料。這些詳細資料並非以查詢的日期範圍為基礎。</block>
-  <block id="2ace5c82683c2f75d293a1427df222e4" category="list-text">*預提突發*：目前計費期間每月計算的預提突發用量或耗用容量指標。應計的突發使用量是根據服務層級的已確認和已用容量來計算：<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>。</block>
   <block id="a49bc4f8e609a4d43e0d9598bebd4bb5" category="doc">檢視 Digital Advisor 上的 Keystone 儀表板</block>
   <block id="3249e310d1f377e16af196e978621a35" category="paragraph">報價表是一項功能性的 Digital Advisor 。如需相關資訊、請參閱<block ref="5d023a7962c7eae7e0af56f6e7f92603" category="inline-link-rx"></block>。如需建立報價表的相關資訊、請參閱<block ref="2539846485ed670b4851c404ba8cd9b6" category="inline-link-rx"></block>。</block>
   <block id="47f8ab1b56fa7a9acaabc7ce6e4ffaab" category="paragraph">使用圖表會顯示超過指定單日期間的資料、當您從 * 容量趨勢 * 標籤的 * 容量趨勢 * 選項中、將對應於當日的日期同時選取為上個月的開始和結束日期時。</block>
@@ -1607,4 +1606,9 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="50b5338aa0479ca1598819ab1973293a" category="sidebar">驗證完整性</block>
   <block id="44ab8d5e0ce2a670c121bda2763e8fc5" category="sidebar">設定AutoSupport 功能</block>
   <block id="a01e404d73fc592bf41bd7912d6ca64d" category="sidebar">監控與升級</block>
+  <block id="2f50257d0127547c73c769d876826d6e" category="list-text">* 累積突發 * ：目前計費週期內每 2 分鐘間隔內累計的總突發量（以 TiB 為單位）指標。整個月的累積突發使用量計算方式如下：</block>
+  <block id="eee1e9815bd73636e7c7f4c13e558374" category="paragraph">[ 以月 / （（以月為單位） x 24 x 60 的爆發總和 ] x 時間間隔</block>
+  <block id="1388fb0841924e24456f6e804391dd9d" category="paragraph">您可以使用以下方法、計算短期的累積突發量、例如每兩分鐘一次：</block>
+  <block id="c5463aa7dfcc807ab1935c21fb07d1c5" category="paragraph">[burst / （（月數） x 24 x 60 ） ] x 間隔持續時間</block>
+  <block id="d7b378f896f44381b7e64ff2e954c2d4" category="paragraph">突發量是消耗容量與承諾容量之間的差異。例如、以每月 30 天為單位、如果使用容量達到 120 TiB 、且承諾容量為 100 TiB 、則會在 2 分鐘的時間間隔內產生 20 TiB 的突發容量、相當於該時間間隔內累積的突發使用量 0.000925926 TiB 。</block>
 </blocks>
