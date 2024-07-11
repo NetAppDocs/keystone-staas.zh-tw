@@ -21,7 +21,7 @@ summary: Keystone訂閱報告與圖表
 
 NOTE: 此處的資訊同時適用於 ONTAP 和 StorageGRID 。相關章節已指出例外情況。
 
-如需Keystone Digital Advisor小工具的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["透過NetApp Keystone 「View訂閱」檢視容量使用率"^]。
+若要深入瞭解 Keystone Digital Advisor Widget 、請參閱 https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["透過NetApp Keystone 「View訂閱」檢視容量使用率"^]。
 
 若要檢視 Keystone 訂閱和使用詳細資料、請執行下列步驟：
 
@@ -34,16 +34,16 @@ NOTE: 此處的資訊同時適用於 ONTAP 和 StorageGRID 。相關章節已指
 
 NOTE: Keystone 訂閱的容量使用量會顯示在儀表板和報告的 Tibs 中、並四捨五入至兩位小數位數。如果使用量低於0.01 TiB、則該值會顯示為0或 `No Usage`。這些畫面上的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時、系統會自動將其視為 UTC 時間。
 
-如需使用量計量的相關資訊、請參閱 link:../concepts/metrics.html#metrics-measurement["指標測量"]。如需Keystone中使用不同容量的相關資訊、請參閱 link:../concepts/supported-storage-capacity.html["支援的儲存容量"]。
+若要深入瞭解使用量標準、請 link:../concepts/metrics.html#metrics-measurement["指標測量"]參閱。如需 Keystone 中使用之不同容量的相關資訊，請參閱 link:../concepts/supported-storage-capacity.html["支援的儲存容量"]。
 
 下列連結提供每個索引標籤的詳細資訊：
 
 * link:../integrations/subscriptions-tab.html["訂閱"]
 * link:../integrations/current-usage-tab.html["目前使用量"]
-* link:../integrations/capacity-trend-tab.html["容量趨勢"]
+* link:../integrations/capacity-trend-tab.html["消費趨勢"]
 * link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
-* link:../integrations/performance-tab.html["效能"]
 * link:../integrations/assets-tab.html["資產"]
+* link:../integrations/performance-tab.html["效能"]
 
 
 
@@ -54,7 +54,7 @@ NOTE: Keystone 訂閱的容量使用量會顯示在儀表板和報告的 Tibs �
 
 這些詳細資料會以 CSV 格式產生、您可以儲存以供未來使用和比較。
 
-* 容量趨勢 * 標籤的範例報告、其中會轉換圖形資料：
+* 使用趨勢 * 標籤的範例報告、其中會轉換圖形資料：
 
 image:report_1.png["報告的 CSV"]
 
@@ -67,7 +67,7 @@ image:report_1.png["報告的 CSV"]
 
 NOTE: 如果您已訂閱單一服務層級或費率方案、您將無法看到不相容磁碟區的警示。
 
-image:alert-aiq-2.png["警示"]
+image:alert-aiq-3.png["警示"]
 
 如需AQO原則的相關資訊、請參閱 link:../concepts/qos.html["調適性QoS"]。
 

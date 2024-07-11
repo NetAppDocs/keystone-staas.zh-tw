@@ -21,11 +21,12 @@ Digital Advisor 提供完整的部署庫存層級資訊。另一方面、 Keysto
 .步驟
 . 按一下 * 一般 > 基礎概念訂閱 > 資產 * 。
 . 選取您要檢視叢集的訂閱編號。
-
-
++
 您可以查看叢集詳細資料、並依儲存效率設定、平台類型和容量詳細資料進行細分。按一下其中一個叢集、即可前往 Digital Advisor 畫面上的 * 叢集 * 小工具、取得該叢集的其他資訊。
 
-image:assets-tab-2.png["資產索引標籤"]
+
+
+image:assets-tab-3.png["資產索引標籤"]
 
 *相關資訊*
 
@@ -33,6 +34,6 @@ image:assets-tab-2.png["資產索引標籤"]
 * link:../integrations/subscriptions-tab.html["訂閱"]
 * link:../integrations/current-usage-tab.html["目前使用量"]
 * link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
-* link:../integrations/capacity-trend-tab.html["容量趨勢"]
+* link:../integrations/capacity-trend-tab.html["消費趨勢"]
 * link:../integrations/performance-tab.html["效能"]
 

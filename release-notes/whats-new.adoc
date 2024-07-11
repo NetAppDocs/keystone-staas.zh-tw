@@ -20,6 +20,22 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 
 
+== 2024 年 7 月 10 日
+
+
+
+=== 標籤修改
+
+標籤 * 目前使用量 * 會變更為 * 目前使用量 * 、而 * 容量趨勢 * 會變更為 * 使用量趨勢 * 。
+
+
+
+=== 訂閱搜尋列
+
+* 基礎概念訂閱 * 畫面中所有索引標籤的 * 訂閱 * 下拉式清單現在包含搜尋列。您可以搜尋 * 訂閱 * 下拉式清單中列出的特定訂閱。
+
+
+
 == 2024 年 6 月 27 日
 
 
@@ -174,7 +190,7 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 === 因累積突發而傳回的發票資料
 
-* 累積突發 * 的標籤現已修改為 * 容量趨勢 * 標籤中的 * 發票累積突發 * 。選取此選項可讓您檢視已計費之累積突發資料的每月圖表。如需詳細資訊、請參閱 link:../integrations/aiq-keystone-details.html#view-invoiced-accrued-burst["檢視已開發票的累積爆發"^]。
+* 累積突發 * 的標籤現已修改為 * 容量趨勢 * 標籤中的 * 發票累積突發 * 。選取此選項可讓您檢視已計費之累積突發資料的每月圖表。如需更多資訊、請參閱 link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["檢視已開發票的累積爆發"^]。
 
 
 
@@ -190,7 +206,7 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 === 能夠依觀察名單進行搜尋
 
-Digital Advisor 中的報價表支援已延伸至 Keystone 系統。您現在可以使用報價表來搜尋多位客戶的訂閱詳細資料。如需 Keystone STaas 中使用報價表的詳細資訊、請參閱 link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["使用 Keystone 觀察名單進行搜尋"^]。
+Digital Advisor 中的報價表支援已延伸至 Keystone 系統。您現在可以使用報價表來搜尋多位客戶的訂閱詳細資料。如需 Keystone STaas 中使用報價表的詳細資訊、請參閱 link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["依 Keystone 觀察名單搜尋"^]。
 
 
 

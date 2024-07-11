@@ -77,14 +77,14 @@ sidebar:
       url: "/integrations/subscriptions-tab.html"
     - title: 目前使用量索引標籤
       url: "/integrations/current-usage-tab.html"
-    - title: 容量趨勢索引標籤
+    - title: 使用量趨勢索引標籤
       url: "/integrations/capacity-trend-tab.html"
     - title: Volume & Objects 標籤
       url: "/integrations/volumes-objects-tab.html"
-    - title: 效能標籤
-      url: "/integrations/performance-tab.html"
     - title: 資產索引標籤
       url: "/integrations/assets-tab.html"
+    - title: 效能標籤
+      url: "/integrations/performance-tab.html"
     - title: 管理 BlueXP 的 Keystone 訂閱
       url: "/integrations/keystone-cm.html"
   - title: Keystone STaaS服務

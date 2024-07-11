@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/current-usage-tab.html 
-keywords: keystone-aiq, digital advisor keystone, current usage tab 
+keywords: keystone-aiq, digital advisor keystone, current consumption tab 
 summary: AIQ DA Keystone 儀表板上的目前使用量索引標籤 
 ---
 = 目前使用量索引標籤
@@ -14,7 +14,7 @@ summary: AIQ DA Keystone 儀表板上的目前使用量索引標籤
 
 
 [role="lead"]
-「 * 目前使用狀況 * 」標籤會顯示您訂閱的使用詳細資料。
+「 * 目前使用量 * 」標籤會顯示您訂閱的使用詳細資料。
 
 若要檢視此索引標籤、請從左側瀏覽窗格移至 * 一般 > 基礎概念訂閱 > 目前使用量 * 、然後選取所需的訂閱號碼。
 
@@ -27,14 +27,14 @@ TIP: 。 image:icon-info.png["資訊圖示"] 每一欄旁邊的圖示提供該�
 
 如需Keystone儲存服務和相關服務層級的相關資訊、請參閱 link:../concepts/service-levels.html["Keystone中的服務層級"]。
 
-搭配目前的使用量、您可能會想要檢視歷史使用量資料以進行比較。按一下 * 檢視歷史資料 * 按鈕、瀏覽至 * 容量趨勢 * 標籤、以檢視相同訂閱的歷史資料。
+搭配目前使用量、您可能會想要檢視歷史使用量資料以進行比較。按一下 * 檢視歷史資料 * 按鈕、瀏覽至 * 使用趨勢 * 標籤、以檢視相同訂閱的歷史資料。
 
 *相關資訊*
 
 * link:../integrations/aiq-keystone-details.html["使用 Keystone 儀表板和報告"]
 * link:../integrations/subscriptions-tab.html["訂閱"]
-* link:../integrations/capacity-trend-tab.html["容量趨勢"]
+* link:../integrations/capacity-trend-tab.html["消費趨勢"]
 * link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
-* link:../integrations/performance-tab.html["效能"]
 * link:../integrations/assets-tab.html["資產索引標籤"]
+* link:../integrations/performance-tab.html["效能"]
 

@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/capacity-trend-tab.html 
-keywords: keystone-aiq, digital advisor keystone, capacity trend tab, historical usage, accrued burst, accrued, consumption 
-summary: Keystone Subscription 儀表板上的容量趨勢索引標籤 
+keywords: keystone-aiq, digital advisor keystone, consumption trend tab, historical usage, accrued burst, accrued, consumption 
+summary: 基礎概念訂閱儀表板上的使用量趨勢索引標籤 
 ---
-= 容量趨勢索引標籤
+= 使用量趨勢索引標籤
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,21 +14,21 @@ summary: Keystone Subscription 儀表板上的容量趨勢索引標籤
 
 
 [role="lead"]
-「 * 容量趨勢 * 」索引標籤會顯示您在特定期間內 Keystone 訂閱的歷史資料。
+「 * 使用量趨勢 * 」標籤會顯示您在特定期間內 Keystone 訂閱的歷史資料。
 
 垂直圖表會顯示所選時間範圍的使用詳細資料、並提供適當的指標、供您比較和產生報告。
 
 .步驟
-. 按一下 * 一般 > 基礎概念訂閱 > 容量趨勢 * 。
+. 按一下 * 一般 > 基礎概念訂閱 > 使用趨勢 * 。
 . 選取您要檢視其詳細資料的必要訂閱。您帳戶名稱中的第一個訂閱依預設為選取狀態。
-. 如果您要檢視歷史資料並分析容量使用趨勢、請選取 * 容量趨勢 * 。如果您想要檢視已產生發票的歷史突發量使用資料、請選取 * 發票累計突發 * 。您可以使用此資料來分析發票上的帳單使用量。
+. 如果您想要檢視歷史資料並分析容量使用趨勢、請選取 * 使用趨勢 * 。如果您想要檢視已產生發票的歷史突發量使用資料、請選取 * 發票累計突發 * 。您可以使用此資料來分析發票上的帳單使用量。
 
 
 
 
-== 檢視容量趨勢
+== 檢視消費趨勢
 
-如果您已選取 * 容量趨勢 * 選項、請遵循下列步驟：
+如果您選擇了 * 使用趨勢 * 選項、請遵循下列步驟：
 
 .步驟
 . 從*開始日期*和*結束日期*欄位的行事曆圖示中選取時間範圍。選取查詢的日期範圍。日期範圍可以是月份的開始日期、或是訂閱開始日期到目前日期或訂閱結束日期。您無法選擇未來日期。
@@ -97,7 +97,7 @@ NOTE: 空白圖表表示您的環境在該資料收集點沒有可用的資料�
 
 TIP: 發票預提暴增使用量是根據服務層級的已提交和使用容量、根據每個計費週期計算。
 
-image:accr-burst.png["累積的突發使用圖表"]
+image:accr-burst-1.png["累積的突發使用圖表"]
 
 此功能可在僅預覽模式中使用。請聯絡您的 KSM 以深入瞭解此功能。
 
@@ -105,7 +105,7 @@ image:accr-burst.png["累積的突發使用圖表"]
 
 == 進階資料保護的參考圖表
 
-如果您已訂閱進階資料保護附加服務、您可以在 * 容量趨勢 * 索引標籤上檢視 MetroCluster 合作夥伴網站的使用資料分佈。
+如果您已訂閱進階資料保護附加服務、您可以在「 * 使用趨勢 * 」標籤上檢視 MetroCluster 合作夥伴網站的使用資料分佈。
 
 如需進階資料保護附加服務的相關資訊、請參閱 link:../concepts/adp.html["進階資料保護"]。
 
@@ -115,31 +115,31 @@ image:accr-burst.png["累積的突發使用圖表"]
 NOTE: 消費橫條圖只會分割為基本服務層級。對於進階資料保護附加服務（即 _ 進階資料保護 _ 服務層級）、此標界不會出現。
 
 .進階資料保護服務層級
-對於 _ 進階資料保護 _ 服務層級、總使用量會在合作夥伴網站之間分割、而每個合作夥伴網站的使用量會以個別訂閱方式反映並計費、一次是主要網站訂閱、另一次則是鏡射網站訂閱。因此、當您在 * 容量趨勢 * 標籤上選取主要站台的訂閱號碼時、進階資料保護附加服務的使用率圖表只會顯示主要站台的個別使用量詳細資料。由於 MetroCluster 組態中的每個合作夥伴站台都會做為來源站台和鏡射站台、因此每個站台的總使用量都會包含在該站台建立的來源磁碟區和鏡射磁碟區。
+對於 _ 進階資料保護 _ 服務層級、總使用量會在合作夥伴網站之間分割、而每個合作夥伴網站的使用量會以個別訂閱方式反映並計費、一次是主要網站訂閱、另一次則是鏡射網站訂閱。因此、當您在「 * 使用趨勢 * 」標籤上選取主要站台的訂閱號碼時、進階資料保護附加服務的使用率圖表只會顯示主要站台的個別使用量詳細資料。由於 MetroCluster 組態中的每個合作夥伴站台都會做為來源站台和鏡射站台、因此每個站台的總使用量都會包含在該站台建立的來源磁碟區和鏡射磁碟區。
 
 
-TIP: 在「 * 目前使用狀況 * 」標籤中、訂閱追蹤 ID 旁的工具提示可協助您識別 MetroCluster 設定中的合作夥伴訂閱。
+TIP: 在「 * 目前使用量 * 」標籤中、訂閱追蹤 ID 旁的工具提示可協助您識別 MetroCluster 設定中的合作夥伴訂閱。
 
 .基礎服務層級
 對於基礎服務層級、每個磁碟區都會依照主要站台和鏡射站台的資源配置來收費、因此相同的長條圖會根據主要站台和鏡射站台的使用量來分割。
 
 .主要訂閱內容
-下圖顯示 _ 極致 _ 服務層級（基本服務層級）和主要訂閱號碼的圖表。相同的歷史資料圖表也會指出鏡射站台使用量、其陰影較淺、與主要站台使用的相同顏色代碼相同。滑鼠游標上的工具提示會顯示主要站台和鏡射站台分別為 1.02 TiB 和 1.05 TiB 的使用量分佈（在 TiB 中）。
+下圖顯示 _ 極致 _ 服務層級（基本服務層級）和主要訂閱號碼的圖表。相同的歷史資料圖表也會指出鏡射站台使用量、其陰影較淺、與主要站台使用的相同顏色代碼相同。滑鼠游標上的工具提示會顯示主要站台和鏡射站台分別為 22.24 TiB 和 14.86 TiB 的使用量分佈（在 TiB 中）。
 
-image:mcc-chart.png["MCC 主要"]
+image:mcc-chart-1.png["MCC 主要"]
 
 對於 _ 進階資料保護 _ 服務層級、圖表如下所示：
 
-image:adp-src.png["MCC 主要基礎"]
+image:adp-src-1.png["MCC 主要基礎"]
 
 .次要（鏡射網站）訂閱內容
-當您檢查次要訂閱時、您會看到合作夥伴網站在同一個資料收集點的 _Extreme 服務層級（基礎服務層級）橫條圖反轉、而主要和鏡射網站的使用量分別為 1.05 TiB 和 1.02 TiB 。
+當您檢查次要訂閱時、您會看到合作夥伴網站在同一個資料收集點的 _Extreme 服務層級（基礎服務層級）橫條圖反轉、而主要和鏡射網站的使用量分別為 14.86 TiB 和 22.24 TiB 。
 
-image:mcc-chart-mirror.png["MCC 鏡射"]
+image:mcc-chart-mirror-1.png["MCC 鏡射"]
 
 對於 _ 進階資料保護 _ 服務層級、此圖表與合作夥伴網站上的相同集合點會顯示如下：
 
-image:adp-mir.png["MCC 鏡射基礎"]
+image:adp-mir-1.png["MCC 鏡射基礎"]
 
 如需 MetroCluster 如何保護資料的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["瞭MetroCluster 解資料保護與災難恢復"^]。
 
@@ -149,6 +149,6 @@ image:adp-mir.png["MCC 鏡射基礎"]
 * link:../integrations/subscriptions-tab.html["訂閱"]
 * link:../integrations/current-usage-tab.html["目前使用量"]
 * link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
-* link:../integrations/performance-tab.html["效能"]
 * link:../integrations/assets-tab.html["資產"]
+* link:../integrations/performance-tab.html["效能"]
 
