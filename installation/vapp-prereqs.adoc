@@ -194,6 +194,9 @@ Webserver、提供ONTAP 韌體更新功能
 
 |===
 
+NOTE: 在全新安裝 Unified Manager 期間、 MySQL 的預設連接埠 3306 僅限於 localhost 、這會阻止 Keystone Collector 收集效能指標。如需更多資訊、請參閱 link:addl-req.html["需求 ONTAP"]。
+
+
 
 === URL存取
 

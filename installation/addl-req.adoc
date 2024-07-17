@@ -38,6 +38,10 @@ summary: Keystone統一化管理程式先決條件
 .. 使用安裝期間產生的預設應用程式管理員使用者認證、登入Unified Manager Web UI。請參閱 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["存取Unified Manager Web UI"^]。
 .. 建立Keystone Collector的服務帳戶 `Operator` 使用者角色：Keystone Collector服務API使用此服務帳戶與Unified Manager通訊、並收集使用資料。請參閱 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html["新增使用者"^]。
 .. 建立 `Database` 使用者帳戶 `Report Schema` 角色：此使用者是收集效能資料的必要使用者。請參閱 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html["建立資料庫使用者"^]。
++
+
+NOTE: 在全新安裝 Unified Manager 期間、 MySQL 的預設連接埠 3306 僅限於 localhost 、這會阻止 Keystone ONTAP 收集效能資料。您可以修改此組態、並使用 Unified Manager 維護主控台的選項、讓其他主機可以使用此連線 `Control access to MySQL port 3306` 。如需相關資訊，請參閱 link:https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_additional_menu_options.html["其他功能表選項"^]。
+
 
 
 . 在Unified Manager中啟用API閘道。Keystone Collector利用API閘道功能與ONTAP 各種叢集進行通訊。您可以從Web UI或透過Unified Manager CLI執行幾個命令來啟用API閘道。

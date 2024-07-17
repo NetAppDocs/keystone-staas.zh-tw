@@ -1452,7 +1452,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="555fdd5c5952939fd3a2e87f3c0202cc" category="section-title">從 Volume Details 標籤存取物件儲存詳細資料</block>
   <block id="29117909372d41a783c58a54504dc882" category="paragraph">「 * 磁碟區與物件 * 」標籤中的「 * 磁碟區詳細資料 * 」標籤現在提供物件儲存詳細資料、以及包含檔案與物件服務層級的訂閱數量資訊。您可以按一下 * Volume Details* 標籤中的 * 物件儲存詳細資料 * 按鈕來檢視詳細資料。</block>
   <block id="d1460394a13760c5650d62f6d4fd88e4" category="list-text">* QoS 警告 * ：您的磁碟區沒有指派 AQO 原則。</block>
-  <block id="85348b428bc0994aa230ffb67e5ed22d" category="paragraph"><block ref="85348b428bc0994aa230ffb67e5ed22d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d3b1babefaddbc8aaa22a17b8869a426" category="list-text">在 * 基礎概念訂閱 * 小工具上、按一下 * 檢視所有訂閱 * 、即可在 * 基礎概念訂閱 * 頁面上檢視您磁碟區上的使用詳細資料和警示。或者、請從左側導覽窗格移至*一般&gt;基礎概念訂閱*。
 每個服務層級的訂閱詳細資料、使用圖表及磁碟區詳細資料、會顯示在「*基礎概念訂閱*」畫面上的不同索引標籤中。</block>
   <block id="13e7adb1be14d277e7a4fb6ecf5d048c" category="paragraph"><block ref="13e7adb1be14d277e7a4fb6ecf5d048c" category="inline-image-macro-rx" type="image"></block></block>
@@ -1520,7 +1519,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="a8242ba7a4a7f15ad320c0c336f0f541" category="paragraph">NetApp Keystone STaaS 提供兩種服務交付作業模式：合作夥伴營運模式和客戶營運模式。</block>
   <block id="2fe25ef49287108f9097618ddff98a05" category="paragraph">您可以使用數位顧問儀表板來檢視 Keystone 訂閱的詳細資料、監控容量使用量並產生報告。</block>
   <block id="c14158742caa91eb4e1b6152329dc0fb" category="paragraph">Digital Advisor 提供完整的部署庫存層級資訊。另一方面、 Keystone 儀表板的 * 資產 * 索引標籤則會根據您的訂閱來累積叢集層級資訊、並將詳細資料的準確層級加以分隔。</block>
-  <block id="d6807769eefb798524ae26e4e26e380c" category="paragraph"><block ref="d6807769eefb798524ae26e4e26e380c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="160de0b8ef29975a3bcc6e2e2b61c540" category="paragraph">您可以按一下切換按鈕 * 顯示目前使用量 * 、以檢視目前計費週期的使用量、突發使用量及累積突發資料。這些詳細資料並非以查詢的日期範圍為基礎。</block>
   <block id="a49bc4f8e609a4d43e0d9598bebd4bb5" category="doc">檢視 Digital Advisor 上的 Keystone 儀表板</block>
   <block id="3249e310d1f377e16af196e978621a35" category="paragraph">報價表是一項功能性的 Digital Advisor 。如需相關資訊、請參閱<block ref="5d023a7962c7eae7e0af56f6e7f92603" category="inline-link-rx"></block>。如需建立報價表的相關資訊、請參閱<block ref="2539846485ed670b4851c404ba8cd9b6" category="inline-link-rx"></block>。</block>
@@ -1588,7 +1586,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="113a7f7a3800ecc0ca2650ec55f2fc4d" category="doc">目前使用量索引標籤</block>
   <block id="2e6c192f3d1b980937c51968eb5c620d" category="paragraph">「 * 目前使用量 * 」標籤會顯示您訂閱的使用詳細資料。</block>
   <block id="28f032b01b5c18fd69fa59635c9b79b2" category="paragraph">若要檢視此索引標籤、請從左側瀏覽窗格移至 * 一般 &gt; 基礎概念訂閱 &gt; 目前使用量 * 、然後選取所需的訂閱號碼。</block>
-  <block id="e6e48947a0a84d4c75379d3ad849a802" category="paragraph"><block ref="e6e48947a0a84d4c75379d3ad849a802" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2f92de04a3d2869fe0cf56db40e54a0a" category="paragraph">搭配目前使用量、您可能會想要檢視歷史使用量資料以進行比較。按一下 * 檢視歷史資料 * 按鈕、瀏覽至 * 使用趨勢 * 標籤、以檢視相同訂閱的歷史資料。</block>
   <block id="c2d175fdd558b3470a3010058a7c94ab" category="paragraph"><block ref="c2d175fdd558b3470a3010058a7c94ab" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0f9ac035eb1ca017e76913bac1e0a516" category="paragraph"><block ref="0f9ac035eb1ca017e76913bac1e0a516" category="inline-image-macro-rx" type="image"></block></block>
@@ -1621,4 +1618,11 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="df56284dfb684f79b8cd68b6256e8808" category="paragraph">* 基礎概念訂閱 * 畫面中所有索引標籤的 * 訂閱 * 下拉式清單現在包含搜尋列。您可以搜尋 * 訂閱 * 下拉式清單中列出的特定訂閱。</block>
   <block id="1bb4f4215b4cfc16e3a95f61314a8ded" category="paragraph">* 累積突發 * 的標籤現已修改為 * 容量趨勢 * 標籤中的 * 發票累積突發 * 。選取此選項可讓您檢視已計費之累積突發資料的每月圖表。如需更多資訊、請參閱 <block ref="b9f581509f4f5c092d1e1e258ec0cc04" category="inline-link-macro-rx"></block>。</block>
   <block id="322b7c203883b5f1e51c48d947e1cb4d" category="paragraph">Digital Advisor 中的報價表支援已延伸至 Keystone 系統。您現在可以使用報價表來搜尋多位客戶的訂閱詳細資料。如需 Keystone STaas 中使用報價表的詳細資訊、請參閱 <block ref="bd6c55fabca71f10e9c92f78aa84686b" category="inline-link-macro-rx"></block>。</block>
+  <block id="1b6bc3125f482fcbcf029c833aea1290" category="inline-link-macro">需求 ONTAP</block>
+  <block id="479449c6cb6b88b7c379b1672435686c" category="admonition">在全新安裝 Unified Manager 期間、 MySQL 的預設連接埠 3306 僅限於 localhost 、這會阻止 Keystone Collector 收集效能指標。如需更多資訊、請參閱 <block ref="997798a1af398517058dc0d935faaa2c" category="inline-link-macro-rx"></block>。</block>
+  <block id="1b1d9e9b28e55ae75dd476a860b48088" category="inline-link-macro">其他功能表選項</block>
+  <block id="915546b63309e4afc31cc6f77934d3f4" category="admonition">在全新安裝 Unified Manager 期間、 MySQL 的預設連接埠 3306 僅限於 localhost 、這會阻止 Keystone ONTAP 收集效能資料。您可以修改此組態、並使用 Unified Manager 維護主控台的選項、讓其他主機可以使用此連線<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> 。如需相關資訊，請參閱 <block ref="df7524dc87f6643f2fa76eb53a86ec87" category="inline-link-macro-rx"></block>。</block>
+  <block id="f693bd6f9d65926fbf70950854618f50" category="paragraph"><block ref="f693bd6f9d65926fbf70950854618f50" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="82417085e656251b41cd76814fd5b48a" category="paragraph"><block ref="82417085e656251b41cd76814fd5b48a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f4927a3debc365e92273fa3de8985ec2" category="paragraph"><block ref="f4927a3debc365e92273fa3de8985ec2" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
