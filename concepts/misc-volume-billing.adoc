@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/misc-volume-billing.html 
 keywords: Billing and miscellaneous scenarios 
-summary: 根據雜項Volume類型進行收費 
+summary: 瞭解特定組態的 Keystone 帳單、包括複製的磁碟區、進階資料保護等。 
 ---
 = Keystone計費的其他案例
 :hardbreaks:
@@ -12,6 +12,9 @@ summary: 根據雜項Volume類型進行收費
 :linkattrs: 
 :imagesdir: ../media/
 
+
+[role="lead"]
+瞭解特定組態的 Keystone 帳單、有助於最佳化服務使用率及管理成本。案例包括複製的磁碟區、進階資料保護、暫存磁碟區、 QoS 原則、 SnapMirror 目的地、 LUN 和系統 / 根磁碟區。
 
 
 
@@ -30,14 +33,14 @@ summary: 根據雜項Volume類型進行收費
 
 == 進階資料保護計費
 
-進階資料保護功能使用 NetApp MetroCluster 功能、在兩個實體分隔的叢集之間鏡射資料。對於鏡射式集合體、資料會在每個叢集上寫入兩次。MetroClusterKeystone服務會獨立收取每一端的使用費用、因此會產生兩個相同的使用記錄。附加費用會套用至訂閱中的所有容量、無論資料是位於來源、或是鏡射或無鏡射的資料。
+進階資料保護使用 NetApp MetroCluster 在兩個實體分隔的叢集之間鏡射資料。對於鏡射式集合體、資料會在每個叢集上寫入兩次。MetroClusterKeystone服務會獨立收取每一端的使用費用、因此會產生兩個相同的使用記錄。附加費用會套用至訂閱中的所有容量、無論資料是位於來源、或是鏡射或無鏡射的資料。
 
 如果您透過ONTAP 《系統管理程式》（System Manager）或Active IQ Unified Manager 《統一化管理程式》（Unified Manager）監控叢集、您可能會發現這些工具和Keystone上報告的使用量差異。System Manager和Unified Manager不會在鏡射（遠端）叢集上報告磁碟區、因此會報告Keystone服務報告的使用量數據一半。
 
 .範例：
 站台A和站台B是MetroCluster 以不一樣的組態設定。當使用者在站台 A 中建立 10TB 的磁碟區時、站台 B 會建立相同的 10TB 磁碟區Keystone可識別每個站台的10TB使用量、總計增加20TB。System Manager 和 Unified Manager 會回報站台 A 建立的 10TB Volume 、但不會回報站台 B 中的 10TB Volume
 
-此外、在具有進階資料保護的Keystone系統上建立的所有磁碟區、都會被計入進階資料保護的使用量、無論這些磁碟區是否為鏡射。
+此外、在具有進階資料保護功能的 Keystone 系統上建立的所有磁碟區、都會計入進階資料保護的使用量、無論這些磁碟區是否已鏡射。
 
 
 

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/subscriptions-tab.html 
 keywords: keystone-aiq, digital advisor keystone, subscriptions-tab 
-summary: AIQ DA Keystone 儀表板上的訂閱索引標籤 
+summary: 若要深入瞭解您的 Keystone 訂閱、您可以從「訂閱」索引標籤檢視所有訂閱的清單。 
 ---
-= 訂閱索引標籤
+= 檢視您訂閱的詳細資料
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: AIQ DA Keystone 儀表板上的訂閱索引標籤
 
 
 [role="lead"]
-您可以在 * 訂閱 * 索引標籤中檢視所有訂閱的清單。
+若要深入瞭解您的 Keystone 訂閱、您可以從 * Subscriptions * 標籤檢視所有訂閱的清單。
 
 若要檢視此索引標籤、請從左側瀏覽窗格移至 * 一般 > 基礎概念訂閱 > 訂閱 * 。您的所有訂閱都會列出。
 

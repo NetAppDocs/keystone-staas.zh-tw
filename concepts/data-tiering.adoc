@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/data-tiering.html 
 keywords: add-on services, add-on, data tiering 
-summary: 附加元件、額外服務詳細資料、資料分層 
+summary: 資料分層附加服務可識別使用頻率較低的資料、並將其分層至支援的儲存設備。 
 ---
-= 資料分層
+= 瞭解資料分層
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

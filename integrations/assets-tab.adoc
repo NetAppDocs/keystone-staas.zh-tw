@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/assets-tab.html 
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab 
-summary: Keystone訂閱報告與圖表 
+summary: 使用「資產」索引標籤可檢視由 Keystone 訂閱管理的叢集和節點詳細資料。 
 ---
-= 資產索引標籤
+= 檢視 Keystone 管理的叢集和節點詳細資料
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystone訂閱報告與圖表
 
 
 [role="lead"]
-使用 * 資產 * 索引標籤、收集您對由 Keystone 訂閱管理的叢集和節點的看法。
+使用 * 資產 * 索引標籤可檢視 Keystone 訂閱所管理叢集和節點的詳細資料。
 
 Digital Advisor 提供完整的部署庫存層級資訊。另一方面、 Keystone 儀表板的 * 資產 * 索引標籤則會根據您的訂閱來累積叢集層級資訊、並將詳細資料的準確層級加以分隔。
 

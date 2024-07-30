@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/configuration.html 
 keywords: configuration keystone collector 
-summary: 基礎概念收集器的組態 
+summary: 完整組態可讓 Keystone Collector 在您的儲存環境中收集使用資料。 
 ---
 = 設定Keystone Collector
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 基礎概念收集器的組態
 
 
 [role="lead"]
-您需要完成幾項組態工作、才能讓Keystone Collector在儲存環境中收集使用資料。這是一次性活動、可啟動所需的收集器元件、並將其與您的儲存環境建立關聯。
+您需要完成幾項組態工作、才能讓Keystone Collector在儲存環境中收集使用資料。這是一次性活動、可啟動所需元件、並將其與儲存環境建立關聯。
 
 
 NOTE: Keystone Collector 提供 Keystone Collector Management 終端機使用者介面（ TUI ）公用程式、可執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。
@@ -66,7 +66,7 @@ Collector軟體支援使用HTTP Proxy與網際網路通訊。這可在TUI中設�
 
 == 限制私有資料的收集
 
-Keystone Collector會收集執行訂閱計量所需的有限組態、狀態和效能資訊。您可以選擇進一步限制所收集的資訊、方法是從上傳的內容中遮罩敏感資訊。這不會影響計費計算。不過、限制資訊可能會影響報告資訊的使用性、因為使用者可以輕易識別的部分元素（例如Volume名稱）會被UID取代。
+Keystone Collector 會收集執行訂閱計量所需的有限組態、狀態和效能資訊。您可以選擇進一步限制所收集的資訊、方法是從上傳的內容中遮罩敏感資訊。這不會影響計費計算。不過、限制資訊可能會影響報告資訊的使用性、因為使用者可以輕易識別的部分元素（例如Volume名稱）會被UID取代。
 
 在Keystone Collector TUI畫面上、限制特定客戶資料的收集是可設定的選項。此選項*移除私有資料*預設為啟用。
 

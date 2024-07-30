@@ -27,19 +27,19 @@ sidebar:
       url: "/concepts/overview.html"
     - title: Keystone基礎架構
       url: "/concepts/infra.html"
+    - title: Keystone收集器
+      url: "/installation/installation-overview.html"
     - title: 元件
       url: "/concepts/components.html"
     - title: 資料流
       url: "/concepts/data-flow.html"
     - title: 營運模式
       url: "/concepts/operational-models.html"
-    - title: Keystone收集器
-      url: "/installation/installation-overview.html"
   - title: 設定及設定Keystone
     entries:
     - title: 需求
       entries:
-      - title: VMware vSphere
+      - title: 虛擬化基礎架構
         url: "/installation/vapp-prereqs.html"
       - title: Linux
         url: "/installation/linux-prereqs.html"
@@ -51,7 +51,7 @@ sidebar:
         url: "/installation/vapp-installation.html"
       - title: 在 Linux 上安裝
         url: "/installation/linux-installation.html"
-      - title: 驗證完整性
+      - title: Keystone 軟體的自動驗證
         url: "/installation/validation.html"
     - title: 設定Keystone Collector
       url: "/installation/configuration.html"
@@ -63,13 +63,13 @@ sidebar:
       url: "/installation/data-collection.html"
   - title: 監控與升級
     entries:
-    - title: 監控系統健全狀況
+    - title: 監控 Keystone Collector 健全狀況
       url: "/installation/monitor-health.html"
     - title: 升級 Keystone Collector
       url: "/installation/upgrade.html"
   - title: Keystone 儀表板
     entries:
-    - title: 檢視 Keystone 儀表板
+    - title: Keystone 儀表板總覽
       url: "/integrations/keystone-aiq.html"
     - title: 檢視使用詳細資料並產生報告
       url: "/integrations/aiq-keystone-details.html"
@@ -85,13 +85,13 @@ sidebar:
       url: "/integrations/assets-tab.html"
     - title: 效能標籤
       url: "/integrations/performance-tab.html"
-    - title: 管理 BlueXP 的 Keystone 訂閱
+    - title: 瞭解 Keystone 和 BlueXP
       url: "/integrations/keystone-cm.html"
   - title: Keystone STaaS服務
     entries:
     - title: 指標與定義
       url: "/concepts/metrics.html"
-    - title: 服務品質
+    - title: 儲存服務品質
       url: "/concepts/qos.html"
     - title: 支援的儲存設備
       url: "/concepts/supported-storage-services.html"
@@ -99,7 +99,7 @@ sidebar:
       url: "/concepts/supported-storage-capacity.html"
     - title: 服務層級
       url: "/concepts/service-levels.html"
-    - title: 支援的服務層級容量
+    - title: 服務層級的容量需求
       url: "/concepts/capacity-requirements.html"
     - title: Keystone 訂閱服務第 1 版
       url: "/subscription-services-v1.html"
@@ -111,7 +111,7 @@ sidebar:
         url: "/concepts/data-tiering.html"
       - title: Equinix 提供的服務
         url: "/concepts/equinix.html"
-      - title: 不可回收、非揮發性元件及SnapLock 不符合要求
+      - title: 不可退回、非揮發性元件、以及 SnapLock 法規遵循
         url: "/concepts/nrnvc.html"
       - title: 美國公民支援（USCS）
         url: "/concepts/uscs.html"
@@ -125,11 +125,11 @@ sidebar:
       url: "/concepts/consumed-capacity-billing.html"
     - title: 根據尖峰使用量進行計費
       url: "/concepts/burst-consumption-billing.html"
-    - title: 根據雜項Volume類型進行收費
+    - title: Keystone計費的其他案例
       url: "/concepts/misc-volume-billing.html"
     - title: 帳單排程
       url: "/concepts/billing-schedules.html"
-  - title: NetApp全球服務支援中心
+  - title: 取得 Keystone 的說明
     url: "/concepts/gssc.html"
   - title: 法律聲明
     url: "/legal-notices.html"

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/service-levels.html 
 keywords: service levels, service level, rate plan or service level 
-summary: 支援的服務層級 
+summary: Keystone STaaS 可在預先定義的服務層級提供儲存容量。由 Keystone 管理的每個磁碟區都與服務層級相關聯。 
 ---
 = Keystone 中的服務層級
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 支援的服務層級
 
 
 [role="lead"]
-Keystone STaaS可在訂購的基礎上、以預先定義的效能服務層級（服務層級）提供資料儲存容量。由Keystone服務管理的每個Volume都與服務層級相關聯。
+Keystone STaaS 可在預先定義的效能服務層級提供資料儲存容量。由 Keystone 服務管理的每個 Volume 都會與服務層級相關聯。
 
 訂閱可以有多個費率方案、每個費率方案對應一個服務層級。每個費率計畫都有每個服務層級的已認可容量。
 

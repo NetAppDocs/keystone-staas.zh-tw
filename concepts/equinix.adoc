@@ -4,7 +4,7 @@ permalink: concepts/equinix.html
 keywords: netapp, keystone, Equinix 
 summary: Keystone與Equinix 
 ---
-= Keystone代管服務採用Equinix技術
+= 瞭解 Equinix 提供的代管服務
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystone與Equinix
 
 
 [role="lead"]
-NetApp已與Equinix合作、在NetApp Keystone Equinix資料中心內代管應用不穩定的STaaas服務、確保為您提供統一化的解決方案。
+為了提供完整堆疊式解決方案即服務、 NetApp 與 Equinix 合作、在 Equinix 資料中心代管 NetApp Keystone STaaas 服務。
 
 由 Equinix 提供的 Keystone 代管（ Co-Lo ）服務、與標準 Keystone 服務方案保持不變。
 
@@ -25,7 +25,7 @@ NetApp已與Equinix合作、在NetApp Keystone Equinix資料中心內代管應�
 * 這些服務在 11 個國家 / 地區的資料中心提供支援。
 
 
-Equinix的資料中心位於以下位置：
+Equinix 在以下位置設有資料中心：
 
 |===
 | 資料中心 | 國家/地區 

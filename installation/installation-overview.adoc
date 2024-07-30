@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: installation/installation-overview.html 
 keywords: installation, Keystone Collector 
-summary: 什麼是Keystone Collector 
+summary: Keystone Collector 是您在站台上安裝在 VMware vSphere 或 Linux 主機上的 NetApp 軟體。它會收集 Keystone 系統的使用資料。 
 ---
-= Keystone Collector總覽
+= 瞭解 Keystone Collector
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,15 +14,11 @@ summary: 什麼是Keystone Collector
 
 
 [role="lead"]
-若要使用Keystone服務並檢視使用資料、您應該在站台的VMware vSphere或Linux系統上安裝Keystone Collector。
+Keystone Collector_ 是您安裝在站台上 VMware vSphere 或 Linux 主機上的 NetApp 軟體、可存取 Keystone 服務。它會收集 Keystone 系統的使用資料。
 
+Keystone Collector 是 Keystone 計費平台的使用量取得元件。它利用 Active IQ Unified Manager 和其他應用程式連線至 ONTAP 和 StorageGRID 系統、收集使用所需的中繼資料、以及 Keystone 訂閱的 SLA 效能計量。它可讓您監控系統健全狀況、同時傳送帳單資料以供報告。
 
-NOTE: Keystone Collector 代表收集 Keystone 系統使用資料的標準方法。如果您的環境不支援 Keystone 收集器、您可以向 Keystone 產品管理尋求授權、以使用 AutoSupport 遙測機制作為替代方案。如需 AutoSupport 的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^]。如需設定 AutoSupport for Keystone 的相關資訊、請參閱 link:../installation/asup-config.html["設定 Keystone 的 AutoSupport"]。
-
-Keystone Collector是Keystone計費平台的使用量採購元件、可利用Active IQ Unified Manager VMware和其他應用程式連線ONTAP 至VMware和StorageGRID VMware系統、收集Keystone訂閱的使用量和SLA效能計量所需的中繼資料。它可讓您監控系統健全狀況、同時傳送帳單資料以供報告。
-
-
-NOTE: 此處提供的安裝與組態資訊適用於ONTAP 供應器的版本StorageGRID 。要求和程序對ONTAP 整個過程而言均屬通用、StorageGRID 但有一些例外。
+Keystone Collector 代表收集 Keystone 系統使用資料的標準方法。如果您的環境不支援 Keystone 收集器、您可以向 Keystone 產品管理尋求授權、以使用 AutoSupport 遙測機制作為替代方案。如需 AutoSupport 的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^]。如需設定 AutoSupport for Keystone 的相關資訊、請參閱 link:../installation/asup-config.html["設定 Keystone 的 AutoSupport"]。
 
 此架構圖表概述典型Keystone環境中的組成元件及其連線能力。
 

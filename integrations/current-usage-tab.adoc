@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/current-usage-tab.html 
 keywords: keystone-aiq, digital advisor keystone, current consumption tab 
-summary: AIQ DA Keystone 儀表板上的目前使用量索引標籤 
+summary: 若要瞭解您的訂閱使用率、您可以檢視已承諾容量、已用容量、可用容量等。 
 ---
-= 目前使用量索引標籤
+= 檢視您訂閱的目前使用量
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: AIQ DA Keystone 儀表板上的目前使用量索引標籤
 
 
 [role="lead"]
-「 * 目前使用量 * 」標籤會顯示您訂閱的使用詳細資料。
+若要瞭解您的訂閱使用量、您可以檢視使用詳細資料、例如承諾容量、消耗容量、可用容量等。
 
 若要檢視此索引標籤、請從左側瀏覽窗格移至 * 一般 > 基礎概念訂閱 > 目前使用量 * 、然後選取所需的訂閱號碼。
 

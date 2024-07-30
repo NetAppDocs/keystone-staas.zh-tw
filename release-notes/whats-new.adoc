@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: release-notes/whats-new.html 
 keywords: 'new features, release notes, enhancements, what"s new' 
-summary: Keystone STaaS 新功能與增強功能。 
+summary: NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功能。 
 ---
 = Keystone STaas 的新功能
 :hardbreaks:

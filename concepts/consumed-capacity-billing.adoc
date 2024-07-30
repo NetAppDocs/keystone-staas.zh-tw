@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/consumed-capacity-billing.html 
 keywords: consumed capacity billing, billing and consumed capacity 
-summary: 根據消耗容量進行計費 
+summary: 消耗容量是工作負載在服務使用期間實際使用的容量。 
 ---
 = 根據耗用容量進行計量
 :hardbreaks:
@@ -14,9 +14,8 @@ summary: 根據消耗容量進行計費
 
 
 [role="lead"]
-Keystone STaaS會根據您在服務使用期間所耗用的容量進行計量。
+Keystone STaaS會根據您在服務使用期間所耗用的容量進行計量。耗用容量是工作負載實際使用的容量。
 
-承諾容量是指在購買訂閱時、針對特定服務層級所承諾的容量。耗用容量是工作負載實際使用的容量。
 作爲Keystone服務部署的一部分，NetApp會持續監控和衡量服務的使用量。每五分鐘至少一次、系統會產生一筆使用記錄、詳述您訂閱的目前使用容量。這些記錄會在計費期間內彙總、以產生發票和使用報告。
 
 如需Keystone支援的不同容量資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone中支援的儲存容量"]。

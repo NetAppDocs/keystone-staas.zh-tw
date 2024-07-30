@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/capacity-trend-tab.html 
 keywords: keystone-aiq, digital advisor keystone, consumption trend tab, historical usage, accrued burst, accrued, consumption 
-summary: 基礎概念訂閱儀表板上的使用量趨勢索引標籤 
+summary: 為了協助您監控訂閱使用率、您可以檢視特定期間的 Keystone 訂閱歷史資料。 
 ---
-= 使用量趨勢索引標籤
+= 檢視消費趨勢
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 基礎概念訂閱儀表板上的使用量趨勢索引標籤
 
 
 [role="lead"]
-「 * 使用量趨勢 * 」標籤會顯示您在特定期間內 Keystone 訂閱的歷史資料。
+為了協助您監控訂閱使用率、您可以檢視特定期間的 Keystone 訂閱歷史資料。
 
 垂直圖表會顯示所選時間範圍的使用詳細資料、並提供適當的指標、供您比較和產生報告。
 

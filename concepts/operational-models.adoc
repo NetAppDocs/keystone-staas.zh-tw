@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/operational-models.html 
 keywords: Operational models, partner operations, customer operations, roles and responsibilities, r&r 
-summary: Keystone中的運作模式 
+summary: NetApp Keystone STaaS 提供兩種服務交付作業模式。開始使用 Keystone 之前、您應該先瞭解這些選項。 
 ---
 = Keystone中的運作模式
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Keystone中的運作模式
 
 
 [role="lead"]
-NetApp Keystone STaaS 提供兩種服務交付作業模式：合作夥伴營運模式和客戶營運模式。
+NetApp Keystone STaaS 提供兩種服務交付作業模式：合作夥伴營運模式和客戶營運模式。開始使用 Keystone 之前、您應該先瞭解這些選項。
 
 * *合作夥伴營運模式*：合作夥伴或服務供應商為終端客戶提供服務。對於NetApp而言、合作夥伴是相關的合約方。租戶是合作夥伴的客戶、與NetApp並無計費關係。合作夥伴經營的模式具有多租戶環境、租戶和終端客戶/租戶都有自己的訂閱、由合作夥伴支付。合作夥伴管理員會為所有租戶執行管理工作。
 * *客戶營運模式*：身為客戶、您可以根據所選的服務層級和儲存設備、訂閱Keystone服務。NetApp定義了架構和產品、並在您的內部部署Keystone。您需要透過儲存設備和IT資源來管理基礎架構。身為客戶、您是NetApp或合作夥伴/服務供應商的租戶或子租戶。根據您的合約、您可以提出服務要求、由NetApp或您的服務供應商處理。端點的系統管理員可以在您的站台（環境）執行系統管理工作。這些工作與您環境中的使用者有關。

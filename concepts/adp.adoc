@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/adp.html 
 keywords: data protection advanced 
-summary: 進階資料保護 
+summary: 使用進階資料保護附加服務、確保關鍵任務工作負載的資料保護效率。 
 ---
-= 進階資料保護
+= 瞭解進階資料保護功能
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 進階資料保護
 
 
 [role="lead"]
-您可以訂閱進階資料保護附加服務、作為 Keystone STaaS 訂閱的一部分。這項附加服務運用NetApp MetroCluster 的技術、確保在0恢復點目標（RPO）為您的關鍵任務工作負載提供高效率的資料保護。
+您可以訂閱進階資料保護附加服務、作為 Keystone STaaS 訂閱的一部分。這項附加服務運用 NetApp MetroCluster 技術、確保在 0 的恢復點目標（ RPO ）上、有效保護關鍵任務工作負載的資料。
 
 
 NOTE: Keystone STaaS檔案與區塊儲存標準服務可運用NetApp技術提供預設的資料保護服務、例如SnapMirror、SnapVault SnapMirror和Snapshot。

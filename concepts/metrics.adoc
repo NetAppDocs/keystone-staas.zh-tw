@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/metrics.html 
 keywords: metrics, GiB, IOPS, latency, durability 
-summary: Keystone服務的度量計算與定義 
+summary: NetApp Keystone STaaS 服務使用數個詞彙來衡量指標。使用 Keystone 時、您可能會想要深入瞭解這些字詞。 
 ---
-= Keystone服務中使用的度量和定義
+= Keystone 中使用的度量和定義
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,9 @@ summary: Keystone服務的度量計算與定義
 
 
 [role="lead"]
-下列詞彙與定義用於NetApp Keystone 《不完整（基礎概念）》（Keystone）STaaS服務、以測量數據：
+NetApp Keystone STaaS 服務使用數個詞彙來衡量指標。使用 Keystone 時、您可能會想要深入瞭解這些字詞。
+
+Keystone STaaS 服務中會使用下列術語和定義來衡量指標：
 
 * 容量測量單位：Gib、TiB和PIB
 * IO密度：IOPS/TiB：每秒處理的輸入/輸出作業數、以工作負載所耗用的總空間為單位（以TB為單位）。

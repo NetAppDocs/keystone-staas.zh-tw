@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/linux-installation.html 
 keywords: Linux installation Keystone, Linux Collector installation 
-summary: 在Linux上安裝Keystone收集器 
+summary: 從 YUM 軟體儲存庫安裝 Keystone Collector 軟體。 
 ---
 = 在 Linux 系統上安裝 Keystone Collector
 :hardbreaks:

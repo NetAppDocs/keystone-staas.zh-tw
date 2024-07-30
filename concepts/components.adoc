@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/components.html 
 keywords: infrastructure component, deployment requirement, installation requirement 
-summary: 基礎架構元件 
+summary: 瞭解在您的環境中啟用 NetApp Keystone STaaS 服務所需的元件。 
 ---
-= 用於部署的元件
+= 部署所需的元件
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 基礎架構元件
 
 
 [role="lead"]
-本節列出在NetApp Keystone 您的環境中啟用IaaS服務所需的元件。
+在您的環境中啟用 NetApp Keystone STaaS 服務需要幾個元件。開始之前、您應該先檢閱這些元件的詳細資料。
 
 
 
@@ -56,13 +56,13 @@ NetApp 可根據最終組態和需求、提供散熱需求規格（一般 BTU �
 
 === 儲存虛擬機器
 
-部署 Keystone Collector 和 AIOP 解決方案閘道時、需要儲存虛擬機器（儲存 VM ）。安裝 Keystone Collector 的必要條件可在這裡取得： link:../installation/installation-overview.html["Keystone Collector 安裝指南"]。其他需求則在部署期間共用。
+部署 Keystone Collector 和 AIOP 解決方案閘道時、需要儲存虛擬機器（儲存 VM ）。安裝 Keystone Collector 的先決條件可在此取得 link:../installation/installation-overview.html["Keystone Collector 安裝指南"]：。其他需求則在部署期間共用。
 
 
 
 === 部署選項
 
-Keystone Collector可透過下列方法進行部署：
+Keystone Collector 可透過下列方法部署：
 
 * VMware OVA範本（需要VMware vCenter Server 6.7或更新版本）
 * 客戶提供 Red Hat Enterprise Linux 7 或 8 或 CentOS 7 Linux 伺服器。Keystone 軟體是透過安裝 `.rpm` 安裝程序。

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/gssc.html 
 keywords: Global Services Support Center, GSSC, Keystone support, service request, support ticket 
-summary: NetApp全球服務支援中心GSSC 
+summary: 如果您需要協助、請聯絡 NetApp 全球服務與支援中心。 
 ---
-= NetApp全球服務支援中心
+= 取得 Keystone 的說明
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,11 +14,11 @@ summary: NetApp全球服務支援中心GSSC
 
 
 [role="lead"]
-NetApp 全球服務與支援中心（ GSSC ）和 NetApp Keystone 成功經理（ KSM ）負責為 Keystone 訂閱提供服務。
+NetApp 全球服務與支援中心（ GSSC ）和 NetApp Keystone 成功經理（ KSM ）負責為 Keystone 訂閱提供服務。如果您需要協助、可以聯絡支援團隊。
 
 
 
-== NetApp 全球服務與支援中心（ GSSC ）
+== NetApp 全球服務與支援中心
 
 NetApp 可遠端為 NetApp Keystone 客戶提供營運服務。這些服務涵蓋各種儲存管理活動的營運領域。這些服務包括資產與組態管理、容量與效能管理、變更管理、事件、事件與問題管理、服務要求履行及報告。NetApp 會視需要示範控管狀態和佐證證。
 
@@ -26,7 +26,7 @@ NetApp 可遠端為 NetApp Keystone 客戶提供營運服務。這些服務涵�
 
 == 其他資訊與支援聯絡人
 
-NetApp全球服務與支援中心（GSSC）團隊主要支援NetApp Keystone 服務給客戶。您可以使用下列資訊聯絡支援團隊。
+NetApp 全球服務與支援中心團隊主要支援 NetApp Keystone 客戶的服務。您可以使用下列資訊聯絡支援團隊。
 
 * 全球服務聯絡人：
 https://www.netapp.com/company/contact-us/support/[]
@@ -47,7 +47,7 @@ NOTE: 在合作夥伴營運模式中、租戶和租戶的服務要求會指派�
 
 == GSSC監控
 
-NetApp全球服務與支援中心（GSSC）可監控您產品和訂閱服務的健全狀況、提供遠端支援、並與Keystone Success Manager合作。所有監控相關Keystone訂購訂單相關產品的人員、均為美國公民土壤。
+NetApp 全球服務與支援中心可監控您產品和訂閱服務的健全狀況、提供遠端支援、並與 Keystone 成功經理合作。所有監控與相關 Keystone 訂閱訂單相關產品的人員均為美國 美國公民在美國境內營運。
 
 .Keystone成功管理程式
 Keystone Success Manager （ KSM ）會與您密切合作、提供 Keystone 服務、並在每週或每月帳單和營運報告上更新您的資訊。職責請詳列NetApp Keystone 於您的《個人資訊協議》中。

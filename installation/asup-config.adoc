@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/asup-config.html 
 keywords: ASUP, AutoSupport configuration 
-summary: 設定 Keystone AutoSupport 的程序 
+summary: 將 AutoSupport 設定為將 Keystone 資料整合至 ONTAP 叢集所傳送的每日支援套件組合中。 
 ---
 = 設定 Keystone 的 AutoSupport
 :hardbreaks:

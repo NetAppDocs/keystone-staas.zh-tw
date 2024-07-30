@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/performance-tab.html 
 keywords: keystone-aiq, digital advisor keystone, performance tab 
-summary: Keystone Subscription AIQ DA 儀表板上的效能標籤 
+summary: 若要監控系統效能、您可以檢視 Keystone 訂閱所管理的 ONTAP 磁碟區效能計量。 
 ---
-= 效能標籤
+= 檢視效能指標
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystone Subscription AIQ DA 儀表板上的效能標籤
 
 
 [role="lead"]
-「 * 效能 * 」標籤可讓您檢視 Keystone 訂閱所管理的 ONTAP 磁碟區效能指標。
+若要監控系統效能、您可以檢視 Keystone 訂閱所管理的 ONTAP 磁碟區效能計量。
 
 
 TIP: 您也可以選擇使用此索引標籤。請聯絡支援部門以檢視此標籤。

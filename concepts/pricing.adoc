@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/pricing.html 
 keywords: pricing, billing introduction, Keystone billing 
-summary: Keystone定價 
+summary: Keystone 提供隨成長付費模式、滿足您靈活且可擴充的消費需求。 
 ---
 = Keystone定價
 :hardbreaks:
@@ -14,9 +14,7 @@ summary: Keystone定價
 
 
 [role="lead"]
-利用NetApp技術、您可以針對儲存訂閱進行可預測的預先定價NetApp Keystone 。
-
-如果您偏好營運支出（營運支出）消費模式、而非資本支出（資本支出）或租賃模式、您可以選擇Keystone隨成長付費模式、以因應靈活且可擴充的消費需求。
+如果您偏好營運支出（ OpEx ）消費模式、而非資本支出（ CapEx ）或租賃、您可以選擇 NetApp Keystone STaaS 隨成長付費模式、此模式可為您的儲存訂閱提供靈活且可擴充的消費方式、並提供可預測的前期定價。
 
 Keystone提供您下列帳單管理功能：
 

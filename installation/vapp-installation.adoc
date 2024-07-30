@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/vapp-installation.html 
 keywords: install, VMware 
-summary: 在VMware系統上安裝Keystone收集器 
+summary: 下載 OVA 範本、部署範本等、在 VMware vSphere 系統上部署 Keystone Collector 。 
 ---
 = 在VMware vSphere系統上部署Keystone Collector
 :hardbreaks:

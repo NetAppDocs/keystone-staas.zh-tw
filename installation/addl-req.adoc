@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/addl-req.html 
 keywords: keystone unified manager prerequisites, aiqum config keystone 
-summary: Keystone統一化管理程式先決條件 
+summary: 開始使用 Keystone 之前、您必須確保 ONTAP 叢集和 StorageGRID 系統符合數項需求。 
 ---
 = ONTAP 與 StorageGRID 的需求
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Keystone統一化管理程式先決條件
 
 
 [role="lead"]
-您應該完成ONTAP 一些其他的先決條件、以利執行功能和StorageGRID 功能。除了Linux/VMware vSphere系統需求、請確定您已完成這些特定先決條件。按一下所需的索引標籤以深入瞭解。
+開始使用 Keystone 之前、您必須確保 ONTAP 叢集和 StorageGRID 系統符合數項需求。
 
 [role="tabbed-block"]
 ====

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/volumes-objects-tab.html 
 keywords: keystone-aiq, digital advisor keystone, volumes-objects-tab, StorageGRID objects details, ONTAP volumes 
-summary: Volumes 物件索引標籤 
+summary: 在磁碟區或物件儲存層級檢視容量詳細資料。 
 ---
-= Volume & Objects 標籤
+= 檢視 ONTAP 磁碟區和物件儲存的詳細資料
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Volumes 物件索引標籤
 
 
 [role="lead"]
-使用 * Volume & Objects* 標籤檢視 ONTAP Volume 和物件儲存的詳細資料。對於 StorageGRID 、您可以使用此索引標籤讀取物件儲存環境中個別節點的使用量。
+如果您想在 Volume 或物件儲存層級檢視容量詳細資料、可以瀏覽至 * Volume & Objects* 。對於 StorageGRID 、您可以使用此索引標籤讀取物件儲存環境中個別節點的使用量。
 
 
 NOTE: 此索引標籤的標題會因您站台的部署性質而異。如果您同時擁有 ONTAP 和物件儲存空間、索引標籤的標題會顯示為 * Volume & Objects* 。只有 ONTAP 會顯示名稱 * Volumes * 。對於 StorageGRID 物件儲存、您可以看到 * 物件 * 索引標籤。
@@ -35,7 +35,7 @@ NOTE: 在 *Volumes （卷） * 選項卡下， *Objects* 子選項卡不可用�
 . 按一下 * 一般 > 基礎概念訂閱 > 磁碟區與物件 > 磁碟區摘要 * 。
 . 選取訂閱編號。
 +
-對於所選的 Keystone STaas 訂閱、您可以查看所有這些磁碟區的磁碟區總數、其 AQO 法規遵循狀態、受保護磁碟區數、以及已提交、已使用和可用容量總計。如果您按一下不相容或受保護的磁碟區數量、它會帶您前往「 * 磁碟區詳細資料 * 」索引標籤、您可以在其中檢視篩選清單、根據您的選擇顯示不相容的磁碟區或受保護的磁碟區。
+對於所選的 Keystone STaaS 訂閱、您可以查看所有這些磁碟區的磁碟區總數、其 QoS 法規遵循狀態、受保護磁碟區數、以及已提交、已使用和可用容量總計。如果您按一下不相容或受保護的磁碟區數量、它會帶您前往「 * 磁碟區詳細資料 * 」索引標籤、您可以在其中檢視篩選清單、根據您的選擇顯示不相容的磁碟區或受保護的磁碟區。
 
 +
 image:volume-summary-2.png["Volume Summary （ Volume 摘要）標籤"]

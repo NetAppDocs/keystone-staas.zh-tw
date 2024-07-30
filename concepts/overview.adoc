@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/overview.html 
 keywords: learn about keystone, keystone introduction, keystone, STaaS, service, offering, overview 
-summary: 歡迎使用Keystone 
+summary: Keystone 是一種隨成長付費的訂閱型服務模式、適合偏好營運成本消費模式、而非前期資本支出或租賃模式的企業。 
 ---
 = 深入瞭解NetApp Keystone
 :hardbreaks:
