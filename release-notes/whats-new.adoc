@@ -70,9 +70,9 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 
 
-=== 放大功能可提供微爆發洞見
+=== 用於短期突發的放大功能
 
-「 * 容量趨勢 * 」標籤現在包含放大功能、可在使用圖表中檢視短期突波（稱為微突波）的詳細資料。如需詳細資訊、請參閱 link:../integrations/capacity-trend-tab.html["容量趨勢索引標籤"^]。
+「 * 容量趨勢 * 」標籤現在包含放大功能、可檢視使用圖表中短期突發的詳細資料。如需更多資訊、請參閱 link:../integrations/capacity-trend-tab.html["容量趨勢索引標籤"^]。
 
 
 

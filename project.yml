@@ -115,6 +115,16 @@ sidebar:
         url: "/concepts/nrnvc.html"
       - title: 美國公民支援（USCS）
         url: "/concepts/uscs.html"
+  - title: Keystone STaaS SLA
+    entries:
+    - title: 可用度
+      url: "/concepts/sla-availability.html"
+    - title: 效能
+      url: "/concepts/sla-performance.html"
+    - title: 永續性
+      url: "/concepts/sla-sustainability.html"
+    - title: 勒索軟體恢復保證
+      url: "/concepts/sla-ransomware.html"
   - title: 帳單
     entries:
     - title: Keystone定價

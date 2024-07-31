@@ -1098,7 +1098,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="f4c8dae91522d3ec93e26aff56248527" category="list-text">從*開始日期*和*結束日期*欄位的行事曆圖示中選取時間範圍。選取查詢的日期範圍。日期範圍可以是月份的開始日期、或是訂閱開始日期到目前日期或訂閱結束日期。您無法選擇未來日期。</block>
   <block id="9a1db55a20b384661303cf6789a6fed8" category="list-text">按一下*檢視詳細資料*。每個服務層級的訂閱歷史使用量資料會根據所選時間範圍顯示。</block>
   <block id="5c0d50dc2c715b658984931c688519eb" category="paragraph">長條圖會顯示服務層級名稱、以及日期範圍內該服務層級所耗用的容量。集合的日期和時間會顯示在圖表底部。根據查詢的日期範圍、使用圖表會顯示在 30 個資料收集點範圍內。您可以將滑鼠游標移至圖表上方、以檢視該資料收集點的已提交、已使用、突發量及突發量限制資料上方的使用量明細。</block>
-  <block id="85c7c9dc88496ccb44926915d526201d" category="inline-image-macro">容量趨勢索引標籤、內含詳細資料</block>
   <block id="f8eaf321d70fdf3e9d097bb407d56130" category="paragraph">長條圖中的下列色彩代表服務層級中定義的耗用容量。圖表中的每月資料會以垂直線分隔。</block>
   <block id="952c204f277570032cf6454e003c63da" category="inline-image-macro">累積的突發使用圖表</block>
   <block id="36234decc68306d26e71012f98474aa1" category="paragraph">此功能可在僅預覽模式中使用。請聯絡您的 KSM 以深入瞭解此功能。</block>
@@ -1402,8 +1401,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="09202d1f550debc90536918fe48073d2" category="section-title">新增服務層級</block>
   <block id="698a24cda3201383036fa310a4f6dcdc" category="paragraph">包含服務層級 * CVO Primary * 和 * CVO Secondary * 、可支援 Cloud Volumes ONTAP 、以支援具有零承諾容量的費率方案、或是設定為 Metro 叢集的方案。</block>
   <block id="b4a4e7fcb0047788c24de350740273e2" category="list-text">您可以從 *Keystone Subscriptions * Widget 的舊儀表板和 *Capacity Trend* 索引標籤、檢視這些服務層級的容量使用率圖表、也可以從 *Current Usage* 索引標籤檢視詳細的使用資訊。</block>
-  <block id="997bfb6646529389b763e6cabd21c37a" category="section-title">放大功能可提供微爆發洞見</block>
-  <block id="c93882722f26936f556f483ae7c22259" category="paragraph">「 * 容量趨勢 * 」標籤現在包含放大功能、可在使用圖表中檢視短期突波（稱為微突波）的詳細資料。如需詳細資訊、請參閱 <block ref="45b36c44a7c4fb4ef2168b619f60755c" category="inline-link-macro-rx"></block>。</block>
   <block id="6c48d999111838f1ba95a5cf4091e681" category="section-title">增強訂閱顯示</block>
   <block id="f5bd7be5a51d8e07eec34f2c9ddb662a" category="section-title">強化的累積突發顯示</block>
   <block id="f42805586acc16ac661193d0d72e676a" category="paragraph">將游標暫留在「 * 容量趨勢 * 」標籤中的容量使用長條圖上時所出現的工具提示、現在會根據已認可的容量、顯示累積突發量的類型。它會區分預提量與發票預提量、顯示 * 預提使用量 * 與 * 發票預提使用量 * 、用於零承諾容量費率方案的訂閱、以及 * 預提突發 * 與 * 發票預提突發 * 、用於非零承諾容量的訂閱。</block>
@@ -1411,7 +1408,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="b45b03a249b5f6cfa9e1cc559ba79e40" category="section-title">2024 年 2 月 13 日</block>
   <block id="b06c73c3805ce52954e13f27b28cb072" category="section-title">2024 年 1 月 11 日</block>
   <block id="6171bdf5841e2bfa70f97036e02d1f44" category="section-title">2023 年 12 月 15 日</block>
-  <block id="c3d408e303aadca10fcde3732cec0448" category="paragraph">您可以使用放大功能來檢視使用圖表中的短期突波、也就是所謂的微突波。當微脈衝存在時、會在對應的長條上以藍點表示、如果沒有使用任何資料、則會直接在 x 軸上顯示。若要檢視詳細資料、請按住藍色點所在的長條圖或 x 軸、然後將游標拖曳到圖表上以選取所需的時間間隔、然後放開以確認您的選擇。此動作會放大資料、提供所選時間間隔內該服務層級所使用容量的詳細檢視。您可以進一步放大以檢視詳細資料、縮短至 2 分鐘的時間間隔。您可以按一下 * 重設縮放 * 按鈕、返回原始圖表檢視。</block>
   <block id="8a19ac37aa90f4bbe7f16a2f7767bbcd" category="list-text">* 依設計的隱私權 * - Keystone 收集器會收集最小資料、以執行使用量測和效能監控。如需詳細資訊、請參閱 <block ref="d45e4cc5f7d31c567a5a7e94087cf357" category="inline-link-macro-rx"></block>。。 <block ref="056e2bf20fc58bf3ad9e840fe1ebc39f" category="inline-link-macro-rx"></block> 此選項預設為啟用、可遮罩及保護敏感資訊。</block>
   <block id="252857c59cbe54ddba7bda3d2d19b7a3" category="list-text">* 最低權限存取 * - Keystone Collector 需要最低權限來監控儲存系統、如此可將安全風險降至最低、並防止對資料進行任何非預期的修改。這種方法符合最低權限原則、可強化受監控環境的整體安全狀態。</block>
   <block id="8f14f42f9cacaaf485cd3e478fca2ae7" category="list-text">* 安全軟體開發架構 * ： Keystone 在整個開發週期中使用安全的軟體開發架構、可降低風險、減少弱點、並保護系統免於潛在威脅。</block>
@@ -1518,7 +1514,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="479449c6cb6b88b7c379b1672435686c" category="admonition">在全新安裝 Unified Manager 期間、 MySQL 的預設連接埠 3306 僅限於 localhost 、這會阻止 Keystone Collector 收集效能指標。如需更多資訊、請參閱 <block ref="997798a1af398517058dc0d935faaa2c" category="inline-link-macro-rx"></block>。</block>
   <block id="1b1d9e9b28e55ae75dd476a860b48088" category="inline-link-macro">其他功能表選項</block>
   <block id="915546b63309e4afc31cc6f77934d3f4" category="admonition">在全新安裝 Unified Manager 期間、 MySQL 的預設連接埠 3306 僅限於 localhost 、這會阻止 Keystone ONTAP 收集效能資料。您可以修改此組態、並使用 Unified Manager 維護主控台的選項、讓其他主機可以使用此連線<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> 。如需相關資訊，請參閱 <block ref="df7524dc87f6643f2fa76eb53a86ec87" category="inline-link-macro-rx"></block>。</block>
-  <block id="f693bd6f9d65926fbf70950854618f50" category="paragraph"><block ref="f693bd6f9d65926fbf70950854618f50" category="inline-image-macro-rx" type="image"></block></block>
   <block id="82417085e656251b41cd76814fd5b48a" category="paragraph"><block ref="82417085e656251b41cd76814fd5b48a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4927a3debc365e92273fa3de8985ec2" category="paragraph"><block ref="f4927a3debc365e92273fa3de8985ec2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3173b2ec37a82d2973529cd167d6287e" category="summary">使用進階資料保護附加服務、確保關鍵任務工作負載的資料保護效率。</block>
@@ -1639,4 +1634,140 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="d339106c5234c4fffed6b25356ff263d" category="sidebar">監控與升級</block>
   <block id="7b373ff6530e34788cfaf1ee2a5d46b5" category="sidebar">監控 Keystone Collector 健全狀況</block>
   <block id="be373fb58d77d15be6b1ad3433c36936" category="sidebar">儲存服務品質</block>
+  <block id="22b84f9f97a424698d7726d02f067c07" category="summary">可用度、 SLA 、服務層級協議</block>
+  <block id="b809b21522a310a2526e263d79f9259a" category="doc">可用度 SLA</block>
+  <block id="a383f57fb1f133e23d708fa682c4de38" category="paragraph">可用度 SLA 的目標是在計費期間內、所有部署以交付 Keystone 訂單的 NetApp ONTAP Flash 儲存陣列、都能維持 99.999% 的正常運作時間。</block>
+  <block id="f32c3edaacea72c0ddb30ecf0135c4de" category="section-title">指標</block>
+  <block id="e67906640477f8681e506869bc6e612e" category="list-text">* 每月正常運作時間百分比 * = [ （每月合格秒數 - 部署以交付該月 Keystone 訂單的所有 AFF 儲存陣列的平均停機時間秒數） / 每月合格秒數 ] x 100%</block>
+  <block id="53ca36728241336dcf15ee413e4d7946" category="list-text">* 停機時間 * ：儲存陣列中兩個控制器無法使用的期間、由 NetApp 決定。</block>
+  <block id="e3af360bffb0ac501e3dff5765197e4e" category="list-text">* 符合資格的秒數 * ：這是一個月內計算正常運作時間的秒數。這不包括由於規劃的維護、升級、與 NetApp 議定的支援活動、或因 NetApp 或 Keystone 服務無法控制或責任的情況而無法使用 STaaS 服務的時間。</block>
+  <block id="b8cbf0764e5d7f6f10308786d0f252b5" category="paragraph">ONTAP Flash 儲存陣列支援的所有服務層級都符合可用度 SLA 的資格。若要深入瞭解、請 <block ref="5ac7feee2bb1965f2cc5b973896ee439" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="3b916544092c6bba180097d47f80505f" category="section-title">服務點數</block>
+  <block id="563fcbc0524e38c0a55e5aece4d67824" category="paragraph">如果 ONTAP Flash 儲存陣列的合格訂閱可用度低於計費期間內 99.999% 的每月正常運作時間目標、則 NetApp 會發出服務點數、如下所示：</block>
+  <block id="e92fc6300f495b762ab94da55380457b" category="cell">* 每月正常運作時間（低於） *</block>
+  <block id="5178c68cc936db933ad4703eeb49414c" category="cell">* 服務額度 *</block>
+  <block id="4976c7cf214ee731a167dd46c1579825" category="paragraph">99.999%</block>
+  <block id="159a57128f3918d387e13cc8a5a7f2f2" category="paragraph">5%</block>
+  <block id="19fb9916968211db983d13bffe0cc6af" category="paragraph">99.99%</block>
+  <block id="bb1a5a2b7eec4f940f8e78abe48d68bf" category="paragraph">10%</block>
+  <block id="ebb51b0b7e8f1fcf89ef483709bd61c6" category="paragraph">99.9%</block>
+  <block id="ae0ce64fc49cd0aa826b50099f869922" category="paragraph">25%</block>
+  <block id="35a2d0b107eb0fd223479b0ab02ffd0d" category="paragraph">99.0%</block>
+  <block id="2496af30b64c3a4ff21e8505ea439a73" category="paragraph">50%</block>
+  <block id="f086e6ea351565075aec266b27d7808a" category="section-title">服務額度計算</block>
+  <block id="b71fb0239a9f9bd482967a91eeab0936" category="paragraph">服務額度是使用下列公式來決定：</block>
+  <block id="25c407ad6633f6e284ed84bee3a409db" category="paragraph">服務額度 = （受影響容量 / 總承諾容量） X 容量費用 X 信用百分比</block>
+  <block id="4cd361459ea2bb087ed6c989579796c7" category="paragraph">其中：</block>
+  <block id="b40f8895b827f227835eb3bc2f25b9e6" category="list-text">* 受影響容量 * ：受影響的儲存容量量。</block>
+  <block id="7dbf58090874a3542e3d87aa654d8cad" category="list-text">* 總認可容量 * ： Keystone 訂單服務層級的認可容量。</block>
+  <block id="3d1f89c9f1a96ed5b2b2badbb5aa02dc" category="list-text">* 容量費用 * ：當月受影響服務層級的費用。</block>
+  <block id="44582b33017b5fbb933f27e3c80d845a" category="list-text">* 信用百分比 * ：服務信用的預定百分比。</block>
+  <block id="938f1047c15f00fdd0cbfc8e4cfa15e1" category="paragraph">* 範例 *</block>
+  <block id="1bddd707a0359d778b1d813a90c93052" category="paragraph">以下範例顯示服務額度的計算方法：</block>
+  <block id="8675aaab182cd1ede22d88336898c1ea" category="list-text">計算每月正常運作時間以確定服務信用百分比：</block>
+  <block id="fefccd3601226bfde489bb3cb07d859b" category="list-text">30 天內的合格秒數： 30 （天） X 24 （小時 / 天） X 60 （分鐘 / 小時） X 60 （秒 / 分鐘） = 2 、 592,000 秒</block>
+  <block id="df212c5e5de67c296152f5d72add0126" category="list-text">停機時間（秒）： 95 秒</block>
+  <block id="b40d5e2f3db898060ede6a53207406c4" category="paragraph">使用公式：每月正常運作時間百分比 = [ （ 2 、 592 、 000 - 95 ） / （ 2 、 592 、 000 ） ] X 100</block>
+  <block id="d5a0ad93e7cae0cea5d2164c32e6c7bb" category="paragraph">根據計算、每月正常運作時間為 99.996% 、服務信用百分比為 5% 。</block>
+  <block id="b63c272bec6c081cf8f64799562fc87e" category="list-text">計算服務額度：</block>
+  <block id="57083671d3a4c5d078576f2774acaae3" category="cell">* 受影響容量 *</block>
+  <block id="6319b3ae1be9dc9c6905e608cb789a7a" category="cell">* 總承諾容量 *</block>
+  <block id="159b517c08e421584e24e48d485c1ccc" category="cell">* 容量費用 *</block>
+  <block id="4446d2e739a007870c02f013ca45ebde" category="cell">* 信用百分比 *</block>
+  <block id="b76181e0697998338d4a37bf656675c7" category="cell">10 Tib 95 秒</block>
+  <block id="6855eef8daff30988247789b63790191" category="cell">100 Tib</block>
+  <block id="6ff79498e54770f62cf549ca824c38fc" category="cell">1、000美元</block>
+  <block id="9eae698db2f9979943823c8ee1440c7d" category="paragraph">使用公式：服務額度 = （ 10 / 100 ） X 1000 x 0.05</block>
+  <block id="df3634b399ce52d35f1816fa036f42b4" category="paragraph">根據計算、服務點數將為 5 美元。</block>
+  <block id="182bf07a2845568515ca20b4e4654296" category="section-title">服務信用申請</block>
+  <block id="d914d7b4a96bed82ab1c41c97e6c5742" category="paragraph">如果偵測到違反 SLA 的情況、請使用 Keystone Global Services and Support Center （ GSSC ）開啟優先順序 3 （ P3 ）支援服務單。</block>
+  <block id="6d3089ef2f50007a659aa12b3a7415f8" category="list-text">以下是必要的詳細資料：</block>
+  <block id="e3e23368bff57e5796042f5fba6c3fbd" category="list-text">Keystone 訂閱編號</block>
+  <block id="5e27e36d07d4a7286d88cd834cfbd611" category="list-text">Volume 與儲存控制器詳細資料</block>
+  <block id="3b6a4c4dee52c0519690b8a93c60159e" category="list-text">問題的網站、時間、日期和說明</block>
+  <block id="de0480c0f5c929948100ece899e9724e" category="list-text">延遲偵測的計算時間</block>
+  <block id="f657fc20931370f67393f5612ec70ffe" category="list-text">測量工具與方法</block>
+  <block id="2ecd994c3d59e0ce0211ab40d4167837" category="list-text">任何其他適用文件</block>
+  <block id="dc33a5089714f6579a5ab21118922cef" category="list-text">針對以 Keystone GSSC 開啟的 P3 Ticket 、請在下方所示的 Excel 工作表中提供詳細資料。</block>
+  <block id="892db0165f2238f40c3370386d79cac7" category="inline-image-macro">Excel 工作表範本</block>
+  <block id="f0fbc9cddebee973debd106e878bebdd" category="paragraph"><block ref="f0fbc9cddebee973debd106e878bebdd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eb0abc09e7b5678911ee2656102c8868" category="list-text">服務信用申請應在 GSSC 驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。</block>
+  <block id="45a3835755fcd6b1bf728c884bcc8d34" category="list-text">服務額度可套用至未來的發票。服務額度不適用於過期的 Keystone 訂閱。若要深入瞭解、請 <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="1d864ae11e362329da4731cbf31eca7b" category="summary">永續性、 SLA 、服務層級協議</block>
+  <block id="4bcbaed6ba1519c1f0036c82537ffc1f" category="doc">效能 SLA</block>
+  <block id="8c9a4601149bbf6f607b6419227dc5e3" category="paragraph">根據下列條款與條件、 NetApp Keystone 提供每個服務層級的延遲型 SLA 、如 Keystone 訂單中所述、消耗容量最高達突發限制。</block>
+  <block id="23f04236d1f84e52d087f768059adbbe" category="list-text">* 效能降級 * ：每個事件的時間量（以分鐘為單位）、在這段時間內無法達到 90 個 ^ 百分位數延遲目標。</block>
+  <block id="3fe43b4ffa54563c104bbdf1eeea2b59" category="list-text">對於 Keystone 訂單中的所有磁碟區、每個磁碟區、每個效能層級的每個磁碟區、都會測量 * 90 ^^^Perth* 的百分位數延遲 * 。延遲每五分鐘取樣一次、並將在 24 小時期間內計算的 90 個 ^ 百分位數值作為每日測量值、考量以下幾點：</block>
+  <block id="35254eb51c71659b3cf343855354b8b1" category="list-text">在收集度量時記錄至少五個 IOPS 的磁碟區會被視為範例。</block>
+  <block id="0e0e9d5bae73de26860af74cb8fc6ac2" category="list-text">在收集度量時、寫入作業超過 30% 的磁碟區會從範例中排除。</block>
+  <block id="ab4c900b0e1430edc1bd09939be8859a" category="list-text">針對要求的 IOPS/TiB （大於目標 IOS/TiB ）、由 AQO 新增的延遲將從範例中排除。</block>
+  <block id="565d8433df6c6c23be6de8fd7871abae" category="list-text">AQO 為了維持每個磁碟區的最小 IOPS 而新增的延遲將從範例中排除。</block>
+  <block id="f901dbc53f8dea2d74e68635ec84a298" category="list-text">對於已啟用 FabricPool 的磁碟區、不會計算資料往返目標（冷）儲存設備的傳輸所產生的延遲。</block>
+  <block id="23ca5c8d56457bbd625ff236b3c706ef" category="list-text">ONTAP 叢集以外的應用程式、主機或客戶網路所造成的延遲不計入在內。</block>
+  <block id="57d56dc842f4da79392d5bc2178582dc" category="list-text">使用進階資料保護附加服務時、目標延遲僅包含與本機儲存陣列之間的 IO 作業。</block>
+  <block id="efbd8d78a7008161e0e4f42c63d84ad6" category="list-text">在 24 小時期間、至少應提供十個有效的指標。否則、將會捨棄這些度量。</block>
+  <block id="5b8e1d393a8c6bf1b5c0be8eb268aba3" category="list-text">如果儲存陣列上的一個或多個磁碟區未套用有效的 AQO 原則、則其他磁碟區可用的 IOPS 數量可能會受到影響、而 NetApp 將不負責指定該儲存陣列的目標或達到該儲存陣列的效能等級。</block>
+  <block id="d8ace9c4f3c105767c7ec01ce669eca3" category="list-text">在 FabricPool 組態中、當所有要求的資料區塊都位於 FabricPool 來源（熱）儲存設備上、而且來源儲存設備不在 SnapMirror 同步關係中時、效能等級就會適用。</block>
+  <block id="711c8ebd035f0ec5d70c9afa8d3996ba" category="paragraph">ONTAP Flash 儲存陣列支援的所有服務層級均符合效能 SLA 的資格、並保證符合下列目標延遲：</block>
+  <block id="ce8f4bd254d7fa591c64caccc3aa3eeb" category="cell">不到 1 毫秒</block>
+  <block id="101d21e523f12f01303be5acdf4141d9" category="cell">&lt;2 毫秒</block>
+  <block id="65e7d97f5e59814284d01d2b0cd62581" category="cell">不到4毫秒</block>
+  <block id="898c79ff0b480671f7fa964d846a9316" category="paragraph">若要深入瞭解服務層級的延遲需求，請參閱 <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>。</block>
+  <block id="4528f5e882cc88c8842dcf9b1ac1b1bc" category="paragraph">NetApp 會針對效能降低問題、提供服務點數：</block>
+  <block id="72c2dabc519f204563247ef9d2fd1c7a" category="cell">* 效能臨界值 *</block>
+  <block id="133c2090971805c26a4b7780a43a4e1f" category="paragraph">90 個 ^ 百分位數延遲 &gt; 目標延遲</block>
+  <block id="1ec8365151cced34dc67c0dcce455e5e" category="cell">每個日曆發生日的 3%</block>
+  <block id="68bff7f600a4d4bddae207bf52b8dbdb" category="paragraph">服務額度 = （受影響容量 / 總承諾容量） X 容量費用 X 受影響天數 X 信用百分比</block>
+  <block id="518fb0e9794f4b9e14b0dc061ac61fda" category="list-text">* 容量費用 * ：根據 Keystone 訂單、受影響效能等級的費用。</block>
+  <block id="9bd7cf79d77a54ab7c62e80f778e9d2a" category="list-text">* 受影響的天數 * ：受影響的日曆天數。</block>
+  <block id="b452a2e7bf15034c9bd63c001b3e6e64" category="cell">* 受影響的日曆日 *</block>
+  <block id="a22d50cab82690cbdc8113c3ff9c2076" category="cell">10 層</block>
+  <block id="58f24a17f570c7949880710fdf616d32" category="cell">50 層</block>
+  <block id="c81e728d9d4c2f636f067f89cc14862c" category="cell">2</block>
+  <block id="dcfe0b3ef8eb8156a5e83949c2e2f7b6" category="cell">3%</block>
+  <block id="b9ad6821bc2a0e4300b5b91ca5245476" category="paragraph">使用公式：服務額度 = （ 10 / 50 ） X 1000 x 2 x 0.03</block>
+  <block id="732192040cca36723308ae6b02982093" category="paragraph">根據計算、服務點數將為 12 美元。</block>
+  <block id="fed70707a2e768c22f4b0fc06a401786" category="summary">NetApp 透過勒索軟體恢復保證方案、保證在勒索軟體攻擊時、能從 SnapLock Compliance Volume 恢復 Snapshot 資料</block>
+  <block id="30a37a729e8d5bdf11c9e3c6965f6872" category="doc">勒索軟體恢復保證</block>
+  <block id="c314df61fd93029a87d16eb15b842e7d" category="paragraph">NetApp 透過勒索軟體恢復保證方案、保證在勒索軟體攻擊時、能從 SnapLock Compliance Volume 恢復 Snapshot 資料。NetApp 勒索軟體恢復保證服務必須支援勒索軟體恢復保證方案、而且必須與相關 Keystone 訂單分開購買。</block>
+  <block id="99b0e05699c63fe883231037a5d59d8c" category="paragraph">在適用的訂閱期間內、所有支援 Keystone 訂閱的硬體都需要勒索軟體恢復保證服務。</block>
+  <block id="28a098f372ec3073fc5e647934157274" category="paragraph">如果 SnapLock Compliance 是依照最佳實務做法進行部署、而 NetApp 專業服務則是在購買勒索軟體恢復保證服務時進行設定或驗證、則 NetApp 會在受 SnapLock 保護的資料無法恢復時、發出服務額度。這些學分的準則如下：</block>
+  <block id="7624fb3c672dd8786b7b17fae31c1f0c" category="list-text">服務額度可套用至未來發票。信用額度上限為承諾合約價值（ CCV ）的 10% 、並以每次訂閱為基礎支付。</block>
+  <block id="edb32d0cffb273251a459f28452610a9" category="list-text">學分會在相關 Keystone 訂單的有效訂閱期間提供。</block>
+  <block id="a5c0e3b5e544c9e98cfff04374762f87" category="list-text">對於每月計費的訂閱、點數將在接下來的 12 個月內分配、並可用於任何未來的 Keystone 發票、直到訂閱期限結束為止。如果訂閱在 12 個月內結束、則可續約以繼續使用點數、或將點數套用至其他 NetApp 發票。</block>
+  <block id="accb4d9ec21427fc3d795090c44c8639" category="list-text">若為年度訂閱、點數將會套用至下一張 Keystone 發票（若有）。如果未來沒有 Keystone 發票、則可將點數套用至其他 NetApp 發票。</block>
+  <block id="c45f003136d304ebcf90c3d9ef36e2a5" category="doc">永續性 SLA</block>
+  <block id="8098263ee670c19264303ffd6cc934c8" category="paragraph">NetApp Keystone 保證根據具有永續性 SLA 的 ONTAP Flash 儲存陣列、提供儲存服務的每 TB 實際瓦特數上限（ W/TiB ）。永續性 SLA 定義了每個合格服務層級的 W/TiB 最大使用量、協助組織達成永續性目標。</block>
+  <block id="864c642a56d20e6430164211b9f12588" category="list-text">* 瓦特 * ：每日 AutoSupport 所報告的耗電量、包括控制器和附加磁碟櫃的使用量。</block>
+  <block id="fbce2f0375e75ac94f7d2ed62924d9bc" category="list-text">* Tebibytes* ：最大值：</block>
+  <block id="4d3ea8c46694851a5676d28d94c2044b" category="list-text">服務層級的已認可容量 + 已分配的突發容量、或</block>
+  <block id="359b2a968ad487e93ac13bd70001517c" category="list-text">假設儲存效率係數為，則為有效部署容量<block ref="6af2d30e671ebc9deaa134b9f0a1e248" prefix=" " category="inline-code"></block>。</block>
+  <block id="7c6137cde05014e7fab83f78a553dffa" category="inline-link">分析容量與儲存效率節約效益</block>
+  <block id="f113a645920e8735b32ceb02f13e8f0e" category="paragraph">若要深入瞭解儲存效率比率、請參閱<block ref="0b320c60938d31987498bfd27213b133" category="inline-link-rx"></block>。</block>
+  <block id="7cb67ea6d99999bbcfd14f6aaa5c5f1c" category="paragraph">永續性 SLA 以下列使用條件為基礎：</block>
+  <block id="d2cd9e2adbaf4876955be264272e3e87" category="cell">* SLA 標準 *</block>
+  <block id="1319573781151fa1f86a29da308f602f" category="cell">* 最低承諾容量 *</block>
+  <block id="b86f7ac7010a768aee36fc0e592eceed" category="cell">*平台*</block>
+  <block id="3c541a9c0b82dd48b86975ee394b3ee3" category="cell">&lt;= 8 W/TiB</block>
+  <block id="7d2e99b7f21ff40f996fbbab5c1d6feb" category="cell">200. TiB</block>
+  <block id="72c62eae5362784360f3e531446bec41" category="cell">AFF A800 和 AFF A900</block>
+  <block id="3291342846d33d69a17f1d4cdac855f0" category="cell">&lt;= 4 W/TiB</block>
+  <block id="4dd4655034851cefb46869bef690cc22" category="cell">300. TiB</block>
+  <block id="0d671512d24f669e4da894030bfdf975" category="paragraph">若要深入瞭解、請 <block ref="5ac7feee2bb1965f2cc5b973896ee439" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="27bddf685047b887365f1db06595c078" category="paragraph">如果計費期間的 W/TiB 使用量不符合 SLA 標準、則 NetApp 會以下列方式發出服務額度：</block>
+  <block id="ecbb890e24d251759ba476b9c893862e" category="cell">未在計費期間內達到 SLA 天數</block>
+  <block id="499023bc51a126935827ef29f6bd520b" category="cell">服務信用</block>
+  <block id="5aebd95c292f266eb59b8073d99a7699" category="paragraph">1 至 2</block>
+  <block id="1190761e382695cb9416b27ee7eed4d3" category="paragraph">3 至 7</block>
+  <block id="f5c2de6939fdeaa3904b08a1fad7a2d3" category="paragraph">15%</block>
+  <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14</block>
+  <block id="87b656ee6c82131afa7ac0871d8168e8" category="paragraph">如果偵測到違反 SLA 的情況、請使用 Keystone Global Services and Support Center （ GSSC ）開啟優先順序 3 （ P3 ）支援服務單、並依照 Excel 工作表中的要求提供詳細資料、如下所示：</block>
+  <block id="b16f882170095725eb371909f87f469f" category="paragraph">長條圖會顯示短期爆發、您可以使用放大功能來檢視這些爆發。當出現短期突發時、會在對應的長條上以藍色點表示、如果沒有使用資料、則會直接在 X 軸上顯示。若要檢視詳細資料、請按住藍色點所在的長條圖或 x 軸、然後將游標拖曳到圖表上以選取所需的時間間隔、然後放開以確認您的選擇。此動作會放大資料、以更精細的方式檢視所選時間間隔內、該服務層級所使用的容量。您可以按一下 * 重設縮放 * 按鈕、返回原始圖表檢視。</block>
+  <block id="78a0f8f91a436c9b95253697658f1b15" category="inline-image-macro">使用量趨勢標籤、附有詳細資料</block>
+  <block id="0dd96295669c1478814661e7ab071d6e" category="paragraph"><block ref="0dd96295669c1478814661e7ab071d6e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a7d38300f41bba6c7ac41d2b9c6de4c3" category="section-title">用於短期突發的放大功能</block>
+  <block id="adc169249aa5bb5c38a27b4a1c617bcd" category="paragraph">「 * 容量趨勢 * 」標籤現在包含放大功能、可檢視使用圖表中短期突發的詳細資料。如需更多資訊、請參閱 <block ref="45b36c44a7c4fb4ef2168b619f60755c" category="inline-link-macro-rx"></block>。</block>
+  <block id="9cda68e54ae42ad7708b87ba7d09426f" category="sidebar">Keystone STaaS SLA</block>
+  <block id="faeaec9eda6bc4c8cb6e1a9156a858be" category="sidebar">可用度</block>
+  <block id="19bea5bec76c66ef8bd189aa23a4c860" category="sidebar">永續性</block>
 </blocks>

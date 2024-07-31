@@ -1,0 +1,107 @@
+---
+sidebar: sidebar 
+permalink: concepts/sla-sustainability.html 
+keywords: sustainability, sla, service level agreement, 
+summary: 永續性、 SLA 、服務層級協議 
+---
+= 永續性 SLA
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone 保證根據具有永續性 SLA 的 ONTAP Flash 儲存陣列、提供儲存服務的每 TB 實際瓦特數上限（ W/TiB ）。永續性 SLA 定義了每個合格服務層級的 W/TiB 最大使用量、協助組織達成永續性目標。
+
+
+
+== 指標
+
+* * 瓦特 * ：每日 AutoSupport 所報告的耗電量、包括控制器和附加磁碟櫃的使用量。
+* * Tebibytes* ：最大值：
++
+** 服務層級的已認可容量 + 已分配的突發容量、或
+** 假設儲存效率係數為，則為有效部署容量 `2:1`。
+
+
++
+若要深入瞭解儲存效率比率、請參閱 https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["分析容量與儲存效率節約效益"^]。
+
+
+
+
+
+== 服務層級
+
+永續性 SLA 以下列使用條件為基礎：
+
+|===
+
+
+| * 服務層級 * | * SLA 標準 * | * 最低承諾容量 * | *平台* 
+
+
+ a| 
+極致
+| <= 8 W/TiB | 200. TiB | AFF A800 和 AFF A900 
+
+
+ a| 
+優質
+| <= 4 W/TiB | 300. TiB | AFF A800 和 AFF A900 
+
+
+ a| 
+效能
+| <= 4 W/TiB | 300. TiB | AFF A800 和 AFF A900 
+|===
+若要深入瞭解、請 link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Keystone 中的服務層級"]參閱。
+
+
+
+== 服務點數
+
+如果計費期間的 W/TiB 使用量不符合 SLA 標準、則 NetApp 會以下列方式發出服務額度：
+
+|===
+| 未在計費期間內達到 SLA 天數 | 服務信用 
+
+
+ a| 
+1 至 2
+ a| 
+3%
+
+
+
+ a| 
+3 至 7
+ a| 
+15%
+
+
+
+ a| 
+14
+ a| 
+50%
+
+|===
+
+
+== 服務信用申請
+
+如果偵測到違反 SLA 的情況、請使用 Keystone Global Services and Support Center （ GSSC ）開啟優先順序 3 （ P3 ）支援服務單、並依照 Excel 工作表中的要求提供詳細資料、如下所示：
+
+image:sla-breach.png["Excel 工作表範本"]
+
+[NOTE]
+====
+* 服務信用申請應在 GSSC 驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。
+* 服務額度可套用至未來的發票。服務額度不適用於過期的 Keystone 訂閱。若要深入瞭解、請 link:../concepts/gssc.html["NetApp全球服務支援中心"]參閱。
+
+
+====
