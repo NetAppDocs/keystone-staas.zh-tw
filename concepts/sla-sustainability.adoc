@@ -17,6 +17,9 @@ summary: 永續性、 SLA 、服務層級協議
 NetApp Keystone 保證根據具有永續性 SLA 的 ONTAP Flash 儲存陣列、提供儲存服務的每 TB 實際瓦特數上限（ W/TiB ）。永續性 SLA 定義了每個合格服務層級的 W/TiB 最大使用量、協助組織達成永續性目標。
 
 
+NOTE: SLA 和保證均以提名方式提供。
+
+
 
 == 指標
 

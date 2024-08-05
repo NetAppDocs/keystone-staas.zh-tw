@@ -17,6 +17,9 @@ summary: 永續性、 SLA 、服務層級協議
 根據下列條款與條件、 NetApp Keystone 提供每個服務層級的延遲型 SLA 、如 Keystone 訂單中所述、消耗容量最高達突發限制。
 
 
+NOTE: SLA 和保證均以提名方式提供。
+
+
 
 == 指標
 

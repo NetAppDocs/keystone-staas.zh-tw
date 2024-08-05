@@ -17,6 +17,9 @@ summary: 可用度、 SLA 、服務層級協議
 可用度 SLA 的目標是在計費期間內、所有部署以交付 Keystone 訂單的 NetApp ONTAP Flash 儲存陣列、都能維持 99.999% 的正常運作時間。
 
 
+NOTE: SLA 和保證均以提名方式提供。
+
+
 
 == 指標
 

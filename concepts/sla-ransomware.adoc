@@ -17,6 +17,9 @@ summary: NetApp 透過勒索軟體恢復保證方案、保證在勒索軟體攻�
 NetApp 透過勒索軟體恢復保證方案、保證在勒索軟體攻擊時、能從 SnapLock Compliance Volume 恢復 Snapshot 資料。NetApp 勒索軟體恢復保證服務必須支援勒索軟體恢復保證方案、而且必須與相關 Keystone 訂單分開購買。
 
 
+NOTE: SLA 和保證均以提名方式提供。
+
+
 
 == 服務層級
 
