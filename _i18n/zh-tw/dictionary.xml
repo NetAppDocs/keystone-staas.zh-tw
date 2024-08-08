@@ -1496,13 +1496,7 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="dbc8f427883e788403672a61fd4a8b14" category="list-text">選取訂閱編號。根據預設、如果先前選取的訂閱不同時包含檔案和物件儲存的服務層級、則會選取第一個可用的訂閱編號。</block>
   <block id="8f0fe81a9b7f4cb142f2a7084f33fd88" category="inline-image-macro">物件索引標籤</block>
   <block id="ff86b04f28e9deb882d5f8b709958474" category="paragraph"><block ref="ff86b04f28e9deb882d5f8b709958474" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="965245bd249a1410397d5d87be0a0bd2" category="paragraph">回報下列已知問題：</block>
-  <block id="e83464ce8bd634efb1f099c956ec64a8" category="cell">已知問題</block>
-  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">說明</block>
-  <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">因應措施</block>
   <block id="d3be07034d0ea358558d4e2243a27e4a" category="paragraph">Keystone Collector 管理 TUI 在設定 AQO 原則時沒有回應。</block>
-  <block id="be4309ed72d89f7ccd2b196827e60e87" category="paragraph">當嘗試透過 TUI 建立 AQO 原則時， TUI 可能會遇到問題並停止回應。</block>
-  <block id="1952ddeca0b71a5d88548a44205f2c9f" category="paragraph">請聯絡 NetApp 支援部門。</block>
   <block id="e358ee99bcdc82fedabffa4fe9dda483" category="section-title">2024 年 7 月 10 日</block>
   <block id="fff7af8a2fab8d84dd9f7858aff6d7d9" category="section-title">標籤修改</block>
   <block id="6176afc8abbdfc6c0a7c0274a19d9ef8" category="paragraph">標籤 * 目前使用量 * 會變更為 * 目前使用量 * 、而 * 容量趨勢 * 會變更為 * 使用量趨勢 * 。</block>
@@ -1771,4 +1765,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="faeaec9eda6bc4c8cb6e1a9156a858be" category="sidebar">可用度</block>
   <block id="19bea5bec76c66ef8bd189aa23a4c860" category="sidebar">永續性</block>
   <block id="0fa7096028e231171f86212b096254bd" category="admonition">SLA 和保證均以提名方式提供。</block>
+  <block id="90c1605e73fc10bc5c46dc4183664885" category="paragraph">2024 年 8 月 7 日</block>
+  <block id="5b56041030df17cc6aeb8d87e04d16db" category="paragraph">目前尚無已知問題。</block>
 </blocks>
