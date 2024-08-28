@@ -1767,4 +1767,31 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="0fa7096028e231171f86212b096254bd" category="admonition">SLA 和保證均以提名方式提供。</block>
   <block id="90c1605e73fc10bc5c46dc4183664885" category="paragraph">2024 年 8 月 7 日</block>
   <block id="5b56041030df17cc6aeb8d87e04d16db" category="paragraph">目前尚無已知問題。</block>
+  <block id="1e4eb13a6a1b07eeb2e7895fbc7a1bb1" category="section-title">建立效能服務層級</block>
+  <block id="5053594f32aa62a7113e670df7c0dcf6" category="paragraph">您可以使用 Keystone Collector 管理 TUI 公用程式來建立效能服務層級（ PSL ）。透過 TUI 建立 ISL 會自動選取為每個服務層級設定的預設值、減少在透過建立 Active IQ Unified Manager 時手動設定這些值時可能發生的錯誤機會。</block>
+  <block id="9dc46e9b8e8e3325a5f950ba6b189e61" category="inline-link-macro">效能服務層級</block>
+  <block id="30b9ea415acabd68ca478ac9f480dcc4" category="paragraph">若要深入瞭解 ISL 、請<block ref="618fbf54ef577c932e12b764c4672483" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="3366047110e1d4df81bd4a3c7e56a81a" category="paragraph">若要深入瞭解服務層級，請<block ref="65aad034e764c488cc9555200d7886f8" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="754f3f64186991aaafd04c50afc33fb9" category="list-text">請移至 * 組態 &gt; AIQUM* 以開啟 AIQUM 畫面。</block>
+  <block id="820f541e6131074b12653bbfb5e98b09" category="list-text">啟用選項 * 建立 AIQUM 效能設定檔 * 。</block>
+  <block id="a7fedce0e566016c4bf5bca06e58e7e3" category="list-text">輸入 Active IQ Unified Manager 伺服器和使用者帳戶的詳細資料。這些詳細資料是建立 ISL 所必需的、不會儲存。</block>
+  <block id="0cae276070a3b9dc1d52e1054be203d8" category="inline-image-macro">若要輸入 AIQUM 伺服器和服務帳戶的詳細資料、請使用 TUI 畫面</block>
+  <block id="a340f4e56ce95ec64b455e8f0d0011b3" category="paragraph"><block ref="a340f4e56ce95ec64b455e8f0d0011b3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03336d42dcb5f12fad5c27a77d7fc3bb" category="list-text">對於 * 選擇 Keystone 版本 * ，請選擇<block ref="c26733d354ae6936934c7e8958092daa" prefix=" " category="inline-code"></block>。</block>
+  <block id="0e6957f023ba901638c8f4ab7d0fbcec" category="list-text">按Enter。隨即顯示用於選取 Keystone 版本的對話方塊。</block>
+  <block id="921dbe2a6293b980a37507e9b0ef99c9" category="list-text">反白 *STaaS* 以指定 Keystone STaaS* 的 Keystone 版本、然後按 Enter 鍵。</block>
+  <block id="fcb2a80e16744614cdf6c2f2f82c4e2e" category="inline-image-macro">若要指定 Keystone 版本、請使用 TUI 畫面</block>
+  <block id="1e2d635219881df0b1d0ff05ce928dde" category="paragraph"><block ref="1e2d635219881df0b1d0ff05ce928dde" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d93cccfc0748834998c1743a905f0d3" category="admonition">您可以反白標示 Keystone 訂閱服務第 1 版的 * KFS* 選項。Keystone 訂閱服務與 Keystone STaaas 在組成服務層級、服務項目和計費原則上不同。若要深入瞭解、請 <block ref="28860fa9118cfd783678772e54f9b578" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="5a8df8e784147e10e20a7f96a1911ce8" category="list-text">所有支援的 Keystone 服務層級將會顯示在指定 Keystone 版本的 * 選取 Keystone 服務層級 * 選項中。從清單中啟用所需的服務層級。</block>
+  <block id="6792bca92745749645838a609966a8c2" category="inline-image-macro">TUI 畫面可顯示所有支援的 Keystone 服務層級</block>
+  <block id="40107ce73af0b4c30bdedbdec9454440" category="paragraph"><block ref="40107ce73af0b4c30bdedbdec9454440" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="be76688bb0584656dac7cefe07517b47" category="admonition">您可以同時選取多個服務層級來建立 ISL 。</block>
+  <block id="18e5eacb4fdad1ff92aee1fb4f0f41cc" category="list-text">選取 * 儲存 * 、然後按 Enter 鍵。將會建立效能服務層級。</block>
+  <block id="0e0dd84db86e72ae77b4739377c3a4e1" category="inline-link-macro">建立及編輯效能服務層級</block>
+  <block id="be298fbf55a1c81157761b8b02a6d696" category="paragraph">您可以在 Active IQ Unified Manager 的 * 效能服務層級 * 頁面上檢視建立的 PSL 、例如適用於 STaas 的 Premium-KS-STaas 或適用於 KFS 的 Extreme KFS 。如果建立的 ISL 不符合您的需求、您可以修改 ISL 來滿足您的需求。若要深入瞭解、請 <block ref="84f3a19cf4d829ad37ba5eddb2b177a0" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="e481e00ab54faed62b9dea98ed860aea" category="inline-image-macro">UI 螢幕擷取畫面可顯示建立的 AQO 原則</block>
+  <block id="43b019fa12d041b6c5cbfe89c5f52205" category="paragraph"><block ref="43b019fa12d041b6c5cbfe89c5f52205" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">TUI 畫面顯示原則建立的錯誤訊息</block>
+  <block id="224dfc2fadc284cf45249b5ddb7bc7cd" category="admonition">如果所選服務層級的 PSL 已存在於指定的 Active IQ Unified Manger 伺服器上、則無法再次建立。如果您嘗試這麼做、將會收到錯誤訊息。 <block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
