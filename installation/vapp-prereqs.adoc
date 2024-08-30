@@ -17,7 +17,7 @@ summary: 您的 VMware vSphere 系統必須符合數項需求、才能安裝 Key
 您的 VMware vSphere 系統必須符合數項需求、才能安裝 Keystone Collector 。
 
 .Keystone Collector 伺服器 VM 的必要條件：
-* 作業系統：VMware vCenter伺服器和ESXi 6.5或更新版本
+* 作業系統：VMware vCenter伺服器和ESXi 6.7或更新版本
 * 核心： 1 個 CPU
 * RAM ： 2 GB RAM
 * 磁碟空間： 20 GB vDisk
