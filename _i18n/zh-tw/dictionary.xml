@@ -1794,4 +1794,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">TUI 畫面顯示原則建立的錯誤訊息</block>
   <block id="224dfc2fadc284cf45249b5ddb7bc7cd" category="admonition">如果所選服務層級的 PSL 已存在於指定的 Active IQ Unified Manger 伺服器上、則無法再次建立。如果您嘗試這麼做、將會收到錯誤訊息。 <block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">作業系統：VMware vCenter伺服器和ESXi 6.7或更新版本</block>
+  <block id="f7e13857abd03bc318b89fe886669d7d" category="paragraph">當導覽至 *Consumpting Trend* 標籤時、 * 從日期 * 欄位可選取日期範圍、預設會顯示未來日期。</block>
+  <block id="443c63f2975d5902a80f1597e417d9f2" category="paragraph">2024-09-04</block>
 </blocks>
