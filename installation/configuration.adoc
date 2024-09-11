@@ -16,9 +16,13 @@ summary: 完整組態可讓 Keystone Collector 在您的儲存環境中收集使
 [role="lead"]
 您需要完成幾項組態工作、才能讓Keystone Collector在儲存環境中收集使用資料。這是一次性活動、可啟動所需元件、並將其與儲存環境建立關聯。
 
+[NOTE]
+====
+* Keystone Collector 提供 Keystone Collector Management 終端機使用者介面（ TUI ）公用程式、可執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。
+* Keystone Collector 可針對沒有網際網路存取權的組織進行設定、也稱為 _Dark 站台 _ 或 _Private 模式 _ 。若要深入瞭解、請link:../dark-sites/overview.html["私密模式中的 Keystone"]參閱。
 
-NOTE: Keystone Collector 提供 Keystone Collector Management 終端機使用者介面（ TUI ）公用程式、可執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。
 
+====
 .步驟
 . 啟動 Keystone Collector 管理 TUI 公用程式：
 `$ keystone-collector-tui`

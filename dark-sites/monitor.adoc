@@ -1,0 +1,58 @@
+---
+sidebar: sidebar 
+permalink: dark-sites/monitor.html 
+keywords: monitoring system health 
+summary: 為了確保資料可用、您可以使用任何支援 HTTP 要求的監控系統、來監控 Keystone Collector 的健全狀況。 
+---
+= 在私有模式中監控 Keystone Collector 健全狀況
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用任何支援 HTTP 要求的監控系統來監控 Keystone Collector 的健全狀況。
+
+根據預設、 Keystone 健全狀況服務不接受來自 localhost 以外任何 IP 的連線。Keystone健全狀況端點為 `/uber/health`、並在連接埠上偵聽Keystone Collector伺服器的所有介面 `7777`。查詢時、端點會傳回具有Json輸出的HTTP要求狀態代碼作為回應、說明Keystone Collector系統的狀態。
+Json實體提供的整體健全狀況狀態 `is_healthy` 屬性、為布林值、以及每個元件的詳細狀態清單 `component_details` 屬性。
+範例如下：
+
+[listing]
+----
+$ curl http://127.0.0.1:7777/uber/health
+{"is_healthy": true, "component_details": {"vicmet": "Running", "ks-collector": "Running", "ks-billing": "Running", "chronyd": "Running"}}
+----
+這些狀態代碼會傳回：
+
+* * 200*：表示所有受監控的元件都正常運作
+* * 503 *：表示一或多個元件不正常
+* * 409*：表示查詢健全狀況狀態的HTTP用戶端不在「允許」清單中、這是允許的網路CIDR清單。對於此狀態、不會傳回任何健全狀況資訊。
++
+「允許_」清單使用網路CIDR方法來控制哪些網路裝置可以查詢Keystone健全狀況系統。如果您收到 403 錯誤、請將監控系統新增至 *Keystone Collector Management TUI > Configure > Health Monitoring * 的 _allow_ 清單。
+
++
+image:cidr-list.png["允許的網路密碼"]
+
+
+
+
+
+== 產生並收集支援套裝組合
+
+若要疑難排解 Keystone 收集器的問題、您可以與 NetApp 支援部門合作、他們可能會要求提供 _.tar_ 檔案。您可以透過 Keystone Collector 管理 TUI 公用程式產生此檔案。
+
+請依照下列步驟產生一個 _.tar_ 檔案：
+
+. 請參閱*疑難排解>產生支援產品組合*。
+. 選擇儲存套件的位置、然後按一下 * 產生支援套件 * 。
++
+image:dark-site-generate-support-bundle-1.png["產生支援服務組合"]
+
++
+此程序會 `tar`在所述位置建立套件、並可與 NetApp 分享以解決疑難排解問題。
+
+. 下載檔案後、您可以將其附加至Keystone ServiceNow支援服務單。如需有關開立Ticket的資訊、請參閱 link:../concepts/gssc.html["正在產生服務要求"]。
+

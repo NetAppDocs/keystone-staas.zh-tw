@@ -18,6 +18,8 @@ Keystone Collector_ 是您安裝在站台上 VMware vSphere 或 Linux 主機上�
 
 Keystone Collector 是 Keystone 計費平台的使用量取得元件。它利用 Active IQ Unified Manager 和其他應用程式連線至 ONTAP 和 StorageGRID 系統、收集使用所需的中繼資料、以及 Keystone 訂閱的 SLA 效能計量。它可讓您監控系統健全狀況、同時傳送帳單資料以供報告。
 
+Keystone Collector 可設定為 _ 標準 _ 模式、不受連線限制即可運作、或是 _ 私有 _ 模式、專為連線限制的組織所設計。若要以標準模式安裝 Keystone Collector link:../installation/vapp-prereqs.html["設定及設定Keystone"]、請參閱；如需私有模式、請link:../dark-sites/overview.html["私密模式中的 Keystone"]參閱。
+
 Keystone Collector 代表收集 Keystone 系統使用資料的標準方法。如果您的環境不支援 Keystone 收集器、您可以向 Keystone 產品管理尋求授權、以使用 AutoSupport 遙測機制作為替代方案。如需 AutoSupport 的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^]。如需設定 AutoSupport for Keystone 的相關資訊、請參閱 link:../installation/asup-config.html["設定 Keystone 的 AutoSupport"]。
 
 此架構圖表概述典型Keystone環境中的組成元件及其連線能力。

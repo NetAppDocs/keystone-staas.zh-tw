@@ -125,6 +125,18 @@ sidebar:
       url: "/concepts/sla-sustainability.html"
     - title: 勒索軟體恢復保證
       url: "/concepts/sla-ransomware.html"
+  - title: 私密模式中的 Keystone
+    entries:
+    - title: 總覽
+      url: "/dark-sites/overview.html"
+    - title: 準備安裝
+      url: "/dark-sites/requirements.html"
+    - title: 安裝 Keystone Collector
+      url: "/dark-sites/install-collector.html"
+    - title: 設定Keystone Collector
+      url: "/dark-sites/configure-collector.html"
+    - title: 監控 Keystone Collector 健全狀況
+      url: "/dark-sites/monitor.html"
   - title: 帳單
     entries:
     - title: Keystone定價

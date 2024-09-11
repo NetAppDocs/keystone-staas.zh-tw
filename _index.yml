@@ -15,6 +15,8 @@ indexpage:
       url: "/installation/vapp-installation.html"
     - title: 在 Linux 上安裝 Keystone Collector
       url: "/installation/linux-installation.html"
+    - title: 以私人模式安裝 Keystone Collector
+      url: "/dark-sites/overview.html"
     - title: 在 Digital Advisor 上檢視您的使用情形
       url: "/integrations/keystone-aiq.html"
     - title: 產生使用量報告

@@ -1,0 +1,75 @@
+---
+sidebar: sidebar 
+permalink: dark-sites/requirements.html 
+keywords: installation, private mode, requirement, vmware vsphere, linux, networking,disk, space 
+summary: 在沒有網際網路存取的環境中安裝 Keystone Collector 之前（也稱為 _Dark 站台 _ 或 _Private 模式 _ ）、請先確保系統已準備好必要的軟體、並符合所有必要的先決條件。 
+---
+= 準備以私有模式安裝
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+在沒有網際網路存取的環境中安裝 Keystone Collector 之前（也稱為 _Dark 站台 _ 或 _Private 模式 _ ）、請先確保系統已準備好必要的軟體、並符合所有必要的先決條件。
+
+
+
+== VMware vSphere 的需求
+
+* 作業系統： VMware vCenter Server 和 ESXi 6.7 或更新版本
+* 核心： 1 個 CPU
+* RAM：2 GB
+* 磁碟空間： 20 GB vDisk
+
+
+
+
+== Linux 的需求
+
+* 作業系統： Debian v12 或 Red Hat Enterprise Linux 8.6 或更新版本
+* 核心： 2 個 CPU
+* RAM：4 GB
+* 磁碟空間：50 GB vDisk
++
+** 至少 2 GB 可用空間 `/var/lib/`
+** 至少 48 GB 可用空間 `/opt/netapp`
+
+
+
+
+同一部伺服器也應安裝下列協力廠商套件。如果透過儲存庫提供、這些套件將會自動安裝為先決條件：
+
+* RHEL8
++
+** python3 >=v3.6.8 、 python3 \<=v3.9.13
+** podman
+** SOS
+** yum 公用程式
+** python3-DNF-plugin-versionlock
+
+
+* Debian v12
++
+** python3 >= v3.9.0 、 python3 \<= v3.12.0
+** podman
+** 報告
+
+
+
+
+
+
+== 網路需求
+
+Keystone Collector 的網路需求包括：
+
+* Active IQ Unified Manager （ Unified Manager ） 9.10 或更新版本、在啟用 API 閘道功能的伺服器上設定。
+* Keystone Collector 伺服器應可在連接埠 443 （ HTTPS ）上存取 Unified Manager 伺服器。
+* Unified Manager 伺服器上的 Keystone Collector 應設定具有應用程式使用者權限的服務帳戶。
+* 不需要外部網際網路連線。
+* 每個月從 Keystone Collector 匯出檔案、並以電子郵件傳送至 NetApp 支援團隊。如需如何聯絡支援團隊的詳細資訊、請link:../concepts/gssc.html#netapp-global-services-and-support-center["取得 Keystone 的說明"]參閱。
+

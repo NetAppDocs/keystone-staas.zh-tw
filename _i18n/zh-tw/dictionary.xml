@@ -1796,4 +1796,135 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">作業系統：VMware vCenter伺服器和ESXi 6.7或更新版本</block>
   <block id="f7e13857abd03bc318b89fe886669d7d" category="paragraph">當導覽至 *Consumpting Trend* 標籤時、 * 從日期 * 欄位可選取日期範圍、預設會顯示未來日期。</block>
   <block id="443c63f2975d5902a80f1597e417d9f2" category="paragraph">2024-09-04</block>
+  <block id="3564049af4b6d8549eeccf2c18fc9bb7" category="summary">完成一些組態工作、讓 Keystone Collector 能夠在無法存取網際網路的環境中收集使用資料、也稱為「暗站」或「私人模式」。</block>
+  <block id="ac1824aafbc93ef9f076e8c86d829ea7" category="doc">在私人模式中設定 Keystone Collector</block>
+  <block id="4725d6ccb258fcebc2d1c40c828efdad" category="paragraph">完成一些組態工作、讓 Keystone Collector 能夠在無法存取網際網路的環境中收集使用資料、也稱為「暗站」或「私人模式」。這是一次性活動、可啟動所需元件、並將其與儲存環境建立關聯。設定完成後、 Keystone 收集器會監控由 Active IQ Unified Manager 管理的所有 ONTAP 叢集。</block>
+  <block id="091f26e937a9d40df8650aa04378561d" category="list-text">啟動 Keystone Collector 管理 TUI 公用程式：</block>
+  <block id="94cefb0a79f9c3f84bd04977a81563ca" category="paragraph"><block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix="" category="inline-code"></block></block>
+  <block id="5e59f93ec115cbf6c1706dafd6e0a394" category="list-text">移至 * 組態 &gt; 進階 * 。</block>
+  <block id="73b977b85895cbcd73d5cae7b659f22e" category="list-text">切換 *Darksite Mode* 選項。</block>
+  <block id="3a1a1f72fb5c80286671617e3f2e15fe" category="inline-image-macro">Darksite 模式</block>
+  <block id="d34b0bfdc6b7445e829382e924943f47" category="paragraph"><block ref="d34b0bfdc6b7445e829382e924943f47" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">選擇*保存*。</block>
+  <block id="f453453ec2e0d84c0efecd53364a2ac8" category="list-text">前往 * 組態 &gt; KS-Collector* 以設定 Keystone Collector 。</block>
+  <block id="07f0f6576397dde30e86f684caff5918" category="list-text">切換 * 使用 System* 啟動 KS Collector 欄位。</block>
+  <block id="289603a0abeee13d0d3d3bedfbc870ef" category="list-text">切換 * 收集 ONTAP 使用量 * 欄位。新增 Active IQ Unified Manager （ Unified Manager ）伺服器和使用者帳戶的詳細資料。</block>
+  <block id="8974c2e7306c3a08fe35287aa40fe159" category="list-text">* 選用 * ：如果訂閱需要資料分層、請切換 * 使用分層率方案 * 欄位。</block>
+  <block id="561de8cab3868c6dd56aab581ba0aced" category="paragraph">根據購買的訂閱類型、更新 * 使用類型 * 。</block>
+  <block id="bd9d5764503a3efdfcbf0ab33d03c4d5" category="admonition">在設定之前、請確認與 NetApp 訂閱相關的使用類型。</block>
+  <block id="e4bb43b60b06d1c96c946d586acf8d29" category="inline-image-macro">使用類型選項</block>
+  <block id="bf3773602f7e291e23f1fc28bed24fcc" category="paragraph"><block ref="bf3773602f7e291e23f1fc28bed24fcc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7247045253ce8f5029d0a8b1a0c88283" category="list-text">移至 * 組態 &gt; KS-Collector* 以產生 Keystone Collector 金鑰組。</block>
+  <block id="7f850c80ec6362c7a0008d2e68c3bfb5" category="list-text">移至 * 加密金鑰管理員 * 、然後按 Enter 鍵。</block>
+  <block id="96c8e57baa05bd2263ce2848104e20ca" category="inline-image-macro">加密金鑰管理員選項</block>
+  <block id="a105220c548eaedd5039d83d50e5fb25" category="paragraph"><block ref="a105220c548eaedd5039d83d50e5fb25" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9989d5f558b00b14637eded383066d8f" category="list-text">選取 * 產生收集器鍵入式 * 、然後按 Enter 鍵。</block>
+  <block id="ef06e7851efacc91e9c529b6e422d6c8" category="inline-image-macro">產生收集器鍵入選項</block>
+  <block id="216db5e98775635c45af8fd76d3f120f" category="paragraph"><block ref="216db5e98775635c45af8fd76d3f120f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="63eb3f8b8783ba2307d650252c320fc0" category="list-text">返回 TUI 的主畫面並驗證 *Service Status* 資訊、以確保 Keystone 收集器處於正常狀態。系統應顯示服務處於 * 整體：健全 * 狀態。如果在此期間之後整體狀態仍不正常、請等待 10 分鐘、檢閱先前的組態步驟、並聯絡 NetApp 支援團隊。</block>
+  <block id="095b2736fda36d0222656cf6f4c5be55" category="inline-image-macro">服務狀態</block>
+  <block id="fdc583538b94d7a1b00a631fea6a48d1" category="paragraph"><block ref="fdc583538b94d7a1b00a631fea6a48d1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="355f50922b8f701f647de7da778ad2c7" category="list-text">選取首頁畫面上的 * 結束至 Shell* 選項、結束 Keystone Collector 管理 TUI 。</block>
+  <block id="73851b479605eb5d7961a4f17abc4861" category="list-text">擷取產生的公開金鑰：</block>
+  <block id="1fb69ffa43c5d2393747fb8591908923" category="paragraph"><block ref="0aa1845efe7a628c5cf5087616257084" prefix="" category="inline-code"></block></block>
+  <block id="e3f489c24017dacebdfc4336a7c526f6" category="list-text">將內含此檔案的電子郵件傳送至 keystone.services@NetApp .com 。</block>
+  <block id="b9a6d96820187805409aa2a1c60142ae" category="section-title">匯出使用報告</block>
+  <block id="7213bdfaef9f90b96334939108353cdc" category="paragraph">您應該在每個月底將每月使用摘要報告傳送給 NetApp 。您可以手動產生此報告。</block>
+  <block id="9229403d63b77e4aef85fd68e230e0ad" category="paragraph">請依照下列步驟產生使用報告：</block>
+  <block id="d28319812905a38f64e9f59d61f93d22" category="list-text">前往 Keystone Collector TUI 首頁畫面上的 * 匯出使用量 * 。</block>
+  <block id="712c8cee897bc7d934e369862f1de46f" category="list-text">收集檔案並將其傳送至 keystone.services@NetApp ． com 。</block>
+  <block id="06c85910e7b6c5d744082a8b771fd05e" category="paragraph">Keystone 收集器會同時產生一個清除檔案和加密檔案、並手動傳送至 NetApp 。Clear 檔案報告包含下列可由客戶驗證的詳細資料。</block>
+  <block id="75d8461b47629d5f6688144d087a37f1" category="inline-image-macro">清除檔案報告</block>
+  <block id="37cc95117623c08b2d6c6fec6aa2e8a1" category="paragraph"><block ref="37cc95117623c08b2d6c6fec6aa2e8a1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d04e5f519989e5f2ca95f9541ffe17a0" category="section-title">升級ONTAP</block>
+  <block id="7da296afc06722d4011bf107449ce811" category="paragraph">Keystone 收集器支援透過 TUI 進行 ONTAP 升級。</block>
+  <block id="ab3523caa55cc430ce23c9d121772ed2" category="paragraph">請依照下列步驟升級 ONTAP ：</block>
+  <block id="71ece05e2541d5310d5c42e32226e091" category="list-text">前往 * 維護 &gt; ONTAP 升級 Webserver* 。</block>
+  <block id="35f01f8a1c6a4619b0104f40d24a4086" category="list-text">將 ONTAP 升級映像檔案複製到 * / opt NetApp / ONTAP 升級 /* 、然後選取 * 啟動 Webserver* 以啟動網路伺服器。</block>
+  <block id="fb123a7b444cd374b7ac10caba50e88b" category="inline-image-macro">啟動 Webserver 選項</block>
+  <block id="cf04058d80eac818246874f910eb2ab2" category="paragraph"><block ref="cf04058d80eac818246874f910eb2ab2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a8044aea994fa3363bcd4c256ce5d88e" category="list-text">請前往<block ref="1c23bf18bce0ce7f2bb813cdd6798bbd" category="inline-link-rx"></block>使用網頁瀏覽器以取得升級協助。</block>
+  <block id="f650c6d8e69bf10094accbd07b391694" category="section-title">重新啟動 Keystone Collector</block>
+  <block id="93317cb239ead322a8c1e1452ffcabe3" category="paragraph">您可以透過 TUI 重新啟動 Keystone Collector 服務。移至 TUI 中的 * 維護 &gt; 重新啟動 Collector* 服務。這會重新啟動所有收集器服務、並可從 TUI 主畫面監控其狀態。</block>
+  <block id="9bc0cd001c38d64376373002ab821fad" category="inline-image-macro">重新啟動收集器服務選項</block>
+  <block id="036ef23275f196562d13518b49a2ed83" category="paragraph"><block ref="036ef23275f196562d13518b49a2ed83" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="80024926366ce6db30555b19701d4fe9" category="summary">請完成幾個步驟、以便在無法存取網際網路的環境中安裝 Keystone Collector 、也稱為「暗網站」或「私人模式」。</block>
+  <block id="349f0971d9198a978df2459caa0ed3a3" category="doc">以私人模式安裝 Keystone Collector</block>
+  <block id="81cbee7d67c9cedc8a890b0c496df593" category="paragraph">請完成幾個步驟、以便在無法存取網際網路的環境中安裝 Keystone Collector 、也稱為「暗網站」或「私人模式」。這類安裝最適合安全的站台。</block>
+  <block id="0c7e29e635f61377d7a6044b730f88fc" category="paragraph">您可以在 VMware vSphere 系統上部署 Keystone Collector 、或視需求在 Linux 系統上安裝。請遵循與您所選選選項相對應的安裝步驟。</block>
+  <block id="03472404912f6a4900008ff71e6be88c" category="inline-link">NetApp Keystone 入口網站</block>
+  <block id="03cf869353768af577873ac5a5393829" category="list-text">從下載 OVA 範本檔案<block ref="8582f110f3aed6db1f6b0e4620b46e9b" category="inline-link-rx"></block>。</block>
+  <block id="c48f5f946b5abf4863a3512b8938574a" category="list-text">如需使用 OVA 檔案部署 Keystone 收集器的步驟<block ref="726f88f126ebc7cf88d58154fb14e877" category="inline-link-macro-rx"></block>、請參閱一節。</block>
+  <block id="153a56a20cb1cbcc19b94c5a567c3860" category="paragraph">Keystone Collector 軟體是根據 Linux 套裝作業系統、使用提供的 .dub 或 .rpm 檔案安裝在 Linux 伺服器上。</block>
+  <block id="a06bf6f43e34c7dd3517f972707a7c17" category="list-text">將 Keystone Collector 安裝檔案下載或傳輸至 Linux 伺服器：</block>
+  <block id="c94a810e155f05157eaa0fceb22bc3eb" category="paragraph"><block ref="4465d493622bd977095276c975cc599a" prefix="" category="inline-code"></block></block>
+  <block id="b9ba2f26adabe79a75845086e6174811" category="list-text">在伺服器上開啟終端機、然後執行下列命令以開始安裝。</block>
+  <block id="2f751f6e597627ca4c25edfb593985d5" category="list-text">* 使用 Debian 套件 *</block>
+  <block id="007a583aba8753b37fab84d5e966b042" category="paragraph"><block ref="213c9f7b141d8cc940793f40c6be1481" prefix="" category="inline-code"></block></block>
+  <block id="cba2bf24a5b589d36a5d208734fe763d" category="list-text">* 使用 RPM 檔案 *</block>
+  <block id="a7795c5340aa0dff7aa9758ca37f0d72" category="paragraph"><block ref="27afd863ef5dc2599a8f584f1f225361" prefix="" category="inline-code"></block></block>
+  <block id="e81c4e4f2b7b93b481e13a8553c2ae1b" category="paragraph">或</block>
+  <block id="ea516f02b3d88684b3027a26744d53bd" category="paragraph"><block ref="2c4ca7d1c139ade286c991f2ba3b1c55" prefix="" category="inline-code"></block></block>
+  <block id="cda45047bd90a14f3c7cd26f36a536a2" category="list-text"><block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block>當系統提示您安裝套件時、請輸入。</block>
+  <block id="406ef11c23672cacf561d90b1786b09c" category="doc">在私有模式中監控 Keystone Collector 健全狀況</block>
+  <block id="08a24a041433562dcebc0e73add29ce1" category="paragraph">您可以使用任何支援 HTTP 要求的監控系統來監控 Keystone Collector 的健全狀況。</block>
+  <block id="a6bc86a175b0bd6759a0bd21f3a8a22b" category="list-text">* 409*：表示查詢健全狀況狀態的HTTP用戶端不在「允許」清單中、這是允許的網路CIDR清單。對於此狀態、不會傳回任何健全狀況資訊。</block>
+  <block id="9e13a8a51b852397f2122dddc40009ae" category="paragraph">「允許_」清單使用網路CIDR方法來控制哪些網路裝置可以查詢Keystone健全狀況系統。如果您收到 403 錯誤、請將監控系統新增至 *Keystone Collector Management TUI &gt; Configure &gt; Health Monitoring * 的 _allow_ 清單。</block>
+  <block id="1bd81da74d0a5fc1f56e3b9597ac78c1" category="inline-image-macro">允許的網路密碼</block>
+  <block id="69b9b7ddff09b5bf16de75d0dc3e0ffc" category="paragraph"><block ref="69b9b7ddff09b5bf16de75d0dc3e0ffc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="34a3f29ecab2ec81c0b4e49e2c46c196" category="paragraph">若要疑難排解 Keystone 收集器的問題、您可以與 NetApp 支援部門合作、他們可能會要求提供 _.tar_ 檔案。您可以透過 Keystone Collector 管理 TUI 公用程式產生此檔案。</block>
+  <block id="5c1d8eca83e13d1f2c6940ebed9b840f" category="paragraph">請依照下列步驟產生一個 _.tar_ 檔案：</block>
+  <block id="8ed752b8463949393c5cdb5045d7fef4" category="list-text">請參閱*疑難排解&gt;產生支援產品組合*。</block>
+  <block id="9617b78d46da392d051df4c7fe3b1d94" category="list-text">選擇儲存套件的位置、然後按一下 * 產生支援套件 * 。</block>
+  <block id="d8d50c12bd11a2109a7a384f43b0930a" category="inline-image-macro">產生支援服務組合</block>
+  <block id="7605fc3bbddce380c28f25b5327f5fab" category="paragraph"><block ref="7605fc3bbddce380c28f25b5327f5fab" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="572eb7b481dd9edd4e8e79e98f5702e7" category="paragraph">此程序會<block ref="db5570bf61464b46e2bde31ed61a7dc6" prefix=" " category="inline-code"></block>在所述位置建立套件、並可與 NetApp 分享以解決疑難排解問題。</block>
+  <block id="df607436cb358c9158c17df17c648c95" category="summary">Keystone 提供 _Private 部署模式、也稱為 _Dark 站台 _ 、以滿足您的業務和安全需求。</block>
+  <block id="89776fa991dc9a854be133c1980588a2" category="doc">瞭解 Keystone （私有模式）</block>
+  <block id="5580118283395cf4a34aae1cbd8449f9" category="paragraph">Keystone 提供 _Private 部署模式、也稱為 _Dark 站台 _ 、以滿足您的業務和安全需求。此模式適用於有連線限制的組織。</block>
+  <block id="992dbd3c9033c22e0a3a71601032b203" category="paragraph">NetApp 針對網際網路連線能力有限或無網際網路連線能力的環境（也稱為黑暗網站）、提供專屬的 Keystone STaaas 部署。這些環境是安全或隔離的環境、因為安全性、法規遵循或營運需求而限制外部通訊。</block>
+  <block id="875907ebe59351ce3319b9b573d3a1a4" category="paragraph">對於 NetApp Keystone 而言、為 Dark 站台提供服務意味著提供 Keystone 彈性儲存訂閱服務的方式、必須遵守這些環境的限制。這包括：</block>
+  <block id="863f823abfea772036833b72009a8512" category="list-text">* 本機部署 * ： Keystone 可在獨立環境中獨立設定、確保不需要網際網路連線或外部人員進行設定存取。</block>
+  <block id="78adfdd834784260d5b8244517bdf390" category="list-text">* 離線作業 * ：所有具備健全狀況檢查與計費功能的儲存管理功能、皆可離線進行作業。</block>
+  <block id="d3993a5abe0b6a23304df783ff4c8274" category="list-text">* 安全性與法規遵循 * ： Keystone 可確保部署符合黑暗網站的安全性與法規遵循要求、其中可能包括進階加密、安全存取控制及詳細的稽核功能。</block>
+  <block id="03c2aad4e03233252313fd2a0a64a404" category="list-text">* 說明與支援 * ： NetApp 提供全年無休的全球支援、並指派一位專屬 Keystone 成功經理給每個帳戶、以提供協助與疑難排解。</block>
+  <block id="f36f18853fa52bc729eb0fe8a16e4565" category="admonition">Keystone Collector 可在不受連線限制的情況下進行設定、也稱為 _ 標準 _ 模式。若要深入瞭解、請 <block ref="b0296221493226383d9c4765d8ebec27" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="6312d7e5601c4666e99485375665a5c4" category="section-title">Keystone Collector 處於私有模式</block>
+  <block id="5e88a9702083984bc1d9e155cd42bc21" category="paragraph">Keystone Collector 負責定期從儲存系統收集使用量資料、並將度量匯出至離線使用量報告工具和本機檔案存放區。產生的檔案會以加密和純文字格式建立、然後在驗證檢查後由使用者手動轉送至 NetApp 。NetApp 的 Keystone 計費平台收到後、會驗證及處理這些檔案、並將它們整合至計費與訂閱管理系統、以計算每月費用。</block>
+  <block id="eec5cd5bddb59148f9317bbbcbb08a0b" category="inline-image-macro">電腦系統圖表</block>
+  <block id="0aebbe7a6b0f46b9b7ec57efee94cbba" category="paragraph"><block ref="0aebbe7a6b0f46b9b7ec57efee94cbba" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="aab07ba36c285520f2929a739b4a3c91" category="paragraph">伺服器上的 Keystone Collector 服務的任務是定期收集使用資料、處理此資訊、以及在伺服器上本機產生使用檔案。醫療服務會執行系統健全狀況檢查、並設計為與客戶使用的健全狀況監控系統相容。這些報告可供使用者離線存取、可進行驗證並協助疑難排解問題。</block>
+  <block id="faedc5ec46a38871a78be1ed37e01e63" category="inline-image-macro">客戶前提</block>
+  <block id="1d43476b2c183791ba51d56636a41b1c" category="paragraph"><block ref="1d43476b2c183791ba51d56636a41b1c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ddedaabf1afb461a6e3d2fe1320dcca0" category="summary">在沒有網際網路存取的環境中安裝 Keystone Collector 之前（也稱為 _Dark 站台 _ 或 _Private 模式 _ ）、請先確保系統已準備好必要的軟體、並符合所有必要的先決條件。</block>
+  <block id="fd7fae83015d688b86a7ec1ed256864e" category="doc">準備以私有模式安裝</block>
+  <block id="2b9854b0330b42530e0aaf8e893e2f28" category="section-title">VMware vSphere 的需求</block>
+  <block id="4b78be970b5500221a819608df5616e7" category="list-text">作業系統： VMware vCenter Server 和 ESXi 6.7 或更新版本</block>
+  <block id="0a07fd95ca9bf6935ce5e61609730be6" category="list-text">RAM：2 GB</block>
+  <block id="c53de6b17f1d8da5e4d60aca127be380" category="section-title">Linux 的需求</block>
+  <block id="839c50014246079994053b486bb0f80c" category="list-text">作業系統： Debian v12 或 Red Hat Enterprise Linux 8.6 或更新版本</block>
+  <block id="6adf0487ff5b4dadf30c70a5107314fc" category="list-text">核心： 2 個 CPU</block>
+  <block id="9b254436141f0faf599283567283dff9" category="list-text">RAM：4 GB</block>
+  <block id="52bef7e9917e522c1436572ddc5a3a3f" category="list-text">至少 2 GB 可用空間<block ref="9854ed422bddbda845d9be18e5812dbc" prefix=" " category="inline-code"></block></block>
+  <block id="3db3f2076eb3e58b05c6ae1e6accb36e" category="list-text">至少 48 GB 可用空間<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block></block>
+  <block id="574288454beb0127b5c5892882343abf" category="paragraph">同一部伺服器也應安裝下列協力廠商套件。如果透過儲存庫提供、這些套件將會自動安裝為先決條件：</block>
+  <block id="131e01e2ecbd7de2f9b3f16afa129bcd" category="list-text">RHEL8</block>
+  <block id="9a1a91cd8e61e7975513444f1156020d" category="list-text">python3 &gt;=v3.6.8 、 python3 \&lt;=v3.9.13</block>
+  <block id="abe31bcfb59f2265c2fb97dde407366c" category="list-text">podman</block>
+  <block id="964ff658eeb150fa1ca6d823c1c0c1a7" category="list-text">yum 公用程式</block>
+  <block id="8813c65f21a446bf554bec3604466fff" category="list-text">python3-DNF-plugin-versionlock</block>
+  <block id="d1017bbf5ca9632f130271f7d6ed04fd" category="list-text">Debian v12</block>
+  <block id="2c2d19cda9d3644fca17a9ca3bc09d0b" category="list-text">python3 &gt;= v3.9.0 、 python3 \&lt;= v3.12.0</block>
+  <block id="7fbcd4e7fad4671c547f823bdaeba2b6" category="list-text">報告</block>
+  <block id="9251700e586dc1a410f2e755a8643751" category="section-title">網路需求</block>
+  <block id="a044d8f85fe2375b7be98e59d8a6ee02" category="paragraph">Keystone Collector 的網路需求包括：</block>
+  <block id="84d581305434aa96d1aa4a8a716b2b80" category="list-text">Active IQ Unified Manager （ Unified Manager ） 9.10 或更新版本、在啟用 API 閘道功能的伺服器上設定。</block>
+  <block id="f9017eb4d160c5625e2911de7136c2fe" category="list-text">Keystone Collector 伺服器應可在連接埠 443 （ HTTPS ）上存取 Unified Manager 伺服器。</block>
+  <block id="c55d18e0937cb0a3844d2da3ecbc7e82" category="list-text">Unified Manager 伺服器上的 Keystone Collector 應設定具有應用程式使用者權限的服務帳戶。</block>
+  <block id="4be679fb0c05782454656e48556dab1d" category="list-text">不需要外部網際網路連線。</block>
+  <block id="9fc9a5ce8278ada254052c62e048d22b" category="list-text">每個月從 Keystone Collector 匯出檔案、並以電子郵件傳送至 NetApp 支援團隊。如需如何聯絡支援團隊的詳細資訊、請<block ref="77e2a4ca04ba16c3bb0a4c8df0385121" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="b7e3d459da53b2456951d0a5d3237300" category="inline-link-macro">私密模式中的 Keystone</block>
+  <block id="d94b27c65b00f48ddf2590d54d34311d" category="list-text">Keystone Collector 可針對沒有網際網路存取權的組織進行設定、也稱為 _Dark 站台 _ 或 _Private 模式 _ 。若要深入瞭解、請<block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="70746148197a1842a9455cddc0c18adc" category="paragraph">Keystone Collector 可設定為 _ 標準 _ 模式、不受連線限制即可運作、或是 _ 私有 _ 模式、專為連線限制的組織所設計。若要以標準模式安裝 Keystone Collector <block ref="a9306132ed6aac4cbc6f1e3f3feb8703" category="inline-link-macro-rx"></block>、請參閱；如需私有模式、請<block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="67f289221dc2b8315be57c85a28e0619" category="sidebar">準備安裝</block>
 </blocks>
