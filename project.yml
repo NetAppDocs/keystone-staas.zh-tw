@@ -137,6 +137,18 @@ sidebar:
       url: "/dark-sites/configure-collector.html"
     - title: 監控 Keystone Collector 健全狀況
       url: "/dark-sites/monitor.html"
+  - title: 從 Digital Advisor REST API 存取 Keystone
+    entries:
+    - title: 開始使用 Digital Advisor REST API 擷取 Keystone 資料
+      url: "/rest-api/retrieve-keystone-data-with-digital-advisor-rest-api.html"
+    - title: 產生重新整理和存取權杖
+      url: "/rest-api/generate-tokens.html"
+    - title: 取得使用 Digital Advisor REST API 的所有客戶清單
+      url: "/rest-api/get-customer-list.html"
+    - title: 使用 Digital Advisor REST API 取得客戶訂閱
+      url: "/rest-api/get-customer-subscriptions.html"
+    - title: 使用 Digital Advisor REST API 取得客戶使用量詳細資料
+      url: "/rest-api/get-customer-consumption.html"
   - title: 帳單
     entries:
     - title: Keystone定價

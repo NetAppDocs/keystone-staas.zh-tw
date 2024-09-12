@@ -82,7 +82,6 @@
   <block id="18b8a063bbf57f20dcdbb6f12a9dc0e9" category="section-title">SnapMirror 目的地收費</block>
   <block id="c73be2f2aaeb82cecf852c49f3ea4cce" category="section-title">LUN 計費</block>
   <block id="cb1713b138a78b69b1922aa45131c2df" category="list-text">LUN 的大小會根據該 LUN 的相關服務層級來計算、以供使用。</block>
-  <block id="a0426b9dc757c80060e1b3657daf68d2" category="list-text">磁碟區中剩餘空間（如果有）會根據在磁碟區上設定之服務層級的 QoS 原則來收費。</block>
   <block id="1eba80d57d3138b5dae3b976f061f9d9" category="section-title">系統和根磁碟區</block>
   <block id="3655e8bb18b4941a3bf9ce392c24bbb4" category="paragraph">系統和根磁碟區會在Keystone服務的整體監控中受到監控、但不會計入或計費。這些磁碟區的使用量可免除計費。</block>
   <block id="8ae2f411abd3cc165322ca02f81cde27" category="summary">Keystone與Equinix</block>
@@ -329,8 +328,6 @@
   <block id="b6b6ef9bcccde24a7790b0a3093601da" category="paragraph">Extreme服務層級的設定與命令：</block>
   <block id="0a32480150714670b636bea04f9ef2a1" category="paragraph">效能服務層級的設定與命令：</block>
   <block id="536a21a9808fc714076b198f94a4a506" category="paragraph">如果您透過ONTAP 《系統管理程式》（System Manager）或Active IQ Unified Manager 《統一化管理程式》（Unified Manager）監控叢集、您可能會發現這些工具和Keystone上報告的使用量差異。System Manager和Unified Manager不會在鏡射（遠端）叢集上報告磁碟區、因此會報告Keystone服務報告的使用量數據一半。</block>
-  <block id="34331c74c5db43631e74f0ed21504ce2" category="paragraph">SnapMirror目的地Volume的定價受來源所指派服務層級的QoS原則規範。但是、如果來源沒有相關聯的 QoS 原則、則會根據可用的最低服務層級來計費目的地。</block>
-  <block id="0d128bf188abd70ede35e6c24063c36b" category="paragraph">對於LUN、則遵循與QoS原則所管理的磁碟區相同的計費模式。如果在 LUN 上設定個別的 QoS 原則、則：</block>
   <block id="ba66768dfbbcde790d00e0de40f92803" category="paragraph">容量減量（每年）適用於_年度預付款模式及內部部署。不適用於雲端服務或混合雲服務。它提供內部部署容量的資源、每次訂購的服務層級最多可減少25%。每年可進行一次此項減量、以在下一年度計費期間開始時生效。在期限內、內部部署服務的年度付款金額應在超過20萬美元的時間內隨時支付、以利利用容量減量。由於此計費模式僅支援內部部署、因此無法將內部部署的支出重新分配給雲端服務。下圖顯示年度容量減量的範例。</block>
   <block id="63da2e64853bf4155b1b1a1e9ee74a97" category="list-text">僅適用於承諾1、2或3年期限的訂閱。</block>
   <block id="1ad380d64aaf6780bee52adfb88395c3" category="list-text">客戶或合作夥伴應在下次計費週期前至少一週、將重新分配的要求正式提交至Keystone Success Manager（KSM）。</block>
@@ -603,7 +600,6 @@
   <block id="7448ec74d1e6091b2ad38508ebdc37f4" category="section-title">標準服務層級的設定</block>
   <block id="f20f6fc30a0b0f9782dbad2fdc8d1694" category="paragraph">標準服務層級的設定與命令：</block>
   <block id="5cd7d5370bb2b4b9a46af59b9c5c279e" category="paragraph">價值服務層級的設定與命令：</block>
-  <block id="31dc6a9375ebd13745edd88d9ad398fa" category="paragraph">Keystone會根據服務層級來衡量使用量。每個服務層級都與特定的調適性服務品質（QoS）原則相關聯。在部署期間、系統會通知您訂閱的Keystone服務的每個QoS原則詳細資料。在儲存管理作業期間、請確定您的磁碟區已根據訂閱的服務層級指派適當的QoS原則、以避免發生非預期的計費。如需 ONTAP 更多有關 QoS 原則的資訊、請參閱 <block ref="c361ea29a8da4892d7ebbf6b7b42594c" category="inline-link-macro-rx"></block>。</block>
   <block id="6ee89d6c0a15491675b7cc32e34a211d" category="list-text">*容量測量單位為單位元組（GiB）、小單位元組（TiB）和小單位元組（PIB）*：使用基礎為1024的資料儲存容量測量（1 GiB = 101010^3^位元組、1 TiB = 104^位元組、1 PiB = 1010%5^位元組）。</block>
   <block id="d634acbcc57e75a34f7ef2ecf60eb69c" category="list-text">「基礎概念協議」中已同意「連拍容量」。通常設定為比已認可容量高20%、而且收費率與已認可容量相同。</block>
   <block id="1bcbd92a1182a8044032c0af47695d8a" category="list-text">下載<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 檔案：<block ref="d1ed07754d396f9745478bc6388ae23a" prefix=" " category="inline-code"></block></block>
@@ -1927,4 +1923,74 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="d94b27c65b00f48ddf2590d54d34311d" category="list-text">Keystone Collector 可針對沒有網際網路存取權的組織進行設定、也稱為 _Dark 站台 _ 或 _Private 模式 _ 。若要深入瞭解、請<block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="70746148197a1842a9455cddc0c18adc" category="paragraph">Keystone Collector 可設定為 _ 標準 _ 模式、不受連線限制即可運作、或是 _ 私有 _ 模式、專為連線限制的組織所設計。若要以標準模式安裝 Keystone Collector <block ref="a9306132ed6aac4cbc6f1e3f3feb8703" category="inline-link-macro-rx"></block>、請參閱；如需私有模式、請<block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="67f289221dc2b8315be57c85a28e0619" category="sidebar">準備安裝</block>
+  <block id="5e2de39ee27d191717827ce53298c90c" category="paragraph">Keystone 會根據服務層級來測量使用量。每個服務層級都與特定的調適性服務品質（QoS）原則相關聯。在部署期間、系統會通知您所訂閱 Keystone 服務的每個調適性 QoS 原則詳細資料。在儲存管理作業期間、請確保您的磁碟區已根據您訂閱的服務層級指派適當的調適性 QoS 原則、以避免意外的計費。如需 ONTAP 中調適性 QoS 原則的詳細資訊，請參閱<block ref="c361ea29a8da4892d7ebbf6b7b42594c" category="inline-link-macro-rx"></block>。</block>
+  <block id="b3f67b6d739086a60e5e83a06fc9385a" category="paragraph">SnapMirror 目的地 Volume 的價格是由來源上所指派服務層級的調適性 QoS 原則所規範。不過、如果來源沒有相關的調適性 QoS 原則、則目的地會根據最低的可用服務層級收費。</block>
+  <block id="48a2e47bd08859aaadb33439caee37ab" category="paragraph">對於 LUN 、遵循的計費模式與受調適性 QoS 原則管理的磁碟區相同。如果在 LUN 上設定個別的調適性 QoS 原則、則：</block>
+  <block id="6490b5d86d9c2c555b3e5beda0a2a9d5" category="list-text">磁碟區中剩餘的空間（如果有）是根據磁碟區上所設定服務層級的自適應 QoS 原則來收費的。</block>
+  <block id="9204b645e4eea2a02754c156cfd9e1a6" category="summary">重新整理權杖可用於以程式設計方式取得一組新的存取權杖、適合一週內使用、或直到使用它來取得新的權杖集為止。</block>
+  <block id="145b307d4ba69aec19da1f45298d0331" category="doc">產生重新整理和存取權杖</block>
+  <block id="927b8562aa4139e861d75cb3b52989c0" category="paragraph">使用 Digital Advisor 入口網站產生重新整理權杖的步驟如下：</block>
+  <block id="6000572c108dfa296d55e1b66e617881" category="inline-link">Digital Advisor 入口網站</block>
+  <block id="65b626e7fc3c2a629d8173445c374939" category="list-text"><block ref="68e1c8d460b05c6b3487ddd972231b8a" category="inline-link-rx"></block>使用 NetApp 認證登入、然後選取 * 產生權杖 * 。</block>
+  <block id="84a0716e9996908ee6c3f7844b40f16e" category="inline-image-macro">使用 Digital Advisor 入口網站產生重新整理權杖的步驟</block>
+  <block id="38ddf21c7008008f5756c8d45f73e98d" category="paragraph"><block ref="38ddf21c7008008f5756c8d45f73e98d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2eab0ef2787046e5ca1a37a551a84a52" category="admonition">對於初次使用者、如果 * 產生 Token * 選項無法使用、請選取 * 註冊 * 以提交授權要求。填寫註冊表單以啟用此功能。</block>
+  <block id="dfafc53dc163bc9e881aaefa4141b99b" category="list-text">系統會產生存取權杖和重新整理權杖。將重新整理權杖儲存在信任的平台上。</block>
+  <block id="99a9cfa523a42e23621796dfca6edb0a" category="admonition">入口網站提供多種方法、可將一個或兩個權杖儲存在集合中。您可以將它們複製到剪貼簿、下載為文字檔、或以純文字檢視。</block>
+  <block id="0c985b7de8ddbf36c9ba269c6fa7d19d" category="inline-image-macro">權杖類型</block>
+  <block id="e1b9a61b4bf198d118cecea54ef50f05" category="paragraph"><block ref="e1b9a61b4bf198d118cecea54ef50f05" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="76acfd7cc1462b0cb95165dff3d80956" category="section-title">使用 Digital Advisor REST API 產生存取權杖</block>
+  <block id="3bec9bdc64ea5ba7cdaa6b6cbcced8c1" category="paragraph">存取權杖用於驗證 Digital Advisor API 要求。它可以直接透過主控台和重新整理權杖產生、或使用下列 API 呼叫：</block>
+  <block id="44ca1d23512f6b8b70e799213f0aa0cd" category="paragraph">* 申請： *</block>
+  <block id="28ed9b5b5df5d633073f9cca1d10bee9" category="cell">*方法*</block>
+  <block id="a02439ec229d8be0e74b0c1602392310" category="cell">貼文</block>
+  <block id="55322ba3b4cd3b7782949a6debd00e1c" category="cell">* 端點 *</block>
+  <block id="111ffa9d375a47f985e5a930df93acad" category="cell"><block ref="111ffa9d375a47f985e5a930df93acad" category="inline-link-rx"></block></block>
+  <block id="904069365b298cc4d7103f93cb31dbfc" category="cell">* 標題 *</block>
+  <block id="542ec3d8c98f371802d8fd77096ac7b2" category="list-text">接受： application/json</block>
+  <block id="30de7c9b045a8fbe02ed2b9d4ffe4425" category="list-text">內容類型： application/json</block>
+  <block id="b7fa10c6a4149a93a4eaaba61e0f23e1" category="cell">* 申請本文 *</block>
+  <block id="13bdfec6f8b9e7cc7abb43fab0b6b384" category="paragraph">{ "refresh_toke" ： "a" &lt;refresh-token&gt; }</block>
+  <block id="7893264e0d59291df9deafb0e9f1b841" category="admonition">您需要有管理 Privileges for Digital Advisor 才能存取此端點。</block>
+  <block id="49fdcb561eb10ce1bc7df051ca7f8d08" category="paragraph">* 回應： *</block>
+  <block id="746b4a10356112a607ace0b2038463aa" category="paragraph">API 會以 JSON 格式傳回存取權杖和重新整理權杖做為回應。</block>
+  <block id="fb024c1026b3468fe6493e58895bb1d2" category="paragraph">* 狀態代碼 * ： 200 –成功申請</block>
+  <block id="c1243520ab8986b01d2c43fb104c0bce" category="paragraph">* 目前範例 * ：</block>
+  <block id="da50043d1f7c61447ab36e5a81e7ab67" category="section-title">執行 API 呼叫</block>
+  <block id="ffc141c1c95ba83a77683a29e2e3c158" category="paragraph">成功產生存取權杖後、即可針對必要資訊執行授權的數位顧問 API 呼叫。</block>
+  <block id="60da99bd88f7966b796873420df2f1c3" category="summary">此 API 會擷取與指定客戶 ID 相關的所有訂閱目前使用量詳細資料。</block>
+  <block id="8bc9e7b2eb702a14a34a24bcc32c172d" category="doc">使用 Digital Advisor REST API 取得客戶使用量詳細資料</block>
+  <block id="7528035a93ee69cedb1dbddb2f0bfcc8" category="cell">取得</block>
+  <block id="41d2da547ce3e763f6eead2948c7bce6" category="cell">* 端點 *</block>
+  <block id="7390986cba8738a130d09a1ae8c7619d" category="cell"><block ref="7390986cba8738a130d09a1ae8c7619d" category="inline-link-rx"></block></block>
+  <block id="ff42ec92d6bd64c6ab6d1f0800017eef" category="cell">*參數*</block>
+  <block id="5ee9048a2df6bae318564eb60313820f" category="list-text">類型：「客戶」</block>
+  <block id="b6fcb149db1c33db8b3446e2f7582d90" category="list-text">ID ： &lt;customer-id&gt;</block>
+  <block id="630edeee8eb5e603fd6d970a407a9c25" category="list-text">authorizationToken ： &lt;access_key&gt;</block>
+  <block id="3d19254bb03e315d634fc0986c9eb4f0" category="paragraph">* 回應： * API 將回應 JSON 物件、其中包含所有訂閱的清單、以及指定客戶目前的服務使用量指標。以下是回應範例：</block>
+  <block id="d3f7bd75a02cbe1c2370c78a86417b77" category="section-title">取得客戶的歷史消費詳細資料</block>
+  <block id="aa781d0910bba8a0c595fe9b0cd9d3b8" category="paragraph">此 API 會根據指定的時間範圍、擷取與指定客戶 ID 相關的所有訂閱的歷史使用量詳細資料。</block>
+  <block id="1c706be136f0541b294fcc885fde1a63" category="cell"><block ref="1c706be136f0541b294fcc885fde1a63" category="inline-link-rx"></block></block>
+  <block id="72ce780c61cc8fc26c3fc393d965f9b7" category="list-text">From （發件人） _date ： &lt; 開始日期（以 RFC3339 格式） &gt;</block>
+  <block id="d4232bc3d79f7c2651bc3b089aa822c1" category="list-text">至日期 _UTC ： &lt; 結束日期（以 RFC3339 格式） &gt;</block>
+  <block id="eb53e4bff92730b260ff2452a158fac7" category="paragraph">API 會以 JSON 物件回應、其中包含所有訂閱的清單、以及所選時間範圍內指定客戶的歷史服務使用量指標。以下是回應範例：</block>
+  <block id="20fa5f9b2d4cd9672cce24531c8f1666" category="summary">此 API 會擷取與使用者相關聯的所有客戶 ID 清單。</block>
+  <block id="2a2abaabc17b5a91d82e82303642b09c" category="doc">取得使用 Digital Advisor REST API 的所有客戶清單</block>
+  <block id="b6c5a11b232c98606fb9ada3ec62627d" category="cell"><block ref="b6c5a11b232c98606fb9ada3ec62627d" category="inline-link-rx"></block></block>
+  <block id="5b7e7d763cd7702a1e75085674fe6768" category="paragraph">API 將會回應 JSON 物件、其中包含客戶名稱和個別 ID 的清單。以下是回應範例：</block>
+  <block id="796057698de87bb393ab8b61e5aff5f2" category="summary">此 API 會擷取與指定客戶 ID 相關的所有訂閱和服務層級清單。</block>
+  <block id="9b6c21a9e3f04a27506fa4a5eb0cd41f" category="doc">使用 Digital Advisor REST API 取得客戶訂閱</block>
+  <block id="bb50b1b9a7f23ddec00f27c428c363f2" category="cell"><block ref="bb50b1b9a7f23ddec00f27c428c363f2" category="inline-link-rx"></block></block>
+  <block id="7dad8be1becd1cd3fe4d2ec1306c3b82" category="paragraph">API 將會回應 JSON 物件、其中包含指定客戶所有訂閱和相關服務層級詳細資料的清單。以下是回應範例：</block>
+  <block id="4add8177bc48d8ace8e3bcec902454ad" category="summary">NetApp Keystone ActiveIQ 數位顧問 API 提供程式化介面、可擷取 Keystone 服務詳細資料和指標。</block>
+  <block id="0a076b1454da01faf38e4805c15570ee" category="doc">開始使用 Digital Advisor REST API 擷取 Keystone 資料</block>
+  <block id="e29debe73c0e9065a4267dfae6adefe9" category="paragraph">數位顧問 REST API 提供程式化介面、可擷取 Keystone 訂閱和使用詳細資料。</block>
+  <block id="c3091c7f241015a003ff982080a072b0" category="paragraph">在高層級、與 Digital Advisor REST API 互動的工作流程包括下列步驟：</block>
+  <block id="6c0397360aa8b37bbbe1fa3a38744674" category="inline-link">登入Digital Advisor。</block>
+  <block id="cb2ea5f9df257b4df0243d4cf9e535bf" category="list-text">設定您的數位顧問帳戶。您必須擁有有效的 NetApp 支援網站認證、才能登入數位顧問。如需詳細資訊、請參閱<block ref="f7709f12f686047b8295b5977c1d6d33" category="inline-link-rx"></block></block>
+  <block id="d99ad2d9a576f68ae4b88fb369c0150d" category="list-text">瞭解兩個步驟的驗證程序。</block>
+  <block id="10a330e0acf4a6c5af02e22d7528123d" category="list-text">* 產生重新整理權杖 * ：透過數位顧問主控台使用 NetApp 認證來取得重新整理權杖。此 Token 可確保不需重複登入、即可持續存取。</block>
+  <block id="2242d62d3e8be601b23d94ea56e90d58" category="list-text">* 產生存取權杖 * ：使用重新整理權杖來產生存取權杖。需要存取權杖才能授權對 Keystone 服務進行 API 呼叫、且有效時間為一小時。</block>
+  <block id="f8f8242a29d5eb9256ae05747db07412" category="list-text">執行 API 呼叫以擷取所需資料。您可以程式設計方式擷取客戶清單、客戶訂閱資料和客戶使用詳細資料。</block>
+  <block id="fad1e832526fa7449bfff5b810826110" category="sidebar">從 Digital Advisor REST API 存取 Keystone</block>
 </blocks>

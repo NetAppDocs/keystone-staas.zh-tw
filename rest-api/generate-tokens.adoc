@@ -1,0 +1,94 @@
+---
+sidebar: sidebar 
+permalink: rest-api/generate-tokens.html 
+keywords: Refresh token, AIQ Digital Advisor portal,access 
+summary: 重新整理權杖可用於以程式設計方式取得一組新的存取權杖、適合一週內使用、或直到使用它來取得新的權杖集為止。 
+---
+= 產生重新整理和存取權杖
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+重新整理權杖可用於以程式設計方式取得一組新的存取權杖、適合一週內使用、或直到使用它來取得新的權杖集為止。
+
+使用 Digital Advisor 入口網站產生重新整理權杖的步驟如下：
+
+.  https://aiq.netapp.com/api["Digital Advisor 入口網站"]使用 NetApp 認證登入、然後選取 * 產生權杖 * 。
++
+image:rest-api-aiq-portal.png["使用 Digital Advisor 入口網站產生重新整理權杖的步驟"]
+
++
+
+NOTE: 對於初次使用者、如果 * 產生 Token * 選項無法使用、請選取 * 註冊 * 以提交授權要求。填寫註冊表單以啟用此功能。
+
+. 系統會產生存取權杖和重新整理權杖。將重新整理權杖儲存在信任的平台上。
++
+
+NOTE: 入口網站提供多種方法、可將一個或兩個權杖儲存在集合中。您可以將它們複製到剪貼簿、下載為文字檔、或以純文字檢視。
+
++
+image:rest-api-token-types.png["權杖類型"]
+
+
+
+
+
+== 使用 Digital Advisor REST API 產生存取權杖
+
+存取權杖用於驗證 Digital Advisor API 要求。它可以直接透過主控台和重新整理權杖產生、或使用下列 API 呼叫：
+
+* 申請： *
+
+[cols="41%,59%"]
+|===
+
+
+| *方法* | 貼文 
+
+
+| * 端點 * | https://api.activeiq.netapp.com/v1/tokens/accessToken[] 
+
+
+| * 標題 *  a| 
+* 接受： application/json
+* 內容類型： application/json
+
+
+
+
+| * 申請本文 *  a| 
+{ "refresh_toke" ： "a" <refresh-token> }
+
+|===
+
+NOTE: 您需要有管理 Privileges for Digital Advisor 才能存取此端點。
+
+* 回應： *
+
+API 會以 JSON 格式傳回存取權杖和重新整理權杖做為回應。
+
+[listing]
+----
+{
+"refresh_token": "string",
+"access_token": "string"
+}
+----
+* 狀態代碼 * ： 200 –成功申請
+
+* 目前範例 * ：
+
+[source, curl]
+----
+curl -X 'POST' \ 'https://api.activeiq.netapp.com/v1/tokens/accessToken' \ -H 'accept: application/json' \ -H 'Content-Type: application/json' \ -d ' { "refresh_token": "<refresh-token>" }'
+----
+
+
+== 執行 API 呼叫
+
+成功產生存取權杖後、即可針對必要資訊執行授權的數位顧問 API 呼叫。
