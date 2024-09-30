@@ -29,8 +29,6 @@
   <block id="bbc2d665b02dc421c5c756db4b973610" category="list-text">Microsoft Hyper-V</block>
   <block id="e05386baa04fdb8086234b221371bac1" category="list-text">核心型虛擬機器（Linux KVM）</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">網路</block>
-  <block id="6a289655b3295fc9e844e417d89ad1d9" category="list-text">support.netapp.com（使用資料上傳）</block>
-  <block id="ebe9aca07858175421a1a9356e13ef73" category="list-text">hub.Docker（IO）（軟體更新）</block>
   <block id="bc9ce1a2001f13d5a3489030a7b630e9" category="paragraph">NetApp僅為NetApp提供的基礎架構裝置提供所需的收發器。您應該提供客戶裝置所需的收發器、以及連接至NetApp提供之Keystone基礎架構裝置的纜線。</block>
   <block id="d701dcea67fd884a29f39c9adfdeb8bf" category="section-title">遠端存取需求</block>
   <block id="8ae3d79d3f1b6cb3022dbfb96c477b67" category="doc">深入瞭解NetApp Keystone</block>
@@ -488,7 +486,6 @@
   <block id="963d08ca263f6cd538d14c2e7f2ec229" category="inline-link">重新啟動Unified Manager</block>
   <block id="f0534e91aef6ef17323964d9d72a8ced" category="inline-link">重新啟動Unified Manager虛擬機器</block>
   <block id="ec42ecd035e3697033aaf0a3f87f6d29" category="doc">Linux系統需求</block>
-  <block id="29bc7d9ab3c94b603834dbbd074f9667" category="list-text">作業系統：CentOS 7或Red Hat Enterprise Linux 8．6或更新版本</block>
   <block id="6c0ecb6db472eae3c84276b7cd5ea34f" category="list-text">Chroyd時間同步</block>
   <block id="8dff4f66fbdc44d35cadc9cf566cab06" category="paragraph">同一部伺服器也應該具有下列協力廠商套件：</block>
   <block id="8a43eb05c3b74f093be84dcedec105e4" category="list-text">Pod管理程式</block>
@@ -821,7 +818,6 @@
   <block id="fe69a54042d9eff356aefd4641754a9d" category="list-text">AIOPs 解決方案本機閘道：用於監控網路的雲端型應用程式。它內建與NetApp儲存平台的整合功能、可收集環境資料並監控網路。此服務是在使用安裝在您站台上的本機閘道與雲端入口網站通訊的協助下啟用。</block>
   <block id="370f5a2dcf3c761999eec9796ac7cb95" category="list-text">Keystone Data Collector：Keystone Collector為Keystone客戶提供帳單服務。此應用程式隨Active IQ Unified Manager 附於NetApp。它會從 ONTAP 和 StorageGRID 控制器收集資料、時間間隔為五分鐘。資料會經過處理、中繼資料Active IQ 會透過AutoSupport 用於產生帳單資料的流程機制、傳送到集中式的資料湖。Active IQ DATA lake 會處理帳單資料、並將其傳送給期望帳單的人員。</block>
   <block id="b061e71795ea0169fae5918033aa1426" category="inline-link-macro">Keystone Collector 安裝指南</block>
-  <block id="78723ce66f58e9e7caf198aa1ec6dc10" category="list-text">客戶提供 Red Hat Enterprise Linux 7 或 8 或 CentOS 7 Linux 伺服器。Keystone 軟體是透過安裝<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> 安裝程序。</block>
   <block id="b264c507ce69115ec3b1ea258739f71a" category="paragraph">AIOP 解決方案閘道部署在下列組態上：</block>
   <block id="3db5d9db3e9bbb96192cdbca3e683f2d" category="list-text">NetApp 使用 AIOPs 解決方案主動監控並連線至 NetApp Keystone 環境進行疑難排解。</block>
   <block id="f117a997c71ee803b4f42cc859317819" category="admonition">在合作夥伴營運模式中、租戶和租戶的服務要求會指派給合作夥伴的服務台。合作夥伴的支援工具可能與 AIOP 解決方案和 GSSC 應用程式整合。只有 L3 問題會透過 GSSC 提報給 NetApp 。</block>
@@ -1193,7 +1189,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="0cd22f9baa25202637cff789fe1dfe9f" category="list-text">Active IQ Unified Manager （ Unified Manager ） 9.10 或更新版本</block>
   <block id="81f184376266ed69a659d0030be070fc" category="list-text">請檢查RPM資料庫中Keystone Billing Platform的指紋、確認已匯入正確的公開憑證：<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block>
 正確的指紋如下所示：<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block></block>
-  <block id="82141214645629808da05e70bbc23bcf" category="list-text">keystone.netapp.com（軟體更新）</block>
   <block id="cbe21b6da30db10de9cd33de72b5dc48" category="paragraph">利用此技術、NRNVC功能可在磁碟區中設定的到期日之後、使磁碟機無法使用。SnapLock若要在SnapLock 您的磁碟區上使用支援技術、您必須訂閱NRNVC。這僅適用於檔案和區塊服務。</block>
   <block id="25ee4dffb8ff9627245188cd5d5a88f9" category="paragraph">NetApp（Keystone）是一種隨需付費的訂閱型服務模式、可為偏好營運成本消費模式的企業、提供無縫的混合雲體驗、以預先支付資本支出或租賃。NetApp Keystone</block>
   <block id="14ef43baeaecb16eed97981bac41fa1a" category="paragraph">Keystone可減少管理無法預測的容量成長和複雜採購週期的障礙、讓客戶加速實現價值。Keystone可讓客戶根據業務優先順序調整經濟效益與營運。</block>
@@ -1520,7 +1515,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="1d338514e4b31738eb689c9e5bf1deca" category="paragraph">在您的環境中啟用 NetApp Keystone STaaS 服務需要幾個元件。開始之前、您應該先檢閱這些元件的詳細資料。</block>
   <block id="147c46cde84c281f55a6c47d275ff845" category="paragraph">部署 Keystone Collector 和 AIOP 解決方案閘道時、需要儲存虛擬機器（儲存 VM ）。安裝 Keystone Collector 的先決條件可在此取得 <block ref="90d7b7caf953f72ddc1c63cc7891ca46" category="inline-link-macro-rx"></block>：。其他需求則在部署期間共用。</block>
   <block id="d246f9b425c150eb3d6e174fbc2525d0" category="paragraph">Keystone Collector 可透過下列方法部署：</block>
-  <block id="2ad06e7ec3a3005472f12c2250cfbe16" category="paragraph">Keystone Collector 和 AIOP 解決方案閘道的作業和維護需要對下列服務進行輸出存取：</block>
   <block id="3332bc574644f77a870b242a631af1e3" category="summary">消耗容量是工作負載在服務使用期間實際使用的容量。</block>
   <block id="7a6709ab5e3b396814fccf37c263ad1f" category="paragraph">Keystone STaaS會根據您在服務使用期間所耗用的容量進行計量。耗用容量是工作負載實際使用的容量。</block>
   <block id="35ff061e0e3d6c0c79e597b4d638231e" category="paragraph">作爲Keystone服務部署的一部分，NetApp會持續監控和衡量服務的使用量。每五分鐘至少一次、系統會產生一筆使用記錄、詳述您訂閱的目前使用容量。這些記錄會在計費期間內彙總、以產生發票和使用報告。</block>
@@ -1898,7 +1892,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="4b78be970b5500221a819608df5616e7" category="list-text">作業系統： VMware vCenter Server 和 ESXi 6.7 或更新版本</block>
   <block id="0a07fd95ca9bf6935ce5e61609730be6" category="list-text">RAM：2 GB</block>
   <block id="c53de6b17f1d8da5e4d60aca127be380" category="section-title">Linux 的需求</block>
-  <block id="839c50014246079994053b486bb0f80c" category="list-text">作業系統： Debian v12 或 Red Hat Enterprise Linux 8.6 或更新版本</block>
   <block id="6adf0487ff5b4dadf30c70a5107314fc" category="list-text">核心： 2 個 CPU</block>
   <block id="9b254436141f0faf599283567283dff9" category="list-text">RAM：4 GB</block>
   <block id="52bef7e9917e522c1436572ddc5a3a3f" category="list-text">至少 2 GB 可用空間<block ref="9854ed422bddbda845d9be18e5812dbc" prefix=" " category="inline-code"></block></block>
@@ -1993,4 +1986,8 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="2242d62d3e8be601b23d94ea56e90d58" category="list-text">* 產生存取權杖 * ：使用重新整理權杖來產生存取權杖。需要存取權杖才能授權對 Keystone 服務進行 API 呼叫、且有效時間為一小時。</block>
   <block id="f8f8242a29d5eb9256ae05747db07412" category="list-text">執行 API 呼叫以擷取所需資料。您可以程式設計方式擷取客戶清單、客戶訂閱資料和客戶使用詳細資料。</block>
   <block id="fad1e832526fa7449bfff5b810826110" category="sidebar">從 Digital Advisor REST API 存取 Keystone</block>
+  <block id="aef0601039f80516fbc2cefd134a7b42" category="list-text">客戶提供在 Red Hat Enterprise Linux 8.6 或更新版本 8.x 或 CentOS 7 上執行的 Linux 伺服器。Keystone 軟體是透過安裝程序安裝<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block>。</block>
+  <block id="4bfa7642bccc7e1047a0f5b699a01631" category="paragraph">上傳軟體更新和使用資料時、需要對 _keystone NetApp ． com_ 進行輸出存取、這對於 Keystone Collector 和 AIOps 解決方案閘道的操作和維護非常重要。</block>
+  <block id="f9d3d3159cdb3dcf297f1a90d133e474" category="list-text">作業系統： Debian v12 、 Red Hat Enterprise Linux （ RHEL ） 8.6 或 RHEL 8.x 系列的更新版本</block>
+  <block id="2604f9447676294c730c1410115fcdc0" category="list-text">作業系統： RHEL 8.x 系列中的 CentOS 7 、 Red Hat Enterprise Linux （ RHEL ） 8.6 或更新版本</block>
 </blocks>

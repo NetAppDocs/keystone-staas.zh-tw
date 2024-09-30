@@ -65,7 +65,7 @@ NetApp 可根據最終組態和需求、提供散熱需求規格（一般 BTU �
 Keystone Collector 可透過下列方法部署：
 
 * VMware OVA範本（需要VMware vCenter Server 6.7或更新版本）
-* 客戶提供 Red Hat Enterprise Linux 7 或 8 或 CentOS 7 Linux 伺服器。Keystone 軟體是透過安裝 `.rpm` 安裝程序。
+* 客戶提供在 Red Hat Enterprise Linux 8.6 或更新版本 8.x 或 CentOS 7 上執行的 Linux 伺服器。Keystone 軟體是透過安裝程序安裝 `.rpm`。
 
 
 AIOP 解決方案閘道部署在下列組態上：
@@ -84,12 +84,7 @@ AIOP 解決方案閘道部署在下列組態上：
 
 === 網路
 
-Keystone Collector 和 AIOP 解決方案閘道的作業和維護需要對下列服務進行輸出存取：
-
-* support.netapp.com（使用資料上傳）
-* keystone.netapp.com（軟體更新）
-* hub.Docker（IO）（軟體更新）
-
+上傳軟體更新和使用資料時、需要對 _keystone NetApp ． com_ 進行輸出存取、這對於 Keystone Collector 和 AIOps 解決方案閘道的操作和維護非常重要。
 
 根據客戶需求和使用的儲存控制器、NetApp可在客戶的站台提供10 GB、40 GB和100 GB的連線能力。
 
