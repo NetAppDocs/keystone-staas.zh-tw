@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: rest-api/generate-tokens.html 
-keywords: Refresh token, AIQ Digital Advisor portal,access 
-summary: 重新整理權杖可用於以程式設計方式取得一組新的存取權杖、適合一週內使用、或直到使用它來取得新的權杖集為止。 
+keywords: Refresh token, Digital Advisor portal,access 
+summary: 產生重新整理權杖以取得新的存取權杖。它會驗證 API 要求、並在一週內或更換之前保持有效。您可以透過主控台或 API 呼叫取得存取權杖。 
 ---
 = 產生重新整理和存取權杖
 :hardbreaks:
@@ -51,7 +51,7 @@ image:rest-api-token-types.png["權杖類型"]
 | *方法* | 貼文 
 
 
-| * 端點 * | https://api.activeiq.netapp.com/v1/tokens/accessToken[] 
+| * 端點 * | `https://api.activeiq.netapp.com/v1/tokens/accessToken` 
 
 
 | * 標題 *  a| 
@@ -66,7 +66,7 @@ image:rest-api-token-types.png["權杖類型"]
 
 |===
 
-NOTE: 您需要有管理 Privileges for Digital Advisor 才能存取此端點。
+NOTE: 您應該要有管理 Privileges for Digital Advisor 才能存取此端點。
 
 * 回應： *
 

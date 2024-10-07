@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: rest-api/get-customer-consumption.html 
-keywords: api, consumption, subscriptions, customerID, keystone 
-summary: 此 API 會擷取與指定客戶 ID 相關的所有訂閱目前使用量詳細資料。 
+keywords: api, consumption, subscriptions, customerID, keystone, Digital Advisor 
+summary: Digital Advisor REST API 會擷取與指定客戶 ID 相關的所有訂閱目前使用量詳細資料。 
 ---
 = 使用 Digital Advisor REST API 取得客戶使用量詳細資料
 :hardbreaks:
@@ -25,7 +25,7 @@ summary: 此 API 會擷取與指定客戶 ID 相關的所有訂閱目前使用�
 | *方法* | 取得 
 
 
-| * 端點 * | https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details[] 
+| * 端點 * | `https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details` 
 
 
 | *參數*  a| 
@@ -96,7 +96,7 @@ curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customer/consumptio
 | *方法* | 取得 
 
 
-| * 端點 * | https://api.activeiq.netapp.com/v1/keystone/customer/historical-consumption-details[] 
+| * 端點 * | `https://api.activeiq.netapp.com/v1/keystone/customer/historical-consumption-details` 
 
 
 | *參數*  a| 

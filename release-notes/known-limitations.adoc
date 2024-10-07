@@ -10,7 +10,7 @@ summary: 已知限制指出本產品版本不支援的平台、裝置或功能�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]
@@ -19,6 +19,16 @@ summary: 已知限制指出本產品版本不支援的平台、裝置或功能�
 
 
 == Keystone 收集器限制
+
+
+
+=== 啟用 StorageGRID SSO 時 Keystone 收集器驗證失敗
+
+當 StorageGRID 系統啟用單一登入（ SSO ）時、 Keystone Collector 不支援計量。記錄中會顯示下列錯誤訊息：
+
+`panic: json: cannot unmarshal object into Go struct field AuthResponse.data of type string`
+
+如需相關資訊與解決方案、請參閱知識庫文件link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_authenticate_with_StorageGRID_in_SSO_Mode["Keystone 收集器無法在 SSO 模式下與 StorageGRID 驗證"^]。
 
 
 

@@ -97,7 +97,7 @@ Keystone 收集器支援透過 TUI 進行 ONTAP 升級。
 +
 image:dark-site-start-webserver-1.png["啟動 Webserver 選項"]
 
-. 請前往 http://<collector-ip>:8000[]使用網頁瀏覽器以取得升級協助。
+. 請前往 `http://<collector-ip>:8000`使用網頁瀏覽器以取得升級協助。
 
 
 

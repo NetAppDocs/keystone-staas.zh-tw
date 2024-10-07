@@ -856,20 +856,16 @@
   <block id="bc26ba2885b2bd7d8c41202e1d58b847" category="section-title">調適性 QoS 設定</block>
   <block id="d2c88ef05da757a3aeaaf8bc9fe70038" category="paragraph">Adaptive QoS （ AQO ）設定會因服務層級而異。</block>
   <block id="3e1621011a15ff9b858d144dd8b32184" category="cell">* 政策名稱 *</block>
-  <block id="e61bad254169eaf696462c655e0bb47a" category="cell">* 預期的 IOPS *</block>
   <block id="911c903acff40c3f442bbae7f73ea081" category="cell">6 、 144</block>
   <block id="a980f22074119d4103953f70f2fd69ce" category="cell">1 、 024</block>
   <block id="f718499c1c8cef6730f9fd03c8125cab" category="cell">256</block>
   <block id="8dea0526cd966f1d2b8537ec99d156b6" category="cell">* 預期的 IOPS 分配 *</block>
   <block id="d948b8bd026bed9e90e7989a41fdbb46" category="cell">已分配空間</block>
-  <block id="7954bc4f3c43f3e699c2169329a71b4b" category="cell">* 尖峰 IOPS *</block>
   <block id="13533e52f2c161b3cad8ec91b2a8bc26" category="cell">* 尖峰 IOPS 配置 *</block>
   <block id="aa06850d5c9d77127d7340a724cb89be" category="cell">已用空間</block>
   <block id="fd5c2880a704553c642b2e60a6ff5cf2" category="cell">*區塊大小*</block>
   <block id="de66b0668daa0803e4322ddd80158d6c" category="cell">32 萬</block>
   <block id="1485819d1bb1109d78f142c11b8e830d" category="paragraph">您可以設定調適性QoS（AQO）原則、自動將處理量上限或樓層調整為Volume大小。並非所有 Keystone 服務層級都符合預設的 ONTAP QoS 原則。您可以為他們建立自訂 QoS 原則。若要設定原則、您應注意下列事項：</block>
-  <block id="d87e8cd2516a937506841a2ee6710603" category="list-text">* 預期的 IOPS * ：每個磁碟區的每個分配 TiB 的 IOPS 下限、系統會在有足夠的系統 IOPS 可用時嘗試提供。</block>
-  <block id="35c0bb4205f89d0eddba85d9bda132b6" category="list-text">* 尖峰 IOPS * ：每個磁碟區的每個已使用 TiB IOPS 最大數目、系統允許磁碟區在透過注入延遲來節流 IOPS 之前達到。</block>
   <block id="be53c8157b32393bccd2e22d0b1536aa" category="list-text">* 預期的 IOPS 分配 * ：此參數可控制磁碟區的預期可用 IOPS 、是否取決於磁碟區的分配或使用大小。在Keystone中、這是根據已分配的空間而定。</block>
   <block id="14d0dc302a669d6a99952e49afc7861a" category="list-text">* 尖峰 IOPS 分配 * ：此參數可控制磁碟區可用的尖峰 IOPS 、是否根據已分配或已使用的磁碟區大小而定。在Keystone中、這是根據已用空間而定。</block>
   <block id="4d5ef2163c192509afec8de9ab79da82" category="paragraph">每個服務層級都是根據其 I/O 密度（即 IOPS/TiB/Volume ）來定義。這是效能的比率（每秒輸入 / 輸出作業次數 [IOP] ）、以及使用的儲存容量（ TiB ）、即每個磁碟區平均延遲的 IOPS/TiB 。</block>
@@ -1833,7 +1829,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="35f01f8a1c6a4619b0104f40d24a4086" category="list-text">將 ONTAP 升級映像檔案複製到 * / opt NetApp / ONTAP 升級 /* 、然後選取 * 啟動 Webserver* 以啟動網路伺服器。</block>
   <block id="fb123a7b444cd374b7ac10caba50e88b" category="inline-image-macro">啟動 Webserver 選項</block>
   <block id="cf04058d80eac818246874f910eb2ab2" category="paragraph"><block ref="cf04058d80eac818246874f910eb2ab2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a8044aea994fa3363bcd4c256ce5d88e" category="list-text">請前往<block ref="1c23bf18bce0ce7f2bb813cdd6798bbd" category="inline-link-rx"></block>使用網頁瀏覽器以取得升級協助。</block>
   <block id="f650c6d8e69bf10094accbd07b391694" category="section-title">重新啟動 Keystone Collector</block>
   <block id="93317cb239ead322a8c1e1452ffcabe3" category="paragraph">您可以透過 TUI 重新啟動 Keystone Collector 服務。移至 TUI 中的 * 維護 &gt; 重新啟動 Collector* 服務。這會重新啟動所有收集器服務、並可從 TUI 主畫面監控其狀態。</block>
   <block id="9bc0cd001c38d64376373002ab821fad" category="inline-image-macro">重新啟動收集器服務選項</block>
@@ -1938,13 +1933,11 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="28ed9b5b5df5d633073f9cca1d10bee9" category="cell">*方法*</block>
   <block id="a02439ec229d8be0e74b0c1602392310" category="cell">貼文</block>
   <block id="55322ba3b4cd3b7782949a6debd00e1c" category="cell">* 端點 *</block>
-  <block id="111ffa9d375a47f985e5a930df93acad" category="cell"><block ref="111ffa9d375a47f985e5a930df93acad" category="inline-link-rx"></block></block>
   <block id="904069365b298cc4d7103f93cb31dbfc" category="cell">* 標題 *</block>
   <block id="542ec3d8c98f371802d8fd77096ac7b2" category="list-text">接受： application/json</block>
   <block id="30de7c9b045a8fbe02ed2b9d4ffe4425" category="list-text">內容類型： application/json</block>
   <block id="b7fa10c6a4149a93a4eaaba61e0f23e1" category="cell">* 申請本文 *</block>
   <block id="13bdfec6f8b9e7cc7abb43fab0b6b384" category="paragraph">{ "refresh_toke" ： "a" &lt;refresh-token&gt; }</block>
-  <block id="7893264e0d59291df9deafb0e9f1b841" category="admonition">您需要有管理 Privileges for Digital Advisor 才能存取此端點。</block>
   <block id="49fdcb561eb10ce1bc7df051ca7f8d08" category="paragraph">* 回應： *</block>
   <block id="746b4a10356112a607ace0b2038463aa" category="paragraph">API 會以 JSON 格式傳回存取權杖和重新整理權杖做為回應。</block>
   <block id="fb024c1026b3468fe6493e58895bb1d2" category="paragraph">* 狀態代碼 * ： 200 –成功申請</block>
@@ -1955,7 +1948,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="8bc9e7b2eb702a14a34a24bcc32c172d" category="doc">使用 Digital Advisor REST API 取得客戶使用量詳細資料</block>
   <block id="7528035a93ee69cedb1dbddb2f0bfcc8" category="cell">取得</block>
   <block id="41d2da547ce3e763f6eead2948c7bce6" category="cell">* 端點 *</block>
-  <block id="7390986cba8738a130d09a1ae8c7619d" category="cell"><block ref="7390986cba8738a130d09a1ae8c7619d" category="inline-link-rx"></block></block>
   <block id="ff42ec92d6bd64c6ab6d1f0800017eef" category="cell">*參數*</block>
   <block id="5ee9048a2df6bae318564eb60313820f" category="list-text">類型：「客戶」</block>
   <block id="b6fcb149db1c33db8b3446e2f7582d90" category="list-text">ID ： &lt;customer-id&gt;</block>
@@ -1963,19 +1955,15 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="3d19254bb03e315d634fc0986c9eb4f0" category="paragraph">* 回應： * API 將回應 JSON 物件、其中包含所有訂閱的清單、以及指定客戶目前的服務使用量指標。以下是回應範例：</block>
   <block id="d3f7bd75a02cbe1c2370c78a86417b77" category="section-title">取得客戶的歷史消費詳細資料</block>
   <block id="aa781d0910bba8a0c595fe9b0cd9d3b8" category="paragraph">此 API 會根據指定的時間範圍、擷取與指定客戶 ID 相關的所有訂閱的歷史使用量詳細資料。</block>
-  <block id="1c706be136f0541b294fcc885fde1a63" category="cell"><block ref="1c706be136f0541b294fcc885fde1a63" category="inline-link-rx"></block></block>
   <block id="72ce780c61cc8fc26c3fc393d965f9b7" category="list-text">From （發件人） _date ： &lt; 開始日期（以 RFC3339 格式） &gt;</block>
   <block id="d4232bc3d79f7c2651bc3b089aa822c1" category="list-text">至日期 _UTC ： &lt; 結束日期（以 RFC3339 格式） &gt;</block>
   <block id="eb53e4bff92730b260ff2452a158fac7" category="paragraph">API 會以 JSON 物件回應、其中包含所有訂閱的清單、以及所選時間範圍內指定客戶的歷史服務使用量指標。以下是回應範例：</block>
   <block id="20fa5f9b2d4cd9672cce24531c8f1666" category="summary">此 API 會擷取與使用者相關聯的所有客戶 ID 清單。</block>
   <block id="2a2abaabc17b5a91d82e82303642b09c" category="doc">取得使用 Digital Advisor REST API 的所有客戶清單</block>
-  <block id="b6c5a11b232c98606fb9ada3ec62627d" category="cell"><block ref="b6c5a11b232c98606fb9ada3ec62627d" category="inline-link-rx"></block></block>
   <block id="5b7e7d763cd7702a1e75085674fe6768" category="paragraph">API 將會回應 JSON 物件、其中包含客戶名稱和個別 ID 的清單。以下是回應範例：</block>
   <block id="796057698de87bb393ab8b61e5aff5f2" category="summary">此 API 會擷取與指定客戶 ID 相關的所有訂閱和服務層級清單。</block>
   <block id="9b6c21a9e3f04a27506fa4a5eb0cd41f" category="doc">使用 Digital Advisor REST API 取得客戶訂閱</block>
-  <block id="bb50b1b9a7f23ddec00f27c428c363f2" category="cell"><block ref="bb50b1b9a7f23ddec00f27c428c363f2" category="inline-link-rx"></block></block>
   <block id="7dad8be1becd1cd3fe4d2ec1306c3b82" category="paragraph">API 將會回應 JSON 物件、其中包含指定客戶所有訂閱和相關服務層級詳細資料的清單。以下是回應範例：</block>
-  <block id="4add8177bc48d8ace8e3bcec902454ad" category="summary">NetApp Keystone ActiveIQ 數位顧問 API 提供程式化介面、可擷取 Keystone 服務詳細資料和指標。</block>
   <block id="0a076b1454da01faf38e4805c15570ee" category="doc">開始使用 Digital Advisor REST API 擷取 Keystone 資料</block>
   <block id="e29debe73c0e9065a4267dfae6adefe9" category="paragraph">數位顧問 REST API 提供程式化介面、可擷取 Keystone 訂閱和使用詳細資料。</block>
   <block id="c3091c7f241015a003ff982080a072b0" category="paragraph">在高層級、與 Digital Advisor REST API 互動的工作流程包括下列步驟：</block>
@@ -1990,4 +1978,25 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="4bfa7642bccc7e1047a0f5b699a01631" category="paragraph">上傳軟體更新和使用資料時、需要對 _keystone NetApp ． com_ 進行輸出存取、這對於 Keystone Collector 和 AIOps 解決方案閘道的操作和維護非常重要。</block>
   <block id="f9d3d3159cdb3dcf297f1a90d133e474" category="list-text">作業系統： Debian v12 、 Red Hat Enterprise Linux （ RHEL ） 8.6 或 RHEL 8.x 系列的更新版本</block>
   <block id="2604f9447676294c730c1410115fcdc0" category="list-text">作業系統： RHEL 8.x 系列中的 CentOS 7 、 Red Hat Enterprise Linux （ RHEL ） 8.6 或更新版本</block>
+  <block id="04e5e9b2304d0098895d9985c9a8ea89" category="cell">* 預期的 IOPS/TiB*</block>
+  <block id="66add2975320c187fa0c68a862f9277b" category="cell">* 尖峰 IOPS / TiB*</block>
+  <block id="44c1604c68364a078a1faa312c3f1fca" category="list-text">* 預期的 IOPS/TiB* ：每個磁碟區每個分配的 TiB 的 IOPS 下限、系統會在有足夠的系統 IOPS 可用時嘗試提供。</block>
+  <block id="a7eb9e3e2db26f418ff1bd33758058b5" category="list-text">* 尖峰 IOPS / TiB* ：每個磁碟區每個已使用的 TiB 、允許磁碟區達到的最大 IOPS 數、然後透過注入延遲來抑制 IOPS 。</block>
+  <block id="f661dc3165fc7dcc25ae3a0d950ce6ac" category="list-text">請前往<block ref="3db77c7f8084c19af25e224539c526e1" prefix=" " category="inline-code"></block>使用網頁瀏覽器以取得升級協助。</block>
+  <block id="3e0da19ae0755de400b746f325485a60" category="section-title">啟用 StorageGRID SSO 時 Keystone 收集器驗證失敗</block>
+  <block id="19717f3367e97979df17a62a0de1d760" category="paragraph">當 StorageGRID 系統啟用單一登入（ SSO ）時、 Keystone Collector 不支援計量。記錄中會顯示下列錯誤訊息：</block>
+  <block id="0e690a868c62119e2856f2a1fe116b2c" category="paragraph"><block ref="61e95538e67afefe4554fdced79f1dc3" prefix="" category="inline-code"></block></block>
+  <block id="2885bdeaa1cab112dcc8c381c30f671f" category="inline-link-macro">Keystone 收集器無法在 SSO 模式下與 StorageGRID 驗證</block>
+  <block id="b2d1bca2132e220619802a2a119eaf61" category="paragraph">如需相關資訊與解決方案、請參閱知識庫文件<block ref="81af88b2d9bce20dafc4743c5a7c77b4" category="inline-link-macro-rx"></block>。</block>
+  <block id="d5afb45b1c0b33a5b19d72191f0ca7ab" category="summary">產生重新整理權杖以取得新的存取權杖。它會驗證 API 要求、並在一週內或更換之前保持有效。您可以透過主控台或 API 呼叫取得存取權杖。</block>
+  <block id="675e00b57381caeda6a7676bb22f6ad5" category="cell"><block ref="111ffa9d375a47f985e5a930df93acad" prefix="" category="inline-code"></block></block>
+  <block id="ef9242902d0aabcf93b46f524d5c682d" category="admonition">您應該要有管理 Privileges for Digital Advisor 才能存取此端點。</block>
+  <block id="b5db1df1ea6118ca7ac1ab438161410f" category="summary">Digital Advisor REST API 會擷取與指定客戶 ID 相關的所有訂閱目前使用量詳細資料。</block>
+  <block id="f6eaec28d0ffb80012d221c3532274f6" category="cell"><block ref="7390986cba8738a130d09a1ae8c7619d" prefix="" category="inline-code"></block></block>
+  <block id="9fefb0959caba046858531046deeebac" category="cell"><block ref="1c706be136f0541b294fcc885fde1a63" prefix="" category="inline-code"></block></block>
+  <block id="f9758d05812567489fe8755ed9e896cf" category="summary">Digital Advisor REST API 會擷取與使用者相關聯的所有客戶 ID 清單。</block>
+  <block id="beadb7936ab29d8bd492fb93114101f3" category="cell"><block ref="b6c5a11b232c98606fb9ada3ec62627d" prefix="" category="inline-code"></block></block>
+  <block id="b964b33b06c664e35c5f043238992fba" category="summary">Digital Advisor REST API 會擷取與指定客戶 ID 相關的所有訂閱和服務層級清單。</block>
+  <block id="2c74d7df1fc4058a6a46b83d4b38bb2a" category="cell"><block ref="bb50b1b9a7f23ddec00f27c428c363f2" prefix="" category="inline-code"></block></block>
+  <block id="67b63898a05fe3ab08e6c0690cc73ca3" category="summary">數位顧問 API 提供程式化介面、可擷取 Keystone 服務詳細資料和計量。</block>
 </blocks>

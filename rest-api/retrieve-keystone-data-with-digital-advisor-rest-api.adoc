@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: rest-api/retrieve-keystone-data-with-digital-advisor-rest-api.html 
-keywords: Keystone, ActiveIQ Digital Advisor, APIs, programmatic interface 
-summary: NetApp Keystone ActiveIQ 數位顧問 API 提供程式化介面、可擷取 Keystone 服務詳細資料和指標。 
+keywords: Keystone, Active IQ, Digital Advisor, APIs, programmatic interface 
+summary: 數位顧問 API 提供程式化介面、可擷取 Keystone 服務詳細資料和計量。 
 ---
 = 開始使用 Digital Advisor REST API 擷取 Keystone 資料
 :hardbreaks:

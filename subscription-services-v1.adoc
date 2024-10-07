@@ -10,7 +10,7 @@ summary: Keystone STaaS over Keystone Flex 訂閱服務
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]

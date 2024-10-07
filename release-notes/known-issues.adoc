@@ -10,7 +10,7 @@ summary: 已知問題指出可能會導致您無法有效使用 Keystone 訂閱�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]
