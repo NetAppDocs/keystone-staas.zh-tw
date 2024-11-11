@@ -1751,7 +1751,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="19bea5bec76c66ef8bd189aa23a4c860" category="sidebar">永續性</block>
   <block id="0fa7096028e231171f86212b096254bd" category="admonition">SLA 和保證均以提名方式提供。</block>
   <block id="90c1605e73fc10bc5c46dc4183664885" category="paragraph">2024 年 8 月 7 日</block>
-  <block id="5b56041030df17cc6aeb8d87e04d16db" category="paragraph">目前尚無已知問題。</block>
   <block id="1e4eb13a6a1b07eeb2e7895fbc7a1bb1" category="section-title">建立效能服務層級</block>
   <block id="5053594f32aa62a7113e670df7c0dcf6" category="paragraph">您可以使用 Keystone Collector 管理 TUI 公用程式來建立效能服務層級（ PSL ）。透過 TUI 建立 ISL 會自動選取為每個服務層級設定的預設值、減少在透過建立 Active IQ Unified Manager 時手動設定這些值時可能發生的錯誤機會。</block>
   <block id="9dc46e9b8e8e3325a5f950ba6b189e61" category="inline-link-macro">效能服務層級</block>
@@ -1999,4 +1998,12 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="b964b33b06c664e35c5f043238992fba" category="summary">Digital Advisor REST API 會擷取與指定客戶 ID 相關的所有訂閱和服務層級清單。</block>
   <block id="2c74d7df1fc4058a6a46b83d4b38bb2a" category="cell"><block ref="bb50b1b9a7f23ddec00f27c428c363f2" prefix="" category="inline-code"></block></block>
   <block id="67b63898a05fe3ab08e6c0690cc73ca3" category="summary">數位顧問 API 提供程式化介面、可擷取 Keystone 服務詳細資料和計量。</block>
+  <block id="6bd41c7ebef51543eb0a67b1eb2cabc1" category="paragraph">NetApp Keystone STaaS 報告下列已知問題：</block>
+  <block id="e83464ce8bd634efb1f099c956ec64a8" category="cell">已知問題</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">說明</block>
+  <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">因應措施</block>
+  <block id="3156e09a94461db7bf19fe1f351546ed" category="paragraph">主要和連結訂閱無法使用 Volume 詳細資料</block>
+  <block id="98b4e51c8dbd4ac2829fdf8a44b9eac2" category="paragraph">「 * Volume Summary* 」標籤顯示的磁碟區總數， QoS 法規遵循狀態，受保護的磁碟區數，以及主要和連結的次要訂閱的總使用容量為零。</block>
+  <block id="e50629aea15eaa890e9555d823c3aa0e" category="paragraph">* Volume Summary* 子索引標籤無法載入 StorageGRID 訂閱</block>
+  <block id="d57b1938a7f40139b0f6f6a8312cab9d" category="paragraph">在 *Volumes &amp; Objects* 標籤中的 *Volume Summary* 子標籤無法載入 StorageGRID 訂閱。</block>
 </blocks>

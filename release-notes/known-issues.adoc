@@ -16,4 +16,27 @@ summary: 已知問題指出可能會導致您無法有效使用 Keystone 訂閱�
 [role="lead"]
 已知問題指出可能會導致您無法有效使用 Keystone 訂閱服務的問題。
 
-目前尚無已知問題。
+NetApp Keystone STaaS 報告下列已知問題：
+
+[cols="3*"]
+|===
+| 已知問題 | 說明 | 因應措施 
+
+
+ a| 
+主要和連結訂閱無法使用 Volume 詳細資料
+ a| 
+「 * Volume Summary* 」標籤顯示的磁碟區總數， QoS 法規遵循狀態，受保護的磁碟區數，以及主要和連結的次要訂閱的總使用容量為零。
+ a| 
+無
+
+
+
+ a| 
+* Volume Summary* 子索引標籤無法載入 StorageGRID 訂閱
+ a| 
+在 *Volumes & Objects* 標籤中的 *Volume Summary* 子標籤無法載入 StorageGRID 訂閱。
+ a| 
+無
+
+|===
