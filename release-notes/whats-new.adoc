@@ -20,6 +20,16 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 
 
+== 2024-11-11
+
+
+
+=== 增強的報告產生功能
+
+您現在可以使用 Digital Advisor 中的報告功能來產生合併報告，以檢視 Keystone 資料的詳細資料。若要深入瞭解、請 link:../integrations/aiq-keystone-details.html#generate-consolidated-report["產生整合式報告"^]參閱。
+
+
+
 == 2024 年 7 月 10 日
 
 

@@ -96,8 +96,8 @@ Extreme服務層級的設定與命令：
 ....
 qos adaptive-policy-group create -policy-group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 1000
 ....
-* 最小Volume大小：100GiB、0.1TiB
-* 最大Volume大小：10TiB
+* 建議的最小 Volume 大小： 100GiB ， 0.1TiB
+* 建議的最大磁碟區大小： 10TiB
 
 
 
@@ -112,8 +112,8 @@ qos adaptive-policy-group create -policy-group <Keystone_extreme> -vserver <SVM_
 ....
 qos adaptive-policy-group create -policy-group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 500
 ....
-* 最小Volume大小：500GiB、0.5TiB
-* 最大Volume大小：50TiB
+* 建議的最小磁碟區大小： 500GiB ， 0.5TiB
+* 建議的最大磁碟區大小： 50TiB
 
 
 
@@ -128,8 +128,8 @@ qos adaptive-policy-group create -policy-group <Keystone_premium> -vserver <SVM_
 ....
 qos adaptive-policy-group create -policy-group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 250
 ....
-* 最小Volume大小：500GiB、0.5TiB
-* 最大Volume大小：80TiB
+* 建議的最小磁碟區大小： 500GiB ， 0.5TiB
+* 建議的最大磁碟區大小： 80TiB
 
 
 
@@ -144,8 +144,8 @@ qos adaptive-policy-group create -policy-group <Keystone_performance> -vserver <
 ....
 qos adaptive-policy-group create -policy-group <Keystone_standard> -vserver <SVM_name> -expected-iops 256 -peak-iops 512 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 75
 ....
-* 最小Volume大小：1TiB
-* 最大Volume大小：100TiB
+* 建議的最小磁碟區大小： 1TiB
+* 建議的最大磁碟區大小： 100TiB
 
 
 
@@ -160,8 +160,8 @@ qos adaptive-policy-group create -policy-group <Keystone_standard> -vserver <SVM
 ....
 qos adaptive-policy-group create -policy-group <Keystone_value> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 75
 ....
-* 最小Volume大小：1TiB
-* 最大Volume大小：100TiB
+* 建議的最小磁碟區大小： 1TiB
+* 建議的最大磁碟區大小： 100TiB
 
 
 
