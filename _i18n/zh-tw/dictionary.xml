@@ -2019,4 +2019,7 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="8a1116f55c6659c55d506df698030041" category="section-title">2024-11-11</block>
   <block id="1503d912784bec55335f32e3c747c9df" category="section-title">增強的報告產生功能</block>
   <block id="bab5e70b8fca6215bd90bf396708d647" category="paragraph">您現在可以使用 Digital Advisor 中的報告功能來產生合併報告，以檢視 Keystone 資料的詳細資料。若要深入瞭解、請 <block ref="f3fd429c1c2a13f9f8f5c8d4ec2129e6" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="70852ac05a65501c650a9135c4a2ab17" category="cell">* 已認可和計量容量類型 *</block>
+  <block id="e7a731a6342f126055b89b80d800a180" category="cell">邏輯</block>
+  <block id="ce898d62ed9ca7653a01fe0c781e97e9" category="cell">實體</block>
 </blocks>
