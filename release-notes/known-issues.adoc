@@ -33,9 +33,9 @@ NetApp Keystone STaaS 報告下列已知問題：
 
 
  a| 
-* Volume Summary* 子索引標籤無法載入 StorageGRID 訂閱
+無法產生訂閱報告
  a| 
-在 *Volumes & Objects* 標籤中的 *Volume Summary* 子標籤無法載入 StorageGRID 訂閱。
+當從 *Keystone Subscriptions * 頁面上的 *Subscriptions * 標籤中選取 10 至 12 個以上的訂閱時，當按一下 *Download CSV* 按鈕並使用 *Include data for each service Level* 選項時，報告將無法產生。
  a| 
 無
 

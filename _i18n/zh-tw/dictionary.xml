@@ -1173,7 +1173,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="c977c72cd7678128aadf339e54fc0498" category="sidebar">我可以如何處理冷資料或使用率較低的資料？</block>
   <block id="3c433d996e071fc968830570a2649830" category="sidebar">如何保護我的 Keystone 資料？</block>
   <block id="b01022ea67a6b913d57f7194fcc72d9d" category="section-title">檢視已開發票的累積爆發</block>
-  <block id="db0ef40224829d8428d6c42004012b26" category="paragraph">如果您選擇了 * 已開票的累積突發 * 選項、依預設、您可以查看過去 12 個月內已計費的每月累計突發使用資料。您可以依過去 30 個月的日期範圍查詢。會顯示發票資料的橫條圖、如果使用量尚未計費、您會看到該月的 _待發 。</block>
   <block id="393673167b0e2f5fe79a42f45c884852" category="admonition">發票預提暴增使用量是根據服務層級的已提交和使用容量、根據每個計費週期計算。</block>
   <block id="0cd22f9baa25202637cff789fe1dfe9f" category="list-text">Active IQ Unified Manager （ Unified Manager ） 9.10 或更新版本</block>
   <block id="81f184376266ed69a659d0030be070fc" category="list-text">請檢查RPM資料庫中Keystone Billing Platform的指紋、確認已匯入正確的公開憑證：<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block>
@@ -1200,7 +1199,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="b08a55fcdae4be7efabe97ebd6da5f96" category="section-title">因累積突發而傳回的發票資料</block>
   <block id="038fa77b2d09a08187d251d11af66fec" category="section-title">特定費率計畫的累積使用詳細資料</block>
   <block id="e8eb002764288209a5c4ba14af40e3c1" category="paragraph">如果您的訂閱具有 _ 零 _ 已認可容量的費率計畫、您可以在 * 容量趨勢 * 標籤中檢視累積的使用量詳細資料。選擇 * 已開票的累計使用 * 選項時、您可以檢視已計費的累計使用資料的每月圖表。</block>
-  <block id="58b8c716856200f705d08eebb54e18f2" category="paragraph">如需如何在 MetroCluster 組態中檢視使用量的相關資訊、請參閱 <block ref="dce2e2b996a813464c91ed5f90c2ee95" category="inline-link-macro-rx"></block>。</block>
   <block id="0031be5085bbcd93406b2aa424a49c42" category="section-title">可檢視連結至主要訂閱的訂閱</block>
   <block id="7a76691411d2b3f52e0613b9090e3000" category="paragraph">您的部分主要訂閱可能有連結的次要訂閱。如果是這種情況、主要訂閱號碼將繼續顯示在 * 訂閱號碼 * 欄中、而連結的訂閱號碼則會列在 * 訂閱 * 索引標籤上的新欄 * 連結訂閱 * 中。「 * 連結訂閱 * 」欄只有在您有連結的訂閱時才可供使用、而且您可以看到通知您的資訊訊息。</block>
   <block id="80a766e7eebce2ca48e414230534ddb7" category="doc">Volume &amp; Objects 標籤</block>
@@ -1215,7 +1213,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="14eaf858e86c38bf5f21aa319c01ad8b" category="list-text"><block ref="75640177dd65c74f10505e0d1d77322f" category="inline-link-macro-rx"></block></block>
   <block id="f5308d78e48927072f23b5c9ea1d54f9" category="paragraph">對於所選訂閱、您可以檢視詳細資料、例如訂閱的開始和結束日期、以及計費期間、例如每月或每年。作為訂閱使用的一部分、您可以檢視服務層級名稱、已承諾、已使用、可用容量、以及目前和累積的突發使用量（在 TiB 中）。</block>
   <block id="1623545ecb1ca990b229d62e7e5fc4b4" category="doc">訂閱索引標籤</block>
-  <block id="edc29cab045406ca906dd10b5912883e" category="admonition">如果您已訂閱進階資料保護附加服務、則可以按一下訂閱號碼上的工具提示、在 MetroCluster 設定中檢視合作夥伴訂閱的追蹤 ID 。若要瞭解如何檢視 MetroCluster 組態中合作夥伴訂閱的詳細使用量、請參閱 <block ref="dce2e2b996a813464c91ed5f90c2ee95" category="inline-link-macro-rx"></block>。</block>
   <block id="109b44d9ae88073ca74514f04dce3f43" category="doc">效能標籤</block>
   <block id="e25aef7d73f188d691460fe7a81c1615" category="list-text">按一下 * 一般 &gt; 基礎概念訂閱 &gt; 效能 * 。</block>
   <block id="b38469a0957abb9fcc179f471234aeb1" category="paragraph">下列連結提供每個索引標籤的詳細資訊：</block>
@@ -1488,7 +1485,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="1b1d9e9b28e55ae75dd476a860b48088" category="inline-link-macro">其他功能表選項</block>
   <block id="915546b63309e4afc31cc6f77934d3f4" category="admonition">在全新安裝 Unified Manager 期間、 MySQL 的預設連接埠 3306 僅限於 localhost 、這會阻止 Keystone ONTAP 收集效能資料。您可以修改此組態、並使用 Unified Manager 維護主控台的選項、讓其他主機可以使用此連線<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> 。如需相關資訊，請參閱 <block ref="df7524dc87f6643f2fa76eb53a86ec87" category="inline-link-macro-rx"></block>。</block>
   <block id="82417085e656251b41cd76814fd5b48a" category="paragraph"><block ref="82417085e656251b41cd76814fd5b48a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f4927a3debc365e92273fa3de8985ec2" category="paragraph"><block ref="f4927a3debc365e92273fa3de8985ec2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3173b2ec37a82d2973529cd167d6287e" category="summary">使用進階資料保護附加服務、確保關鍵任務工作負載的資料保護效率。</block>
   <block id="a6b5c7400b59e86e1201f869cdba2c1a" category="doc">瞭解進階資料保護功能</block>
   <block id="7322651c5a3929e757c7e2a38e363825" category="paragraph">您可以訂閱進階資料保護附加服務、作為 Keystone STaaS 訂閱的一部分。這項附加服務運用 NetApp MetroCluster 技術、確保在 0 的恢復點目標（ RPO ）上、有效保護關鍵任務工作負載的資料。</block>
@@ -1997,7 +1993,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">因應措施</block>
   <block id="3156e09a94461db7bf19fe1f351546ed" category="paragraph">主要和連結訂閱無法使用 Volume 詳細資料</block>
   <block id="98b4e51c8dbd4ac2829fdf8a44b9eac2" category="paragraph">「 * Volume Summary* 」標籤顯示的磁碟區總數， QoS 法規遵循狀態，受保護的磁碟區數，以及主要和連結的次要訂閱的總使用容量為零。</block>
-  <block id="e50629aea15eaa890e9555d823c3aa0e" category="paragraph">* Volume Summary* 子索引標籤無法載入 StorageGRID 訂閱</block>
   <block id="d57b1938a7f40139b0f6f6a8312cab9d" category="paragraph">在 *Volumes &amp; Objects* 標籤中的 *Volume Summary* 子標籤無法載入 StorageGRID 訂閱。</block>
   <block id="51f4eff2679d00a84e768ca09b950896" category="list-text">建議的最小 Volume 大小： 100GiB ， 0.1TiB</block>
   <block id="0a972e42bf2862708f1b761f38f43097" category="list-text">建議的最大磁碟區大小： 10TiB</block>
@@ -2022,4 +2017,23 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="70852ac05a65501c650a9135c4a2ab17" category="cell">* 已認可和計量容量類型 *</block>
   <block id="e7a731a6342f126055b89b80d800a180" category="cell">邏輯</block>
   <block id="ce898d62ed9ca7653a01fe0c781e97e9" category="cell">實體</block>
+  <block id="77755c419ef346c65225a7d2709520ab" category="paragraph">有關如何查看 MetroCluster 配置中的使用情況的信息，請參閱<block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block>。</block>
+  <block id="138155ee615aaf4d4e698be7c61a12c0" category="paragraph">如果您選擇了 * 已開發票的累算突發 * 選項，您可以根據所選的計費週期，每月或每季查看累積的突發使用資料。這項資料可在過去 12 個月內提供，您可以依日期範圍查詢，最長可查詢 30 個月。橫條圖會顯示發票資料，如果使用量尚未計費，則會在該期間標記為 _ 待處理 _ 。</block>
+  <block id="df54e0aa337c00aed9738ce50d6f7d40" category="paragraph">在每季帳單期間，如果訂閱的開始日期不是月份的 1^st^ ，則每季發票將涵蓋後續的 90 天期間。例如，如果您的訂閱從 8 月 15 日開始，則發票將於 8 月 15 日至 10 月 14 日期間產生。</block>
+  <block id="a15b1d5c20a80360a519fdba86f9d359" category="paragraph">如果您從每季改為每月帳單，每季發票仍將涵蓋 90 天的期間，並在本季最後一個月產生兩張發票：一張用於每季帳單期間，另一張用於該月的剩餘天數。此轉換可讓每月帳單期間從下個月的 1^st^ 開始。例如，如果您的訂閱從 10 月 15 日開始，您將在 1 月收到兩張發票，一張發票是 10 月 15 日至 1 月 14 日，另一張發票是 1 月 15 日至 31 日，每月帳單期間從 2 月 1 日開始。</block>
+  <block id="19c39546a17d632b3f81a88517195dcb" category="inline-image-macro">每季累積的突發使用量</block>
+  <block id="8215e5a0d8116559b577a00ac7f9d7a4" category="paragraph"><block ref="8215e5a0d8116559b577a00ac7f9d7a4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd743c791b4d6ca2e7a1d3c5f2d40a95" category="section-title">MetroCluster 進階資料保護的參考圖表</block>
+  <block id="abdc803a1b380f3cb4c996e2b30a1820" category="paragraph"><block ref="abdc803a1b380f3cb4c996e2b30a1820" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0bf27b930a0841a9485431dd01de3f4" category="admonition">如果您已訂閱進階資料保護附加服務、則可以按一下訂閱號碼上的工具提示、在 MetroCluster 設定中檢視合作夥伴訂閱的追蹤 ID 。若要瞭解如何檢視 MetroCluster 組態中合作夥伴訂閱的詳細使用量<block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block>，請參閱。</block>
+  <block id="24685db79ee3df152404bc24333590fd" category="paragraph">2024-11-21</block>
+  <block id="2531cde1a4803cc2a1ae862eb5d81705" category="paragraph">無法產生訂閱報告</block>
+  <block id="4b22f859addb0f523b4eb20c8a3de953" category="paragraph">當從 *Keystone Subscriptions * 頁面上的 *Subscriptions * 標籤中選取 10 至 12 個以上的訂閱時，當按一下 *Download CSV* 按鈕並使用 *Include data for each service Level* 選項時，報告將無法產生。</block>
+  <block id="01e50fa0cb5ca9093067bd7f7b5ce77d" category="section-title">強化發票預提暴增</block>
+  <block id="68282426b20517fa5a804475f31878a9" category="paragraph">如果您已選擇每季計費週期，現在可以透過 * 發票預提的突發 * 選項，每季檢視累積的突發使用資料。若要深入瞭解、請 <block ref="b9f581509f4f5c092d1e1e258ec0cc04" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="f916fd7c91361d368cb72a24d8c89422" category="section-title">「 Volume 詳細資料」標籤中的新欄</block>
+  <block id="6f3602613697bd7c1dd3b585d5221b75" category="paragraph">為了提高邏輯使用率的計算清晰度，在 * Volume &amp; Objects* 標籤的 * Volume Details* 標籤中新增了兩個新欄：</block>
+  <block id="ff33e32470641c161a9b0ae3c97385c3" category="list-text">* 邏輯 AS* ：顯示磁碟區作用中檔案系統所使用的邏輯容量。</block>
+  <block id="4a1c882b0ab41fd998beccee85292567" category="list-text">* 實體 Snapshot * ：顯示快照所使用的實體空間。</block>
+  <block id="ff17f3533de401f605df9cf9c2553b80" category="paragraph">這些欄位可在 * 邏輯已用 * 欄位中提供更清楚的資訊，顯示磁碟區作用中檔案系統所使用的合併邏輯容量，以及快照所使用的實體空間。</block>
 </blocks>

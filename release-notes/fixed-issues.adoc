@@ -22,6 +22,15 @@ summary: 舊版 NetApp Keystone STaaS 服務中發現的問題已在後續版本
 
 
  a| 
+在 *Volumes & Objects* 標籤中的 *Volume Summary* 子標籤無法載入 StorageGRID 訂閱。
+ a| 
+固定
+ a| 
+2024-11-21
+
+
+
+ a| 
 當導覽至 *Consumpting Trend* 標籤時、 * 從日期 * 欄位可選取日期範圍、預設會顯示未來日期。
  a| 
 固定

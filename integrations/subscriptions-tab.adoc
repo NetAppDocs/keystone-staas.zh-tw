@@ -26,7 +26,7 @@ image:all-subs-3.png["訂閱索引標籤的影像"]
 * *追蹤ID*：訂閱啟動時指派的追蹤ID。這是每個訂閱和網站的唯一ID、用於追蹤訂閱。
 +
 
-TIP: 如果您已訂閱進階資料保護附加服務、則可以按一下訂閱號碼上的工具提示、在 MetroCluster 設定中檢視合作夥伴訂閱的追蹤 ID 。若要瞭解如何檢視 MetroCluster 組態中合作夥伴訂閱的詳細使用量、請參閱 link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection["進階資料保護的參考圖表"]。
+TIP: 如果您已訂閱進階資料保護附加服務、則可以按一下訂閱號碼上的工具提示、在 MetroCluster 設定中檢視合作夥伴訂閱的追蹤 ID 。若要瞭解如何檢視 MetroCluster 組態中合作夥伴訂閱的詳細使用量link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster["進階資料保護的參考圖表"]，請參閱。
 
 * * 使用類型 * ：您可能已訂閱多個 Keystone （版本 1 ）或 Keystone STaaS （版本 2 ）訂閱。服務層級的費率計畫規則可能會因兩種訂閱類型而異。透過查看此欄中的值，您就知道使用類型是根據或的已配置、實體或邏輯使用量計費 `v1` `v2`。若要深入瞭解基礎概念訂閱第 1 版、請 https://docs.netapp.com/us-en/keystone/index.html["適用於此產品的文件NetApp Keystone"^]參閱。
 * * 帳單期間 * ：訂閱的帳單期間、例如每月、每季或每年。
