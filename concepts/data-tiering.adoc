@@ -34,3 +34,7 @@ Keystone STaaS檔案與區塊儲存標準服務包括分層功能、可識別較
 
 
 NOTE: NetApp並未提供由NetApp所需的超純量運算、儲存及網路服務Cloud Volumes ONTAP 、作為Keystone STaaS訂閱的一部分；這些服務必須直接向超純量雲端服務供應商購買。
+
+*相關資訊*
+
+link:https://kb.netapp.com/hybrid/Keystone/AIQ_Dashboard/How_to_approximate_Keystone_Consumption_with_Data_Tiering_(FabricPool)_through_the_ONTAP_cli["如何使用 ONTAP CLI 以資料分層（ FabricPool ）來估計基礎概念使用量"^]

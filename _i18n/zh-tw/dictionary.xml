@@ -276,7 +276,6 @@
   <block id="780c462e85ba4399a5d42e88f69a15ca" category="sidebar">帳單</block>
   <block id="05bbb43b3d923283e0b6ffafd088f41f" category="sidebar">元件</block>
   <block id="51e229527022b23ef548bfc016bfb0ac" category="sidebar">資料流</block>
-  <block id="c4068cabe0040e62a0f9e5c030ce1b50" category="sidebar">Keystone服務可讓您做更多工作</block>
   <block id="895b14af35ea6854d4009fe0ca2d99a9" category="sidebar">什麼是 NetApp Keystone 功能？</block>
   <block id="272552b591277a155ab212d038a32279" category="sidebar">測量單位為何？</block>
   <block id="202e5e87c64fed77827697acb780124e" category="sidebar">支援的基礎儲存設備為何？</block>
@@ -284,7 +283,6 @@
   <block id="edfc4c86589e31546a8fb2d8b085b8c9" category="sidebar">服務品質（QoS）</block>
   <block id="7fb6ecbfc2c7172d977f1ac481edef36" category="sidebar">我的帳單排程</block>
   <block id="e6bdb181d03ed18f61204d6fa6f9e26d" category="sidebar">如果耗用的容量超過承諾容量、會發生什麼情況？</block>
-  <block id="a7c5201b644834daf4816d3080e93837" category="sidebar">瞭解您的支援團隊（Keystone GSSC）</block>
   <block id="0e0fe605239796a7018441e65fa28979" category="sidebar">美國公民支援</block>
   <block id="f0411ca83e625da2c18b5f0c0682bd93" category="sidebar">瞭解更多資訊</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
@@ -1235,11 +1233,7 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="40a849f1b1a23a8ad5b9eda7fffbc498" category="admonition">依觀察名單搜尋會擷取舊儀表板上的訂閱清單。如果報價表包含訂閱號碼、數位顧問儀表板上只會顯示 * 基礎概念訂閱 * 小工具。</block>
   <block id="7bec9688ecf2b38ad916098d979ab11d" category="paragraph">在訂購Keystone服務時、您可以在Digital Advisor儀表板上的* Keystone Subscriptions *（基礎概念訂閱）小工具上檢視訂閱與使用的詳細資料。</block>
   <block id="72225f6e4157a41063cc314ef6fbee87" category="admonition">此處的資訊同時適用於 ONTAP 和 StorageGRID 。相關章節已指出例外情況。</block>
-  <block id="e2a2270c486beacf71e6bd4a48314991" category="list-text">按一下 * 一般 &gt; 基礎概念訂閱 &gt; 資產 * 。</block>
   <block id="89c9ef7132e6fac6325de01d876fc5aa" category="list-text">選取您要檢視叢集的訂閱編號。</block>
-  <block id="1014f28a098809635129e3768d88c841" category="paragraph">您可以查看叢集詳細資料、並依儲存效率設定、平台類型和容量詳細資料進行細分。按一下其中一個叢集、即可前往 Digital Advisor 畫面上的 * 叢集 * 小工具、取得該叢集的其他資訊。</block>
-  <block id="50f8af23d47854d6e926cd5b6a614505" category="sidebar">在 VMware vSphere 上安裝 Keystone Collector</block>
-  <block id="86215e54968c6d7de59c34d62652d9b9" category="sidebar">在 Linux 上安裝 Keystone Collector</block>
   <block id="d44d28fd40b9c69ef8ce92777484e334" category="paragraph">您可以產生及檢視 Keystone 資料的報告。「 * 基礎概念訂閱 * 」頁面上的每個索引標籤都可讓您按一下下載按鈕、以產生訂閱、歷史使用量和突發量使用量、效能、資產、以及磁碟區和物件的報告： <block ref="8dec166a4f6cf96a41e44a339dcc6d98" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2982b614ac2cf7f1a9aabd6fd79028f2" category="paragraph">這些詳細資料會以 CSV 格式產生、您可以儲存以供未來使用和比較。</block>
   <block id="16299daea8c4c1acc7d9eb66580654e7" category="paragraph">AutoSupport 訂閱的 * 資產 * 索引標籤上沒有可用的資訊。</block>
@@ -1366,7 +1360,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="bd79126b847656ed7fae36b5cf2b2a67" category="list-text"><block ref="bd79126b847656ed7fae36b5cf2b2a67" category="inline-link-macro-rx"></block></block>
   <block id="6b4c0e011e525c6bfef1c89d400050ea" category="list-text"><block ref="6b4c0e011e525c6bfef1c89d400050ea" category="inline-link-macro-rx"></block></block>
   <block id="8e3557260fa2ecc062aeb9b921f99cce" category="summary">Keystone STaaS over Keystone Flex 訂閱服務</block>
-  <block id="c14158742caa91eb4e1b6152329dc0fb" category="paragraph">Digital Advisor 提供完整的部署庫存層級資訊。另一方面、 Keystone 儀表板的 * 資產 * 索引標籤則會根據您的訂閱來累積叢集層級資訊、並將詳細資料的準確層級加以分隔。</block>
   <block id="160de0b8ef29975a3bcc6e2e2b61c540" category="paragraph">您可以按一下切換按鈕 * 顯示目前使用量 * 、以檢視目前計費週期的使用量、突發使用量及累積突發資料。這些詳細資料並非以查詢的日期範圍為基礎。</block>
   <block id="3249e310d1f377e16af196e978621a35" category="paragraph">報價表是一項功能性的 Digital Advisor 。如需相關資訊、請參閱<block ref="5d023a7962c7eae7e0af56f6e7f92603" category="inline-link-rx"></block>。如需建立報價表的相關資訊、請參閱<block ref="2539846485ed670b4851c404ba8cd9b6" category="inline-link-rx"></block>。</block>
   <block id="47f8ab1b56fa7a9acaabc7ce6e4ffaab" category="paragraph">使用圖表會顯示超過指定單日期間的資料、當您從 * 容量趨勢 * 標籤的 * 容量趨勢 * 選項中、將對應於當日的日期同時選取為上個月的開始和結束日期時。</block>
@@ -1409,7 +1402,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="0ea24cb9e38328d97758b94ddb59b5ef" category="list-text"><block ref="0ea24cb9e38328d97758b94ddb59b5ef" category="inline-link-macro-rx"></block></block>
   <block id="7e50034c4460f3b691f597afb9a64ad3" category="paragraph">* 使用趨勢 * 標籤的範例報告、其中會轉換圖形資料：</block>
   <block id="382fd8723ebdcd2f39cbf2ac2a288ee4" category="paragraph"><block ref="382fd8723ebdcd2f39cbf2ac2a288ee4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0a012b7cc2f110abb0e9e4de50825e19" category="paragraph"><block ref="0a012b7cc2f110abb0e9e4de50825e19" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6f600fd5916241a1ab6313921a59142a" category="list-text">按一下 * 一般 &gt; 基礎概念訂閱 &gt; 使用趨勢 * 。</block>
   <block id="a2f28b723367aa51b8cf89e4b45c5710" category="list-text">如果您想要檢視歷史資料並分析容量使用趨勢、請選取 * 使用趨勢 * 。如果您想要檢視已產生發票的歷史突發量使用資料、請選取 * 發票累計突發 * 。您可以使用此資料來分析發票上的帳單使用量。</block>
   <block id="af246886868b8aec437536365e1c07b6" category="section-title">檢視消費趨勢</block>
@@ -1539,9 +1531,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="953fc9eddf4cd31e31fe4a50570ababf" category="summary">下載 OVA 範本、部署範本等、在 VMware vSphere 系統上部署 Keystone Collector 。</block>
   <block id="1cceea5af439cdbb6c02b1dac3e52f59" category="summary">您的 VMware vSphere 系統必須符合數項需求、才能安裝 Keystone Collector 。</block>
   <block id="898ee4a9f94be9ae6d445399f980be4f" category="summary">數位顧問儀表板可讓您檢視 Keystone 訂閱的詳細資料、監控容量使用量、並產生報告。</block>
-  <block id="88ba1a903782e6e9fa15c49759c77002" category="summary">使用「資產」索引標籤可檢視由 Keystone 訂閱管理的叢集和節點詳細資料。</block>
-  <block id="c9d3977801acf4ccae129ec84792bff6" category="doc">檢視 Keystone 管理的叢集和節點詳細資料</block>
-  <block id="bd40bda8c4e7d21d9b37e2630b5d3847" category="paragraph">使用 * 資產 * 索引標籤可檢視 Keystone 訂閱所管理叢集和節點的詳細資料。</block>
   <block id="9bc1b954ed18e282db9621503d1ab732" category="summary">為了協助您監控訂閱使用率、您可以檢視特定期間的 Keystone 訂閱歷史資料。</block>
   <block id="82b1ab776febbe15c1e9dd82cf8b7ed3" category="doc">檢視消費趨勢</block>
   <block id="7a6bf42e443853b65d1851b22d80d1b8" category="summary">若要瞭解您的訂閱使用率、您可以檢視已承諾容量、已用容量、可用容量等。</block>
@@ -2158,4 +2147,29 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="fee7b996a8ab0bee47684563d23b4926" category="sidebar">安裝 ITOM Collector</block>
   <block id="8869eeb557230a1ee1c042d1156e4eef" category="sidebar">在 Windows 上安裝</block>
   <block id="fbb165d9f99339f62e1190730a20d297" category="sidebar">美國保護支援（ USPS ）</block>
+  <block id="3158f806d725e1ec78b0701704e3095e" category="inline-link-macro">如何使用 ONTAP CLI 以資料分層（ FabricPool ）來估計基礎概念使用量</block>
+  <block id="a61155b6c29c4a67dcebc112d4f1a0e6" category="paragraph"><block ref="a61155b6c29c4a67dcebc112d4f1a0e6" category="inline-link-macro-rx"></block></block>
+  <block id="383808601885ff3e8a9a0d874893b2f1" category="summary">使用資產索引標籤可檢視 ONTAP 叢集和節點的詳細資料，以及由 Keystone 訂閱管理的 StorageGRID 網格，站台和節點。</block>
+  <block id="f6b2ecd1814849b78e41e3e2b4e0fca3" category="doc">檢視 Keystone 管理的叢集和網格詳細資料</block>
+  <block id="4af983dc8b38330ebf279dac7575b6af" category="paragraph">使用 * 資產 * 索引標籤可檢視 ONTAP 叢集和節點的詳細資料，以及由 Keystone 訂閱管理的 StorageGRID 網格，站台和節點。</block>
+  <block id="ccb59ed71491ec34ae61a4a3e64b1fd7" category="paragraph">Keystone 儀表板的 * 資產 * 索引標籤包含兩個子索引標籤： * ONTAP * 和 * StorageGRID * 。此索引標籤會根據您的訂閱內容，針對 ONTAP 和 StorageGRID 網格層級資訊，收集叢集層級資訊，並以準確的詳細資料來分隔和呈現資料。您可以按一下個別的子索引標籤來檢視此資訊。</block>
+  <block id="61458f2c1b18b9bcbc537de740c9e1e0" category="list-text">按一下 * 一般 &gt; 基礎概念訂閱 &gt; 資產 &gt; ONTAP * 。</block>
+  <block id="25e1d9e56c0d85d8f80b0bbb2ab7e58e" category="paragraph">您可以查看叢集詳細資料、並依儲存效率設定、平台類型和容量詳細資料進行細分。按一下其中一個叢集、即可前往 Digital Advisor 畫面上的 * 叢集 * 小工具、取得該叢集的其他資訊。Digital Advisor 提供完整的部署庫存層級資訊。</block>
+  <block id="3dea7e0612816c330ed28a23513ff990" category="inline-image-macro">顯示 ONTAP 叢集層級資訊的螢幕擷取畫面</block>
+  <block id="4a3681d6237f5e015ad5ede6e3821946" category="paragraph"><block ref="4a3681d6237f5e015ad5ede6e3821946" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0c99c647c90765307c7881aeb82d4b0a" category="list-text">按一下 * 一般 &gt; 基礎概念訂閱 &gt; 資產 &gt; StorageGRID * 。</block>
+  <block id="3b70df30112e474cb2dcc361a3e3f76f" category="paragraph">您可以查看網格詳細資料，依網格和節點識別碼分類，網站資訊，硬體規格和容量詳細資料，這些資料有助於監控和管理 StorageGRID 基礎架構中的節點。</block>
+  <block id="a5c5b30c416c34eb8d2fb09f3946721b" category="inline-image-macro">顯示 StorageGRID 網格層級資訊的螢幕擷取畫面</block>
+  <block id="dcaaab8361575caaad35a500d6864bd1" category="paragraph"><block ref="dcaaab8361575caaad35a500d6864bd1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1cedef25ccb6885eb8bfdc7660435962" category="paragraph">您可以使用 * 隱藏 / 顯示欄 * 來新增或移除表格中顯示的欄。默認情況下，除 *Department （ * 部門）列外，所有列均被選中。您可以選取或取消選取任何欄，包括 * 部門 * 欄，您的偏好設定將會儲存以供日後使用。下載 CSV 報告時，若選取 * 部門 * 欄詳細資料，則會包含在內，而其他欄則會顯示，無論其在表格中的選擇狀態為何。</block>
+  <block id="bc6d0fec5ccd5f580ac081a7231e72de" category="section-title">2024-12-12</block>
+  <block id="4e80b9aaf481494b7698c02bcd4558ab" category="section-title">重新命名的已用邏輯欄</block>
+  <block id="4067362b8a27e9feb45b3dad3b225588" category="paragraph">* Volume Details （卷詳細信息） * 選項卡中的 * Logical Used （已用邏輯） * 列現在已重命名爲 * Keystone Logical Used （已用基礎邏輯） * 。</block>
+  <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">增強的資產索引標籤</block>
+  <block id="b37b0904549353aadf47641a5b0575b8" category="paragraph">* 基礎概念訂閱 * 畫面中的 * 資產 * 索引標籤現在有兩個新的子索引標籤： * ONTAP * 和 * StorageGRID * 。這些子索引標籤提供詳細的叢集層級洞見，可根據您的訂閱內容提供 ONTAP 和 StorageGRID 網格層級的資訊。若要深入瞭解、請 <block ref="188c8c355e0f1b0eb880092ea81f5051" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="d7dc6f5447fca23324df2672bac7c802" category="section-title">新增隱藏 / 顯示欄選項</block>
+  <block id="498f6fe433bcf5b2aeb742aa58e012a5" category="paragraph">* Volume &amp; Objects* 中的 * Volume Details* （卷詳細信息 * ）選項卡現在包含 * 隱藏 / 顯示列 * 選項。此選項可讓您選取或取消選取欄，以根據您的偏好來自訂磁碟區的表格式清單。若要深入瞭解、請 <block ref="0c9c36fd88d6d1691d6b8530f58f9df1" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="196d7c712c7c6a9911f2d9bbb5f61bf7" category="sidebar">利用 Keystone 服務完成更多工作</block>
+  <block id="ff7a737bcab804124f1d48754e14170d" category="sidebar">瞭解您的支援團隊</block>
+  <block id="84b3e771654397ccc8ec23cf38bfc805" category="sidebar">監控，疑難排解及強化儲存設備</block>
 </blocks>

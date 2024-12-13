@@ -11,10 +11,10 @@ indexpage:
     links:
     - title: 什麼是 NetApp Keystone 功能？
       url: "/concepts/overview.html"
-    - title: 在 VMware vSphere 上安裝 Keystone Collector
+    - title: 安裝 Keystone Collector
       url: "/installation/vapp-installation.html"
-    - title: 在 Linux 上安裝 Keystone Collector
-      url: "/installation/linux-installation.html"
+    - title: 安裝 ITOM Collector
+      url: "/installation/itom-prereqs.html"
     - title: 以私人模式安裝 Keystone Collector
       url: "/dark-sites/overview.html"
     - title: 在 Digital Advisor 上檢視您的使用情形
@@ -45,14 +45,16 @@ indexpage:
       url: "/concepts/consumed-capacity-billing.html"
     - title: 如果耗用的容量超過承諾容量、會發生什麼情況？
       url: "/concepts/burst-consumption-billing.html"
-  - title: Keystone服務可讓您做更多工作
+  - title: 利用 Keystone 服務完成更多工作
     links:
-    - title: 瞭解您的支援團隊（Keystone GSSC）
+    - title: 瞭解您的支援團隊
       url: "/concepts/gssc.html"
     - title: 我可以如何處理冷資料或使用率較低的資料？
       url: "/concepts/data-tiering.html"
     - title: 如何保護我的 Keystone 資料？
       url: "/concepts/adp.html"
+    - title: 監控，疑難排解及強化儲存設備
+      url: "/concepts/data-infra-insights.html"
     - title: Keystone與BlueXP
       url: "/integrations/keystone-cm.html"
     - title: 美國公民支援

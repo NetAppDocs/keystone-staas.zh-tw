@@ -20,6 +20,28 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 
 
+== 2024-12-12
+
+
+
+=== 重新命名的已用邏輯欄
+
+* Volume Details （卷詳細信息） * 選項卡中的 * Logical Used （已用邏輯） * 列現在已重命名爲 * Keystone Logical Used （已用基礎邏輯） * 。
+
+
+
+=== 增強的資產索引標籤
+
+* 基礎概念訂閱 * 畫面中的 * 資產 * 索引標籤現在有兩個新的子索引標籤： * ONTAP * 和 * StorageGRID * 。這些子索引標籤提供詳細的叢集層級洞見，可根據您的訂閱內容提供 ONTAP 和 StorageGRID 網格層級的資訊。若要深入瞭解、請 link:../integrations/assets-tab.html["資產索引標籤"^]參閱。
+
+
+
+=== 新增隱藏 / 顯示欄選項
+
+* Volume & Objects* 中的 * Volume Details* （卷詳細信息 * ）選項卡現在包含 * 隱藏 / 顯示列 * 選項。此選項可讓您選取或取消選取欄，以根據您的偏好來自訂磁碟區的表格式清單。若要深入瞭解、請 link:../integrations/volumes-objects-tab.html["Volume  ；物件索引標籤"^]參閱。
+
+
+
 == 2024-11-21
 
 
