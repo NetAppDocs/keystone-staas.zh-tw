@@ -54,9 +54,9 @@ NetApp 可根據最終組態和需求、提供散熱需求規格（一般 BTU �
 
 
 
-=== 儲存虛擬機器
+=== 虛擬機器
 
-部署 Keystone Collector 和 AIOP 解決方案閘道時、需要儲存虛擬機器（儲存 VM ）。安裝 Keystone Collector 的先決條件可在此取得 link:../installation/installation-overview.html["Keystone Collector 安裝指南"]：。其他需求則在部署期間共用。
+基礎概念收集器和 ITOM 收集器的部署需要虛擬機器。有關安裝先決條件，請參閱link:../installation/installation-overview.html["Keystone Collector 安裝指南"]和link:../installation/itom-prereqs.html["ITOM Collector 的安裝需求"]。其他需求則在部署期間共用。
 
 
 
@@ -68,15 +68,13 @@ Keystone Collector 可透過下列方法部署：
 * 客戶提供在 Red Hat Enterprise Linux 8.6 或更新版本 8.x 或 CentOS 7 上執行的 Linux 伺服器。Keystone 軟體是透過安裝程序安裝 `.rpm`。
 
 
-AIOP 解決方案閘道部署在下列組態上：
+ITOM Collector 可透過下列方法進行部署：
 
-* VMware OVA範本（需要VMware vCenter Server 6.7或更新版本）
-* 的可開機.ISO安裝程式
+* 客戶提供的 Linux 伺服器可在 Debian 12 ， Ubuntu 20.04 LTS ， Red Hat Enterprise Linux （ RHEL ） 8.x ， Amazon Linux 2023 或更新版本上執行。
+* 客戶提供執行 Windows Server 2016 或更新版本的 Windows 伺服器。
 +
-** Citrix XenServer
-** Microsoft Hyper-V
-** 核心型虛擬機器（Linux KVM）
 
+TIP: 建議使用的作業系統為 Debian 12 ， Windows Server 2016 或更新版本。
 
 
 
@@ -94,6 +92,6 @@ NetApp僅為NetApp提供的基礎架構裝置提供所需的收發器。您應�
 
 == 遠端存取需求
 
-客戶資料中心安裝的儲存基礎架構或客戶擁有的代管服務、以及Keystone作業中心之間、都需要網路連線。客戶負責提供運算與虛擬機器、以及網際網路服務。網路設計應採用安全的傳輸協定、而防火牆原則將由NetApp與客戶雙方核准。
+客戶資料中心安裝的儲存基礎架構或客戶擁有的代管服務、以及Keystone作業中心之間、都需要網路連線。客戶負責提供運算與虛擬機器、以及網際網路服務。客戶還負責作業系統修補（非 OVA 型部署），並根據內部安全原則強化安全性。網路設計應採用安全的傳輸協定、而防火牆原則將由NetApp與客戶雙方核准。
 
-NetApp需要存取安裝用於監控和管理的硬體和軟體元件、才能為Keystone客戶提供監控和計費等服務。最常見的方法是建立與客戶網路的虛擬私有網路（VPN）連線、並存取所需的資料。為了克服客戶從開啟防火牆連接埠到新服務所產生的任何作業複雜度、監控工具會啟動外部連線。NetApp 雲端應用程式、例如 AIOP 解決方案和期望、請使用此連線來執行各自的服務。此方法符合客戶的要求、即不開放防火牆連接埠、但可存取此服務的監控元件。
+NetApp需要存取安裝用於監控和管理的硬體和軟體元件、才能為Keystone客戶提供監控和計費等服務。最常見的方法是建立與客戶網路的虛擬私有網路（VPN）連線、並存取所需的資料。為了克服客戶從開啟防火牆連接埠到新服務所產生的任何作業複雜度、監控工具會啟動外部連線。NetApp 雲端應用程式，例如 ITOM 監控解決方案和期望，請使用此連線來執行各自的服務。此方法符合客戶的要求、即不開放防火牆連接埠、但可存取此服務的監控元件。

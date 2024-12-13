@@ -55,6 +55,14 @@ sidebar:
         url: "/installation/validation.html"
     - title: 設定Keystone Collector
       url: "/installation/configuration.html"
+    - title: 安裝 ITOM Collector
+      entries:
+      - title: 準備安裝
+        url: "/installation/itom-prereqs.html"
+      - title: 在 Linux 上安裝
+        url: "/installation/install-itom-linux.html"
+      - title: 在 Windows 上安裝
+        url: "/installation/install-itom-windows.html"
     - title: 設定AutoSupport 功能
       url: "/installation/asup-config.html"
     - title: Keystone Collector 安全性
@@ -115,8 +123,8 @@ sidebar:
         url: "/concepts/equinix.html"
       - title: 不可退回、非揮發性元件、以及 SnapLock 法規遵循
         url: "/concepts/nrnvc.html"
-      - title: 美國公民支援（USCS）
-        url: "/concepts/uscs.html"
+      - title: 美國保護支援（ USPS ）
+        url: "/concepts/usps.html"
   - title: Keystone STaaS SLA
     entries:
     - title: 可用度

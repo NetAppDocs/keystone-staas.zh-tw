@@ -21,13 +21,8 @@
   <block id="39eeade2e73eb4823932331e5a459f8c" category="paragraph">您應該提供所需的電力。NetApp 將根據 200V 額定值（典型 A 、 Max A 、典型 W 、最大 W 、電源線類型、 和數量）。所有元件都有備援電源供應器。NetApp 將提供機櫃內的電源線。</block>
   <block id="8c880fe54cae171fa97132f8c5e82297" category="section-title">散熱</block>
   <block id="e49c1cb86b679c35d94b37728ee6dfb6" category="paragraph">NetApp 可根據最終組態和需求、提供散熱需求規格（一般 BTU 、最大 BTU ）。</block>
-  <block id="4d2caccc34711835f6ff99da411ac04e" category="section-title">儲存虛擬機器</block>
   <block id="b81687f75b28f9a0cfb73649c9cca458" category="section-title">部署選項</block>
   <block id="a100eabbc0de64e817f5268550f98e40" category="list-text">VMware OVA範本（需要VMware vCenter Server 6.7或更新版本）</block>
-  <block id="982460f46a9c865b5659aba58b2214e3" category="list-text">的可開機.ISO安裝程式</block>
-  <block id="12d3f37fc10bb62fe3297b7457e90417" category="list-text">Citrix XenServer</block>
-  <block id="bbc2d665b02dc421c5c756db4b973610" category="list-text">Microsoft Hyper-V</block>
-  <block id="e05386baa04fdb8086234b221371bac1" category="list-text">核心型虛擬機器（Linux KVM）</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">網路</block>
   <block id="bc9ce1a2001f13d5a3489030a7b630e9" category="paragraph">NetApp僅為NetApp提供的基礎架構裝置提供所需的收發器。您應該提供客戶裝置所需的收發器、以及連接至NetApp提供之Keystone基礎架構裝置的纜線。</block>
   <block id="d701dcea67fd884a29f39c9adfdeb8bf" category="section-title">遠端存取需求</block>
@@ -110,10 +105,6 @@
   <block id="af2d21b994ceb580773abb07a8691b58" category="paragraph">華盛頓特區</block>
   <block id="2b29c5739ec4158573c66d2124e2c7e9" category="paragraph">蘇黎世</block>
   <block id="3ad08396dc5afa78f34f548eea3c1d64" category="cell">瑞士</block>
-  <block id="3b4d5a194534074e4e26b153c90a2ef6" category="doc">美國公民支援（USCS）</block>
-  <block id="90770185e7f0d93f4befd67871a81092" category="paragraph">美國公民支援（USCS）是NetApp Keystone 針對各種訂閱的附加產品。您有權從美國獲得持續基礎概念服務的交付與支援美國公民土壤。</block>
-  <block id="616e342ef98270057c5d3a2f3e3e7338" category="section-title">NetApp全球服務支援中心監控</block>
-  <block id="c779911684ebe3ceed4035306e2997c3" category="paragraph">NetApp全球服務與支援中心（GSSC）可監控您產品和訂閱服務的健全狀況、提供遠端支援、並與Keystone Success Manager合作。所有監控相關Keystone訂購訂單相關產品的人員、均為美國公民土壤。</block>
   <block id="b47b3a710484adb2c8cfacd64043b550" category="section-title">Keystone成功管理程式</block>
   <block id="e8483ac20b1990d2362dd45e18cfb1d2" category="section-title">部署活動</block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="section-title">支援</block>
@@ -274,12 +265,10 @@
   <block id="39fd5e3ddc496ef780ff5e3fe13bb2d1" category="section-title">符合法規SnapLock</block>
   <block id="f14c7b4687be07acacb0f5aeed1474f5" category="inline-link">什麼是呢SnapLock</block>
   <block id="da0abce09003b51065ed5b06d06021f1" category="doc">根據已提交的容量進行計費</block>
-  <block id="0a01a33e5f29d399207cdf2d0bedd8e4" category="section-title">其他資訊與支援聯絡人</block>
   <block id="f0c94d09bc7d41e3ed09416fd1ed8a12" category="inline-link"><block ref="f0c94d09bc7d41e3ed09416fd1ed8a12" category="inline-link-rx"></block></block>
   <block id="1c6d9d150de7c9865ab3839ec9e99e4b" category="list-text">NetApp Keystone<block ref="4b675bc45aec5ce1523a19f69a2ff928" category="inline-link-rx"></block></block>
   <block id="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link"><block ref="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link-rx"></block></block>
   <block id="0f185ccd88416daec4eee0a846d110b8" category="list-text">NetApp 產品文件<block ref="2e85fc867cab94d246e0bf6043b361cd" category="inline-link-rx"></block></block>
-  <block id="8ed38172f401cd08c379f8397810fe02" category="section-title">GSSC監控</block>
   <block id="fc860be5f135f0d58f6a4cc1a552d57f" category="inline-link">Keystone訂閱</block>
   <block id="ae45517d4d9ba30bece696a3b49d1b3f" category="inline-link">管理基礎概念訂閱</block>
   <block id="e5471403f1b2eefb0fe47b6193a72bbc" category="sidebar">Keystone文件</block>
@@ -334,7 +323,6 @@
   <block id="5e803820900b74b1d5d53cef450d8ad7" category="list-text">選擇靈活的服務條款與付款條件：您可以選擇每個站台12個月、25TiB或更多。之後、您可以自動續約12個月。</block>
   <block id="72a2e26ee3dd7a4431c7b48558a4e647" category="paragraph">您應提供電力分配單元（PDU）、連接至兩個獨立且受保護的電路、並具有足夠的C13插座。在客戶營運的產品中、在某些情況下、需要 C19 插座。在NetApp營運的產品中、NetApp或客戶可視需求提供PDU。</block>
   <block id="9696806b0bc121063e619b6f0922f330" category="paragraph">根據客戶需求和使用的儲存控制器、NetApp可在客戶的站台提供10 GB、40 GB和100 GB的連線能力。</block>
-  <block id="9e5608e7c0a5ea33b2dac7e4f4da76e0" category="paragraph">客戶資料中心安裝的儲存基礎架構或客戶擁有的代管服務、以及Keystone作業中心之間、都需要網路連線。客戶負責提供運算與虛擬機器、以及網際網路服務。網路設計應採用安全的傳輸協定、而防火牆原則將由NetApp與客戶雙方核准。</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="summary">Keystone與Digital Advisor</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">數位顧問文件</block>
   <block id="d98e1323795a96bdb4ab923442544f4f" category="summary">Keystone與BlueXP</block>
@@ -802,18 +790,9 @@
   <block id="9e2f9cd4a9ee8b88a18988f62eb67dd7" category="paragraph">Keystone 收集器會對儲存控制器啟動 REST API 呼叫、並定期取得控制器的使用詳細資料、如以下流程圖所示：</block>
   <block id="144be97e21d1c48cc88d9c1079fd7242" category="list-text">Active IQ 雲端入口網站接受連線、並建立通往 NetApp Collector 的通道。</block>
   <block id="eb1ece97f0d4f33c42fe8c1270d9f97f" category="list-text">NetApp 收集器會建立一個 REST API 工作階段、連接至儲存控制器的管理連線、取得環境資料、並將其傳送至 Active IQ 入口網站。</block>
-  <block id="9bd6f9bd3f316579290de54613357644" category="paragraph">持續監控儲存基礎架構的健全狀況、是Keystone服務最重要的功能之一。針對監控和報告、 Keystone 使用 AIOP 解決方案、需要遠端存取客戶的網路。下圖說明如何使用 AIOP 解決方案工具來保護對客戶位置的遠端存取。</block>
-  <block id="243cf07b27b6811f47ef7011b0f2fcd7" category="list-text">雲端中的 AIOPs 解決方案伺服器接受連線。</block>
-  <block id="322f1e98181b58ca0f54061626b2d948" category="list-text">在雲端入口網站和本機閘道之間建立 TLS 通道。</block>
-  <block id="450997fb0074b4d084ffcc7c81c8194e" category="list-text">NetApp 控制器會使用 SNMP 通訊協定傳送警示、或回應 API 要求至本機閘道。</block>
   <block id="67b0e91889520881c5ec5d57fab5f89c" category="list-text">本機閘道會使用之前建立的 TLS 工作階段、將這些警示傳送至其雲端入口網站。</block>
-  <block id="0f1b5cef30787606dcebbe2aad12f047" category="list-text">管理和操作服務的工具、例如 AIOP 解決方案、 Active IQ 和 Active IQ Unified Manager 。</block>
-  <block id="fe69a54042d9eff356aefd4641754a9d" category="list-text">AIOPs 解決方案本機閘道：用於監控網路的雲端型應用程式。它內建與NetApp儲存平台的整合功能、可收集環境資料並監控網路。此服務是在使用安裝在您站台上的本機閘道與雲端入口網站通訊的協助下啟用。</block>
   <block id="370f5a2dcf3c761999eec9796ac7cb95" category="list-text">Keystone Data Collector：Keystone Collector為Keystone客戶提供帳單服務。此應用程式隨Active IQ Unified Manager 附於NetApp。它會從 ONTAP 和 StorageGRID 控制器收集資料、時間間隔為五分鐘。資料會經過處理、中繼資料Active IQ 會透過AutoSupport 用於產生帳單資料的流程機制、傳送到集中式的資料湖。Active IQ DATA lake 會處理帳單資料、並將其傳送給期望帳單的人員。</block>
   <block id="b061e71795ea0169fae5918033aa1426" category="inline-link-macro">Keystone Collector 安裝指南</block>
-  <block id="b264c507ce69115ec3b1ea258739f71a" category="paragraph">AIOP 解決方案閘道部署在下列組態上：</block>
-  <block id="3db5d9db3e9bbb96192cdbca3e683f2d" category="list-text">NetApp 使用 AIOPs 解決方案主動監控並連線至 NetApp Keystone 環境進行疑難排解。</block>
-  <block id="f117a997c71ee803b4f42cc859317819" category="admonition">在合作夥伴營運模式中、租戶和租戶的服務要求會指派給合作夥伴的服務台。合作夥伴的支援工具可能與 AIOP 解決方案和 GSSC 應用程式整合。只有 L3 問題會透過 GSSC 提報給 NetApp 。</block>
   <block id="eca1859cccb72b784538dc03d0802c4d" category="paragraph">BlueXP Digital Advisor 儀表板提供圖形化檢視和深入分析功能、可監控 Keystone 訂閱使用率並產生報告。如需數位顧問儀表板和 Keystone 的詳細資訊、請參閱 <block ref="e4a96850db17c7110d770223b8207b51" category="inline-link-macro-rx"></block>。</block>
   <block id="2951c1f61944250838607486af8b4ac0" category="sidebar">升級 Keystone Collector</block>
   <block id="aabaac678332e131002e20e29c167e21" category="paragraph">確保符合下列一般要求：</block>
@@ -836,9 +815,7 @@
   <block id="09bf9d4349f1cb8b47852b136c5b73f7" category="list-text">這些服務在 11 個國家 / 地區的資料中心提供支援。</block>
   <block id="d0aa2dffa0da83f1f34681308d04db5d" category="paragraph">洛杉磯</block>
   <block id="30b2358cb02ac28dab20e543f65090a3" category="inline-image-macro">顯示收集器元件內的資料流</block>
-  <block id="0eacfc824aac3b0caf281a91b0150a47" category="paragraph"><block ref="0eacfc824aac3b0caf281a91b0150a47" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cd7ff698af2c2f69b7a1e0b0f9bd6fc0" category="inline-image-macro">資料流</block>
-  <block id="70d6d93b80cc0f0a782725d14559b395" category="paragraph"><block ref="70d6d93b80cc0f0a782725d14559b395" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b8e36d91b1526b0c712db2327c72889e" category="inline-image-macro">Keystone</block>
   <block id="e55277c0c3f0e910a9213c7bc485b55e" category="paragraph"><block ref="e55277c0c3f0e910a9213c7bc485b55e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="61d927a1aed666979cd431fa1e2acade" category="inline-image-macro">勾選標記</block>
@@ -880,7 +857,6 @@
   <block id="d292740ed171285325a91f3bddbbc59d" category="list-text">除非分層原則設為「無」、而且雲端中沒有區塊、否則預期的 IOPS _ 才會針對 FabricPool 。預期的 IOPS _ 是針對非 SnapMirror 同步關係中的磁碟區。</block>
   <block id="acad586f6e3c240e49bc22095d3d4c92" category="list-text">工作負載 IO 作業必須在所有部署的控制器之間進行平衡、這取決於 Keystone 順序。</block>
   <block id="e6329950dc4e8e2123e22d6e9b5d6db8" category="inline-image-macro">管理堆疊</block>
-  <block id="385cf44e2725480b6b1fff1e85799b05" category="paragraph"><block ref="385cf44e2725480b6b1fff1e85799b05" category="inline-image-macro-rx" type="image"></block></block>
   <block id="baec6461b0d69dde1b861aefbe375d8a" category="inline-image-macro">圖示</block>
   <block id="afcefd303655b7f65e49ebd8be60e0e7" category="inline-image-macro">灰點圖示</block>
   <block id="c0ffa381f5b727ea5de2afacc2018783" category="inline-image-macro">綠點圖示</block>
@@ -1021,10 +997,8 @@
   <block id="3a4be28bbb64456f61b6d1a38574d0ac" category="paragraph">您的連拍限制是在Keystone協議中決定和指定的。通常比承諾容量高出 20% 。</block>
   <block id="b178e2d86eb51156fb8d9a2bd509938c" category="list-text">雲端原生服務、例如運算、儲存設備、網路、都是由雲端供應商開立發票。</block>
   <block id="296ad65314dcbf027a7993304c7a165d" category="list-text">這些服務需視雲端儲存設備和運算特性而定。</block>
-  <block id="250f7d64786be93dcfc476bdd51bca8f" category="list-text">AIOP 解決方案閘道會啟動通往雲端入口網站的 TLS 工作階段。</block>
   <block id="0c0de0453c5b0de437eb1976c3926361" category="paragraph">站台A和站台B是MetroCluster 以不一樣的組態設定。當使用者在站台 A 中建立 10TB 的磁碟區時、站台 B 會建立相同的 10TB 磁碟區Keystone可識別每個站台的10TB使用量、總計增加20TB。System Manager 和 Unified Manager 會回報站台 A 建立的 10TB Volume 、但不會回報站台 B 中的 10TB Volume</block>
   <block id="da20082463112c8970df057a21a7f47d" category="list-text">Keystone 基礎架構、包括儲存控制器。</block>
-  <block id="91aa968d50f3d2ecebe3ba524c542adc" category="paragraph">NetApp需要存取安裝用於監控和管理的硬體和軟體元件、才能為Keystone客戶提供監控和計費等服務。最常見的方法是建立與客戶網路的虛擬私有網路（VPN）連線、並存取所需的資料。為了克服客戶從開啟防火牆連接埠到新服務所產生的任何作業複雜度、監控工具會啟動外部連線。NetApp 雲端應用程式、例如 AIOP 解決方案和期望、請使用此連線來執行各自的服務。此方法符合客戶的要求、即不開放防火牆連接埠、但可存取此服務的監控元件。</block>
   <block id="5f961dc6311c34fa23cf40360afba9db" category="list-text">承諾容量不得在訂閱到期前 90 天增加、除非訂閱將續約 12 個月。</block>
   <block id="783e590ecfbaebc7caa0409a8cae6926" category="paragraph">Keystone STaaS檔案與區塊儲存標準服務包括分層功能、可識別較少使用的資料、並將其分層至Keystone STaaS-Supported NetApp Cold儲存設備。如果您想要將冷資料分層至任何受 Keystone STaaS 支援的非 NetApp 儲存設備、則可以將資料分層作為附加服務。</block>
   <block id="29a37414986b666b1caba06ea110bc8c" category="paragraph">僅當資料分層至任何非 NetApp 儲存設備（例如 Amazon Web Services （ AWS ） S3 、 Azure Blob 、 Google Cloud Platform （ GCP ）及其他受 Keystone STaaas 支援、相容 S3 的協力廠商物件儲存設備）時、才需要分層附加服務。</block>
@@ -1034,7 +1008,6 @@
   <block id="0d57513becb1cbc7c0fb1c95b5596678" category="paragraph">Keystone針對區塊、檔案和物件資料類型、提供預先定義的服務層級儲存容量、這些資料類型可部署在內部部署、並由NetApp、合作夥伴或客戶操作。Keystone 可與 NetApp 雲端服務搭配使用、例如 Cloud Volumes ONTAP 、可部署在您選擇的超純量環境中。</block>
   <block id="8a559914d26628167b5f08a9373076e9" category="paragraph">NetApp 可遠端為 NetApp Keystone 客戶提供營運服務。這些服務涵蓋各種儲存管理活動的營運領域。這些服務包括資產與組態管理、容量與效能管理、變更管理、事件、事件與問題管理、服務要求履行及報告。NetApp 會視需要示範控管狀態和佐證證。</block>
   <block id="380091ff4f618bba4a7e7e4aa88a1ec1" category="paragraph">Keystone Success Manager （ KSM ）會與您密切合作、提供 Keystone 服務、並在每週或每月帳單和營運報告上更新您的資訊。職責請詳列NetApp Keystone 於您的《個人資訊協議》中。</block>
-  <block id="215f812eba5abfc5c6f2c8dd59899a86" category="paragraph">在提出服務要求之前、請先確定系統詳細資料、記錄及相關資訊已備妥。當您提出服務要求時、GSSC團隊會收到支援通知單、並存取疑難排解資訊。您可以依照 ServiceNow 通知單瞭解狀態和解決方案。</block>
   <block id="e6493c4efe3fa5e48bce86284ff1aa5f" category="paragraph">以計算服務層級的處理量、例如<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block> 服務層級：</block>
   <block id="82ed1e96c97e812264424ac485673960" category="paragraph">如適用、現場與遠端部署與安裝活動均由美國政府執行美國公民土壤。註解：免責聲明 [ 現場活動的適當人員可用度視部署 Keystone 系統的地理位置而定。 ]</block>
   <block id="9415cbbaeaf88bca0512bbfe3c3cb334" category="paragraph">根據預設、 Keystone 健全狀況服務不接受來自 localhost 以外任何 IP 的連線。Keystone健全狀況端點為<block ref="b2445934e628b68d6950a1056d38299a" prefix=" " category="inline-code"></block>、並在連接埠上偵聽Keystone Collector伺服器的所有介面<block ref="d79c8788088c2193f0244d8f1f36d2db" prefix=" " category="inline-code"></block>。查詢時、端點會傳回具有Json輸出的HTTP要求狀態代碼作為回應、說明Keystone Collector系統的狀態。
@@ -1105,8 +1078,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="bad75a53f85a771cf752894cc064a3b7" category="admonition">完成安裝時、您可以使用Keystone Collector Management終端使用者介面（TUI）公用程式來執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。請參閱 <block ref="14e6b60cfb93c92598e40786e00457b6" category="inline-link-macro-rx"></block> 和 <block ref="81c399588663f35131a970a2d830c241" category="inline-link-macro-rx"></block> 以取得資訊。</block>
   <block id="1ae3a07b6896d577a03f95172e8b37ab" category="paragraph">如需SnapLock 有關支援技術的資訊、請參閱<block ref="75641a5590d09822bddecb04bdc449c0" category="inline-link-rx"></block>。</block>
   <block id="12d485f3f9a8db1779ed73cf44c137be" category="paragraph">儲存即服務（ STaaS ）產品旨在提供類似公有雲的模式、以供採購、部署及管理儲存基礎架構。雖然大多數企業仍在擬定混合雲的策略、但身為客戶、您可以選擇以營運成本為基礎的 _ 每次使用付費 _ 消費模式。您可能必須最終將所有工作負載移至雲端、但尚未制定明確的計畫或排程、將特定部分或所有工作負載移轉至雲端。Keystone STaaS 讓您可以靈活地從內部部署服務開始、稍後再決定適當的工作負載和移轉至雲端的時間點。Keystone STaaS可在部署模式之間提供承諾保護。您身為內部部署客戶、無需支付更多雲端服務費用、即可重新分配內部部署支出、以新增雲端服務、並基本上支付重新分配之前所承諾的相同月費。</block>
-  <block id="ff3ee75715261a301448444dad2f844d" category="list-text">全球服務聯絡人：
-<block ref="983f8b40dae4baa1de985ce6d2ebbb0c" category="inline-link-rx"></block></block>
   <block id="b2a258e6f0a0dc74fded47cb9cc5413c" category="paragraph"><block ref="b2a258e6f0a0dc74fded47cb9cc5413c" category="inline-link-rx"></block></block>
   <block id="de70c043bed2cffae85b828a6246d7e2" category="inline-image-macro">說明重新分配邏輯</block>
   <block id="2ac0f144048cf5fb3e17783ff993bfa0" category="paragraph"><block ref="2ac0f144048cf5fb3e17783ff993bfa0" category="inline-image-macro-rx" type="image"></block></block>
@@ -1498,7 +1469,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="7053560fccb48096070dc008e686cf8d" category="summary">瞭解在您的環境中啟用 NetApp Keystone STaaS 服務所需的元件。</block>
   <block id="605e1ff8075e66e13ef5bc1257800be7" category="doc">部署所需的元件</block>
   <block id="1d338514e4b31738eb689c9e5bf1deca" category="paragraph">在您的環境中啟用 NetApp Keystone STaaS 服務需要幾個元件。開始之前、您應該先檢閱這些元件的詳細資料。</block>
-  <block id="147c46cde84c281f55a6c47d275ff845" category="paragraph">部署 Keystone Collector 和 AIOP 解決方案閘道時、需要儲存虛擬機器（儲存 VM ）。安裝 Keystone Collector 的先決條件可在此取得 <block ref="90d7b7caf953f72ddc1c63cc7891ca46" category="inline-link-macro-rx"></block>：。其他需求則在部署期間共用。</block>
   <block id="d246f9b425c150eb3d6e174fbc2525d0" category="paragraph">Keystone Collector 可透過下列方法部署：</block>
   <block id="3332bc574644f77a870b242a631af1e3" category="summary">消耗容量是工作負載在服務使用期間實際使用的容量。</block>
   <block id="7a6709ab5e3b396814fccf37c263ad1f" category="paragraph">Keystone STaaS會根據您在服務使用期間所耗用的容量進行計量。耗用容量是工作負載實際使用的容量。</block>
@@ -1511,10 +1481,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="a129a1a3a2b62ad0169083e37600a64e" category="paragraph">Equinix 在以下位置設有資料中心：</block>
   <block id="baec7a90ff5a6d18f6dd7ef76c3e4998" category="summary">如果您需要協助、請聯絡 NetApp 全球服務與支援中心。</block>
   <block id="9c749342ce1dc8c39f5e67d29a9500ac" category="doc">取得 Keystone 的說明</block>
-  <block id="4ddf6c6712971dd15c713fad57953735" category="paragraph">NetApp 全球服務與支援中心（ GSSC ）和 NetApp Keystone 成功經理（ KSM ）負責為 Keystone 訂閱提供服務。如果您需要協助、可以聯絡支援團隊。</block>
-  <block id="31ff08d41c8cc35bada27e791db4e753" category="section-title">NetApp 全球服務與支援中心</block>
-  <block id="a38771031bc7d08419a9e331d277bafd" category="paragraph">NetApp 全球服務與支援中心團隊主要支援 NetApp Keystone 客戶的服務。您可以使用下列資訊聯絡支援團隊。</block>
-  <block id="add73d271d7391eeb698cf556eed70ac" category="paragraph">NetApp 全球服務與支援中心可監控您產品和訂閱服務的健全狀況、提供遠端支援、並與 Keystone 成功經理合作。所有監控與相關 Keystone 訂閱訂單相關產品的人員均為美國 美國公民在美國境內營運。</block>
   <block id="24acde87a618c9dc2d11377311afc495" category="summary">Keystone基礎架構、設計、技術選擇及元件產品、完全由NetApp提供。</block>
   <block id="7954e225c8bd390ff2168144c5e393c1" category="paragraph">NetApp 完全負責 Keystone 的基礎架構、設計、技術選擇和元件、適用於 NetApp 和客戶營運的環境。</block>
   <block id="adf9ce2fefed448c1faa955a05142679" category="paragraph">NetApp 保留採取下列行動的權利：</block>
@@ -1548,8 +1514,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="e561d7dfcd6620325c8edbb7b2c1d749" category="paragraph">NetApp Keystone STaaS 服務支援多種儲存容量類型。瞭解這些不同的容量字詞有助於您使用 Keystone 。</block>
   <block id="db7ef8b55156f5b6fc1f3807d49d1119" category="summary">Keystone STaaS 服務支援 ONTAP 和 StorageGRID 。</block>
   <block id="4e4be6640d3e6688fbc771ec3b218a39" category="doc">Keystone中支援的儲存設備</block>
-  <block id="b04b9612a34a45ebf4b2053eb712e1de" category="summary">美國公民支援是一項附加服務、可在美國境內提供及支援美國公民持續提供的 Keystone 服務。</block>
-  <block id="efb798aa1e5f26018339774ed88a11c6" category="doc">瞭解 USCS</block>
   <block id="9bb097552337391bef04a8384c5c2779" category="summary">開始使用 Keystone 之前、您必須確保 ONTAP 叢集和 StorageGRID 系統符合數項需求。</block>
   <block id="5a289dbd2bdf9da48705d83b541e6b93" category="summary">將 AutoSupport 設定為將 Keystone 資料整合至 ONTAP 叢集所傳送的每日支援套件組合中。</block>
   <block id="eb592abffb734f57a7f3958cfe6176bd" category="summary">完整組態可讓 Keystone Collector 在您的儲存環境中收集使用資料。</block>
@@ -1894,7 +1858,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="f9017eb4d160c5625e2911de7136c2fe" category="list-text">Keystone Collector 伺服器應可在連接埠 443 （ HTTPS ）上存取 Unified Manager 伺服器。</block>
   <block id="c55d18e0937cb0a3844d2da3ecbc7e82" category="list-text">Unified Manager 伺服器上的 Keystone Collector 應設定具有應用程式使用者權限的服務帳戶。</block>
   <block id="4be679fb0c05782454656e48556dab1d" category="list-text">不需要外部網際網路連線。</block>
-  <block id="9fc9a5ce8278ada254052c62e048d22b" category="list-text">每個月從 Keystone Collector 匯出檔案、並以電子郵件傳送至 NetApp 支援團隊。如需如何聯絡支援團隊的詳細資訊、請<block ref="77e2a4ca04ba16c3bb0a4c8df0385121" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="b7e3d459da53b2456951d0a5d3237300" category="inline-link-macro">私密模式中的 Keystone</block>
   <block id="d94b27c65b00f48ddf2590d54d34311d" category="list-text">Keystone Collector 可針對沒有網際網路存取權的組織進行設定、也稱為 _Dark 站台 _ 或 _Private 模式 _ 。若要深入瞭解、請<block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="70746148197a1842a9455cddc0c18adc" category="paragraph">Keystone Collector 可設定為 _ 標準 _ 模式、不受連線限制即可運作、或是 _ 私有 _ 模式、專為連線限制的組織所設計。若要以標準模式安裝 Keystone Collector <block ref="a9306132ed6aac4cbc6f1e3f3feb8703" category="inline-link-macro-rx"></block>、請參閱；如需私有模式、請<block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>參閱。</block>
@@ -2081,4 +2044,118 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="749c79ba020f9d0aaf1b465f6dd56db8" category="inline-image-macro">顯示新增使用者選項的螢幕擷取畫面</block>
   <block id="c0a1f4b52f74dc2cd70fa3478d9d97ca" category="paragraph"><block ref="c0a1f4b52f74dc2cd70fa3478d9d97ca" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9406fb3af0e8e2bf8446823785c0e069" category="sidebar">資料基礎架構洞見</block>
+  <block id="137f19e6e2dc1219f33553b812627bc2" category="section-title">虛擬機器</block>
+  <block id="7f76b7c3d58c94507679ec4e89236f5b" category="inline-link-macro">ITOM Collector 的安裝需求</block>
+  <block id="edf9f0e23de8308b9cbd2cee93fc5ce2" category="paragraph">基礎概念收集器和 ITOM 收集器的部署需要虛擬機器。有關安裝先決條件，請參閱<block ref="90d7b7caf953f72ddc1c63cc7891ca46" category="inline-link-macro-rx"></block>和<block ref="9bc3880c82515bce110d54618fdd016a" category="inline-link-macro-rx"></block>。其他需求則在部署期間共用。</block>
+  <block id="e928ba962ab987ce8326c040dd6a7083" category="paragraph">ITOM Collector 可透過下列方法進行部署：</block>
+  <block id="96791c51d091db61be7d6912c6675765" category="list-text">客戶提供的 Linux 伺服器可在 Debian 12 ， Ubuntu 20.04 LTS ， Red Hat Enterprise Linux （ RHEL ） 8.x ， Amazon Linux 2023 或更新版本上執行。</block>
+  <block id="1c6db71abb5563b4658fbc63f51e8b24" category="list-text">客戶提供執行 Windows Server 2016 或更新版本的 Windows 伺服器。</block>
+  <block id="1364c79d952bcd4745981c580d2edc5a" category="admonition">建議使用的作業系統為 Debian 12 ， Windows Server 2016 或更新版本。</block>
+  <block id="43eefb573a809ff61e1c8d3d07813ee3" category="paragraph">客戶資料中心安裝的儲存基礎架構或客戶擁有的代管服務、以及Keystone作業中心之間、都需要網路連線。客戶負責提供運算與虛擬機器、以及網際網路服務。客戶還負責作業系統修補（非 OVA 型部署），並根據內部安全原則強化安全性。網路設計應採用安全的傳輸協定、而防火牆原則將由NetApp與客戶雙方核准。</block>
+  <block id="3bd97f0b75ad0b75e89607ca3389444d" category="paragraph">NetApp需要存取安裝用於監控和管理的硬體和軟體元件、才能為Keystone客戶提供監控和計費等服務。最常見的方法是建立與客戶網路的虛擬私有網路（VPN）連線、並存取所需的資料。為了克服客戶從開啟防火牆連接埠到新服務所產生的任何作業複雜度、監控工具會啟動外部連線。NetApp 雲端應用程式，例如 ITOM 監控解決方案和期望，請使用此連線來執行各自的服務。此方法符合客戶的要求、即不開放防火牆連接埠、但可存取此服務的監控元件。</block>
+  <block id="daaeac371cb5600a69ff928296058e7c" category="paragraph">Keystone STaaS 系統中的資料會流經 Keystone Collector 和 ITOM 監控解決方案，這是相關的監控系統。</block>
+  <block id="137a100b0d612b21a3e5cf73f112b6ad" category="paragraph"><block ref="137a100b0d612b21a3e5cf73f112b6ad" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="179406659d7fde9a1cfbcd5d2e57830c" category="paragraph">持續監控儲存基礎架構的健全狀況、是Keystone服務最重要的功能之一。針對監控與報告， Keystone 使用 ITOM 監控解決方案。下圖說明 ITOM 監控解決方案如何保護對客戶位置的遠端存取。客戶可以選擇啟用遠端工作階段功能，以便 Keystone 支援團隊連線至受監控的裝置進行疑難排解。</block>
+  <block id="d28beba29b63444d6424d03c5390b388" category="paragraph"><block ref="d28beba29b63444d6424d03c5390b388" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="16866b1071bb4f12cb7915045075b519" category="list-text">ITOM 監控解決方案閘道會啟動通往雲端入口網站的 TLS 工作階段。</block>
+  <block id="451930752182f50216eef4cb75f0d96e" category="list-text">雲端中的 ITOM 監控解決方案伺服器接受連線。</block>
+  <block id="66b4b72a98576d6a82927d721f9082ce" category="list-text">在雲端入口網站和本機閘道之間建立 TLS 工作階段。</block>
+  <block id="6727d943adce470174c18dc949a30ae0" category="list-text">NetApp 控制器會使用 SNMP/Syslog 傳輸協定傳送警示，或回應 API 要求至本機閘道。</block>
+  <block id="c41ce7fe395738925814b2d06467e3ec" category="section-title">法規遵循標準</block>
+  <block id="03242372ae5b03ca7f547f3cb7dab64f" category="inline-link-macro">資料保護附錄（ DPA ）</block>
+  <block id="a58e8ea096956351960d74a5b466e9e0" category="paragraph">Keystone ITOM 監控解決方案符合歐盟通用資料保護規範（ GDPR ）和加州消費者隱私權法案（ CCPA ）。此外，本文件也提供一份<block ref="12861122e9a15898b646770ef3c2b260" category="inline-link-macro-rx"></block>文件來記錄這些承諾。ITOM 監控解決方案不會收集或儲存任何個人資料。</block>
+  <block id="9271c91f15a89ae66145641e94752632" category="paragraph">NetApp Keystone 支援團隊和 Keystone 成功經理（ KSM ）負責為 Keystone 訂閱提供服務。如果您需要協助，可以聯絡 Keystone 支援團隊。</block>
+  <block id="1d15537f2746347dfa1ac4acd53c9adb" category="section-title">NetApp Keystone 支援</block>
+  <block id="0f68b904e33d9ac04605aecc958bcf52" category="section-title">其他資訊</block>
+  <block id="49b12603d90b8d1e26781b4c49aa661a" category="paragraph">NetApp 使用 ITOM 監控解決方案主動監控並連線至 NetApp Keystone 環境進行疑難排解。</block>
+  <block id="aee6a3bc19432c3c01a246f89d46a987" category="admonition">在合作夥伴營運模式中、租戶和租戶的服務要求會指派給合作夥伴的服務台。合作夥伴的支援工具可能與 ITOM 解決方案整合。</block>
+  <block id="01a2b3dbd173b41f042686cdc48ed6d5" category="section-title">Keystone 支援監控</block>
+  <block id="9c63af51824784bfae9cd146a00bdd21" category="paragraph">NetApp Keystone 支援可監控您產品和訂閱服務的健全狀況，提供遠端支援，並與 Keystone 成功經理合作。</block>
+  <block id="4bb1ec7470540bdb0d6aeee19ef42670" category="paragraph">在提出服務要求之前、請先確定系統詳細資料、記錄及相關資訊已備妥。當您提出服務要求時， Keystone 支援團隊會收到支援服務單，並存取疑難排解資訊。您可以依照 ServiceNow 通知單瞭解狀態和解決方案。</block>
+  <block id="d0b8f9213f7c1943447dc74174b7005a" category="list-text">管理和操作服務的工具，例如 ITOM 監控解決方案， Active IQ 和 Active IQ Unified Manager 。</block>
+  <block id="8851c6fe19bf967cca1a7747c9a0b08e" category="list-text">Keystone IT Operations Management （ ITOM ）監控解決方案：用於監控 Keystone 環境的雲端型 SaaS 應用程式。它內建與 NetApp 儲存平台的整合功能，可收集環境資料，並監控 Keystone 基礎架構的運算，網路和儲存元件。這項監控功能可延伸至內部部署設定，資料中心，雲端環境，或這些環境的任何組合。此服務可透過使用安裝在您站台上的本機 ITOM Collector 來與雲端入口網站通訊來啟用。</block>
+  <block id="1ff9ceb23d392b2e0eb7fcd6c3f61c34" category="paragraph"><block ref="1ff9ceb23d392b2e0eb7fcd6c3f61c34" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b9582a9d01a3bb00c5c7df318f3cd4ed" category="summary">美國保護支援是一項附加服務，可在美國境內提供及支援美國公民持續提供的 Keystone 服務。</block>
+  <block id="3ed89ff08462e73f47156395fd0c75ac" category="doc">瞭解 USPS</block>
+  <block id="21fe13388dd575bae131356d62eb3d04" category="paragraph">美國保護支援（ USPS ）是 NetApp Keystone 訂閱的附加產品。您可在美國境內收到美國公民持續提供的 Keystone 服務，並獲得支援。</block>
+  <block id="10d701676d6c78ebafad1c0adf816cc7" category="section-title">NetApp USPS 監控</block>
+  <block id="75d0ff56559c8650dad12b15a71e6950" category="paragraph">NetApp USPS Keystone 支援團隊會監控您產品和訂閱服務的健全狀況，提供遠端支援，並與 Keystone 成功經理合作。所有監控與相關 Keystone 訂閱訂單相關產品的人員均為美國 美國公民在美國境內營運。</block>
+  <block id="70a7925bd880e8632a66c41a83d2a2e9" category="list-text">每個月從 Keystone Collector 匯出檔案、並以電子郵件傳送至 NetApp 支援團隊。如需如何聯絡支援團隊的詳細資訊、請<block ref="2dd3cb549793fb90ba3abaee885c98ff" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="9c62788e882432afb4a67231a8793b98" category="summary">在 Linux 系統上安裝 ITOM Collector 軟體。</block>
+  <block id="76c87a002b2f377e07b664132c3a197e" category="doc">在 Linux 系統上安裝 ITOM Collector</block>
+  <block id="473f0144f9eff452e654f0b15b23fab1" category="paragraph">完成幾個步驟來安裝 ITOM Collector ，它會在您的儲存環境中收集度量資料。您可以根據需求，在 Windows 或 Linux 系統上安裝。</block>
+  <block id="ed5f434c9fb860090390831cf62c2cda" category="admonition">Keystone 支援團隊提供動態連結，可下載 ITOM Collector 安裝檔案，該檔案將在兩小時內過期。</block>
+  <block id="15e54aabc31e95c20bd5b9e9534cb8f3" category="inline-link-macro">在 Windows 系統上安裝 ITOM Collector</block>
+  <block id="78c894c65eab257836a2fa2a880d28b4" category="paragraph">若要在 Windows 系統上安裝 ITOM Collector ，請<block ref="d04ab87c73184a2a7be46f1ebca8138a" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="0469628de5f4d496f41adb03905fd222" category="paragraph">請依照下列步驟在 Linux 伺服器上安裝軟體：</block>
+  <block id="8dfe1a76c7708340f1a9c5c2da042672" category="list-text">確認 Bourne Shell 適用於 Linux 安裝指令碼。</block>
+  <block id="21a7f021975f9926da34a1c18c2d1781" category="list-text">安裝<block ref="a5b39ca919b44c4b20de11533d426fd3" prefix=" " category="inline-code"></block>套件以取得 ITOM Collector 安裝檔案所需的 * xxd* 二進位檔。</block>
+  <block id="0ec0c41988a7979f58ae73234195ffed" category="list-text">如果計畫以非 root 使用者身分執行 ITOM Collector ，請確定<block ref="2974b76bb8b6b3ad0840b451721d13f3" prefix=" " category="inline-code"></block>已安裝。</block>
+  <block id="1eab632bbcbedc9b6dd199a778338044" category="list-text">將 ITOM 收集器設定檔下載至 Linux 伺服器。</block>
+  <block id="af81ca81473ba340a8e57bfa13f48e41" category="list-text">在伺服器上開啟終端機，然後執行下列命令來變更權限，並使二進位檔可執行：<block ref="4c1bdb3b42b686e644525cc5ebc20903" prefix=" " category="inline-code"></block></block>
+  <block id="103a1b6f97b780d9d5d4e2dd5fd11876" category="list-text">執行命令以啟動 ITOM 收集器設定檔：<block ref="48ccf91210e9cc3f76224127818295e1" prefix=" " category="inline-code"></block></block>
+  <block id="987f69a9c64fc75031a80018493523ee" category="list-text">執行安裝檔案會提示您：</block>
+  <block id="d287a2c00d5fc479ec02c44e15915feb" category="list-text">接受終端使用者授權合約（ EULA ）。</block>
+  <block id="e4581ea781ff41558849658bc2396372" category="list-text">輸入安裝的使用者詳細資料。</block>
+  <block id="764b4dd654d82af9df435bc3342b38b3" category="list-text">指定安裝父目錄。</block>
+  <block id="a9f6d20bce0781102f878dc6d5929e12" category="list-text">選取收集器大小。</block>
+  <block id="e244fb07ad95ea6115c9f9fb0773e98b" category="list-text">如適用，請提供代理伺服器詳細資料。</block>
+  <block id="ef679c97f76c37ed8d59368b6f534a42" category="paragraph">每個提示都會顯示預設選項。除非您有特定需求，否則建議您選取預設選項。按 *Enter* 鍵選擇默認選項。安裝完成時，會出現訊息確認已成功安裝 ITOM Collector 。</block>
+  <block id="e745f331db61ec53e80cf6dc50cce124" category="list-text">ITOM Collector 安裝檔案會新增<block ref="6c109d6e94c97fb519007c1f06880582" prefix=" " category="inline-code"></block>以處理服務重新啟動和記憶體傾印。</block>
+  <block id="091667f5525be41b118e74bea7f11636" category="list-text">在 Linux 伺服器上安裝 ITOM Collector 會建立一個名為 *ITOM* 的預設使用者，在沒有根 Privileges 的情況下執行 ITOM Collector 。您可以選擇不同的使用者或以 root 身分執行，但建議您使用 Linux 安裝指令碼所建立的 ITOM 使用者。</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">接下來呢？</block>
+  <block id="6a2b2a3198f14986193621fc68f7d1b0" category="paragraph">成功安裝時，請聯絡 Keystone 支援團隊，透過 ITOM 支援入口網站驗證是否成功安裝 ITOM Collector 。驗證之後， Keystone 支援團隊將從遠端設定 ITOM Collector ，包括進一步的裝置探索和監控設定，並在組態完成後傳送確認訊息。如有任何疑問或其他資訊，請聯絡 keystone.services@NetApp 。</block>
+  <block id="c8c33002525e3af8118ac88b999e0a36" category="summary">在 Windows 系統上安裝 ITOM Collector 。</block>
+  <block id="9a1aca3d0a5022aa5c935121f269f5da" category="paragraph">下載 ITOM Collector 安裝檔案，執行 Installshield 精靈，然後輸入必要的監控認證，即可在 Windows 系統上安裝 ITOM Collector 。</block>
+  <block id="cc466e787bcb3bcc61f4d18911009dd3" category="paragraph">您可以根據自己的需求，在 Linux 系統上安裝。若要在 Linux 系統上安裝 ITOM Collector ，請<block ref="27b59bee15cd9541248108e38df9589e" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="78b7c5e4378b650d67d668c8aae60c6d" category="paragraph">請依照下列步驟，在 Windows 伺服器上安裝 ITOM 收集器軟體：</block>
+  <block id="a13a5fc563489a1109d5d87f428f77b9" category="paragraph">確保已在 Windows 伺服器本機安全性原則設定的本機原則 / 使用者權限指派下，授予 ITOM 收集器服務 * 以服務身分登入 * 。</block>
+  <block id="1778106db6e3aca4579c648608f40eb8" category="list-text">將 ITOM 收集器設定檔下載至 Windows 伺服器。</block>
+  <block id="1ec09dc4e6db38b1f452962c210006b6" category="list-text">開啟安裝檔案以啟動「 Installshield 精靈」。</block>
+  <block id="5f9e970fd1f32ef2b46ec34c48880830" category="list-text">接受終端使用者授權合約（ EULA ）。InstallShield 精靈會擷取必要的二進位檔，並提示您輸入認證。</block>
+  <block id="c03cade745ec5543fe1bd8588393bafd" category="list-text">輸入 ITOM Collector 將在下列情況下執行的帳戶認證：</block>
+  <block id="8afb8b7b6e5ba46146a989919c02a849" category="list-text">如果 ITOM Collector 未監控其他 Windows 伺服器，請使用本機系統。</block>
+  <block id="316b1f7d821d723eb574667b6cb9302b" category="list-text">如果 ITOM Collector 正在監控同一個網域中的其他 Windows 伺服器，請使用具有本機系統管理員權限的網域帳戶。</block>
+  <block id="12b899c7f1e72badef82e030788edfc8" category="list-text">如果 ITOM Collector 正在監控其他不屬於同一個網域的 Windows 伺服器，請使用本機系統管理員帳戶，並使用本機系統管理員認證連線至每個資源。您可以選擇設定密碼，使其不會過期，以減少 ITOM 收集器與其受監控資源之間的驗證問題。</block>
+  <block id="004bff76ec6e0eda1b94e3ffc3ba1ad7" category="list-text">選取收集器大小。根據設定檔，預設值為建議的大小。除非您有特定需求，否則請繼續使用建議的尺寸。</block>
+  <block id="e97143745b175c3b72479889956c6a2b" category="list-text">選取 _ 下一步 _ 開始安裝。您可以使用填入的資料夾，或選擇不同的資料夾。狀態方塊會顯示安裝進度，接著顯示「完成安裝精靈」對話方塊。</block>
+  <block id="6cf5a787f8e9babecd7e3e62b472c0f1" category="summary">您的系統必須符合數項需求，才能安裝 ITOM Collector 。</block>
+  <block id="067857c91d7e95767cebced037df51fc" category="paragraph">安裝 ITOM Collector 之前，請先確定您的系統已準備好必要的軟體，並且符合所有必要的先決條件。</block>
+  <block id="382c090cdf20988adebc3da3af734475" category="list-title">ITOM Collector 伺服器 VM 的必要條件：</block>
+  <block id="f086ae2281105a95b9f676071bb5da54" category="list-text">支援的作業系統： Debian 12 ， Windows Server 2016 ， Ubuntu 20.04 LTS ， Red Hat Enterprise Linux （ RHEL ） 8.x ， Amazon Linux 2023 或以上版本的作業系統。</block>
+  <block id="756e04f777f1ed6cee954325099dfc00" category="list-text">資源需求：根據所監控的 NetApp 節點數量，虛擬機器資源需求如下：</block>
+  <block id="a008248e3966fc8b2c95be03552c4466" category="list-text">2-10 個節點： 4 個 CPU ， 8 GB RAM ， 40 GB 磁碟</block>
+  <block id="ab3a29aba303bfd353ff5e6fb0b2db96" category="list-text">12-20 個節點： 8 個 CPU ， 16 GB RAM ， 40 GB 磁碟</block>
+  <block id="a2257f11d613296885301983ffe6776d" category="list-text">組態需求：確保在受監控的裝置上設定唯讀帳戶和 SNMP 。ITOM Collector 伺服器 VM 也需要設定為 NetApp 叢集和叢集交換器上的 SNMP 設陷主機和 Syslog 伺服器（如果適用）。</block>
+  <block id="e4c91d77f6e08017c82c7fdd34476249" category="paragraph">下表列出了 ITOM Collector 的網路需求。</block>
+  <block id="888a77f5ac0748b6c8001822417df8b6" category="cell">傳輸協定</block>
+  <block id="407c4e9fac86b98147da49acd4fa0d01" category="cell">連接埠</block>
+  <block id="859944346c3dd9a26e3d2b955b505719" category="cell">ITOM 收集器</block>
+  <block id="ee5ece347c0f7881a3c0fc86f9fdcffa" category="cell">NetApp ONTAP 叢集管理 IP</block>
+  <block id="3ac5095d5929679753e1ca6589d594ce" category="cell">HTTPS ， SNMP</block>
+  <block id="008117d5243d637d0f718d44531d6195" category="cell">TCP 443 ， UDP 161</block>
+  <block id="401590a5f8ea5fcc8af254e7154db96a" category="cell">監控 ONTAP 控制器</block>
+  <block id="cfad39dcf092a0e70fbecdad147efce3" category="cell">NetApp ONTAP 叢集和節點管理 IP</block>
+  <block id="ad064e6c7842af70fa17d071f3d73376" category="cell">SNMP ， Syslog</block>
+  <block id="0631e975432229862b992ba6076ff584" category="cell">UDP 162 ， UDP 514</block>
+  <block id="3cb8f57e4b0f5634e015d61f58d5a285" category="cell">控制器的 SNMP 設陷和 Syslog</block>
+  <block id="f267a68fd1c8bddcc992701898021398" category="cell">叢集交換器</block>
+  <block id="305af65222ed3fff91f5c8bcdfe17162" category="cell">SNMP</block>
+  <block id="d6bf88c792de5d84a555c4437037d09c" category="cell">UDP 161</block>
+  <block id="3e0245f7e867ca454b47cb5cebcebed8" category="cell">監控交換器</block>
+  <block id="101456c198283ec795d2c8241d55e9b7" category="cell">來自交換器的 SNMP 設陷和 Syslog</block>
+  <block id="791a8f03040c18a43dcbd68302786ae7" category="cell">StorageGRID 節點 IP</block>
+  <block id="e73f9940bf39eca2e6c94f83f892d044" category="cell">StorageGRID 的 SNMP 監控</block>
+  <block id="0230fd83cc5847de0511e75c4a9bc734" category="cell">StorageGRID 的 SNMP 設陷</block>
+  <block id="3a7a184ceb1bfebf10c52fb898098871" category="cell">SSH ， HTTPS ， SNMP</block>
+  <block id="04bb5e2ca7fa6728ad7244e65be06704" category="cell">TCP 22 ， TCP 443 ， UDP 161</block>
+  <block id="979f40d640a4eef558bbb55c64add9a1" category="cell">Keystone Collector 監控與遠端管理</block>
+  <block id="2e9c43ef7b6bd474b0531e7ee01ed0da" category="cell">本機 DNS</block>
+  <block id="a9382e24532861463ad8c02646d03ec7" category="cell">UDP 53</block>
+  <block id="604e16aef35dcff33260b6091ac4de5b" category="cell">公有或私有 DNS 服務</block>
+  <block id="b8238d20e6d90959c58ff56a063bce2c" category="cell">自選 NTP 伺服器</block>
+  <block id="e6b92e04e8bdad7c1346f8024d1fca8d" category="cell">保留時間</block>
+  <block id="fee7b996a8ab0bee47684563d23b4926" category="sidebar">安裝 ITOM Collector</block>
+  <block id="8869eeb557230a1ee1c042d1156e4eef" category="sidebar">在 Windows 上安裝</block>
+  <block id="fbb165d9f99339f62e1190730a20d297" category="sidebar">美國保護支援（ USPS ）</block>
 </blocks>

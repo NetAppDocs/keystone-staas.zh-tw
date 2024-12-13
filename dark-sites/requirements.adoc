@@ -71,5 +71,5 @@ Keystone Collector 的網路需求包括：
 * Keystone Collector 伺服器應可在連接埠 443 （ HTTPS ）上存取 Unified Manager 伺服器。
 * Unified Manager 伺服器上的 Keystone Collector 應設定具有應用程式使用者權限的服務帳戶。
 * 不需要外部網際網路連線。
-* 每個月從 Keystone Collector 匯出檔案、並以電子郵件傳送至 NetApp 支援團隊。如需如何聯絡支援團隊的詳細資訊、請link:../concepts/gssc.html#netapp-global-services-and-support-center["取得 Keystone 的說明"]參閱。
+* 每個月從 Keystone Collector 匯出檔案、並以電子郵件傳送至 NetApp 支援團隊。如需如何聯絡支援團隊的詳細資訊、請link:../concepts/gssc.html["取得 Keystone 的說明"]參閱。
 
