@@ -19,7 +19,13 @@ summary: 在安裝 Keystone Collector 之前、請使用所需的軟體準備 Li
 請確定您的 Linux 和 Keystone Collector 伺服器 VM 具有這些組態。
 
 .Linux 伺服器：
-* 作業系統： RHEL 8.x 系列中的 CentOS 7 、 Red Hat Enterprise Linux （ RHEL ） 8.6 或更新版本
+* 作業系統：下列任何一項：
++
+** Debian 12.
+** Red Hat Enterprise Linux 8.6 或更新版本 8.x
+** CentOS 7 （僅適用於現有環境）
+
+
 * Chroyd時間同步
 * 存取標準 Linux 軟體儲存庫
 

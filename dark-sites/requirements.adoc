@@ -30,7 +30,7 @@ summary: 在沒有網際網路存取的環境中安裝 Keystone Collector 之前
 
 == Linux 的需求
 
-* 作業系統： Debian v12 、 Red Hat Enterprise Linux （ RHEL ） 8.6 或 RHEL 8.x 系列的更新版本
+* 作業系統： Debian 12 ， Red Hat Enterprise Linux （ RHEL ） 8.6 ，或 RHEL 8.x 系列中的更新版本
 * 核心： 2 個 CPU
 * RAM：4 GB
 * 磁碟空間：50 GB vDisk

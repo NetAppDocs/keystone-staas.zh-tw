@@ -14,10 +14,12 @@ summary: 從 YUM 軟體儲存庫安裝 Keystone Collector 軟體。
 
 
 [role="lead"]
-Keystone Collector軟體由線上YUM軟體儲存庫散佈。您需要在Linux伺服器上匯入及安裝檔案。
+您可以使用 RPM 或 Debian 套件，在 Linux 伺服器上安裝 Keystone Collector 軟體。根據您的 Linux 套裝作業系統，請遵循安裝步驟。
 
-請依照下列步驟在Linux伺服器上安裝軟體：
-
+[role="tabbed-block"]
+====
+.使用 RPM
+--
 . SSH至Keystone Collector伺服器並升級至 `root` 權限：
 . 匯入Keystone公開簽署：
 `# rpm --import https://keystone.netapp.com/repo/RPM-GPG-NetApp-Keystone-20221101`
@@ -36,5 +38,22 @@ Keystone Collector軟體由線上YUM軟體儲存庫散佈。您需要在Linux伺
 `# yum install keystone-collector`
 
 
+--
+.使用 Debian
+--
+. SSH 至 Keystone Collector 伺服器並提高 `root`權限。
+`sudo su`
+. 下載 `keystone-sw-repo.deb`檔案：
+`curl -O https://keystone.netapp.com/downloads/keystone-sw-repo.deb`
+. 安裝 Keystone 軟體儲存庫檔案：
+`# dpkg -i keystone-sw-repo.deb`
+. 更新套件清單：
+`# apt-get update`
+. 安裝 Keystone repo 後，請安裝 Keystone 收集器套件：
+`# apt-get install keystone-collector`
+
+
+--
+====
 
 NOTE: 完成安裝時、您可以使用Keystone Collector Management終端使用者介面（TUI）公用程式來執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。請參閱 link:../installation/configuration.html["設定Keystone Collector"] 和 link:../installation/monitor-health.html["監控系統健全狀況"] 以取得資訊。
