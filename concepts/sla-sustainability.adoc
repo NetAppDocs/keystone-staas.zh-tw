@@ -97,14 +97,14 @@ NOTE: SLA 和保證均以提名方式提供。
 
 == 服務信用申請
 
-如果偵測到違反 SLA 的情況、請使用 Keystone Global Services and Support Center （ GSSC ）開啟優先順序 3 （ P3 ）支援服務單、並依照 Excel 工作表中的要求提供詳細資料、如下所示：
+如果偵測到違反 SLA 的情況，請在 NetApp Keystone 支援下開啟優先順序 3 （ P3 ）支援服務單，並依照 Excel 工作表中的要求提供詳細資料，如下所示：
 
 image:sla-breach.png["Excel 工作表範本"]
 
 [NOTE]
 ====
-* 服務信用申請應在 GSSC 驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。
-* 服務額度可套用至未來的發票。服務額度不適用於過期的 Keystone 訂閱。若要深入瞭解、請 link:../concepts/gssc.html["NetApp全球服務支援中心"]參閱。
+* 服務信用申請應在 NetApp Keystone 支援驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。
+* 服務額度可套用至未來的發票。服務額度不適用於過期的 Keystone 訂閱。若要深入瞭解、請 link:../concepts/gssc.html["NetApp Keystone 支援"]參閱。
 
 
 ====

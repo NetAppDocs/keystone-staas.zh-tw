@@ -127,7 +127,7 @@ ONTAP Flash 儲存陣列支援的所有服務層級都符合可用度 SLA 的資
 
 == 服務信用申請
 
-如果偵測到違反 SLA 的情況、請使用 Keystone Global Services and Support Center （ GSSC ）開啟優先順序 3 （ P3 ）支援服務單。
+如果偵測到違反 SLA 的情況，請在 NetApp Keystone 支援下開啟優先順序 3 （ P3 ）支援服務單。
 
 * 以下是必要的詳細資料：
 +
@@ -139,7 +139,7 @@ ONTAP Flash 儲存陣列支援的所有服務層級都符合可用度 SLA 的資
 .. 任何其他適用文件
 
 
-* 針對以 Keystone GSSC 開啟的 P3 Ticket 、請在下方所示的 Excel 工作表中提供詳細資料。
+* 針對以 NetApp Keystone 支援開啟的 P3 通知單，請在 Excel 工作表中提供詳細資料，如下所示。
 +
 image:sla-breach.png["Excel 工作表範本"]
 
@@ -147,8 +147,8 @@ image:sla-breach.png["Excel 工作表範本"]
 
 [NOTE]
 ====
-* 服務信用申請應在 GSSC 驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。
-* 服務額度可套用至未來的發票。服務額度不適用於過期的 Keystone 訂閱。若要深入瞭解、請 link:../concepts/gssc.html["NetApp全球服務支援中心"]參閱。
+* 服務信用申請應在 NetApp Keystone 支援驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。
+* 服務額度可套用至未來的發票。服務額度不適用於過期的 Keystone 訂閱。若要深入瞭解、請 link:../concepts/gssc.html["NetApp Keystone 支援"]參閱。
 
 
 ====

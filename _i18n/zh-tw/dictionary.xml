@@ -118,7 +118,6 @@
   <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">在訂閱期間、您可以變更已提交的容量。不過、有些先決條件是：</block>
   <block id="bd3fd623256db562bebda3e697d43452" category="inline-link-macro">容量減量</block>
   <block id="38ee5c58ab48cb8a1b633c2aea7a1e45" category="list-text">可根據特定條件減少已認可的容量。如需相關資訊、請參閱 <block ref="bce311488cda7b3fc83e86e7b3939fd8" category="inline-link-macro-rx"></block>。</block>
-  <block id="1df0745e84cded8b1998d4aaf3fce411" category="inline-link-macro">NetApp全球服務支援中心</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">已用容量</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">突發容量</block>
   <block id="b6e76ea727138e1a2c7199dd3f0874db" category="section-title">計費容量</block>
@@ -346,7 +345,6 @@
   <block id="c32944bc40d1accb43f1f8bfaf090dce" category="paragraph">附加分層服務的費用會在整個訂購期間內支付。</block>
   <block id="e72611e56e05f623af5dc7011928a294" category="admonition">NetApp並未提供由NetApp所需的超純量運算、儲存及網路服務Cloud Volumes ONTAP 、作為Keystone STaaS訂閱的一部分；這些服務必須直接向超純量雲端服務供應商購買。</block>
   <block id="e18765eb2b8dddd29b66918ffb976fcc" category="paragraph">Keystone STaaS訂閱每月和每年都會收費。</block>
-  <block id="5979b85a79f05c1c731acd749343d5ff" category="list-text">您可以透過BlueXP介面或Keystone Success Manager（KSM）要求變更已提交的容量。如需要求變更的相關資訊、請參閱 <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>。</block>
   <block id="9b25613e0d8ca22f20fe93edf63407f1" category="cell">*工作負載類型範例*</block>
   <block id="548dcac52aca7f6902fd2de4648c5e9e" category="cell">*每個磁碟區儲存的最大IOPS /邏輯Tibs *</block>
   <block id="93ed1a757e360a886c7ba5a5d93ba089" category="cell">*每個磁碟區儲存的最大IOPS /邏輯TiB *</block>
@@ -486,7 +484,6 @@
   <block id="5f76d762520637f1eb1b8dd5e4b71129" category="paragraph">TCP 443</block>
   <block id="e89ab59baea830bd940c300886c50efe" category="paragraph">必填</block>
   <block id="8e77c75fd2b5c8f6c41f3c1b738d2a22" category="paragraph">網際網路（根據稍後提供的URL需求）</block>
-  <block id="77af2ba0b86f594a268203e05693cb8f" category="paragraph">TCP 80、TCP 443</block>
   <block id="882da07ddabac1aa28b5f358bcbeb2ce" category="paragraph">必要（網際網路連線）</block>
   <block id="01633331ef3bca3e96b0dfd60ceb54bd" category="paragraph">Keystone Collector軟體、作業系統更新和計量資料上傳</block>
   <block id="18cc1486462950320ca2ccc7310af46b" category="paragraph">客戶HTTP Proxy</block>
@@ -1143,8 +1140,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="b01022ea67a6b913d57f7194fcc72d9d" category="section-title">檢視已開發票的累積爆發</block>
   <block id="393673167b0e2f5fe79a42f45c884852" category="admonition">發票預提暴增使用量是根據服務層級的已提交和使用容量、根據每個計費週期計算。</block>
   <block id="0cd22f9baa25202637cff789fe1dfe9f" category="list-text">Active IQ Unified Manager （ Unified Manager ） 9.10 或更新版本</block>
-  <block id="81f184376266ed69a659d0030be070fc" category="list-text">請檢查RPM資料庫中Keystone Billing Platform的指紋、確認已匯入正確的公開憑證：<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block>
-正確的指紋如下所示：<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block></block>
   <block id="cbe21b6da30db10de9cd33de72b5dc48" category="paragraph">利用此技術、NRNVC功能可在磁碟區中設定的到期日之後、使磁碟機無法使用。SnapLock若要在SnapLock 您的磁碟區上使用支援技術、您必須訂閱NRNVC。這僅適用於檔案和區塊服務。</block>
   <block id="25ee4dffb8ff9627245188cd5d5a88f9" category="paragraph">NetApp（Keystone）是一種隨需付費的訂閱型服務模式、可為偏好營運成本消費模式的企業、提供無縫的混合雲體驗、以預先支付資本支出或租賃。NetApp Keystone</block>
   <block id="14ef43baeaecb16eed97981bac41fa1a" category="paragraph">Keystone可減少管理無法預測的容量成長和複雜採購週期的障礙、讓客戶加速實現價值。Keystone可讓客戶根據業務優先順序調整經濟效益與營運。</block>
@@ -1470,7 +1465,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="db35003a371cb115e382b44e289c2eba" category="doc">瞭解 Equinix 提供的代管服務</block>
   <block id="89cb717227b1e2f0129bc67abb7b696c" category="paragraph">為了提供完整堆疊式解決方案即服務、 NetApp 與 Equinix 合作、在 Equinix 資料中心代管 NetApp Keystone STaaas 服務。</block>
   <block id="a129a1a3a2b62ad0169083e37600a64e" category="paragraph">Equinix 在以下位置設有資料中心：</block>
-  <block id="baec7a90ff5a6d18f6dd7ef76c3e4998" category="summary">如果您需要協助、請聯絡 NetApp 全球服務與支援中心。</block>
   <block id="9c749342ce1dc8c39f5e67d29a9500ac" category="doc">取得 Keystone 的說明</block>
   <block id="24acde87a618c9dc2d11377311afc495" category="summary">Keystone基礎架構、設計、技術選擇及元件產品、完全由NetApp提供。</block>
   <block id="7954e225c8bd390ff2168144c5e393c1" category="paragraph">NetApp 完全負責 Keystone 的基礎架構、設計、技術選擇和元件、適用於 NetApp 和客戶營運的環境。</block>
@@ -1600,7 +1594,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="9eae698db2f9979943823c8ee1440c7d" category="paragraph">使用公式：服務額度 = （ 10 / 100 ） X 1000 x 0.05</block>
   <block id="df3634b399ce52d35f1816fa036f42b4" category="paragraph">根據計算、服務點數將為 5 美元。</block>
   <block id="182bf07a2845568515ca20b4e4654296" category="section-title">服務信用申請</block>
-  <block id="d914d7b4a96bed82ab1c41c97e6c5742" category="paragraph">如果偵測到違反 SLA 的情況、請使用 Keystone Global Services and Support Center （ GSSC ）開啟優先順序 3 （ P3 ）支援服務單。</block>
   <block id="6d3089ef2f50007a659aa12b3a7415f8" category="list-text">以下是必要的詳細資料：</block>
   <block id="e3e23368bff57e5796042f5fba6c3fbd" category="list-text">Keystone 訂閱編號</block>
   <block id="5e27e36d07d4a7286d88cd834cfbd611" category="list-text">Volume 與儲存控制器詳細資料</block>
@@ -1608,11 +1601,8 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="de0480c0f5c929948100ece899e9724e" category="list-text">延遲偵測的計算時間</block>
   <block id="f657fc20931370f67393f5612ec70ffe" category="list-text">測量工具與方法</block>
   <block id="2ecd994c3d59e0ce0211ab40d4167837" category="list-text">任何其他適用文件</block>
-  <block id="dc33a5089714f6579a5ab21118922cef" category="list-text">針對以 Keystone GSSC 開啟的 P3 Ticket 、請在下方所示的 Excel 工作表中提供詳細資料。</block>
   <block id="892db0165f2238f40c3370386d79cac7" category="inline-image-macro">Excel 工作表範本</block>
   <block id="f0fbc9cddebee973debd106e878bebdd" category="paragraph"><block ref="f0fbc9cddebee973debd106e878bebdd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="eb0abc09e7b5678911ee2656102c8868" category="list-text">服務信用申請應在 GSSC 驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。</block>
-  <block id="45a3835755fcd6b1bf728c884bcc8d34" category="list-text">服務額度可套用至未來的發票。服務額度不適用於過期的 Keystone 訂閱。若要深入瞭解、請 <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="1d864ae11e362329da4731cbf31eca7b" category="summary">永續性、 SLA 、服務層級協議</block>
   <block id="4bcbaed6ba1519c1f0036c82537ffc1f" category="doc">效能 SLA</block>
   <block id="8c9a4601149bbf6f607b6419227dc5e3" category="paragraph">根據下列條款與條件、 NetApp Keystone 提供每個服務層級的延遲型 SLA 、如 Keystone 訂單中所述、消耗容量最高達突發限制。</block>
@@ -1681,7 +1671,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="1190761e382695cb9416b27ee7eed4d3" category="paragraph">3 至 7</block>
   <block id="f5c2de6939fdeaa3904b08a1fad7a2d3" category="paragraph">15%</block>
   <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14</block>
-  <block id="87b656ee6c82131afa7ac0871d8168e8" category="paragraph">如果偵測到違反 SLA 的情況、請使用 Keystone Global Services and Support Center （ GSSC ）開啟優先順序 3 （ P3 ）支援服務單、並依照 Excel 工作表中的要求提供詳細資料、如下所示：</block>
   <block id="b16f882170095725eb371909f87f469f" category="paragraph">長條圖會顯示短期爆發、您可以使用放大功能來檢視這些爆發。當出現短期突發時、會在對應的長條上以藍色點表示、如果沒有使用資料、則會直接在 X 軸上顯示。若要檢視詳細資料、請按住藍色點所在的長條圖或 x 軸、然後將游標拖曳到圖表上以選取所需的時間間隔、然後放開以確認您的選擇。此動作會放大資料、以更精細的方式檢視所選時間間隔內、該服務層級所使用的容量。您可以按一下 * 重設縮放 * 按鈕、返回原始圖表檢視。</block>
   <block id="78a0f8f91a436c9b95253697658f1b15" category="inline-image-macro">使用量趨勢標籤、附有詳細資料</block>
   <block id="0dd96295669c1478814661e7ab071d6e" category="paragraph"><block ref="0dd96295669c1478814661e7ab071d6e" category="inline-image-macro-rx" type="image"></block></block>
@@ -1966,7 +1955,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="e7a731a6342f126055b89b80d800a180" category="cell">邏輯</block>
   <block id="ce898d62ed9ca7653a01fe0c781e97e9" category="cell">實體</block>
   <block id="77755c419ef346c65225a7d2709520ab" category="paragraph">有關如何查看 MetroCluster 配置中的使用情況的信息，請參閱<block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block>。</block>
-  <block id="138155ee615aaf4d4e698be7c61a12c0" category="paragraph">如果您選擇了 * 已開發票的累算突發 * 選項，您可以根據所選的計費週期，每月或每季查看累積的突發使用資料。這項資料可在過去 12 個月內提供，您可以依日期範圍查詢，最長可查詢 30 個月。橫條圖會顯示發票資料，如果使用量尚未計費，則會在該期間標記為 _ 待處理 _ 。</block>
   <block id="df54e0aa337c00aed9738ce50d6f7d40" category="paragraph">在每季帳單期間，如果訂閱的開始日期不是月份的 1^st^ ，則每季發票將涵蓋後續的 90 天期間。例如，如果您的訂閱從 8 月 15 日開始，則發票將於 8 月 15 日至 10 月 14 日期間產生。</block>
   <block id="a15b1d5c20a80360a519fdba86f9d359" category="paragraph">如果您從每季改為每月帳單，每季發票仍將涵蓋 90 天的期間，並在本季最後一個月產生兩張發票：一張用於每季帳單期間，另一張用於該月的剩餘天數。此轉換可讓每月帳單期間從下個月的 1^st^ 開始。例如，如果您的訂閱從 10 月 15 日開始，您將在 1 月收到兩張發票，一張發票是 10 月 15 日至 1 月 14 日，另一張發票是 1 月 15 日至 31 日，每月帳單期間從 2 月 1 日開始。</block>
   <block id="19c39546a17d632b3f81a88517195dcb" category="inline-image-macro">每季累積的突發使用量</block>
@@ -1975,8 +1963,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="abdc803a1b380f3cb4c996e2b30a1820" category="paragraph"><block ref="abdc803a1b380f3cb4c996e2b30a1820" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0bf27b930a0841a9485431dd01de3f4" category="admonition">如果您已訂閱進階資料保護附加服務、則可以按一下訂閱號碼上的工具提示、在 MetroCluster 設定中檢視合作夥伴訂閱的追蹤 ID 。若要瞭解如何檢視 MetroCluster 組態中合作夥伴訂閱的詳細使用量<block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block>，請參閱。</block>
   <block id="24685db79ee3df152404bc24333590fd" category="paragraph">2024-11-21</block>
-  <block id="2531cde1a4803cc2a1ae862eb5d81705" category="paragraph">無法產生訂閱報告</block>
-  <block id="4b22f859addb0f523b4eb20c8a3de953" category="paragraph">當從 *Keystone Subscriptions * 頁面上的 *Subscriptions * 標籤中選取 10 至 12 個以上的訂閱時，當按一下 *Download CSV* 按鈕並使用 *Include data for each service Level* 選項時，報告將無法產生。</block>
   <block id="01e50fa0cb5ca9093067bd7f7b5ce77d" category="section-title">強化發票預提暴增</block>
   <block id="68282426b20517fa5a804475f31878a9" category="paragraph">如果您已選擇每季計費週期，現在可以透過 * 發票預提的突發 * 選項，每季檢視累積的突發使用資料。若要深入瞭解、請 <block ref="b9f581509f4f5c092d1e1e258ec0cc04" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="f916fd7c91361d368cb72a24d8c89422" category="section-title">「 Volume 詳細資料」標籤中的新欄</block>
@@ -2182,4 +2168,29 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="653181dc830ebbf1153310c93a009c52" category="list-text">Debian 12.</block>
   <block id="015c84a3348885955ce882f1beed478e" category="list-text">Red Hat Enterprise Linux 8.6 或更新版本 8.x</block>
   <block id="bcd6ed294af34e837c537b83a1a3de21" category="list-text">CentOS 7 （僅適用於現有環境）</block>
+  <block id="265561b81e51364d306e58144832b7a8" category="summary">如果您需要協助，請聯絡 NetApp Keystone 支援團隊。</block>
+  <block id="9dc4e2b4f34e5f118e35019c46b06a4a" category="paragraph">如果偵測到違反 SLA 的情況，請在 NetApp Keystone 支援下開啟優先順序 3 （ P3 ）支援服務單。</block>
+  <block id="5ece80a8e6fc51ca90ea8b795dbe7f83" category="list-text">針對以 NetApp Keystone 支援開啟的 P3 通知單，請在 Excel 工作表中提供詳細資料，如下所示。</block>
+  <block id="cac189ace7fac11fbcff63b35adf8770" category="list-text">服務信用申請應在 NetApp Keystone 支援驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。</block>
+  <block id="193dec405e65293a13ce97bb2c01440c" category="list-text">服務額度可套用至未來的發票。服務額度不適用於過期的 Keystone 訂閱。若要深入瞭解、請 <block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="3a36d2372ffa5421518253f5c68f7c51" category="paragraph">如果偵測到違反 SLA 的情況，請在 NetApp Keystone 支援下開啟優先順序 3 （ P3 ）支援服務單，並依照 Excel 工作表中的要求提供詳細資料，如下所示：</block>
+  <block id="87b542a75a4c78cc8d36c595c7c05de1" category="list-text">您可以透過BlueXP介面或Keystone Success Manager（KSM）要求變更已提交的容量。如需要求變更的相關資訊，請參閱<block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block>。</block>
+  <block id="b22fed8db0bb580ac39be331b010b1cd" category="list-text">檢查 RPM 資料庫中 Keystone 帳單平台的指紋，確認已匯入正確的公用憑證：正確的指紋<block ref="46ce6ee7c7afe96ac26dd093842fe062" prefix=" " category="inline-code"></block>如下所示：<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block></block>
+  <block id="46c3e6e27fbc70afa310c1553eb52893" category="paragraph">如果您選擇了 * 已開發票的累算突發 * 選項，您可以根據所選的計費週期，每月或每季查看累積的突發資料用量。這項資料可在過去 12 個月內提供，您可以依日期範圍查詢，最長可查詢 30 個月。橫條圖會顯示發票資料，如果使用量尚未計費，則會在該期間標記為 _ 待處理 _ 。</block>
+  <block id="cb74be13d3a600957d1ee583265f537d" category="section-title">檢視每日累積的突發資料使用量</block>
+  <block id="5f79c46e242a47bee55e1f47143a24eb" category="paragraph">您可以檢視每月或每季計費期間的每日累積突發資料使用量。當您按一下顯示發票資料的長條圖時，可計費的已配置容量區段會顯示在長條圖下方，提供 * 圖表 * 和 * 表格 * 檢視選項。預設圖表檢視會以折線圖格式顯示每日累積的突發資料使用量，顯示使用量隨時間而變化。</block>
+  <block id="bc3f9a56f76203c42fc9f8ff6b19fe46" category="inline-image-macro">顯示長條圖的螢幕擷取畫面</block>
+  <block id="de75b30d787fc40e53cc46d0b5ab30cf" category="paragraph"><block ref="de75b30d787fc40e53cc46d0b5ab30cf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eba7556a1fc4fd160e9d81ddb2112a3e" category="paragraph">在折線圖中顯示每日累積突發資料使用量的範例影像：</block>
+  <block id="515f3b344653c49257ced259fb9261bd" category="inline-image-macro">以折線圖格式顯示突發使用資料的螢幕擷取畫面</block>
+  <block id="47fdc60b1d26d7e27d3b186be572a4d8" category="paragraph"><block ref="47fdc60b1d26d7e27d3b186be572a4d8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="afb651343eb4e95550b828492b0990bf" category="paragraph">您可以按一下圖表右上角的 * 表格 * 選項，切換至表格檢視。表格檢視提供詳細的每日使用量指標，包括服務層級，時間戳記，承諾容量，消耗容量，以及計費的已配置容量。您也可以以 CSV 格式產生這些詳細資料的報告，以供未來使用和比較。</block>
+  <block id="ef839937832da4065ea73d2af5bb0212" category="inline-image-macro">以表格格式顯示突發使用資料的螢幕擷取畫面</block>
+  <block id="fd4179e96bb6b563483e2da193ee3515" category="paragraph"><block ref="fd4179e96bb6b563483e2da193ee3515" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c47baa61c22503bd11f03c33a6eb4733" category="paragraph">從 *Keystone Subscriptions * 頁面上的 *Subscriptions * 標籤中選取 10 至 12 個以上的訂閱時，無法產生訂閱報告。</block>
+  <block id="823d73fac48b123a5c54fb36b35fa946" category="paragraph">2025-01-08</block>
+  <block id="0210cb3765fda3047d9297b0f453ca44" category="paragraph">QoS 原則類型顯示不正確</block>
+  <block id="2fd8a3db64e08617acb19923d6feb044" category="paragraph">在 *Volume Details* 標籤中，當未套用 QoS 原則時， *QoS 原則類型 * 欄會顯示 _QoS_ ，且「符合」欄會顯示 _ 未設定 _ ，導致顯示的 QoS 原則狀態不一致。</block>
+  <block id="6fac87c4e304acd1c313d83787f9b7bd" category="section-title">新增每日累積資料使用率檢視選項</block>
+  <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">您現在可以按一下顯示發票資料的長條圖，以圖表或表格格式檢視每月或每季計費期間的每日累積突發資料用量。若要深入瞭解、請 <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>參閱。</block>
 </blocks>

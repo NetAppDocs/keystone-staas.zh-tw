@@ -24,18 +24,18 @@ NetApp Keystone STaaS 報告下列已知問題：
 
 
  a| 
-主要和連結訂閱無法使用 Volume 詳細資料
+QoS 原則類型顯示不正確
  a| 
-「 * Volume Summary* 」標籤顯示的磁碟區總數， QoS 法規遵循狀態，受保護的磁碟區數，以及主要和連結的次要訂閱的總使用容量為零。
+在 *Volume Details* 標籤中，當未套用 QoS 原則時， *QoS 原則類型 * 欄會顯示 _QoS_ ，且「符合」欄會顯示 _ 未設定 _ ，導致顯示的 QoS 原則狀態不一致。
  a| 
 無
 
 
 
  a| 
-無法產生訂閱報告
+主要和連結訂閱無法使用 Volume 詳細資料
  a| 
-當從 *Keystone Subscriptions * 頁面上的 *Subscriptions * 標籤中選取 10 至 12 個以上的訂閱時，當按一下 *Download CSV* 按鈕並使用 *Include data for each service Level* 選項時，報告將無法產生。
+「 * Volume Summary* 」標籤顯示的磁碟區總數， QoS 法規遵循狀態，受保護的磁碟區數，以及主要和連結的次要訂閱的總使用容量為零。
  a| 
 無
 

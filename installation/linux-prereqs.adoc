@@ -102,7 +102,7 @@ Keystone收集器（一般）
  a| 
 HTTPS
  a| 
-TCP 80、TCP 443
+TCP 443
  a| 
 必要（網際網路連線）
  a| 

@@ -40,7 +40,7 @@ NetApp Keystone STaaS 服務支援多種儲存容量類型。瞭解這些不同�
 
 * 可根據特定條件減少已認可的容量。如需相關資訊、請參閱 link:../concepts/capacity-requirements.html["容量減量"]。
 * 承諾容量不得在訂閱到期前 90 天增加、除非訂閱將續約 12 個月。
-* 您可以透過BlueXP介面或Keystone Success Manager（KSM）要求變更已提交的容量。如需要求變更的相關資訊、請參閱 link:../concepts/gssc.html["NetApp全球服務支援中心"]。
+* 您可以透過BlueXP介面或Keystone Success Manager（KSM）要求變更已提交的容量。如需要求變更的相關資訊，請參閱link:../concepts/gssc.html["NetApp Keystone 支援"]。
 
 
 

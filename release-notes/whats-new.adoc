@@ -20,6 +20,16 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 
 
+== 2025-01-08
+
+
+
+=== 新增每日累積資料使用率檢視選項
+
+您現在可以按一下顯示發票資料的長條圖，以圖表或表格格式檢視每月或每季計費期間的每日累積突發資料用量。若要深入瞭解、請 link:../integrations/capacity-trend-tab.html#view-daily-accrued-burst-data-usage["檢視每日累積的突發資料使用量"]參閱。
+
+
+
 == 2024-12-12
 
 

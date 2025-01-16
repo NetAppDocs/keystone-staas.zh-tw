@@ -22,6 +22,15 @@ summary: 舊版 NetApp Keystone STaaS 服務中發現的問題已在後續版本
 
 
  a| 
+從 *Keystone Subscriptions * 頁面上的 *Subscriptions * 標籤中選取 10 至 12 個以上的訂閱時，無法產生訂閱報告。
+ a| 
+固定
+ a| 
+2025-01-08
+
+
+
+ a| 
 在 *Volumes & Objects* 標籤中的 *Volume Summary* 子標籤無法載入 StorageGRID 訂閱。
  a| 
 固定
