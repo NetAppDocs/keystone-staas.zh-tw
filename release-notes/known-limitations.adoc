@@ -4,7 +4,7 @@ permalink: release-notes/known-limitations.html
 keywords: limitations, known limitations in Keystone STaaS 
 summary: 已知限制指出本產品版本不支援的平台、裝置或功能、或是無法與產品正確互通的平台、裝置或功能。請仔細檢閱這些限制。 
 ---
-= 已知限制
+= Keystone STaaS 的已知限制
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

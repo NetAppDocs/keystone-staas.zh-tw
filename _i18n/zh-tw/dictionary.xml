@@ -2193,4 +2193,9 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="2fd8a3db64e08617acb19923d6feb044" category="paragraph">在 *Volume Details* 標籤中，當未套用 QoS 原則時， *QoS 原則類型 * 欄會顯示 _QoS_ ，且「符合」欄會顯示 _ 未設定 _ ，導致顯示的 QoS 原則狀態不一致。</block>
   <block id="6fac87c4e304acd1c313d83787f9b7bd" category="section-title">新增每日累積資料使用率檢視選項</block>
   <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">您現在可以按一下顯示發票資料的長條圖，以圖表或表格格式檢視每月或每季計費期間的每日累積突發資料用量。若要深入瞭解、請 <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="0488df5729275bc610c775109a5e97ed" category="doc">已修正 Keystone STaaas 的問題</block>
+  <block id="e3cdc936dac2c0ff066e39a4166c9208" category="doc">Keystone STaaS 的已知問題</block>
+  <block id="cf456956bf4b18082e3ed1243aff31f5" category="paragraph">無法檢視歷史資料</block>
+  <block id="7b19f6e9d0fb85adf96f95ba11a7325e" category="paragraph">在「 * 使用趨勢 * 」標籤中，一旦訂閱過期並以相同的追蹤 ID 續訂，但服務層級不同，則不會顯示與先前訂閱相關的服務層級。這會導致無法存取歷史使用資料。</block>
+  <block id="1dd6b840b80d1691b68b67682f45c121" category="doc">Keystone STaaS 的已知限制</block>
 </blocks>
