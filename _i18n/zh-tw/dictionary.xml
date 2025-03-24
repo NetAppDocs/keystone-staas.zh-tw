@@ -2183,7 +2183,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="de75b30d787fc40e53cc46d0b5ab30cf" category="paragraph"><block ref="de75b30d787fc40e53cc46d0b5ab30cf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eba7556a1fc4fd160e9d81ddb2112a3e" category="paragraph">在折線圖中顯示每日累積突發資料使用量的範例影像：</block>
   <block id="515f3b344653c49257ced259fb9261bd" category="inline-image-macro">以折線圖格式顯示突發使用資料的螢幕擷取畫面</block>
-  <block id="47fdc60b1d26d7e27d3b186be572a4d8" category="paragraph"><block ref="47fdc60b1d26d7e27d3b186be572a4d8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="afb651343eb4e95550b828492b0990bf" category="paragraph">您可以按一下圖表右上角的 * 表格 * 選項，切換至表格檢視。表格檢視提供詳細的每日使用量指標，包括服務層級，時間戳記，承諾容量，消耗容量，以及計費的已配置容量。您也可以以 CSV 格式產生這些詳細資料的報告，以供未來使用和比較。</block>
   <block id="ef839937832da4065ea73d2af5bb0212" category="inline-image-macro">以表格格式顯示突發使用資料的螢幕擷取畫面</block>
   <block id="fd4179e96bb6b563483e2da193ee3515" category="paragraph"><block ref="fd4179e96bb6b563483e2da193ee3515" category="inline-image-macro-rx" type="image"></block></block>
@@ -2195,7 +2194,10 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">您現在可以按一下顯示發票資料的長條圖，以圖表或表格格式檢視每月或每季計費期間的每日累積突發資料用量。若要深入瞭解、請 <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="0488df5729275bc610c775109a5e97ed" category="doc">已修正 Keystone STaaas 的問題</block>
   <block id="e3cdc936dac2c0ff066e39a4166c9208" category="doc">Keystone STaaS 的已知問題</block>
-  <block id="cf456956bf4b18082e3ed1243aff31f5" category="paragraph">無法檢視歷史資料</block>
-  <block id="7b19f6e9d0fb85adf96f95ba11a7325e" category="paragraph">在「 * 使用趨勢 * 」標籤中，一旦訂閱過期並以相同的追蹤 ID 續訂，但服務層級不同，則不會顯示與先前訂閱相關的服務層級。這會導致無法存取歷史使用資料。</block>
   <block id="1dd6b840b80d1691b68b67682f45c121" category="doc">Keystone STaaS 的已知限制</block>
+  <block id="d84ae5b6becc67f38fe4f478e713f236" category="paragraph"><block ref="d84ae5b6becc67f38fe4f478e713f236" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="71246a468b7dd0ee3663403dfb3f159b" category="paragraph">在數位顧問儀表板上的 * 報告 * 中， * 報價表 * 和 * 訂閱號碼 * 選項中遺失 * 基礎概念訂閱 * 選項。</block>
+  <block id="738bb3187467e21f957b2120a45e356a" category="paragraph">03/19/2025</block>
+  <block id="f2c2ba26aedbdce8dba144e80789d0b1" category="paragraph">從數位顧問儀表板建立或修改報價表之後，在 * 報價表 * 中遺漏了一些 Keystone 訂閱。</block>
+  <block id="dd3b859a25ffcf974732975af6e5a4e9" category="paragraph">無法在「 * 使用趨勢 * 」標籤中檢視與已過期且已以相同追蹤 ID 續約但服務層級不同的訂閱相關服務層級的歷史資料。</block>
 </blocks>
