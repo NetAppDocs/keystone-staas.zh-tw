@@ -2200,4 +2200,27 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="738bb3187467e21f957b2120a45e356a" category="paragraph">03/19/2025</block>
   <block id="f2c2ba26aedbdce8dba144e80789d0b1" category="paragraph">從數位顧問儀表板建立或修改報價表之後，在 * 報價表 * 中遺漏了一些 Keystone 訂閱。</block>
   <block id="dd3b859a25ffcf974732975af6e5a4e9" category="paragraph">無法在「 * 使用趨勢 * 」標籤中檢視與已過期且已以相同追蹤 ID 續約但服務層級不同的訂閱相關服務層級的歷史資料。</block>
+  <block id="b2a3bf9896e977dfd8243da5ea25ed44" category="paragraph">如果您只想透過 ONTAP 收集使用資料，請符合下列要求：</block>
+  <block id="3e53b7d63056b7201f19b650655aad66" category="list-text">確定已設定 ONTAP 9.8 或更新版本。如需設定新叢集的相關資訊，請參閱下列連結：</block>
+  <block id="16b35791c547ec7b12d2d1bc88d72f59" category="inline-link">使用系統管理員在新叢集上設定 ONTAP</block>
+  <block id="8c6eef0a3d7e69df22688da3d1e6d26e" category="list-text"><block ref="8c6eef0a3d7e69df22688da3d1e6d26e" category="inline-link-rx"></block></block>
+  <block id="ec797c5e4fe95fdba62563dda4040b7c" category="inline-link">使用CLI設定叢集</block>
+  <block id="bf1c2cef91760714f3d41ccff2cdf9bb" category="list-text"><block ref="bf1c2cef91760714f3d41ccff2cdf9bb" category="inline-link-rx"></block></block>
+  <block id="e8f64c2c9954152b2bdf07515fefcbf3" category="inline-link">瞭解如何建立 ONTAP 登入帳戶</block>
+  <block id="38b5a2c7a8d52f27b8f9ac286e00f48d" category="list-text">建立具有特定角色的 ONTAP 登入帳戶。若要深入瞭解<block ref="e69e255c042cc41ab7a6547befcd4b4a" category="inline-link-rx"></block>、請參閱。</block>
+  <block id="d1d5b0ca67cfe96cd1bace50b8b15cbd" category="list-text">*網路Ui*</block>
+  <block id="53b500e941f815e0da37832bbbb3f265" category="inline-link">使用System Manager進行叢集管理</block>
+  <block id="249c3b3c6a9f619b64fc657020594eb4" category="list-text">使用您的預設認證登入 ONTAP 系統管理員。若要深入瞭解<block ref="6093e0d65a9e5cab5ae1ba1e186de22d" category="inline-link-rx"></block>、請參閱。</block>
+  <block id="d07c5d1cca8977c9165277aa366fcad7" category="list-text">建立具有「唯讀」角色和「 http 」應用程式類型的 ONTAP 使用者，並瀏覽至 * 叢集 &gt; 設定 &gt; 安全性 &gt; 使用者 * 來啟用密碼驗證。</block>
+  <block id="1ad46d8f16866c3c58ccf12d81ea41ba" category="list-text">*CL1*</block>
+  <block id="0ac6939a607b25b41877b7739b73fac6" category="inline-link">使用 CLI 進行叢集管理</block>
+  <block id="2aba549c4aa954187b9066ac9b8e6f24" category="list-text">使用預設認證登入 ONTAP CLI 。若要深入瞭解<block ref="80681c6be3483d3efa48f0733e30d252" category="inline-link-rx"></block>、請參閱。</block>
+  <block id="da7599bcceca45d5f685a0c9ca169dd1" category="inline-link">啟用 ONTAP 帳戶密碼存取</block>
+  <block id="ce5996c36dc9e027cc9e9e6ac10b3c9f" category="list-text">建立具有「 readonly 」角色和「 http 」應用程式類型的 ONTAP 使用者，並啟用密碼驗證。若要深入瞭解驗證，請<block ref="ff30655b37a4a92ad3dccbb4dd39b63c" category="inline-link-rx"></block>參閱。</block>
+  <block id="6fccd3079eed02626646a383fcba9c32" category="paragraph">如果您打算透過 Active IQ Unified Manager 收集使用資料，請符合下列要求：</block>
+  <block id="ad822ed3350baf5e919fd093d9fce7c6" category="paragraph">連結訂閱的使用量值顯示不正確的負數，導致承諾的總使用量顯示不正確的高。</block>
+  <block id="1570fe5c09c488b2521f2eadf2c94b4a" category="paragraph">2025-04-14</block>
+  <block id="16fc27e61eb7cb21d80ac46bae8bf3c2" category="paragraph">無法在「 * 使用趨勢 * 」標籤中檢視服務層級的歷史資料，僅供訂閱數次。</block>
+  <block id="cb0b0f23652246b2cc88085920b86963" category="paragraph">資料不符導致發票不正確</block>
+  <block id="5bf5a6c38d050a01f149d67dba290961" category="paragraph">AutoSupport 訂閱的使用量資料不相符，導致發票產生不正確，導致帳單不正確。</block>
 </blocks>

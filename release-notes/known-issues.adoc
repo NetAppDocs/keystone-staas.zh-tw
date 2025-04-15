@@ -24,6 +24,15 @@ NetApp Keystone STaaS 報告下列已知問題：
 
 
  a| 
+資料不符導致發票不正確
+ a| 
+AutoSupport 訂閱的使用量資料不相符，導致發票產生不正確，導致帳單不正確。
+ a| 
+無
+
+
+
+ a| 
 QoS 原則類型顯示不正確
  a| 
 在 *Volume Details* 標籤中，當未套用 QoS 原則時， *QoS 原則類型 * 欄會顯示 _QoS_ ，且「符合」欄會顯示 _ 未設定 _ ，導致顯示的 QoS 原則狀態不一致。
