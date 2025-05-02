@@ -2223,4 +2223,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="16fc27e61eb7cb21d80ac46bae8bf3c2" category="paragraph">無法在「 * 使用趨勢 * 」標籤中檢視服務層級的歷史資料，僅供訂閱數次。</block>
   <block id="cb0b0f23652246b2cc88085920b86963" category="paragraph">資料不符導致發票不正確</block>
   <block id="5bf5a6c38d050a01f149d67dba290961" category="paragraph">AutoSupport 訂閱的使用量資料不相符，導致發票產生不正確，導致帳單不正確。</block>
+  <block id="433d1a34b63c347d592c720846bb3834" category="paragraph">Keystone 收集器無法收集執行 9.11 以下版本之 ONTAP 叢集的使用資料。</block>
+  <block id="ddb5adb9194c71f7e22975533efa8326" category="paragraph">2025-04-30</block>
 </blocks>
