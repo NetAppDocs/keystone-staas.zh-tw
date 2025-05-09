@@ -290,7 +290,6 @@
   <block id="8816d718cde960556e2d767cd7bc6a24" category="paragraph">請閱讀下列各節、瞭解您的訂閱內容受此附加服務約束、並根據NetApp Keystone 《銷售協議》條款提供。註腳：免責聲明1[此處說明的服務與產品受完整執行的Keystone協議約束、且受限且受其管轄。]</block>
   <block id="dfafb0db4cb7ff50434d65c4ee640f1a" category="paragraph">這是客戶放置在Keystone基礎架構上的資料。所有Keystone容量均指邏輯容量。例如、如果基礎架構上儲存了1個TiB檔案、則至少應購買1個TiB容量。</block>
   <block id="6695ab4bfa1eb6d5122189f790f27577" category="paragraph">訂購期間每月計費的最低邏輯容量：</block>
-  <block id="9cd5acb8fb327acbb895954f39411c04" category="paragraph">耗用容量是指服務目前使用的容量（以儲存設備的TiB為單位）。Keystone服務會考量特定服務層級上所有磁碟區的邏輯使用大小總和（而非使用的實體容量）、以計算該服務層級的已用容量。</block>
   <block id="422cb43011b8f4dd25975e284b167728" category="list-text">突發容量可以彈性使用、並依每日耗用的平均量計費。</block>
   <block id="dda89d5ef0cb22d8ac7b37078e4ba438" category="list-text">*持久性*：存取資料時不損失保真度的百分比、不包括客戶造成的刪除或毀損。</block>
   <block id="9ffbb75c521c240c36fc4eedce45c367" category="list-text">*延遲*：服務從用戶端接收到I/O要求的時間、以服務標界（儲存控制器I/O連接埠）為測量單位。</block>
@@ -2225,4 +2224,9 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="5bf5a6c38d050a01f149d67dba290961" category="paragraph">AutoSupport 訂閱的使用量資料不相符，導致發票產生不正確，導致帳單不正確。</block>
   <block id="433d1a34b63c347d592c720846bb3834" category="paragraph">Keystone 收集器無法收集執行 9.11 以下版本之 ONTAP 叢集的使用資料。</block>
   <block id="ddb5adb9194c71f7e22975533efa8326" category="paragraph">2025-04-30</block>
+  <block id="95ff7c62926d2ecbfa68d2cb55e84679" category="paragraph">耗用容量是指服務目前使用的容量（以儲存設備的TiB為單位）。總和為：</block>
+  <block id="bc1fb831529945409538850faa16026e" category="list-text">用於儲存所有執行個體和使用者資料類型（例如複本，鏡射複本和版本）的邏輯容量。</block>
+  <block id="b2a0ad297e26236d750246160723aa4e" category="list-text">用於儲存複製磁碟區的邏輯容量，其大小超過原始磁碟區大小的 10% 。</block>
+  <block id="93fcc6bc4dfbcffb60fef19d3e82a054" category="list-text">用於儲存 Snapshot 複本差異資料的實體容量。</block>
+  <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">分配的實體容量。</block>
 </blocks>
