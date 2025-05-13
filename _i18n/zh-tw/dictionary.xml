@@ -2229,4 +2229,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="b2a0ad297e26236d750246160723aa4e" category="list-text">用於儲存複製磁碟區的邏輯容量，其大小超過原始磁碟區大小的 10% 。</block>
   <block id="93fcc6bc4dfbcffb60fef19d3e82a054" category="list-text">用於儲存 Snapshot 複本差異資料的實體容量。</block>
   <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">分配的實體容量。</block>
+  <block id="b972ea8fcf6c823010b9b37178b9d608" category="paragraph">Keystone Collector for StorageGRID 無法正確設定，因為缺少一般設定。</block>
+  <block id="3af3083ee373e5ebbb20d7719411dd4c" category="paragraph">2025-05-12</block>
 </blocks>

@@ -22,6 +22,15 @@ summary: 舊版 NetApp Keystone STaaS 服務中發現的問題已在後續版本
 
 
  a| 
+Keystone Collector for StorageGRID 無法正確設定，因為缺少一般設定。
+ a| 
+固定
+ a| 
+2025-05-12
+
+
+
+ a| 
 Keystone 收集器無法收集執行 9.11 以下版本之 ONTAP 叢集的使用資料。
  a| 
 固定
