@@ -22,6 +22,15 @@ summary: 舊版 NetApp Keystone STaaS 服務中發現的問題已在後續版本
 
 
  a| 
+當使用 Debian 套件安裝的現有 Keystone Collector 嘗試透過 Keystone Collector 管理 TUI 設定 HTTP Proxy 或啟用 Unified Manager 時， TUI 就會停止回應。
+ a| 
+固定
+ a| 
+2025-05-19
+
+
+
+ a| 
 Keystone Collector for StorageGRID 無法正確設定，因為缺少一般設定。
  a| 
 固定
