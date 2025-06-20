@@ -22,6 +22,24 @@ summary: 舊版 NetApp Keystone STaaS 服務中發現的問題已在後續版本
 
 
  a| 
+在「*Assets*」標籤中，StorageGRID 的資產不可見。
+ a| 
+固定
+ a| 
+2025-06-19
+
+
+
+ a| 
+對於高級資料保護服務級別，在「消費趨勢」標籤中，圖表顯示了主站點和鏡像站點的分割。
+ a| 
+圖表不再顯示主站點和鏡像站點的分割。
+ a| 
+2025-06-19
+
+
+
+ a| 
 當使用 Debian 套件安裝的現有 Keystone Collector 嘗試透過 Keystone Collector 管理 TUI 設定 HTTP Proxy 或啟用 Unified Manager 時， TUI 就會停止回應。
  a| 
 固定

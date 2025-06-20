@@ -1,0 +1,8 @@
+---
+permalink: integrations/capacity-trend-tab.html 
+redirect: keystone-staas/integrations/consumption-tab.html 
+---
+= 
+:allow-uri-read: 
+
+

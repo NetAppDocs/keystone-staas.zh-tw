@@ -16,7 +16,7 @@ summary: 資料分層附加服務可識別使用頻率較低的資料、並將�
 [role="lead"]
 Keystone STaaS檔案與區塊儲存標準服務包括分層功能、可識別較少使用的資料、並將其分層至Keystone STaaS-Supported NetApp Cold儲存設備。如果您想要將冷資料分層至任何受 Keystone STaaS 支援的非 NetApp 儲存設備、則可以將資料分層作為附加服務。
 
-如需標準和附加服務的相關資訊、請參閱 link:../concepts/supported-storage-services.html["Keystone STaaS服務"]。如需服務層級的相關資訊、請參閱 link:../concepts/service-levels.html["Keystone中的服務層級"]。
+有關標準和附加服務的信息，請參閱link:../concepts/supported-storage-services.html["Keystone STaaS服務"] .有關性能服務等級的信息，請參閱link:../concepts/service-levels.html["Keystone 中的效能服務級別"] 。
 
 僅當資料分層至任何非 NetApp 儲存設備（例如 Amazon Web Services （ AWS ） S3 、 Azure Blob 、 Google Cloud Platform （ GCP ）及其他受 Keystone STaaas 支援、相容 S3 的協力廠商物件儲存設備）時、才需要分層附加服務。
 

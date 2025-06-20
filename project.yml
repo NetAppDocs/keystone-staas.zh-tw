@@ -21,9 +21,9 @@ sidebar:
       url: "/release-notes/known-issues.html"
     - title: 已知限制
       url: "/release-notes/known-limitations.html"
-  - title: 深入瞭解Keystone
+  - title: 開始使用
     entries:
-    - title: 總覽
+    - title: 了解 Keystone STaaS
       url: "/concepts/overview.html"
     - title: Keystone基礎架構
       url: "/concepts/infra.html"
@@ -65,52 +65,82 @@ sidebar:
         url: "/installation/install-itom-windows.html"
     - title: 設定AutoSupport 功能
       url: "/installation/asup-config.html"
+    - title: 監控與升級
+      entries:
+      - title: 監控 Keystone Collector 健全狀況
+        url: "/installation/monitor-health.html"
+      - title: 升級 Keystone Collector
+        url: "/installation/upgrade.html"
     - title: Keystone Collector 安全性
       url: "/installation/security.html"
     - title: 收集以供計費的資料
       url: "/installation/data-collection.html"
-  - title: 監控與升級
+    - title: 私密模式中的 Keystone
+      entries:
+      - title: 總覽
+        url: "/dark-sites/overview.html"
+      - title: 準備安裝
+        url: "/dark-sites/requirements.html"
+      - title: 安裝 Keystone Collector
+        url: "/dark-sites/install-collector.html"
+      - title: 設定Keystone Collector
+        url: "/dark-sites/configure-collector.html"
+      - title: 監控 Keystone Collector 健全狀況
+        url: "/dark-sites/monitor.html"
+  - title: 管理和監控 Keystone 訂閱
     entries:
-    - title: 監控 Keystone Collector 健全狀況
-      url: "/installation/monitor-health.html"
-    - title: 升級 Keystone Collector
-      url: "/installation/upgrade.html"
-  - title: Keystone 儀表板
-    entries:
-    - title: Keystone 儀表板總覽
-      url: "/integrations/keystone-aiq.html"
-    - title: 檢視使用詳細資料並產生報告
-      url: "/integrations/aiq-keystone-details.html"
-    - title: 訂閱索引標籤
-      url: "/integrations/subscriptions-tab.html"
-    - title: 目前使用量索引標籤
-      url: "/integrations/current-usage-tab.html"
-    - title: 使用量趨勢索引標籤
-      url: "/integrations/capacity-trend-tab.html"
-    - title: Volume & Objects 標籤
+    - title: 了解 Keystone 儀表板
+      entries:
+      - title: 了解 Keystone 儀表板
+        url: "/integrations/dashboard-overview.html"
+      - title: 開始使用 Keystone 儀表板
+        url: "/integrations/dashboard-access.html"
+      - title: BlueXP 中的 Keystone 儀表板
+        url: "/integrations/keystone-bluexp.html"
+      - title: Digital Advisor 中的 Keystone 儀表板
+        url: "/integrations/keystone-aiq.html"
+      - title: 搜尋數據、產生報告和查看警報
+        url: "/integrations/options.html"
+    - title: 查看訂閱洞察
+      entries:
+      - title: 查看您的訂閱詳情
+        url: "/integrations/subscriptions-tab.html"
+      - title: 查看您目前的消費詳情
+        url: "/integrations/current-usage-tab.html"
+      - title: 檢視消費趨勢
+        url: "/integrations/consumption-tab.html"
+      - title: 查看您的訂閱時間表
+        url: "/integrations/subscription-timeline.html"
+    - title: 檢視資產
+      entries:
+      - title: 查看與訂閱相關的資產
+        url: "/integrations/assets-tab.html"
+      - title: 查看多個訂閱中的資產
+        url: "/integrations/assets.html"
+    - title: 修改您的訂閱
+      url: "/integrations/modify-subscription.html"
+    - title: 查看您的服務請求
+      url: "/integrations/administration-tab.html"
+    - title: 查看捲和物件儲存詳細信息
       url: "/integrations/volumes-objects-tab.html"
-    - title: 資產索引標籤
-      url: "/integrations/assets-tab.html"
-    - title: 效能標籤
+    - title: 檢視效能指標
       url: "/integrations/performance-tab.html"
-    - title: 瞭解 Keystone 和 BlueXP
-      url: "/integrations/keystone-cm.html"
-  - title: Keystone STaaS服務
+  - title: 概念
     entries:
-    - title: 指標與定義
-      url: "/concepts/metrics.html"
-    - title: 儲存服務品質
-      url: "/concepts/qos.html"
-    - title: 支援的儲存設備
-      url: "/concepts/supported-storage-services.html"
-    - title: 支援的容量
-      url: "/concepts/supported-storage-capacity.html"
-    - title: 服務層級
-      url: "/concepts/service-levels.html"
-    - title: 服務層級的容量需求
-      url: "/concepts/capacity-requirements.html"
-    - title: Keystone 訂閱服務第 1 版
-      url: "/subscription-services-v1.html"
+    - title: Keystone STaaS服務
+      entries:
+      - title: 指標與定義
+        url: "/concepts/metrics.html"
+      - title: 儲存服務品質
+        url: "/concepts/qos.html"
+      - title: 支援的儲存設備
+        url: "/concepts/supported-storage-services.html"
+      - title: 支援的容量
+        url: "/concepts/supported-storage-capacity.html"
+      - title: 績效服務水準
+        url: "/concepts/service-levels.html"
+      - title: 性能服務等級的容量要求
+        url: "/concepts/capacity-requirements.html"
     - title: 附加服務
       entries:
       - title: 進階資料保護
@@ -125,28 +155,30 @@ sidebar:
         url: "/concepts/nrnvc.html"
       - title: 美國保護支援（ USPS ）
         url: "/concepts/usps.html"
-  - title: Keystone STaaS SLA
-    entries:
-    - title: 可用度
-      url: "/concepts/sla-availability.html"
-    - title: 效能
-      url: "/concepts/sla-performance.html"
-    - title: 永續性
-      url: "/concepts/sla-sustainability.html"
-    - title: 勒索軟體恢復保證
-      url: "/concepts/sla-ransomware.html"
-  - title: 私密模式中的 Keystone
-    entries:
-    - title: 總覽
-      url: "/dark-sites/overview.html"
-    - title: 準備安裝
-      url: "/dark-sites/requirements.html"
-    - title: 安裝 Keystone Collector
-      url: "/dark-sites/install-collector.html"
-    - title: 設定Keystone Collector
-      url: "/dark-sites/configure-collector.html"
-    - title: 監控 Keystone Collector 健全狀況
-      url: "/dark-sites/monitor.html"
+    - title: Keystone STaaS SLA
+      entries:
+      - title: 可用度
+        url: "/concepts/sla-availability.html"
+      - title: 效能
+        url: "/concepts/sla-performance.html"
+      - title: 永續性
+        url: "/concepts/sla-sustainability.html"
+      - title: 勒索軟體恢復保證
+        url: "/concepts/sla-ransomware.html"
+    - title: 帳單
+      entries:
+      - title: Keystone定價
+        url: "/concepts/pricing.html"
+      - title: 根據已提交的容量進行計費
+        url: "/concepts/committed-capacity-billing.html"
+      - title: 根據耗用容量進行計量
+        url: "/concepts/consumed-capacity-billing.html"
+      - title: 根據尖峰使用量進行計費
+        url: "/concepts/burst-consumption-billing.html"
+      - title: Keystone計費的其他案例
+        url: "/concepts/misc-volume-billing.html"
+      - title: 帳單排程
+        url: "/concepts/billing-schedules.html"
   - title: 從 Digital Advisor REST API 存取 Keystone
     entries:
     - title: 開始使用 Digital Advisor REST API 擷取 Keystone 資料
@@ -159,20 +191,8 @@ sidebar:
       url: "/rest-api/get-customer-subscriptions.html"
     - title: 使用 Digital Advisor REST API 取得客戶使用量詳細資料
       url: "/rest-api/get-customer-consumption.html"
-  - title: 帳單
-    entries:
-    - title: Keystone定價
-      url: "/concepts/pricing.html"
-    - title: 根據已提交的容量進行計費
-      url: "/concepts/committed-capacity-billing.html"
-    - title: 根據耗用容量進行計量
-      url: "/concepts/consumed-capacity-billing.html"
-    - title: 根據尖峰使用量進行計費
-      url: "/concepts/burst-consumption-billing.html"
-    - title: Keystone計費的其他案例
-      url: "/concepts/misc-volume-billing.html"
-    - title: 帳單排程
-      url: "/concepts/billing-schedules.html"
+  - title: Keystone 訂閱服務第 1 版
+    url: "/subscription-services-v1.html"
   - title: 取得 Keystone 的說明
     url: "/concepts/gssc.html"
   - title: 法律聲明

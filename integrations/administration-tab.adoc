@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: integrations/administration-tab.html 
+keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription 
+summary: 查看或取消 Keystone 訂閱服務請求。 
+---
+= 查看 Keystone 訂閱的服務請求
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以透過 BlueXP 查看和追蹤修改 Keystone 訂閱的服務請求，提供快速摘要並監控進度。
+
+若要查看進度或取消請求，請依照下列步驟操作：
+
+.步驟
+. 從 BlueXP 左側導覽功能表中，選擇 *儲存 > Keystone > 管理*。
++
+您會看到所有服務請求的列表，包括請求編號、請求類型和目前狀態。
+
+. 您可以點選image:down-arrow.png["向下箭頭圖標"]點擊“提交日期”列旁邊的圖標，展開請求編號並查看詳細資訊。您可以看到提出請求的效能服務等級。
++
+image:bxp-service-request-list.png["螢幕截圖顯示了針對哪些效能服務等級提出了修改請求"]
+
+. 選擇請求編號可查看詳細信息，包括所請求訂閱的修改詳細信息和當前進度狀態。
++
+image:bxp-service-progress.png["顯示當前進度狀態的螢幕截圖"]
+
+

@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: integrations/subscription-timeline.html 
+keywords: keystone, BlueXP, subscriptions, timeline, lifecycle, activation, modification, renewal 
+summary: 查看 BlueXP 的訂閱時間表，其中包括啟動、修改和續約日期等事件。 
+---
+= 查看 Keystone 訂閱的時間軸
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+BlueXP 中的 Keystone 儀表板提供 Keystone 訂閱的時間軸視圖，顯示啟動、修改和續約日期等事件。 DigitalAdvisor 不提供此時間軸視圖。
+
+若要查看訂閱時間表，請按照以下步驟操作：
+
+.步驟
+. 從 BlueXP 左側導覽功能表中，選擇 *儲存 > Keystone > 訂閱*。
+. 在*訂閱號*欄中選擇訂閱號，查看訂閱時間軸。
++
+您將被重定向到“*當前消耗*”選項卡。
+
+. 選擇“*訂閱時間表*”標籤。
++
+image:bxp-subscription-timeline-graph.png["螢幕截圖以折線圖顯示訂閱時間軸以及重要事件"]
+
++
+訂閱時間軸預設以折線圖顯示，並附有標記重要事件的圖示。將滑鼠懸停在某個事件上即可查看詳細信息，例如日期以及修改期間對已提交容量所做的更改。若要以表格形式檢視這些事件，請從「檢視方式」下拉式功能表中選擇「表格」選項。您也可以從「追蹤 ID」下拉清單中選擇或搜尋來查看其他訂閱的時間軸。
+
++
+image:bxp-subscription-timeline.png["以表格圖表形式顯示訂閱時間軸以及重要事件的螢幕截圖"]
+
+
+
+*相關資訊*
+
+* link:../integrations/dashboard-overview.html["了解 Keystone 儀表板"]
+* link:../integrations/subscriptions-tab.html["查看您的訂閱詳情"]
+* link:../integrations/consumption-tab.html["檢視消費趨勢"]
+* link:../integrations/assets-tab.html["查看您的 Keystone 訂閱資產"]
+* link:../integrations/assets.html["查看 Keystone 訂閱中的資產"]
+* link:../integrations/volumes-objects-tab.html["查看捲和物件的詳細信息"]
+

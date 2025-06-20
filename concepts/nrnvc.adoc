@@ -28,7 +28,7 @@ NetApp不會在整個服務期間或服務終止期間恢復使用的實體儲�
 
 如需標準與雲端服務的相關資訊、請參閱 link:supported-storage-services.html["Keystone STaaS服務"]。
 
-如需服務層級的相關資訊、請參閱 link:../concepts/service-levels.html["Keystone中的服務層級"]。
+有關性能服務等級的信息，請參閱link:../concepts/service-levels.html["Keystone 中的效能服務級別"] 。
 
 
 

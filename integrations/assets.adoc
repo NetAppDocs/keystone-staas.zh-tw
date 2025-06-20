@@ -1,0 +1,104 @@
+---
+sidebar: sidebar 
+permalink: integrations/assets.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID 
+summary: 使用資產索引標籤可檢視 ONTAP 叢集和節點的詳細資料，以及由 Keystone 訂閱管理的 StorageGRID 網格，站台和節點。 
+---
+= 查看多個 Keystone 訂閱中的資產
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+BlueXP 中的 Keystone 儀表板可讓您根據存取權限查看跨多個 Keystone 訂閱的叢集節點、已設定磁碟區和 StorageGRID 節點的詳細資訊。此視圖在 Digital Advisor 中不可用。
+
+[role="tabbed-block"]
+====
+.叢集中的節點
+--
+.步驟
+. 從 BlueXP 左側導覽功能表中，選擇 *儲存 > Keystone > 資產*。
++
+*資產*標籤顯示*叢集中的節點*子選項卡。
+
++
+image:bxp-nodes-clusters-multiple-subscription.png["多個訂閱的叢集中的節點的螢幕截圖"]
+
++
+您可以查看 Keystone 訂閱中叢集中所有節點的詳細信息，包括節點序號、狀態、儲存效率設定、平台類型和容量詳情。您也可以概覽以下內容：
+
++
+** 訂閱和 ONTAP 節點的總數。
+** 節點容量消耗，帶有可點擊的*查看*按鈕來過濾表格並顯示符合特定條件的資產（消耗量> 90% 或消耗量< 50%）。
+** 基於 ONTAP 版本的節點，使用 *檢視* 按鈕篩選最新三個版本或更早版本內的節點。
++
+
+TIP: 您可以使用列選擇器自訂表格image:column-selector.png["列選擇器圖示"]圖示並使用頂部的搜尋欄根據列參數搜尋和過濾 Keystone 資料。
+
+
+
+
+
+--
+.集群中的捲
+--
+.步驟
+. 從 BlueXP 左側導覽功能表中，選擇 *儲存 > Keystone > 資產*。
+. 選擇“*集群中的磁碟區*”標籤。
++
+image:bxp-volumes-clusters-multiple-sub.png["多個訂閱的集群中的捲的螢幕截圖"]
+
++
+您可以查看 Keystone 訂閱中叢集中所有磁碟區的詳細信息，包括磁碟區名稱、訂閱號、節點序號、QoS 策略合規性、叢集名稱、主機名稱和效能服務等級。您可以監控已配置容量、邏輯和實體使用率以及冷資料。您也可以概覽以下內容：
+
++
+** 訂閱、集群和卷的總數。
+** 捲合規性和保護狀態，帶有*檢視*按鈕，用於過濾表格並根據合規、不合規或不受保護等標準顯示資產。
++
+
+TIP: 您可以使用列選擇器自訂表格image:column-selector.png["列選擇器圖示"]圖示並使用頂部的搜尋欄根據列參數搜尋和過濾 Keystone 資料。
+
++
+點選「訂閱號」欄位中的訂閱號，即可進入「訂閱」頁籤，查看訂閱消費詳情、時間軸及相關資產資訊。若要深入瞭解、請 link:../integrations/current-usage-tab.html["查看您目前的消費詳情"]參閱。
+
+
+
+
+
+--
+.網格中的節點
+--
+.步驟
+. 從 BlueXP 左側導覽功能表中，選擇 *儲存 > Keystone > 資產*。
+. 選擇*網格中的節點*標籤。
++
+image:bxp-nodes-grids-multiple-sub.png["多個訂閱的網格節點的螢幕截圖"]
+
++
+您可以查看 Keystone 訂閱中網格中所有節點的詳細信息，包括節點名稱、節點 ID、訂閱編號、網格名稱、節點類型和客戶。您可以監控已消耗且可用的資料容量、CPU 使用率以及可用資料容量。
+
++
+
+TIP: 您可以使用列選擇器自訂表格image:column-selector.png["列選擇器圖示"]圖示並使用頂部的搜尋欄根據列參數搜尋和過濾 Keystone 資料。
+
++
+點選「訂閱號」欄位中的訂閱號，即可進入「訂閱」頁籤，查看訂閱消費詳情、時間軸及相關資產資訊。若要深入瞭解、請 link:../integrations/current-usage-tab.html["查看您目前的消費詳情"]參閱。
+
+
+
+--
+====
+*相關資訊*
+
+* link:../integrations/dashboard-overview.html["了解 Keystone 儀表板"]
+* link:../integrations/subscriptions-tab.html["查看您的訂閱詳情"]
+* link:../integrations/current-usage-tab.html["查看您目前的消費詳情"]
+* link:../integrations/consumption-tab.html["檢視消費趨勢"]
+* link:../integrations/subscription-timeline.html["查看您的訂閱時間表"]
+* link:../integrations/assets-tab.html["查看您的 Keystone 訂閱資產"]
+* link:../integrations/volumes-objects-tab.html["查看捲和物件的詳細信息"]
+

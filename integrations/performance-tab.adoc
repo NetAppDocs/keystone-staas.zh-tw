@@ -17,10 +17,12 @@ summary: 若要監控系統效能、您可以檢視 Keystone 訂閱所管理的 
 若要監控系統效能、您可以檢視 Keystone 訂閱所管理的 ONTAP 磁碟區效能計量。
 
 
-TIP: 您也可以選擇使用此索引標籤。請聯絡支援部門以檢視此標籤。
+TIP: 此選項卡在 Digital Advisor 中可選用。請聯絡支援部門以檢視此標籤。在 BlueXP 中不可用。
+
+若要在 Digital Advisor 中檢視此選項卡，請依照下列步驟操作：
 
 .步驟
-. 按一下 * 一般 > 基礎概念訂閱 > 效能 * 。
+. 按一下“*常規>Keystone 訂閱>效能*”。
 . 選取訂閱編號。依預設、會選取第一個訂閱號碼。
 . 從清單中選取所需的磁碟區名稱。
 +
@@ -29,20 +31,20 @@ TIP: 您也可以選擇使用此索引標籤。請聯絡支援部門以檢視此
 . 選取查詢的日期範圍。日期範圍可以是月份的開始日期、或是訂閱開始日期到目前日期或訂閱結束日期。您無法選擇未來日期。
 
 
-擷取的詳細資料是根據每個服務層級的服務層級目標而定。例如、尖峰 IOPS 、最大處理量、目標延遲和其他指標、都是由服務層級的個別設定所決定。如需設定的詳細資訊、請參閱 link:../concepts/service-levels.html["Keystone 中的服務層級"]。
+檢索到的詳細資訊是基於每個效能服務等級的效能服務等級目標。例如，峰值 IOPS、最大吞吐量、目標延遲和其他指標由效能服務等級的各項設定決定。有關這些設定的更多信息，請參閱link:../concepts/service-levels.html["Keystone 中的效能服務級別"] 。
 
 
-NOTE: 如果您選取 *SLO 參考線 * 核取方塊、則 IOPS 、處理量和延遲圖表會根據服務層級的服務層級目標呈現。否則，它們會以實際數字顯示。
+NOTE: 如果勾選「*SLO 參考線*」複選框，則會根據效能服務等級的效能服務等級目標呈現 IOPS、吞吐量和延遲圖表。否則，它們會以實際數字顯示。
 
 橫式圖表上顯示的效能資料是每五分鐘間隔的平均值、並依照查詢的日期範圍進行排列。您可以捲動圖表、將滑鼠移到特定的資料點上、進一步深入瞭解收集的資料。
 
-您可以根據訂閱號碼、 Volume 名稱和所選日期範圍的組合、來檢視和比較下列各節中的效能指標。詳細資料會依指派給磁碟區的服務層級顯示。您可以看到叢集名稱和磁碟區類型、也就是指派給磁碟區的讀寫權限。也會顯示與該 Volume 相關的任何警告訊息。
+您可以根據訂閱號碼、 Volume 名稱和所選日期範圍的組合、來檢視和比較下列各節中的效能指標。詳細資訊依照指派給磁碟區的效能服務等級顯示。您可以看到叢集名稱和磁碟區類型、也就是指派給磁碟區的讀寫權限。也會顯示與該 Volume 相關的任何警告訊息。
 
 
 
 == IOPS/TiB
 
-本節會根據查詢的日期範圍、顯示 Volume 中工作負載的輸入輸出圖形。顯示服務層級的尖峰 IOPS 和目前的 IOPS （過去五分鐘內、非根據查詢日期範圍）、以及時間範圍的最小、最大和平均 IOPS （以 IOPS/TiB 為單位）。
+本節會根據查詢的日期範圍、顯示 Volume 中工作負載的輸入輸出圖形。顯示效能服務等級的峰值 IOPS 和目前 IOPS（過去五分鐘內，不基於查詢的日期範圍），以及該時間範圍內的最小、最大和平均 IOPS（以 IOPS/TiB 為單位）。
 
 image:perf-iops.png["圖表的 IOPS 區段"]
 
@@ -50,7 +52,7 @@ image:perf-iops.png["圖表的 IOPS 區段"]
 
 == 處理量（ Mbps/TiB ）
 
-本節會根據查詢的日期範圍、顯示 Volume 中工作負載的處理量圖表。顯示服務層級（ SLO Max ）的最大處理量和目前處理量（過去五分鐘內、並非根據查詢的日期範圍）、以及時間範圍的最小、最大和平均處理量（以 Mbps/TiB 為單位）。
+本節會根據查詢的日期範圍、顯示 Volume 中工作負載的處理量圖表。顯示效能服務等級的最大吞吐量（SLO Max）和目前吞吐量（過去五分鐘內，非查詢的日期範圍），以及時間範圍內的最小、最大和平均吞吐量（以 MBps/TiB 為單位）。
 
 image:perf-thr.png["處理量圖表"]
 
@@ -58,7 +60,7 @@ image:perf-thr.png["處理量圖表"]
 
 == 延遲（毫秒）
 
-本節會根據查詢的日期範圍、顯示 Volume 中工作負載的延遲圖表。會顯示服務層級（ SLO Target ）的最大延遲、以及目前延遲（過去五分鐘內、並非根據查詢的日期範圍）、以及時間範圍的最小、最大和平均延遲（以毫秒為單位）。
+本節會根據查詢的日期範圍、顯示 Volume 中工作負載的延遲圖表。顯示效能服務等級（SLO 目標）的最大延遲和目前延遲（在過去五分鐘內，不基於查詢的日期範圍），以及時間範圍內的最小、最大和平均延遲（以毫秒為單位）。
 
 此圖表具有下列色彩：
 
@@ -78,10 +80,12 @@ image:perf-log-usd.png["已用邏輯容量圖表"]
 
 *相關資訊*
 
-* link:../integrations/aiq-keystone-details.html["使用 Keystone 儀表板和報告"]
-* link:../integrations/subscriptions-tab.html["訂閱"]
-* link:../integrations/current-usage-tab.html["目前使用量"]
-* link:../integrations/capacity-trend-tab.html["消費趨勢"]
-* link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
-* link:../integrations/assets-tab.html["資產"]
+* link:../integrations/dashboard-overview.html["了解 Keystone 儀表板"]
+* link:../integrations/subscriptions-tab.html["查看您的訂閱詳情"]
+* link:../integrations/current-usage-tab.html["查看您目前的消費詳情"]
+* link:../integrations/consumption-tab.html["檢視消費趨勢"]
+* link:../integrations/subscription-timeline.html["查看您的訂閱時間表"]
+* link:../integrations/assets-tab.html["查看您的 Keystone 訂閱資產"]
+* link:../integrations/assets.html["查看 Keystone 訂閱中的資產"]
+* link:../integrations/volumes-objects-tab.html["查看捲和物件的詳細信息"]
 

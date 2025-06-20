@@ -16,7 +16,24 @@ summary: NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增�
 [role="lead"]
 NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功能。
 
-Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧問）提供下列增強功能：
+
+
+== 2025-06-19
+
+
+
+=== BlueXP 中的 Keystone 儀表板
+
+現在您可以直接從 BlueXP 存取 Keystone 儀表板。此整合讓您可以在一個位置監控、管理和追蹤所有 Keystone 訂閱以及其他 NetApp 服務。
+
+使用 BlueXP 中的 Keystone 儀表板，您可以：
+
+* 在一個地方查看所有訂閱詳細資訊、容量使用情況和資產。
+* 輕鬆管理訂閱並隨著需求的變化請求更改。
+* 隨時了解有關您的儲存環境的最新資訊。
+
+
+首先，前往 BlueXP 左側導覽功能表中的 *儲存 > Keystone*。若要深入瞭解、請 link:../integrations/dashboard-overview.html["Keystone 儀表板總覽"^]參閱。
 
 
 
@@ -26,7 +43,7 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 === 新增每日累積資料使用率檢視選項
 
-您現在可以按一下顯示發票資料的長條圖，以圖表或表格格式檢視每月或每季計費期間的每日累積突發資料用量。若要深入瞭解、請 link:../integrations/capacity-trend-tab.html#view-daily-accrued-burst-data-usage["檢視每日累積的突發資料使用量"]參閱。
+您現在可以按一下顯示發票資料的長條圖，以圖表或表格格式檢視每月或每季計費期間的每日累積突發資料用量。若要深入瞭解、請 link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["檢視每日累積的突發資料使用量"]參閱。
 
 
 
@@ -58,7 +75,7 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 === 強化發票預提暴增
 
-如果您已選擇每季計費週期，現在可以透過 * 發票預提的突發 * 選項，每季檢視累積的突發使用資料。若要深入瞭解、請 link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["檢視已開發票的累積爆發"^]參閱。
+如果您已選擇每季計費週期，現在可以透過 * 發票預提的突發 * 選項，每季檢視累積的突發使用資料。若要深入瞭解、請 link:../integrations/consumption-tab.html#view-accrued-burst["檢視已開發票的累積爆發"^]參閱。
 
 
 
@@ -80,7 +97,7 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 === 增強的報告產生功能
 
-您現在可以使用 Digital Advisor 中的報告功能來產生合併報告，以檢視 Keystone 資料的詳細資料。若要深入瞭解、請 link:../integrations/aiq-keystone-details.html#generate-consolidated-report["產生整合式報告"^]參閱。
+您現在可以使用 Digital Advisor 中的報告功能來產生合併報告，以檢視 Keystone 資料的詳細資料。要了解更多信息，請參閱link:../integrations/options.html#generate-consolidated-report-from-digital-advisor["產生整合式報告"^] 。
 
 
 
@@ -136,7 +153,7 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 === 用於短期突發的放大功能
 
-「 * 容量趨勢 * 」標籤現在包含放大功能、可檢視使用圖表中短期突發的詳細資料。如需更多資訊、請參閱 link:../integrations/capacity-trend-tab.html["容量趨勢索引標籤"^]。
+「 * 容量趨勢 * 」標籤現在包含放大功能、可檢視使用圖表中短期突發的詳細資料。如需更多資訊、請參閱 link:../integrations/consumption-tab.html["容量趨勢索引標籤"^]。
 
 
 
@@ -254,7 +271,7 @@ Active IQ Digital Advisor 的 * 基礎概念訂閱 * 畫面（也稱為數位顧
 
 === 因累積突發而傳回的發票資料
 
-* 累積突發 * 的標籤現已修改為 * 容量趨勢 * 標籤中的 * 發票累積突發 * 。選取此選項可讓您檢視已計費之累積突發資料的每月圖表。如需更多資訊、請參閱 link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["檢視已開發票的累積爆發"^]。
+* 累積突發 * 的標籤現已修改為 * 容量趨勢 * 標籤中的 * 發票累積突發 * 。選取此選項可讓您檢視已計費之累積突發資料的每月圖表。如需更多資訊、請參閱 link:../integrations/consumption-tab.html#view-accrued-burst["檢視已開發票的累積爆發"^]。
 
 
 
@@ -276,4 +293,4 @@ Digital Advisor 中的報價表支援已延伸至 Keystone 系統。您現在可
 
 === 轉換為 UTC 時區的日期
 
-數位顧問 * Keystone Subscriptions * 畫面上傳回的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時、系統會自動將其視為 UTC 時間。如需詳細資訊、請參閱 link:../integrations/aiq-keystone-details.html["Keystone訂閱儀表板與報告"^]。
+Digital Advisor 的 *Keystone Subscriptions* 螢幕標籤上傳回的資料以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時、系統會自動將其視為 UTC 時間。如需更多資訊、請參閱 link:../integrations/keystone-aiq.html["Keystone訂閱儀表板與報告"^]。

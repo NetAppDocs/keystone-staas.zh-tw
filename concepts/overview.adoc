@@ -20,7 +20,7 @@ Keystone可減少管理無法預測的容量成長和複雜採購週期的障礙
 
 image:nkfsosm_image2.png["Keystone"]
 
-Keystone針對區塊、檔案和物件資料類型、提供預先定義的服務層級儲存容量、這些資料類型可部署在內部部署、並由NetApp、合作夥伴或客戶操作。Keystone 可與 NetApp 雲端服務搭配使用、例如 Cloud Volumes ONTAP 、可部署在您選擇的超純量環境中。
+Keystone 為區塊、檔案和物件資料類型提供預先定義效能服務等級的儲存容量，這些資料類型可以在本機部署並由 NetApp、合作夥伴或客戶操作。Keystone 可與 NetApp 雲端服務搭配使用、例如 Cloud Volumes ONTAP 、可部署在您選擇的超純量環境中。
 
 Keystone訂閱與費率方案相關聯。單一訂閱可附加多個費率計畫。
 
@@ -34,7 +34,7 @@ Keystone訂閱與費率方案相關聯。單一訂閱可附加多個費率計畫
 
 * link:../concepts/pricing.html["Keystone定價"]
 * link:../concepts/add-on.html["Keystone STaaS 中的附加服務"]
-* link:../concepts/service-levels.html["Keystone 中的服務層級"]
+* link:../concepts/service-levels.html["Keystone 中的效能服務級別"]
 * link:../concepts/infra.html["Keystone基礎架構"]
 * link:../concepts/operational-models.html["Keystone中的運作模式"]
 

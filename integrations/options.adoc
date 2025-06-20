@@ -1,0 +1,67 @@
+---
+sidebar: sidebar 
+permalink: integrations/options.html 
+keywords: Keystone, BlueXP, Keystone dashboard, search and filter, Keystone data, generate reports, view alerts, digital advisor 
+summary: 作為 NetApp Keystone STaaS 訂閱者，您可以搜尋和過濾資料、產生訂閱和使用情況報告、檢查時間戳記以及查看警報。 
+---
+= 搜尋 Keystone 數據、產生報告並查看警報
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以搜尋和過濾資料、產生訂閱和使用情況報告以及查看警報以隨時了解儲存環境。
+
+
+
+== 從 BlueXP 搜尋和篩選數據
+
+在 BlueXP 中，您可以根據標籤中表格中提供的列參數搜尋和篩選 Keystone 資料。例如，在「*訂閱*」標籤下的「訂閱*」子選項卡中，您可以在搜尋框中輸入 Keystone 版本來篩選資料。同樣，在「資產*」標籤下的「叢集中的磁碟區*」標籤中，您可以在搜尋方塊中輸入磁碟區名稱來篩選磁碟區。
+
+您可以使用進階篩選選項（如果可用）來最佳化搜尋。例如，在「訂閱」子標籤中，您可以按 Keystone 版本、計費週期、最大容量和訂閱到期天數篩選資料；在「叢集中的磁碟區」標籤中，您可以按磁碟區名稱、叢集名稱、QoS 合規性、磁碟區類型等進行篩選。您可以同時套用多個篩選條件，精確縮小搜尋結果範圍。 image:bxp-filter-search.png["進階過濾選項"]
+
+
+
+== 從 BlueXP 或 Digital Advisor 產生報告
+
+您可以使用 BlueXP 或 Digital Advisor 中選項卡中的下載按鈕產生並查看 Keystone 資料報告。這些標籤可讓您產生訂閱、歷史使用情況、突發使用情況、效能、資產、磁碟區和物件的報表。
+
+[cols="1,1"]
+|===
+| BlueXP 中的下載按鈕 | Digital Advisor 中的下載按鈕 
+
+
+| image:bluexp-download-report-1.png["BlueXP 中的報告下載圖示 1"]或image:bluexp-download-report-2.png["BlueXP 中的報告下載圖示 2"] | image:download-report-da.png["報告下載圖示"] 
+|===
+這些詳細資料會以 CSV 格式產生、您可以儲存以供未來使用和比較。
+
+
+
+== 從數位顧問產生綜合報告
+
+在 Digital Advisor 中，您可以產生並查看您的訂閱、歷史使用情況、突發使用情況、效能、資產以及磁碟區和物件的綜合報告。若要這麼做，請從 Digital Advisor 的報告功能中選取 * 基礎概念訂閱 * 作為報告類型。您可以在客戶，叢集，報價表或訂閱層級產生這些報告。
+
+image:report-generation.png["建立報告"]
+
+報告會以 Excel 格式產生，每種資訊類型（例如訂閱詳細資料或使用記錄）都會顯示在不同的工作表上。這些工作表是根據「 *Keystone Subscriptions * 」頁面上的標籤命名，方便您檢視。您可以儲存報告以供未來使用。
+
+若要深入瞭解如何產生報告，請link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["產生自訂報告"^]參閱。
+
+
+
+== 查看數位顧問的警報
+
+在 Digital Advisor 中，Keystone 儀表板提供警報通知，讓您了解儲存環境中出現的問題。這些通知可能會顯示為資訊警示或警告。例如、如果託管叢集內有未附加調適性QoS（AQO）原則的磁碟區、您會看到一則警告訊息。選擇警告訊息即可在「磁碟區和物件」標籤中查看不合規磁碟區的清單。
+
+
+NOTE: 如果您訂閱了單一效能服務等級或費率計劃，您將無法看到不合規磁碟區的警報。
+
+image:alert-aiq-3.png["警示"]
+
+如需AQO原則的相關資訊、請參閱 link:../concepts/qos.html["調適性QoS"]。
+
+有關這些訊息的更多信息，請聯繫 NetApp Keystone 支援。有關提出服務請求的信息，請參閱link:../concepts/gssc.html#generating-service-requests["正在產生服務要求"] 。

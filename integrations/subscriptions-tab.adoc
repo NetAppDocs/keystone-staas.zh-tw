@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/subscriptions-tab.html 
-keywords: keystone-aiq, digital advisor keystone, subscriptions-tab 
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp 
 summary: 若要深入瞭解您的 Keystone 訂閱、您可以從「訂閱」索引標籤檢視所有訂閱的清單。 
 ---
-= 檢視您訂閱的詳細資料
+= 查看您的 Keystone 訂閱的詳細信息
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,42 +14,108 @@ summary: 若要深入瞭解您的 Keystone 訂閱、您可以從「訂閱」索�
 
 
 [role="lead"]
-若要深入瞭解您的 Keystone 訂閱、您可以從 * Subscriptions * 標籤檢視所有訂閱的清單。
+您可以在 BlueXP 和 Digital Advisor 的「訂閱」標籤中查看所有訂閱清單。此選項卡根據您的訂閱狀態和使用情況提供易於理解的洞察信息，幫助您隨時了解情況並在需要時採取行動。
 
-若要檢視此索引標籤、請從左側瀏覽窗格移至 * 一般 > 基礎概念訂閱 > 訂閱 * 。您的所有訂閱都會列出。
+[role="tabbed-block"]
+====
+.藍圖
+--
+BlueXP 中的「訂閱」標籤分為兩個部分：「訂閱」和「效能服務等級」。每個部分都提供具體的洞察訊息，幫助您管理和監控 Keystone 訂閱。要查看訂閱的詳細信息，請按以下步驟操作：
 
-image:all-subs-3.png["訂閱索引標籤的影像"]
+.步驟
+. 從 BlueXP 左側導覽功能表中，前往 *儲存 > Keystone > 訂閱*。
++
+image:bxp-subscription- list.png["查看訂閱標籤詳情"]
 
-您可以按一下漢堡包圖示來篩選選取項目 image:icon-hamburger.png["漢堡代表"] 若為欄、或按一下 * 清除篩選 * 按鈕以檢視所有訂閱。對於某些欄位和欄、您可能會看到資訊或警告圖示和工具提示、提供您有關資料的其他資訊。
++
+您可以看到容量狀態、訂閱到期狀態和跨訂閱的 Keystone 版本等關鍵指標。若要深入瞭解、請 link:../integrations/keystone-bluexp.html["BlueXP 中的 Keystone 儀表板"]參閱。
 
-* *訂閱編號*：NetApp指派的Keystone訂閱訂閱的訂閱編號。
-* *追蹤ID*：訂閱啟動時指派的追蹤ID。這是每個訂閱和網站的唯一ID、用於追蹤訂閱。
++
+您可以從表中看到以下詳細資訊：
+
++
+** *訂閱編號*：NetApp 指派的 Keystone 訂閱的訂閱編號。
+** *追蹤ID*：訂閱啟動時指派的追蹤ID。這是每個訂閱和網站的唯一ID、用於追蹤訂閱。
+** *客戶名稱*：與 Keystone 訂閱相關的客戶的名稱。
+** *關聯訂閱*：如果您有任何與主訂閱關聯的次要訂閱，此列會列出主訂閱的關聯訂閱號碼。此訂閱編號可以是主訂閱的編號，也可以是次要（關聯）訂閱的編號。
+** *Keystone 版本*：訂閱的 Keystone 服務的版本。
+** *計費週期*：訂閱的發票週期。
+** *效能服務等級*：與訂閱相關的費率方案數量，每個費率方案對應特定的效能服務等級和承諾容量。
+** *最高容量*：訂閱內消耗的最大容量。
+** *訂閱到期天數*：訂閱到期前剩餘的天數。
 +
 
-TIP: 如果您已訂閱進階資料保護附加服務、則可以按一下訂閱號碼上的工具提示、在 MetroCluster 設定中檢視合作夥伴訂閱的追蹤 ID 。若要瞭解如何檢視 MetroCluster 組態中合作夥伴訂閱的詳細使用量link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster["進階資料保護的參考圖表"]，請參閱。
-
-* * 使用類型 * ：您可能已訂閱多個 Keystone （版本 1 ）或 Keystone STaaS （版本 2 ）訂閱。服務層級的費率計畫規則可能會因兩種訂閱類型而異。透過查看此欄中的值，您就知道使用類型是根據或的已配置、實體或邏輯使用量計費 `v1` `v2`。若要深入瞭解基礎概念訂閱第 1 版、請 https://docs.netapp.com/us-en/keystone/index.html["適用於此產品的文件NetApp Keystone"^]參閱。
-* * 帳單期間 * ：訂閱的帳單期間、例如每月、每季或每年。
-* *開始日期*：訂閱的開始日期。
-* * 結束日期 * ：訂閱的結束日期。如果您有每月自動更新的計費月訂閱、您會看到 `Month-on-month` 而非結束日期。根據這個日期、您可能會看到即將結束或附加自動續約原則的訂閱通知。
-* * 使用狀態 * ：顯示使用量指標、以指出使用量是否在訂閱上限內。如果您想要檢視最高使用量記錄、可以依此欄排序清單。
-* image:subs-dtls-icon.png["圖示"]：按一下此圖示即可開啟 * 目前使用量 * 索引標籤、其中包含該訂閱的使用詳細資料。
-* image:aiq-ks-time-icon.png["圖示"]：按一下此圖示會開啟 * 使用趨勢 * 索引標籤、您可以在其中查看此訂閱所包含之每個服務層級的歷史使用資料。
+TIP: 您可以使用列選擇器自訂表中顯示的列image:column-selector.png["列選擇器圖示"]圖示.對於某些欄位和欄、您可能會看到資訊或警告圖示和工具提示、提供您有關資料的其他資訊。
 
 
+
+. 您可以選擇「效能服務等級」子選項卡來查看所有訂閱的效能服務等級。
++
+image:bxp-performance-levels.png["查看所有訂閱的性能服務級別"]
+
++
+** *跨訂閱的效能服務等級*：顯示跨訂閱的效能服務等級的數量。
+** *跨訂閱的配置一致性*：顯示過度配置和配置不足的效能服務等級的計數。
++
+您可以查看效能服務等級的列表，包括客戶名稱、訂閱號碼、效能服務等級類型、磁碟區總數及其 QoS 合規性狀態等關鍵詳細資訊。表格還顯示受保護磁碟區的數量、已提交容量、已使用容量、已配置容量、可用容量（包含和不包含突發容量）以及累計突發容量。
+
+
+
+
+
+--
+.數位顧問
+--
+若要在 Digital Advisor 中查看您的訂閱，請按照以下步驟操作：
+
+.步驟
+. 從 Digital Advisor 左側導覽窗格中，前往 *常規 > Keystone 訂閱 > 訂閱*。
++
+您可以在此處查看所有訂閱，並獲得每個訂閱的詳細見解。
+
++
+image:all-subs-3.png["訂閱索引標籤的影像"]
+
++
+對於某些欄位和欄、您可能會看到資訊或警告圖示和工具提示、提供您有關資料的其他資訊。
+
++
+** *訂閱編號*：NetApp指派的Keystone訂閱訂閱的訂閱編號。
+** *追蹤ID*：訂閱啟動時指派的追蹤ID。這是每個訂閱和網站的唯一 ID。
++
+
+TIP: 如果您已訂閱進階資料保護附加服務、則可以按一下訂閱號碼上的工具提示、在 MetroCluster 設定中檢視合作夥伴訂閱的追蹤 ID 。若要查看 MetroCluster 配置中合作夥伴訂閱的詳細消耗情況，請參閱link:../integrations/consumption-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster["進階資料保護的參考圖表"] 。
+
+** *使用類型*：您可能訂閱了多個 Keystone 版本。不同訂閱版本的效能服務等級費率方案規則可能有所不同。透過查看此列中的值，您可以了解使用類型是按預置用量、物理用量還是邏輯用量計費。要了解有關版本 1 的更多信息，請參閱 https://docs.netapp.com/us-en/keystone/index.html["Keystone 訂閱服務 | 版本 1 文檔"^] 。
+** *計費週期*：訂閱的發票週期。
+** *開始日期*：訂閱的開始日期。
+** * 結束日期 * ：訂閱的結束日期。如果您有每月自動更新的計費月訂閱、您會看到 `Month-on-month` 而非結束日期。根據這個日期、您可能會看到即將結束或附加自動續約原則的訂閱通知。
+** * 使用狀態 * ：顯示使用量指標、以指出使用量是否在訂閱上限內。如果您想要檢視最高使用量記錄、可以依此欄排序清單。
+** image:subs-dtls-icon.png["圖示"]：按一下此圖示即可開啟 * 目前使用量 * 索引標籤、其中包含該訂閱的使用詳細資料。
+** image:aiq-ks-time-icon.png["圖示"] ：點擊此圖示將開啟「消費趨勢」標籤，您可以在其中查看此訂閱中包含的每個效能服務等級的歷史使用情況資料。
++
 您可以參閱下列使用指標、查看每個訂閱的使用狀態：
 
++
 image:usage-indicator-2.png["圖示"]
 
++
 .索引
-image:icon-grey.png["灰點圖示"]：未記錄服務層級已認可容量的容量使用量image:icon-green.png["綠點圖示"]：使用量正常、在承諾容量的80%內image:icon-amber.png["琥珀色圓點圖示"]：最大使用量、亦即使用量即將達到100%或以上的已認可容量。「*已用*」欄會針對超過承諾容量80%的任何使用量、顯示此指標image:icon-red.png["紅點圖示"]：使用量在連拍限制之內。「尖峰消耗」是指服務層級100%承諾容量的耗用量、且在議定的高載使用量限制範圍內、例如120%image:icon-purple.png["紫色圓點圖示"]：表示耗用量超過規定的突發量限制
+image:icon-grey.png["灰點圖示"] ：沒有記錄性能服務等級承諾容量的容量使用情況image:icon-green.png["綠點圖示"] ：消耗正常，在承諾容量的80％以內image:icon-amber.png["琥珀色圓點圖示"] ：最大消耗量，即使用量即將達到承諾容量的 100% 或以上。任何超過承諾容量 80% 的消耗量都會在「已消耗」欄位中顯示此指標。 image:icon-red.png["紅點圖示"] ：消耗量在突發限制範圍內。突發消耗量是指超過性能服務等級 100% 承諾容量的消耗量，且在約定的突發使用限制範圍內，例如 120% image:icon-purple.png["紫色圓點圖示"] ：表示消耗量超出規定的突發限制
 
+
+
+
+
+--
+====
 *相關資訊*
 
-* link:../integrations/aiq-keystone-details.html["使用 Keystone 儀表板和報告"]
-* link:../integrations/current-usage-tab.html["目前使用量"]
-* link:../integrations/capacity-trend-tab.html["消費趨勢"]
-* link:../integrations/volumes-objects-tab.html["Volume  ；物件"]
-* link:../integrations/assets-tab.html["資產"]
-* link:../integrations/performance-tab.html["效能"]
+* link:../integrations/dashboard-overview.html["了解 Keystone 儀表板"]
+* link:../integrations/current-usage-tab.html["查看您目前的消費詳情"]
+* link:../integrations/consumption-tab.html["檢視消費趨勢"]
+* link:../integrations/subscription-timeline.html["查看您的訂閱時間表"]
+* link:../integrations/assets-tab.html["查看您的 Keystone 訂閱資產"]
+* link:../integrations/assets.html["查看 Keystone 訂閱中的資產"]
+* link:../integrations/volumes-objects-tab.html["查看捲和物件的詳細信息"]
 

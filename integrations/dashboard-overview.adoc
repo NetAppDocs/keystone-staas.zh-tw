@@ -1,0 +1,102 @@
+---
+sidebar: sidebar 
+permalink: integrations/dashboard-overview.html 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard 
+summary: 作為 NetApp Keystone STaaS 訂閱者，您可以從 NetApp BlueXP 或 Digital Advisor 取得訂閱概覽。 
+---
+= 了解 Keystone 儀表板
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone 儀表板是您高效監控、分析和管理 Keystone 訂閱的首選解決方案。透過 Keystone 儀表板，您可以實現以下目標：
+
+* *監控訂閱詳情*：查看有關您的 Keystone 訂閱的詳細信息，包括效能服務等級、容量使用情況、資產和警報。
+* *追蹤容量使用情況並產生報告*：追蹤當前和歷史容量使用情況，並產生報告以分析訂閱數據並做出明智的決策。
+* *查看訂閱時間表*：透過監控訂閱時間表，隨時了解關鍵日期和事件。
+* *管理訂閱*：根據您的需求變更提交修改效能服務等級或其他訂閱參數的請求。
+* *分析捲和對象*：深入了解訂閱的捲和對象，包括其捲和對象級別的容量。
+
+
+
+
+== 造訪 Keystone 儀表板
+
+您可以透過以下方式存取 Keystone 儀表板：
+
+* *BlueXP*：從 BlueXP 中的 *Storage > Keystone > Overview* 存取儀表板。若要深入瞭解、請 link:../integrations/keystone-bluexp.html["BlueXP 中的 Keystone 儀表板"^]參閱。
+* *Active IQ Digital Advisor*（也稱為 Digital Advisor）：從 Digital Advisor 中的 *General > Keystone Subscriptions* 存取儀表板。若要深入瞭解、請 link:../integrations/keystone-aiq.html["Digital Advisor 中的 Keystone 儀表板"^]參閱。
+
+
+請注意下列事項：
+
+* 雖然 BlueXP 和 Digital Advisor 提供了一些獨特功能，但 BlueXP 為 Keystone 提供了管理功能，讓您可以管理訂閱並進行必要的調整。
+* 您必須被指派 *Keystone admin* 角色才能修改訂閱。若要深入瞭解、請 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["瞭解 BlueXP  存取角色"^]參閱。
+* Digital Advisor 與 BlueXP 集成，可讓您直接從 BlueXP 存取所有 Digital Advisor 功能，包括 Keystone 儀表板。若要深入瞭解、請 link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html#integration-overview["數位顧問與BlueXP整合"^]參閱。
+
+
+
+
+== BlueXP 和 Digital Advisor 中的 Keystone 功能
+
+下表顯示了 BlueXP 和 Digital Advisor 中功能的可用性，幫助您快速確定適合您需求的平台：
+
+|===
+
+
+| *功能* | *藍色XP* | *數位顧問* 
+
+
+ a| 
+link:../integrations/subscriptions-tab.html["查看您的訂閱詳情"]
+| 是的 | 是的 
+
+
+ a| 
+link:../integrations/current-usage-tab.html["監控當前和歷史容量使用情況"]
+| 是的 | 是的 
+
+
+ a| 
+link:../integrations/subscription-timeline.html["追蹤訂閱時間表"]
+| 是的 | 否 
+
+
+ a| 
+link:../integrations/assets-tab.html["查看與 Keystone 訂閱相關的資產"]
+| 是的 | 是的 
+
+
+| link:../integrations/assets.html["查看多個 Keystone 訂閱中的資產"] | 是的 | 否 
+
+
+ a| 
+link:../integrations/modify-subscription.html["修改您的訂閱"] （僅限 Keystone 管理員）
+| 是的 | 否 
+
+
+ a| 
+link:../integrations/options.html#generate-reports-from-bluexp-or-digital-advisor["產生報告"]
+| 是的 | 是的 
+
+
+ a| 
+link:../integrations/volumes-objects-tab.html["檢視磁碟區和物件詳細資料"]
+| 是的 | 是的 
+
+
+ a| 
+link:../integrations/performance-tab.html["檢視效能指標"]
+| 否 | 是的 
+|===
+*相關資訊*
+
+* link:../integrations/dashboard-access.html["開始使用 Keystone 儀表板"]
+* link:../integrations/keystone-bluexp.html["BlueXP 中的 Keystone 儀表板"]
+* link:..//integrations/keystone-aiq.html["Digital Advisor 中的 Keystone 儀表板"]
+

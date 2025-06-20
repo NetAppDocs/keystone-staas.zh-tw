@@ -30,9 +30,9 @@ NOTE: SLA 和保證均以提名方式提供。
 
 
 
-== 服務層級
+== 績效服務水準
 
-ONTAP Flash 儲存陣列支援的所有服務層級都符合可用度 SLA 的資格。若要深入瞭解、請 link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Keystone 中的服務層級"]參閱。
+ONTAP 快閃記憶體儲存陣列支援的所有效能服務等級均符合可用性 SLA 的資格。若要深入瞭解、請 link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Keystone 中的效能服務級別"]參閱。
 
 
 
@@ -82,8 +82,8 @@ ONTAP Flash 儲存陣列支援的所有服務層級都符合可用度 SLA 的資
 其中：
 
 * * 受影響容量 * ：受影響的儲存容量量。
-* * 總認可容量 * ： Keystone 訂單服務層級的認可容量。
-* * 容量費用 * ：當月受影響服務層級的費用。
+* *總承諾容量*：Keystone 訂單的效能服務等級的承諾容量。
+* *容量費用*：該月受影響性能服務等級的費用。
 * * 信用百分比 * ：服務信用的預定百分比。
 
 

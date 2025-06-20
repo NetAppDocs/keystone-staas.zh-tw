@@ -14,7 +14,7 @@ summary: 永續性、 SLA 、服務層級協議
 
 
 [role="lead"]
-NetApp Keystone 保證根據具有永續性 SLA 的 ONTAP Flash 儲存陣列、提供儲存服務的每 TB 實際瓦特數上限（ W/TiB ）。永續性 SLA 定義了每個合格服務層級的 W/TiB 最大使用量、協助組織達成永續性目標。
+NetApp Keystone 保證根據具有永續性 SLA 的 ONTAP Flash 儲存陣列、提供儲存服務的每 TB 實際瓦特數上限（ W/TiB ）。可持續性 SLA 定義了每個合格效能服務等級的最大 W/TiB 消耗量，以幫助組織實現其永續性目標。
 
 
 NOTE: SLA 和保證均以提名方式提供。
@@ -26,7 +26,7 @@ NOTE: SLA 和保證均以提名方式提供。
 * * 瓦特 * ：每日 AutoSupport 所報告的耗電量、包括控制器和附加磁碟櫃的使用量。
 * * Tebibytes* ：最大值：
 +
-** 服務層級的已認可容量 + 已分配的突發容量、或
+** 承諾容量 + 性能服務等級的分配突發容量，或
 ** 假設儲存效率係數為，則為有效部署容量 `2:1`。
 
 
@@ -37,7 +37,7 @@ NOTE: SLA 和保證均以提名方式提供。
 
 
 
-== 服務層級
+== 績效服務水準
 
 永續性 SLA 以下列使用條件為基礎：
 
@@ -61,7 +61,7 @@ NOTE: SLA 和保證均以提名方式提供。
 效能
 | <= 4 W/TiB | 300. TiB | AFF A800 和 AFF A900 
 |===
-若要深入瞭解、請 link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Keystone 中的服務層級"]參閱。
+若要深入瞭解、請 link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Keystone 中的效能服務級別"]參閱。
 
 
 

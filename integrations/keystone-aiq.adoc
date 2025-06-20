@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/keystone-aiq.html 
-keywords: Keystone, Digital Advisor, keystone-aiq, aiq 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, dashboard overview, manage subscriptions, monitor 
 summary: 身為 NetApp Keystone STaaS 訂閱者、您可以從數位顧問儀表板取得訂閱的概觀。 
 ---
-= Keystone 儀表板總覽
+= Digital Advisor 中的 Keystone 儀表板
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,28 +14,21 @@ summary: 身為 NetApp Keystone STaaS 訂閱者、您可以從數位顧問儀表
 
 
 [role="lead"]
-身為 NetApp Keystone STaaS 訂閱者、您可以在 Active IQ 數位顧問（也稱為數位顧問）儀表板的 * 基礎概念訂閱 * 小工具上、取得訂閱的概觀。
+身為 NetApp Keystone STaaS 訂閱者，您可以在 Digital Advisor 儀表板的 *Keystone 訂閱* 小工具上查看您的訂閱概覽。
 
-您可以輸入客戶或報價表名稱的前三個字元、或 Keystone 訂閱號碼、來搜尋 Keystone 訂閱。如需如何依報價表搜尋 Keystone STaaS 訂閱的相關資訊、請參閱 link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["使用 Keystone 觀察名單進行搜尋"]。
+您可以透過輸入客戶或追蹤清單名稱的前三個字符，或 Keystone 訂閱編號來搜尋特定的 Keystone 訂閱。有關如何按關注列表搜尋 Keystone STaaS 訂閱的信息，請參閱link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["使用 Keystone 觀察名單進行搜尋"] 。
 
 Digital Advisor 提供統一化的儀表板、可透過 * 切換至舊的 / 新的儀表板 * 按鈕、深入瞭解不同層級的訂閱資料和使用資訊。
 
 .預設（舊）儀表板
-您可以根據訂閱的服務層級、查看您的客戶名稱和訂閱編號、帳戶名稱、訂閱的開始和結束日期、以及容量使用量圖表。您可以查看使用資料的收集時間戳記（以 UTC 時間為單位）。
+您可以查看您的客戶名稱和訂閱號碼、帳戶名稱、訂閱的開始和結束日期以及按照您訂閱的效能服務等級的容量使用量圖表。您可以查看使用資料的收集時間戳記（以 UTC 時間為單位）。
 
 image:old-db-2.png["舊儀表板"]
 
 .替代（新）儀表板
 您可以根據訂閱內容、查看容量使用量的分項、以及需要立即注意或採取行動的警告和警示。資訊會根據您的訂閱和使用狀態、選擇性地顯示。您可以檢視以下資訊：
 
-* * 容量使用量 * ：使用資料、例如：
-+
-** 無使用。
-** 使用量超過承諾容量的 80% 。
-** 突發使用量。
-** 消耗高於突發容量。
-
-
+* *容量使用情況*：無使用、消耗量超過承諾容量的 80%、突發使用量、超出突發容量的消耗量等消耗資料。
 * * 警示 * ：您可以查看各種情境的警示（如果適用）。
 +
 ** * 即將到期 * ：萬一您的訂閱在 90 天內到期。
@@ -50,19 +43,31 @@ TIP: 按一下 * 訂閱 * 連結、即可在 * 訂閱 * 索引標籤中檢視篩
 
 image:new-db-4.png["全新儀表板"]
 
-如需有關Keystone的Digital Advisor儀表板小工具的詳細資訊、請參閱 https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["數位顧問文件"^]。
+您可以按一下「查看所有訂閱」以在「Keystone 訂閱」頁面上查看卷的使用詳情和警報。
 
-如需Keystone儀表板和報告的詳細資訊、請參閱 link:../integrations/aiq-keystone-details.html["Keystone訂閱儀表板與報告"]。
+訂閱的詳細資訊、每個效能服務等級的使用情況圖表以及磁碟區詳細資訊顯示在 *Keystone 訂閱* 螢幕上的不同標籤中。
+
+
+NOTE: Keystone 訂閱的容量使用量會顯示在儀表板和報告的 Tibs 中、並四捨五入至兩位小數位數。如果使用量少於 0.01 TiB，則數值顯示為 0 或無使用量。這些畫面上的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時、系統會自動將其視為 UTC 時間。若要深入瞭解使用量標準、請 link:../concepts/metrics.html#metrics-measurement["指標測量"]參閱。如需 Keystone 中使用之不同容量的相關資訊，請參閱 link:../concepts/supported-storage-capacity.html["支援的儲存容量"]。
 
 
 
 == 依 Keystone 觀察名單搜尋
 
-報價表是一項功能性的 Digital Advisor 。如需相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["瞭解觀察名單"^]。如需建立報價表的相關資訊、請參閱 https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["建立觀察名單"^]。
+關注清單是 Digital Advisor 的一項功能。如需相關資訊，請參閱 https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["瞭解觀察名單"^]。有關建立關注清單的信息，請參閱 https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["建立觀察名單"^] 。
 
-對於 Keystone STaas 、您可以為客戶或訂閱號碼建立報價表。您可以在 Digital Advisor 畫面上依報價表名稱進行搜尋。在依報價表搜尋時、您可以在 * 基礎概念訂閱 * 小工具的 * 訂閱 * 下拉式清單中檢視客戶及其訂閱內容。
+您可以為客戶或訂閱號碼建立關注列表，並在 Digital Advisor 螢幕上使用訂閱號或關注列表名稱的前三個字元搜尋 Keystone 訂閱。按關注清單名稱搜尋時，您可以在 *Keystone 訂閱* 小工具的 *訂閱* 下拉清單中查看客戶及其訂閱。
 
 
 NOTE: 依觀察名單搜尋會擷取舊儀表板上的訂閱清單。如果報價表包含訂閱號碼、數位顧問儀表板上只會顯示 * 基礎概念訂閱 * 小工具。
 
 image:watchlist.png["觀察名單畫面"]
+
+*相關資訊*
+
+* link:../integrations/dashboard-access.html["開始使用 Keystone 儀表板"]
+* link:../integrations/keystone-bluexp.html["BlueXP 中的 Keystone 儀表板"]
+* link:../integrations/subscriptions-tab.html["查看您的訂閱詳情"]
+* link:../integrations/current-usage-tab.html["查看您目前的消費詳情"]
+* link:../integrations/consumption-tab.html["檢視消費趨勢"]
+
