@@ -33,7 +33,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 * 隨時了解有關您的儲存環境的最新資訊。
 
 
-首先，前往 BlueXP 左側導覽功能表中的 *儲存 > Keystone*。若要深入瞭解、請 link:../integrations/dashboard-overview.html["Keystone 儀表板總覽"^]參閱。
+首先，前往 BlueXP 左側導覽功能表中的 *儲存 > Keystone*。若要深入瞭解、請 link:../integrations/dashboard-overview.html["Keystone 儀表板總覽"]參閱。
 
 
 
@@ -245,7 +245,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 === 增強數位顧問的搜尋體驗
 
-* 數位顧問 * 畫面上的搜尋參數現在包括 Keystone 訂閱號碼和為 Keystone 訂閱所建立的報價表。您可以輸入訂閱號碼或報價表名稱的前三個字元。如需詳細資訊、請參閱 link:../integrations/keystone-aiq.html["檢視 Active IQ Digital Advisor 上的 Keystone 儀表板"^]。
+* 數位顧問 * 畫面上的搜尋參數現在包括 Keystone 訂閱號碼和為 Keystone 訂閱所建立的報價表。您可以輸入訂閱號碼或報價表名稱的前三個字元。如需更多資訊、請參閱 link:../integrations/keystone-aiq.html["在 Active IQ Digital Advisor 上查看 Keystone 儀表板"^]。
 
 
 

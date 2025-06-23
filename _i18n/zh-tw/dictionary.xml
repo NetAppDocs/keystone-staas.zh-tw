@@ -985,7 +985,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="8414d36b2c6d9865a2f13b42f9ef6e91" category="list-text">StorageGRID<block ref="eb0ecbdf20891e5963990e2643405555" prefix=" " category="inline-code"></block> 應安裝或更新版本。如需升級StorageGRID 功能的相關資訊、請參閱 <block ref="97cb3175bb06374adaf739435d4e2f76" category="inline-link-macro-rx"></block>。</block>
   <block id="cc3265dfeccaee5313f6c701aeabcbef" category="paragraph">Keystone服務可讓您在服務層級的已認可容量上使用額外容量。這是突發容量使用量。請注意以下幾點：</block>
   <block id="3b41a0b0d60e10655d8e46d1aa287167" category="paragraph">對於 StorageGRID 、此索引標籤會顯示物件儲存的節點實體使用量。</block>
-  <block id="fedde9784414f0bd446228cb74aaacf0" category="doc">檢視 Active IQ Digital Advisor 上的 Keystone 儀表板</block>
   <block id="88895084439cc3245895b1c40dc5b078" category="inline-link-macro">使用 Keystone 觀察名單進行搜尋</block>
   <block id="d3e5b7c94097697f92f75fe7c9a676ee" category="inline-link">瞭解觀察名單</block>
   <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="inline-link">建立觀察名單</block>
@@ -1091,7 +1090,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="ea3ad566bfcd2ac55a05e379fea714ae" category="section-title">「 Volume &amp; Objects 」標籤的改良功能</block>
   <block id="6ad955f8db98d8ed19318103d65c2e9e" category="paragraph">為了讓 ONTAP 系統磁碟區更清晰、 * Volume Summary* 和 * Volume Details* 這兩個新的標籤按鈕已新增至 * Volumes * 標籤。「 * Volume Summary 」（ Volume 摘要）標籤提供與您訂閱服務層級相關的整體磁碟區數、包括其 AQO 法規遵循狀態和容量資訊。「 * Volume 詳細資料 * 」標籤會列出所有磁碟區及其詳細資料。如需詳細資訊、請參閱 <block ref="0c9c36fd88d6d1691d6b8530f58f9df1" category="inline-link-macro-rx"></block>。</block>
   <block id="ffc90471d60beedeebd1bec70e84713d" category="section-title">增強數位顧問的搜尋體驗</block>
-  <block id="319bd990fc36968d386d4c3f598a29fd" category="paragraph">* 數位顧問 * 畫面上的搜尋參數現在包括 Keystone 訂閱號碼和為 Keystone 訂閱所建立的報價表。您可以輸入訂閱號碼或報價表名稱的前三個字元。如需詳細資訊、請參閱 <block ref="c826e26c505d1b69fb1131472ac8bd8b" category="inline-link-macro-rx"></block>。</block>
   <block id="3b9d95910ae505ff384ac8c7f9b6dcc8" category="section-title">檢視使用資料的時間戳記</block>
   <block id="c150a924cf5d23ea89fef0c5a97a423c" category="paragraph">您可以在 *Keystone Subscriptions * Widget 的舊儀表板上檢視使用資料時間戳記（以 UTC 為單位）。</block>
   <block id="bb75ba9ba1a39640512ae927c3d1d555" category="paragraph">如果在分層和物件儲存的速率計畫均適用的環境中同時啟用 MetroCluster 和 FabricPool 、則鏡射磁碟區（組成磁碟區和 FabricPool 磁碟區）的服務層級可能會不正確地衍生。</block>
@@ -2043,7 +2041,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="7fdbb259eae173e23f83dbc4823d28da" category="list-text">在一個地方查看所有訂閱詳細資訊、容量使用情況和資產。</block>
   <block id="4cc15c3d51785ada1c6ba9fa1e1e13b0" category="list-text">輕鬆管理訂閱並隨著需求的變化請求更改。</block>
   <block id="c946fc133c6959483805e8ee848d8d3c" category="list-text">隨時了解有關您的儲存環境的最新資訊。</block>
-  <block id="2c6f80a02f204c95b2526cd8b3ed8a3d" category="paragraph">首先，前往 BlueXP 左側導覽功能表中的 *儲存 &gt; Keystone*。若要深入瞭解、請 <block ref="56c005390e18ed3fc678d99304335b8b" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="3333da176d4a8198f75554f32246449b" category="paragraph">Keystone進階資料保護服務可同步將資料鏡射至次要站台。萬一主站台發生災難、二線站台可以接管、而不會遺失任何資料。此功能會利用兩個站台之間的 MetroCluster 組態來啟用資料保護。您只能將進階資料保護附加服務用於檔案和區塊儲存服務。作為此附加服務的一部分， <block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block>效能服務等級已指派給您的訂閱。有關 ONTAP MetroCluster 的信息，請參閱<block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block> 。</block>
   <block id="fae22dda3b161bc9a9e770f8b7e7a634" category="paragraph">有關如何查看 MetroCluster 配置中的使用情況的信息，請參閱<block ref="0e74b0f4cd2655beb5f463b480ef4016" category="inline-link-macro-rx"></block>。</block>
   <block id="9b83bd6bb9b0235168f39a4c45d8529f" category="paragraph">承諾容量是指您在購買訂閱時所承諾的容量。承諾容量和突發容量是按照效能服務等級來衡量的。耗用容量是工作負載實際使用的容量。</block>
@@ -2144,8 +2141,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="78f16df6a5b0438594a4fa4f37d98a5c" category="paragraph">Digital Advisor 中 Keystone 資訊中心的「資產」標籤包含兩個子選項卡：「ONTAP」和「StorageGRID」。此索引標籤會根據您的訂閱內容，針對 ONTAP 和 StorageGRID 網格層級資訊，收集叢集層級資訊，並以準確的詳細資料來分隔和呈現資料。您可以點擊對應的子選項卡查看這些資訊。</block>
   <block id="1791af906b11350f983a0d6f4a05b003" category="list-text">按一下「*常規&gt;Keystone 訂閱&gt;資產&gt; ONTAP*」。</block>
   <block id="2e0c1e32a689de05dc5b6936554aa208" category="list-text">按一下“*常規&gt;Keystone 訂閱&gt;資產&gt;StorageGRID*”。</block>
-  <block id="4e1965b33a83b74f0b9c0485effe004d" category="inline-link-macro">了解 Keystone 儀表板</block>
-  <block id="48ac6c8ab5d34ac1ef31df1501f7193b" category="list-text"><block ref="48ac6c8ab5d34ac1ef31df1501f7193b" category="inline-link-macro-rx"></block></block>
   <block id="89187807f1d3a38ba47c39436238568b" category="inline-link-macro">查看您的訂閱詳情</block>
   <block id="d089d9324be75f27b66b73791a761d09" category="list-text"><block ref="d089d9324be75f27b66b73791a761d09" category="inline-link-macro-rx"></block></block>
   <block id="08e53dd6141c0dabc389bde84c2d53cc" category="inline-link-macro">查看您目前的消費詳情</block>
@@ -2237,7 +2232,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="331c11b73c128b4850cdd7086b4a560e" category="paragraph">對於所選訂閱、您可以檢視詳細資料、例如訂閱的開始和結束日期、以及計費期間、例如每月或每年。作為訂閱使用情況的一部分，您可以查看效能服務等級名稱、已提交容量、已消耗容量、可用容量以及當前和累積的突發使用量（以 TiB 為單位）。記錄較高消耗量的特定效能服務等級會被反白顯示。您也可以檢視針對磁碟區所產生的警告和警示。</block>
   <block id="a12c5209e0b6f159824dc99eb2aa1fae" category="paragraph">有關 Keystone 儲存服務和相關效能服務等級的信息，請參閱<block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block> 。</block>
   <block id="650aabb15f65ca532cbe5cd72295c5b4" category="summary">作為 NetApp Keystone STaaS 訂閱者，您可以透過 NetApp BlueXP 或 Digital Advisor 存取 Keystone 儀表板</block>
-  <block id="8215bcb478e68aed5d5b6ae1aaf7d85c" category="doc">開始使用 Keystone 儀表板</block>
   <block id="a398ed77d3e75fe470592e5292f470df" category="paragraph">訂閱 NetApp Keystone 服務後，您可以透過 NetApp BlueXP 或 Digital Advisor 存取 Keystone 儀表板。</block>
   <block id="69613a6744dc452d818ae93a3ca6e67e" category="inline-link-macro">登入 BlueXP</block>
   <block id="537b2a09c10fe6380b0b9b2e62813916" category="paragraph">若要登入 BlueXP，您可以使用您的 NetApp 支援網站憑證，也可以使用您的電子郵件和密碼註冊 BlueXP。深入瞭解 <block ref="f004bb99255f2fe182e7d54b421131c5" category="inline-link-macro-rx"></block>。</block>
@@ -2255,7 +2249,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="993666c3d95ac6fd97ba90eab93b4de7" category="list-text"><block ref="993666c3d95ac6fd97ba90eab93b4de7" category="inline-link-macro-rx"></block></block>
   <block id="2d6e1b228a12f4c76c76939e28065d07" category="list-text"><block ref="2d6e1b228a12f4c76c76939e28065d07" category="inline-link-macro-rx"></block></block>
   <block id="0d6763bb3d700853734d496f9813b0a3" category="summary">作為 NetApp Keystone STaaS 訂閱者，您可以從 NetApp BlueXP 或 Digital Advisor 取得訂閱概覽。</block>
-  <block id="906dfc8ca7b5b5b9510116365a8882a1" category="doc">了解 Keystone 儀表板</block>
   <block id="85d148be40895e3d0f9c047d8b0e01b1" category="paragraph">Keystone 儀表板是您高效監控、分析和管理 Keystone 訂閱的首選解決方案。透過 Keystone 儀表板，您可以實現以下目標：</block>
   <block id="2bf64d92e1a315894ffc10df4f760430" category="list-text">*監控訂閱詳情*：查看有關您的 Keystone 訂閱的詳細信息，包括效能服務等級、容量使用情況、資產和警報。</block>
   <block id="80e1eadef41b346546973348e209664d" category="list-text">*追蹤容量使用情況並產生報告*：追蹤當前和歷史容量使用情況，並產生報告以分析訂閱數據並做出明智的決策。</block>
@@ -2290,7 +2283,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="f9eade15df63147aad555cc771e3c457" category="inline-link-macro">檢視磁碟區和物件詳細資料</block>
   <block id="0fbbeb712322bc30085f9aee131d6509" category="paragraph"><block ref="0fbbeb712322bc30085f9aee131d6509" category="inline-link-macro-rx"></block></block>
   <block id="73be3087ebbe8024dbe143136c7e4de9" category="paragraph"><block ref="73be3087ebbe8024dbe143136c7e4de9" category="inline-link-macro-rx"></block></block>
-  <block id="a30438022816f4866ad2630868499b34" category="list-text"><block ref="a30438022816f4866ad2630868499b34" category="inline-link-macro-rx"></block></block>
   <block id="9aaf8363f81e284f69e7fde67620d13d" category="paragraph">身為 NetApp Keystone STaaS 訂閱者，您可以在 Digital Advisor 儀表板的 *Keystone 訂閱* 小工具上查看您的訂閱概覽。</block>
   <block id="f088b46dea7c8698a4a3ffba9949c4e8" category="paragraph">您可以透過輸入客戶或追蹤清單名稱的前三個字符，或 Keystone 訂閱編號來搜尋特定的 Keystone 訂閱。有關如何按關注列表搜尋 Keystone STaaS 訂閱的信息，請參閱<block ref="2fe9d6682f1bd534173abd0da0d980f6" category="inline-link-macro-rx"></block> 。</block>
   <block id="4fdc1a5819480623688b04791a3827ca" category="paragraph">您可以查看您的客戶名稱和訂閱號碼、帳戶名稱、訂閱的開始和結束日期以及按照您訂閱的效能服務等級的容量使用量圖表。您可以查看使用資料的收集時間戳記（以 UTC 時間為單位）。</block>
@@ -2315,7 +2307,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="33332190daf696e98fc7a1c86abcdbe4" category="inline-image-macro">Keystone v1、v2 和 v3 版本訂閱狀況餅圖。</block>
   <block id="e3600a519e3243f8588365f4142bc1d4" category="paragraph"><block ref="e3600a519e3243f8588365f4142bc1d4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a8ce21fd73a6b04f851be6e1d6d0da63" category="list-text">* 5 個容量利用率最高的訂閱*：以表格形式顯示容量利用率最高的 5 個 Keystone 訂閱。您可以點擊「訂閱*」欄位中的訂閱編號來取得詳細資訊。</block>
-  <block id="23d538549a1bd71339f3ceb72acdae28" category="list-text"><block ref="23d538549a1bd71339f3ceb72acdae28" category="inline-link-macro-rx"></block></block>
   <block id="18524115bd307002c1e1529c109b8ffa" category="summary">修改您的 Keystone 訂閱以透過 BlueXP 變更相關效能服務等級的承諾容量。</block>
   <block id="bc7859d006be0123d59cb9e40c9f05c2" category="doc">從 BlueXP 修改您的 Keystone 訂閱</block>
   <block id="d573755317d28a3a78295193d08481f4" category="paragraph">您可以透過 BlueXP 修改 Keystone 訂閱的相關效能服務等級的承諾容量。</block>
@@ -2426,7 +2417,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="5a8bb8597adf10d995462d8dbf85f9e4" category="paragraph">Digital Advisor 的 *Keystone Subscriptions* 螢幕標籤上傳回的資料以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時、系統會自動將其視為 UTC 時間。如需更多資訊、請參閱 <block ref="78995d63a38ac6ed7571bcba2bb91195" category="inline-link-macro-rx"></block>。</block>
   <block id="373770d35b9d5cd8cd24a486a52b706b" category="paragraph">雖然兩款產品的導航功能在<block ref="b4a433674f6f10655ea1ce8bae52a1b9" category="inline-link-macro-rx"></block> ，Keystone 訂閱服務與 Keystone STaaS 在組成效能服務等級、服務提供和計費原則方面有所不同。截至 2024 年 4 月、 NetApp 僅維護和發佈 Keystone STaaas 文件。如果您仍在使用 Keystone 訂閱服務、請聯絡您的 KSM 以取得移轉至 Keystone STaaas 的支援。如有需要、您可以在此存取 PDF 版本的 Keystone 訂閱服務文件：</block>
   <block id="10ad7de63c9f85cf78150d6f5eaa55cc" category="sidebar">BlueXP 和 Digital Advisor 中的 Keystone 儀表板</block>
-  <block id="0cbbb16f8724bf82d670af3262f216cc" category="sidebar">造訪 Keystone 儀表板</block>
   <block id="e52a62b3d3e55847cd42b248736bba1b" category="sidebar">查看訂閱洞察</block>
   <block id="7c38a1a6d325208696c25a2b660d7c45" category="sidebar">檢視資產</block>
   <block id="90b170feab9928831461b78974ca9730" category="sidebar">搜尋數據並產生報告</block>
@@ -2439,4 +2429,13 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="2be8bdf6afad72e1374d8e9f15f013b7" category="sidebar">查看您的服務請求</block>
   <block id="3f775298ba0cfa10a0ca4aa35ffb3451" category="sidebar">查看捲和物件儲存詳細信息</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
+  <block id="4898fd0a5ee16e30d54e5fbe3aa21539" category="paragraph">首先，前往 BlueXP 左側導覽功能表中的 *儲存 &gt; Keystone*。若要深入瞭解、請 <block ref="5a609c392d8730053e3d7fc9f1d0ffab" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="1ed44c5a16415a7d9d45f3042a5ab4d6" category="inline-link-macro">了解 Keystone 儀表板</block>
+  <block id="d8bb10358d95aee9ba36f75f10ee0402" category="list-text"><block ref="d8bb10358d95aee9ba36f75f10ee0402" category="inline-link-macro-rx"></block></block>
+  <block id="f9aa2dce9983bf50b4dea33bd009613c" category="doc">開始使用 Keystone 儀表板</block>
+  <block id="43b3b9273a458490edbbbea1afd9f51e" category="doc">了解 Keystone 儀表板</block>
+  <block id="634ec6d4a20da0923117077874fb324e" category="list-text"><block ref="634ec6d4a20da0923117077874fb324e" category="inline-link-macro-rx"></block></block>
+  <block id="edecc7e6feeced1cf533a9de993dd568" category="list-text"><block ref="edecc7e6feeced1cf533a9de993dd568" category="inline-link-macro-rx"></block></block>
+  <block id="904d19fedb40bf9820beb309aafcf17b" category="inline-link-macro">在 Active IQ Digital Advisor 上查看 Keystone 儀表板</block>
+  <block id="ad0850f191fb8f4122711194ee92b589" category="paragraph">* 數位顧問 * 畫面上的搜尋參數現在包括 Keystone 訂閱號碼和為 Keystone 訂閱所建立的報價表。您可以輸入訂閱號碼或報價表名稱的前三個字元。如需更多資訊、請參閱 <block ref="39eccf9a0eabb6a563ce58a758fa58e9" category="inline-link-macro-rx"></block>。</block>
 </blocks>
