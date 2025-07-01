@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: concepts/burst-capacity.html 
+keywords: burst consumption, add-on service, burst capacity, burst limit, NetApp Keystone 
+summary: 使客戶能夠使用超出其承諾容量的額外儲存容量。 
+---
+= 突發容量選項
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以選擇將突發容量附加服務新增至 NetApp Keystone 訂閱。此服務可讓您將突發容量限制提升至承諾容量的 40% 或 60%，從而靈活地應對工作負載需求的意外激增。
+
+突發容量是指在訂閱承諾容量之外，可額外使用的儲存容量。它按性能服務等級進行計量和計費。預設情況下，突發容量上限設定為承諾容量的 20%。但是，使用此附加服務，您可以將上限提高到 40% 或 60%。
+
+若要將突發限制變更為 40% 或 60%，請聯絡 NetApp Keystone 支援團隊。
+
+要了解有關突發容量計費的更多信息，請參閱link:../concepts/burst-consumption-billing.html["根據尖峰使用量進行計費"] 。

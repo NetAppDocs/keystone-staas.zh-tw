@@ -34,7 +34,13 @@ summary: 從 YUM 軟體儲存庫安裝 Keystone Collector 軟體。
 . 安裝YUM軟體儲存庫檔案：
 `# yum install keystonerepo.rpm`
 . 安裝Keystone repo時、請透過YUM套件管理程式安裝Keystone收集器套件：
++
 `# yum install keystone-collector`
+
++
+對於 Red Hat Enterprise Linux 9，執行下列命令安裝 keystone-collector 套件： 
+`# yum install keystone-collector-rhel9`
+
 
 
 --

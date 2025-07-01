@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/misc-volume-billing.html 
+permalink: concepts/misc-volume-billing-v2.html 
 keywords: Billing and miscellaneous scenarios 
 summary: 瞭解特定組態的 Keystone 帳單、包括複製的磁碟區、進階資料保護等。 
 ---
@@ -14,7 +14,7 @@ summary: 瞭解特定組態的 Keystone 帳單、包括複製的磁碟區、進�
 
 
 [role="lead"]
-了解 Keystone 版本 3 (v3) 中特定配置的計費方式，可以協助您最佳化服務使用情況並管理成本。這些配置包括複製磁碟區、進階資料保護、臨時磁碟區、SnapMirror 目標、LUN 以及系統/根磁碟區。
+了解 Keystone 版本 2 (v2) 中特定配置的計費方式，可以協助您最佳化服務使用情況並管理成本。這些配置包括複製磁碟區、進階資料保護、臨時磁碟區、QoS 策略、SnapMirror 目標、LUN 以及系統/根磁碟區。
 
 
 
@@ -50,21 +50,9 @@ summary: 瞭解特定組態的 Keystone 帳單、包括複製的磁碟區、進�
 
 
 
-== SnapMirror 目的地收費
+== 計費和調適性 QoS 原則
 
-SnapMirror 目標磁碟區的定價（無論用於災難復原或長期保留）均基於分配給目標磁碟區的效能服務等級。資料保護無需額外付費。
-
-
-
-== LUN 計費
-
-對於 LUN，計費基於磁碟區的效能服務等級。
-
-
-
-== 系統和根磁碟區
-
-系統和根磁碟區會在Keystone服務的整體監控中受到監控、但不會計入或計費。這些磁碟區的使用量可免除計費。
+Keystone 會根據服務層級來測量使用量。每個服務層級都與特定的調適性服務品質（QoS）原則相關聯。在部署期間、系統會通知您所訂閱 Keystone 服務的每個調適性 QoS 原則詳細資料。在儲存管理作業期間、請確保您的磁碟區已根據您訂閱的服務層級指派適當的調適性 QoS 原則、以避免意外的計費。如需 ONTAP 中調適性 QoS 原則的詳細資訊，請參閱link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["透過 QoS 總覽來保證處理量"^]。
 
 
 

@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/burst-consumption-billing.html 
+permalink: concepts/burst-consumption-billing-v2.html 
 keywords: burst consumption billing 
 summary: Keystone STaaS 帳單是以突發容量為基礎、這是您在訂閱的承諾容量之外所消耗的容量。 
 ---
@@ -16,12 +16,12 @@ summary: Keystone STaaS 帳單是以突發容量為基礎、這是您在訂閱�
 [role="lead"]
 Keystone STaaS 計費是以 _ 突發容量 _ 為基礎、這是您在訂閱承諾容量的基礎上所消耗的容量。
 
-您的連拍限制是在Keystone協議中決定和指定的。預設情況下，該容量設定為承諾容量的 20%。您也可以選擇將突發容量限制設定為承諾容量的 40% 或 60%。若要深入瞭解、請 link:../concepts/burst-capacity.html["突發容量增加選項"]參閱。
+您的連拍限制是在Keystone協議中決定和指定的。這比承諾產能高出20%。
 
 承諾容量是指您在購買訂閱時所承諾的容量。承諾容量和突發容量是按照效能服務等級來衡量的。耗用容量是工作負載實際使用的容量。
 
-當消耗的容量大於某一性能服務等級的承諾容量時，將記錄突發消耗並相應收費。超過突發容量的使用量會顯示為「高於突發上限」。
+當消耗的容量大於某一性能服務等級的承諾容量時，將記錄突發消耗並相應收費。通常比承諾容量高出 20% 。超過突發容量的使用量會顯示為「高於突發上限」。
 
 產生的每個使用記錄都會執行此程序。因此、「暴增使用量」反映出您的過度使用容量在承諾容量之外的數量和使用期限。若要深入瞭解、請 link:../integrations/consumption-tab.html["查看 Keystone 訂閱的消費趨勢"]參閱。
 
-如需Keystone支援的不同容量資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone中支援的儲存容量"]。
+有關 Keystone 支援的不同容量的信息，請參閱link:../concepts/supported-storage-capacity-v2.html["Keystone中支援的儲存容量"] 。

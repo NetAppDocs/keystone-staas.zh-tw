@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: concepts/billing-schedules-v2.html 
+keywords: billing schedules, schedule for payment 
+summary: Keystone STaaS訂閱每月和每年都會收費。 
+---
+= 帳單排程
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone STaaS 版本 2 (v2) 的訂閱是按月或按年計費。
+
+
+
+== 每月帳單
+
+發票每月寄出一次。在下一個月內、系統會寄送一張發票給您提供服務的月份。例如、您在一月份使用的服務發票會在二月初寄送。此發票包含已確認容量的費用、以及任何突發使用量（若適用）。
+
+
+
+== 每年計費
+
+每個訂購年度開始時、系統會產生一張發票、以支付已確認容量的最低付款額。它會在訂閱開始日期產生。另一張發票會在訂閱季度結束時寄出、並將該季任何突發使用量的適用費用加總。如果已提交的容量在訂閱期間有所變更、則會在同一天針對該訂閱年其餘時間的按比例最低付款額寄送發票。計費是從提交容量變更生效的那一天開始計算。

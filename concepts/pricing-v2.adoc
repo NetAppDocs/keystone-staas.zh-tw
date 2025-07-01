@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: concepts/pricing-v2.html 
+keywords: pricing, billing introduction, Keystone billing 
+summary: Keystone 提供隨成長付費模式、滿足您靈活且可擴充的消費需求。 
+---
+= Keystone定價
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone STaaS 按使用量付費訂閱服務提供靈活且可擴展的消費，並為您的儲存需求提供可預測的預付定價。
+
+Keystone 版本 2 (v2) 為您提供以下計費功能：
+
+* 您可以根據 IOPS 和延遲承諾容量來支付費用、以滿足各種工作負載需求。不同的效能服務層級：Extreme、Premium、Performance、Standard、Value、 物件可讓您根據購買的服務層級來管理儲存設備。
+* 它提供可預測的計費方式、可針對已提交的容量、以及針對可變（突發）容量使用量的「依使用量付費」。
+* 您可以針對硬體、核心作業系統及支援選擇套裝組合價格、只需支付一美元 / TiB 的價格。每種儲存類型、檔案、區塊、物件或雲端儲存服務都有一張發票。
+* 您可以選擇靈活的服務期限和付款方式，例如按月、按季度或按年。
+
+
+Keystone計費是根據已提交的容量和可變的突發消耗量來計算。
+
+如需Keystone支援的不同容量資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone中支援的儲存容量"]。
+
+*相關資訊*
+
+* link:../concepts/committed-capacity-billing-v2.html["根據已提交的容量進行計費"]
+* link:../concepts/consumed-capacity-billing-v2.html["根據耗用容量進行計量"]
+* link:../concepts/burst-consumption-billing-v2.html["根據尖峰使用量進行計費"]
+* link:../concepts/misc-volume-billing-v2.html["根據雜項Volume類型進行收費"]
+* link:../concepts/billing-schedules-v2.html["帳單排程"]
+

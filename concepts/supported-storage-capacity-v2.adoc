@@ -1,0 +1,76 @@
+---
+sidebar: sidebar 
+permalink: concepts/supported-storage-capacity-v2.html 
+keywords: storage capacity, capacity definition, keystone STaaS storage capacity, 
+summary: 了解 NetApp Keystone STaaS 服務版本 2 支援的儲存容量類型。 
+---
+= Keystone中支援的儲存容量
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone STaaS 服務版本 2 (v2) 支援多種類型的儲存容量。瞭解這些不同的容量字詞有助於您使用 Keystone 。
+
+
+
+== 邏輯容量
+
+這是客戶放置在Keystone基礎架構上的資料。所有Keystone容量均指邏輯容量。例如、如果基礎架構上儲存了1個TiB檔案、則至少應購買1個TiB容量。
+
+
+
+== 承諾容量
+
+訂購期間每月計費的最低邏輯容量：
+
+* 容量會投入每個服務層級。
+* 在期限內、可新增已認可的容量和額外的服務層級。
+
+
+
+
+=== 已認可容量的變更
+
+在訂閱期間、您可以變更已提交的容量。不過、有些先決條件是：
+
+* 可根據特定條件減少已認可的容量。如需相關資訊、請參閱 link:../concepts/capacity-requirements.html["容量減量"]。
+* 承諾容量不得在訂閱到期前 90 天增加、除非訂閱將續約 12 個月。
+* 您可以透過 BlueXP 介面或 Keystone Success Manager (KSM) 要求變更承諾容量。如需要求變更的相關資訊，請參閱link:../concepts/gssc.html["NetApp Keystone 支援"]。
+
+
+
+
+== 已用容量
+
+耗用容量是指服務目前使用的容量（以儲存設備的TiB為單位）。總和為：
+
+* 用於儲存所有執行個體和使用者資料類型（例如複本，鏡射複本和版本）的邏輯容量。
+* 用於儲存複製磁碟區的邏輯容量，其大小超過原始磁碟區大小的 10% 。
+* 用於儲存 Snapshot 複本差異資料的實體容量。
+* 分配的實體容量。
+
+
+
+
+== 突發容量
+
+NetApp Keystone 服務可讓您在服務等級承諾容量的基礎上使用額外容量。這稱為突發容量使用。
+
+請注意以下幾點：
+
+* 「基礎概念協議」中已同意「連拍容量」。通常設定為比已認可容量高20%、而且收費率與已認可容量相同。
+* 突發容量可以彈性使用、並依每日耗用的平均量計費。
+
+
+
+
+== 計費容量
+
+每月帳單 = （提交容量 [TiB] * 提交率 [$/TiB] ） + （每日平均資源配置突發容量 [TiB] * 資源暴增率 [$/TiB] ）。每月帳單包含根據承諾容量所計算的最低費用。
+
+每月帳單金額會根據每日平均突發容量使用量而異、超過最低收費。

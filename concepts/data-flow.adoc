@@ -22,13 +22,13 @@ Keystone STaaS 系統中的資料會流經 Keystone Collector 和 ITOM 監控解
 
 Keystone 收集器會對儲存控制器啟動 REST API 呼叫、並定期取得控制器的使用詳細資料、如以下流程圖所示：
 
-image:collector-data-flow-2.png["顯示收集器元件內的資料流"]
+image:data-collector-flow.png["顯示收集器元件內的資料流"]
 
 .圖例
-. NetApp Collector會啟動HTTPS工作階段至Active IQ雲端入口網站。
+. NetApp Keystone Collector 啟動與 Keystone 雲端的連線。
 . 由客戶操作的防火牆允許連線。
-. Active IQ 雲端入口網站接受連線、並建立通往 NetApp Collector 的通道。
-. NetApp 收集器會建立一個 REST API 工作階段、連接至儲存控制器的管理連線、取得環境資料、並將其傳送至 Active IQ 入口網站。
+. Keystone Collector 直接與儲存控制器的管理連線建立 REST API 連線或透過 Active IQ Unified Manager 建立隧道來收集使用情況和效能資料。
+. 這些資料透過 HTTPS 安全地傳送到 Keystone 雲端元件。
 
 
 
@@ -37,7 +37,7 @@ image:collector-data-flow-2.png["顯示收集器元件內的資料流"]
 
 持續監控儲存基礎架構的健全狀況、是Keystone服務最重要的功能之一。針對監控與報告， Keystone 使用 ITOM 監控解決方案。下圖說明 ITOM 監控解決方案如何保護對客戶位置的遠端存取。客戶可以選擇啟用遠端工作階段功能，以便 Keystone 支援團隊連線至受監控的裝置進行疑難排解。
 
-image:monitoring-flow-1.png["資料流"]
+image:monitoring-flow-2.png["資料流"]
 
 .圖例
 . ITOM 監控解決方案閘道會啟動通往雲端入口網站的 TLS 工作階段。

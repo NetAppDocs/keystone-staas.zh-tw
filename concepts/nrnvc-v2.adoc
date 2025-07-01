@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: concepts/nrnvc-v2.html 
+keywords: Non-returnable, non-volatile components, SnapLock compliance, add-on service 
+summary: NetApp 是 NetApp Keystone 訂閱的一部分、將 NRNVC 產品延伸至您的檔案、區塊和物件服務。 
+---
+= 不可退回、非揮發性元件、以及 SnapLock 法規遵循
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+作為 NetApp Keystone 訂閱的一部分、 NetApp 將不可退回的非揮發性元件（ NRNVC ）產品延伸至您的檔案、區塊和物件服務。
+
+NetApp不會在整個服務期間或服務終止期間恢復使用的實體儲存媒體、除非NetApp以其他方式恢復提供服務時所使用的所有實體資產。
+
+您可以訂閱此附加服務、作為 Keystone 訂閱的一部分。如果您已購買此服務、請注意下列事項：
+
+* 在服務期限結束時、您不需要歸還任何磁碟機和非揮發性記憶體、也不需要在服務期限內歸還任何故障或發現故障的磁碟機和非揮發性記憶體。
+* 不過、您需要為磁碟機和/或非揮發性記憶體產生銷毀證明、而且無法用於任何其他用途。
+* 與 NRNVC 相關的額外成本、是以月總訂閱服務（包括標準服務、進階資料保護和資料分層）的百分比計費。
+* 此服務僅適用於檔案、區塊和物件服務。
+
+
+如需標準與雲端服務的相關資訊、請參閱 link:supported-storage-services.html["Keystone STaaS服務"]。
+
+有關性能服務等級的信息，請參閱link:../concepts/service-levels.html["Keystone 中的效能服務級別"] 。
+
+
+
+== 符合法規SnapLock
+
+利用此技術、NRNVC功能可在磁碟區中設定的到期日之後、使磁碟機無法使用。SnapLock若要在SnapLock 您的磁碟區上使用支援技術、您必須訂閱NRNVC。這僅適用於檔案和區塊服務。
+
+如需SnapLock 有關支援技術的資訊、請參閱 https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html["什麼是呢SnapLock"^]。

@@ -14,7 +14,7 @@ summary: 在 Linux 系統上安裝 ITOM Collector 軟體。
 
 
 [role="lead"]
-完成幾個步驟來安裝 ITOM Collector ，它會在您的儲存環境中收集度量資料。您可以根據需求，在 Windows 或 Linux 系統上安裝。
+完成幾個步驟來安裝 ITOM Collector，它會收集您的儲存環境中的指標資料。您可以根據需求，在 Windows 或 Linux 系統上安裝。
 
 
 NOTE: Keystone 支援團隊提供動態連結，可下載 ITOM Collector 安裝檔案，該檔案將在兩小時內過期。

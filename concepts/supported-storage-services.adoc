@@ -14,7 +14,14 @@ summary: Keystone STaaS 服務支援 ONTAP 和 StorageGRID 。
 
 
 [role="lead"]
-Keystone STaaS服務支援檔案與區塊儲存ONTAP 功能、StorageGRID 物件儲存功能、以及Cloud Volumes ONTAP 資料管理功能。
+Keystone STaaS 服務版本 3 (v3) 支援 NetApp 和 Cloud Volumes ONTAP 的統一、區塊最佳化和物件儲存。
+
+每種儲存類型包括：
+
+* *統一儲存*：包括檔案、區塊和 S3 物件存儲，可在 NetApp ONTAP AFF 和 FAS 系統上使用。
+* *區塊最佳化儲存*：包括 NetApp ONTAP ASA 系統上可用的區塊儲存。
+* *物件儲存*：包括 NetApp StorageGRID 系統上可用的物件儲存。
+
 
 Keystone STaaS可為您的儲存設備提供標準和選用的服務。
 
@@ -22,62 +29,37 @@ Keystone STaaS可為您的儲存設備提供標準和選用的服務。
 
 * Keystone STaaS附加服務*：這些是可選的收費服務、除了提供標準Keystone STaaS訂閱服務之外、還能提供額外的公用程式與效益。
 
-Keystone STaaS服務可以彼此共存。例如、雲端儲存訂閱可以與檔案、區塊和物件儲存訂閱共同訂閱。雲端服務可在現有儲存訂閱的服務期間內隨時納入。不過、如果您不打算續約現有的檔案、區塊和物件訂閱、則無法在訂閱的最後90天內新增雲端儲存訂閱。
+Keystone STaaS 服務可以同時使用。例如，雲端儲存訂閱的期限可以與統一儲存、區塊最佳化儲存和物件儲存訂閱的期限相同。雲端服務可在現有儲存訂閱的服務期間內隨時納入。但是，如果您不打算續訂現有的統一儲存、區塊最佳化儲存或物件儲存訂閱，則在訂閱的最後 90 天內無法新增雲端儲存訂閱。
 
 
 
-== 檔案、區塊和物件儲存服務
+== 統一、區塊最佳化和物件儲存服務
 
-Keystone STaaS服務可支援ONTAP 多StorageGRID 種功能和傳輸協定、以利資料的檔案和區塊儲存、以及物件儲存、下表說明：
+Keystone STaaS 服務適用於統一儲存、區塊最佳化儲存和物件存儲，支援多種功能和協議，如下表所述：
 
 |===
 | 儲存設備 | 平台 | 通訊協定 | 支援的功能 
 
 
  a| 
-檔案儲存設備
+統一化儲存設備
  a| 
 ONTAP
  a| 
 NFS與CIFS
  a| 
-支援ONTAP 的支援功能：
-
-* FlexVol
-* FlexGroup
-* Snapshot複本
-* SnapMirror（非同步）
-* SnapVault
-* 企業版SnapLock
-* FabricPool /雲端分層
-* SnapRestore
-* FlexClone
-* 包含授權、但並非Keystone服務的一部分、因此無法保證管理SnapCenter ）
-* 自主勒索軟體保護 ^1^
-
+支援所有 ONTAP One 功能
 
 
 
  a| 
-區塊儲存
+區塊最佳化儲存
  a| 
 ONTAP
  a| 
 FC與iSCSI
  a| 
-支援ONTAP 的支援功能：
-
-* FlexVol
-* FlexGroup
-* Snapshot複本
-* SnapMirror（非同步）
-* SnapVault
-* 企業版SnapLock
-* FabricPool /雲端分層
-* SnapRestore
-* FlexClone
-* 包含授權、但並非Keystone服務的一部分、因此無法保證管理SnapCenter ）
-
+支援所有 ONTAP One 功能
 
 
 
@@ -88,12 +70,10 @@ StorageGRID
  a| 
 S3
  a| 
-支援跨多個站台的多重資訊生命週期管理（ ILM ）原則 ^2^
+支援所有 ONTAP One 功能
 
 |===
-
-NOTE: ^1^ 如需 ONTAP 中勒索軟體保護的相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護"^]。
-^2^ 每個網站都需要個別訂閱。
+要了解有關 ONTAP One 的更多信息，請參閱link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html#licenses-included-with-ontap-one["ONTAP 授權總覽"^]和link:https://www.netapp.com/blog/ontap-one/["ONTAP One：集 ONTAP 全部功能於一身"^] 。
 
 
 

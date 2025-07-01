@@ -28,15 +28,8 @@ summary: 作為 NetApp Keystone STaaS 訂閱者，您可以搜尋和過濾資料
 
 == 從 BlueXP 或 Digital Advisor 產生報告
 
-您可以使用 BlueXP 或 Digital Advisor 中選項卡中的下載按鈕產生並查看 Keystone 資料報告。這些標籤可讓您產生訂閱、歷史使用情況、突發使用情況、效能、資產、磁碟區和物件的報表。
+您可以使用下載按鈕產生並查看 Keystone 數據報告image:bluexp-download-report-2.png["BlueXP 中的報告下載圖示 2"]可在 BlueXP 或 Digital Advisor 內的選項卡中使用。這些標籤可讓您產生訂閱、歷史使用情況、突發使用情況、效能、資產、磁碟區和物件的報表。
 
-[cols="1,1"]
-|===
-| BlueXP 中的下載按鈕 | Digital Advisor 中的下載按鈕 
-
-
-| image:bluexp-download-report-1.png["BlueXP 中的報告下載圖示 1"]或image:bluexp-download-report-2.png["BlueXP 中的報告下載圖示 2"] | image:download-report-da.png["報告下載圖示"] 
-|===
 這些詳細資料會以 CSV 格式產生、您可以儲存以供未來使用和比較。
 
 
@@ -55,7 +48,7 @@ image:report-generation.png["建立報告"]
 
 == 查看數位顧問的警報
 
-在 Digital Advisor 中，Keystone 儀表板提供警報通知，讓您了解儲存環境中出現的問題。這些通知可能會顯示為資訊警示或警告。例如、如果託管叢集內有未附加調適性QoS（AQO）原則的磁碟區、您會看到一則警告訊息。選擇警告訊息即可在「磁碟區和物件」標籤中查看不合規磁碟區的清單。
+在 Digital Advisor 中，Keystone 儀表板提供警報通知，讓您了解儲存環境中出現的問題。這些通知可能會顯示為資訊警示或警告。例如，使用 Keystone 版本 2 (v2)，如果您管理的叢集中的磁碟區沒有附加自適應 QoS (AQoS) 策略，您會看到警告訊息。選擇警告訊息即可在「磁碟區和物件」標籤中查看不合規磁碟區的清單。
 
 
 NOTE: 如果您訂閱了單一效能服務等級或費率計劃，您將無法看到不合規磁碟區的警報。

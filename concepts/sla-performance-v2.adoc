@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/sla-performance.html 
+permalink: concepts/sla-performance-v2.html 
 keywords: sustainability, sla, service level agreement, slo, service level objectives 
 summary: Keystone 為每個效能服務等級提供基於延遲的 SLO，如 Keystone 訂單中所述，用於達到突發限制的消耗容量。 
 ---
