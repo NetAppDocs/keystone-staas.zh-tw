@@ -18,7 +18,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 
 
-== 2025-06-30
+== 2025 年 6 月 30 日
 
 
 
@@ -28,7 +28,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 
 
-== 2025-06-19
+== 2025 年 6 月 19 日
 
 
 
@@ -43,11 +43,11 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 * 隨時了解有關您的儲存環境的最新資訊。
 
 
-首先，前往 BlueXP 左側導覽功能表中的 *儲存 > Keystone*。若要深入瞭解、請 link:../integrations/dashboard-overview.html["Keystone 儀表板總覽"]參閱。
+首先，前往 BlueXP 左側導覽功能表中的 *儲存 > Keystone*。若要深入瞭解、請 link:https://docs.netapp.com/us-en/keystone-staas/integrations/dashboard-overview.html["Keystone 儀表板總覽"]參閱。
 
 
 
-== 2025-01-08
+== 2025 年 1 月 08 日
 
 
 
@@ -57,7 +57,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 
 
-== 2024-12-12
+== 2024 年 12 月 12 日
 
 
 
@@ -79,7 +79,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 
 
-== 2024-11-21
+== 2024 年 11 月 21 日
 
 
 
@@ -101,7 +101,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 
 
-== 2024-11-11
+== 2024 年 11 月 11 日
 
 
 
@@ -111,7 +111,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 
 
-== 2024 年 7 月 10 日
+== 2024 年 10 月 7 日
 
 
 
@@ -141,7 +141,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 
 
-== 2024 年 5 月 29 日
+== 2024 年 29 月 5 日
 
 
 
@@ -179,7 +179,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 
 
-== 2024 年 5 月 9 日
+== 2024 年 09 月 5 日
 
 
 
@@ -237,7 +237,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 
 
-== 2024 年 2 月 29 日
+== 2024 年 29 月 2 日
 
 
 
@@ -265,7 +265,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 
 
-== 2024 年 2 月 13 日
+== 2024 年 13 月 2 日
 
 
 

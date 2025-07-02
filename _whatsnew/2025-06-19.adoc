@@ -15,4 +15,4 @@
 * 隨時了解有關您的儲存環境的最新資訊。
 
 
-首先，前往 BlueXP 左側導覽功能表中的 *儲存 > Keystone*。若要深入瞭解、請 link:../integrations/dashboard-overview.html["Keystone 儀表板總覽"]參閱。
+首先，前往 BlueXP 左側導覽功能表中的 *儲存 > Keystone*。若要深入瞭解、請 link:https://docs.netapp.com/us-en/keystone-staas/integrations/dashboard-overview.html["Keystone 儀表板總覽"]參閱。
