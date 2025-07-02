@@ -2536,4 +2536,5 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="3bae5d9e115e99cbd9c3f56c7214ff02" category="sidebar">Keystone STaaS v3 概念</block>
   <block id="66fb046e2c5f18ee0925adc05ac14d1f" category="sidebar">Keystone STaaS SLO</block>
   <block id="af7cd0085fe6b7c0200fe4c5a018cbdc" category="sidebar">Keystone STaaS v2 概念</block>
+  <block id="cfa9db7c89ff68cb147c3dad7e8b0b59" category="section-title">Keystone 版本 3 (v3) 發布</block>
 </blocks>
