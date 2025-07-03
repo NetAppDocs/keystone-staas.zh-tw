@@ -14,7 +14,7 @@ sidebar:
   - title: 版本資訊
     entries:
     - title: Keystone STaaS 的新功能
-      url: "/release-notes/whats-new.html"
+      url: "/whats-new.html"
     - title: 修正問題
       url: "/release-notes/fixed-issues.html"
     - title: 已知問題
