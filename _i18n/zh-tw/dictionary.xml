@@ -1243,7 +1243,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="544918a98971531911cde1c8c60f796e" category="admonition">Keystone Collector 提供 Keystone Collector Management 終端機使用者介面（ TUI ）公用程式、可執行組態和監控活動。您可以使用各種鍵盤控制項（例如Enter和方向鍵）來選取選項、並瀏覽此TUI。</block>
   <block id="7a3c910d56f9c3c52e1890f667afa19f" category="paragraph">Keystone Collector 會收集執行訂閱計量所需的有限組態、狀態和效能資訊。您可以選擇進一步限制所收集的資訊、方法是從上傳的內容中遮罩敏感資訊。這不會影響計費計算。不過、限制資訊可能會影響報告資訊的使用性、因為使用者可以輕易識別的部分元素（例如Volume名稱）會被UID取代。</block>
   <block id="6c0db94d9ea0b326e31b7d4eba357a6e" category="summary">Keystone 會收集 ONTAP 和 StorageGRID 訂閱的組態、狀態和使用資訊。它也可以收集 ONTAP 效能資料。</block>
-  <block id="a55c5d30c0f103bf2686ce0ab6868ff4" category="paragraph">Keystone 會為您的 Keystone ONTAP 和 Keystone StorageGRID 訂閱收集組態、狀態和使用資訊。如果ONTAP 在Keystone Collector中啟用此選項、也只能收集效能資料以供參考。</block>
   <block id="c57abebf579a7f279028b7943e0a852b" category="summary">Keystone Collector 是您在站台上安裝在 VMware vSphere 或 Linux 主機上的 NetApp 軟體。它會收集 Keystone 系統的使用資料。</block>
   <block id="174a6506a636f3bea0b05c1dbacf7c24" category="doc">瞭解 Keystone Collector</block>
   <block id="e7b0f86afead67fa5262542c846d2165" category="paragraph">Keystone Collector_ 是您安裝在站台上 VMware vSphere 或 Linux 主機上的 NetApp 軟體、可存取 Keystone 服務。它會收集 Keystone 系統的使用資料。</block>
@@ -2544,4 +2543,37 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="7faee727fce43e18a5f377b7afb57542" category="paragraph">* 累積突發 * 的標籤現已修改為 * 容量趨勢 * 標籤中的 * 發票累積突發 * 。選取此選項可讓您檢視已計費之累積突發資料的每月圖表。如需更多資訊、請參閱 <block ref="eabab3ebfcc1135a01e03f1ece2ffb1c" category="inline-link-macro-rx"></block>。</block>
   <block id="8c238ecbe1955b491db6b48ea17933c2" category="paragraph">Digital Advisor 中的報價表支援已延伸至 Keystone 系統。您現在可以使用報價表來搜尋多位客戶的訂閱詳細資料。如需 Keystone STaas 中使用報價表的詳細資訊、請參閱 <block ref="2875e10a779b54ebea1ca23299e1022f" category="inline-link-macro-rx"></block>。</block>
   <block id="e2328d669041a542b4660884da5e30c6" category="paragraph">Digital Advisor 的 *Keystone Subscriptions* 螢幕標籤上傳回的資料以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時、系統會自動將其視為 UTC 時間。如需更多資訊、請參閱 <block ref="111f11f9178fe48f6cc874a0bf33e9ed" category="inline-link-macro-rx"></block>。</block>
+  <block id="7c5da8baa0fbbd37b4a692b7125db568" category="paragraph">Keystone會從Keystone ONTAP和Keystone StorageGRID訂閱中收集配置、狀態和使用情況信息，以及從託管Keystone Collector 的虛擬機器 (VM) 中收集遙測資料。如果在Keystone Collector 中啟用了此選項，則它只能收集ONTAP的效能資料。</block>
+  <block id="6aa83c82143e174e72f244ecef8dc7ad" category="section-title">遙測數據收集</block>
+  <block id="49e2322dae056a2f8739263d880abd73" category="example-title">&lt;strong&gt;從Keystone Collector VM 收集的遙測資料：了解詳情&lt;/strong&gt;</block>
+  <block id="ce4c85de38de26999e02d0806330175d" category="paragraph">以下列表是針對Keystone系統收集的遙測資料的代表性樣本：</block>
+  <block id="956d4d3bb3fde86f6c2f08cfdc313bdb" category="list-text">系統資訊</block>
+  <block id="5b2a04bc80cdb645cbf95048a7e2ac0f" category="list-text">作業系統名稱</block>
+  <block id="170861220308516da165525eb6107a96" category="list-text">作業系統版本</block>
+  <block id="5043bf7355ddf1dbfaa39f4b69ecadad" category="list-text">作業系統 ID</block>
+  <block id="2f09802220af233ac91b13f1c881b435" category="list-text">系統主機名</block>
+  <block id="59796defd7dd6310215c49cb4e3efb02" category="list-text">系統預設IP位址</block>
+  <block id="6735d18e4d3fc0c912fc420cc7538172" category="list-text">系統資源使用情況</block>
+  <block id="cf99a04328c2d7ca48f16b353f06aace" category="list-text">系統正常運作時間</block>
+  <block id="927c643f69c46e95a8be2c969fd9764a" category="list-text">CPU 核心數</block>
+  <block id="e686d0ecebbbc124e870747bd31576cc" category="list-text">系統負載（1分鐘、5分鐘、15分鐘）</block>
+  <block id="173211c78ced72410b48d5df0fba0ec1" category="list-text">總記憶體</block>
+  <block id="407d58a596a7de659531b8c04cb51035" category="list-text">釋放記憶體</block>
+  <block id="88bb1929d3370e0babc9dfad9e196052" category="list-text">可用記憶體</block>
+  <block id="3ad952d787b1273b58745461bb5b2bc0" category="list-text">共享記憶體</block>
+  <block id="700da48d6f421367f17be9a45789b873" category="list-text">緩衝記憶體</block>
+  <block id="61cc47a86dc843e3504f752195ecb91b" category="list-text">快取記憶體</block>
+  <block id="9b3d0c3ca1edf9f890422025970ab9c5" category="list-text">總掉期</block>
+  <block id="5d419d17e6b440a7e251814bbcf8166e" category="list-text">免費掉期</block>
+  <block id="488c8c2e78a0edfba492bcc8d16f0e9c" category="list-text">快取交換</block>
+  <block id="28e91bf96c7a28ba92d540180159f4b7" category="list-text">磁碟檔案系統名稱</block>
+  <block id="f308e6ca453d47a2876df6eae740d8f8" category="list-text">磁碟大小</block>
+  <block id="f50c6aae233fa53b969e7b10774363e1" category="list-text">使用的磁碟</block>
+  <block id="7ef72e0347fdea4ecf7819d56d5c0151" category="list-text">磁碟可用</block>
+  <block id="90dc07e4c191f33e8c23867d64df3500" category="list-text">磁碟使用率</block>
+  <block id="04bb4f94fa98b7f9725a89c2b58870fb" category="list-text">磁碟掛載點</block>
+  <block id="35d792af9283dd95d7605999364c786d" category="list-text">已安裝的軟體包</block>
+  <block id="c5015af0f3f8bd7ccedb75312dd4eed3" category="list-text">收集器配置</block>
+  <block id="4f41955c42edb315e08aec95ec34acd3" category="list-text">服務日誌</block>
+  <block id="494dd216fe759558e1a91f40c35ee621" category="list-text">來自Keystone服務的服務日誌</block>
 </blocks>
