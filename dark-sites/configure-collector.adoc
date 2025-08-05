@@ -54,14 +54,14 @@ image:dark-site-generate-collector-keypair-1.png["產生收集器鍵入選項"]
 
 . 返回 TUI 的主畫面並驗證 *Service Status* 資訊、以確保 Keystone 收集器處於正常狀態。系統應顯示服務處於 * 整體：健全 * 狀態。如果在此期間之後整體狀態仍不正常、請等待 10 分鐘、檢閱先前的組態步驟、並聯絡 NetApp 支援團隊。
 +
-image:dark-site-overall-healthy-1.png["服務狀態"]
+image:dark-site-overall-healthy-2.png["服務狀態"]
 
 . 選取首頁畫面上的 * 結束至 Shell* 選項、結束 Keystone Collector 管理 TUI 。
 . 擷取產生的公開金鑰：
 +
 `~/collector-public.pem`
 
-. 將內含此檔案的電子郵件傳送至 keystone.services@NetApp .com 。
+. 將此文件透過電子郵件發送至 ng-keystone-secure-site-upload@netapp.com（用於安全的非 USPS 網站）或 ng-keystone-secure-site-usps-upload@netapp.com（用於安全的 USPS 網站）。
 
 
 
@@ -73,7 +73,7 @@ image:dark-site-overall-healthy-1.png["服務狀態"]
 請依照下列步驟產生使用報告：
 
 . 前往 Keystone Collector TUI 首頁畫面上的 * 匯出使用量 * 。
-. 收集檔案並將其傳送至 keystone.services@NetApp ． com 。
+. 收集文件並將其發送至 ng-keystone-secure-site-upload@netapp.com（用於安全的非 USPS 網站）或發送至 ng-keystone-secure-site-usps-upload@netapp.com（用於安全的 USPS 網站）。
 +
 Keystone 收集器會同時產生一個清除檔案和加密檔案、並手動傳送至 NetApp 。Clear 檔案報告包含下列可由客戶驗證的詳細資料。
 

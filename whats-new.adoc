@@ -14,7 +14,17 @@ summary: NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增�
 
 
 [role="lead"]
-NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功能。
+了解Keystone STaaS 服務的最新功能和增強功能。
+
+
+
+== 2025年8月5日
+
+
+
+=== 查看實例層級消耗數據
+
+您可以透過BlueXP中的Keystone儀表板查看每個效能服務等級實例的目前消耗和歷史資料。如果您擁有Keystone版本 3 (v3) 訂閱，此功能適用於具有多個執行個體的效能服務等級。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/integrations/current-usage-tab.html["查看Keystone訂閱的消耗量"]。
 
 
 
@@ -24,7 +34,7 @@ NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增強的功�
 
 === Keystone 版本 3 (v3) 發布
 
-現在您可以訂閱 Keystone 版本 3 (v3)，這是 NetApp Keystone STaaS 產品的最新版本。此版本引入了多項增強功能，包括簡化的效能服務等級、額外的突發容量選項以及靈活的計費頻率。這些改進簡化了儲存解決方案的管理、最佳化和擴充。若要深入瞭解、請 link:./concepts/metrics.html["v3 的 Keystone STaaS 服務"]參閱。
+現在您可以訂閱Keystone版本 3 (v3)，這是NetApp Keystone STaaS 產品的最新版本。此版本引入了多項增強功能，包括簡化的效能服務等級、額外的突發容量選項和靈活的計費頻率。這些改進簡化了儲存解決方案的管理、最佳化和擴充。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html["v3 的 Keystone STaaS 服務"]。
 
 
 

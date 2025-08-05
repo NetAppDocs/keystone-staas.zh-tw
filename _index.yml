@@ -3,9 +3,8 @@ indexpage:
   title: Keystone 文件
   summary: NetApp Keystone 是一種按需付費的儲存即服務產品，只需一次訂閱即可提供本機和雲端資料儲存服務，並能夠在雲端之間重新分配儲存支出。
   keywords: Keystone STaaS
-  lead: NetApp Keystone 是一項靈活的隨選付費訂閱服務，可為那些更傾向於營運支出而非資本支出或租賃的客戶帶來無縫的混合雲體驗。它可讓您免除管理資源的
-    IT 負擔、並完成漫長的採購週期、進而加速實現價值所需的時間。瀏覽此庫中的文檔，以了解有關 ONTAP 或 StorageGRID 環境中 NetApp Keystone
-    儲存即服務 (STaaS) 產品的更多資訊。
+  lead: NetApp Keystone是一種靈活的按使用量付費的訂閱式服務，可為那些更傾向於營運支出而非資本支出或租賃的客戶提供無縫的混合雲體驗。它使您能夠消除管理資源的
+    IT 負擔並避免冗長的採購週期，從而加快價值實現時間。瀏覽此庫中的文件以了解有關NetApp Keystone儲存即服務 (STaaS) 產品的更多資訊。
   tiles:
   - title: 開始使用
     links:
@@ -33,8 +32,6 @@ indexpage:
     links:
     - title: Keystone 績效服務水平
       url: "/concepts/service-levels.html"
-    - title: 服務品質（QoS）
-      url: "/concepts/qos.html"
     - title: 測量單位為何？
       url: "/concepts/metrics.html"
     - title: 支援的基礎儲存設備為何？
@@ -43,7 +40,7 @@ indexpage:
       url: "/concepts/capacity-requirements.html#capacity-adjustments"
   - title: Keystone 定價與計費
     links:
-    - title: 瞭解 Keystone 定價
+    - title: 了解Keystone定價
       url: "/concepts/pricing.html"
     - title: 我的帳單排程
       url: "/concepts/billing-schedules.html"
@@ -55,7 +52,7 @@ indexpage:
       url: "/concepts/burst-consumption-billing.html"
   - title: 利用 Keystone 服務完成更多工作
     links:
-    - title: 瞭解您的支援團隊
+    - title: 了解您的支援團隊
       url: "/concepts/gssc.html"
     - title: 增加突發容量
       url: "/concepts/burst-capacity.html"
@@ -67,7 +64,7 @@ indexpage:
       url: "/concepts/data-infra-insights.html"
     - title: 美國公民支援
       url: "/concepts/usps.html"
-  - title: 瞭解更多資訊
+  - title: 了解更多
     links:
     - title: Active IQ Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html

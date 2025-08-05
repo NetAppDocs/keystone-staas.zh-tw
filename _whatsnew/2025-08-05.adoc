@@ -1,0 +1,9 @@
+= 查看實例層級消耗數據
+:allow-uri-read: 
+
+
+
+
+=== 查看實例層級消耗數據
+
+您可以透過BlueXP中的Keystone儀表板查看每個效能服務等級實例的目前消耗和歷史資料。如果您擁有Keystone版本 3 (v3) 訂閱，此功能適用於具有多個執行個體的效能服務等級。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/integrations/current-usage-tab.html["查看Keystone訂閱的消耗量"]。

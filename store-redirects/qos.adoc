@@ -1,0 +1,8 @@
+---
+permalink: concepts/qos.html 
+redirect: keystone-staas/concepts/metrics.html 
+---
+= 
+:allow-uri-read: 
+
+

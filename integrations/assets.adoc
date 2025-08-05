@@ -50,7 +50,7 @@ TIP: 您可以使用列選擇器自訂表格image:column-selector.png["列選擇
 . 從 BlueXP 左側導覽功能表中，選擇 *儲存 > Keystone > 資產*。
 . 選擇“*集群中的磁碟區*”標籤。
 +
-image:bxp-volumes-clusters-multiple-sub.png["多個訂閱的集群中的捲的螢幕截圖"]
+image:bxp-volumes-clusters-multiple-sub-1.png["多個訂閱的集群中的捲的螢幕截圖"]
 
 +
 您可以查看 Keystone 訂閱中叢集中所有磁碟區的詳細信息，包括磁碟區名稱、訂閱號、節點序號、QoS 策略合規性、叢集名稱、主機名稱和效能服務等級。您可以監控已配置容量、邏輯和實體使用率以及冷資料。您也可以概覽以下內容：

@@ -36,7 +36,7 @@ summary: 修改您的 Keystone 訂閱以透過 BlueXP 變更相關效能服務�
 NOTE: 或者，您可以透過點擊訂閱詳細資料部分中的“*管理訂閱*”，然後選擇“*修改*”來存取“*修改訂閱*”頁面。
 
 +
-image:bxp-modify-subscription.png["顯示訂閱清單中修改選項的螢幕截圖"]
+image:bxp-modify-subscription-1.png["顯示訂閱清單中修改選項的螢幕截圖"]
 
 . 按一下「編輯容量」以修改效能服務等級的承諾容量，提供必要的詳細信息，然後按一下「提交」。
 +

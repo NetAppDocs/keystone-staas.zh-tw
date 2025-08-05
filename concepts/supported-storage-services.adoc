@@ -14,12 +14,12 @@ summary: Keystone STaaS 服務支援 ONTAP 和 StorageGRID 。
 
 
 [role="lead"]
-Keystone STaaS 服務版本 3 (v3) 支援 NetApp 和 Cloud Volumes ONTAP 的統一、區塊最佳化和物件儲存。
+Keystone STaaS 服務支援NetApp和Cloud Volumes ONTAP的統一儲存、區塊最佳化儲存和物件儲存。
 
-每種儲存類型包括：
+支援的儲存選項有：
 
 * *統一儲存*：包括檔案、區塊和 S3 物件存儲，可在 NetApp ONTAP AFF 和 FAS 系統上使用。
-* *區塊最佳化儲存*：包括 NetApp ONTAP ASA 系統上可用的區塊儲存。
+* *區塊最佳化儲存*：包括NetApp ONTAP ASA系統上可用的區塊儲存。
 * *物件儲存*：包括 NetApp StorageGRID 系統上可用的物件儲存。
 
 

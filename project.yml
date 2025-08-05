@@ -6,6 +6,11 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
+  versions:
+  - version-number: '3.0'
+    url: "/keystone-staas"
+  - version-number: '2.0'
+    url: "/keystone-staas-2"
   langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
 sidebar:
   entries:
@@ -125,7 +130,7 @@ sidebar:
       url: "/integrations/volumes-objects-tab.html"
     - title: 檢視效能指標
       url: "/integrations/performance-tab.html"
-  - title: Keystone STaaS v3 概念
+  - title: 概念
     entries:
     - title: Keystone STaaS服務
       entries:
@@ -141,8 +146,6 @@ sidebar:
         url: "/concepts/capacity-requirements.html"
     - title: 附加服務
       entries:
-      - title: 進階資料保護
-        url: "/concepts/adp.html"
       - title: 突發容量選項
         url: "/concepts/burst-capacity.html"
       - title: 資料基礎架構洞見
@@ -177,58 +180,6 @@ sidebar:
         url: "/concepts/misc-volume-billing.html"
       - title: 帳單排程
         url: "/concepts/billing-schedules.html"
-  - title: Keystone STaaS v2 概念
-    entries:
-    - title: Keystone STaaS服務
-      entries:
-      - title: 指標與定義
-        url: "/concepts/metrics-v2.html"
-      - title: 儲存服務品質
-        url: "/concepts/qos.html"
-      - title: 支援的儲存設備
-        url: "/concepts/supported-storage-services-v2.html"
-      - title: 支援的容量
-        url: "/concepts/supported-storage-capacity-v2.html"
-      - title: 績效服務水準
-        url: "/concepts/service-levels-v2.html"
-      - title: 性能服務等級的容量要求
-        url: "/concepts/capacity-requirements-v2.html"
-    - title: 附加服務
-      entries:
-      - title: 進階資料保護
-        url: "/concepts/adp-v2.html"
-      - title: 資料基礎架構洞見
-        url: "/concepts/data-infra-insights-v2.html"
-      - title: 資料分層
-        url: "/concepts/data-tiering-v2.html"
-      - title: 不可退回、非揮發性元件、以及 SnapLock 法規遵循
-        url: "/concepts/nrnvc-v2.html"
-      - title: 美國保護支援（ USPS ）
-        url: "/concepts/usps-v2.html"
-    - title: Keystone STaaS SLO
-      entries:
-      - title: 可用度
-        url: "/concepts/sla-availability-v2.html"
-      - title: 效能
-        url: "/concepts/sla-performance-v2.html"
-      - title: 永續性
-        url: "/concepts/sla-sustainability-v2.html"
-      - title: 勒索軟體恢復保證
-        url: "/concepts/sla-ransomware-v2.html"
-    - title: 帳單
-      entries:
-      - title: Keystone定價
-        url: "/concepts/pricing-v2.html"
-      - title: 根據已提交的容量進行計費
-        url: "/concepts/committed-capacity-billing-v2.html"
-      - title: 根據耗用容量進行計量
-        url: "/concepts/consumed-capacity-billing-v2.html"
-      - title: 根據尖峰使用量進行計費
-        url: "/concepts/burst-consumption-billing-v2.html"
-      - title: Keystone計費的其他案例
-        url: "/concepts/misc-volume-billing-v2.html"
-      - title: 帳單排程
-        url: "/concepts/billing-schedules-v2.html"
   - title: 從 Digital Advisor REST API 存取 Keystone
     entries:
     - title: 開始使用 Digital Advisor REST API 擷取 Keystone 資料
