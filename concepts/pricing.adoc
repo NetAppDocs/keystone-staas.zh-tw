@@ -16,7 +16,7 @@ summary: Keystone 提供隨成長付費模式、滿足您靈活且可擴充的�
 [role="lead"]
 NetApp Keystone STaaS 按使用量付費訂閱服務提供靈活且可擴展的消費，並為您的儲存需求提供可預測的預付定價。
 
-Keystone 版本 3 (v3) 為您提供以下計費功能：
+Keystone為您提供以下計費功能：
 
 * 您可以根據 IOPS 和延遲承諾容量來支付費用、以滿足各種工作負載需求。不同的效能服務層級 - Extreme、Premium、Standard、Value、Object 和 Cloud Volumes ONTAP 可讓您根據購買的服務等級管理儲存。
 * 它提供可預測的計費方式、可針對已提交的容量、以及針對可變（突發）容量使用量的「依使用量付費」。
