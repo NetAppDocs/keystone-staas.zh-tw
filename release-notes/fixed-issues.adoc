@@ -22,6 +22,15 @@ summary: 舊版 NetApp Keystone STaaS 服務中發現的問題已在後續版本
 
 
  a| 
+Digital Advisor儀表板中配置了MetroCluster配置的訂閱的消費趨勢圖中缺少突發閾值線，顯示不正確的 *超出突發限制* 狀態。
+ a| 
+固定
+ a| 
+2025年8月28日
+
+
+
+ a| 
 在「*Assets*」標籤中，StorageGRID 的資產不可見。
  a| 
 固定

@@ -27,7 +27,13 @@ summary: 將 AutoSupport 設定為將 Keystone 資料整合至 ONTAP 叢集所�
 . 以系統管理員使用者身分、使用 SSH 登入 Keystone ONTAP 叢集。如需相關資訊、請參閱 https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html["使用 SSH 存取叢集"^]。
 . 修改記錄內容。
 +
-** 執行此命令以修改每日記錄內容：
+** 對於ONTAP 9.16.1 及更高版本，執行以下命令修改每日日誌內容：
++
+[source]
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
+----
+** 對於早期版本的ONTAP ，執行以下命令來修改每日日誌內容：
 +
 [source]
 ----

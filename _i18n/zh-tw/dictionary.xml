@@ -919,7 +919,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="af17398e2b948fd6715e1bdf5857d48e" category="paragraph">TCP 7777</block>
   <block id="6178fec7016b28af42fcd47c64d4da81" category="list-text">您可以將子系統納入每日和每週 AutoSupport 套件、以確保 Keystone 的資料收集準確。如需 AutoSupport 子系統的相關資訊、請參閱<block ref="5cc209367930dbf9b2a8c95126c2b0b9" category="inline-link-rx"></block>。</block>
   <block id="001d654c5d010b25a953ace0dce0f14d" category="list-text">修改記錄內容。</block>
-  <block id="a35e5b3497716ca18010e0be265afb3b" category="list-text">執行此命令以修改每日記錄內容：</block>
   <block id="9060a638913c522309cdbab6919eef2b" category="list-text">執行此命令以修改每週記錄內容：</block>
   <block id="7186d4f0f71f9b706a05940b8abcacd0" category="cell">問題說明</block>
   <block id="c8cfdcd3f2e7ef01cbd8180e33c9bf8d" category="summary">Keystone Collector 包含監控 Keystone 系統效能和使用量指標的安全功能、而且已設定為使用安全強化的組態。</block>
@@ -1608,7 +1607,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="3b70df30112e474cb2dcc361a3e3f76f" category="paragraph">您可以查看網格詳細資料，依網格和節點識別碼分類，網站資訊，硬體規格和容量詳細資料，這些資料有助於監控和管理 StorageGRID 基礎架構中的節點。</block>
   <block id="a5c5b30c416c34eb8d2fb09f3946721b" category="inline-image-macro">顯示 StorageGRID 網格層級資訊的螢幕擷取畫面</block>
   <block id="dcaaab8361575caaad35a500d6864bd1" category="paragraph"><block ref="dcaaab8361575caaad35a500d6864bd1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1cedef25ccb6885eb8bfdc7660435962" category="paragraph">您可以使用 * 隱藏 / 顯示欄 * 來新增或移除表格中顯示的欄。默認情況下，除 *Department （ * 部門）列外，所有列均被選中。您可以選取或取消選取任何欄，包括 * 部門 * 欄，您的偏好設定將會儲存以供日後使用。下載 CSV 報告時，若選取 * 部門 * 欄詳細資料，則會包含在內，而其他欄則會顯示，無論其在表格中的選擇狀態為何。</block>
   <block id="4e80b9aaf481494b7698c02bcd4558ab" category="section-title">重新命名的已用邏輯欄</block>
   <block id="4067362b8a27e9feb45b3dad3b225588" category="paragraph">* Volume Details （卷詳細信息） * 選項卡中的 * Logical Used （已用邏輯） * 列現在已重命名爲 * Keystone Logical Used （已用基礎邏輯） * 。</block>
   <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">增強的資產索引標籤</block>
@@ -2325,4 +2323,15 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="845131517a9dd7f41b73102338bac133" category="list-text">*邏輯容量*：它是以下內容的總和：</block>
   <block id="0649df2b2e490a85273ef7528dbeb91a" category="list-text">*身體能力*：它是以下各項的總和：</block>
   <block id="eb80e5c63a486d3698858f87d747e461" category="paragraph">您可以聯絡Keystone支援團隊訂閱Keystone版本 3 (v3)。有關詳細信息，請參閱<block ref="ba5860e7066469b734064f44e703aa5c" category="inline-link-macro-rx"></block>。</block>
+  <block id="7e8fe67b005603b496012796735f2d36" category="doc">使用新列增強邏輯使用情況跟踪</block>
+  <block id="b79d3069a7b9ca9140a5c9b1bf2f8d81" category="paragraph">新增了新欄位“總佔用空間”，以增強對FabricPool磁碟區的Keystone消耗追蹤：</block>
+  <block id="729a65ff91860ad65935d125d788f643" category="list-text">* BlueXP中的Keystone儀表板 *：您可以在 *Assets* 標籤中的 *Volumes in clusters* 標籤中看到 *Total footprint* 列。</block>
+  <block id="61f4e69294ec080e5cb7bce32f2f8b99" category="list-text">*Digital Advisor*：您可以在 *磁碟區和物件* 標籤中的 *磁碟區詳細資料* 標籤中看到 *總足跡* 欄位。</block>
+  <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">此列顯示使用FabricPool分層的磁碟區的總邏輯佔用空間，包括效能層和冷層的數據，因此您可以精確計算Keystone消耗。</block>
+  <block id="bff820430728f0b409c26641dc8ddd41" category="list-text">對於ONTAP 9.16.1 及更高版本，執行以下命令修改每日日誌內容：</block>
+  <block id="63af57ffe551ed93c0576ba741b36e47" category="list-text">對於早期版本的ONTAP ，執行以下命令來修改每日日誌內容：</block>
+  <block id="8e65b1fa60d467c8850acfb3f1d1b8b9" category="paragraph">您可以使用*隱藏/顯示列*來新增或刪除表中顯示的列。預設情況下，表格顯示您先前儲存的列首選項。新新增的欄位（例如「*部門*」或「*總足跡*」欄位）預設是隱藏的，應手動選擇才能顯示在表格中。您可以選擇或取消選擇任何列，並且您的偏好設定將被儲存以供日後使用。下載 CSV 報表時，無論您的顯示偏好為何，所有可用欄位都會包含在匯出中。</block>
+  <block id="56a9fe5a3d171069cb125956f6186c86" category="paragraph">Digital Advisor儀表板中配置了MetroCluster配置的訂閱的消費趨勢圖中缺少突發閾值線，顯示不正確的 *超出突發限制* 狀態。</block>
+  <block id="8d317448388884cae15b07e53f9c9fbc" category="paragraph">2025年8月28日</block>
+  <block id="b8d454c9414aa4b52ad019b0311711b5" category="section-title">2025年8月28日</block>
 </blocks>

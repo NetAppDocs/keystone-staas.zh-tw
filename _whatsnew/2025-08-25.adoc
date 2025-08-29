@@ -1,0 +1,15 @@
+= 使用新列增強邏輯使用情況跟踪
+:allow-uri-read: 
+
+
+
+
+=== 使用新列增強邏輯使用情況跟踪
+
+新增了新欄位“總佔用空間”，以增強對FabricPool磁碟區的Keystone消耗追蹤：
+
+* * BlueXP中的Keystone儀表板 *：您可以在 *Assets* 標籤中的 *Volumes in clusters* 標籤中看到 *Total footprint* 列。
+* *Digital Advisor*：您可以在 *磁碟區和物件* 標籤中的 *磁碟區詳細資料* 標籤中看到 *總足跡* 欄位。
+
+
+此列顯示使用FabricPool分層的磁碟區的總邏輯佔用空間，包括效能層和冷層的數據，因此您可以精確計算Keystone消耗。
