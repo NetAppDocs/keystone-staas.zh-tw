@@ -79,5 +79,6 @@ NOTE: 如果效能服務等級有多個實例，您可以選擇「實例」標�
 * link:../integrations/subscription-timeline.html["查看您的訂閱時間表"]
 * link:../integrations/assets-tab.html["查看您的 Keystone 訂閱資產"]
 * link:../integrations/assets.html["查看 Keystone 訂閱中的資產"]
+* link:../integrations/monitoring-alerts.html["查看和管理警報和監視器"]
 * link:../integrations/volumes-objects-tab.html["查看捲和物件的詳細信息"]
 

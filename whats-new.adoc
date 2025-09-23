@@ -18,6 +18,28 @@ summary: NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增�
 
 
 
+== 2025年9月22日
+
+
+
+=== 增加警報監控
+
+BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管理您訂閱中的警報和監視器。此新選項卡使您能夠：
+
+* 查看和解決活動警報，包括系統產生的和使用者定義的容量使用情況和訂閱到期警報。
+* 建立警報監視器來追蹤容量使用情況和訂閱到期事件。
+
+
+要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html["查看和管理警報和監視器"]。
+
+
+
+=== 簡化的效能服務等級查看
+
+您可以在“*訂閱*”選項卡中查看性能服務級別信息，現在該信息已從單獨的選項卡移至可擴展視圖。按一下「到期日」欄位旁的向下箭頭可查看每個訂閱的到期日。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["查看您的 Keystone 訂閱的詳細信息"]。
+
+
+
 == 2025年8月28日
 
 

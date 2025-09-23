@@ -20,18 +20,15 @@ summary: 若要深入瞭解您的 Keystone 訂閱、您可以從「訂閱」索�
 ====
 .藍圖
 --
-BlueXP 中的「訂閱」標籤分為兩個部分：「訂閱」和「效能服務等級」。每個部分都提供具體的洞察訊息，幫助您管理和監控 Keystone 訂閱。要查看訂閱的詳細信息，請按以下步驟操作：
+要查看訂閱的詳細信息，請按照以下步驟操作：
 
 .步驟
 . 從 BlueXP 左側導覽功能表中，前往 *儲存 > Keystone > 訂閱*。
 +
-image:bxp-subscription-list-1.png["查看訂閱標籤詳情"]
+image:bxp-subscription-list-2.png["查看訂閱標籤詳情"]
 
 +
-您可以看到容量使用情況、訂閱到期狀態以及各個訂閱的Keystone版本等關鍵指標。要了解更多信息，請參閱link:../integrations/keystone-bluexp.html["BlueXP 中的 Keystone 儀表板"]。
-
-+
-您可以從表中看到以下詳細資訊：
+您會看到容量使用情況、訂閱到期狀態和未解決的警報等關鍵指標。您可以從表中看到以下詳細資訊：
 
 +
 ** *訂閱編號*：NetApp 指派的 Keystone 訂閱的訂閱編號。
@@ -45,19 +42,11 @@ image:bxp-subscription-list-1.png["查看訂閱標籤詳情"]
 ** *訂閱到期天數*：訂閱到期前剩餘的天數。
 +
 
+NOTE: 您可以按一下「到期日」列旁的向下箭頭來查看每個訂閱的效能服務等級資訊。這顯示了詳細的容量信息，包括當前使用情況、承諾容量、預先配置容量、突發容量和可用容量。
+
++
+
 TIP: 您可以使用列選擇器自訂表中顯示的列image:column-selector.png["列選擇器圖示"]圖示.對於某些欄位和欄、您可能會看到資訊或警告圖示和工具提示、提供您有關資料的其他資訊。
-
-
-
-. 您可以選擇「效能服務等級」子選項卡來查看所有訂閱的效能服務等級。
-+
-image:bxp-performance-levels.png["查看所有訂閱的性能服務級別"]
-
-+
-** *跨訂閱的效能服務等級*：顯示跨訂閱的效能服務等級的數量。
-** *跨訂閱的配置一致性*：顯示過度配置和配置不足的效能服務等級的計數。
-+
-您可以看到效能服務等級的列表，包括客戶姓名、訂閱號碼、效能服務等級類型和磁碟區總數等關鍵詳細資訊。表格還顯示受保護磁碟區的數量、總已提交容量、已消耗容量、已配置容量、可用容量（有和無突發容量）以及累計突發容量。
 
 
 
@@ -110,5 +99,6 @@ image:icon-grey.png["灰點圖示"] *無消耗*：沒有記錄效能服務等級
 * link:../integrations/subscription-timeline.html["查看您的訂閱時間表"]
 * link:../integrations/assets-tab.html["查看您的 Keystone 訂閱資產"]
 * link:../integrations/assets.html["查看 Keystone 訂閱中的資產"]
+* link:../integrations/monitoring-alerts.html["查看和管理警報和監視器"]
 * link:../integrations/volumes-objects-tab.html["查看捲和物件的詳細信息"]
 

@@ -36,5 +36,6 @@ image:bxp-dashboard-overview-1.png["概覽標籤的螢幕截圖"]
 * link:..//integrations/keystone-aiq.html["Digital Advisor 中的 Keystone 儀表板"]
 * link:../integrations/subscriptions-tab.html["查看您的訂閱詳情"]
 * link:../integrations/current-usage-tab.html["查看您目前的消費詳情"]
+* link:../integrations/monitoring-alerts.html["查看和管理警報和監視器"]
 * link:../integrations/consumption-tab.html["檢視消費趨勢"]
 

@@ -100,5 +100,6 @@ TIP: 您可以使用列選擇器自訂表格image:column-selector.png["列選擇
 * link:../integrations/consumption-tab.html["檢視消費趨勢"]
 * link:../integrations/subscription-timeline.html["查看您的訂閱時間表"]
 * link:../integrations/assets-tab.html["查看您的 Keystone 訂閱資產"]
+* link:../integrations/monitoring-alerts.html["查看和管理警報和監視器"]
 * link:../integrations/volumes-objects-tab.html["查看捲和物件的詳細信息"]
 

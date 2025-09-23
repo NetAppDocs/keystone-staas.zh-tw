@@ -122,6 +122,12 @@ sidebar:
         url: "/integrations/assets-tab.html"
       - title: 查看多個訂閱中的資產
         url: "/integrations/assets.html"
+    - title: 查看和管理警報和監視器
+      entries:
+      - title: 查看和管理警報
+        url: "/integrations/monitoring-alerts.html"
+      - title: 查看和建立警報監視器
+        url: "/integrations/monitoring-alert-monitors.html"
     - title: 修改您的訂閱
       url: "/integrations/modify-subscription.html"
     - title: 查看您的服務請求

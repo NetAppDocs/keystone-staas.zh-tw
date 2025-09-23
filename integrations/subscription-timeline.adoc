@@ -43,5 +43,6 @@ image:bxp-subscription-timeline.png["以表格圖表形式顯示訂閱時間軸�
 * link:../integrations/consumption-tab.html["檢視消費趨勢"]
 * link:../integrations/assets-tab.html["查看您的 Keystone 訂閱資產"]
 * link:../integrations/assets.html["查看 Keystone 訂閱中的資產"]
+* link:../integrations/monitoring-alerts.html["查看和管理警報和監視器"]
 * link:../integrations/volumes-objects-tab.html["查看捲和物件的詳細信息"]
 

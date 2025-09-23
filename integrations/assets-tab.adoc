@@ -150,5 +150,6 @@ image:assets-tab-storagegrid.png["顯示 StorageGRID 網格層級資訊的螢幕
 * link:../integrations/consumption-tab.html["檢視消費趨勢"]
 * link:../integrations/subscription-timeline.html["查看您的訂閱時間表"]
 * link:../integrations/assets.html["查看 Keystone 訂閱中的資產"]
+* link:../integrations/monitoring-alerts.html["查看和管理警報和監視器"]
 * link:../integrations/volumes-objects-tab.html["查看捲和物件的詳細信息"]
 
