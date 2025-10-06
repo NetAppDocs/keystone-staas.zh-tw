@@ -110,7 +110,7 @@ image:kc-custom-ca.png["用於 CA 自訂的 TUI 畫面"]
 
 == 建立效能服務層級
 
-您可以使用 Keystone Collector 管理 TUI 公用程式來建立效能服務層級（ PSL ）。透過 TUI 建立 ISL 會自動選取為每個服務層級設定的預設值、減少在透過建立 Active IQ Unified Manager 時手動設定這些值時可能發生的錯誤機會。
+您可以使用Keystone Collector 管理 TUI 公用程式建立效能服務等級 (PSL)。透過 TUI 建立 PSL 會自動選擇為每個效能服務等級設定的預設值，從而減少透過Active IQ Unified Manager建立 PSL 時手動設定這些值時可能發生的錯誤的可能性。
 
 若要深入瞭解 ISL 、請link:https://docs.netapp.com/us-en/active-iq-unified-manager/storage-mgmt/concept_manage_performance_service_levels.html["效能服務層級"^]參閱。
 
@@ -133,15 +133,15 @@ image:qos-STaaS-selection-2.png["若要指定 Keystone 版本、請使用 TUI �
 
 +
 
-NOTE: 您可以反白標示 Keystone 訂閱服務第 1 版的 * KFS* 選項。Keystone 訂閱服務與 Keystone STaaas 在組成服務層級、服務項目和計費原則上不同。若要深入瞭解、請 link:https://docs.netapp.com/us-en/keystone-staas/subscription-services-v1.html["Keystone 訂閱服務 | 版本 1"^]參閱。
+NOTE: 您可以反白Keystone訂閱服務版本 1 的 *KFS* 選項。Keystone訂閱服務與Keystone STaaS 在組成效能服務等級、服務產品和計費原則方面有所不同。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/subscription-services-v1.html["Keystone 訂閱服務 | 版本 1"^]。
 
-. 所有支援的 Keystone 服務層級將會顯示在指定 Keystone 版本的 * 選取 Keystone 服務層級 * 選項中。從清單中啟用所需的服務層級。
+. 所有支援的Keystone效能服務等級將顯示在指定Keystone版本的 *選擇Keystone服務等級* 選項中。從清單中啟用所需的效能服務等級。
 +
 image:qos-STaaS-selection-3.png["TUI 畫面可顯示所有支援的 Keystone 服務層級"]
 
 +
 
-NOTE: 您可以同時選取多個服務層級來建立 ISL 。
+NOTE: 您可以同時選擇多個效能服務等級來建立 PSL。
 
 . 選取 * 儲存 * 、然後按 Enter 鍵。將會建立效能服務層級。
 +
@@ -153,4 +153,4 @@ image:qos-performance-sl.png["UI 螢幕擷取畫面可顯示建立的 AQO 原則
 
 
 
-TIP: 如果所選服務層級的 PSL 已存在於指定的 Active IQ Unified Manger 伺服器上、則無法再次建立。如果您嘗試這麼做、將會收到錯誤訊息。 image:qos-failed-policy-1.png["TUI 畫面顯示原則建立的錯誤訊息"]
+TIP: 如果所選效能服務等級的 PSL 已存在於指定的Active IQ Unified Manger 伺服器上，則無法再次建立它。如果您嘗試這樣做，您將收到一條錯誤訊息。image:qos-failed-policy-1.png["TUI 畫面顯示原則建立的錯誤訊息"]

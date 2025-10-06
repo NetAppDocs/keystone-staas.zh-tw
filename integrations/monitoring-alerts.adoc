@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/monitoring-alerts.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, console 
 summary: 使用「監控」標籤來查看和管理Keystone訂閱的警報。 
 ---
 = 查看並管理Keystone訂閱的提醒
@@ -14,7 +14,7 @@ summary: 使用「監控」標籤來查看和管理Keystone訂閱的警報。
 
 
 [role="lead"]
-BlueXP中的Keystone儀表板可讓您查看和管理Keystone儲存環境中的活動警報。您可以看到系統產生的警報和使用者定義的容量使用情況和訂閱到期警報。從此視圖，您可以快速評估警報嚴重性、識別儲存問題並採取糾正措施。此視圖在Digital Advisor中不可用。
+NetApp控制台中的Keystone儀表板可讓您檢視和管理Keystone儲存環境中的活動警報。您可以看到系統產生的警報和使用者定義的容量使用情況和訂閱到期警報。從此視圖，您可以快速評估警報嚴重性、識別儲存問題並採取糾正措施。此視圖在Digital Advisor中不可用。
 
 若要設定使用者定義的警報，請參閱link:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["建立和管理警報監視器"]。
 
@@ -25,9 +25,9 @@ BlueXP中的Keystone儀表板可讓您查看和管理Keystone儲存環境中的�
 若要查看活動警報，請依照下列步驟操作：
 
 .步驟
-. 從BlueXP左側導覽功能表中，選擇 *儲存 > Keystone > 監控 > 警報*。
+. 從控制台左側導覽功能表中，選擇*儲存> Keystone >監控>警報*。
 +
-image:monitoring-alerts-default-view.png["Keystone訂閱的有效警報螢幕截圖"]
+image:monitoring-alerts-default-view-1.png["Keystone訂閱的有效警報螢幕截圖"]
 
 +
 您可以查看警報的詳細信息，例如嚴重性、ID、描述、觸發時間、訂閱號碼、追蹤ID、效能服務等級和狀態。該頁面還按嚴重程度和類型顯示未解決警報的總數。

@@ -14,7 +14,7 @@ summary: Digital Advisor REST API 會擷取與指定客戶 ID 相關的所有訂
 
 
 [role="lead"]
-此 API 會擷取與指定客戶 ID 相關的所有訂閱和服務層級清單。
+此 API 會擷取與給定 customerID 關聯的所有訂閱和效能服務等級的清單。
 
 * 申請： *
 
@@ -43,7 +43,7 @@ summary: Digital Advisor REST API 會擷取與指定客戶 ID 相關的所有訂
 |===
 * 回應： *
 
-API 將會回應 JSON 物件、其中包含指定客戶所有訂閱和相關服務層級詳細資料的清單。以下是回應範例：
+API 將以 JSON 物件回應，其中包含給定客戶的所有訂閱和相關效能服務等級詳細資訊的清單。以下是一個範例回應：
 
 [listing]
 ----

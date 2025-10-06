@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/assets-tab.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID, bluexp, volumes in clusters 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID, bluexp, volumes in clusters, NetApp Console, Console 
 summary: 使用資產索引標籤可檢視 ONTAP 叢集和節點的詳細資料，以及由 Keystone 訂閱管理的 StorageGRID 網格，站台和節點。 
 ---
 = 查看與 Keystone 訂閱相關的資產
@@ -14,16 +14,16 @@ summary: 使用資產索引標籤可檢視 ONTAP 叢集和節點的詳細資料�
 
 
 [role="lead"]
-您可以查看由單一 Keystone 訂閱管理的 ONTAP 叢集和節點以及 StorageGRID 網格、網站和節點的詳細資訊。 BlueXP和 Digital Advisor 的 Keystone 資訊中心視圖中均提供了此訂閱資產視圖。
+您可以查看由單一Keystone訂閱管理的ONTAP叢集和節點以及StorageGRID網格、網站和節點的詳細資訊。您可以從NetApp控制台或Digital Advisor在Keystone儀表板中存取這些訂閱資產。
 
 
 
-== 從 BlueXP 查看 Keystone 訂閱資產
+== 從NetApp主機查看Keystone訂閱資產
 
-BlueXP 中 *Subscriptions* 選項卡內的 *Assets* 選項卡提供有關與訂閱相關的叢集、StorageGRID 節點和 ONTAP 節點中的捲的詳細信息，包括各種詳細資訊和容量狀態。
+*訂閱*頁面中的*資產*標籤顯示與訂閱相關的集群、 StorageGRID節點和ONTAP節點中的捲的詳細信息，包括各種詳細資訊和容量狀態。
 
 
-NOTE: 此視圖每次僅限查看一個 Keystone 訂閱。您也可以透過選擇「追蹤 ID」下拉清單來查看其他訂閱的資產。 BlueXP中的 Keystone 儀表板可讓您查看多個 Keystone 訂閱的資產。若要深入瞭解、請 link:../integrations/assets.html["查看 Keystone 訂閱中的資產"]參閱。
+NOTE: 此檢視每次僅限一個Keystone訂閱。您也可以從*追蹤 ID* 下拉清單中選擇來查看其他訂閱的資產。NetApp控制台中的Keystone儀表板可讓您查看跨多個Keystone訂閱的資產。要了解更多信息，請參閱link:../integrations/assets.html["查看 Keystone 訂閱中的資產"]。
 
 您可以按照以下步驟查看此資訊：
 
@@ -32,10 +32,10 @@ NOTE: 此視圖每次僅限查看一個 Keystone 訂閱。您也可以透過選�
 .集群中的捲
 --
 .步驟
-. 從 BlueXP 左側導覽功能表中，選擇 *儲存 > Keystone > 訂閱*。
+. 從控制台左側導覽選單中，選擇*儲存> Keystone >訂閱*。
 . 在表格的*訂閱號碼*欄位中選擇訂閱號碼。
 +
-您將被重定向到“*當前消耗*”選項卡。
+系統開啟*目前消耗*標籤。
 
 . 選擇“*資產*”標籤。
 . 從「*檢視*」下拉式選單中選擇「*叢集中的磁碟區*」。
@@ -55,13 +55,10 @@ TIP: 您可以使用列選擇器自訂表格image:column-selector.png["列選擇
 .叢集中的節點
 --
 .步驟
-. 從 BlueXP 左側導覽功能表中，選擇 *儲存 > Keystone > 訂閱*。
-+
-預設情況下，「*訂閱*」標籤顯示「*訂閱*」子選項卡。
-
+. 從控制台左側導覽選單中，選擇*儲存> Keystone >訂閱*。
 . 在表格的*訂閱號碼*欄位中選擇訂閱號碼。
 +
-您將被重定向到“*當前消耗*”選項卡。
+系統開啟*目前消耗*標籤。
 
 . 選擇“*資產*”標籤。
 . 從「*檢視*」下拉式選單中選擇「*叢集中的節點*」。
@@ -81,13 +78,10 @@ TIP: 您可以使用列選擇器自訂表格image:column-selector.png["列選擇
 .網格中的節點
 --
 .步驟
-. 從 BlueXP 左側導覽功能表中，選擇 *儲存 > Keystone > 訂閱*。
-+
-預設情況下，「*訂閱*」標籤顯示「*訂閱*」子選項卡。
-
+. 從控制台左側導覽選單中，選擇*儲存> Keystone >訂閱*。
 . 在表格的*訂閱號碼*欄位中選擇訂閱號碼。
 +
-您將被重定向到“*當前消耗*”選項卡。
+系統開啟*目前消耗*標籤。
 
 . 選擇“*資產*”標籤。
 . 從*視圖*下拉式選單中選擇*網格中的節點*。
@@ -116,7 +110,7 @@ Digital Advisor 中 Keystone 資訊中心的「資產」標籤包含兩個子選
 .ONTAP
 --
 .步驟
-. 按一下「*常規>Keystone 訂閱>資產> ONTAP*」。
+. 選擇 *常規 > Keystone訂閱 > 資產 > ONTAP*。
 . 選取您要檢視叢集的訂閱編號。
 +
 您可以查看叢集詳細資料、並依儲存效率設定、平台類型和容量詳細資料進行細分。按一下其中一個叢集、即可前往 Digital Advisor 畫面上的 * 叢集 * 小工具、取得該叢集的其他資訊。Digital Advisor 提供完整的部署庫存層級資訊。
@@ -130,7 +124,7 @@ image:assets-tab-3.png["顯示 ONTAP 叢集層級資訊的螢幕擷取畫面"]
 .StorageGRID
 --
 .步驟
-. 按一下“*常規>Keystone 訂閱>資產>StorageGRID*”。
+. 選擇*常規> Keystone訂閱> 資產> StorageGRID*。
 . 選取訂閱編號。
 +
 您可以查看網格詳細資料，依網格和節點識別碼分類，網站資訊，硬體規格和容量詳細資料，這些資料有助於監控和管理 StorageGRID 基礎架構中的節點。

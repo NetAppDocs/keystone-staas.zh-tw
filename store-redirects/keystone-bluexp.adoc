@@ -1,0 +1,8 @@
+---
+permalink: integrations/keystone-bluexp.html 
+redirect: keystone-staas/integrations/keystone-console.html 
+---
+= 
+:allow-uri-read: 
+
+

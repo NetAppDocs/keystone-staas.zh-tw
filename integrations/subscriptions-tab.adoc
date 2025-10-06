@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/subscriptions-tab.html 
-keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp 
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp, NetApp Console, Console 
 summary: 若要深入瞭解您的 Keystone 訂閱、您可以從「訂閱」索引標籤檢視所有訂閱的清單。 
 ---
 = 查看您的 Keystone 訂閱的詳細信息
@@ -14,21 +14,24 @@ summary: 若要深入瞭解您的 Keystone 訂閱、您可以從「訂閱」索�
 
 
 [role="lead"]
-您可以在 BlueXP 和 Digital Advisor 的「訂閱」標籤中查看所有訂閱清單。此選項卡根據您的訂閱狀態和使用情況提供易於理解的洞察信息，幫助您隨時了解情況並在需要時採取行動。
+您可以從NetApp控制台Digital Advisor中的 *訂閱* 查看所有訂閱的清單。此視圖根據您的訂閱狀態和使用情況提供易於理解的見解，幫助您隨時了解情況並在需要時採取行動。
 
 [role="tabbed-block"]
 ====
-.藍圖
+.NetApp控制台
 --
 要查看訂閱的詳細信息，請按照以下步驟操作：
 
 .步驟
-. 從 BlueXP 左側導覽功能表中，前往 *儲存 > Keystone > 訂閱*。
+. 從控制台左側導覽選單中，選擇*儲存> Keystone >訂閱*。
 +
-image:bxp-subscription-list-2.png["查看訂閱標籤詳情"]
+image:bxp-subscription-list-3.png["查看訂閱標籤詳情"]
 
 +
-您會看到容量使用情況、訂閱到期狀態和未解決的警報等關鍵指標。您可以從表中看到以下詳細資訊：
+您會看到容量使用情況、訂閱到期狀態和未解決的警報等關鍵指標。
+
++
+您可以從表中看到以下詳細資訊：
 
 +
 ** *訂閱編號*：NetApp 指派的 Keystone 訂閱的訂閱編號。

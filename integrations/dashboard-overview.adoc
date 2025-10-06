@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/dashboard-overview.html 
-keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard 
-summary: 作為 NetApp Keystone STaaS 訂閱者，您可以從 NetApp BlueXP 或 Digital Advisor 取得訂閱概覽。 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, NetApp Console, Console 
+summary: 身為NetApp Keystone STaaS 訂閱者，您可以從NetApp Console 或Digital Advisor取得訂閱概覽。 
 ---
 = 了解 Keystone 儀表板
 :hardbreaks:
@@ -29,27 +29,39 @@ Keystone 儀表板是您高效監控、分析和管理 Keystone 訂閱的首選�
 
 您可以透過以下方式存取 Keystone 儀表板：
 
-* *BlueXP*：從 BlueXP 中的 *Storage > Keystone > Overview* 存取儀表板。若要深入瞭解、請 link:../integrations/keystone-bluexp.html["BlueXP 中的 Keystone 儀表板"^]參閱。
+* * NetApp控制台*：從控制台中的 *儲存 > Keystone > 概覽* 存取儀表板。要了解更多信息，請參閱link:../integrations/keystone-console.html["NetApp控制台中的Keystone儀表板"^]。
 * *Active IQ Digital Advisor*（也稱為 Digital Advisor）：從 Digital Advisor 中的 *General > Keystone Subscriptions* 存取儀表板。若要深入瞭解、請 link:../integrations/keystone-aiq.html["Digital Advisor 中的 Keystone 儀表板"^]參閱。
 
 
+
+
+== 關於NetApp控制台
+
+可透過NetApp控制台存取Keystone 。
+
+NetApp控制台可在企業範圍內跨本機和雲端環境集中管理NetApp儲存和資料服務。需要控制台才能存取和使用NetApp資料服務。作為管理介面，它使您能夠從一個介面管理許多儲存資源。控制台管理員可以控制企業內所有系統的儲存和服務的存取。
+
+您不需要許可證或訂閱即可開始使用控制台，並且只有當您需要在雲端部署控制台代理程式以確保與儲存系統或NetApp資料服務的連線時才需要付費。但是，一些可從控制台存取的NetApp資料服務是需要授權或基於訂閱的。
+
+詳細了解link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp控制台"^]。
+
 請注意下列事項：
 
-* 雖然 BlueXP 和 Digital Advisor 提供了一些獨特功能，但 BlueXP 為 Keystone 提供了管理功能，讓您可以管理訂閱並進行必要的調整。
-* 您必須被指派 *Keystone admin* 角色才能修改訂閱。若要深入瞭解、請 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["瞭解 BlueXP  存取角色"^]參閱。
-* Digital Advisor 與 BlueXP 集成，可讓您直接從 BlueXP 存取所有 Digital Advisor 功能，包括 Keystone 儀表板。若要深入瞭解、請 link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html#integration-overview["數位顧問與BlueXP整合"^]參閱。
+* 雖然控制台和數Digital Advisor提供了一些獨特的功能，但控制台為Keystone提供了管理功能，讓您可以管理訂閱並進行必要的調整。
+* 您必須被指派 * Keystone admin* 角色才能修改訂閱。要了解更多信息，請參閱link:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台存取角色"^]。
+* Digital Advisor與控制台集成，可讓您直接從控制台存取所有Digital Advisor功能，包括Keystone儀表板。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html#netapp-console["Digital Advisor與NetApp Console 集成"^]。
 
 
 
 
-== BlueXP 和 Digital Advisor 中的 Keystone 功能
+== NetApp Console 和Digital Advisor中的Keystone功能
 
-下表顯示了 BlueXP 和 Digital Advisor 中功能的可用性，幫助您快速確定適合您需求的平台：
+下表顯示了NetApp控制台和Digital Advisor中可用的功能，協助您快速確定適合您需求的平台：
 
 |===
 
 
-| *功能* | *藍色XP* | *數位顧問* 
+| *功能* | * NetApp控制台* | *數位顧問* 
 
 
  a| 
@@ -86,7 +98,7 @@ link:../integrations/modify-subscription.html["修改您的訂閱"] （僅限 Ke
 
 
  a| 
-link:../integrations/options.html#generate-reports-from-bluexp-or-digital-advisor["產生報告"]
+link:../integrations/options.html#generate-reports-from-console-or-digital-advisor["產生報告"]
 | 是的 | 是的 
 
 
@@ -102,6 +114,6 @@ link:../integrations/performance-tab.html["檢視效能指標"]
 *相關資訊*
 
 * link:../integrations/dashboard-access.html["開始使用 Keystone 儀表板"]
-* link:../integrations/keystone-bluexp.html["BlueXP 中的 Keystone 儀表板"]
+* link:../integrations/keystone-console.html["NetApp控制台中的Keystone儀表板"]
 * link:..//integrations/keystone-aiq.html["Digital Advisor 中的 Keystone 儀表板"]
 

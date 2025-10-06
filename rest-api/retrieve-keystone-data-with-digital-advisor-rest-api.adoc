@@ -21,7 +21,7 @@ summary: 數位顧問 API 提供程式化介面、可擷取 Keystone 服務詳�
 . 設定您的數位顧問帳戶。您必須擁有有效的 NetApp 支援網站認證、才能登入數位顧問。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/active-iq/task_login_activeiq.html["登入Digital Advisor。"]
 . 瞭解兩個步驟的驗證程序。
 +
-.. * 產生重新整理權杖 * ：透過數位顧問主控台使用 NetApp 認證來取得重新整理權杖。此 Token 可確保不需重複登入、即可持續存取。
+.. *產生刷新令牌*：使用NetApp憑證透過Digital Advisor控制台取得刷新令牌。此令牌用於確保持續訪問，而無需重複登入。
 .. * 產生存取權杖 * ：使用重新整理權杖來產生存取權杖。需要存取權杖才能授權對 Keystone 服務進行 API 呼叫、且有效時間為一小時。
 
 

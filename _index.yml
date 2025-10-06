@@ -16,7 +16,7 @@ indexpage:
       url: "/installation/itom-prereqs.html"
     - title: 以私人模式安裝 Keystone Collector
       url: "/dark-sites/overview.html"
-  - title: BlueXP 和 Digital Advisor 中的 Keystone 儀表板
+  - title: NetApp控制台和Digital Advisor中的Keystone儀表板
     links:
     - title: 了解 Keystone 儀表板
       url: "/integrations/dashboard-overview.html"
@@ -68,7 +68,7 @@ indexpage:
     links:
     - title: Active IQ Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html
-    - title: 藍圖
+    - title: NetApp控制台
       url: https://docs.netapp.com/us-en/cloud-manager-family/
     - title: Active IQ Unified Manager
       url: https://docs.netapp.com/us-en/active-iq-unified-manager/

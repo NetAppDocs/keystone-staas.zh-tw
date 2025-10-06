@@ -16,7 +16,7 @@ summary: 在磁碟區或物件儲存層級檢視容量詳細資料。
 [role="lead"]
 如果您想查看磁碟區或物件儲存層級的容量詳細信息，您可以導航至 Digital Advisor 中的「磁碟區和物件」標籤。對於 StorageGRID 、您可以使用此索引標籤讀取物件儲存環境中個別節點的使用量。
 
-您可以參考 BlueXP 中的「資產」標籤來查看這些詳細資訊。要查看特定 Keystone STaaS 訂閱的詳細信息，請參閱link:../integrations/assets-tab.html["查看與 Keystone 訂閱相關的資產"] 。如果您想查看多個 Keystone 訂閱的詳細信息，請參閱link:../integrations/assets.html["查看 Keystone 訂閱中的資產"] 。
+您可以參考NetApp控制台中的「*資產*」頁面來查看這些詳細資訊。要查看特定Keystone STaaS 訂閱的詳細信息，請參閱link:../integrations/assets-tab.html["查看與 Keystone 訂閱相關的資產"]。如果您想查看多個Keystone訂閱的詳細信息，請參閱link:../integrations/assets.html["查看 Keystone 訂閱中的資產"]。
 
 
 NOTE: 此索引標籤的標題會因您站台的部署性質而異。如果您同時擁有 ONTAP 和物件儲存空間、索引標籤的標題會顯示為 * Volume & Objects* 。只有 ONTAP 會顯示名稱 * Volumes * 。對於 StorageGRID 物件儲存、您可以看到 * 物件 * 索引標籤。

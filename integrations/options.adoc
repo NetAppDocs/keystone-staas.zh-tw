@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/options.html 
-keywords: Keystone, BlueXP, Keystone dashboard, search and filter, Keystone data, generate reports, view alerts, digital advisor 
+keywords: Keystone, BlueXP, Keystone dashboard, search and filter, Keystone data, generate reports, view alerts, digital advisor, NetApp Console, Console 
 summary: 作為 NetApp Keystone STaaS 訂閱者，您可以搜尋和過濾資料、產生訂閱和使用情況報告、檢查時間戳記以及查看警報。 
 ---
 = 搜尋 Keystone 數據、產生報告並查看警報
@@ -18,17 +18,17 @@ summary: 作為 NetApp Keystone STaaS 訂閱者，您可以搜尋和過濾資料
 
 
 
-== 從 BlueXP 搜尋和篩選數據
+== 從NetApp控制台搜尋和過濾數據
 
-在 BlueXP 中，您可以根據標籤中表格中提供的列參數搜尋和篩選 Keystone 資料。例如，在「*訂閱*」標籤下的「訂閱*」子選項卡中，您可以在搜尋框中輸入 Keystone 版本來篩選資料。同樣，在「資產*」標籤下的「叢集中的磁碟區*」標籤中，您可以在搜尋方塊中輸入磁碟區名稱來篩選磁碟區。
+在控制台中，您可以根據標籤內表中可用的列參數搜尋和篩選Keystone資料。例如，在*Subscriptions*頁面下的*Subscriptions*標籤中，您可以透過在搜尋框中輸入Keystone版本來過濾資料。同樣，在「*Assets*」頁面下的「*Volumes in clusters*」標籤中，您可以透過在搜尋方塊中輸入磁碟區名稱來篩選磁碟區。
 
-您可以使用可用的進階過濾選項來優化搜尋。例如，在「*訂閱*」子標籤中，您可以按Keystone版本、計費週期、最高容量和訂閱到期天數過濾資料；在「叢集中的磁碟區*」標籤中，您可以按磁碟區名稱、叢集名稱、磁碟區類型等進行篩選。可以同時套用多個篩選器來精確縮小搜尋結果。image:bxp-filter-search.png["進階過濾選項"]
+您可以使用可用的進階過濾選項來優化搜尋。例如，在「*訂閱*」標籤中，您可以按Keystone版本、計費週期、最高容量和訂閱到期天數過濾資料；在「叢集中的磁碟區*」標籤中，您可以按磁碟區名稱、叢集名稱、磁碟區類型等進行篩選。可以同時套用多個篩選器來精確縮小搜尋結果。image:bxp-filter-search.png["進階過濾選項"]
 
 
 
-== 從 BlueXP 或 Digital Advisor 產生報告
+== 從NetApp Console 或Digital Advisor產生報告
 
-您可以使用下載按鈕產生並查看 Keystone 數據報告image:bluexp-download-report-2.png["BlueXP 中的報告下載圖示 2"]可在 BlueXP 或 Digital Advisor 內的選項卡中使用。這些標籤可讓您產生訂閱、歷史使用情況、突發使用情況、效能、資產、磁碟區和物件的報表。
+您可以使用下載按鈕產生並查看Keystone數據報告image:bluexp-download-report-2.png["控制台中的報告下載圖示 2"]可在控制台或數位Digital Advisor內的選項卡中使用。這些標籤可讓您為訂閱、歷史使用情況、突發使用情況、效能、資產、磁碟區和物件產生報表。
 
 這些詳細資料會以 CSV 格式產生、您可以儲存以供未來使用和比較。
 

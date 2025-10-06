@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/modify-subscription.html 
-keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription 
-summary: 修改您的 Keystone 訂閱以透過 BlueXP 變更相關效能服務等級的承諾容量。 
+keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription, NetApp Console, Console 
+summary: 透過NetApp控制台修改您的Keystone訂閱以變更相關效能服務等級的承諾容量。 
 ---
-= 從 BlueXP 修改您的 Keystone 訂閱
+= 從NetApp控制台修改您的Keystone訂閱
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,19 +14,19 @@ summary: 修改您的 Keystone 訂閱以透過 BlueXP 變更相關效能服務�
 
 
 [role="lead"]
-您可以透過 BlueXP 修改 Keystone 訂閱的相關效能服務等級的承諾容量。
+您可以透過NetApp控制台修改Keystone訂閱的相關效能服務等級的承諾容量。
 
 [NOTE]
 ====
 * 如果訂閱到期前剩餘 90 多天，您可以修改承諾容量。
-* 您必須被指派至 *Keystone admin* 角色才能修改已提交的容量。若要深入瞭解、請 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["瞭解 BlueXP  存取角色"^]參閱。
+* 您必須被指派至 * Keystone admin* 角色才能修改已提交的容量。要了解更多信息，請參閱link:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台存取角色"^]。
 
 
 ====
 若要變更承諾容量，請依照下列步驟操作：
 
 .步驟
-. 從 BlueXP 選單中，選擇 *儲存 > Keystone > 訂閱*。
+. 從控制台左側導覽選單中，選擇*儲存> Keystone >訂閱*。
 . 點擊表中要修改的訂閱的省略號圖標，然後選擇*修改*。
 +
 *修改訂閱*頁面顯示與所選訂閱號碼相關的訂閱效能服務等級的詳細資訊。
@@ -36,7 +36,7 @@ summary: 修改您的 Keystone 訂閱以透過 BlueXP 變更相關效能服務�
 NOTE: 或者，您可以透過點擊訂閱詳細資料部分中的“*管理訂閱*”，然後選擇“*修改*”來存取“*修改訂閱*”頁面。
 
 +
-image:bxp-modify-subscription-1.png["顯示訂閱清單中修改選項的螢幕截圖"]
+image:console-modify-subscription.png["顯示訂閱清單中修改選項的螢幕截圖"]
 
 . 按一下「編輯容量」以修改效能服務等級的承諾容量，提供必要的詳細信息，然後按一下「提交」。
 +

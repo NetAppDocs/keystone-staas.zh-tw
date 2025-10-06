@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/dashboard-access.html 
-keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions 
-summary: 作為 NetApp Keystone STaaS 訂閱者，您可以透過 NetApp BlueXP 或 Digital Advisor 存取 Keystone 儀表板 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions, NetApp Console, Console 
+summary: 作為NetApp Keystone STaaS 訂閱者，您可以透過NetApp Console 或Digital Advisor存取Keystone儀表板 
 ---
 = 開始使用 Keystone 儀表板
 :hardbreaks:
@@ -14,22 +14,22 @@ summary: 作為 NetApp Keystone STaaS 訂閱者，您可以透過 NetApp BlueXP 
 
 
 [role="lead"]
-訂閱 NetApp Keystone 服務後，您可以透過 NetApp BlueXP 或 Digital Advisor 存取 Keystone 儀表板。
+訂閱NetApp Keystone服務後，您可以透過NetApp Console 或Digital Advisor存取Keystone儀表板。
 
 [role="tabbed-block"]
 ====
-.藍圖
+.NetApp控制台
 --
-若要登入 BlueXP，您可以使用您的 NetApp 支援網站憑證，也可以使用您的電子郵件和密碼註冊 BlueXP。深入瞭解 link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["登入 BlueXP"^]。
+使用您的NetApp支援網站憑證登入控制台，或使用您的電子郵件和密碼註冊NetApp雲端登入。有關詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["登入控制台"^] 。
 
 .步驟
-. 登入 BlueXP 。
-. 從 BlueXP 左側導覽功能表中，選擇 *儲存 > Keystone*。
+. 登入控制台。
+. 從控制台左側導覽選單中，選擇*儲存> Keystone*。
 +
 Keystone 儀表板出現。
 
 +
-image:discover-subscriptions-1.png["Keystone 儀表板頁面"]
+image:discover-subscriptions-2.png["Keystone 儀表板頁面"]
 
 +
 
@@ -54,7 +54,7 @@ NOTE: 如果您的登入憑證未連結到任何 Keystone 訂閱，請聯絡 Net
 ====
 *相關資訊*
 
-* link:../integrations/keystone-bluexp.html["BlueXP 中的 Keystone 儀表板"]
+* link:../integrations/keystone-console.html["NetApp控制台中的Keystone儀表板"]
 * link:..//integrations/keystone-aiq.html["Digital Advisor 中的 Keystone 儀表板"]
 * link:../integrations/subscriptions-tab.html["查看您的訂閱詳情"]
 
