@@ -19,7 +19,7 @@ summary: 透過NetApp控制台修改您的Keystone訂閱以變更相關效能服
 [NOTE]
 ====
 * 如果訂閱到期前剩餘 90 多天，您可以修改承諾容量。
-* 您必須被指派至 * Keystone admin* 角色才能修改已提交的容量。要了解更多信息，請參閱link:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台存取角色"^]。
+* 您必須被指派至 * Keystone admin* 角色才能修改已提交的容量。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台存取角色"^]。
 
 
 ====

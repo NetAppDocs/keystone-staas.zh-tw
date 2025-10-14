@@ -1,0 +1,20 @@
+= 資產標籤中的 QoS 策略覆蓋列
+:allow-uri-read: 
+
+
+NetApp Console中Keystone儀表板的新增強功能：
+
+
+
+=== 資產標籤中的 QoS 策略覆蓋列
+
+*Assets* 選項卡中的 *Volumes in clusters* 選項卡現在包含一個 *QoS policy override* 列，指示是否繞過備份和鏡像卷的 QoS 規則，顯示 *true*（忽略規則）、*false*（強制執行規則）或 *N/A*（對於鏡像卷）。
+
+
+NOTE: 對於Keystone v3 訂閱，此列顯示 *N/A*，因為 QoS 策略不適用於 v3 產品。
+
+
+
+=== 增強了概覽頁面中的警報可見性
+
+*概覽*頁面現在包括兩個新的警報部分，名為*按嚴重程度排列的未解決警報*和*最早未解決的Keystone警報*。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-console.html["NetApp控制台中的Keystone儀表板"]。
