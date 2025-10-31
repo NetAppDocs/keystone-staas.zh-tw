@@ -21,16 +21,16 @@ summary: 從 YUM 軟體儲存庫安裝 Keystone Collector 軟體。
 .使用 RPM
 --
 . SSH至Keystone Collector伺服器並升級至 `root` 權限：
-. 匯入Keystone公開簽署：
-`# rpm --import https://keystone.netapp.com/repo/RPM-GPG-NetApp-Keystone-20221101`
-. 檢查 RPM 資料庫中 Keystone 帳單平台的指紋，確認已匯入正確的公用憑證：正確的指紋
-`# rpm -qa gpg-pubkey --qf '%{Description}'|gpg --show-keys --fingerprint`如下所示：
-`90B3 83AF E07B 658A 6058 5B4E 76C2 45E4 33B6 C17D`
-. 下載 `keystonerepo.rpm` 檔案：
-`curl -O https://keystone.netapp.com/repo/keystonerepo.rpm`
-. 驗證檔案的真僞：
-`rpm --checksig -v keystonerepo.rpm`真實檔案的簽名如下所示：
-`Header V4 RSA/SHA512 Signature, key ID 33b6c17d: OK`
+. 導入Keystone公共簽章：
+`# rpm --import https://keystone.netapp.com/repo1/RPM-GPG-NetApp-Keystone-20251020`
+. 請透過檢查 RPM 資料庫中Keystone Billing Platform 的指紋，確保已匯入正確的公共憑證：
+`# rpm -qa gpg-pubkey --qf '%{Description}'|gpg --show-keys --fingerprint` 正確的指紋如下圖所示：
+`9297 0DB6 0867 22E7 7646 E400 4493 5CBB C9E9 FEDC`
+. 下載 `keystonerepo.rpm` 文件：
+`curl -O https://keystone.netapp.com/repo1/keystonerepo.rpm`
+. 驗證文件的真實性：
+`rpm --checksig -v keystonerepo.rpm` 正版文件的簽名如下所示：
+`Header V4 RSA/SHA512 Signature, key ID c9e9fedc: OK`
 . 安裝YUM軟體儲存庫檔案：
 `# yum install keystonerepo.rpm`
 . 安裝Keystone repo時、請透過YUM套件管理程式安裝Keystone收集器套件：

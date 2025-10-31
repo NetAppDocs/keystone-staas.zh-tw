@@ -348,7 +348,6 @@
   <block id="eb2f786d0356dd1cd28f20f376d5da2b" category="list-text">在步驟2 _上、指定VM名稱並選取VM資料夾。</block>
   <block id="ef93bcb8e06b73273019082b41d87115" category="list-text">在_Step 3_上、指定執行VM所需的運算資源。</block>
   <block id="41466009ab38ed0e1dbd7f2358fa3825" category="list-text">按一下*出版者*連結、即可下載完整的簽署摘要憑證。</block>
-  <block id="250e025c960accde58851d9cba806aa4" category="list-text">使用OpenSSL驗證OVA簽署憑證的驗證是否為公開憑證：<block ref="d67907543fcf70f6dfbc7d1139240042" prefix=" " category="inline-code"></block></block>
   <block id="09ecce71a847e29076b9c49beb846dae" category="list-text">在「*部署OVF範本*」精靈的步驟5_上、指定儲存VM的位置。</block>
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">在步驟7自訂範本_上、指定管理使用者帳戶的初始網路位址和密碼。</block>
   <block id="4ff6b73315fa76bc8171f5548ebb79ef" category="list-text">在「*部署OVF範本*」精靈的步驟8「準備好完成」上、檢閱組態並確認您已正確設定OVA部署的參數。</block>
@@ -359,8 +358,6 @@
   <block id="082821bd60f72deca861daa75a2c3020" category="paragraph">此架構圖表概述典型Keystone環境中的組成元件及其連線能力。</block>
   <block id="ea74ae761acf4f1176f873f6437675f6" category="paragraph">請依照下列步驟在Linux伺服器上安裝軟體：</block>
   <block id="6b0c7fd3768c26e569ee5662bdcc2738" category="list-text">SSH至Keystone Collector伺服器並升級至<block ref="63a9f0ea7bb98050796b649e85481845" prefix=" " category="inline-code"></block> 權限：</block>
-  <block id="fafcabb6e961377fe2b62d0f1d2e62be" category="list-text">匯入Keystone公開簽署：<block ref="ccf45be91ebaeda977037b149762acbd" prefix=" " category="inline-code"></block></block>
-  <block id="5000c92898e0e1c2f66f175bc48765b6" category="list-text">驗證檔案的真僞：<block ref="50a551e75e87c897a8ad2128c42de747" prefix=" " category="inline-code"></block>真實檔案的簽名如下所示：<block ref="4fc602b120696aeae5ab8b4ebd2a36e8" prefix=" " category="inline-code"></block></block>
   <block id="eb1f328dadd504e03e367eafd0c1e18c" category="list-text">安裝YUM軟體儲存庫檔案：<block ref="90fdbfbbba2139b53a74cc0098f4e51e" prefix=" " category="inline-code"></block></block>
   <block id="4b5fef6350f906c92ead8e5fcb93fb21" category="sidebar">設定及設定Keystone</block>
   <block id="a84d47a9c10091a234dee7fdfbd4ae68" category="sidebar">指標與定義</block>
@@ -374,7 +371,6 @@
   <block id="ac6a5de4e069a7968a64e732a7cbd9af" category="admonition">*問題說明*：Keystone Collector會在使用量測系統中執行多個容器。當Red Hat Enterprise Linux 8.x伺服器使用美國國防資訊系統署（DISA）安全技術實作指南（STIG）原則強化時、會間歇性看到有關fapolicyd（檔案存取原則精靈）的已知問題。此問題識別為 <block ref="c6da6cbf9dd009f994ed56cf4b1ffbbb" category="inline-link-macro-rx"></block>。*因應措施*：在Red Hat Enterprise解決之前、NetApp建議您採用以下方法來解決此問題<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> 進入許可模式。在中 <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>、設定的值<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>。</block>
   <block id="9893071aa012ae6b029eae73ae2be44e" category="list-text"><block ref="9893071aa012ae6b029eae73ae2be44e" category="inline-link-rx"></block></block>
   <block id="6bf0a6b5934bc27f34497309b1c2ce0a" category="list-text"><block ref="6bf0a6b5934bc27f34497309b1c2ce0a" category="inline-link-rx"></block></block>
-  <block id="1bcbd92a1182a8044032c0af47695d8a" category="list-text">下載<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 檔案：<block ref="d1ed07754d396f9745478bc6388ae23a" prefix=" " category="inline-code"></block></block>
   <block id="2a5a28f579ee3b6816454c527351ec56" category="doc">Keystone收集的使用者資料類型</block>
   <block id="e14f2b2670997486a2e4f3918cbe9cb6" category="section-title">資料收集ONTAP</block>
   <block id="4752622b9e77aa409c0f10beb0726f74" category="paragraph">下表是針對ONTAP 下列項目收集的容量使用資料代表範例：</block>
@@ -610,14 +606,10 @@
   <block id="6948cdf9e6c5bdc7d80925f15f8f873e" category="list-text">在 _ 步驟 4 ：檢閱詳細資料 _ 、確認 OVA 檔案的正確性與真實性。
 7.0u2 之前的 vCenter 版本無法自動驗證程式碼簽署憑證的真實性。vCenter 7.0u2 及更新版本可執行驗證、但為此、應將簽署憑證授權單位新增至 vCenter 。請依照下列說明操作 vCenter 版本：</block>
   <block id="8b6cfff06473c4cd5cde3fa4ab929f0a" category="paragraph">vCenter 會驗證 OVA 檔案內容的完整性、並為 OVA 檔案中的檔案提供有效的程式碼簽署摘要。不過、它並不會驗證程式碼簽署憑證的真僞。若要驗證完整性、您應該下載完整的簽署摘要憑證、並對照Keystone發佈的公開憑證進行驗證。</block>
-  <block id="347aea822a41d615267a1a09f727c32d" category="list-text">從下載 _Keystone Billing _ 公開憑證<block ref="f8a06e82c439e6817414e7a6871c3ab6" category="inline-link-rx"></block>。</block>
   <block id="45c3e42547d79b15a504fc354a5ea227" category="paragraph">7.0u2 及更新版本的 vCenter 可在提供有效的程式碼簽署摘要時、驗證 OVA 檔案內容的完整性及程式碼簽署憑證的真實性。vCenter 根信任存放區僅包含 VMware 憑證。NetApp 使用 Entrust 做為認證機構、而這些憑證必須新增至 vCenter 信任存放區。</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link">請按這裡</block>
-  <block id="7761f250d7d1edab3e627d211af402ab" category="list-text">從 Entrust 下載程式碼簽署 CA 憑證<block ref="d94e6f5bcf8381faff13e5c4999eb265" category="inline-link-rx"></block>。</block>
   <block id="f35abf22d965c5c506fba6f9273a2895" category="list-text">請遵循中的步驟<block ref="b5a4b64b2aa505bd7c11f79b8a9f458d" prefix=" " category="inline-code"></block> 本知識庫（ KB ）文章的一節：<block ref="2e578ca4f24dfc2cfe15357800b939d4" category="inline-link-rx"></block>。</block>
   <block id="6db4d1fb4f168710dad43e921e4fec52" category="inline-image-macro">已驗證憑證的 ova UI</block>
-  <block id="ba20b958dd73f9247c3247dbef41c8d4" category="paragraph">當 Keystone Collector OVA 的完整性和真實性通過驗證時、您可以看到文字<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 與發行者合作。
-<block ref="de3bc771b0100381aa743c5ecbd3a7df" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1f5e8b836d490bee65ada2e551662a8f" category="sidebar">安裝 Keystone Collector</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意下列事項：</block>
   <block id="89daf59b9c591b51911d438bdad9f762" category="list-text">* 使用狀態 * ：顯示使用量指標、以指出使用量是否在訂閱上限內。如果您想要檢視最高使用量記錄、可以依此欄排序清單。</block>
@@ -1611,7 +1603,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="cac189ace7fac11fbcff63b35adf8770" category="list-text">服務信用申請應在 NetApp Keystone 支援驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。</block>
   <block id="193dec405e65293a13ce97bb2c01440c" category="list-text">服務額度可套用至未來的發票。服務額度不適用於過期的 Keystone 訂閱。若要深入瞭解、請 <block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="3a36d2372ffa5421518253f5c68f7c51" category="paragraph">如果偵測到違反 SLA 的情況，請在 NetApp Keystone 支援下開啟優先順序 3 （ P3 ）支援服務單，並依照 Excel 工作表中的要求提供詳細資料，如下所示：</block>
-  <block id="b22fed8db0bb580ac39be331b010b1cd" category="list-text">檢查 RPM 資料庫中 Keystone 帳單平台的指紋，確認已匯入正確的公用憑證：正確的指紋<block ref="46ce6ee7c7afe96ac26dd093842fe062" prefix=" " category="inline-code"></block>如下所示：<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block></block>
   <block id="cb74be13d3a600957d1ee583265f537d" category="section-title">檢視每日累積的突發資料使用量</block>
   <block id="bc3f9a56f76203c42fc9f8ff6b19fe46" category="inline-image-macro">顯示長條圖的螢幕擷取畫面</block>
   <block id="de75b30d787fc40e53cc46d0b5ab30cf" category="paragraph"><block ref="de75b30d787fc40e53cc46d0b5ab30cf" category="inline-image-macro-rx" type="image"></block></block>
@@ -2445,4 +2436,13 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="012cc690ee0f390b86e69b7ef941643e" category="list-text">*資源選擇*：選擇為特定訂閱或所有訂閱建立監視器。根據您選擇的監控類型，填寫出現的必填字段，例如容量使用監測器的訂閱號碼和效能服務級別，或訂閱到期監視器的訂閱號碼。</block>
   <block id="17eb308ea945cce061c4020365ec2ddf" category="paragraph"><block ref="17eb308ea945cce061c4020365ec2ddf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="44758d2951f923446ffff8310f8ac382" category="section-title">2025年10月13日</block>
+  <block id="3c7ee9f17fe9ee6e8de5156a0343b43e" category="admonition">CA憑證被複製到<block ref="fb50d256ab973f6e88410442129bc41d" prefix=" " category="inline-code"></block> 在Keystone Collector 伺服器上。</block>
+  <block id="2378fd86d8a87b85d36308d247018184" category="list-text">導入Keystone公共簽章：<block ref="41d547e10dc6d168f59af339b33be959" prefix=" " category="inline-code"></block></block>
+  <block id="b5e09b8913194b721a7e21626585dfc5" category="list-text">請透過檢查 RPM 資料庫中Keystone Billing Platform 的指紋，確保已匯入正確的公共憑證：<block ref="46ce6ee7c7afe96ac26dd093842fe062" prefix=" " category="inline-code"></block> 正確的指紋如下圖所示：<block ref="b91be68b3b67e632293886e3790eccc7" prefix=" " category="inline-code"></block></block>
+  <block id="f4baeef0e68eefa8ecbde2db1c9bb6af" category="list-text">下載<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 文件：<block ref="55192ff2cd286fc1b545da5fb86c86fb" prefix=" " category="inline-code"></block></block>
+  <block id="859d80b97dc3be93d17073cb53fd1183" category="list-text">驗證文件的真實性：<block ref="50a551e75e87c897a8ad2128c42de747" prefix=" " category="inline-code"></block> 正版文件的簽名如下所示：<block ref="ae3578a86bb737e9e2439ece85303ecb" prefix=" " category="inline-code"></block></block>
+  <block id="1eba34a29908de527656c195c6a4418a" category="list-text">從此處下載 Keystone Billing 公共證書<block ref="5520f333fe3958930d4ca351e896a12f" category="inline-link-rx"></block>。</block>
+  <block id="8dd9e9a8650be62b5350b1743ec0c25a" category="list-text">使用 OpenSSL 驗證 OVA 簽章憑證與公鑰憑證的真偽：<block ref="f41dec976ad8e65c3e38fceba0104101" prefix=" " category="inline-code"></block></block>
+  <block id="b96ad4ab266c25b5492620bb2563d5d0" category="list-text">從 Sectigo 下載代碼簽署 CA 證書<block ref="7342f89b7e38eb427d641531b8da4ba6" category="inline-link-rx"></block>。</block>
+  <block id="5107c2f981fc9d221af2aedb4d9c3f10" category="paragraph">當Keystone Collector OVA 的完整性和真實性得到驗證後，您就可以看到文字了。<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 與出版商合作。 <block ref="4bb910ce06804868c88e19dd6ff9e83c" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

@@ -104,6 +104,9 @@ NOTE: 支援的副檔名為 `.pem`、 `.crt`、 `.cert`。請確定憑證採用�
 . 選擇*保存*。已套用組態。
 
 
+
+NOTE: CA憑證被複製到 `/opt/netapp/ks-collector/ca.pem` 在Keystone Collector 伺服器上。
+
 image:kc-custom-ca.png["用於 CA 自訂的 TUI 畫面"]
 
 
