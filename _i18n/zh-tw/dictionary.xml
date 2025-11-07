@@ -2445,4 +2445,5 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="8dd9e9a8650be62b5350b1743ec0c25a" category="list-text">使用 OpenSSL 驗證 OVA 簽章憑證與公鑰憑證的真偽：<block ref="f41dec976ad8e65c3e38fceba0104101" prefix=" " category="inline-code"></block></block>
   <block id="b96ad4ab266c25b5492620bb2563d5d0" category="list-text">從 Sectigo 下載代碼簽署 CA 證書<block ref="7342f89b7e38eb427d641531b8da4ba6" category="inline-link-rx"></block>。</block>
   <block id="5107c2f981fc9d221af2aedb4d9c3f10" category="paragraph">當Keystone Collector OVA 的完整性和真實性得到驗證後，您就可以看到文字了。<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 與出版商合作。 <block ref="4bb910ce06804868c88e19dd6ff9e83c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f4d3f733b36c05e3bcdf4287f293b20f" category="paragraph">如果叢集採用MetroCluster配置，請執行以下命令：</block>
 </blocks>
