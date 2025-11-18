@@ -30,7 +30,13 @@ summary: 在沒有網際網路存取的環境中安裝 Keystone Collector 之前
 
 == Linux 的需求
 
-* 作業系統： Debian 12 ， Red Hat Enterprise Linux （ RHEL ） 8.6 ，或 RHEL 8.x 系列中的更新版本
+* 作業系統（選擇一項）：
++
+** Red Hat Enterprise Linux (RHEL) 8.6 或任何更高版本的 8.x 系列
+** Red Hat Enterprise Linux 9.0 或更高版本
+** Debian 12.
+
+
 * 核心： 2 個 CPU
 * RAM：4 GB
 * 磁碟空間：50 GB vDisk
@@ -43,9 +49,18 @@ summary: 在沒有網際網路存取的環境中安裝 Keystone Collector 之前
 
 同一部伺服器也應安裝下列協力廠商套件。如果透過儲存庫提供、這些套件將會自動安裝為先決條件：
 
-* RHEL8
+* RHEL 8.6+ (8.x)
 +
 ** python3 >=v3.6.8 、 python3 \<=v3.9.13
+** podman
+** SOS
+** yum 公用程式
+** python3-DNF-plugin-versionlock
+
+
+* RHEL 9.0+
++
+** python3 >= v3.9.0, python3 \<= v3.9.13
 ** podman
 ** SOS
 ** yum 公用程式
@@ -71,5 +86,5 @@ Keystone Collector 的網路需求包括：
 * Keystone Collector 伺服器應可在連接埠 443 （ HTTPS ）上存取 Unified Manager 伺服器。
 * Unified Manager 伺服器上的 Keystone Collector 應設定具有應用程式使用者權限的服務帳戶。
 * 不需要外部網際網路連線。
-* 每個月從 Keystone Collector 匯出檔案、並以電子郵件傳送至 NetApp 支援團隊。如需如何聯絡支援團隊的詳細資訊、請link:../concepts/gssc.html["取得 Keystone 的說明"]參閱。
+* 每個月從Keystone Collector 匯出一個文件並透過電子郵件發送給NetApp支援團隊。如需了解如何聯絡支援團隊的更多信息，請參閱 link:../concepts/support-services.html["取得 Keystone 的說明"]。
 

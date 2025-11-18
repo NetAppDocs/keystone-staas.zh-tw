@@ -54,5 +54,5 @@ image:dark-site-generate-support-bundle-1.png["產生支援服務組合"]
 +
 此程序會 `tar`在所述位置建立套件、並可與 NetApp 分享以解決疑難排解問題。
 
-. 下載檔案後、您可以將其附加至Keystone ServiceNow支援服務單。如需有關開立Ticket的資訊、請參閱 link:../concepts/gssc.html["正在產生服務要求"]。
+. 下載檔案後，您可以將其附加到Keystone ServiceNow 支援票證。有關提高票數的信息，請參閱 link:../concepts/support-services.html["正在產生服務要求"]。
 

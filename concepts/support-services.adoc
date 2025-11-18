@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/gssc.html 
+permalink: concepts/support-services.html 
 keywords: Keystone support, service request, support ticket 
 summary: 如果您需要協助，請聯絡 NetApp Keystone 支援團隊。 
 ---
@@ -52,7 +52,7 @@ Keystone Success Manager （ KSM ）會與您密切合作、提供 Keystone 服�
 
 在就職期間、如果您獲得存取和使用NetApp Keystone 此功能的認證資料、您可以使用入口網站針對與Keystone訂閱相關的問題產生服務要求：
 
-https://netappgssc.service-now.com/csm[]
+https://netappkeystone.service-now.com/csm[]
 
 在提出服務要求之前、請先確定系統詳細資料、記錄及相關資訊已備妥。當您提出服務要求時， Keystone 支援團隊會收到支援服務單，並存取疑難排解資訊。您可以依照 ServiceNow 通知單瞭解狀態和解決方案。
 

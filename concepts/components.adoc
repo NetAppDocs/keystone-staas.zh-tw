@@ -65,12 +65,12 @@ NetApp 可根據最終組態和需求、提供散熱需求規格（一般 BTU �
 Keystone Collector 可透過下列方法部署：
 
 * VMware OVA範本（需要VMware vCenter Server 6.7或更新版本）
-* 客戶提供的 Linux 伺服器執行於下列作業系統之一： Debian 12 ， Red Hat Enterprise Linux 8.6 或更新版本 8.x ，或 CentOS 7 （僅適用於現有環境）。Keystone 軟體是使用或 `.rpm`套件安裝 `.deb`，視 Linux 套裝作業系統而定。
+* 客戶需提供一台運行下列作業系統之一的 Linux 伺服器：Debian 12、Red Hat Enterprise Linux 8.6 或更高版本的 8.x 版本、Red Hat Enterprise Linux 9.0 或更高版本，或 CentOS 7（僅限現有環境）。Keystone軟體使用以下方式安裝： `.deb` 或者 `.rpm` 軟體包取決於 Linux 發行版。
 
 
 ITOM Collector 可透過下列方法進行部署：
 
-* 客戶提供的 Linux 伺服器可在 Debian 12 ， Ubuntu 20.04 LTS ， Red Hat Enterprise Linux （ RHEL ） 8.x ， Amazon Linux 2023 或更新版本上執行。
+* 客戶提供運行 Debian 12、Ubuntu 20.04 LTS、Red Hat Enterprise Linux (RHEL) 8.x、Red Hat Enterprise Linux 9.0、Amazon Linux 2023 或更高版本的 Linux 伺服器。
 * 客戶提供執行 Windows Server 2016 或更新版本的 Windows 伺服器。
 +
 

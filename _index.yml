@@ -53,7 +53,7 @@ indexpage:
   - title: 利用 Keystone 服務完成更多工作
     links:
     - title: 了解您的支援團隊
-      url: "/concepts/gssc.html"
+      url: "/concepts/support-services.html"
     - title: 增加突發容量
       url: "/concepts/burst-capacity.html"
     - title: 我可以如何處理冷資料或使用率較低的資料？

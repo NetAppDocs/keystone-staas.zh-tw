@@ -119,7 +119,7 @@ BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管
 
 現在您可以訂閱Keystone版本 3 (v3)，這是NetApp Keystone STaaS 產品的最新版本。此版本引入了多項增強功能，包括簡化的效能服務等級、額外的突發容量選項和靈活的計費頻率。這些改進簡化了儲存解決方案的管理、最佳化和擴充。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html["v3 的 Keystone STaaS 服務"]。
 
-您可以聯絡Keystone支援團隊訂閱Keystone版本 3 (v3)。有關詳細信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/concepts/gssc.html["取得 Keystone 的說明"]。
+您可以聯絡Keystone支援團隊訂閱Keystone版本 3 (v3)。更多詳情請參閱 link:https://docs.netapp.com/us-en/keystone-staas/concepts/support-services.html["取得 Keystone 的說明"]。
 
 
 

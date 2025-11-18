@@ -148,7 +148,7 @@ image:sla-breach.png["Excel 工作表範本"]
 [NOTE]
 ====
 * 服務信用申請應在 NetApp Keystone 支援驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。
-* 服務額度可套用至未來的發票。服務額度不適用於過期的 Keystone 訂閱。若要深入瞭解、請 link:../concepts/gssc.html["NetApp Keystone 支援"]參閱。
+* 服務信用額度可用於未來的發票。服務積分不適用於已過期的Keystone訂閱。欲了解更多信息，請參閱 link:../concepts/support-services.html["NetApp Keystone 支援"]。
 
 
 ====
