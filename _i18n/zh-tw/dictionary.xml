@@ -1684,7 +1684,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="98d28e0357b1d103f21ba89dd0d19e08" category="paragraph">您會看到所有服務請求的列表，包括請求編號、請求類型和目前狀態。</block>
   <block id="d47cec4b54da960eb97da1285dba00bf" category="inline-image-macro">向下箭頭圖標</block>
   <block id="b8915f85e20c41695f7695ce198af59a" category="list-text">您可以點選<block ref="97aa861acb085111dcd2b43caf6c79a2" category="inline-image-macro-rx" type="image"></block>點擊“提交日期”列旁邊的圖標，展開請求編號並查看詳細資訊。您可以看到提出請求的效能服務等級。</block>
-  <block id="de30be97e27dee0a131478825b7f19bd" category="inline-image-macro">螢幕截圖顯示了針對哪些效能服務等級提出了修改請求</block>
   <block id="6f611e4ccc824406e0de3f7a09110159" category="list-text">選擇請求編號可查看詳細信息，包括所請求訂閱的修改詳細信息和當前進度狀態。</block>
   <block id="a92c0535191745976db8964221708fe4" category="inline-image-macro">顯示當前進度狀態的螢幕截圖</block>
   <block id="fc1597aa65903b595ab66b315f8b1878" category="paragraph"><block ref="fc1597aa65903b595ab66b315f8b1878" category="inline-image-macro-rx" type="image"></block></block>
@@ -2288,8 +2287,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="ca0d168dfc9d3eec3e502042fa77ec2f" category="admonition">您可以同時選擇多個效能服務等級來建立 PSL。</block>
   <block id="b3eed4304ada05a16ec5ec8b501efe72" category="admonition">如果所選效能服務等級的 PSL 已存在於指定的Active IQ Unified Manger 伺服器上，則無法再次建立它。如果您嘗試這樣做，您將收到一條錯誤訊息。<block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea25018c2d045851b6c9e6567fb76051" category="paragraph">您可以透過NetApp控制台檢視和追蹤修改Keystone訂閱的服務要求，提供快速摘要並監控進度。</block>
-  <block id="2fbcdf41574fdac1e466d4dad9bb3a55" category="list-text">從控制台左側導覽功能表中，選擇*儲存&gt; Keystone &gt; 管理*。</block>
-  <block id="26a02c6592f7d54ca37b8c1a48780136" category="paragraph"><block ref="26a02c6592f7d54ca37b8c1a48780136" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aaaea723208b33ae079e357878d9a9cb" category="paragraph">您可以查看由單一Keystone訂閱管理的ONTAP叢集和節點以及StorageGRID網格、網站和節點的詳細資訊。您可以從NetApp控制台或Digital Advisor在Keystone儀表板中存取這些訂閱資產。</block>
   <block id="d1c3a83a967f6dcdc9a6ad9e94a8bbed" category="section-title">從NetApp主機查看Keystone訂閱資產</block>
   <block id="d79f885d7740bdd0320f954c06a36686" category="paragraph">*訂閱*頁面中的*資產*標籤顯示與訂閱相關的集群、 StorageGRID節點和ONTAP節點中的捲的詳細信息，包括各種詳細資訊和容量狀態。</block>
@@ -2443,7 +2440,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="15412d2b0949c1eabadcefaed9f6f8d0" category="list-text">識別並處理沒有容量使用或訂閱到期監控的訂閱。</block>
   <block id="72cf9e6c56443b9eb5c5d28a0a693ac1" category="list-text">查看並管理目前未與任何訂閱關聯的監視器。</block>
   <block id="4606189d5b77f103c0e503d8048ad8f7" category="inline-image-macro">Keystone訂閱警報監控覆蓋範圍缺口的螢幕截圖</block>
-  <block id="db3c34c51d992294e98f857c62b4cf47" category="paragraph"><block ref="db3c34c51d992294e98f857c62b4cf47" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6c84c1a10e1c87172a9fadb894dd8445" category="paragraph">若要解決沒有顯示器或未使用顯示器的訂閱問題，請依照下列步驟操作：</block>
   <block id="ac81eda7e7da15651a4c3d6a60e8f290" category="open-title">沒有顯示器的訂閱服務</block>
   <block id="f9fc4f7dade8ed75242e3918921812c2" category="list-text">選擇“訂閱到期”或“容量使用”標籤。</block>
@@ -2480,4 +2476,13 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="45d6736fdd879f91b2a538e05e0a3b12" category="list-text">Red Hat Enterprise Linux 9.0 或更高版本</block>
   <block id="cc20f1cec12842b9bed0a2fb4b579509" category="list-text">Amazon Linux 2023 或更高版本</block>
   <block id="f0fc80440f66cd06e8621cfb9578824b" category="paragraph">您可以聯絡Keystone支援團隊訂閱Keystone版本 3 (v3)。更多詳情請參閱 <block ref="90d872d2a90e66f6330f06f20805c0ef" category="inline-link-macro-rx"></block>。</block>
+  <block id="18b429fb243989438d2e534cfa60ad10" category="doc">用於追蹤保障缺口訂閱的 ID</block>
+  <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">在「監控 &gt; 警報監控」上的「完成您的保障」通知框中，現在每個訂閱都會在訂閱編號旁顯示其追蹤 ID。</block>
+  <block id="06d55ded719647ad67f379d0f9afc0e2" category="list-text">從控制台左側導覽功能表中，選擇「儲存」&gt; “Keystone” &gt;「管理」&gt;「請求」。</block>
+  <block id="21ffef0c637fd0891ae9b41f52742b09" category="admonition">Keystone訂閱用戶目前無法使用「代理管理」和「報告」標籤。</block>
+  <block id="5d2cdc919ce893613b66b876a7c2782d" category="inline-image-macro">螢幕截圖顯示了修改請求的效能服務級別</block>
+  <block id="a91bb8801531bd0f94f5726293b87485" category="paragraph"><block ref="a91bb8801531bd0f94f5726293b87485" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fa37f1bdab27c9577ff178edf4ff4fef" category="admonition">Keystone訂閱用戶目前無法使用「報告」標籤。</block>
+  <block id="2193640916b96caede95ed8f42c339e8" category="paragraph"><block ref="2193640916b96caede95ed8f42c339e8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025年11月24日</block>
 </blocks>

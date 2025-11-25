@@ -30,6 +30,10 @@ image:monitoring-alert-monitors-default-view-1.png["Keystone訂閱警報監視�
 +
 您可以查看Keystone訂閱中的警報監視器列表，包括監視器名稱、觸發通知的警報條件、嚴重性等級、訂閱編號、效能服務等級和狀態。您可以查看「創建者」列，以了解警報監視器是系統產生的還是使用者定義的。
 
++
+
+NOTE: Keystone訂閱用戶目前無法使用「報告」標籤。
+
 
 
 
@@ -133,7 +137,7 @@ NOTE: 系統產生的監視器不能被使用者刪除。
 * 識別並處理沒有容量使用或訂閱到期監控的訂閱。
 * 查看並管理目前未與任何訂閱關聯的監視器。
 +
-image:coverage-gaps.png["Keystone訂閱警報監控覆蓋範圍缺口的螢幕截圖"]
+image:coverage-gaps-1.png["Keystone訂閱警報監控覆蓋範圍缺口的螢幕截圖"]
 
 
 

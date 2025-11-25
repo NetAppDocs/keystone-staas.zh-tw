@@ -32,6 +32,10 @@ image:monitoring-alerts-default-view-1.png["Keystone訂閱的有效警報螢幕�
 +
 您可以查看警報的詳細信息，例如嚴重性、ID、描述、觸發時間、訂閱號碼、追蹤ID、效能服務等級和狀態。該頁面還按嚴重程度和類型顯示未解決警報的總數。
 
++
+
+NOTE: Keystone訂閱用戶目前無法使用「報告」標籤。
+
 
 
 
