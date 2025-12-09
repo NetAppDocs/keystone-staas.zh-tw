@@ -16,6 +16,9 @@ summary: 使用資產索引標籤可檢視 ONTAP 叢集和節點的詳細資料�
 [role="lead"]
 NetApp控制台中的Keystone儀表板可讓您根據您的存取權限查看有關跨多個Keystone訂閱的叢集、設定磁碟區和StorageGRID節點中的節點的詳細資訊。此視圖在Digital Advisor中不可用。
 
+
+NOTE: 「資產」頁面會根據您的Keystone訂閱關聯的平台顯示標籤。對於ONTAP，同時提供「叢集中的節點」和「叢集中的磁碟區」標籤。對於StorageGRID，無需選擇選項卡即可直接顯示「網格中的節點」表。如果訂閱包含這兩個平台，則所有三個標籤頁都可用。
+
 [role="tabbed-block"]
 ====
 .叢集中的節點

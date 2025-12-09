@@ -22,6 +22,15 @@ summary: 舊版 NetApp Keystone STaaS 服務中發現的問題已在後續版本
 
 
  a| 
+儘管實際使用量在允許的突發流量限制之內，Digital Advisor控制面板中訂閱的顯示狀態錯誤地顯示為「超出突發流量限制」。
+ a| 
+固定
+ a| 
+2025年12月08日
+
+
+
+ a| 
 Digital Advisor儀表板中配置了MetroCluster配置的訂閱的消費趨勢圖中缺少突發閾值線，顯示不正確的 *超出突發限制* 狀態。
  a| 
 固定

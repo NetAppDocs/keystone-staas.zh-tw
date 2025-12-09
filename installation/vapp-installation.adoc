@@ -29,34 +29,21 @@ summary: 下載 OVA 範本、部署範本等、在 VMware vSphere 系統上部�
 . 在「*部署OVF範本*」精靈的「步驟1」上、按一下「*選取」和「OVF範本*」以選取下載的項目 `KeystoneCollector-latest.ova` 檔案：
 . 在步驟2 _上、指定VM名稱並選取VM資料夾。
 . 在_Step 3_上、指定執行VM所需的運算資源。
-. 在 _ 步驟 4 ：檢閱詳細資料 _ 、確認 OVA 檔案的正確性與真實性。
-7.0u2 之前的 vCenter 版本無法自動驗證程式碼簽署憑證的真實性。vCenter 7.0u2 及更新版本可執行驗證、但為此、應將簽署憑證授權單位新增至 vCenter 。請依照下列說明操作 vCenter 版本：
+. 在步驟 4：檢查細節中，驗證 OVA 檔案的正確性和真實性。
 +
-.vCenter 7.0u1 及更早版本：深入瞭解
-[%collapsible]
-====
-vCenter 會驗證 OVA 檔案內容的完整性、並為 OVA 檔案中的檔案提供有效的程式碼簽署摘要。不過、它並不會驗證程式碼簽署憑證的真僞。若要驗證完整性、您應該下載完整的簽署摘要憑證、並對照Keystone發佈的公開憑證進行驗證。
+vCenter 根信任庫僅包含 VMware 憑證。NetApp使用 Entrust 作為認證機構，這些憑證需要加入到 vCenter 信任庫中。
 
-.. 按一下*出版者*連結、即可下載完整的簽署摘要憑證。
-.. 從此處下載 Keystone Billing 公共證書 https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20251020.pem["此連結"^]。
-.. 使用 OpenSSL 驗證 OVA 簽章憑證與公鑰憑證的真偽：
-`openssl verify -CAfile OVA-SSL-NetApp-Keystone-20251020.pem keystone-collector.cert`
-
-
-====
 +
-.vCenter 7.0u2 及更新版本：深入瞭解
-[%collapsible]
-====
-7.0u2 及更新版本的 vCenter 可在提供有效的程式碼簽署摘要時、驗證 OVA 檔案內容的完整性及程式碼簽署憑證的真實性。vCenter 根信任存放區僅包含 VMware 憑證。NetApp 使用 Entrust 做為認證機構、而這些憑證必須新增至 vCenter 信任存放區。
-
 .. 從 Sectigo 下載代碼簽署 CA 證書 https://comodoca.my.salesforce.com/sfc/p/1N000002Ljih/a/3l000000oAhy/QCCby12C7cYo50nNyic6AuG1KFcwe1rDn1EknfTaUzY["請按這裡"^]。
 .. 請遵循中的步驟 `Resolution` 本知識庫（ KB ）文章的一節： https://kb.vmware.com/s/article/84240[]。
++
 
+NOTE: 對於 vCenter 7.x 及更早版本，您必須將 vCenter 和 ESXi 更新至 8.0 或更高版本。早期版本已不再支援。
 
-====
 +
 當Keystone Collector OVA 的完整性和真實性得到驗證後，您就可以看到文字了。 `(Trusted certificate)` 與出版商合作。 image:ova-deploy-1.png["已驗證憑證的 ova UI"]
+
+
 
 . 在「*部署OVF範本*」精靈的步驟5_上、指定儲存VM的位置。
 . 在 _Step 6_ 上、選取要用於虛擬機器的目的地網路。

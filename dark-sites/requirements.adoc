@@ -20,7 +20,7 @@ summary: 在沒有網際網路存取的環境中安裝 Keystone Collector 之前
 
 == VMware vSphere 的需求
 
-* 作業系統： VMware vCenter Server 和 ESXi 6.7 或更新版本
+* 作業系統：VMware vCenter 伺服器和 ESXi 8.0 或更高版本
 * 核心： 1 個 CPU
 * RAM：2 GB
 * 磁碟空間： 20 GB vDisk

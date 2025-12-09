@@ -347,7 +347,6 @@
   <block id="9a87285999e76f01064e09d4163dacb4" category="list-text">在「*部署OVF範本*」精靈的「步驟1」上、按一下「*選取」和「OVF範本*」以選取下載的項目<block ref="10e7fe8d7233c9952d9060893052d234" prefix=" " category="inline-code"></block> 檔案：</block>
   <block id="eb2f786d0356dd1cd28f20f376d5da2b" category="list-text">在步驟2 _上、指定VM名稱並選取VM資料夾。</block>
   <block id="ef93bcb8e06b73273019082b41d87115" category="list-text">在_Step 3_上、指定執行VM所需的運算資源。</block>
-  <block id="41466009ab38ed0e1dbd7f2358fa3825" category="list-text">按一下*出版者*連結、即可下載完整的簽署摘要憑證。</block>
   <block id="09ecce71a847e29076b9c49beb846dae" category="list-text">在「*部署OVF範本*」精靈的步驟5_上、指定儲存VM的位置。</block>
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">在步驟7自訂範本_上、指定管理使用者帳戶的初始網路位址和密碼。</block>
   <block id="4ff6b73315fa76bc8171f5548ebb79ef" category="list-text">在「*部署OVF範本*」精靈的步驟8「準備好完成」上、檢閱組態並確認您已正確設定OVA部署的參數。</block>
@@ -602,10 +601,6 @@
   <block id="85701aafc47f53d769db3988637e595c" category="admonition">空白圖表表示您的環境在該資料收集點沒有可用的資料。</block>
   <block id="c2e2fce3a995f59900d7afbbe58683f5" category="inline-link">此連結</block>
   <block id="7656f92cecd653f72ca596d6def21867" category="list-text">請從下載OVA檔案<block ref="6a1066e952a937beb3c2b32013fd7738" category="inline-link-rx"></block> 並將其儲存在VMware vSphere系統上。</block>
-  <block id="6948cdf9e6c5bdc7d80925f15f8f873e" category="list-text">在 _ 步驟 4 ：檢閱詳細資料 _ 、確認 OVA 檔案的正確性與真實性。
-7.0u2 之前的 vCenter 版本無法自動驗證程式碼簽署憑證的真實性。vCenter 7.0u2 及更新版本可執行驗證、但為此、應將簽署憑證授權單位新增至 vCenter 。請依照下列說明操作 vCenter 版本：</block>
-  <block id="8b6cfff06473c4cd5cde3fa4ab929f0a" category="paragraph">vCenter 會驗證 OVA 檔案內容的完整性、並為 OVA 檔案中的檔案提供有效的程式碼簽署摘要。不過、它並不會驗證程式碼簽署憑證的真僞。若要驗證完整性、您應該下載完整的簽署摘要憑證、並對照Keystone發佈的公開憑證進行驗證。</block>
-  <block id="45c3e42547d79b15a504fc354a5ea227" category="paragraph">7.0u2 及更新版本的 vCenter 可在提供有效的程式碼簽署摘要時、驗證 OVA 檔案內容的完整性及程式碼簽署憑證的真實性。vCenter 根信任存放區僅包含 VMware 憑證。NetApp 使用 Entrust 做為認證機構、而這些憑證必須新增至 vCenter 信任存放區。</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link">請按這裡</block>
   <block id="f35abf22d965c5c506fba6f9273a2895" category="list-text">請遵循中的步驟<block ref="b5a4b64b2aa505bd7c11f79b8a9f458d" prefix=" " category="inline-code"></block> 本知識庫（ KB ）文章的一節：<block ref="2e578ca4f24dfc2cfe15357800b939d4" category="inline-link-rx"></block>。</block>
   <block id="6db4d1fb4f168710dad43e921e4fec52" category="inline-image-macro">已驗證憑證的 ova UI</block>
@@ -613,8 +608,6 @@
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意下列事項：</block>
   <block id="89daf59b9c591b51911d438bdad9f762" category="list-text">* 使用狀態 * ：顯示使用量指標、以指出使用量是否在訂閱上限內。如果您想要檢視最高使用量記錄、可以依此欄排序清單。</block>
   <block id="6645e0ebb53d4b6e68be7936af3a8039" category="inline-link">AutoSupport</block>
-  <block id="ed55999d50b7451fbe4281de85f01c45" category="example-title">vCenter 7.0u1 及更早版本：深入瞭解</block>
-  <block id="ae33212e0f96fd19173ab021f7909861" category="example-title">vCenter 7.0u2 及更新版本：深入瞭解</block>
   <block id="ee5ca5bbfae8b59d25890e341fb270f9" category="example-title">為 ONTAP 收集的 &lt;strong&gt; 相關資料： Learn &lt;/strong&gt;</block>
   <block id="c1180c8c32ead64506dbcd62aa47c4c9" category="example-title">為 ONTAP 收集的 &lt;strong&gt; 相關資料： Learn &lt;/strong&gt;</block>
   <block id="fb4c693ae1537fcd9bba0f68cbeef17b" category="example-title">限制私有資料存取時移除的項目 &lt;strong&gt; ： Learn &lt;/strong&gt;</block>
@@ -1185,7 +1178,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="e481e00ab54faed62b9dea98ed860aea" category="inline-image-macro">UI 螢幕擷取畫面可顯示建立的 AQO 原則</block>
   <block id="43b019fa12d041b6c5cbfe89c5f52205" category="paragraph"><block ref="43b019fa12d041b6c5cbfe89c5f52205" category="inline-image-macro-rx" type="image"></block></block>
   <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">TUI 畫面顯示原則建立的錯誤訊息</block>
-  <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">作業系統：VMware vCenter伺服器和ESXi 6.7或更新版本</block>
   <block id="f7e13857abd03bc318b89fe886669d7d" category="paragraph">當導覽至 *Consumpting Trend* 標籤時、 * 從日期 * 欄位可選取日期範圍、預設會顯示未來日期。</block>
   <block id="443c63f2975d5902a80f1597e417d9f2" category="paragraph">2024-09-04</block>
   <block id="3564049af4b6d8549eeccf2c18fc9bb7" category="summary">完成一些組態工作、讓 Keystone Collector 能夠在無法存取網際網路的環境中收集使用資料、也稱為「暗站」或「私人模式」。</block>
@@ -1287,7 +1279,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="ddedaabf1afb461a6e3d2fe1320dcca0" category="summary">在沒有網際網路存取的環境中安裝 Keystone Collector 之前（也稱為 _Dark 站台 _ 或 _Private 模式 _ ）、請先確保系統已準備好必要的軟體、並符合所有必要的先決條件。</block>
   <block id="fd7fae83015d688b86a7ec1ed256864e" category="doc">準備以私有模式安裝</block>
   <block id="2b9854b0330b42530e0aaf8e893e2f28" category="section-title">VMware vSphere 的需求</block>
-  <block id="4b78be970b5500221a819608df5616e7" category="list-text">作業系統： VMware vCenter Server 和 ESXi 6.7 或更新版本</block>
   <block id="0a07fd95ca9bf6935ce5e61609730be6" category="list-text">RAM：2 GB</block>
   <block id="c53de6b17f1d8da5e4d60aca127be380" category="section-title">Linux 的需求</block>
   <block id="6adf0487ff5b4dadf30c70a5107314fc" category="list-text">核心： 2 個 CPU</block>
@@ -2423,8 +2414,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="b5e09b8913194b721a7e21626585dfc5" category="list-text">請透過檢查 RPM 資料庫中Keystone Billing Platform 的指紋，確保已匯入正確的公共憑證：<block ref="46ce6ee7c7afe96ac26dd093842fe062" prefix=" " category="inline-code"></block> 正確的指紋如下圖所示：<block ref="b91be68b3b67e632293886e3790eccc7" prefix=" " category="inline-code"></block></block>
   <block id="f4baeef0e68eefa8ecbde2db1c9bb6af" category="list-text">下載<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 文件：<block ref="55192ff2cd286fc1b545da5fb86c86fb" prefix=" " category="inline-code"></block></block>
   <block id="859d80b97dc3be93d17073cb53fd1183" category="list-text">驗證文件的真實性：<block ref="50a551e75e87c897a8ad2128c42de747" prefix=" " category="inline-code"></block> 正版文件的簽名如下所示：<block ref="ae3578a86bb737e9e2439ece85303ecb" prefix=" " category="inline-code"></block></block>
-  <block id="1eba34a29908de527656c195c6a4418a" category="list-text">從此處下載 Keystone Billing 公共證書<block ref="5520f333fe3958930d4ca351e896a12f" category="inline-link-rx"></block>。</block>
-  <block id="8dd9e9a8650be62b5350b1743ec0c25a" category="list-text">使用 OpenSSL 驗證 OVA 簽章憑證與公鑰憑證的真偽：<block ref="f41dec976ad8e65c3e38fceba0104101" prefix=" " category="inline-code"></block></block>
   <block id="b96ad4ab266c25b5492620bb2563d5d0" category="list-text">從 Sectigo 下載代碼簽署 CA 證書<block ref="7342f89b7e38eb427d641531b8da4ba6" category="inline-link-rx"></block>。</block>
   <block id="5107c2f981fc9d221af2aedb4d9c3f10" category="paragraph">當Keystone Collector OVA 的完整性和真實性得到驗證後，您就可以看到文字了。<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 與出版商合作。 <block ref="4bb910ce06804868c88e19dd6ff9e83c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4d3f733b36c05e3bcdf4287f293b20f" category="paragraph">如果叢集採用MetroCluster配置，請執行以下命令：</block>
@@ -2485,4 +2474,16 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="fa37f1bdab27c9577ff178edf4ff4fef" category="admonition">Keystone訂閱用戶目前無法使用「報告」標籤。</block>
   <block id="2193640916b96caede95ed8f42c339e8" category="paragraph"><block ref="2193640916b96caede95ed8f42c339e8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025年11月24日</block>
+  <block id="236430e108e8394ac19913076b10fb55" category="doc">更名為「累積突發容量」標籤</block>
+  <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">標籤「累計突發容量」更名為「累計突發」。</block>
+  <block id="a6145fbfb28ae332bb61854cc43b2999" category="list-text">作業系統：VMware vCenter 伺服器和 ESXi 8.0 或更高版本</block>
+  <block id="19c50fb6e1d8179976234d4afbeaf824" category="list-text">在步驟 4：檢查細節中，驗證 OVA 檔案的正確性和真實性。</block>
+  <block id="89982b0af4c1ad3b86da7a82b021fed7" category="paragraph">vCenter 根信任庫僅包含 VMware 憑證。NetApp使用 Entrust 作為認證機構，這些憑證需要加入到 vCenter 信任庫中。</block>
+  <block id="6421324a362bee91e5fee16704e6b0e5" category="admonition">對於 vCenter 7.x 及更早版本，您必須將 vCenter 和 ESXi 更新至 8.0 或更高版本。早期版本已不再支援。</block>
+  <block id="21f65ffde9511843c6e3b86b7a0de865" category="list-text">作業系統：VMware vCenter 伺服器和 ESXi 8.0 或更高版本</block>
+  <block id="effa0f06c02c1da56e0eada86a5982ec" category="list-text">「檢視」下拉式選單選項取決於您的Keystone訂閱平台。ONTAP支援叢集中的磁碟區和叢集中的節點。對於StorageGRID，*檢視*下拉選單不可用，*網格中的節點*表格會自動顯示。如果您的訂閱包含這兩個平台，則所有三種選項均可使用。</block>
+  <block id="a71fbcfaa67815b8c0edea5059cb96fb" category="admonition">「資產」頁面會根據您的Keystone訂閱關聯的平台顯示標籤。對於ONTAP，同時提供「叢集中的節點」和「叢集中的磁碟區」標籤。對於StorageGRID，無需選擇選項卡即可直接顯示「網格中的節點」表。如果訂閱包含這兩個平台，則所有三個標籤頁都可用。</block>
+  <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">儘管實際使用量在允許的突發流量限制之內，Digital Advisor控制面板中訂閱的顯示狀態錯誤地顯示為「超出突發流量限制」。</block>
+  <block id="81899b5a6230dd4cf7e0bff4dbc71dfb" category="paragraph">2025年12月08日</block>
+  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
 </blocks>
