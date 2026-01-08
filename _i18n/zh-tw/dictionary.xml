@@ -286,7 +286,6 @@
   <block id="8a43eb05c3b74f093be84dcedec105e4" category="list-text">Pod管理程式</block>
   <block id="431e077067178a6dd061f1e2ab20209d" category="list-text">SOS</block>
   <block id="e284374909d82a81c5150b7908e00147" category="list-text">時間</block>
-  <block id="3c048c264642c17c1d0bbd50b9e23bfe" category="list-text">Python 3（3.6.8至3.9.13）</block>
   <block id="8293f6bcd4201a597ff59371ddd65240" category="section-title">其他需求</block>
   <block id="ddd31bebd407467c40be40bf75366dbd" category="section-title">網路需求</block>
   <block id="7ff386c96ae027b0684c69f8088eaa2b" category="admonition">Keystone Collector需要網際網路連線。您可以透過預設閘道（透過NAT）或透過HTTP Proxy直接路由傳送來提供網際網路連線。這兩種變體都在這裡說明。</block>
@@ -2486,4 +2485,5 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">儘管實際使用量在允許的突發流量限制之內，Digital Advisor控制面板中訂閱的顯示狀態錯誤地顯示為「超出突發流量限制」。</block>
   <block id="81899b5a6230dd4cf7e0bff4dbc71dfb" category="paragraph">2025年12月08日</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
+  <block id="ee53a2d144b153a8ad44855abe0429a8" category="list-text">Python 3（3.9.14 至 3.11.8）</block>
 </blocks>

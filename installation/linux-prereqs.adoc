@@ -36,7 +36,7 @@ summary: 在安裝 Keystone Collector 之前、請使用所需的軟體準備 Li
 * Pod管理程式
 * SOS
 * 時間
-* Python 3（3.6.8至3.9.13）
+* Python 3（3.9.14 至 3.11.8）
 
 
 .Keystone Collector 伺服器 VM ：
