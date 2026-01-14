@@ -4,7 +4,7 @@ permalink: rest-api/get-customer-consumption.html
 keywords: api, consumption, subscriptions, customerID, keystone, Digital Advisor 
 summary: Digital Advisor REST API 會擷取與指定客戶 ID 相關的所有訂閱目前使用量詳細資料。 
 ---
-= 使用 Digital Advisor REST API 取得客戶使用量詳細資料
+= 使用Digital Advisor REST API 取得Keystone客戶的消費詳情
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

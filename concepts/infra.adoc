@@ -4,7 +4,7 @@ permalink: concepts/infra.html
 keywords: keystone infrastructure, infra 
 summary: Keystone基礎架構、設計、技術選擇及元件產品、完全由NetApp提供。 
 ---
-= Keystone基礎架構
+= 了解Keystone基礎設施
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

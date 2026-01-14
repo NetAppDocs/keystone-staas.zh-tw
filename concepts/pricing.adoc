@@ -4,7 +4,7 @@ permalink: concepts/pricing.html
 keywords: pricing, billing introduction, Keystone billing 
 summary: Keystone 提供隨成長付費模式、滿足您靈活且可擴充的消費需求。 
 ---
-= Keystone定價
+= 了解Keystone定價
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

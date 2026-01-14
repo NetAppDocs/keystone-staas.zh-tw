@@ -4,7 +4,7 @@ permalink: concepts/data-tiering.html
 keywords: add-on services, add-on, data tiering 
 summary: 資料分層附加服務可識別使用頻率較低的資料、並將其分層至支援的儲存設備。 
 ---
-= 瞭解資料分層
+= Keystone的資料分層附加服務
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

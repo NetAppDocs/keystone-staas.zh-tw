@@ -4,7 +4,7 @@ permalink: concepts/capacity-requirements.html
 keywords: storage capacity requirement for service levels, capacity definition per PSL, 
 summary: 服務層級的容量需求會因 Keystone STaaS 訂閱所支援的檔案、區塊、物件或雲端儲存設備而異。 
 ---
-= 性能服務等級的容量要求
+= Keystone效能服務等級的容量要求
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

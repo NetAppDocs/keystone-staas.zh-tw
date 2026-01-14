@@ -152,7 +152,7 @@ sidebar:
         url: "/concepts/service-levels.html"
       - title: 性能服務等級的容量要求
         url: "/concepts/capacity-requirements.html"
-    - title: 附加服務
+    - title: 了解附加服務
       entries:
       - title: 突發容量選項
         url: "/concepts/burst-capacity.html"
@@ -164,7 +164,7 @@ sidebar:
         url: "/concepts/nrnvc.html"
       - title: 美國保護支援（ USPS ）
         url: "/concepts/usps.html"
-    - title: Keystone STaaS SLO
+    - title: 了解Keystone STaaS SLO
       entries:
       - title: 可用度
         url: "/concepts/sla-availability.html"
@@ -174,7 +174,7 @@ sidebar:
         url: "/concepts/sla-sustainability.html"
       - title: 勒索軟體恢復保證
         url: "/concepts/sla-ransomware.html"
-    - title: 帳單
+    - title: 了解計費方式
       entries:
       - title: Keystone定價
         url: "/concepts/pricing.html"
@@ -184,7 +184,7 @@ sidebar:
         url: "/concepts/consumed-capacity-billing.html"
       - title: 根據尖峰使用量進行計費
         url: "/concepts/burst-consumption-billing.html"
-      - title: Keystone計費的其他案例
+      - title: 針對特定容量配置的計費
         url: "/concepts/misc-volume-billing.html"
       - title: 帳單排程
         url: "/concepts/billing-schedules.html"

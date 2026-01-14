@@ -4,7 +4,7 @@ permalink: installation/install-itom-linux.html
 keywords: Linux installation, ITOM Collector installation 
 summary: 在 Linux 系統上安裝 ITOM Collector 軟體。 
 ---
-= 在 Linux 系統上安裝 ITOM Collector
+= 在 Linux 系統上安裝Keystone ITOM Collector
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

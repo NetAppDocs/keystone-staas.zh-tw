@@ -4,7 +4,7 @@ permalink: concepts/misc-volume-billing.html
 keywords: Billing and miscellaneous scenarios 
 summary: 瞭解特定組態的 Keystone 帳單、包括複製的磁碟區、進階資料保護等。 
 ---
-= Keystone計費的其他案例
+= 了解Keystone針對特定容量配置的計費方式
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

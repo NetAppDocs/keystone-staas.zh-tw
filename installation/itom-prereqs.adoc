@@ -4,7 +4,7 @@ permalink: installation/itom-prereqs.html
 keywords: prerequisites, ITOM, 
 summary: 您的系統必須符合數項需求，才能安裝 ITOM Collector 。 
 ---
-= ITOM Collector 的安裝需求
+= Keystone ITOM Collector 的安裝要求
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

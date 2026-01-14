@@ -4,7 +4,7 @@ permalink: installation/vapp-prereqs.html
 keywords: prerequisites, VMware vSphere, vApp 
 summary: 您的 VMware vSphere 系統必須符合數項需求、才能安裝 Keystone Collector 。 
 ---
-= 虛擬化基礎架構需求
+= Keystone Collector 的虛擬基礎架構需求
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

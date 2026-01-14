@@ -4,7 +4,7 @@ permalink: rest-api/generate-tokens.html
 keywords: Refresh token, Digital Advisor portal,access 
 summary: 產生重新整理權杖以取得新的存取權杖。它會驗證 API 要求、並在一週內或更換之前保持有效。您可以透過主控台或 API 呼叫取得存取權杖。 
 ---
-= 產生重新整理和存取權杖
+= 為Keystone產生刷新令牌和存取令牌
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

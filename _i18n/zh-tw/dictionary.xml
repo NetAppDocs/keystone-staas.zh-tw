@@ -33,7 +33,6 @@
   <block id="b3f5d2a190d6e7bd7689ffbabbb1e2f2" category="inline-link-macro">Keystone中支援的儲存容量</block>
   <block id="8a73a45becb1972a998dc8490856f730" category="summary">根據尖峰使用量進行計費</block>
   <block id="83cd48b4617f1e69361a1ecec3f5b3a3" category="summary">根據雜項Volume類型進行收費</block>
-  <block id="bb6903e39254cc1a8d4ee2116c8e91e1" category="doc">Keystone計費的其他案例</block>
   <block id="ff6306dccf086261b36fc9764ec0a69c" category="section-title">複製磁碟區的收費</block>
   <block id="ba4c22a98feebac558bbaac68b704e09" category="section-title">暫用磁碟區收費</block>
   <block id="480da42f59e7a8b523d40d52ba830cb8" category="paragraph">有時 ONTAP 、當搬移 Volume 時、會由現象開發出暫用（ TMP ） Volume 。這些暫存磁碟區的壽命很短、而且不會測量這些磁碟區的使用量以供計費。</block>
@@ -151,7 +150,6 @@
   <block id="0f185ccd88416daec4eee0a846d110b8" category="list-text">NetApp 產品文件<block ref="2e85fc867cab94d246e0bf6043b361cd" category="inline-link-rx"></block></block>
   <block id="e5471403f1b2eefb0fe47b6193a72bbc" category="sidebar">Keystone文件</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
-  <block id="780c462e85ba4399a5d42e88f69a15ca" category="sidebar">帳單</block>
   <block id="05bbb43b3d923283e0b6ffafd088f41f" category="sidebar">元件</block>
   <block id="51e229527022b23ef548bfc016bfb0ac" category="sidebar">資料流</block>
   <block id="895b14af35ea6854d4009fe0ca2d99a9" category="sidebar">什麼是 NetApp Keystone 功能？</block>
@@ -280,7 +278,6 @@
   <block id="349cd340e36e6c99b024c4cce5735bdc" category="inline-link">支援的Unified Manager CLI命令</block>
   <block id="963d08ca263f6cd538d14c2e7f2ec229" category="inline-link">重新啟動Unified Manager</block>
   <block id="f0534e91aef6ef17323964d9d72a8ced" category="inline-link">重新啟動Unified Manager虛擬機器</block>
-  <block id="ec42ecd035e3697033aaf0a3f87f6d29" category="doc">Linux系統需求</block>
   <block id="6c0ecb6db472eae3c84276b7cd5ea34f" category="list-text">Chroyd時間同步</block>
   <block id="8dff4f66fbdc44d35cadc9cf566cab06" category="paragraph">同一部伺服器也應該具有下列協力廠商套件：</block>
   <block id="8a43eb05c3b74f093be84dcedec105e4" category="list-text">Pod管理程式</block>
@@ -703,7 +700,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="36234decc68306d26e71012f98474aa1" category="paragraph">此功能可在僅預覽模式中使用。請聯絡您的 KSM 以深入瞭解此功能。</block>
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">選取查詢的日期範圍。日期範圍可以是月份的開始日期、或是訂閱開始日期到目前日期或訂閱結束日期。您無法選擇未來日期。</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">*目前爆發*：在定義的突發量限制內或以上耗用容量的指標。在訂閱的突發量上限內的任何使用量、例如、超過承諾容量 20% 的使用量、都在突發量上限內。進一步的使用量會被視為超出連拍限制的使用量。此欄位顯示特定色彩：</block>
-  <block id="9f06d116e9e0b83604b7fd60a2234a51" category="doc">ONTAP 與 StorageGRID 的需求</block>
   <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">部分9.8或更新版本ONTAP</block>
   <block id="ad98fcce772f03d25a2b4758c7fbf35c" category="list-text">請確定 Unified Manager 9.10 或更新版本已設定完成。如需安裝Unified Manager的相關資訊、請參閱下列連結：</block>
   <block id="8414d36b2c6d9865a2f13b42f9ef6e91" category="list-text">StorageGRID<block ref="eb0ecbdf20891e5963990e2643405555" prefix=" " category="inline-code"></block> 應安裝或更新版本。如需升級StorageGRID 功能的相關資訊、請參閱 <block ref="97cb3175bb06374adaf739435d4e2f76" category="inline-link-macro-rx"></block>。</block>
@@ -907,7 +903,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="bff50f1947dbec1e11bc66d60ca0b1d9" category="sidebar">支援的儲存設備</block>
   <block id="7618f9f854f7d4bc7c7026ffaab24dae" category="sidebar">支援的容量</block>
   <block id="c6f45ce2284ef7f44c38a58ebbd013e0" category="sidebar">服務層級</block>
-  <block id="ab556116f6e3e88a66d6fb6d623318fa" category="sidebar">附加服務</block>
   <block id="a896a08a07f491f10b65b593a6b1ecd6" category="paragraph">如果從 *Capacity Trend* 標籤產生的 CSV 報告中的 * 帳戶名稱 * 欄包含一個含逗號的帳戶名稱、就會在 CSV 報告中誤置 Keystone 資料<block ref="e1266d71c305ae3767d9d953acaf0aae" prefix=" " category="inline-code"></block>。</block>
   <block id="b424d6cf899d73ac410dfcf534d8fb4d" category="paragraph">Keystone 資料已在 CSV 報告中正確對齊。</block>
   <block id="f0ee2833137c8c18cdfab03dc246ee49" category="paragraph">2024 年 5 月 29 日</block>
@@ -981,15 +976,12 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="44356560df15caffd928422c99dc9948" category="summary">服務層級的容量需求會因 Keystone STaaS 訂閱所支援的檔案、區塊、物件或雲端儲存設備而異。</block>
   <block id="d19b993b24e968320c9cf842a96fd2e4" category="summary">承諾容量是指在購買訂閱時、針對特定服務層級所承諾的容量。</block>
   <block id="7053560fccb48096070dc008e686cf8d" category="summary">瞭解在您的環境中啟用 NetApp Keystone STaaS 服務所需的元件。</block>
-  <block id="605e1ff8075e66e13ef5bc1257800be7" category="doc">部署所需的元件</block>
-  <block id="1d338514e4b31738eb689c9e5bf1deca" category="paragraph">在您的環境中啟用 NetApp Keystone STaaS 服務需要幾個元件。開始之前、您應該先檢閱這些元件的詳細資料。</block>
   <block id="d246f9b425c150eb3d6e174fbc2525d0" category="paragraph">Keystone Collector 可透過下列方法部署：</block>
   <block id="3332bc574644f77a870b242a631af1e3" category="summary">消耗容量是工作負載在服務使用期間實際使用的容量。</block>
   <block id="7a6709ab5e3b396814fccf37c263ad1f" category="paragraph">Keystone STaaS會根據您在服務使用期間所耗用的容量進行計量。耗用容量是工作負載實際使用的容量。</block>
   <block id="35ff061e0e3d6c0c79e597b4d638231e" category="paragraph">作爲Keystone服務部署的一部分，NetApp會持續監控和衡量服務的使用量。每五分鐘至少一次、系統會產生一筆使用記錄、詳述您訂閱的目前使用容量。這些記錄會在計費期間內彙總、以產生發票和使用報告。</block>
   <block id="a0bf4fc3f702627df39c1daec928bb04" category="summary">Keystone STaaS 系統中的資料會流經 Keystone Collector 和 AIOP 解決方案工具、這是相關的監控系統。</block>
   <block id="fd730f411ecf3d749480ce42fb6b5281" category="summary">資料分層附加服務可識別使用頻率較低的資料、並將其分層至支援的儲存設備。</block>
-  <block id="1ef28d15d6a0ac03d072691320e9c61b" category="doc">瞭解資料分層</block>
   <block id="9c749342ce1dc8c39f5e67d29a9500ac" category="doc">取得 Keystone 的說明</block>
   <block id="24acde87a618c9dc2d11377311afc495" category="summary">Keystone基礎架構、設計、技術選擇及元件產品、完全由NetApp提供。</block>
   <block id="7954e225c8bd390ff2168144c5e393c1" category="paragraph">NetApp 完全負責 Keystone 的基礎架構、設計、技術選擇和元件、適用於 NetApp 和客戶營運的環境。</block>
@@ -1039,7 +1031,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="983166db9c209be0406993868f07319e" category="doc">檢視效能指標</block>
   <block id="a7a03de7b430dd390a52a4acaf198ea0" category="summary">若要深入瞭解您的 Keystone 訂閱、您可以從「訂閱」索引標籤檢視所有訂閱的清單。</block>
   <block id="91ccf36d6487c0c6be127a65f4ee107b" category="summary">在磁碟區或物件儲存層級檢視容量詳細資料。</block>
-  <block id="3641aacbdeb7ae21200b69f8628f5b4e" category="doc">檢視 ONTAP 磁碟區和物件儲存的詳細資料</block>
   <block id="a7a411a95daabfbcf6e39078b5f44902" category="summary">舊版 NetApp Keystone STaaS 服務中發現的問題已在後續版本中修正。</block>
   <block id="6ee3962f219413522af2700bec386d97" category="sidebar">Keystone 文件</block>
   <block id="dcb83accddabcabf987373583a058d0d" category="sidebar">虛擬化基礎架構</block>
@@ -1276,7 +1267,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="faedc5ec46a38871a78be1ed37e01e63" category="inline-image-macro">客戶前提</block>
   <block id="1d43476b2c183791ba51d56636a41b1c" category="paragraph"><block ref="1d43476b2c183791ba51d56636a41b1c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ddedaabf1afb461a6e3d2fe1320dcca0" category="summary">在沒有網際網路存取的環境中安裝 Keystone Collector 之前（也稱為 _Dark 站台 _ 或 _Private 模式 _ ）、請先確保系統已準備好必要的軟體、並符合所有必要的先決條件。</block>
-  <block id="fd7fae83015d688b86a7ec1ed256864e" category="doc">準備以私有模式安裝</block>
   <block id="2b9854b0330b42530e0aaf8e893e2f28" category="section-title">VMware vSphere 的需求</block>
   <block id="0a07fd95ca9bf6935ce5e61609730be6" category="list-text">RAM：2 GB</block>
   <block id="c53de6b17f1d8da5e4d60aca127be380" category="section-title">Linux 的需求</block>
@@ -1406,7 +1396,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="4a1c882b0ab41fd998beccee85292567" category="list-text">* 實體 Snapshot * ：顯示快照所使用的實體空間。</block>
   <block id="ff17f3533de401f605df9cf9c2553b80" category="paragraph">這些欄位可在 * 邏輯已用 * 欄位中提供更清楚的資訊，顯示磁碟區作用中檔案系統所使用的合併邏輯容量，以及快照所使用的實體空間。</block>
   <block id="28734ee482d13456cc49c54e4f4ae12f" category="summary">Data Infrastructure Insights 透過監控，疑難排解及最佳化公有雲和私有資料中心的儲存設備，大幅提升 Keystone STaaS 效率。</block>
-  <block id="a66177733b1b85eabceb5f32ad65a8f2" category="doc">深入瞭解 Data Infrastructure Insights</block>
   <block id="3b95e9802e539ed39990d7c53e7f63cc" category="paragraph">NetApp 資料基礎架構洞見（ DII ，前身為 Cloud Insights ）是 Keystone STaaS 的附加產品。此服務與 Keystone STaaS 的整合，可強化跨公有雲和私有資料中心， Keystone 提供的儲存資源的監控，疑難排解和最佳化功能。</block>
   <block id="b4116a637c9ad7ac63e4694f7d72fe47" category="inline-link-macro">Data Infrastructure Insights 文件</block>
   <block id="791f81543da974a0b785676eb2cfa67d" category="paragraph">若要深入瞭解 Data Infrastructure Insights ，請<block ref="d3b10d06b902e7a0afb7dc49b48a5ee1" category="inline-link-macro-rx"></block>參閱。</block>
@@ -1473,7 +1462,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="4bb1ec7470540bdb0d6aeee19ef42670" category="paragraph">在提出服務要求之前、請先確定系統詳細資料、記錄及相關資訊已備妥。當您提出服務要求時， Keystone 支援團隊會收到支援服務單，並存取疑難排解資訊。您可以依照 ServiceNow 通知單瞭解狀態和解決方案。</block>
   <block id="8851c6fe19bf967cca1a7747c9a0b08e" category="list-text">Keystone IT Operations Management （ ITOM ）監控解決方案：用於監控 Keystone 環境的雲端型 SaaS 應用程式。它內建與 NetApp 儲存平台的整合功能，可收集環境資料，並監控 Keystone 基礎架構的運算，網路和儲存元件。這項監控功能可延伸至內部部署設定，資料中心，雲端環境，或這些環境的任何組合。此服務可透過使用安裝在您站台上的本機 ITOM Collector 來與雲端入口網站通訊來啟用。</block>
   <block id="b9582a9d01a3bb00c5c7df318f3cd4ed" category="summary">美國保護支援是一項附加服務，可在美國境內提供及支援美國公民持續提供的 Keystone 服務。</block>
-  <block id="3ed89ff08462e73f47156395fd0c75ac" category="doc">瞭解 USPS</block>
   <block id="21fe13388dd575bae131356d62eb3d04" category="paragraph">美國保護支援（ USPS ）是 NetApp Keystone 訂閱的附加產品。您可在美國境內收到美國公民持續提供的 Keystone 服務，並獲得支援。</block>
   <block id="10d701676d6c78ebafad1c0adf816cc7" category="section-title">NetApp USPS 監控</block>
   <block id="75d0ff56559c8650dad12b15a71e6950" category="paragraph">NetApp USPS Keystone 支援團隊會監控您產品和訂閱服務的健全狀況，提供遠端支援，並與 Keystone 成功經理合作。所有監控與相關 Keystone 訂閱訂單相關產品的人員均為美國 美國公民在美國境內營運。</block>
@@ -1997,14 +1985,11 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="09db5cf9dee1953ac746dd636e0db3e0" category="cell">4 TiB</block>
   <block id="4e5cad9a39114e168c84b904c78fec9d" category="cell">1 TiB</block>
   <block id="bc77ca7eec2239d9c8adeac7ce7f82d5" category="summary">可用度 SLO 的目標是在計費期間內、所有部署以交付 Keystone 訂單的 NetApp ONTAP Flash 儲存陣列、都能維持 99.999% 的正常運作時間。</block>
-  <block id="e8c509dfbc0b346aec123561cefe21f5" category="doc">可用度 SLO</block>
   <block id="42feb95053e6c0f7f616750b23dd7d6b" category="paragraph">ONTAP 快閃記憶體儲存陣列支援的所有效能服務等級均符合可用性 SLO 的資格。若要深入瞭解、請 <block ref="b7d94ab5747cf2f7821847d435faf714" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="e89bdbf88ea78e787698305e26fb7442" category="summary">Keystone 為每個效能服務等級提供基於延遲的 SLO，如 Keystone 訂單中所述，用於達到突發限制的消耗容量。</block>
-  <block id="f0957db7a6996ab97df608582080c892" category="doc">效能 SLO</block>
   <block id="9f6ccc631816a7182a52d977c6827823" category="paragraph">NetApp Keystone 根據以下列出的條款和條件，按照 Keystone 訂單中所述的每個效能服務等級提供基於延遲的 SLO，以達到突發限制所消耗的容量。</block>
   <block id="ee885029cef025cf8095b86bb4f661a1" category="paragraph">ONTAP 快閃記憶體儲存陣列支援的所有效能服務等級均符合效能 SLO 的資格，並保證滿足以下目標延遲：</block>
   <block id="6f7cc0a1419b02f4c77b218d576fc3c6" category="summary">Keystone 為基於具有可持續性 SLO 的 ONTAP 快閃記憶體儲存陣列的儲存服務提供每太位元組 (W/TiB) 最大實際瓦數的保證測量。</block>
-  <block id="c1449940fb5db82f8f5705ebd6ebb96a" category="doc">永續性 SLO</block>
   <block id="c55e6c034cd841d3f6ae411f366dff41" category="paragraph">NetApp Keystone 保證根據具有永續性 SLO 的 ONTAP Flash 儲存陣列、提供儲存服務的每 TB 實際瓦特數上限（ W/TiB ）。可持續性 SLO 定義了每個合格效能服務等級的最大 W/TiB 消耗量，以幫助組織實現其永續性目標。</block>
   <block id="a34e28733c3e31c61bc771774cdf1a91" category="paragraph">永續性 SLO 以下列使用條件為基礎：</block>
   <block id="7649a9c2aa81e74af3af6ce5c9dcb1f7" category="cell">* SLO 標準 *</block>
@@ -2059,7 +2044,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="ac75d9678d2b707154377e207cada198" category="paragraph">數據根據所選的訂閱開始日期顯示。</block>
   <block id="914dcbba0b077ce4f352aa32f6a6d389" category="sidebar">NetApp Keystone 是一種按需付費的儲存即服務產品，只需一次訂閱即可提供本機和雲端資料儲存服務，並能夠在雲端之間重新分配儲存支出。</block>
   <block id="d390d1bb241eb25a8ca394226a403023" category="sidebar">增加突發容量</block>
-  <block id="66fb046e2c5f18ee0925adc05ac14d1f" category="sidebar">Keystone STaaS SLO</block>
   <block id="cfa9db7c89ff68cb147c3dad7e8b0b59" category="section-title">Keystone 版本 3 (v3) 發布</block>
   <block id="e4662d7ea2c66dc53eb2e68d2bceffac" category="paragraph">首先，前往 BlueXP 左側導覽功能表中的 *儲存 &gt; Keystone*。若要深入瞭解、請 <block ref="d1eddf69542d0beadf02459455377203" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">2025 年 6 月 30 日</block>
@@ -2486,4 +2470,39 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="81899b5a6230dd4cf7e0bff4dbc71dfb" category="paragraph">2025年12月08日</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
   <block id="ee53a2d144b153a8ad44855abe0429a8" category="list-text">Python 3（3.9.14 至 3.11.8）</block>
+  <block id="40dc71902dbb22353822b7c6f15c3256" category="doc">了解Keystone 的計費時間表</block>
+  <block id="584993c35b748425f19f9e50be222b34" category="doc">Keystone訂閱的突發容量附加元件</block>
+  <block id="ffd6b4f303043d2028c208b958f00d68" category="doc">了解Keystone突發流量計費方式</block>
+  <block id="e1ae7a5642f41154cb522f32ff888693" category="doc">Keystone效能服務等級的容量要求</block>
+  <block id="43a8976cc8e9860d073f99a10c9863d6" category="doc">了解Keystone承諾容量計費方式</block>
+  <block id="a2cec0e19e9a9e466d5734a20002287a" category="doc">Keystone服務所需的元件</block>
+  <block id="e6031ccc926a297ed489fed2eb5fc832" category="paragraph">若要啟用NetApp Keystone STaaS 服務，您需要多個元件。在開始之前，請先查看這些組成部分。</block>
+  <block id="58e037d24f45a1e3501979b1777d7d37" category="doc">了解Keystone消耗容量計量</block>
+  <block id="7b2a0cab269bf73e47e958a9123402e1" category="doc">Keystone的Data Infrastructure Insights插件</block>
+  <block id="f4661181da0130d61f3128498582908f" category="doc">Keystone的資料分層附加服務</block>
+  <block id="ac6db46674728d3a4cb59b937dd96ead" category="doc">了解Keystone基礎設施</block>
+  <block id="1bd0df1c0529e8e6ca90f1e4081e2d82" category="doc">了解Keystone針對特定容量配置的計費方式</block>
+  <block id="62fb7818da74bdf8e586f11aa4b2f85f" category="doc">Keystone的不可退貨、非揮發性組件以及SnapLock合規性附加服務</block>
+  <block id="43b82c4e7e58013ebe91d40fcb3f7718" category="doc">Keystone的可用性 SLO</block>
+  <block id="259bdb910694b04b20beea4776938bc1" category="doc">Keystone的性能 SLO</block>
+  <block id="55f8301e147b74d377ba17c059419cab" category="doc">Keystone勒索軟體恢復保證</block>
+  <block id="34a4bf3e6647e3dbdeb2e4f10c663eab" category="doc">Keystone的永續性 SLO</block>
+  <block id="27aa1272743b7f2386d3189a53b56acd" category="doc">Keystone的 USPS 附加元件</block>
+  <block id="640eca2728ec0e817f889513c2454e02" category="doc">準備以私有模式安裝Keystone Collector</block>
+  <block id="52f54d887aa41d09a6436a07a2e0764c" category="doc">Keystone對ONTAP和StorageGRID 的要求</block>
+  <block id="116f188b55b3963186369fe6e76fae16" category="doc">在 Linux 系統上安裝Keystone ITOM Collector</block>
+  <block id="d647eab7452f325c298991f79290af31" category="doc">在 Windows 系統上安裝Keystone ITOM Collector</block>
+  <block id="74f090b00ecfc3bb510bf3a2b3fdddf6" category="doc">Keystone ITOM Collector 的安裝要求</block>
+  <block id="55475d8525e013b6947b8ede53eb8ae5" category="doc">Keystone Collector 的 Linux 系統需求</block>
+  <block id="6fc90e2a8d0946c1f1f194899150fe9b" category="doc">Keystone Collector 的虛擬基礎架構需求</block>
+  <block id="38be486c4673fb74ade0038da0ecfa65" category="doc">查看Keystone訂閱的效能指標</block>
+  <block id="1dd0253353633fba5037901ed7ca93a1" category="doc">查看Keystone訂閱的ONTAP磁碟區和物件儲存詳細信息</block>
+  <block id="8beb28d57ca1bb568fef4619e190f809" category="doc">為Keystone產生刷新令牌和存取令牌</block>
+  <block id="bac9b6c348c931a976006431b4b392d7" category="doc">使用Digital Advisor REST API 取得Keystone客戶的消費詳情</block>
+  <block id="70233a54c59d50201e00e568353b8e42" category="doc">使用Digital Advisor REST API 取得所有Keystone客戶的列表</block>
+  <block id="bb9f69edc6b159c2172c134f7b8ec8d9" category="doc">使用Digital Advisor REST API 取得Keystone客戶訂閱</block>
+  <block id="ec3c5dc2acc96dd435267e93ff378ceb" category="sidebar">了解附加服務</block>
+  <block id="1c0706b323b25df07171d935dadca63d" category="sidebar">了解Keystone STaaS SLO</block>
+  <block id="4996475aff4a957b37439e45da70e7da" category="sidebar">了解計費方式</block>
+  <block id="d7343c0d20dd2babfa5f38e0b87a6939" category="sidebar">針對特定容量配置的計費</block>
 </blocks>

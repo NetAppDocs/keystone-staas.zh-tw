@@ -4,7 +4,7 @@ permalink: concepts/sla-sustainability.html
 keywords: sustainability, sla, service level agreement, slo, service level objectives 
 summary: 'Keystone 為基於具有可持續性 SLO 的 ONTAP 快閃記憶體儲存陣列的儲存服務提供每太位元組 (W/TiB) 最大實際瓦數的保證測量。' 
 ---
-= 永續性 SLO
+= Keystone的永續性 SLO
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

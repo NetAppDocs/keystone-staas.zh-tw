@@ -4,7 +4,7 @@ permalink: concepts/burst-capacity.html
 keywords: burst consumption, add-on service, burst capacity, burst limit, NetApp Keystone 
 summary: 使客戶能夠使用超出其承諾容量的額外儲存容量。 
 ---
-= 突發容量選項
+= Keystone訂閱的突發容量附加元件
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

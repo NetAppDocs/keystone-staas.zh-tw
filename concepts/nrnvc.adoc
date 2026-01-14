@@ -4,7 +4,7 @@ permalink: concepts/nrnvc.html
 keywords: Non-returnable, non-volatile components, SnapLock compliance, add-on service 
 summary: NetApp 是 NetApp Keystone 訂閱的一部分、將 NRNVC 產品延伸至您的檔案、區塊和物件服務。 
 ---
-= 不可退回、非揮發性元件、以及 SnapLock 法規遵循
+= Keystone的不可退貨、非揮發性組件以及SnapLock合規性附加服務
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
