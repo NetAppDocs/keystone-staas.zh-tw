@@ -48,6 +48,10 @@ NOTE: Keystone訂閱用戶目前無法使用「報告」標籤。
 +
 ** 解決問題後，選擇「*編輯*」按鈕將警報標記為已解決。
 ** 如果需要，請選擇「新增註解」按鈕新增支援註解。
++
+
+NOTE: 編輯警報需要 * Keystone管理員 * 角色。* Keystone檢視器 * 角色只能查看警報詳情。欲了解更多信息，請參閱 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["NetApp Console中的Keystone存取角色"^]。
+
 
 
 * *過濾警報*：使用*狀態*列中的過濾器圖示僅查看活動警報、已解決的警報或兩者。

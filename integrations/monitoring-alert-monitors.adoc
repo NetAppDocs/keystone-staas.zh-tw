@@ -42,6 +42,9 @@ NOTE: Keystone訂閱用戶目前無法使用「報告」標籤。
 
 從*警報監視器*標籤中，您可以建立監視器來追蹤容量使用情況和訂閱到期情況。您也可以根據需要編輯、複製或刪除現有監視器。
 
+
+NOTE: 您必須被指派到 * Keystone管理員 * 角色才能建立和管理警報監控器。欲了解更多信息，請參閱 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["NetApp Console中的Keystone存取角色"^]。
+
 [role="tabbed-block"]
 ====
 .建立監視器

@@ -18,6 +18,18 @@ summary: NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增�
 
 
 
+== 2026年1月19日
+
+NetApp Console中Keystone控制面板的更新：
+
+
+
+=== 訂閱修改功能不可用
+
+目前無法修改Keystone訂閱的承諾容量。此功能將在未來的版本中重新推出。
+
+
+
 == 2025年12月8日
 
 NetApp Console中Keystone儀表板的新增強功能：

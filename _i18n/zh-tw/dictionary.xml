@@ -1778,8 +1778,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="cell">否</block>
   <block id="33df2a894b84cf92bf7b059b0628f59d" category="paragraph"><block ref="33df2a894b84cf92bf7b059b0628f59d" category="inline-link-macro-rx"></block></block>
   <block id="57d8e28284aecaa3906b97f010612fcd" category="cell"><block ref="57d8e28284aecaa3906b97f010612fcd" category="inline-link-macro-rx"></block></block>
-  <block id="b938e197dfa8dadbdec004a37e0ef3af" category="inline-link-macro">修改您的訂閱</block>
-  <block id="a7629efe0e47f4108406da4590b98b87" category="paragraph"><block ref="761270557fec89f94924233c726d0e8a" category="inline-link-macro-rx"></block> （僅限 Keystone 管理員）</block>
   <block id="f9eade15df63147aad555cc771e3c457" category="inline-link-macro">檢視磁碟區和物件詳細資料</block>
   <block id="0fbbeb712322bc30085f9aee131d6509" category="paragraph"><block ref="0fbbeb712322bc30085f9aee131d6509" category="inline-link-macro-rx"></block></block>
   <block id="73be3087ebbe8024dbe143136c7e4de9" category="paragraph"><block ref="73be3087ebbe8024dbe143136c7e4de9" category="inline-link-macro-rx"></block></block>
@@ -1796,16 +1794,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="92b787d913c7ad5afc095b2bdf953c66" category="list-text">*未解決的請求*：未解決的服務請求總數。</block>
   <block id="010423df1000a45a1a63fdd5f480f566" category="inline-link">Keystone 訂閱服務 | 版本 1 文檔</block>
   <block id="a8ce21fd73a6b04f851be6e1d6d0da63" category="list-text">* 5 個容量利用率最高的訂閱*：以表格形式顯示容量利用率最高的 5 個 Keystone 訂閱。您可以點擊「訂閱*」欄位中的訂閱編號來取得詳細資訊。</block>
-  <block id="2527930ed946837db80b382551b3e30f" category="list-text">如果訂閱到期前剩餘 90 多天，您可以修改承諾容量。</block>
-  <block id="36b20c02b50b952932585493baf0578c" category="paragraph">若要變更承諾容量，請依照下列步驟操作：</block>
-  <block id="0777df37fb2d784be7418d104f1b48c3" category="list-text">點擊表中要修改的訂閱的省略號圖標，然後選擇*修改*。</block>
-  <block id="7368a9d71827e42ec6d0e30872f2ade8" category="paragraph">*修改訂閱*頁面顯示與所選訂閱號碼相關的訂閱效能服務等級的詳細資訊。</block>
-  <block id="91122b642327c299496bd2cc715f61db" category="admonition">或者，您可以透過點擊訂閱詳細資料部分中的“*管理訂閱*”，然後選擇“*修改*”來存取“*修改訂閱*”頁面。</block>
-  <block id="2bab978071b4f2c42a0cbd4063050bd6" category="inline-image-macro">顯示訂閱清單中修改選項的螢幕截圖</block>
-  <block id="2f945ecac337fb632279a3a5c8be5147" category="list-text">按一下「編輯容量」以修改效能服務等級的承諾容量，提供必要的詳細信息，然後按一下「提交」。</block>
-  <block id="77d85bf27ff4e86e9c2c0d124a29092e" category="paragraph">您可以在同一頁面的「修改」部分中看到該請求。</block>
-  <block id="6174a39a3e1c2618d458d58ece61fe5f" category="list-text">查看請求詳情，點擊*查看*按鈕，提供必要的確認，然後提交請求。</block>
-  <block id="0df3f6389fb32c1982ca6a2f3ba9de3c" category="paragraph">您可以在「管理」標籤下追蹤和監控您的請求進度。要了解有關“管理”選項卡的更多信息，請參閱<block ref="9f3b15d961aa4f93dcc619d13ad818be" category="inline-link-macro-rx"></block> 。</block>
   <block id="4e45fcbdeb65b88a1abb90ed1fe072a6" category="summary">作為 NetApp Keystone STaaS 訂閱者，您可以搜尋和過濾資料、產生訂閱和使用情況報告、檢查時間戳記以及查看警報。</block>
   <block id="20124e162ad63d60b063ff80ef10f3c9" category="doc">搜尋 Keystone 數據、產生報告並查看警報</block>
   <block id="3c8389d9d758198177b96da335f3ac07" category="paragraph">您可以搜尋和過濾資料、產生訂閱和使用情況報告以及查看警報以隨時了解儲存環境。</block>
@@ -2296,8 +2284,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="d07b485359c52169277c3ff7aaed95d4" category="paragraph">NetApp控制台可在企業範圍內跨本機和雲端環境集中管理NetApp儲存和資料服務。需要控制台才能存取和使用NetApp資料服務。作為管理介面，它使您能夠從一個介面管理許多儲存資源。控制台管理員可以控制企業內所有系統的儲存和服務的存取。</block>
   <block id="25873f208d2ff2745f96d86d5a87d7e7" category="paragraph">您不需要許可證或訂閱即可開始使用控制台，並且只有當您需要在雲端部署控制台代理程式以確保與儲存系統或NetApp資料服務的連線時才需要付費。但是，一些可從控制台存取的NetApp資料服務是需要授權或基於訂閱的。</block>
   <block id="e955295a860e893d00951c8233972d56" category="paragraph">詳細了解<block ref="2f3134b8970d60226f00e362a8c05c8c" category="inline-link-macro-rx"></block>。</block>
-  <block id="e1a2098926fff2b44e76595b2fab04b4" category="list-text">雖然控制台和數Digital Advisor提供了一些獨特的功能，但控制台為Keystone提供了管理功能，讓您可以管理訂閱並進行必要的調整。</block>
-  <block id="5ed613d5969e54b01e0691f040afb027" category="inline-link-macro">了解NetApp控制台存取角色</block>
   <block id="7d0366e10bff9b03e7d1ebe083232ad0" category="inline-link-macro">Digital Advisor與NetApp Console 集成</block>
   <block id="19f702ba317875d05972d4dc2df1d379" category="list-text">Digital Advisor與控制台集成，可讓您直接從控制台存取所有Digital Advisor功能，包括Keystone儀表板。要了解更多信息，請參閱<block ref="5983da9102c6398c455221dbbeef93c0" category="inline-link-macro-rx"></block>。</block>
   <block id="754a3a5b6d930270b1fbfb641c89b440" category="section-title">NetApp Console 和Digital Advisor中的Keystone功能</block>
@@ -2308,10 +2294,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="859167398832678cbae2e0062c6a5136" category="paragraph">若要查看*概覽*頁面，請從控制台左側導覽功能表前往*儲存&gt; Keystone &gt; 概覽*。</block>
   <block id="e9803f7c01419ecddf878fe4fd33bc47" category="inline-image-macro">概覽頁面的螢幕截圖</block>
   <block id="e8325080ad6eca6e402bccdbbcccd2b3" category="paragraph">*概述*頁面提供以下見解：</block>
-  <block id="b6a17a16f2925f240966aa803c2d67ff" category="summary">透過NetApp控制台修改您的Keystone訂閱以變更相關效能服務等級的承諾容量。</block>
-  <block id="2227728e15b4a8b218a3533e278cf342" category="doc">從NetApp控制台修改您的Keystone訂閱</block>
-  <block id="84b1a13bc7964ae4f7768e4f9c3c8756" category="paragraph">您可以透過NetApp控制台修改Keystone訂閱的相關效能服務等級的承諾容量。</block>
-  <block id="7a91109a620e891743c65eea451a0cf2" category="paragraph"><block ref="7a91109a620e891743c65eea451a0cf2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b5c32e6c2b4476154d229af70df8cf7a" category="list-text">從控制台左側導覽功能表中，選擇*儲存&gt; Keystone &gt;監控&gt;警報監控器*。</block>
   <block id="187aba3af65d3bb1230dc8604f0acb91" category="paragraph"><block ref="187aba3af65d3bb1230dc8604f0acb91" category="inline-image-macro-rx" type="image"></block></block>
   <block id="293028e42f8edb8a2749fa8fca8130fa" category="paragraph">NetApp控制台中的Keystone儀表板可讓您檢視和管理Keystone儲存環境中的活動警報。您可以看到系統產生的警報和使用者定義的容量使用情況和訂閱到期警報。從此視圖，您可以快速評估警報嚴重性、識別儲存問題並採取糾正措施。此視圖在Digital Advisor中不可用。</block>
@@ -2383,12 +2365,10 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="c0029d3ed944e8ef4f598481e14db28c" category="paragraph"><block ref="c0029d3ed944e8ef4f598481e14db28c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f9aa673728fdf49de5fd7f4392426fc4" category="paragraph">在表格視圖中，您可以看到諸如消耗的最大容量和剩餘到期天數等詳細資訊。作為監控訂閱使用情況的一部分，您可以查看效能服務等級名稱、容量使用情況、已提交和已使用容量、預先配置和突發容量、可用容量和磁碟區。您可以使用列選擇器自訂表格<block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block>圖示.</block>
   <block id="c8e3290600a931a2c7f5ea26d1268469" category="paragraph"><block ref="c8e3290600a931a2c7f5ea26d1268469" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="65c72fc91b63262452cae6ffc68b5fe8" category="list-text">您必須被指派 * Keystone admin* 角色才能修改訂閱。要了解更多信息，請參閱<block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block>。</block>
   <block id="3073adc4a7680cc828c55134467305ae" category="paragraph"><block ref="3073adc4a7680cc828c55134467305ae" category="inline-link-macro-rx"></block></block>
   <block id="503323af5c69bab54cb6fe53ccef6f8e" category="paragraph"><block ref="503323af5c69bab54cb6fe53ccef6f8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3564bb0e09fc76eb6075b25b3c3643e0" category="list-text">*以嚴重程度列出的未解決警報*：根據嚴重程度列出未解決的警報總數—嚴重、警告和資訊。每個類別都包含一個「檢視」按鈕，用於查看詳細資訊並採取進一步的措施。</block>
   <block id="fbdd0ec7256573dce976dc52a2cdad0e" category="list-text">*最早的未解決的Keystone警報*：顯示跨訂閱的最舊未解決的關鍵警報表。</block>
-  <block id="9fcb29f9ba41ea80f15f38f0907ab2f0" category="list-text">您必須被指派至 * Keystone admin* 角色才能修改已提交的容量。要了解更多信息，請參閱<block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block>。</block>
   <block id="012cc690ee0f390b86e69b7ef941643e" category="list-text">*資源選擇*：選擇為特定訂閱或所有訂閱建立監視器。根據您選擇的監控類型，填寫出現的必填字段，例如容量使用監測器的訂閱號碼和效能服務級別，或訂閱到期監視器的訂閱號碼。</block>
   <block id="17eb308ea945cce061c4020365ec2ddf" category="paragraph"><block ref="17eb308ea945cce061c4020365ec2ddf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="44758d2951f923446ffff8310f8ac382" category="section-title">2025年10月13日</block>
@@ -2505,4 +2485,12 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="1c0706b323b25df07171d935dadca63d" category="sidebar">了解Keystone STaaS SLO</block>
   <block id="4996475aff4a957b37439e45da70e7da" category="sidebar">了解計費方式</block>
   <block id="d7343c0d20dd2babfa5f38e0b87a6939" category="sidebar">針對特定容量配置的計費</block>
+  <block id="0fa78e8d7c7b076da1f9e1d3fa517845" category="doc">訂閱修改功能不可用</block>
+  <block id="6c8dd41ea59e163d8fa923e1f93882e6" category="paragraph">NetApp Console中Keystone控制面板的更新：</block>
+  <block id="ccaf34b2cf2472652ed113639a7f687c" category="paragraph">目前無法修改Keystone訂閱的承諾容量。此功能將在未來的版本中重新推出。</block>
+  <block id="252561ea020b2dfb8598526a78a88036" category="inline-link-macro">NetApp Console中的Keystone存取角色</block>
+  <block id="cecfedde5e4474302df84ae302547216" category="list-text">雖然 Console 和Digital Advisor提供了一些獨家功能，但 Console 為Keystone提供了管理功能，讓您可以管理訂閱並進行必要的調整。欲了解更多信息，請參閱 <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>。</block>
+  <block id="99a171058669ac189901e0c53c44ed13" category="admonition">您必須被指派到 * Keystone管理員 * 角色才能建立和管理警報監控器。欲了解更多信息，請參閱 <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>。</block>
+  <block id="53a22728b83fc16fec4e96baf9b85af7" category="admonition">編輯警報需要 * Keystone管理員 * 角色。* Keystone檢視器 * 角色只能查看警報詳情。欲了解更多信息，請參閱 <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>。</block>
+  <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026年1月19日</block>
 </blocks>
