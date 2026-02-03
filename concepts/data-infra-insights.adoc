@@ -30,11 +30,11 @@ image:keystone-widget-dii.png["Keystone 訂閱小工具的螢幕擷取畫面，�
 
 客戶可透過兩種方式整合 Keystone 的 DII ：將其整合為現有執行個體的一部分，以監控其他非 Keystone 環境，或是作為新執行個體的一部分。客戶有責任設定 DII 。如果在複雜的環境中設置 DII 需要幫助，客戶團隊可以參與link:https://www.netapp.com/services/["NetApp 專業服務"^]。
 
-若要設定 DII ，請參閱link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html["資料基礎架構洞見就職"^]。
+若要設定 DII ，請參閱 link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html["資料基礎架構洞見就職"^] 。
 
 請注意下列事項：
 
-* 如果客戶正在啓動新的 DII 實例，建議從開始link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html#starting-your-data-infrastructure-insights-free-trial["DII 免費試用"^]。若要瞭解此功能和所需的啟動檢查清單，請link:https://docs.netapp.com/us-en/data-infrastructure-insights/concept_feature_tutorials.html["功能教學課程"^]參閱。
+* 如果客戶要啟動新的 DII 實例，建議從link:https://docs.netapp.com/us-en/data-infrastructure-insights/concept_subscribing_to_cloud_insights.html#trial-edition["DII 免費試用"^]開始。若要了解此功能和所需的啟動清單，請參閱link:https://docs.netapp.com/us-en/data-infrastructure-insights/concept_feature_tutorials.html["功能教學課程"^]。
 * 對於每個站台，都需要一個擷取單元。若要安裝擷取單元，請參閱link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html#install-an-acquisition-unit["安裝擷取單元"^]。如果客戶已設定 DII 執行個體和擷取單元，則可繼續設定資料收集器。
 * 對於部署的每個儲存硬體，客戶必須在擷取單元上設定資料收集器。若要設定資料收集器，請參閱link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_configure_data_collectors.html["設定資料收集器"^]。Keystone 儲存設備所需的資料收集器，以基礎硬體為基礎，如下所示：
 +

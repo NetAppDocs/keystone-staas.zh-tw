@@ -697,7 +697,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="308838aa7669887098042a1899ce59bc" category="list-text">只要實體磁碟區的大小低於父磁碟區的 10% 、就不需要充電（與父磁碟區中使用的實體容量相比、複製磁碟區中使用的實體容量）。</block>
   <block id="5e46e614581cd458f9521294062d3783" category="list-text">一旦複製磁碟區超過父磁碟區實體大小的 10% 、複製就會以標準磁碟區（邏輯使用容量）計費。</block>
   <block id="f4c8dae91522d3ec93e26aff56248527" category="list-text">從*開始日期*和*結束日期*欄位的行事曆圖示中選取時間範圍。選取查詢的日期範圍。日期範圍可以是月份的開始日期、或是訂閱開始日期到目前日期或訂閱結束日期。您無法選擇未來日期。</block>
-  <block id="36234decc68306d26e71012f98474aa1" category="paragraph">此功能可在僅預覽模式中使用。請聯絡您的 KSM 以深入瞭解此功能。</block>
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">選取查詢的日期範圍。日期範圍可以是月份的開始日期、或是訂閱開始日期到目前日期或訂閱結束日期。您無法選擇未來日期。</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">*目前爆發*：在定義的突發量限制內或以上耗用容量的指標。在訂閱的突發量上限內的任何使用量、例如、超過承諾容量 20% 的使用量、都在突發量上限內。進一步的使用量會被視為超出連拍限制的使用量。此欄位顯示特定色彩：</block>
   <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">部分9.8或更新版本ONTAP</block>
@@ -1405,10 +1404,8 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="af7685e284aa0e1b6d46a67961bbd7ea" category="inline-link-macro">NetApp 專業服務</block>
   <block id="f7cbbc681ca27bebc7825144375b3923" category="paragraph">客戶可透過兩種方式整合 Keystone 的 DII ：將其整合為現有執行個體的一部分，以監控其他非 Keystone 環境，或是作為新執行個體的一部分。客戶有責任設定 DII 。如果在複雜的環境中設置 DII 需要幫助，客戶團隊可以參與<block ref="d0b2c9035727476f87ec5eb3369e77e6" category="inline-link-macro-rx"></block>。</block>
   <block id="098aa3cf35fbf6dcd0f8bf264d8fbb02" category="inline-link-macro">資料基礎架構洞見就職</block>
-  <block id="5521be72a56c20199f2583f6122fb79e" category="paragraph">若要設定 DII ，請參閱<block ref="b97f1974c4920cfa5b0a8266cf2ad03c" category="inline-link-macro-rx"></block>。</block>
   <block id="71ef8949a55d6b1791e3d610418ebf29" category="inline-link-macro">DII 免費試用</block>
   <block id="5b425cd08035f29c3dad5d45f1d2ea6e" category="inline-link-macro">功能教學課程</block>
-  <block id="3b179eeaf9ac878bf9783e7b6444e172" category="list-text">如果客戶正在啓動新的 DII 實例，建議從開始<block ref="9bb21587dbf1a819ba039401f4e5726c" category="inline-link-macro-rx"></block>。若要瞭解此功能和所需的啟動檢查清單，請<block ref="fa9eb45797f94a182876dd4cce75625a" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="5774c882dad1ebd6e046b3a9fdfae618" category="inline-link-macro">安裝擷取單元</block>
   <block id="b0a1bf81aa560384c37a6699221d9a92" category="list-text">對於每個站台，都需要一個擷取單元。若要安裝擷取單元，請參閱<block ref="42d868d67c77926a662ccf38524dc1ee" category="inline-link-macro-rx"></block>。如果客戶已設定 DII 執行個體和擷取單元，則可繼續設定資料收集器。</block>
   <block id="995baaed007a33dba572505ffd6d726b" category="inline-link-macro">設定資料收集器</block>
@@ -1737,7 +1734,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="2b67a16f12da342bb3cbca5216d7c796" category="paragraph">整個月的累積突發使用量計算方式如下：</block>
   <block id="546fa809ba406006a24d7ed5fae64eb8" category="admonition">發票累計突發使用量是按計費週期計算的，基於性能服務等級的承諾和消耗容量。</block>
   <block id="dfdee986152ec4047af664495ba755cd" category="inline-image-macro">顯示按天累計突發量的螢幕截圖</block>
-  <block id="5ebd05a1b0a3fae552005acfec4e3c45" category="paragraph"><block ref="5ebd05a1b0a3fae552005acfec4e3c45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d0baf3847f6e93ee353d71b13ee7d980" category="paragraph">在 Digital Advisor 中，當您按一下顯示「*Invoiced Accrued Burst*」選項的發票資料的欄位時，您會看到長條圖下方的「可計費預配置容量」部分，其中提供圖形和表格檢視選項。預設圖表檢視會以折線圖格式顯示每日累積的突發資料使用量，顯示使用量隨時間而變化。</block>
   <block id="c349aee97f052361891132091b4ab93a" category="paragraph">您可以按一下圖表右上角的 * 表格 * 選項，切換至表格檢視。表格檢視提供詳細的每日使用指標，包括效能服務等級、時間戳記、承諾容量、消耗容量和可計費配置容量。您也可以以 CSV 格式產生這些詳細資料的報告，以供未來使用和比較。</block>
   <block id="eccd215d2aef918d99c7ac04567a0cdc" category="doc">查看 Keystone 訂閱的當前消耗情況</block>
@@ -2233,7 +2229,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="f4a4fc70d768b745e8b5b57c259ad569" category="inline-link-macro">查看和建立警報監視器</block>
   <block id="a2adacdfb688f8f57f2b03920c9e2a80" category="list-text"><block ref="a2adacdfb688f8f57f2b03920c9e2a80" category="inline-link-macro-rx"></block></block>
   <block id="5e8ec25578a50b65b6a5cd50c3407574" category="paragraph">要查看訂閱的詳細信息，請按照以下步驟操作：</block>
-  <block id="49ee8cd124ac86a74b0e8df79ea84356" category="admonition">您可以按一下「到期日」列旁的向下箭頭來查看每個訂閱的效能服務等級資訊。這顯示了詳細的容量信息，包括當前使用情況、承諾容量、預先配置容量、突發容量和可用容量。</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025年9月22日</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP現在是NetApp控制台</block>
   <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。</block>
@@ -2265,7 +2260,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="4fef845c9e01e08990307334e4eea678" category="paragraph"><block ref="4fef845c9e01e08990307334e4eea678" category="inline-image-macro-rx" type="image"></block></block>
   <block id="86065a45dab20475bb9368ffbd10fe62" category="paragraph">您可以透過NetApp控制台或Digital Advisor查看Keystone訂閱的歷史資料：</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="open-title">NetApp控制台</block>
-  <block id="bbd84f060e2b584367bb75302c5f5b07" category="paragraph">您可以透過控制台或Digital Advisor查看累積的突發資料使用情況。如果您從控制台中 *消費趨勢* 選項卡的 *查看* 下拉選單中選擇了 *累計突發*，或者從Digital Advisor中 *消費趨勢* 選項卡中選擇了 *已開票累計突發* 選項，則您可以根據所選的計費週期按月或按季度查看累計突發資料使用情況。這些資料適用於已計費的過去 12 個月，您可以按日期範圍查詢最多過去 30 個月的資料。長條圖顯示已開立發票數據，如果尚未對使用情況進行計費，則該期間將被標記為「待處理」。</block>
   <block id="e833a568221431c19dcca95c850ae159" category="paragraph">您可以透過控制台或Digital Advisor查看每月或每季計費期間的每日累積突發資料使用量。在控制台中，如果您從 *消費趨勢* 選項卡中的 *查看* 下拉選單中選擇 *累積突發*，則 *按天累計突發* 表將提供詳細數據，包括時間戳、已提交、已消耗和累積突發容量。</block>
   <block id="dfa8d7fe27ec169b0ef41ef00fee0ae8" category="paragraph">若要透過NetApp控制台或Digital Advisor查看訂閱的目前消費狀態，請依照下列步驟操作：</block>
   <block id="10cb2c81585ad95f970824cfe6301506" category="summary">作為NetApp Keystone STaaS 訂閱者，您可以透過NetApp Console 或Digital Advisor存取Keystone儀表板</block>
@@ -2311,7 +2305,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="ea0ce0391196099aab618a4b710b5332" category="paragraph">NetApp控制台中的Keystone儀表板提供了Keystone訂閱的時間軸視圖，顯示啟動、修改和續約日期等事件。此時間軸視圖在Digital Advisor中不可用。</block>
   <block id="51a66b760aa1870a147d6acc0e6c8efd" category="paragraph">訂閱時間軸預設以折線圖顯示，並附有標記重要事件的圖示。將滑鼠懸停在事件上即可查看詳細信息，包括日期和已提交的容量變更。若要在表格中查看這些事件，請從*檢視方式*下拉式選單中選擇*表格*選項。若要查看其他訂閱時間表，請從*追蹤 ID* 下拉式選單中選擇或搜尋。</block>
   <block id="fd4257d1ebe74f01a9d3b5236f722a08" category="paragraph">您可以從NetApp控制台Digital Advisor中的 *訂閱* 查看所有訂閱的清單。此視圖根據您的訂閱狀態和使用情況提供易於理解的見解，幫助您隨時了解情況並在需要時採取行動。</block>
-  <block id="5e6ce2a236a2d35561ce83721f8bb7e4" category="paragraph"><block ref="5e6ce2a236a2d35561ce83721f8bb7e4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="579139f19217a677980dce581b098367" category="paragraph">您會看到容量使用情況、訂閱到期狀態和未解決的警報等關鍵指標。</block>
   <block id="09253a17dd3290d17d3baeba1a85ec41" category="paragraph">您可以從表中看到以下詳細資訊：</block>
   <block id="a79d6591df4c712ce010c266887785cb" category="paragraph">您可以參考NetApp控制台中的「*資產*」頁面來查看這些詳細資訊。要查看特定Keystone STaaS 訂閱的詳細信息，請參閱<block ref="33df2a894b84cf92bf7b059b0628f59d" category="inline-link-macro-rx"></block>。如果您想查看多個Keystone訂閱的詳細信息，請參閱<block ref="5fe743b586c50b2c4c63c54967e2b587" category="inline-link-macro-rx"></block>。</block>
@@ -2486,11 +2479,28 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="4996475aff4a957b37439e45da70e7da" category="sidebar">了解計費方式</block>
   <block id="d7343c0d20dd2babfa5f38e0b87a6939" category="sidebar">針對特定容量配置的計費</block>
   <block id="0fa78e8d7c7b076da1f9e1d3fa517845" category="doc">訂閱修改功能不可用</block>
-  <block id="6c8dd41ea59e163d8fa923e1f93882e6" category="paragraph">NetApp Console中Keystone控制面板的更新：</block>
-  <block id="ccaf34b2cf2472652ed113639a7f687c" category="paragraph">目前無法修改Keystone訂閱的承諾容量。此功能將在未來的版本中重新推出。</block>
   <block id="252561ea020b2dfb8598526a78a88036" category="inline-link-macro">NetApp Console中的Keystone存取角色</block>
   <block id="cecfedde5e4474302df84ae302547216" category="list-text">雖然 Console 和Digital Advisor提供了一些獨家功能，但 Console 為Keystone提供了管理功能，讓您可以管理訂閱並進行必要的調整。欲了解更多信息，請參閱 <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>。</block>
   <block id="99a171058669ac189901e0c53c44ed13" category="admonition">您必須被指派到 * Keystone管理員 * 角色才能建立和管理警報監控器。欲了解更多信息，請參閱 <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>。</block>
   <block id="53a22728b83fc16fec4e96baf9b85af7" category="admonition">編輯警報需要 * Keystone管理員 * 角色。* Keystone檢視器 * 角色只能查看警報詳情。欲了解更多信息，請參閱 <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>。</block>
-  <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026年1月19日</block>
+  <block id="990e7c9325408b6d830d12ba4c1afe88" category="doc">每日累積突發資料的互動式篩選</block>
+  <block id="4b808a5ae06687042695057904b0b6bb" category="paragraph">「消費趨勢」標籤中的「按天計算累積峰值」表格現已支援互動式篩選。選擇累計峰值計費圖表中的任一長條圖，即可僅查看該計費週期內的天數。如需深入瞭解，請參閱 <block ref="9340f3a90809d3af703998e25844252d" category="inline-link-macro-rx"></block>。</block>
+  <block id="a3b5a92602c2684cdca8198a8cfe1818" category="section-title">增強了累計突發圖表中的日期範圍顯示</block>
+  <block id="1c9a58169acbfe805f644273387c3b52" category="paragraph">*消費趨勢* 標籤中的累積突發帳單圖表現在顯示每個帳單週期的完整日期範圍，例如 Oct 01, 2025 to Oct 31, 2025，而不僅僅是月份和年份。</block>
+  <block id="46b1adc980362ab6f320e3cdb4a469c1" category="section-title">可展開的訂閱詳細資料檢視</block>
+  <block id="f40d8051a9fd8153ddf9a5541a863887" category="paragraph">*訂閱*標籤包含一個選項，可以展開所有訂閱並同時查看每個訂閱的效能服務等級資訊。要了解更多資訊，請參閱 <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>。</block>
+  <block id="f6c0ac19eddb9409767c72354ec3684d" category="section-title">新增使用類型欄</block>
+  <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">*訂閱* 標籤包含一個 *使用類型* 欄，該欄顯示訂閱是按已佈建、實體或邏輯使用量計費。如需深入瞭解，請參閱 <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>。</block>
+  <block id="77f26dcf71ccd46a1988ad176507362f" category="paragraph">若要設定 DII ，請參閱 <block ref="9c96a8ce2c2de39e18e71cf6b16e737c" category="inline-link-macro-rx"></block> 。</block>
+  <block id="46258461c8dd073deb37f9c53353b64e" category="list-text">如果客戶要啟動新的 DII 實例，建議從<block ref="6d36cc4d8aae109cb667709b36f129f9" category="inline-link-macro-rx"></block>開始。若要了解此功能和所需的啟動清單，請參閱<block ref="fa9eb45797f94a182876dd4cce75625a" category="inline-link-macro-rx"></block>。</block>
+  <block id="511d6a0f4f5ad7c5f79e56d010b571b0" category="paragraph">您可以透過 Console 或 Digital Advisor 檢視累計突發流量使用情況。如果您在 Console 的 *Consumption trend* 標籤中的 *View* 下拉式選單中選擇了 *Accrued burst*，或在 Digital Advisor 的 *Consumption Trend* 標籤中選擇了 *Invoiced Accrued Burst* 選項，則可以根據您選擇的計費週期，按月或按季度查看累計突發流量使用情況。此資料涵蓋最近 12 個已計費月份，您還可以按日期範圍查詢最多過去 30 個月的資料。</block>
+  <block id="1e007e954fdd7587bcd939b10c21e650" category="list-text">在 Console 中，您可以與累積突發計費圖表進行交互，以篩選每日資料使用量。要了解更多信息，請參閱<block ref="0cc16f2bbc32fd70c68f98b9b0b4296a" category="inline-link-macro-rx"></block>。</block>
+  <block id="1b342e2d578a51d6b3d947da95fe0f10" category="paragraph">在 Console 中，您可以透過選擇累積突發計費圖表中代表計費週期的任意長條圖來篩選表格。篩選後，表格將僅顯示所選計費週期內的日期。若要再次查看完整資料集，請使用 *Clear filters* 選項。如果所選週期沒有可用資料，則會顯示一則訊息，指示沒有可用資料。</block>
+  <block id="e6f9cff2e05b0c21bfa8eacbea1108b9" category="paragraph"><block ref="e6f9cff2e05b0c21bfa8eacbea1108b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c4eab7429b9b42ab319272d31567f10b" category="paragraph"><block ref="c4eab7429b9b42ab319272d31567f10b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6331e16cef510e2a7170f77ace7d4d3c" category="list-text">*使用類型*：您可能訂閱了多個 Keystone 版本。不同訂閱版本的效能服務等級費率方案規則可能有所不同。透過查看此欄中的值、您可以了解使用類型是按已配置、實體還是邏輯使用量計費。若要深入瞭解版本 1 、請參閱<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block>。</block>
+  <block id="8c4ee08746e9d4d8b64596c87ac3fab1" category="inline-image-macro">展開圖示</block>
+  <block id="b3aabf2706f0dd29444a14f90b5b670f" category="admonition">您可以點擊表格標題中的向下箭頭 <block ref="f41a012a2c49083e45aae37ff23f77bc" category="inline-image-macro-rx" type="image"></block> 展開所有訂閱，並同時查看每個訂閱的效能服務等級資訊。這將顯示詳細的容量資訊，包括所有訂閱的目前使用量、已承諾容量、已佈建容量、突發容量和可用容量。或者，您也可以點擊各訂閱列中 *到期日* 欄旁的向下箭頭，逐一展開檢視。</block>
+  <block id="ce767e3edd2ea431ac6813a73951729f" category="paragraph">目前在 NetApp Console 中無法修改 Keystone 訂閱的已承諾容量。此功能將在未來版本中重新推出。</block>
+  <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026 年 2 月 02 日</block>
 </blocks>

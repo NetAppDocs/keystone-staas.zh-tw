@@ -18,15 +18,33 @@ summary: NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增�
 
 
 
-== 2026年1月19日
+== 2026 年 2 月 02 日
 
-NetApp Console中Keystone控制面板的更新：
+NetApp Console中Keystone儀表板的新增強功能：
 
 
 
-=== 訂閱修改功能不可用
+=== 每日累積突發資料的互動式篩選
 
-目前無法修改Keystone訂閱的承諾容量。此功能將在未來的版本中重新推出。
+「消費趨勢」標籤中的「按天計算累積峰值」表格現已支援互動式篩選。選擇累計峰值計費圖表中的任一長條圖，即可僅查看該計費週期內的天數。如需深入瞭解，請參閱 link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["檢視每日累積的突發資料使用量"]。
+
+
+
+=== 增強了累計突發圖表中的日期範圍顯示
+
+*消費趨勢* 標籤中的累積突發帳單圖表現在顯示每個帳單週期的完整日期範圍，例如 Oct 01, 2025 to Oct 31, 2025，而不僅僅是月份和年份。
+
+
+
+=== 可展開的訂閱詳細資料檢視
+
+*訂閱*標籤包含一個選項，可以展開所有訂閱並同時查看每個訂閱的效能服務等級資訊。要了解更多資訊，請參閱 link:./integrations/subscriptions-tab.html["查看您的 Keystone 訂閱的詳細信息"]。
+
+
+
+=== 新增使用類型欄
+
+*訂閱* 標籤包含一個 *使用類型* 欄，該欄顯示訂閱是按已佈建、實體或邏輯使用量計費。如需深入瞭解，請參閱 link:./integrations/subscriptions-tab.html["查看您的 Keystone 訂閱的詳細信息"]。
 
 
 

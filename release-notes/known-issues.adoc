@@ -24,6 +24,15 @@ NetApp Keystone STaaS 報告下列已知問題：
 
 
  a| 
+訂閱修改功能不可用
+ a| 
+目前在 NetApp Console 中無法修改 Keystone 訂閱的已承諾容量。此功能將在未來版本中重新推出。
+ a| 
+無
+
+
+
+ a| 
 資料不符導致發票不正確
  a| 
 AutoSupport 訂閱的使用量資料不相符，導致發票產生不正確，導致帳單不正確。
