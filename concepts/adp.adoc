@@ -1,8 +1,72 @@
 ---
+sidebar: sidebar 
 permalink: concepts/adp.html 
-redirect: keystone-staas/concepts/metrics.html 
+keywords: data protection advanced 
+summary: 使用進階資料保護附加服務，確保對關鍵任務工作負載進行高效率的資料保護。 
 ---
-= 
+= Keystone 的進階資料保護附加元件
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
+[role="lead"]
+您可以透過 Keystone STaaS 訂閱來訂購進階資料保護（ADP）附加服務。標準 Keystone 服務包含使用 SnapMirror、SnapVault 和 Snapshot 的預設資料保護，而此附加服務則採用 NetApp MetroCluster 技術，確保您的關鍵任務工作負載能以 0 的復原點目標（RPO）獲得高效的資料保護。
+
+Keystone 進階資料保護服務可以將資料同步鏡像到備用站點。如果主站點發生災難，備用站點可以接管，而不會遺失任何資料。此功能利用兩個站點之間的 link:https://docs.netapp.com/us-en/ontap-metrocluster["MetroCluster"^] 配置來實現資料保護。您可以僅為檔案儲存和區塊儲存服務使用進階資料保護附加服務。作為此附加服務的一部分， `Advanced Data-Protect` 效能服務等級會指派給您的訂閱。
+
+您可以監控 MetroCluster 配置的消耗和運作狀況指標。如需詳細資訊、請參閱link:../integrations/adp-tab.html["查看您的 MetroCluster 訂閱使用情況和健康狀況"]。
+
+
+
+== 了解定價
+
+進階資料保護附加服務的價格根據每個站點的已承諾容量而定。這有助於確定進階資料保護服務的實際成本（以美元 /TiB 為單位）。附加費用適用於您訂閱中的所有容量，包括來源資料、鏡像副本和非鏡像資料。
+
+對於 MetroCluster 配置，每個站台都需要自己的訂閱，並且您需要為每個站台的承諾容量獨立付費。
+
+請注意下列事項：
+
+* 本服務使用關聯儲存上 100% 的承諾容量作為承諾容量。
+* 費用適用於主要站點和次要站點，涵蓋來源叢集和目標叢集。
+* 費用僅適用於您的檔案和區塊儲存服務。
+
+
+
+
+== 支援的 MetroCluster 組態
+
+Keystone 支援以下 MetroCluster 部署案例：
+
+主動 / 被動配置:: 在此組態中，一個站台的主要資料會鏡像到次要站台。例如，如果站台 A 使用了 100 TiB 的邏輯資料，則會將其複寫到站台 B。兩個站台都需要相同的訂閱：
++
+--
+* *訂閱方案 1（站點 A）：* 100 TiB 儲存服務 + 100 TiB ADP
+* *訂閱方案 2（站台 B）：* 100 TiB 儲存服務 + 100 TiB ADP
+
+
+--
+採用完全鏡像的主動 / 主動配置:: 在此組態中，兩個站台都託管雙向鏡射的主要資料。例如，站台 A 的 100 TiB 主要資料會鏡射至站台 B，而站台 B 的 100 TiB 主要資料會鏡射至站台 A。兩個站台都需要訂閱合併容量：
++
+--
+* *訂閱方案 1（站點 A）：* 200 TiB 儲存服務 + 200 TiB ADP
+* *訂閱方案 2 （站點 B）：* 200 TiB 儲存服務 + 200 TiB ADP
+
+
+--
+具有部分鏡像的主動 / 主動配置:: 在這種配置中，一個站點託管鏡像資料，而另一個站點則同時託管鏡像資料和非鏡像資料。例如，站點 A 的 100 TiB 主要資料鏡像到站點 B，而站點 B 也託管額外的 100 TiB 非鏡像資料。訂閱會根據每個站點的容量而有所不同：
++
+--
+* *訂閱方案 1（站點 A）：* 100 TiB 儲存服務 + 100 TiB ADP
+* *訂閱方案 2 （站點 B）：* 200 TiB 儲存服務 + 200 TiB ADP
+
+
+--
+
+
+下圖顯示這些支援的 MetroCluster 組態：
+
+image:mcc-1.png["圖示三種 MetroCluster 配置：對稱鏡像的主動 / 被動配置、完全雙向鏡像的主動 / 主動配置、部分鏡像的主動 / 主動配置"]

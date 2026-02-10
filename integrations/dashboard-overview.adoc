@@ -102,6 +102,11 @@ link:../integrations/volumes-objects-tab.html["檢視磁碟區和物件詳細資
 
 
  a| 
+link:../integrations/adp-tab.html["檢視 MetroCluster 使用量與健全狀況"]
+| 是（包括健全狀況、拓撲檢視和同步監控） | 是（僅限使用量資料） 
+
+
+ a| 
 link:../integrations/performance-tab.html["檢視效能指標"]
 | 否 | 是的 
 |===

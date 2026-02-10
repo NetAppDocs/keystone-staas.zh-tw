@@ -1812,7 +1812,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="e656406ec3f71a6faf961120d8791fe6" category="paragraph"><block ref="e656406ec3f71a6faf961120d8791fe6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6e665113a95f128bda94a45125d034c0" category="doc">查看您的 Keystone 訂閱的詳細信息</block>
   <block id="da165360e20e2139a72fd6fadd1175f3" category="inline-image-macro">查看訂閱標籤詳情</block>
-  <block id="777a92dd9a9405f5a8f4c89917427c35" category="list-text">*訂閱編號*：NetApp 指派的 Keystone 訂閱的訂閱編號。</block>
   <block id="e6cb8545fbd488c01d2779c3cf2fe308" category="list-text">*客戶名稱*：與 Keystone 訂閱相關的客戶的名稱。</block>
   <block id="1785b788275c7de318abca94e5882fe1" category="list-text">*關聯訂閱*：如果您有任何與主訂閱關聯的次要訂閱，此列會列出主訂閱的關聯訂閱號碼。此訂閱編號可以是主訂閱的編號，也可以是次要（關聯）訂閱的編號。</block>
   <block id="7e147d47de92c4a609c07c4bb5e40f29" category="list-text">*計費週期*：訂閱的發票週期。</block>
@@ -2474,7 +2473,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="bac9b6c348c931a976006431b4b392d7" category="doc">使用Digital Advisor REST API 取得Keystone客戶的消費詳情</block>
   <block id="70233a54c59d50201e00e568353b8e42" category="doc">使用Digital Advisor REST API 取得所有Keystone客戶的列表</block>
   <block id="bb9f69edc6b159c2172c134f7b8ec8d9" category="doc">使用Digital Advisor REST API 取得Keystone客戶訂閱</block>
-  <block id="ec3c5dc2acc96dd435267e93ff378ceb" category="sidebar">了解附加服務</block>
   <block id="1c0706b323b25df07171d935dadca63d" category="sidebar">了解Keystone STaaS SLO</block>
   <block id="4996475aff4a957b37439e45da70e7da" category="sidebar">了解計費方式</block>
   <block id="d7343c0d20dd2babfa5f38e0b87a6939" category="sidebar">針對特定容量配置的計費</block>
@@ -2503,4 +2501,98 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="b3aabf2706f0dd29444a14f90b5b670f" category="admonition">您可以點擊表格標題中的向下箭頭 <block ref="f41a012a2c49083e45aae37ff23f77bc" category="inline-image-macro-rx" type="image"></block> 展開所有訂閱，並同時查看每個訂閱的效能服務等級資訊。這將顯示詳細的容量資訊，包括所有訂閱的目前使用量、已承諾容量、已佈建容量、突發容量和可用容量。或者，您也可以點擊各訂閱列中 *到期日* 欄旁的向下箭頭，逐一展開檢視。</block>
   <block id="ce767e3edd2ea431ac6813a73951729f" category="paragraph">目前在 NetApp Console 中無法修改 Keystone 訂閱的已承諾容量。此功能將在未來版本中重新推出。</block>
   <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026 年 2 月 02 日</block>
+  <block id="3173b2ec37a82d2973529cd167d6287e" category="summary">使用進階資料保護附加服務，確保對關鍵任務工作負載進行高效率的資料保護。</block>
+  <block id="642f94d714f235631bdda58a0641ee29" category="doc">Keystone 的進階資料保護附加元件</block>
+  <block id="13c48d4700ad4af5c8fd956e1cfe906e" category="paragraph">您可以透過 Keystone STaaS 訂閱來訂購進階資料保護（ADP）附加服務。標準 Keystone 服務包含使用 SnapMirror、SnapVault 和 Snapshot 的預設資料保護，而此附加服務則採用 NetApp MetroCluster 技術，確保您的關鍵任務工作負載能以 0 的復原點目標（RPO）獲得高效的資料保護。</block>
+  <block id="71d3312e0355ab7d413073f4793122fc" category="paragraph">Keystone 進階資料保護服務可以將資料同步鏡像到備用站點。如果主站點發生災難，備用站點可以接管，而不會遺失任何資料。此功能利用兩個站點之間的 <block ref="64ff7fce7f50f4f1d4bf30022fac8148" category="inline-link-macro-rx"></block> 配置來實現資料保護。您可以僅為檔案儲存和區塊儲存服務使用進階資料保護附加服務。作為此附加服務的一部分，<block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> 效能服務等級會指派給您的訂閱。</block>
+  <block id="88447a30bf60d09ff5ebf0642e6380e8" category="inline-link-macro">查看您的 MetroCluster 訂閱使用情況和健康狀況</block>
+  <block id="e799b5eff99a155a4912e68e26db204f" category="paragraph">您可以監控 MetroCluster 配置的消耗和運作狀況指標。如需詳細資訊、請參閱<block ref="0b2e2940da985e8c5260b9ec964b2073" category="inline-link-macro-rx"></block>。</block>
+  <block id="738272188927126099f39cbe7024dbf9" category="section-title">了解定價</block>
+  <block id="a9defa509a6012981ff7f002dd53d0e6" category="paragraph">進階資料保護附加服務的價格根據每個站點的已承諾容量而定。這有助於確定進階資料保護服務的實際成本（以美元 /TiB 為單位）。附加費用適用於您訂閱中的所有容量，包括來源資料、鏡像副本和非鏡像資料。</block>
+  <block id="880dc4bb6f99da8936686e254cb50669" category="paragraph">對於 MetroCluster 配置，每個站台都需要自己的訂閱，並且您需要為每個站台的承諾容量獨立付費。</block>
+  <block id="07a4905cb08550d85832c59c39e6d61c" category="list-text">本服務使用關聯儲存上 100% 的承諾容量作為承諾容量。</block>
+  <block id="35837aec92cf4ad38b86eaea542a0d30" category="list-text">費用適用於主要站點和次要站點，涵蓋來源叢集和目標叢集。</block>
+  <block id="02ebdf7c9de6e8483fc7db75a00034e7" category="list-text">費用僅適用於您的檔案和區塊儲存服務。</block>
+  <block id="0b17361973d6dd62103a27ad522a1b4a" category="section-title">支援的 MetroCluster 組態</block>
+  <block id="757a9b494786f22b7b66a8cb11d77505" category="paragraph">Keystone 支援以下 MetroCluster 部署案例：</block>
+  <block id="a12f0bc36306f109786a32dcba12cb16" category="list-text">主動 / 被動配置</block>
+  <block id="6a1b5dfc7ed806f74f0a51d8e7fe82bf" category="list-text">在此組態中，一個站台的主要資料會鏡像到次要站台。例如，如果站台 A 使用了 100 TiB 的邏輯資料，則會將其複寫到站台 B。兩個站台都需要相同的訂閱：</block>
+  <block id="d7941f7e86a71e117ffab47d0f606396" category="list-text">*訂閱方案 1（站點 A）：* 100 TiB 儲存服務 + 100 TiB ADP</block>
+  <block id="483262bd936bc7befb9af3dee5e82599" category="list-text">*訂閱方案 2（站台 B）：* 100 TiB 儲存服務 + 100 TiB ADP</block>
+  <block id="6eb23ae1a2ca85e0ec0e596d79022274" category="list-text">採用完全鏡像的主動 / 主動配置</block>
+  <block id="86b67c27aa3a547ae444c6fd52081d2a" category="list-text">在此組態中，兩個站台都託管雙向鏡射的主要資料。例如，站台 A 的 100 TiB 主要資料會鏡射至站台 B，而站台 B 的 100 TiB 主要資料會鏡射至站台 A。兩個站台都需要訂閱合併容量：</block>
+  <block id="18134e5504718f75aade7e9e5e41220c" category="list-text">*訂閱方案 1（站點 A）：* 200 TiB 儲存服務 + 200 TiB ADP</block>
+  <block id="06e569558b9aa9e52d6ea3b626499fa8" category="list-text">*訂閱方案 2 （站點 B）：* 200 TiB 儲存服務 + 200 TiB ADP</block>
+  <block id="49a70182977d0efde0901be0cf3f7101" category="list-text">具有部分鏡像的主動 / 主動配置</block>
+  <block id="6cffd5c40a8669b47c08c961f08738d7" category="list-text">在這種配置中，一個站點託管鏡像資料，而另一個站點則同時託管鏡像資料和非鏡像資料。例如，站點 A 的 100 TiB 主要資料鏡像到站點 B，而站點 B 也託管額外的 100 TiB 非鏡像資料。訂閱會根據每個站點的容量而有所不同：</block>
+  <block id="dfde62f4169c1a6e0ed4f38055fa2774" category="paragraph">下圖顯示這些支援的 MetroCluster 組態：</block>
+  <block id="c0ba0a76f531a20bbda6af3c55a46aac" category="inline-image-macro">圖示三種 MetroCluster 配置：對稱鏡像的主動 / 被動配置、完全雙向鏡像的主動 / 主動配置、部分鏡像的主動 / 主動配置</block>
+  <block id="9675e25ec9f821651df1c740fe778f97" category="paragraph"><block ref="9675e25ec9f821651df1c740fe778f97" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dcf5106043aa7bde76b50aee99982689" category="summary">當您訂閱 Keystone 中的進階資料保護附加服務時，可檢視 MetroCluster 合作夥伴站台的使用量資料並監控健全狀況。</block>
+  <block id="511c40cd8a486a0e8aa1251baf8515ee" category="doc">查看您的 Keystone MetroCluster 訂閱的使用與健康狀況</block>
+  <block id="54cce4aba23f46d3958d61fbb2b10e3a" category="paragraph">當你訂閱進階資料保護附加服務時，你可以在 NetApp Console 或 Digital Advisor 中查看你的 MetroCluster 夥伴站點的使用數據。在 NetApp Console 中，你也可以監控你的 MetroCluster 設定的複寫狀態與健康狀況。</block>
+  <block id="f74fc96e874e659d41c34561f30f3fee" category="section-title">查看 MetroCluster 訂閱使用情況和健康狀況</block>
+  <block id="b49647b9b1e8bc3c8d8768be0c33c9b2" category="paragraph">請依照以下步驟操作：</block>
+  <block id="1a94b13632bb1f29b09280731ca462ed" category="list-text">在 *訂閱編號* 欄位中選擇 MetroCluster 訂閱。</block>
+  <block id="58d25047c56c5383b6e5607bddacebca" category="inline-image-macro">MetroCluster 訂閱符號</block>
+  <block id="26546fe0e238d82fb8663584226d1478" category="admonition">MetroCluster 訂閱內容會透過 <block ref="a865e8e7573241a1da9d2c81b0ca0ac4" category="inline-image-macro-rx" type="image"></block> 圖示進行識別。</block>
+  <block id="18c635825cb497bac7e5931ccc134aa0" category="paragraph">*目前消耗*標籤開啟後，會顯示您訂閱的基本效能服務等級及其對應的進階資料保護效能服務等級的消耗深入分析。您可以以表格或圖形格式查看此資訊。若要深入瞭解，請參閱 <block ref="fad18dbea5fe4d53670ce8b5f31e4228" category="inline-link-macro-rx"></block>。</block>
+  <block id="86c03d482bf25fa66342ff23f81a8b8b" category="list-text">選擇 *Advanced data protection (ADP)* 標籤。</block>
+  <block id="45251127b3bb3ae466aebfd15071b035" category="paragraph">在此標籤上，您可以查看主網站和鏡像網站的基本效能服務等級的消耗數據、監控 MetroCluster 設定的運作狀況，並追蹤其同步狀態。</block>
+  <block id="1c1a142854f6ec09d46068011af3620f" category="list-text">檢視所選時段的使用量分佈圖表。</block>
+  <block id="c5b9cac50bff77d9caef636546a52cc3" category="paragraph">圖表顯示了您的主網站和鏡像網站的資源消耗。將滑鼠停留在圖表上，即可查看每個網站的資源消耗明細，單位為太比位元組（TiB）。</block>
+  <block id="5e3aabd541f9a8089c9a46b80f9c78e3" category="admonition">對於基本效能服務級別，每個磁碟區在主站點和鏡像站點上的配置都會被計費。因此，圖表會拆分以反映每個站點的使用量。</block>
+  <block id="886bb30f5882831107de008efbb56e4c" category="paragraph">*範例：* 工具提示顯示消耗值，例如主站點為 1.15 TiB，鏡像站點為 4.22 TiB。</block>
+  <block id="7d46ce3951e18767710379cf79e92352" category="inline-image-macro">折線圖顯示 MetroCluster 消耗分佈情況，主站點消耗 1.15 TiB，鏡像站點消耗 4.22 TiB（以工具提示形式顯示）</block>
+  <block id="1581159ff20524ddc181e539ca73cec9" category="paragraph"><block ref="1581159ff20524ddc181e539ca73cec9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="069a24e74f6fefe228c9ce5d28b7e67b" category="list-text">在 *ADP 拓樸* 視圖中監控您的 MetroCluster 設定的健康狀態。</block>
+  <block id="92d375ae13aef349145e8dc2877f3c76" category="inline-link-macro">了解 ONTAP Mediator</block>
+  <block id="22273e2e3da5fac4fab6a5af929487f6" category="paragraph">拓撲圖顯示主站點和鏡像站點之間的連接狀態（正常、降級、斷開連接或正在初始化）、資料同步狀態（同步或不同步）以及 ONTAP Mediator 的狀態（如果已配置）。要了解有關 ONTAP Mediator 的更多信息，請參閱<block ref="fa6b7569dc18495dda4bcaf9e0e6d31d" category="inline-link-macro-rx"></block>。</block>
+  <block id="c7ce58326ff0d43313f58438432618e4" category="inline-image-macro">ADP 拓樸圖顯示了主站點（叢集 A）、鏡像站點（叢集 B）、連線狀態指示器、同步狀態和 ONTAP Mediator</block>
+  <block id="485a60e9684d6db386d471e94d4f8e6e" category="paragraph"><block ref="485a60e9684d6db386d471e94d4f8e6e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f7cf2a22df63f7c801c01cfb4ed82fab" category="admonition">您可以從 ADP 拓撲中選擇叢集 B 訂閱（鏡像），將其視為主要站台。</block>
+  <block id="ea463c160b93aefec442f24e23176210" category="admonition">如果同步狀態顯示不同步或連線狀態顯示降級，請參閱 <block ref="da15ada5eca0cf6d8fba09a6cd49576b" category="inline-link-macro-rx"></block> 以疑難排解此問題。</block>
+  <block id="8f2ab845f0c2b21de9dce9bacddaabcb" category="list-text">查看主站台或鏡像站台的歷史使用趨勢。</block>
+  <block id="3427110bee6003dd0893bac8f65d3026" category="paragraph">在 *Capacity utilization* 下，選擇 Cluster A （主要）或 Cluster B （鏡像）旁的 *View* 。</block>
+  <block id="d9e6be64cc5e0800433f8124d52098c6" category="inline-link-macro">查看您的 Keystone 訂閱的消費趨勢</block>
+  <block id="9f7f2df13fda4f0939a1226559ef20a2" category="paragraph">*Consumption trend* 標籤開啟後，會顯示所選叢集在指定日期範圍內的歷史消耗資料。您可以分析基本資料保護效能服務等級和進階資料保護效能服務等級的容量使用趨勢。若要深入瞭解，請參閱 <block ref="13e6bd514849d88572a566ee4b9ddd86" category="inline-link-macro-rx"></block>。</block>
+  <block id="eb4d686858db5ecb37a6bcd33f15cecf" category="paragraph">*範例：* 下圖顯示主站點（叢集 A）的 _Premium_ 效能服務等級（基礎）消耗：</block>
+  <block id="2828144b465892c01c607f91dadeed2e" category="inline-image-macro">主站點的 Premium 效能服務層級使用量圖表</block>
+  <block id="07c6bfc4b60aa098788912c943a00662" category="paragraph"><block ref="07c6bfc4b60aa098788912c943a00662" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9370e72ca2e46a103958448e1d9f3ee1" category="paragraph">對於 _Advanced Data-Protect premium_ 效能服務層級，主站台（叢集 A）的圖表如下所示：</block>
+  <block id="7a68e24df64b887455f230838ea7fff3" category="inline-image-macro">主站點的 Advanced Data Protection Premium 使用量圖表</block>
+  <block id="4fa7bd48201c6971cbee583844674499" category="paragraph"><block ref="4fa7bd48201c6971cbee583844674499" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ae2e8d7d9bc83c06878ce05d51920b3e" category="paragraph">對於 _Advanced Data-Protect_ 效能服務級別，總消耗量會在主站點和鏡像站點之間分配，每個站點的使用情況都會反映在單獨的訂閱中併計費；一個訂閱用於主站點，另一個訂閱用於鏡像站點。因此，當您在 *Consumption trend* 標籤上選擇主站點的訂閱號碼時，進階資料保護附加服務的消耗圖表僅顯示主站點的詳細消耗資訊。由於 MetroCluster 配置中的每個合作夥伴站點都同時充當來源和鏡像，因此每個站點的總消耗量包括在該站點建立的來源磁碟區和鏡像磁碟區。如需更多資訊，請參閱 <block ref="37286cb86a09a4920520b9288f4ef230" category="inline-link-macro-rx"></block>。</block>
+  <block id="48d59ef93e565c1c62d4604f7ddf6561" category="inline-link">了解 MetroCluster 資料保護和災難復原</block>
+  <block id="11faa60292999fe44e704021ce9a5657" category="paragraph">有關 MetroCluster 如何保護您的資料的資訊，請參閱<block ref="f22c59fda71318ed939c4a5a7c90b447" category="inline-link-rx"></block>。</block>
+  <block id="c1fd96e1a86ead5d1ebbf6b0c8bbf088" category="list-text">選擇 *General &gt; Keystone Subscriptions &gt; Consumption Trend*。</block>
+  <block id="9e2d1ddd4dcf430ef709f3cef91bdcb4" category="list-text">選擇 MetroCluster 訂閱方案。</block>
+  <block id="6d2267f5875d98e045ec56c36925fe8c" category="paragraph">如果您的 ONTAP 儲存環境中的叢集已配置為 MetroCluster 設置，則 Keystone 訂閱的消耗資料將在同一歷史資料圖表中拆分，以顯示基本效能服務等級的主網站和鏡像網站的消耗量。</block>
+  <block id="9fb2ff331e9a4f6de17ec429db9059a4" category="admonition">消耗柱狀圖僅針對基礎效能服務等級進行了劃分。對於進階資料保護附加服務（即 _Advanced Data-Protect_ 效能服務等級），則不顯示此分割。</block>
+  <block id="75e0534d6922c86860faff1d9500a18b" category="admonition">在「目前使用情況」標籤中，訂閱追蹤 ID 旁的工具提示可協助您在 MetroCluster 設定中識別合作夥伴訂閱。</block>
+  <block id="2f2646f9b1b507627f86513279abf2b8" category="paragraph">*進階資料保護效能服務層級* 對於進階資料保護效能服務層級，總使用量會在合作夥伴站台之間分配，每個合作夥伴站台的使用量都會反映在個別訂閱中並計費；一個訂閱用於主要站台，另一個訂閱用於鏡射站台。因此，當您在「使用量趨勢」索引標籤上選擇主要站台的訂閱編號時，進階資料保護附加服務的使用量圖表僅會顯示主要站台的詳細使用量資訊。由於 MetroCluster 組態中的每個合作夥伴站台都同時做為來源和鏡射，因此每個站台的總使用量包括在該站台建立的來源磁碟區和鏡射磁碟區。</block>
+  <block id="528ecb800a438dba65f32a6bb9c3e89d" category="paragraph">*基本效能服務等級* 對於基本效能服務等級，每個磁碟區都按主站台和鏡像站台的佈建進行收費，因此同一長條圖會根據主站台和鏡像站台的使用量進行分割。</block>
+  <block id="71315586cba8c8949f99a7a1df55dc0a" category="paragraph">*主要訂閱檢視*</block>
+  <block id="2493a5abd7630f0ba79229ca96082697" category="paragraph">下圖顯示了 _Performance_ 服務等級（基礎效能服務等級）的圖表。同一歷史資料圖表也以與主網站相同色碼的較淺色調顯示了鏡像網站的資源消耗。將滑鼠停留在圖表上即可查看每個站點的資源消耗明細（單位為 TiB）。在本例中，主站點的資源消耗為 95.04 TiB，鏡像站點的資源消耗為 93.38 TiB。</block>
+  <block id="7cbd40b0470c3f0ea1063db9202530ff" category="inline-image-macro">mcc 主端</block>
+  <block id="b148b095b9eb2b66c9d82b9f31f5f48a" category="paragraph"><block ref="b148b095b9eb2b66c9d82b9f31f5f48a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8ddab06811a09aa84844d9013c618f1c" category="paragraph">對於 _Advanced Data-Protect_ 效能服務級別，圖表如下所示：</block>
+  <block id="4bb0adac0644b7c8396196d410d47909" category="inline-image-macro">mcc 主基礎</block>
+  <block id="f4badb1f4371f9080a169022107c32a4" category="paragraph"><block ref="f4badb1f4371f9080a169022107c32a4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="079da252ccc5dbccc8de73980b3d636d" category="paragraph">顯示的 94.21 TiB 消耗量代表主訂閱的使用量。由於進階資料保護功能會將消耗量分配給擁有獨立訂閱的合作夥伴站點，因此此圖表僅顯示主站點的使用量。若要了解進階資料保護附加服務的定價，請參閱<block ref="e4b4611bcff3f9744cb4aede487c4fc5" category="inline-link-macro-rx"></block>。</block>
+  <block id="ba0d35d2434b8356c9c24f1ebc67f3e3" category="paragraph">*鏡像訂閱檢視*</block>
+  <block id="972278bcfbe3ce9d52d685be911a305c" category="paragraph">檢查鏡像訂閱時、您可以看到與合作夥伴站台相同資料收集點的 _Performance_ 服務層級（基礎效能服務層級）長條圖是反轉的、主站台和鏡像站台的使用量明細分別為 93.38 TiB 和 95.04 TiB。</block>
+  <block id="ff58d4e2d2a69e5e91f9509907ba3bd1" category="inline-image-macro">mcc 鏡像</block>
+  <block id="e3da9701f96b1d8b1f5544caeddc8585" category="paragraph"><block ref="e3da9701f96b1d8b1f5544caeddc8585" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eb558bf0915ebb2e189ec8a1ab2f0494" category="paragraph">對於 _Advanced Data-Protect_ 效能服務級別，與合作夥伴網站相同的擷取點對應的圖表如下所示：</block>
+  <block id="ab682f0abbe8b97aaec76b435ca52575" category="inline-image-macro">mcc 鏡像基礎</block>
+  <block id="b922b03e3dcfae7088adb392f0767e0b" category="paragraph"><block ref="b922b03e3dcfae7088adb392f0767e0b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="65a2a677ad699a266987a973a6da5af2" category="inline-link-macro">檢視 MetroCluster 使用量與健全狀況</block>
+  <block id="132051ceb3854fb60e3d9c0fef6e399c" category="paragraph"><block ref="132051ceb3854fb60e3d9c0fef6e399c" category="inline-link-macro-rx"></block></block>
+  <block id="bf93ffdb682e2db2c7c1fde328e362e5" category="cell">是（包括健全狀況、拓撲檢視和同步監控）</block>
+  <block id="97e3a227dc9559ee612b1a162bda9b44" category="cell">是（僅限使用量資料）</block>
+  <block id="83a7d79d2446fe66f125a9ccf9a54e8d" category="list-text">*訂閱編號*：由 NetApp 指派的 Keystone 訂閱編號。帶有 <block ref="a865e8e7573241a1da9d2c81b0ca0ac4" category="inline-image-macro-rx" type="image"></block> 圖示的訂閱為 MetroCluster 訂閱。若要深入瞭解 MetroCluster 訂閱、請參閱 <block ref="660e84029d4c47136198fc3e50dbcb48" category="inline-link-macro-rx"></block>。</block>
+  <block id="ac2952bbdeeadb1f8bfdc6205fabd389" category="sidebar">查看 MetroCluster 訂閱消費狀況和健康狀況</block>
+  <block id="ab556116f6e3e88a66d6fb6d623318fa" category="sidebar">附加服務</block>
+  <block id="3f20b3134627198be1e0ff879a88cd8f" category="sidebar">進階資料保護</block>
 </blocks>

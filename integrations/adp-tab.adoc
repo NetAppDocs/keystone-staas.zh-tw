@@ -1,0 +1,171 @@
+---
+sidebar: sidebar 
+permalink: integrations/adp-tab.html 
+keywords: keystone-aiq, digital advisor keystone, advanced data protection, ADP, MetroCluster, consumption data, health status, primary site, mirror site, sync status, ONTAP Mediator, capacity utilization, consumption trends, bluexp, NetApp Console, Console 
+summary: 當您訂閱 Keystone 中的進階資料保護附加服務時，可檢視 MetroCluster 合作夥伴站台的使用量資料並監控健全狀況。 
+---
+= 查看您的 Keystone MetroCluster 訂閱的使用與健康狀況
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+當你訂閱進階資料保護附加服務時，你可以在 NetApp Console 或 Digital Advisor 中查看你的 MetroCluster 夥伴站點的使用數據。在 NetApp Console 中，你也可以監控你的 MetroCluster 設定的複寫狀態與健康狀況。
+
+
+
+== 查看 MetroCluster 訂閱使用情況和健康狀況
+
+請依照以下步驟操作：
+
+[role="tabbed-block"]
+====
+.NetApp控制台
+--
+.步驟
+. 從控制台左側導覽選單中，選擇*儲存> Keystone >訂閱*。
+. 在 *訂閱編號* 欄位中選擇 MetroCluster 訂閱。
++
+
+TIP: MetroCluster 訂閱內容會透過 image:metrocluster-icon.png["MetroCluster 訂閱符號"] 圖示進行識別。
+
++
+*目前消耗*標籤開啟後，會顯示您訂閱的基本效能服務等級及其對應的進階資料保護效能服務等級的消耗深入分析。您可以以表格或圖形格式查看此資訊。若要深入瞭解，請參閱 link:../integrations/current-usage-tab.html["查看 Keystone 訂閱的當前消耗情況"]。
+
+. 選擇 *Advanced data protection (ADP)* 標籤。
++
+在此標籤上，您可以查看主網站和鏡像網站的基本效能服務等級的消耗數據、監控 MetroCluster 設定的運作狀況，並追蹤其同步狀態。
+
++
+** 檢視所選時段的使用量分佈圖表。
++
+圖表顯示了您的主網站和鏡像網站的資源消耗。將滑鼠停留在圖表上，即可查看每個網站的資源消耗明細，單位為太比位元組（TiB）。
+
++
+
+NOTE: 對於基本效能服務級別，每個磁碟區在主站點和鏡像站點上的配置都會被計費。因此，圖表會拆分以反映每個站點的使用量。
+
++
+*範例：* 工具提示顯示消耗值，例如主站點為 1.15 TiB，鏡像站點為 4.22 TiB。
+
++
+image:adp-consumption-chart.png["折線圖顯示 MetroCluster 消耗分佈情況，主站點消耗 1.15 TiB，鏡像站點消耗 4.22 TiB（以工具提示形式顯示）"]
+
+** 在 *ADP 拓樸* 視圖中監控您的 MetroCluster 設定的健康狀態。
++
+拓撲圖顯示主站點和鏡像站點之間的連接狀態（正常、降級、斷開連接或正在初始化）、資料同步狀態（同步或不同步）以及 ONTAP Mediator 的狀態（如果已配置）。要了解有關 ONTAP Mediator 的更多信息，請參閱link:https://docs.netapp.com/us-en/ontap/mediator/mediator-overview-concept.html["了解 ONTAP Mediator"^]。
+
++
+image:adp-topology.png["ADP 拓樸圖顯示了主站點（叢集 A）、鏡像站點（叢集 B）、連線狀態指示器、同步狀態和 ONTAP Mediator"]
+
++
+
+TIP: 您可以從 ADP 拓撲中選擇叢集 B 訂閱（鏡像），將其視為主要站台。
+
++
+
+TIP: 如果同步狀態顯示不同步或連線狀態顯示降級，請參閱 link:../concepts/support-services.html["取得 Keystone 的說明"] 以疑難排解此問題。
+
+** 查看主站台或鏡像站台的歷史使用趨勢。
++
+在 *Capacity utilization* 下，選擇 Cluster A （主要）或 Cluster B （鏡像）旁的 *View* 。
+
++
+*Consumption trend* 標籤開啟後，會顯示所選叢集在指定日期範圍內的歷史消耗資料。您可以分析基本資料保護效能服務等級和進階資料保護效能服務等級的容量使用趨勢。若要深入瞭解，請參閱 link:../integrations/consumption-tab.html["查看您的 Keystone 訂閱的消費趨勢"]。
+
++
+*範例：* 下圖顯示主站點（叢集 A）的 _Premium_ 效能服務等級（基礎）消耗：
+
++
+image:adp-base-consumption.png["主站點的 Premium 效能服務層級使用量圖表"]
+
++
+對於 _Advanced Data-Protect premium_ 效能服務層級，主站台（叢集 A）的圖表如下所示：
+
++
+image:adp-consumption.png["主站點的 Advanced Data Protection Premium 使用量圖表"]
+
++
+對於 _Advanced Data-Protect_ 效能服務級別，總消耗量會在主站點和鏡像站點之間分配，每個站點的使用情況都會反映在單獨的訂閱中併計費；一個訂閱用於主站點，另一個訂閱用於鏡像站點。因此，當您在 *Consumption trend* 標籤上選擇主站點的訂閱號碼時，進階資料保護附加服務的消耗圖表僅顯示主站點的詳細消耗資訊。由於 MetroCluster 配置中的每個合作夥伴站點都同時充當來源和鏡像，因此每個站點的總消耗量包括在該站點建立的來源磁碟區和鏡像磁碟區。如需更多資訊，請參閱 link:../concepts/adp.html["Keystone 的進階資料保護附加元件"]。
+
+
+
+
+
+有關 MetroCluster 如何保護您的資料的資訊，請參閱 https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["了解 MetroCluster 資料保護和災難復原"^]。
+
+--
+.數位顧問
+--
+.步驟
+. 選擇 *General > Keystone Subscriptions > Consumption Trend*。
+. 選擇 MetroCluster 訂閱方案。
++
+如果您的 ONTAP 儲存環境中的叢集已配置為 MetroCluster 設置，則 Keystone 訂閱的消耗資料將在同一歷史資料圖表中拆分，以顯示基本效能服務等級的主網站和鏡像網站的消耗量。
+
++
+
+NOTE: 消耗柱狀圖僅針對基礎效能服務等級進行了劃分。對於進階資料保護附加服務（即 _Advanced Data-Protect_ 效能服務等級），則不顯示此分割。
+
++
+
+TIP: 在「目前使用情況」標籤中，訂閱追蹤 ID 旁的工具提示可協助您在 MetroCluster 設定中識別合作夥伴訂閱。
+
++
+*進階資料保護效能服務層級* 對於進階資料保護效能服務層級，總使用量會在合作夥伴站台之間分配，每個合作夥伴站台的使用量都會反映在個別訂閱中並計費；一個訂閱用於主要站台，另一個訂閱用於鏡射站台。因此，當您在「使用量趨勢」索引標籤上選擇主要站台的訂閱編號時，進階資料保護附加服務的使用量圖表僅會顯示主要站台的詳細使用量資訊。由於 MetroCluster 組態中的每個合作夥伴站台都同時做為來源和鏡射，因此每個站台的總使用量包括在該站台建立的來源磁碟區和鏡射磁碟區。
+
++
+*基本效能服務等級* 對於基本效能服務等級，每個磁碟區都按主站台和鏡像站台的佈建進行收費，因此同一長條圖會根據主站台和鏡像站台的使用量進行分割。
+
++
+*主要訂閱檢視*
+
++
+下圖顯示了 _Performance_ 服務等級（基礎效能服務等級）的圖表。同一歷史資料圖表也以與主網站相同色碼的較淺色調顯示了鏡像網站的資源消耗。將滑鼠停留在圖表上即可查看每個站點的資源消耗明細（單位為 TiB）。在本例中，主站點的資源消耗為 95.04 TiB，鏡像站點的資源消耗為 93.38 TiB。
+
++
+image:mcc-chart-2.png["mcc 主端"]
+
++
+對於 _Advanced Data-Protect_ 效能服務級別，圖表如下所示：
+
++
+image:adp-src-2.png["mcc 主基礎"]
+
++
+顯示的 94.21 TiB 消耗量代表主訂閱的使用量。由於進階資料保護功能會將消耗量分配給擁有獨立訂閱的合作夥伴站點，因此此圖表僅顯示主站點的使用量。若要了解進階資料保護附加服務的定價，請參閱link:../concepts/adp.html#understand-pricing["了解定價"]。
+
++
+*鏡像訂閱檢視*
+
++
+檢查鏡像訂閱時、您可以看到與合作夥伴站台相同資料收集點的 _Performance_ 服務層級（基礎效能服務層級）長條圖是反轉的、主站台和鏡像站台的使用量明細分別為 93.38 TiB 和 95.04 TiB。
+
++
+image:mcc-chart-mirror-2.png["mcc 鏡像"]
+
++
+對於 _Advanced Data-Protect_ 效能服務級別，與合作夥伴網站相同的擷取點對應的圖表如下所示：
+
++
+image:adp-mir-2.png["mcc 鏡像基礎"]
+
+
+
+有關 MetroCluster 如何保護您的資料的資訊，請參閱 https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["了解 MetroCluster 資料保護和災難復原"^]。
+
+--
+====
+*相關資訊*
+
+* link:../integrations/dashboard-overview.html["了解 Keystone 儀表板"]
+* link:../integrations/subscriptions-tab.html["查看您的訂閱詳情"]
+* link:../integrations/current-usage-tab.html["查看您目前的消費詳情"]
+* link:../integrations/consumption-tab.html["檢視消費趨勢"]
+* link:../integrations/subscription-timeline.html["查看您的訂閱時間表"]
+* link:../integrations/assets-tab.html["查看您的 Keystone 訂閱資產"]
+

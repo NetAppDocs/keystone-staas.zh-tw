@@ -34,7 +34,7 @@ image:bxp-subscription-list-4.png["查看訂閱標籤詳情"]
 您可以從表中看到以下詳細資訊：
 
 +
-** *訂閱編號*：NetApp 指派的 Keystone 訂閱的訂閱編號。
+** *訂閱編號*：由 NetApp 指派的 Keystone 訂閱編號。帶有 image:metrocluster-icon.png["MetroCluster 訂閱符號"] 圖示的訂閱為 MetroCluster 訂閱。若要深入瞭解 MetroCluster 訂閱、請參閱 link:../integrations/adp-tab.html["查看您的 Keystone MetroCluster 訂閱的使用與健康狀況"]。
 ** *追蹤ID*：訂閱啟動時指派的追蹤ID。這是每個訂閱和網站的唯一ID、用於追蹤訂閱。
 ** *客戶名稱*：與 Keystone 訂閱相關的客戶的名稱。
 ** *關聯訂閱*：如果您有任何與主訂閱關聯的次要訂閱，此列會列出主訂閱的關聯訂閱號碼。此訂閱編號可以是主訂閱的編號，也可以是次要（關聯）訂閱的編號。

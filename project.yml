@@ -118,6 +118,8 @@ sidebar:
         url: "/integrations/consumption-tab.html"
       - title: 查看您的訂閱時間表
         url: "/integrations/subscription-timeline.html"
+      - title: 查看 MetroCluster 訂閱消費狀況和健康狀況
+        url: "/integrations/adp-tab.html"
     - title: 檢視資產
       entries:
       - title: 查看與訂閱相關的資產
@@ -150,8 +152,10 @@ sidebar:
         url: "/concepts/service-levels.html"
       - title: 性能服務等級的容量要求
         url: "/concepts/capacity-requirements.html"
-    - title: 了解附加服務
+    - title: 附加服務
       entries:
+      - title: 進階資料保護
+        url: "/concepts/adp.html"
       - title: 突發容量選項
         url: "/concepts/burst-capacity.html"
       - title: 資料基礎架構洞見
