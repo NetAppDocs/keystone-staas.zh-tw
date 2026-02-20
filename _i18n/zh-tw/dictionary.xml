@@ -1398,8 +1398,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="3b95e9802e539ed39990d7c53e7f63cc" category="paragraph">NetApp 資料基礎架構洞見（ DII ，前身為 Cloud Insights ）是 Keystone STaaS 的附加產品。此服務與 Keystone STaaS 的整合，可強化跨公有雲和私有資料中心， Keystone 提供的儲存資源的監控，疑難排解和最佳化功能。</block>
   <block id="b4116a637c9ad7ac63e4694f7d72fe47" category="inline-link-macro">Data Infrastructure Insights 文件</block>
   <block id="791f81543da974a0b785676eb2cfa67d" category="paragraph">若要深入瞭解 Data Infrastructure Insights ，請<block ref="d3b10d06b902e7a0afb7dc49b48a5ee1" category="inline-link-macro-rx"></block>參閱。</block>
-  <block id="8821a03fd087171377d0af609b3c7f94" category="inline-image-macro">Keystone 訂閱小工具的螢幕擷取畫面，顯示 DII 服務層級</block>
-  <block id="62d433b3a1743ca27d23bb2bc966e462" category="paragraph"><block ref="62d433b3a1743ca27d23bb2bc966e462" category="inline-image-macro-rx" type="image"></block></block>
   <block id="35093b8f232384c1cc56aa0b089de156" category="section-title">針對 Keystone 部署 DII</block>
   <block id="af7685e284aa0e1b6d46a67961bbd7ea" category="inline-link-macro">NetApp 專業服務</block>
   <block id="f7cbbc681ca27bebc7825144375b3923" category="paragraph">客戶可透過兩種方式整合 Keystone 的 DII ：將其整合為現有執行個體的一部分，以監控其他非 Keystone 環境，或是作為新執行個體的一部分。客戶有責任設定 DII 。如果在複雜的環境中設置 DII 需要幫助，客戶團隊可以參與<block ref="d0b2c9035727476f87ec5eb3369e77e6" category="inline-link-macro-rx"></block>。</block>
@@ -1419,8 +1417,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="9a46d798eebbf17a0a8de6e011f77e61" category="section-title">計費和計量</block>
   <block id="906219bd5cad7b32c457e4301bb3dddb" category="paragraph">以下概述 DII 附加服務的帳單與計量詳細資料：</block>
   <block id="4845aab96333666b12d6803a4dfa7e2f" category="list-text">此服務的測量方式與您的主要訂閱方式相同。例如，如果您的主要訂閱包含 100 TiB of Extreme 服務和 100 TiB 的優質服務（兩者皆以邏輯使用量為基礎），則附加服務（ DII Extreme 100 TiB 和 DII Premium 100 TiB ）也會以邏輯使用量為基礎進行測量。如果您的主要訂閱是以佈建的方式來量測，則附加服務的量測方式會與相同容量的量測方式相同。附加服務將遵循與您的主要訂閱相同的測量方法。</block>
-  <block id="c99e19e7853ccd0683be6a6018ad7741" category="inline-image-macro">顯示服務層級計量的目前使用量索引標籤螢幕擷取畫面</block>
-  <block id="b0885a29b96393f9e5617fe484028b66" category="paragraph"><block ref="b0885a29b96393f9e5617fe484028b66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8db98a7e401d579f2dabed9e0f2ae0e5" category="list-text">此服務會在同一張發票上記數並開立發票，以及您的 Keystone 訂閱。如果您在啟動 Keystone 訂閱之前將 DII 設定為 Keystone ，帳單仍會從 Keystone 訂閱啟動日期或現有訂閱的修改日期開始。</block>
   <block id="acc5c60ef02b38c0c3d244a1fce02d83" category="list-text">此服務將以其連結的 Keystone 訂閱結束。續約時，您可以選擇是否續約附加服務。如果您不續約 Keystone 訂閱，受監控的硬體將會停用，而附加服務會自動終止。</block>
   <block id="bfff02ceb19e1dc747612576a86266f9" category="section-title">支援與使用者存取</block>
@@ -1631,8 +1627,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="42c6fcaab380d23adc4355ae6bb2df0b" category="paragraph">為 Extreme 效能服務等級分配的容量減少了 (125-108) = 17 TiB。在重新分配支出時、分配的混合雲儲存設備不是 17 TiB 、而是可購買 5000 美元的同等容量。在此範例中，花費 5000 美元，您可以獲得 Extreme 效能服務等級的 17 TiB 本機儲存容量，以及 Cloud Volumes ONTAP 效能服務等級的 47 TiB 混合雲容量。因此、重新分配是關於支出、而非容量。</block>
   <block id="5f238d7b669564c4a06db9820b17a9c3" category="paragraph">承諾容量是購買訂閱時為特定性能服務等級承諾的容量。</block>
   <block id="a5e80c8c714cefa82d0f175e2ea8eae1" category="paragraph">承諾容量可以是您和 NetApp/合作夥伴接受的單一訂閱中各種效能服務等級的總容量。此容量會在每個Keystone訂單上註明、而且會計費、無論實際的容量使用量為何。</block>
-  <block id="c3f0cd4e0817ed6ccaf89e89dc466a7b" category="paragraph">DII 可同時用於新的和現有的訂閱。它可以整合至 Keystone 訂閱，做為認可容量的附加元件。當 DII 整合到 Keystone 訂閱中時，它將為訂閱中的每個基礎效能服務等級提供對應的效能服務等級。例如， Extreme 對應至 DII Extreme ， Premium 對應至 DII Premium ，而 Performance 對應至 DII Performance 。這些對應可確保 DII 效能服務等級與 Keystone 訂閱的基礎效能服務等級保持一致。</block>
-  <block id="c2ad6efc2c70a7ddf3129813b4086d9d" category="paragraph">Digital Advisor 儀表板上的 *Keystone Subscriptions* 小工具內 DII 效能服務等級視圖：</block>
   <block id="a7e6ac4ae7947619253439c265eec249" category="paragraph">配置完成後，DII 執行個體將開始監控作為 Keystone 一部分部署的 NetApp 儲存資源。</block>
   <block id="abc501d7e199ea4ea077a268557f07c6" category="inline-link-macro">Keystone 儀表板和報告</block>
   <block id="5179c99cf35cfc837a65bf568160b173" category="admonition">雖然 DII 為已部署的硬體提供了廣泛的監控功能，但它無法提供 Keystone 訂閱的洞察信息，例如訂閱使用情況或性能服務級別詳情。如需訂閱洞察信息，請參閱<block ref="0c9f3efee4ad3aaa79c65e2bbafc9a0a" category="inline-link-macro-rx"></block> 。</block>
@@ -1756,7 +1750,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="060031875f3f915385690798ab0a3740" category="paragraph">您可以在 Digital Advisor 儀表板上的「Keystone 訂閱」小工具中查看訂閱和使用情況詳情，以及已購買 Keystone 服務的容量使用摘要。要了解更多關於“Keystone 訂閱”小部件的信息，請參閱<block ref="00ed8f21a4cef28d7d8aa80cda364760" category="inline-link-macro-rx"></block> 。</block>
   <block id="2d6e1b228a12f4c76c76939e28065d07" category="list-text"><block ref="2d6e1b228a12f4c76c76939e28065d07" category="inline-link-macro-rx"></block></block>
   <block id="85d148be40895e3d0f9c047d8b0e01b1" category="paragraph">Keystone 儀表板是您高效監控、分析和管理 Keystone 訂閱的首選解決方案。透過 Keystone 儀表板，您可以實現以下目標：</block>
-  <block id="2bf64d92e1a315894ffc10df4f760430" category="list-text">*監控訂閱詳情*：查看有關您的 Keystone 訂閱的詳細信息，包括效能服務等級、容量使用情況、資產和警報。</block>
   <block id="80e1eadef41b346546973348e209664d" category="list-text">*追蹤容量使用情況並產生報告*：追蹤當前和歷史容量使用情況，並產生報告以分析訂閱數據並做出明智的決策。</block>
   <block id="00a41eeac0923d207b9573b66eb56d6e" category="list-text">*查看訂閱時間表*：透過監控訂閱時間表，隨時了解關鍵日期和事件。</block>
   <block id="5da0271ff0556b615a698484060fe793" category="list-text">*管理訂閱*：根據您的需求變更提交修改效能服務等級或其他訂閱參數的請求。</block>
@@ -1813,7 +1806,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="6e665113a95f128bda94a45125d034c0" category="doc">查看您的 Keystone 訂閱的詳細信息</block>
   <block id="da165360e20e2139a72fd6fadd1175f3" category="inline-image-macro">查看訂閱標籤詳情</block>
   <block id="e6cb8545fbd488c01d2779c3cf2fe308" category="list-text">*客戶名稱*：與 Keystone 訂閱相關的客戶的名稱。</block>
-  <block id="1785b788275c7de318abca94e5882fe1" category="list-text">*關聯訂閱*：如果您有任何與主訂閱關聯的次要訂閱，此列會列出主訂閱的關聯訂閱號碼。此訂閱編號可以是主訂閱的編號，也可以是次要（關聯）訂閱的編號。</block>
   <block id="7e147d47de92c4a609c07c4bb5e40f29" category="list-text">*計費週期*：訂閱的發票週期。</block>
   <block id="15d3201050b72761174ef874891c70c2" category="list-text">*效能服務等級*：與訂閱相關的費率方案數量，每個費率方案對應特定的效能服務等級和承諾容量。</block>
   <block id="7977aee626f33c6d577f1efc799f2747" category="list-text">*最高容量*：訂閱內消耗的最大容量。</block>
@@ -2112,7 +2104,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="e7a862d1277ff52d64b2b8419fe26d69" category="list-text">*容量使用情況*：超出突發容量、使用突發容量和未充分利用的訂閱的容量消耗狀態。每個類別都包含一個「檢視」按鈕，用於導覽至套用了相關篩選器的「訂閱」標籤。</block>
   <block id="12e1b3132ab24ad467a7db5c6d50da11" category="list-text">* Keystone版本*：用於訂閱的Keystone服務的版本。不同訂閱版本的效能服務等級的費率方案規則可能有所不同。要了解有關版本 v1 的更多信息，請參閱<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block>。</block>
   <block id="2011f3283ff705ca06648130cb758700" category="paragraph"><block ref="2011f3283ff705ca06648130cb758700" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e3db4ac6b95d51ce2a9fc54f2ebc8f17" category="list-text">*連結訂閱*：此列可供您選擇使用。如果您有任何與主訂閱相連結的次要訂閱，則此列會列出主訂閱的連結訂閱號碼。此訂閱號可以是您的主要訂閱號，也可以是次要（連結）訂閱號。</block>
   <block id="afb3d054878af254ad9d657e9c39d6be" category="paragraph">對於選定的Keystone STaaS 訂閱，您可以查看磁碟區的總數、受保護磁碟區的數量、反勒索軟體保護狀態以及所有這些磁碟區中的總提交容量、已消耗容量和可用容量。如果您按一下受保護磁碟區的數量，它將帶您進入「磁碟區詳細資料」標籤，您可以在其中根據您的選擇查看顯示受保護磁碟區的篩選清單。</block>
   <block id="c7409eaa8633fe96cf75ec03a907af58" category="paragraph"><block ref="c7409eaa8633fe96cf75ec03a907af58" category="inline-image-macro-rx" type="image"></block></block>
   <block id="964c0373b6e90b739308a155629631d1" category="paragraph"><block ref="964c0373b6e90b739308a155629631d1" category="inline-image-macro-rx" type="image"></block></block>
@@ -2593,6 +2584,30 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="97e3a227dc9559ee612b1a162bda9b44" category="cell">是（僅限使用量資料）</block>
   <block id="83a7d79d2446fe66f125a9ccf9a54e8d" category="list-text">*訂閱編號*：由 NetApp 指派的 Keystone 訂閱編號。帶有 <block ref="a865e8e7573241a1da9d2c81b0ca0ac4" category="inline-image-macro-rx" type="image"></block> 圖示的訂閱為 MetroCluster 訂閱。若要深入瞭解 MetroCluster 訂閱、請參閱 <block ref="660e84029d4c47136198fc3e50dbcb48" category="inline-link-macro-rx"></block>。</block>
   <block id="ac2952bbdeeadb1f8bfdc6205fabd389" category="sidebar">查看 MetroCluster 訂閱消費狀況和健康狀況</block>
-  <block id="ab556116f6e3e88a66d6fb6d623318fa" category="sidebar">附加服務</block>
   <block id="3f20b3134627198be1e0ff879a88cd8f" category="sidebar">進階資料保護</block>
+  <block id="ca1d1a0086fee239544c6e4e89b5f8f8" category="doc">Data Infrastructure Insights 附加消耗顯示器</block>
+  <block id="4d0aa03b8805975279d25e57b83cad25" category="inline-link-macro">查看 DII 消費狀況</block>
+  <block id="903f10a385ab3936430e26fbc1b90d88" category="paragraph">Data Infrastructure Insights （ DII ） 附加元件使用量現在會顯示在 *目前使用量* 和 *使用量趨勢* 標籤中。若要深入瞭解、請參閱 <block ref="e1ed0a5aaa8506a20b57415cc0717b20" category="inline-link-macro-rx"></block>。</block>
+  <block id="ade2f26a9f9c3f533ed70befc7417b6b" category="section-title">關於 Keystone 訂閱的 DII</block>
+  <block id="9843f64ed3799d5bdb14dda01a9b5a37" category="paragraph">Data Infrastructure Insights 適用於新訂閱和現有訂閱。它可以作為已承諾容量的附加元件整合到 Keystone 訂閱中。</block>
+  <block id="28ee0e8daa391f128672facc133e687f" category="paragraph">當 Data Infrastructure Insights 整合到 Keystone 訂閱中時，它將為訂閱中的每個基礎效能服務等級提供一個對應的效能服務等級。例如、Extreme 對應 Data Infrastructure Insights Extreme、Premium 對應 Data Infrastructure Insights Premium、Performance 對應 Data Infrastructure Insights Performance。這些對應可確保 Data Infrastructure Insights 效能服務等級與您 Keystone 訂閱的基礎效能服務等級一致。</block>
+  <block id="0ff7208ef5e37de33ec837dee18cbdc1" category="paragraph">您可以透過 NetApp Console 或 Digital Advisor 檢視 DII 附加服務的使用量。DII 效能服務等級（例如 DII Extreme、DII Premium 和 DII Performance）的使用量資料會與您的基本效能服務等級一起顯示在目前使用量和使用量趨勢檢視中。</block>
+  <block id="be42f3858da5f1cd379afec5cbef2b6c" category="paragraph">以下範例顯示了 Console 中 *Current consumption* 標籤中的 DII 效能服務等級：</block>
+  <block id="ab206be215309dfd48d917f39a386bc6" category="inline-image-macro">目前消耗選項卡的螢幕截圖，顯示 Data Infrastructure Insights 服務級別</block>
+  <block id="6fb64940a1e6a241679a7f0c8fda8824" category="paragraph"><block ref="6fb64940a1e6a241679a7f0c8fda8824" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c3ef5e8e1cbfd217063168e43da5eee8" category="paragraph">以下範例顯示 Digital Advisor 中 *Keystone Subscriptions* 小工具的 DII 效能服務層級：</block>
+  <block id="53e2dacb590ff4008c16b7f5067d048b" category="inline-image-macro">Keystone Subscriptions 小工具顯示 DII 服務等級的螢幕擷取畫面</block>
+  <block id="1a319c77796208929656fe0e744e4694" category="paragraph"><block ref="1a319c77796208929656fe0e744e4694" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d2e0a33a4ecfd25ee5df1b85c1d29c5c" category="paragraph">如需檢視使用量的詳細資訊、請參閱：</block>
+  <block id="fad18dbea5fe4d53670ce8b5f31e4228" category="list-text"><block ref="fad18dbea5fe4d53670ce8b5f31e4228" category="inline-link-macro-rx"></block></block>
+  <block id="d40818e721dbdfb8ef017a3c524d1def" category="list-text"><block ref="d40818e721dbdfb8ef017a3c524d1def" category="inline-link-macro-rx"></block></block>
+  <block id="ec3c5dc2acc96dd435267e93ff378ceb" category="inline-link-macro">了解附加服務</block>
+  <block id="85a900a56892dba4e86c93a2ca9a49c9" category="admonition">如果您訂閱了進階資料保護（ADP）或 Data Infrastructure Insights（DII）等附加服務，這些服務的使用資料將與您的基本效能服務層級一起顯示在歷史使用量檢視和累積突發使用量檢視中。若要深入瞭解附加服務、請參閱 <block ref="a9f54665bc3ae1390a16fe76b63295f2" category="inline-link-macro-rx"></block>。</block>
+  <block id="f8ca7590fc27a84df2479575446a86d2" category="list-text"><block ref="f8ca7590fc27a84df2479575446a86d2" category="inline-link-macro-rx"></block></block>
+  <block id="2cf57deab11a97384e65ae3b18f8e059" category="list-text"><block ref="2cf57deab11a97384e65ae3b18f8e059" category="inline-link-macro-rx"></block></block>
+  <block id="102319efa425f0a1168cb455080902ee" category="admonition">如果您訂閱了進階資料保護（ADP）或 Data Infrastructure Insights（DII）等附加服務、這些服務的目前資源消耗量將與您的基本效能服務等級一起顯示在圖形和表格檢視中。若要深入瞭解附加服務、請參閱 <block ref="a9f54665bc3ae1390a16fe76b63295f2" category="inline-link-macro-rx"></block>。</block>
+  <block id="dd22742edaecc726c34a5b11cbaa62a9" category="list-text">*監控訂閱詳細資料*：檢視有關 Keystone 訂閱的詳細資訊，包括效能服務層級（基礎服務和附加服務，例如進階資料保護和 Data Infrastructure Insights）、容量使用量、資產和警示。</block>
+  <block id="3a0ac91f607c4908d1e3d47d382884f8" category="list-text">*關聯訂閱*：如果您有任何與主訂閱關聯的輔助訂閱、此欄會列出主訂閱的關聯訂閱號碼。</block>
+  <block id="b3f613e3d8f464b4f2aaf03e58cd7343" category="list-text">*關聯訂閱*：如果您有任何與主訂閱關聯的輔助訂閱、此欄會列出主訂閱的關聯訂閱號碼。</block>
+  <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026 年 2 月 16 日</block>
 </blocks>

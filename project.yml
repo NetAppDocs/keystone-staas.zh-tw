@@ -152,7 +152,7 @@ sidebar:
         url: "/concepts/service-levels.html"
       - title: 性能服務等級的容量要求
         url: "/concepts/capacity-requirements.html"
-    - title: 附加服務
+    - title: 了解附加服務
       entries:
       - title: 進階資料保護
         url: "/concepts/adp.html"
