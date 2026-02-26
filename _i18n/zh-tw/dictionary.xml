@@ -1085,19 +1085,11 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="892db0165f2238f40c3370386d79cac7" category="inline-image-macro">Excel 工作表範本</block>
   <block id="f0fbc9cddebee973debd106e878bebdd" category="paragraph"><block ref="f0fbc9cddebee973debd106e878bebdd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="23f04236d1f84e52d087f768059adbbe" category="list-text">* 效能降級 * ：每個事件的時間量（以分鐘為單位）、在這段時間內無法達到 90 個 ^ 百分位數延遲目標。</block>
-  <block id="3fe43b4ffa54563c104bbdf1eeea2b59" category="list-text">對於 Keystone 訂單中的所有磁碟區、每個磁碟區、每個效能層級的每個磁碟區、都會測量 * 90 ^^^Perth* 的百分位數延遲 * 。延遲每五分鐘取樣一次、並將在 24 小時期間內計算的 90 個 ^ 百分位數值作為每日測量值、考量以下幾點：</block>
   <block id="35254eb51c71659b3cf343855354b8b1" category="list-text">在收集度量時記錄至少五個 IOPS 的磁碟區會被視為範例。</block>
   <block id="0e0e9d5bae73de26860af74cb8fc6ac2" category="list-text">在收集度量時、寫入作業超過 30% 的磁碟區會從範例中排除。</block>
-  <block id="ab4c900b0e1430edc1bd09939be8859a" category="list-text">針對要求的 IOPS/TiB （大於目標 IOS/TiB ）、由 AQO 新增的延遲將從範例中排除。</block>
-  <block id="565d8433df6c6c23be6de8fd7871abae" category="list-text">AQO 為了維持每個磁碟區的最小 IOPS 而新增的延遲將從範例中排除。</block>
   <block id="f901dbc53f8dea2d74e68635ec84a298" category="list-text">對於已啟用 FabricPool 的磁碟區、不會計算資料往返目標（冷）儲存設備的傳輸所產生的延遲。</block>
   <block id="23ca5c8d56457bbd625ff236b3c706ef" category="list-text">ONTAP 叢集以外的應用程式、主機或客戶網路所造成的延遲不計入在內。</block>
-  <block id="efbd8d78a7008161e0e4f42c63d84ad6" category="list-text">在 24 小時期間、至少應提供十個有效的指標。否則、將會捨棄這些度量。</block>
-  <block id="5b8e1d393a8c6bf1b5c0be8eb268aba3" category="list-text">如果儲存陣列上的一個或多個磁碟區未套用有效的 AQO 原則、則其他磁碟區可用的 IOPS 數量可能會受到影響、而 NetApp 將不負責指定該儲存陣列的目標或達到該儲存陣列的效能等級。</block>
   <block id="d8ace9c4f3c105767c7ec01ce669eca3" category="list-text">在 FabricPool 組態中、當所有要求的資料區塊都位於 FabricPool 來源（熱）儲存設備上、而且來源儲存設備不在 SnapMirror 同步關係中時、效能等級就會適用。</block>
-  <block id="ce8f4bd254d7fa591c64caccc3aa3eeb" category="cell">不到 1 毫秒</block>
-  <block id="101d21e523f12f01303be5acdf4141d9" category="cell">&lt;2 毫秒</block>
-  <block id="65e7d97f5e59814284d01d2b0cd62581" category="cell">不到4毫秒</block>
   <block id="4528f5e882cc88c8842dcf9b1ac1b1bc" category="paragraph">NetApp 會針對效能降低問題、提供服務點數：</block>
   <block id="72c2dabc519f204563247ef9d2fd1c7a" category="cell">* 效能臨界值 *</block>
   <block id="133c2090971805c26a4b7780a43a4e1f" category="paragraph">90 個 ^ 百分位數延遲 &gt; 目標延遲</block>
@@ -1105,13 +1097,11 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="68bff7f600a4d4bddae207bf52b8dbdb" category="paragraph">服務額度 = （受影響容量 / 總承諾容量） X 容量費用 X 受影響天數 X 信用百分比</block>
   <block id="518fb0e9794f4b9e14b0dc061ac61fda" category="list-text">* 容量費用 * ：根據 Keystone 訂單、受影響效能等級的費用。</block>
   <block id="9bd7cf79d77a54ab7c62e80f778e9d2a" category="list-text">* 受影響的天數 * ：受影響的日曆天數。</block>
-  <block id="b452a2e7bf15034c9bd63c001b3e6e64" category="cell">* 受影響的日曆日 *</block>
   <block id="a22d50cab82690cbdc8113c3ff9c2076" category="cell">10 層</block>
   <block id="58f24a17f570c7949880710fdf616d32" category="cell">50 層</block>
   <block id="c81e728d9d4c2f636f067f89cc14862c" category="cell">2</block>
   <block id="dcfe0b3ef8eb8156a5e83949c2e2f7b6" category="cell">3%</block>
   <block id="b9ad6821bc2a0e4300b5b91ca5245476" category="paragraph">使用公式：服務額度 = （ 10 / 50 ） X 1000 x 2 x 0.03</block>
-  <block id="732192040cca36723308ae6b02982093" category="paragraph">根據計算、服務點數將為 12 美元。</block>
   <block id="fed70707a2e768c22f4b0fc06a401786" category="summary">NetApp 透過勒索軟體恢復保證方案、保證在勒索軟體攻擊時、能從 SnapLock Compliance Volume 恢復 Snapshot 資料</block>
   <block id="30a37a729e8d5bdf11c9e3c6965f6872" category="doc">勒索軟體恢復保證</block>
   <block id="c314df61fd93029a87d16eb15b842e7d" category="paragraph">NetApp 透過勒索軟體恢復保證方案、保證在勒索軟體攻擊時、能從 SnapLock Compliance Volume 恢復 Snapshot 資料。NetApp 勒索軟體恢復保證服務必須支援勒索軟體恢復保證方案、而且必須與相關 Keystone 訂單分開購買。</block>
@@ -1562,7 +1552,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="bcd6ed294af34e837c537b83a1a3de21" category="list-text">CentOS 7 （僅適用於現有環境）</block>
   <block id="265561b81e51364d306e58144832b7a8" category="summary">如果您需要協助，請聯絡 NetApp Keystone 支援團隊。</block>
   <block id="9dc4e2b4f34e5f118e35019c46b06a4a" category="paragraph">如果偵測到違反 SLA 的情況，請在 NetApp Keystone 支援下開啟優先順序 3 （ P3 ）支援服務單。</block>
-  <block id="5ece80a8e6fc51ca90ea8b795dbe7f83" category="list-text">針對以 NetApp Keystone 支援開啟的 P3 通知單，請在 Excel 工作表中提供詳細資料，如下所示。</block>
   <block id="cac189ace7fac11fbcff63b35adf8770" category="list-text">服務信用申請應在 NetApp Keystone 支援驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。</block>
   <block id="3a36d2372ffa5421518253f5c68f7c51" category="paragraph">如果偵測到違反 SLA 的情況，請在 NetApp Keystone 支援下開啟優先順序 3 （ P3 ）支援服務單，並依照 Excel 工作表中的要求提供詳細資料，如下所示：</block>
   <block id="cb74be13d3a600957d1ee583265f537d" category="section-title">檢視每日累積的突發資料使用量</block>
@@ -1643,8 +1632,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="5f351af05581a0eadaf1177970b72a10" category="section-title">績效服務水準</block>
   <block id="e1a2df339e5e1d4b2b6d447c58823500" category="list-text">*總承諾容量*：Keystone 訂單的效能服務等級的承諾容量。</block>
   <block id="651923524521408d98ff12d09f60af11" category="list-text">*容量費用*：該月受影響性能服務等級的費用。</block>
-  <block id="b4b730f8748f9304cf03a7bd9ca06fbf" category="inline-link-macro">Keystone 的績效服務水平</block>
-  <block id="256f997b6fa99f6bde704d4194be3d6c" category="paragraph">要了解有關性能服務等級的延遲要求的更多信息，請參閱<block ref="d8f18ae99fd2b456a3470321b1aded8e" category="inline-link-macro-rx"></block> 。</block>
   <block id="edab02bbfaf3788182e3fa77788a9e44" category="list-text">承諾容量 + 性能服務等級的分配突發容量，或</block>
   <block id="1ef86c84141cbf98bc2a59eeffa9afd3" category="paragraph">若要深入瞭解、請 <block ref="b7d94ab5747cf2f7821847d435faf714" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="33a7d9c43d0ae3063679287913d61f25" category="summary">查看或取消 Keystone 訂閱服務請求。</block>
@@ -2392,7 +2379,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
   <block id="0c359189f8e07afc4bf0a432b108a2f7" category="list-text">客戶需提供一台運行下列作業系統之一的 Linux 伺服器：Debian 12、Red Hat Enterprise Linux 8.6 或更高版本的 8.x 版本、Red Hat Enterprise Linux 9.0 或更高版本，或 CentOS 7（僅限現有環境）。Keystone軟體使用以下方式安裝：<block ref="27b0f8226ae1a7f1b973155b13221df6" prefix=" " category="inline-code"></block> 或者<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> 軟體包取決於 Linux 發行版。</block>
   <block id="188a74af3438876c97ac7877f4af6cc9" category="list-text">客戶提供運行 Debian 12、Ubuntu 20.04 LTS、Red Hat Enterprise Linux (RHEL) 8.x、Red Hat Enterprise Linux 9.0、Amazon Linux 2023 或更高版本的 Linux 伺服器。</block>
-  <block id="079d46d4e807d9ca797d92cd97e9c5ea" category="list-text">服務信用額度可用於未來的發票。服務積分不適用於已過期的Keystone訂閱。欲了解更多信息，請參閱 <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>。</block>
   <block id="75269ad6e7abe01d12768761ab748b48" category="paragraph"><block ref="75269ad6e7abe01d12768761ab748b48" category="inline-link-rx"></block></block>
   <block id="8e3e0d66dd46c331ec4b3a698a38a9e7" category="list-text">您可以透過控制台或向您的Keystone Success Manager (KSM) 要求變更已承諾的容量。有關申請更改的信息，請參閱 <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>。</block>
   <block id="17766f6125f71fd7cf26ceef70d4e504" category="list-text">下載檔案後，您可以將其附加到Keystone ServiceNow 支援票證。有關提高票數的信息，請參閱 <block ref="fa4c1fe482109028db7ac27dab34833d" category="inline-link-macro-rx"></block>。</block>
@@ -2610,4 +2596,14 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="3a0ac91f607c4908d1e3d47d382884f8" category="list-text">*關聯訂閱*：如果您有任何與主訂閱關聯的輔助訂閱、此欄會列出主訂閱的關聯訂閱號碼。</block>
   <block id="b3f613e3d8f464b4f2aaf03e58cd7343" category="list-text">*關聯訂閱*：如果您有任何與主訂閱關聯的輔助訂閱、此欄會列出主訂閱的關聯訂閱號碼。</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026 年 2 月 16 日</block>
+  <block id="5232623a9d0949665269220e42d1050b" category="list-text">請在 Excel 表格中提供如下所示的詳細資訊，以便向 NetApp Keystone 支援部門開立 P3 工單。</block>
+  <block id="13505dac4434596c4a796389e650eb08" category="list-text">服務抵扣額可用於抵扣未來的帳單。服務抵扣額不適用於已過期的 Keystone 訂閱。如需深入瞭解，請參閱<block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>。</block>
+  <block id="1f5595c5befe745db8dadf46b35fce52" category="list-text">*第 90 百分位延遲* 是針對 Keystone 訂單中所有磁碟區的每個磁碟區、每個效能服務等級執行個體進行測量的。延遲每五分鐘採樣一次，並以 24 小時內計算出的第 90 百分位值作為每日指標，同時考慮以下幾點：</block>
+  <block id="40f098b2e9bcd6666815272fd1d0b84e" category="list-text">在 24 小時內，至少應有十個有效指標。如果未滿足此條件，則這些指標將被捨棄。</block>
+  <block id="0e20d6162625fb8fb8b7b598f96e52da" category="cell">&lt;=1 毫秒</block>
+  <block id="692ed37295bb7f348009da0eb9d9f9ba" category="cell">&lt;=4ms</block>
+  <block id="6efe08597c08ab2309936c3460daafb5" category="cell">&gt;=4 毫秒</block>
+  <block id="da4bea38cc1244c367fa4751943a1de3" category="paragraph">若要深入瞭解效能服務層級的延遲需求，請參閱 <block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block>。</block>
+  <block id="b4508efb1fe09000c916385cb19795aa" category="cell">*受影響的日曆日*</block>
+  <block id="2f8ed0b357b613711aa9e5d215bc6566" category="paragraph">根據計算，服務積分將為 $12。</block>
 </blocks>

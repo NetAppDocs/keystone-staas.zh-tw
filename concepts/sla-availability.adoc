@@ -139,7 +139,7 @@ NOTE: SLA 和保證均以提名方式提供。
 .. 任何其他適用文件
 
 
-* 針對以 NetApp Keystone 支援開啟的 P3 通知單，請在 Excel 工作表中提供詳細資料，如下所示。
+* 請在 Excel 表格中提供如下所示的詳細資訊，以便向 NetApp Keystone 支援部門開立 P3 工單。
 +
 image:sla-breach.png["Excel 工作表範本"]
 
@@ -148,7 +148,7 @@ image:sla-breach.png["Excel 工作表範本"]
 [NOTE]
 ====
 * 服務信用申請應在 NetApp Keystone 支援驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。
-* 服務信用額度可用於未來的發票。服務積分不適用於已過期的Keystone訂閱。欲了解更多信息，請參閱 link:../concepts/support-services.html["NetApp Keystone 支援"]。
+* 服務抵扣額可用於抵扣未來的帳單。服務抵扣額不適用於已過期的 Keystone 訂閱。如需深入瞭解，請參閱link:../concepts/support-services.html["NetApp Keystone 支援"]。
 
 
 ====
