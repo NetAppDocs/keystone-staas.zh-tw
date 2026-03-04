@@ -39,6 +39,9 @@ summary: 在安裝 Keystone Collector 之前、請使用所需的軟體準備 Li
 * Python 3（3.9.14 至 3.11.8）
 
 
+
+NOTE: Keystone Collector 僅支援以上列出的第三方軟體包。安裝其他軟體不受支援，並且可能會影響採集器效能、資料收集和計費準確性。
+
 .Keystone Collector 伺服器 VM ：
 * 核心：2個CPU
 * RAM：4 GB RAM

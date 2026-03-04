@@ -1,0 +1,29 @@
+= 叢集中的磁碟區標籤中的新欄
+:allow-uri-read: 
+
+
+NetApp Console中Keystone儀表板的新增強功能：
+
+
+
+=== 叢集中的磁碟區標籤中的新欄
+
+在「資產」的「叢集中的磁碟區」標籤中新增了三個欄位：*Hot data*、*Cold tier (%)*和*Hot tier (%)*。要了解更多信息，請參閱 link:./integrations/assets-tab.html["查看與 Keystone 訂閱相關的資產"] 和 link:./integrations/assets.html["查看 Keystone 訂閱中的資產"]。
+
+
+
+=== 消費趨勢中的已開立發票、未開立發票和暫定突發使用量
+
+*用量趨勢* 標籤中的累積突發計費圖表現在顯示已開立發票、未開立發票和暫定突發用量。如需深入瞭解，請參閱 link:./integrations/consumption-tab.html#view-accrued-burst["查看累計突發事件"]。
+
+
+
+=== 監控檢視的增強功能
+
+*監控* 視圖包含以下更新：
+
+* *Alerts 標籤*：*Alert* 欄已重新命名為 *Alert type & condition*。現在您也可以使用 *Status* 欄旁的省略號圖示來編輯警報、新增備註或查看警報詳細資料。
+* *Alert monitors tab*：*Condition* 列已重新命名為 *Monitor type & condition*。
+
+
+如需深入瞭解，請參閱 link:./integrations/monitoring-alerts.html["查看並管理Keystone訂閱的提醒"] 和 link:./integrations/monitoring-alert-monitors.html["查看並建立Keystone訂閱的警報監視器"]。

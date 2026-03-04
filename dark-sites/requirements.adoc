@@ -77,6 +77,9 @@ summary: 在沒有網際網路存取的環境中安裝 Keystone Collector 之前
 
 
 
+NOTE: Keystone Collector 僅支援以上列出的第三方軟體包。安裝其他軟體不受支援，並且可能會影響採集器效能、資料收集和計費準確性。
+
+
 
 == 網路需求
 
