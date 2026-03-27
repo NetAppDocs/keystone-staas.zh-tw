@@ -696,7 +696,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="0e3a3dc0c3eeb16df240b7eafc4a840c" category="paragraph">如果將磁碟區複製到 ONTAP 支援區中、並將其用於備份及還原資料、您可以繼續使用複本、而無需支付任何額外費用。然而、貴企業長期用於任何其他用途的複製磁碟區則需支付費用。</block>
   <block id="308838aa7669887098042a1899ce59bc" category="list-text">只要實體磁碟區的大小低於父磁碟區的 10% 、就不需要充電（與父磁碟區中使用的實體容量相比、複製磁碟區中使用的實體容量）。</block>
   <block id="5e46e614581cd458f9521294062d3783" category="list-text">一旦複製磁碟區超過父磁碟區實體大小的 10% 、複製就會以標準磁碟區（邏輯使用容量）計費。</block>
-  <block id="f4c8dae91522d3ec93e26aff56248527" category="list-text">從*開始日期*和*結束日期*欄位的行事曆圖示中選取時間範圍。選取查詢的日期範圍。日期範圍可以是月份的開始日期、或是訂閱開始日期到目前日期或訂閱結束日期。您無法選擇未來日期。</block>
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">選取查詢的日期範圍。日期範圍可以是月份的開始日期、或是訂閱開始日期到目前日期或訂閱結束日期。您無法選擇未來日期。</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">*目前爆發*：在定義的突發量限制內或以上耗用容量的指標。在訂閱的突發量上限內的任何使用量、例如、超過承諾容量 20% 的使用量、都在突發量上限內。進一步的使用量會被視為超出連拍限制的使用量。此欄位顯示特定色彩：</block>
   <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">部分9.8或更新版本ONTAP</block>
@@ -2627,4 +2626,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="70d995c2419f7d9aa988641d4312954f" category="list-text">*View*：開啟與選擇警報 ID 相同的詳細檢視。</block>
   <block id="e0ceac7aa49cf625120dd2a395d6b528" category="paragraph">您可以使用*隱藏/顯示欄*來新增或移除表格中顯示的欄。預設情況下，表格會顯示您先前儲存的欄偏好設定。新增的欄，例如*部門*或*總佔用空間*欄，預設為隱藏，需要手動選擇才能顯示在表格中。您可以選擇或取消選擇任何欄，您的偏好設定將被儲存以供日後使用。下載 CSV 報表時，無論您的顯示偏好設定為何，所有可用的欄都會包含在匯出檔案中。</block>
   <block id="8b06cde2817c964f7431fdcb3ffcf3f2" category="section-title">2026 年 3 月 2 日</block>
+  <block id="c4a7223f29b332fc54d3573ee04a51a1" category="list-text">從 *From Date* 和 *To Date* 欄位中的日曆圖示選擇時間範圍。預設情況下，日期範圍為從今天起的過去 30 天。您可以變更此範圍，但不能選擇未來的日期。</block>
+  <block id="9b6f9894a20aba8f70839ec910a9bee6" category="admonition">如果選擇的日期範圍少於 30 天，圖表將只顯示所選日期範圍內每天的一個資料收集點。例如，4 天的範圍將顯示 4 個資料收集點，而不是 30 個。對於任何選定的範圍，圖表底部僅顯示日期。只有當您使用下文所述的放大功能放大圖表時，時間戳才會顯示。</block>
 </blocks>
