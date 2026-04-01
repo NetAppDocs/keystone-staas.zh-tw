@@ -1,0 +1,29 @@
+= 歷史使用量圖表上高於突發容量
+:allow-uri-read: 
+
+
+NetApp Console中Keystone儀表板的新增強功能：
+
+
+
+=== 歷史使用量圖表上高於突發容量
+
+「消耗趨勢」標籤中的歷史消耗圖表現在會突顯超出突發限制的使用量。如需深入瞭解，請參閱 link:./integrations/consumption-tab.html["查看 Keystone 訂閱的消費趨勢"]。
+
+
+
+=== 容量使用預測
+
+您可以使用 *Consumption trend* 標籤中 *Historical consumption* 視圖裡的 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的容量使用量。若要深入瞭解，請參閱 link:./integrations/consumption-tab.html#view-forecast-data["查看預測資料"]。
+
+
+
+=== 訂閱匯出中的追蹤 ID
+
+現在，從 *Subscriptions* 頁面下載的訂閱報告在 Excel 和 CSV 格式的效能服務等級資料中包含了 *Tracking ID*。
+
+
+
+=== 訂閱頁面欄可見性更新
+
+在「訂閱」頁面上、「Keystone 版本」欄現在預設為隱藏、而「連結的訂閱」欄僅在有連結的訂閱可用時才會顯示。

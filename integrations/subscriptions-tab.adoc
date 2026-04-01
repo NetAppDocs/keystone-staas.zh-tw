@@ -37,8 +37,8 @@ image:bxp-subscription-list-4.png["查看訂閱標籤詳情"]
 ** *訂閱編號*：由 NetApp 指派的 Keystone 訂閱編號。帶有 image:metrocluster-icon.png["MetroCluster 訂閱符號"] 圖示的訂閱為 MetroCluster 訂閱。若要深入瞭解 MetroCluster 訂閱、請參閱 link:../integrations/adp-tab.html["查看您的 Keystone MetroCluster 訂閱的使用與健康狀況"]。
 ** *追蹤ID*：訂閱啟動時指派的追蹤ID。這是每個訂閱和網站的唯一ID、用於追蹤訂閱。
 ** *客戶名稱*：與 Keystone 訂閱相關的客戶的名稱。
-** *關聯訂閱*：如果您有任何與主訂閱關聯的輔助訂閱、此欄會列出主訂閱的關聯訂閱號碼。
-** * Keystone版本*：用於訂閱的Keystone服務的版本。不同訂閱版本的效能服務等級的費率方案規則可能有所不同。要了解有關版本 v1 的更多信息，請參閱 https://docs.netapp.com/us-en/keystone/index.html["Keystone 訂閱服務 | 版本 1 文檔"^]。
+** *連結的訂閱*：如果您有任何連結至主要訂閱的次要訂閱，此欄會列出主要訂閱的連結訂閱編號。此欄預設為隱藏，僅在有連結的訂閱時才會顯示。
+** *Keystone 版本*：訂閱所使用的 Keystone 服務版本。不同訂閱版本的效能服務等級費率方案規則可能有所不同。要了解有關 v1 版本的更多資訊，請參閱 https://docs.netapp.com/us-en/keystone/index.html["Keystone 訂閱服務 | 版本 1 文檔"^]。此欄預設為隱藏，可以使用欄選擇器 image:column-selector.png["列選擇器圖示"] 圖示啟用。
 ** *使用類型*：您可能訂閱了多個 Keystone 版本。不同訂閱版本的效能服務等級費率方案規則可能有所不同。透過查看此欄中的值、您可以了解使用類型是按已配置、實體還是邏輯使用量計費。若要深入瞭解版本 1 、請參閱 https://docs.netapp.com/us-en/keystone/index.html["Keystone 訂閱服務 | 版本 1 文檔"^]。
 ** *計費週期*：訂閱的發票週期。
 ** *效能服務等級*：與訂閱相關的費率方案數量，每個費率方案對應特定的效能服務等級和承諾容量。

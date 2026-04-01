@@ -2079,13 +2079,11 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="c1602534a88a762a1ce3972cdede18e6" category="list-text">將此文件透過電子郵件發送至 ng-keystone-secure-site-upload@netapp.com（用於安全的非 USPS 網站）或 ng-keystone-secure-site-usps-upload@netapp.com（用於安全的 USPS 網站）。</block>
   <block id="f554b3f79210a232f43aa1148b762978" category="list-text">收集文件並將其發送至 ng-keystone-secure-site-upload@netapp.com（用於安全的非 USPS 網站）或發送至 ng-keystone-secure-site-usps-upload@netapp.com（用於安全的 USPS 網站）。</block>
   <block id="2dfe1e4bd705394ed47b37168da7e39d" category="paragraph"><block ref="2dfe1e4bd705394ed47b37168da7e39d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5c5e806c3574f28d7ccf6a897c034d18" category="paragraph"><block ref="5c5e806c3574f28d7ccf6a897c034d18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1b137f241f929a351e941ba96f7347a8" category="admonition">如果效能服務等級有多個實例，您可以按實例進行過濾，以分別查看每個實例的歷史資料。</block>
   <block id="c790cd64cc9ce087b29b63d208671f07" category="admonition">如果效能服務等級有多個實例，您可以在任一視圖中展開*按實例檢視*以分別查看每個實例的目前消耗詳細資料。例如，如果您在訂閱中有兩個極限效能服務等級的實例，則每個實例將分別顯示其自己的已提交、已消耗和可用容量。</block>
   <block id="1d302dcc8fc5540b6e87e54f3d0753c8" category="admonition">如果效能服務等級有多個實例，您可以選擇「實例」標籤來查看每個實例的目前消耗詳情。例如，如果您在訂閱中有兩個極限效能服務等級的實例，則每個實例將分別顯示其自己的已提交、已消耗和可用容量。要了解有關性能服務級別的更多信息，請參閱<block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block>。</block>
   <block id="f888b3b7cb5daf8fc505a9054b74b03d" category="list-text">*即將到期*：6 個月內到期的訂閱數量。按一下「*檢視*」可在「*訂閱*」標籤中查看這些訂閱。</block>
   <block id="e7a862d1277ff52d64b2b8419fe26d69" category="list-text">*容量使用情況*：超出突發容量、使用突發容量和未充分利用的訂閱的容量消耗狀態。每個類別都包含一個「檢視」按鈕，用於導覽至套用了相關篩選器的「訂閱」標籤。</block>
-  <block id="12e1b3132ab24ad467a7db5c6d50da11" category="list-text">* Keystone版本*：用於訂閱的Keystone服務的版本。不同訂閱版本的效能服務等級的費率方案規則可能有所不同。要了解有關版本 v1 的更多信息，請參閱<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block>。</block>
   <block id="2011f3283ff705ca06648130cb758700" category="paragraph"><block ref="2011f3283ff705ca06648130cb758700" category="inline-image-macro-rx" type="image"></block></block>
   <block id="afb3d054878af254ad9d657e9c39d6be" category="paragraph">對於選定的Keystone STaaS 訂閱，您可以查看磁碟區的總數、受保護磁碟區的數量、反勒索軟體保護狀態以及所有這些磁碟區中的總提交容量、已消耗容量和可用容量。如果您按一下受保護磁碟區的數量，它將帶您進入「磁碟區詳細資料」標籤，您可以在其中根據您的選擇查看顯示受保護磁碟區的篩選清單。</block>
   <block id="c7409eaa8633fe96cf75ec03a907af58" category="paragraph"><block ref="c7409eaa8633fe96cf75ec03a907af58" category="inline-image-macro-rx" type="image"></block></block>
@@ -2404,7 +2402,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="effa0f06c02c1da56e0eada86a5982ec" category="list-text">「檢視」下拉式選單選項取決於您的Keystone訂閱平台。ONTAP支援叢集中的磁碟區和叢集中的節點。對於StorageGRID，*檢視*下拉選單不可用，*網格中的節點*表格會自動顯示。如果您的訂閱包含這兩個平台，則所有三種選項均可使用。</block>
   <block id="a71fbcfaa67815b8c0edea5059cb96fb" category="admonition">「資產」頁面會根據您的Keystone訂閱關聯的平台顯示標籤。對於ONTAP，同時提供「叢集中的節點」和「叢集中的磁碟區」標籤。對於StorageGRID，無需選擇選項卡即可直接顯示「網格中的節點」表。如果訂閱包含這兩個平台，則所有三個標籤頁都可用。</block>
   <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">儘管實際使用量在允許的突發流量限制之內，Digital Advisor控制面板中訂閱的顯示狀態錯誤地顯示為「超出突發流量限制」。</block>
-  <block id="81899b5a6230dd4cf7e0bff4dbc71dfb" category="paragraph">2025年12月08日</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
   <block id="ee53a2d144b153a8ad44855abe0429a8" category="list-text">Python 3（3.9.14 至 3.11.8）</block>
   <block id="40dc71902dbb22353822b7c6f15c3256" category="doc">了解Keystone 的計費時間表</block>
@@ -2581,7 +2578,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="2cf57deab11a97384e65ae3b18f8e059" category="list-text"><block ref="2cf57deab11a97384e65ae3b18f8e059" category="inline-link-macro-rx"></block></block>
   <block id="102319efa425f0a1168cb455080902ee" category="admonition">如果您訂閱了進階資料保護（ADP）或 Data Infrastructure Insights（DII）等附加服務、這些服務的目前資源消耗量將與您的基本效能服務等級一起顯示在圖形和表格檢視中。若要深入瞭解附加服務、請參閱 <block ref="a9f54665bc3ae1390a16fe76b63295f2" category="inline-link-macro-rx"></block>。</block>
   <block id="dd22742edaecc726c34a5b11cbaa62a9" category="list-text">*監控訂閱詳細資料*：檢視有關 Keystone 訂閱的詳細資訊，包括效能服務層級（基礎服務和附加服務，例如進階資料保護和 Data Infrastructure Insights）、容量使用量、資產和警示。</block>
-  <block id="3a0ac91f607c4908d1e3d47d382884f8" category="list-text">*關聯訂閱*：如果您有任何與主訂閱關聯的輔助訂閱、此欄會列出主訂閱的關聯訂閱號碼。</block>
   <block id="b3f613e3d8f464b4f2aaf03e58cd7343" category="list-text">*關聯訂閱*：如果您有任何與主訂閱關聯的輔助訂閱、此欄會列出主訂閱的關聯訂閱號碼。</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026 年 2 月 16 日</block>
   <block id="5232623a9d0949665269220e42d1050b" category="list-text">請在 Excel 表格中提供如下所示的詳細資訊，以便向 NetApp Keystone 支援部門開立 P3 工單。</block>
@@ -2607,7 +2603,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="9fc675b55df5c666e277ff0ddb9918bc" category="paragraph">您可以查看叢集中磁碟區的詳細資訊，包括磁碟區名稱、節點序號、叢集名稱、主機名稱和效能服務等級。您還可以監控已配置容量、邏輯和實體使用率、冷資料和熱資料。</block>
   <block id="951a19f47f142d3bea8b273df96be4b3" category="admonition">*Cold tier %* 和 *Hot tier %* 欄位分別顯示各層資料百分比，計算方法分別為（冷資料 / 總佔用空間）× 100 和（熱資料 / 總佔用空間）× 100。</block>
   <block id="a7a1db0a49d5a7e9bf844061304b61fc" category="paragraph">您可以查看 Keystone 訂閱中所有叢集磁碟區的詳細資訊，包括磁碟區名稱、訂閱號碼、節點序號、符合 QoS 原則、叢集名稱、主機名稱和效能服務層級。您可以監控已配置容量、邏輯和實體使用率、冷資料和熱資料。您還可以獲得以下概覽：</block>
-  <block id="ac46686450b6c96a64532dec01703b45" category="paragraph">折線圖顯示歷史使用量資料，使用者可以分析所選日期範圍內的使用趨勢。圖表顯示已使用容量（總儲存容量，包括資料和快照資料）、資料（使用者資料使用的儲存容量）和快照（快照資料使用的儲存容量）等指標，以及已承諾容量和突發容量。根據查詢的日期範圍，使用情況圖表最多顯示 30 個資料收集點。您可以將滑鼠游標停留在圖表上，查看每個資料收集點的使用情況細分。</block>
   <block id="34968986368de263575ec0925e1060e6" category="admonition">您選擇的日期範圍決定了圖表底部顯示的詳細程度。對於 30 天或更短的時間段，每個資料點都會顯示日期和時間。對於超過 30 天的時間段，則僅顯示日期。</block>
   <block id="570959fa3089c0814520564f59d8cd93" category="paragraph">在 Console 中，除了已開立發票的突發流量使用量外，您還可以查看未開立發票的突發流量使用量（已累積但尚未計費）和暫定突發流量使用量（在目前計費週期內累積但尚未開票）。</block>
   <block id="89558667b836c228a8a40c0b9646c294" category="inline-image-macro">螢幕截圖顯示 Console 中累積的突發流量使用情況</block>
@@ -2628,4 +2623,32 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="8b06cde2817c964f7431fdcb3ffcf3f2" category="section-title">2026 年 3 月 2 日</block>
   <block id="c4a7223f29b332fc54d3573ee04a51a1" category="list-text">從 *From Date* 和 *To Date* 欄位中的日曆圖示選擇時間範圍。預設情況下，日期範圍為從今天起的過去 30 天。您可以變更此範圍，但不能選擇未來的日期。</block>
   <block id="9b6f9894a20aba8f70839ec910a9bee6" category="admonition">如果選擇的日期範圍少於 30 天，圖表將只顯示所選日期範圍內每天的一個資料收集點。例如，4 天的範圍將顯示 4 個資料收集點，而不是 30 個。對於任何選定的範圍，圖表底部僅顯示日期。只有當您使用下文所述的放大功能放大圖表時，時間戳才會顯示。</block>
+  <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">歷史使用量圖表上高於突發容量</block>
+  <block id="ccb30c6d28628d4a2488596de7e2891b" category="paragraph">「消耗趨勢」標籤中的歷史消耗圖表現在會突顯超出突發限制的使用量。如需深入瞭解，請參閱 <block ref="06dd3a9283773166a29e1b7ff4424218" category="inline-link-macro-rx"></block>。</block>
+  <block id="b3dc9240b9d14158cfa1e8c9f006c4cc" category="section-title">容量使用預測</block>
+  <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">查看預測資料</block>
+  <block id="0794ebef867392ddd8fde9d8acc33d95" category="paragraph">您可以使用 *Consumption trend* 標籤中 *Historical consumption* 視圖裡的 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的容量使用量。若要深入瞭解，請參閱 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>。</block>
+  <block id="3cad4604b833d612cf60efacf78eba67" category="section-title">訂閱匯出中的追蹤 ID</block>
+  <block id="7c8889a3dbf6564af66cd90c8d50ab99" category="paragraph">現在，從 *Subscriptions* 頁面下載的訂閱報告在 Excel 和 CSV 格式的效能服務等級資料中包含了 *Tracking ID*。</block>
+  <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">訂閱頁面欄可見性更新</block>
+  <block id="ff8ca3704c3bbdb74c1650666c3657bb" category="paragraph">在「訂閱」頁面上、「Keystone 版本」欄現在預設為隱藏、而「連結的訂閱」欄僅在有連結的訂閱可用時才會顯示。</block>
+  <block id="ac173dc6933fe5e3716128b55134e6e5" category="paragraph"><block ref="ac173dc6933fe5e3716128b55134e6e5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d8824c643cf0498d0540a9438bfa1cc3" category="paragraph">此折線圖顯示歷史消費資料，並允許使用者分析所選日期範圍內的趨勢。此圖顯示以下指標：</block>
+  <block id="5974a44ea264a1c64eb7beba62c96e61" category="list-text">*已使用容量*：使用中的總儲存容量，包括資料容量和快照容量。</block>
+  <block id="0b77f03398d1381135ea08e03b9e1fc3" category="list-text">*資料*：使用者資料所使用的儲存容量。</block>
+  <block id="0c0cea4e26dfb6596946bcfd168b5aa0" category="list-text">*Snapshot*：Snapshot 資料所使用的儲存容量。</block>
+  <block id="162401d415dccdfe75c1590fcb185d9d" category="list-text">*已承諾*：合約約定的承諾容量。</block>
+  <block id="d1d79a1d3945e37b66a6707cd87b9ed0" category="list-text">*突發容量*：您訂閱允許的最大突發限制。</block>
+  <block id="39d85a9f5c080a0273cd8ef8892c32b8" category="list-text">*超出突發容量*：儲存消耗超過突發限制。此指標僅在超出突發限制時顯示。</block>
+  <block id="c09e069ede7bdb06ea3b9e7615be21b1" category="paragraph">根據查詢的日期範圍，使用情況圖表最多顯示 30 個資料收集點。您可以將滑鼠游標停留在圖表上，查看每個資料收集點的使用情況細分。</block>
+  <block id="dee9a22d9bea2517a6ba3ada8d2b1d61" category="paragraph">您可以透過主控台「消耗趨勢」標籤中「歷史消耗」檢視下的「預測」開關，查看從目前日期起未來 120 天的預期容量使用情況。此開關預設為啟用。</block>
+  <block id="d895d782266d449ca70ee01f77ce836f" category="paragraph">預設情況下，圖表會在同一張圖上顯示過去 30 天的歷史消費量以及從當前日期開始的 120 天預測消費量。總共最多繪製 30 個資料點（20 個歷史資料和 10 個預測資料），並用一條垂直線分隔這兩個部分。</block>
+  <block id="98e9fc7499f5ec07bce7ba0ae4c459ea" category="inline-image-macro">顯示預測資料的螢幕擷取畫面</block>
+  <block id="aec1b050350c808c951dd08448b9c9ad" category="paragraph"><block ref="aec1b050350c808c951dd08448b9c9ad" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="41ba25ff2c151db2eb81aa97afa993b7" category="paragraph">如果您選擇的日期範圍不包含目前日期，則預測功能將自動停用。若要重新啟用預測功能，系統會跳出確認對話框，告知您預測資料僅在所選時間範圍包含目前日期時可用。確認操作會將視圖重設為預設範圍，即過去 30 天的歷史資料加上未來 120 天的預測資料。</block>
+  <block id="449cacbccdea6e91ca0e477aed1e6767" category="paragraph">如果預計消耗量將超過突發容量，圖表上將出現警示指標，建議進行容量升級。</block>
+  <block id="096ba8f18f440795ebc161dce2259d12" category="list-text">*連結的訂閱*：如果您有任何連結至主要訂閱的次要訂閱，此欄會列出主要訂閱的連結訂閱編號。此欄預設為隱藏，僅在有連結的訂閱時才會顯示。</block>
+  <block id="ed7ea238eb12e525c819f7503ae42929" category="list-text">*Keystone 版本*：訂閱所使用的 Keystone 服務版本。不同訂閱版本的效能服務等級費率方案規則可能有所不同。要了解有關 v1 版本的更多資訊，請參閱<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block>。此欄預設為隱藏，可以使用欄選擇器 <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> 圖示啟用。</block>
+  <block id="a317125c258dec2606079ff63caaadb2" category="paragraph">2026-03-30</block>
+  <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">2026 年 3 月 30 日</block>
 </blocks>
