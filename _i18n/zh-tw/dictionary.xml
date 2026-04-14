@@ -48,9 +48,7 @@
   <block id="5233633b9faaa681d96ef5c43e30bea2" category="section-title">邏輯容量</block>
   <block id="4ac938291a74f21a35352afb886d2d88" category="section-title">承諾容量</block>
   <block id="326cde132ee3d2c6dbda5e81887d37fd" category="section-title">已認可容量的變更</block>
-  <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">在訂閱期間、您可以變更已提交的容量。不過、有些先決條件是：</block>
   <block id="bd3fd623256db562bebda3e697d43452" category="inline-link-macro">容量減量</block>
-  <block id="38ee5c58ab48cb8a1b633c2aea7a1e45" category="list-text">可根據特定條件減少已認可的容量。如需相關資訊、請參閱 <block ref="bce311488cda7b3fc83e86e7b3939fd8" category="inline-link-macro-rx"></block>。</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">已用容量</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">突發容量</block>
   <block id="b6e76ea727138e1a2c7199dd3f0874db" category="section-title">計費容量</block>
@@ -99,13 +97,7 @@
   <block id="cee631121c2ec9232f3a2f028ad5c89b" category="paragraph">500</block>
   <block id="c4ca4238a0b923820dcc509a6f75849b" category="paragraph">1.</block>
   <block id="00fbf03a10283116fbaa1df317c78879" category="section-title">容量調整</block>
-  <block id="b0ba5edc3c109e946a18ba8c3e71362b" category="list-text">承諾的容量可在合約期間內變更、僅在特定條件下變更、如以下章節_Capacity re少_所述。</block>
-  <block id="0b5abf5c3cccffbee4f48538a8f46c07" category="list-text">在服務期限的最後90天內、任何變更要求都必須將服務續約至少一年。</block>
   <block id="6e563e9d321b309cdef7d3f5a45b0d65" category="section-title">每季重新分配支出</block>
-  <block id="075e59191efd36ae9c9c7094fbdab596" category="paragraph">訂購層級的要求與條件：</block>
-  <block id="525638a12e9c8aa67d400bc4cae26beb" category="list-text">僅適用於ARREAR模式的每月帳單。</block>
-  <block id="5e4b323295f9f67894cdf2fd31d63cd6" category="list-text">最多25%的現有內部部署服務型每月付款可用於重新分配至雲端服務。</block>
-  <block id="6a25837b8815930341a1bb5594936448" category="list-text">重新分配要求僅在重新分配前一個啟動日期起90天後生效。</block>
   <block id="c11d3902def90b2c39f1b05142fc762e" category="summary">Keystone中的運作模式</block>
   <block id="63e70807fd57df527662a30262f5b0cc" category="section-title">整個服務生命週期的角色與責任</block>
   <block id="463c3a95787ac56f36c227feeb7bd389" category="list-text">* 客戶營運模式 * ：下表摘要說明整體服務生命週期模式、以及客戶營運環境中與其相關的角色與責任。</block>
@@ -161,9 +153,6 @@
   <block id="dda89d5ef0cb22d8ac7b37078e4ba438" category="list-text">*持久性*：存取資料時不損失保真度的百分比、不包括客戶造成的刪除或毀損。</block>
   <block id="9ffbb75c521c240c36fc4eedce45c367" category="list-text">*延遲*：服務從用戶端接收到I/O要求的時間、以服務標界（儲存控制器I/O連接埠）為測量單位。</block>
   <block id="542e65f5a286fa6467f7b1c33bc0dab8" category="paragraph">如需部署的詳細資訊、請參閱 <block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block> 和 <block ref="141d19b4a500cb7c8f293062f31c9e48" category="inline-link-macro-rx"></block>。</block>
-  <block id="ba66768dfbbcde790d00e0de40f92803" category="paragraph">容量減量（每年）適用於_年度預付款模式及內部部署。不適用於雲端服務或混合雲服務。它提供內部部署容量的資源、每次訂購的服務層級最多可減少25%。每年可進行一次此項減量、以在下一年度計費期間開始時生效。在期限內、內部部署服務的年度付款金額應在超過20萬美元的時間內隨時支付、以利利用容量減量。由於此計費模式僅支援內部部署、因此無法將內部部署的支出重新分配給雲端服務。下圖顯示年度容量減量的範例。</block>
-  <block id="63da2e64853bf4155b1b1a1e9ee74a97" category="list-text">僅適用於承諾1、2或3年期限的訂閱。</block>
-  <block id="1ad380d64aaf6780bee52adfb88395c3" category="list-text">客戶或合作夥伴應在下次計費週期前至少一週、將重新分配的要求正式提交至Keystone Success Manager（KSM）。</block>
   <block id="a7bfd854f2e9dacfba92f6c8e2081c3e" category="list-text">此服務僅適用於檔案、區塊和物件服務。</block>
   <block id="f3cab949200d7bfe230983c92bd7983f" category="list-text">由客戶操作的防火牆允許連線。</block>
   <block id="72a2e26ee3dd7a4431c7b48558a4e647" category="paragraph">您應提供電力分配單元（PDU）、連接至兩個獨立且受保護的電路、並具有足夠的C13插座。在客戶營運的產品中、在某些情況下、需要 C19 插座。在NetApp營運的產品中、NetApp或客戶可視需求提供PDU。</block>
@@ -653,7 +642,6 @@
   <block id="e35bc286817799a8ecac7de0060837be" category="list-text">在服務期限結束時、您不需要歸還任何磁碟機和非揮發性記憶體、也不需要在服務期限內歸還任何故障或發現故障的磁碟機和非揮發性記憶體。</block>
   <block id="b178e2d86eb51156fb8d9a2bd509938c" category="list-text">雲端原生服務、例如運算、儲存設備、網路、都是由雲端供應商開立發票。</block>
   <block id="296ad65314dcbf027a7993304c7a165d" category="list-text">這些服務需視雲端儲存設備和運算特性而定。</block>
-  <block id="5f961dc6311c34fa23cf40360afba9db" category="list-text">承諾容量不得在訂閱到期前 90 天增加、除非訂閱將續約 12 個月。</block>
   <block id="783e590ecfbaebc7caa0409a8cae6926" category="paragraph">Keystone STaaS檔案與區塊儲存標準服務包括分層功能、可識別較少使用的資料、並將其分層至Keystone STaaS-Supported NetApp Cold儲存設備。如果您想要將冷資料分層至任何受 Keystone STaaS 支援的非 NetApp 儲存設備、則可以將資料分層作為附加服務。</block>
   <block id="2809966e22bd3439cbbfaae3d51268b2" category="list-text">*可用度*：以服務已成功回應的I/O要求數百分比（除以對服務提出的I/O要求總數）計算。這是在一個月內的服務劃分時進行測量、不包括排定的服務停機時間、或客戶所提供設施、網路或其他服務的不可用性。</block>
   <block id="82ed1e96c97e812264424ac485673960" category="paragraph">如適用、現場與遠端部署與安裝活動均由美國政府執行美國公民土壤。註解：免責聲明 [ 現場活動的適當人員可用度視部署 Keystone 系統的地理位置而定。 ]</block>
@@ -703,11 +691,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="1ae3a07b6896d577a03f95172e8b37ab" category="paragraph">如需SnapLock 有關支援技術的資訊、請參閱<block ref="75641a5590d09822bddecb04bdc449c0" category="inline-link-rx"></block>。</block>
   <block id="de70c043bed2cffae85b828a6246d7e2" category="inline-image-macro">說明重新分配邏輯</block>
   <block id="2ac0f144048cf5fb3e17783ff993bfa0" category="paragraph"><block ref="2ac0f144048cf5fb3e17783ff993bfa0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7ad0cea6a0945e671f7a5229da06e38d" category="paragraph">Keystone STaaS 可讓您選擇將內部部署服務支出重新分配給 Cloud Volumes ONTAP 支出。</block>
-  <block id="5f3938a7c9ef0aead37a2a006da8f29d" category="list-text">Cloud Volumes ONTAP 和 Cloud Backup Service 的容量應透過 Keystone 購買。</block>
-  <block id="7ba0be7a00463a47d5ea7303892e6b01" category="list-text">無法從雲端服務重新分配到內部部署服務。</block>
-  <block id="83c156e8d858735c81db593f3e5a33fb" category="list-text">新的申請只會從連續的計費週期開始生效。</block>
-  <block id="5ced3418c634e1c2b7ff961f41b9cdfd" category="paragraph">此表提供一組範例值、以示範重新分配費用的運作方式。在此範例中、<block ref="1f77ba391c5954a787b54401d14e6ee7" prefix=" " category="inline-code"></block> 從每月支出重新分配到混合雲儲存服務。</block>
   <block id="dc555de27decf23adf718d54a63a9849" category="cell">* 分配前 *</block>
   <block id="eea204b95d2aed13b165e6198002ac7d" category="cell">* 容量（ TiB ） *</block>
   <block id="b9051383c20643edc88f9f50b9491e18" category="cell">* 每月指定費用 *</block>
@@ -717,7 +700,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="a3c65c2974270fd093ee8a9bf8ae7d0b" category="cell">108.</block>
   <block id="67c6a1e7ce56d3d6fa748ab6d9af3fd7" category="cell">47</block>
   <block id="162489d19966a7f95c7accf74f9c3c5c" category="cell">5 、 000</block>
-  <block id="035c7a855d56e0de01432f63faef9422" category="paragraph">如果您想要將內部部署服務的費用重新分配至雲端服務、請聯絡 Keystone Success Manager （ KSM ）。</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">已知限制指出本產品版本不支援的平台、裝置或功能、或是無法與產品正確互通的平台、裝置或功能。請仔細檢閱這些限制。</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">已知限制</block>
   <block id="747c6db0ede286805c21b0b78f4ce14f" category="paragraph">已知限制指出 Keystone STaaS 服務或元件不支援的平台、裝置或功能、或是無法正確互通的平台、請仔細檢閱這些限制。</block>
@@ -1592,8 +1574,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">查看 Keystone 訂閱的消費趨勢</block>
   <block id="60b79d3b7a1433cb62d9ea5b5a5dac01" category="paragraph">產生的每個使用記錄都會執行此程序。因此、「暴增使用量」反映出您的過度使用容量在承諾容量之外的數量和使用期限。若要深入瞭解、請 <block ref="d40818e721dbdfb8ef017a3c524d1def" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="6095900a0be4c21e582c9ce633f3eb3f" category="doc">性能服務等級的容量要求</block>
-  <block id="4a786f23e386c92e1c49cf8b214e240b" category="list-text">在訂閱期間內，允許增加容量或更換至更高效能的服務等級。但是，不允許從更高效能的服務等級遷移至更低效能的服務等級。</block>
-  <block id="13af83dfc053ffff9447cbafc3b9ac06" category="paragraph">您可以將部分費用分配給訂閱的檔案、區塊或物件儲存效能服務等級到混合雲端儲存服務。每季最多可將 25% 的年度合約價值（ ACV ）重新分配給 Cloud Volumes ONTAP 主要和 Cloud Volumes ONTAP 次要服務：</block>
   <block id="42c6fcaab380d23adc4355ae6bb2df0b" category="paragraph">為 Extreme 效能服務等級分配的容量減少了 (125-108) = 17 TiB。在重新分配支出時、分配的混合雲儲存設備不是 17 TiB 、而是可購買 5000 美元的同等容量。在此範例中，花費 5000 美元，您可以獲得 Extreme 效能服務等級的 17 TiB 本機儲存容量，以及 Cloud Volumes ONTAP 效能服務等級的 47 TiB 混合雲容量。因此、重新分配是關於支出、而非容量。</block>
   <block id="5f238d7b669564c4a06db9820b17a9c3" category="paragraph">承諾容量是購買訂閱時為特定性能服務等級承諾的容量。</block>
   <block id="a5e80c8c714cefa82d0f175e2ea8eae1" category="paragraph">承諾容量可以是您和 NetApp/合作夥伴接受的單一訂閱中各種效能服務等級的總容量。此容量會在每個Keystone訂單上註明、而且會計費、無論實際的容量使用量為何。</block>
@@ -1826,8 +1806,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="17a67557c6c448eedbaeeb25e2409ca8" category="inline-link-macro">突發容量增加選項</block>
   <block id="b8ce331afde85a2f9ccc21b17b658035" category="paragraph">您的連拍限制是在Keystone協議中決定和指定的。預設情況下，該容量設定為承諾容量的 20%。您也可以選擇將突發容量限制設定為承諾容量的 40% 或 60%。若要深入瞭解、請 <block ref="c3f852e472538152b8572347bb4a142d" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="7d38503d78c628f634f345f9649cfdd1" category="paragraph">當消耗的容量大於某一性能服務等級的承諾容量時，將記錄突發消耗並相應收費。超過突發容量的使用量會顯示為「高於突發上限」。</block>
-  <block id="b08904144697ce5104bed18cd93f91f8" category="paragraph">了解有關容量調整的更多資訊：</block>
-  <block id="dc6244a840ba98e3e2b7311362cd8e71" category="list-text">除合約期限的最後 90 天外，可以在期限內的任何時間添加容量，增量按照上一節表格中所述的性能服務等級進行。只要同意續約服務，合約期限的最後 90 天內允許增加容量或服務。無論是增加容量、內部部署或雲端的新服務、都能與現有術語共存。在啟用新服務之後、傳送給您的發票會反映出修訂後的帳單。在訂閱期間、任何時候都無法減少雲端服務的承諾容量。同時、在合約期間內、已承諾的內部部署服務容量和已承諾的支出、可根據下節_Capacity re少_中所定義的特定條件來減少。</block>
   <block id="f8738727fdc7ce9aa43eb40acba29e13" category="section-title">統一和區塊優化儲存的最低容量要求</block>
   <block id="3a4e4646e77e197efe8a5e44bfd42783" category="paragraph">您可以在下表中看到統一儲存和區塊最佳化儲存每個訂閱允許的最小容量和增量容量：</block>
   <block id="d6f750861d7ae27706ca32ed1f4c1ac8" category="paragraph">*統一化儲存設備*</block>
@@ -1838,7 +1816,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="3644a684f98ea8fe223c713b77189a77" category="cell">200</block>
   <block id="46b0c436fa4bc58d709e8c6c42bd1508" category="section-title">雲端服務的最低容量要求</block>
   <block id="bdc812c685045d622afc97886530ca22" category="paragraph">您可以在下表中看到雲端服務的最低容量需求：</block>
-  <block id="877c392489723433fcb2a31382a0b1f4" category="list-text">根據Keystone協議、每個站台都有可用的連拍容量。通常，它設定為性能服務水準承諾容量的 20% 以上。任何突發流量使用量只會在該計費期間計費。如果額外的突發需求大於您同意的容量、請聯絡支援部門。</block>
   <block id="9b415518331e0b90bff9da067ceb4ad0" category="paragraph"><block ref="9b415518331e0b90bff9da067ceb4ad0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="22791b5a0b080a8c4c8a5a70f02dd14c" category="list-text">NetApp Keystone Collector 啟動與 Keystone 雲端的連線。</block>
   <block id="856cee671304bcac55562f75750e25ca" category="list-text">Keystone Collector 直接與儲存控制器的管理連線建立 REST API 連線或透過 Active IQ Unified Manager 建立隧道來收集使用情況和效能資料。</block>
@@ -2347,7 +2324,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
   <block id="0c359189f8e07afc4bf0a432b108a2f7" category="list-text">客戶需提供一台運行下列作業系統之一的 Linux 伺服器：Debian 12、Red Hat Enterprise Linux 8.6 或更高版本的 8.x 版本、Red Hat Enterprise Linux 9.0 或更高版本，或 CentOS 7（僅限現有環境）。Keystone軟體使用以下方式安裝：<block ref="27b0f8226ae1a7f1b973155b13221df6" prefix=" " category="inline-code"></block> 或者<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> 軟體包取決於 Linux 發行版。</block>
   <block id="188a74af3438876c97ac7877f4af6cc9" category="list-text">客戶提供運行 Debian 12、Ubuntu 20.04 LTS、Red Hat Enterprise Linux (RHEL) 8.x、Red Hat Enterprise Linux 9.0、Amazon Linux 2023 或更高版本的 Linux 伺服器。</block>
-  <block id="8e3e0d66dd46c331ec4b3a698a38a9e7" category="list-text">您可以透過控制台或向您的Keystone Success Manager (KSM) 要求變更已承諾的容量。有關申請更改的信息，請參閱 <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>。</block>
   <block id="17766f6125f71fd7cf26ceef70d4e504" category="list-text">下載檔案後，您可以將其附加到Keystone ServiceNow 支援票證。有關提高票數的信息，請參閱 <block ref="fa4c1fe482109028db7ac27dab34833d" category="inline-link-macro-rx"></block>。</block>
   <block id="fd9138bbd3a6e55b24c6c044d67e4bc1" category="list-text">作業系統（選擇一項）：</block>
   <block id="39132259812eb62420e77e39bfa951b1" category="list-text">Red Hat Enterprise Linux (RHEL) 8.6 或任何更高版本的 8.x 系列</block>
@@ -2661,4 +2637,39 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="9678bc25baa5d4e1d8060e89e70f72fc" category="list-text"><block ref="9678bc25baa5d4e1d8060e89e70f72fc" category="inline-link-macro-rx"></block></block>
   <block id="843e615119fedf23ac503dbdf746f02a" category="inline-link-macro">建立 StorageGRID 技術支援案例時應該使用哪個序號</block>
   <block id="ce9d93de629e2074412aaee90a3a8db2" category="list-text"><block ref="ce9d93de629e2074412aaee90a3a8db2" category="inline-link-macro-rx"></block></block>
+  <block id="4b8841c22510f26ac13bfc6eae48b4a0" category="paragraph">及時將任何計畫中的容量變更通知 NetApp，以便進行規劃和部署。以下條件適用於所有容量調整：</block>
+  <block id="8017b00939f18fb6cff5b8b64cb10f74" category="list-text">*容量增加*：承諾容量可於訂閱期間內以指定增量增加，但續訂訂閱前 90 天內除外。經 NetApp 確認後，容量增加將在剩餘訂閱期內生效，最低付款額也將相應調整。所有新增容量和新服務（無論部署在內部部署或雲端）均與現有訂閱期限相同。雲端服務的承諾容量在訂閱期間內任何時間均不可減少。</block>
+  <block id="37248c35f63312e21a001c9749050f8b" category="list-text">*費用增加計費*：對於採用「年度預付」付款模式的訂閱用戶，NetApp 將就當前帳單週期剩餘時間內最低應付金額的任何按比例增加部分開立發票。新服務啟動後發送的發票將反映修訂後的帳單。</block>
+  <block id="4b9827f60195385d2acf4c1d324a5469" category="list-text">*突發容量*：每個站點在承諾容量之外還提供額外容量，通常每個效能服務等級最高可達 20%。有關突發容量限制和計費的詳細信息，請參閱 <block ref="85c4e06da3b978d5cb2b8ba9dc870124" category="inline-link-macro-rx"></block>。</block>
+  <block id="c8e723c6a9858f9838c220934fb8ada8" category="list-text">*效能服務級別變更*：訂閱期間內允許提升至較高的效能服務級別。不允許降低至較低的效能服務級別。</block>
+  <block id="feab99d4a13efd2a13a932d9eb1b1b1d" category="list-text">*內部部署容量縮減*：在特定條件下，可以縮減內部部署服務的承諾容量。詳情請參閱_容量縮減_。</block>
+  <block id="d393d4770a199bd09d8f09f003439305" category="paragraph">承諾容量縮減僅適用於 _Annual in Advance_ 付款模式和內部部署的 Keystone 部署。最低訂閱期限為 24 個月方可享有此資格。雲端服務和混合雲部署不適用容量縮減。</block>
+  <block id="1785031aba4381611fb7c452e73c7712" category="paragraph">以下條件適用於所有已承諾容量削減請求：</block>
+  <block id="bd0f14fff0a2017c507441b78ae4f7d2" category="list-text">*書面申請*：申請必須以書面形式提交，並且 NetApp 必須在下一個年度訂閱期（減免生效期）開始前至少 60 天收到。</block>
+  <block id="fbd93fc92e78d8de2e644cf2cdc79b21" category="list-text">*每期允許的減免額度*：</block>
+  <block id="b795c749a328b67aa4a17cbcf35bd2ec" category="list-text">對於 2 年或 3 年的訂閱期限：訂閱期限內允許減少一次。</block>
+  <block id="44b32d132775de5dbfedf8e254b1179a" category="list-text">對於 4 年或 5 年的訂閱期限：訂閱期限內允許兩次減量。</block>
+  <block id="97d2399431283be9396bdc038b0d3c73" category="list-text">*每次請求的減少上限*：單次減少量不得超過請求時承諾容量的 25%。</block>
+  <block id="fa3d4871053ec6d8d839695f2126e52b" category="list-text">*最低容量門檻*：減少容量不能導致承諾容量低於適用效能服務等級的最低承諾容量要求。</block>
+  <block id="73939351e707407e78fc3b5ec5d96b63" category="list-text">*生效日期*：經批准的減少將於下一個年度訂閱期開始時生效。</block>
+  <block id="a0da8a6eeef25732860c7a7fa773dd28" category="paragraph">要獲得減免申請的批准，在減免之後，內部部署服務型年度付款必須保持在 USD 200K 或以上。</block>
+  <block id="d8fa251f9bfc069980dc3b885cda8275" category="paragraph">下圖展示了容量縮減如何應用於 3 年 Keystone 訂閱的範例。</block>
+  <block id="1bc2a062d23469b824b852ca4bddb0d2" category="paragraph"><block ref="1bc2a062d23469b824b852ca4bddb0d2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="984cf94db150b8dcbdb8105bef8ea248" category="paragraph">在本例中，初始承諾容量為 300 TiB（年付款額 30 萬美元）。第一年，收到將容量減少至 225 TiB 的請求。NetApp 經核實，減少的容量（75 TiB）在 25% 的上限範圍內，且由此產生的付款額仍保持在 20 萬美元或以上。該請求獲得批准，並於第二年初生效。第二年，收到將容量減少至 100 TiB 的請求。NetApp 由於減少的容量超過了當前承諾容量（225 TiB）的 25%，且三年期限內允許的一次減少次數已用完，因此拒絕了該請求。第三年的容量仍為 225 TiB（年付款額 22.5 萬美元），且不允許進一步減少容量。</block>
+  <block id="f5e3994736941b1a2f0aa3d2685771a2" category="paragraph">季度支出重新分配僅適用於混合雲服務。它允許您按季度將內部部署服務支出重新分配到雲端服務支出。不允許將支出從雲端服務重新分配回內部部署服務。</block>
+  <block id="7e7edad53e01324db49fe84613b4f243" category="paragraph">以下條件適用於所有重新分配請求：</block>
+  <block id="38652801280f2ce8d81d06b234e5c6da" category="list-text">*重新分配限額*：申請時年度合約價值（ACV）最多 25% 可重新分配。</block>
+  <block id="8992bd0648c76e76cf15cd17723f3215" category="list-text">*重新分配後的最低付款*：重新分配後，每個訂閱的內部部署每月最低付款必須保持在 USD 16,667 或以上。</block>
+  <block id="4082e3d66f5fc0276d9334d8b8e4809c" category="list-text">*90 天鎖定*：新的重新分配請求必須在前一次重新分配啟動後至少 90 天才能啟動。</block>
+  <block id="b97de2001f3ba7d57040a7ef76bfc9fa" category="list-text">*期末限制*：訂閱期最後 90 天內不允許重新分配，除非正在續訂訂閱。</block>
+  <block id="ec10404af8ad05ca95dfc01ea1625b74" category="list-text">*申請截止日期*：申請必須在下一個帳單週期開始前至少 5 個工作天提交。</block>
+  <block id="b9952228f054359d655be54267fc3073" category="list-text">*生效日期*：已核准的請求將於下一個帳單週期的第一天生效。</block>
+  <block id="18f94080a305dd2e3f97cade5d0ca224" category="paragraph">下圖說明季度支出重新分配的運作方式。</block>
+  <block id="ec5cac371498d025c7a80f8462e7d9b0" category="paragraph">在本例中，內部部署支出為每月 30,000 美元。2 月份，將 5,000 美元遷移至雲端服務的請求 A 獲得批准，並於 3 月生效，觸發為期 90 天的鎖定期，直至 5 月。在鎖定期內提交的請求 B 在鎖定期結束後生效，將內部部署支出減少至 20,000 美元，並將雲端服務支出從 7 月起增加至 10,000 美元。在合約期限的最後 90 天內，不允許進行任何重新分配。</block>
+  <block id="068c2643291801b07fc0b1d5411c5f44" category="paragraph">此表提供了一組範例值，用於演示費用重新分配的運作方式。在本例中，每月支出中的 USD 5,000 被重新分配給混合雲端儲存服務。</block>
+  <block id="06edadfbc4ba35d2e9cfcdbd12cae4dc" category="paragraph">請聯絡您的 Keystone Success Manager（KSM）提交重新分配申請。</block>
+  <block id="fada2eb6c577ac59ac127d87709bdeba" category="inline-link">Keystone STaaS v3 服務說明與補充參考指南</block>
+  <block id="379bdcbc355b1c85f12e4fe26ce9ce52" category="paragraph">如需深入瞭解，請參閱<block ref="713f77483e33d0957b3e04d7bb3c25f3" category="inline-link-rx"></block>。</block>
+  <block id="091e308f3acc3715bded09fcb636bf53" category="summary">可用性 SLO 目標是在一個計費期間內，所有部署用於交付 Keystone 訂單的 NetApp ONTAP 快閃儲存陣列達到 99.999 百分比的正常運作時間。</block>
+  <block id="fb3c717f6d7580452350dcd4dcbd5ce8" category="paragraph">訂閱期間，您可以根據特定條件變更已承諾的容量。有關容量增加和減少規則的完整詳情，請參閱 <block ref="7bcdec1ed35620533b43c63b4f4340ca" category="inline-link-macro-rx"></block>。若要申請更改，請聯絡您的 Keystone Success Manager（KSM）或參閱 <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>。</block>
 </blocks>
