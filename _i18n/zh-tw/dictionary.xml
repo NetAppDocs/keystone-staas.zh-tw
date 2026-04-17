@@ -44,7 +44,6 @@
   <block id="e8483ac20b1990d2362dd45e18cfb1d2" category="section-title">部署活動</block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="section-title">支援</block>
   <block id="cedba9b370f4f8fb7584b8a96576dbce" category="paragraph">必要的現場疑難排解與支援活動、均由美國政府執行美國公民土壤。註腳：免責聲明[]</block>
-  <block id="2dd5f36775604dad2303abf8267a2c4a" category="summary">支援的儲存容量</block>
   <block id="5233633b9faaa681d96ef5c43e30bea2" category="section-title">邏輯容量</block>
   <block id="4ac938291a74f21a35352afb886d2d88" category="section-title">承諾容量</block>
   <block id="326cde132ee3d2c6dbda5e81887d37fd" category="section-title">已認可容量的變更</block>
@@ -64,9 +63,6 @@
   <block id="6961b64b96800d43e0da115e9763a226" category="paragraph">在Keystone客戶操作服務中、您的站台會安裝儲存基礎架構和監控工具。儲存基礎架構包含支援初始訂單所需的儲存硬體、並可於稍後訂購更多儲存設備。</block>
   <block id="ae031eb46bb3af9ef59c200e318f13e4" category="paragraph">除了儲存設備之外、還配置了兩種監控工具來監控儲存設備和使用量。</block>
   <block id="5ac36e6be3720d69479533a204a80ef9" category="doc">Keystone服務中使用的度量和定義</block>
-  <block id="36e9a03898f9ae86972da464b865fd7e" category="list-text">服務可用度</block>
-  <block id="f99112a4c6eaa146943fa5e2ddfd9879" category="list-text">精確資料存取的持久性</block>
-  <block id="4e8c569f63eedc90f70f80e1008f201e" category="list-text">延遲與速度</block>
   <block id="0719eeba43039e5122ee28a4a45955e4" category="section-title">指標測量</block>
   <block id="079bbc110741f438dfb37f32218c4c21" category="cell">* 服務層級 *</block>
   <block id="cdf0cc519fabc4c14999e89090d33dc1" category="cell">* 極致 *</block>
@@ -74,8 +70,6 @@
   <block id="3ecb63821538cb0fde443d82bdb28861" category="cell">* 標準 *</block>
   <block id="4cc402eecdb589b122553e660ac696c4" category="cell">* 價值 *</block>
   <block id="a87ff679a2f3e71d9181a67b7542122c" category="cell">4.</block>
-  <block id="670aaecb1a526fbed439dad3ec353a96" category="section-title">物件儲存</block>
-  <block id="58d801506333ab644845942779162cbc" category="paragraph">* 支援的傳輸協定 * ： S3</block>
   <block id="6872c2b6282a1ff41523f7b84a51d4da" category="section-title">雲端儲存設備</block>
   <block id="dfd0252d57910ac70c5c31013436bba6" category="doc">帳單排程</block>
   <block id="7f5043ec0394d759e4ce437fc8c9cd52" category="section-title">每月帳單</block>
@@ -86,7 +80,6 @@
   <block id="9446a98ad14416153cc4d45ab8b531bf" category="cell">效能</block>
   <block id="eb6d8ae6f20283755b339c0dc273988b" category="cell">標準</block>
   <block id="689202409e48743b914713f96d93947c" category="cell">價值</block>
-  <block id="c8878f880559d69deeaabcf46c7f8f0f" category="paragraph">最小容量[以TiB為單位]</block>
   <block id="8e296a067a37563370ded05f5a3bf3ec" category="cell">25</block>
   <block id="f899139df5e1059396431415e770c6dd" category="cell">100</block>
   <block id="1d9f5e05ed20ff32c476cb05ba8a11a4" category="paragraph">訂閱開始時允許的遞增容量（及多個）[以TiB為單位]</block>
@@ -147,7 +140,6 @@
   <block id="e6bdb181d03ed18f61204d6fa6f9e26d" category="sidebar">如果耗用的容量超過承諾容量、會發生什麼情況？</block>
   <block id="0e0fe605239796a7018441e65fa28979" category="sidebar">美國公民支援</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
-  <block id="6dd7fd4aac069a06bec3ae24a6b1b39b" category="paragraph">如需Keystone支援的不同容量資訊、請參閱 <block ref="85c4e06da3b978d5cb2b8ba9dc870124" category="inline-link-macro-rx"></block>。</block>
   <block id="8816d718cde960556e2d767cd7bc6a24" category="paragraph">請閱讀下列各節、瞭解您的訂閱內容受此附加服務約束、並根據NetApp Keystone 《銷售協議》條款提供。註腳：免責聲明1[此處說明的服務與產品受完整執行的Keystone協議約束、且受限且受其管轄。]</block>
   <block id="6695ab4bfa1eb6d5122189f790f27577" category="paragraph">訂購期間每月計費的最低邏輯容量：</block>
   <block id="dda89d5ef0cb22d8ac7b37078e4ba438" category="list-text">*持久性*：存取資料時不損失保真度的百分比、不包括客戶造成的刪除或毀損。</block>
@@ -173,12 +165,10 @@
   <block id="8c4aa541ee911e8d80451ef8cc304806" category="cell">儲存設備</block>
   <block id="419f3742e6de8e0ec4b22cce005e7630" category="cell">平台</block>
   <block id="253b40ae359ba25b56231803430c4873" category="paragraph">ONTAP</block>
-  <block id="bcb30b4b4c5f93b9e66badd1fc91f6dc" category="paragraph">NFS與CIFS</block>
   <block id="a701f5d044348085ee4f97fef6636845" category="list-text">FlexClone</block>
   <block id="392d70ca39f31f10bd637936769788df" category="paragraph">StorageGRID</block>
   <block id="141b2b4361a2b3c206d10e1c27378c2e" category="section-title">雲端儲存服務</block>
   <block id="d96e0cf44b3111cb9ae984add2b97c74" category="paragraph">Keystone STaaS提供雲端儲存服務。Keystone STaaS可在Cloud Volumes ONTAP Amazon Web Services（AWS）、Microsoft Azure和Google Cloud Platform上支援「資料不全」管理功能。</block>
-  <block id="2a947eac17f71a99037966f44ce8252d" category="admonition">NetApp並未提供由NetApp所需的超純量運算、儲存及網路服務Cloud Volumes ONTAP 、作為Keystone STaaS訂閱的一部分；這些訂閱必須直接向超純量雲端服務供應商購買。</block>
   <block id="3b02682cee7334412169a53934571445" category="doc">監控系統健全狀況</block>
   <block id="c50c47143f58388e00647899f527fe17" category="paragraph">這些狀態代碼會傳回：</block>
   <block id="af5679ef3e891be048836388187233bc" category="list-text">* 200*：表示所有受監控的元件都正常運作</block>
@@ -642,7 +632,6 @@
   <block id="e35bc286817799a8ecac7de0060837be" category="list-text">在服務期限結束時、您不需要歸還任何磁碟機和非揮發性記憶體、也不需要在服務期限內歸還任何故障或發現故障的磁碟機和非揮發性記憶體。</block>
   <block id="b178e2d86eb51156fb8d9a2bd509938c" category="list-text">雲端原生服務、例如運算、儲存設備、網路、都是由雲端供應商開立發票。</block>
   <block id="296ad65314dcbf027a7993304c7a165d" category="list-text">這些服務需視雲端儲存設備和運算特性而定。</block>
-  <block id="783e590ecfbaebc7caa0409a8cae6926" category="paragraph">Keystone STaaS檔案與區塊儲存標準服務包括分層功能、可識別較少使用的資料、並將其分層至Keystone STaaS-Supported NetApp Cold儲存設備。如果您想要將冷資料分層至任何受 Keystone STaaS 支援的非 NetApp 儲存設備、則可以將資料分層作為附加服務。</block>
   <block id="2809966e22bd3439cbbfaae3d51268b2" category="list-text">*可用度*：以服務已成功回應的I/O要求數百分比（除以對服務提出的I/O要求總數）計算。這是在一個月內的服務劃分時進行測量、不包括排定的服務停機時間、或客戶所提供設施、網路或其他服務的不可用性。</block>
   <block id="82ed1e96c97e812264424ac485673960" category="paragraph">如適用、現場與遠端部署與安裝活動均由美國政府執行美國公民土壤。註解：免責聲明 [ 現場活動的適當人員可用度視部署 Keystone 系統的地理位置而定。 ]</block>
   <block id="9415cbbaeaf88bca0512bbfe3c3cb334" category="paragraph">根據預設、 Keystone 健全狀況服務不接受來自 localhost 以外任何 IP 的連線。Keystone健全狀況端點為<block ref="b2445934e628b68d6950a1056d38299a" prefix=" " category="inline-code"></block>、並在連接埠上偵聽Keystone Collector伺服器的所有介面<block ref="d79c8788088c2193f0244d8f1f36d2db" prefix=" " category="inline-code"></block>。查詢時、端點會傳回具有Json輸出的HTTP要求狀態代碼作為回應、說明Keystone Collector系統的狀態。
@@ -751,7 +740,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="91ad65d98336ef29959957165ed0c9ea" category="list-text"><block ref="91ad65d98336ef29959957165ed0c9ea" category="inline-link-macro-rx"></block></block>
   <block id="d7e5ccf918d68bf60a6b52690444d5ea" category="list-text"><block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block></block>
   <block id="df7d31258a77cf6838aec404025cc8f0" category="list-text"><block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block></block>
-  <block id="a2e2f97253342349ff9ef2b936b778d0" category="list-text"><block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block></block>
   <block id="9a951c3d80a9377bd47aaa657c36398a" category="list-text"><block ref="9a951c3d80a9377bd47aaa657c36398a" category="inline-link-macro-rx"></block></block>
   <block id="fe53175072711abfe4bc0ec0a1c8feda" category="list-text"><block ref="fe53175072711abfe4bc0ec0a1c8feda" category="inline-link-macro-rx"></block></block>
   <block id="666607765db8e2a230407163fc7ea704" category="list-text"><block ref="666607765db8e2a230407163fc7ea704" category="inline-link-macro-rx"></block></block>
@@ -871,7 +859,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="6f97d409f18fbb10e56aad800fa8f000" category="inline-link-macro">自訂信任的 CA</block>
   <block id="495ae3f7931870e35eab3d7f70b370f6" category="inline-link-macro">Mozilla CA 憑證程式</block>
   <block id="bff50f1947dbec1e11bc66d60ca0b1d9" category="sidebar">支援的儲存設備</block>
-  <block id="7618f9f854f7d4bc7c7026ffaab24dae" category="sidebar">支援的容量</block>
   <block id="c6f45ce2284ef7f44c38a58ebbd013e0" category="sidebar">服務層級</block>
   <block id="a896a08a07f491f10b65b593a6b1ecd6" category="paragraph">如果從 *Capacity Trend* 標籤產生的 CSV 報告中的 * 帳戶名稱 * 欄包含一個含逗號的帳戶名稱、就會在 CSV 報告中誤置 Keystone 資料<block ref="e1266d71c305ae3767d9d953acaf0aae" prefix=" " category="inline-code"></block>。</block>
   <block id="b424d6cf899d73ac410dfcf534d8fb4d" category="paragraph">Keystone 資料已在 CSV 報告中正確對齊。</block>
@@ -957,8 +944,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="7954e225c8bd390ff2168144c5e393c1" category="paragraph">NetApp 完全負責 Keystone 的基礎架構、設計、技術選擇和元件、適用於 NetApp 和客戶營運的環境。</block>
   <block id="adf9ce2fefed448c1faa955a05142679" category="paragraph">NetApp 保留採取下列行動的權利：</block>
   <block id="1e5c40b1bf2557793e21f12b8450b6d8" category="section-title">儲存平台</block>
-  <block id="e38b5058398d45181914283e348c4f38" category="doc">Keystone 中使用的度量和定義</block>
-  <block id="3a79a2a5d18c98a3e6880bfa3a826f9f" category="paragraph">Keystone STaaS 服務中會使用下列術語和定義來衡量指標：</block>
   <block id="23b37b253ca769ce608c60059a855b79" category="summary">瞭解特定組態的 Keystone 帳單、包括複製的磁碟區、進階資料保護等。</block>
   <block id="554b9774fcd47c93aacebd604a76b86c" category="summary">NetApp 是 NetApp Keystone 訂閱的一部分、將 NRNVC 產品延伸至您的檔案、區塊和物件服務。</block>
   <block id="6a69842e6e38f4acc01bbde008bf7a4f" category="doc">不可退回、非揮發性元件、以及 SnapLock 法規遵循</block>
@@ -1007,9 +992,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="d339106c5234c4fffed6b25356ff263d" category="sidebar">監控與升級</block>
   <block id="7b373ff6530e34788cfaf1ee2a5d46b5" category="sidebar">監控 Keystone Collector 健全狀況</block>
   <block id="f32c3edaacea72c0ddb30ecf0135c4de" category="section-title">指標</block>
-  <block id="e67906640477f8681e506869bc6e612e" category="list-text">* 每月正常運作時間百分比 * = [ （每月合格秒數 - 部署以交付該月 Keystone 訂單的所有 AFF 儲存陣列的平均停機時間秒數） / 每月合格秒數 ] x 100%</block>
-  <block id="53ca36728241336dcf15ee413e4d7946" category="list-text">* 停機時間 * ：儲存陣列中兩個控制器無法使用的期間、由 NetApp 決定。</block>
-  <block id="e3af360bffb0ac501e3dff5765197e4e" category="list-text">* 符合資格的秒數 * ：這是一個月內計算正常運作時間的秒數。這不包括由於規劃的維護、升級、與 NetApp 議定的支援活動、或因 NetApp 或 Keystone 服務無法控制或責任的情況而無法使用 STaaS 服務的時間。</block>
   <block id="3b916544092c6bba180097d47f80505f" category="section-title">服務點數</block>
   <block id="563fcbc0524e38c0a55e5aece4d67824" category="paragraph">如果 ONTAP Flash 儲存陣列的合格訂閱可用度低於計費期間內 99.999% 的每月正常運作時間目標、則 NetApp 會發出服務點數、如下所示：</block>
   <block id="e92fc6300f495b762ab94da55380457b" category="cell">* 每月正常運作時間（低於） *</block>
@@ -1032,9 +1014,7 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="1bddd707a0359d778b1d813a90c93052" category="paragraph">以下範例顯示服務額度的計算方法：</block>
   <block id="8675aaab182cd1ede22d88336898c1ea" category="list-text">計算每月正常運作時間以確定服務信用百分比：</block>
   <block id="fefccd3601226bfde489bb3cb07d859b" category="list-text">30 天內的合格秒數： 30 （天） X 24 （小時 / 天） X 60 （分鐘 / 小時） X 60 （秒 / 分鐘） = 2 、 592,000 秒</block>
-  <block id="df212c5e5de67c296152f5d72add0126" category="list-text">停機時間（秒）： 95 秒</block>
   <block id="b40d5e2f3db898060ede6a53207406c4" category="paragraph">使用公式：每月正常運作時間百分比 = [ （ 2 、 592 、 000 - 95 ） / （ 2 、 592 、 000 ） ] X 100</block>
-  <block id="d5a0ad93e7cae0cea5d2164c32e6c7bb" category="paragraph">根據計算、每月正常運作時間為 99.996% 、服務信用百分比為 5% 。</block>
   <block id="b63c272bec6c081cf8f64799562fc87e" category="list-text">計算服務額度：</block>
   <block id="57083671d3a4c5d078576f2774acaae3" category="cell">* 受影響容量 *</block>
   <block id="6319b3ae1be9dc9c6905e608cb789a7a" category="cell">* 總承諾容量 *</block>
@@ -1044,7 +1024,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="6855eef8daff30988247789b63790191" category="cell">100 Tib</block>
   <block id="6ff79498e54770f62cf549ca824c38fc" category="cell">1、000美元</block>
   <block id="9eae698db2f9979943823c8ee1440c7d" category="paragraph">使用公式：服務額度 = （ 10 / 100 ） X 1000 x 0.05</block>
-  <block id="df3634b399ce52d35f1816fa036f42b4" category="paragraph">根據計算、服務點數將為 5 美元。</block>
   <block id="182bf07a2845568515ca20b4e4654296" category="section-title">服務信用申請</block>
   <block id="6d3089ef2f50007a659aa12b3a7415f8" category="list-text">以下是必要的詳細資料：</block>
   <block id="e3e23368bff57e5796042f5fba6c3fbd" category="list-text">Keystone 訂閱編號</block>
@@ -1082,7 +1061,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="edb32d0cffb273251a459f28452610a9" category="list-text">學分會在相關 Keystone 訂單的有效訂閱期間提供。</block>
   <block id="a5c0e3b5e544c9e98cfff04374762f87" category="list-text">對於每月計費的訂閱、點數將在接下來的 12 個月內分配、並可用於任何未來的 Keystone 發票、直到訂閱期限結束為止。如果訂閱在 12 個月內結束、則可續約以繼續使用點數、或將點數套用至其他 NetApp 發票。</block>
   <block id="accb4d9ec21427fc3d795090c44c8639" category="list-text">若為年度訂閱、點數將會套用至下一張 Keystone 發票（若有）。如果未來沒有 Keystone 發票、則可將點數套用至其他 NetApp 發票。</block>
-  <block id="864c642a56d20e6430164211b9f12588" category="list-text">* 瓦特 * ：每日 AutoSupport 所報告的耗電量、包括控制器和附加磁碟櫃的使用量。</block>
   <block id="fbce2f0375e75ac94f7d2ed62924d9bc" category="list-text">* Tebibytes* ：最大值：</block>
   <block id="359b2a968ad487e93ac13bd70001517c" category="list-text">假設儲存效率係數為，則為有效部署容量<block ref="6af2d30e671ebc9deaa134b9f0a1e248" prefix=" " category="inline-code"></block>。</block>
   <block id="7c6137cde05014e7fab83f78a553dffa" category="inline-link">分析容量與儲存效率節約效益</block>
@@ -1090,9 +1068,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="1319573781151fa1f86a29da308f602f" category="cell">* 最低承諾容量 *</block>
   <block id="b86f7ac7010a768aee36fc0e592eceed" category="cell">*平台*</block>
   <block id="7d2e99b7f21ff40f996fbbab5c1d6feb" category="cell">200. TiB</block>
-  <block id="72c62eae5362784360f3e531446bec41" category="cell">AFF A800 和 AFF A900</block>
-  <block id="4dd4655034851cefb46869bef690cc22" category="cell">300. TiB</block>
-  <block id="27bddf685047b887365f1db06595c078" category="paragraph">如果計費期間的 W/TiB 使用量不符合 SLA 標準、則 NetApp 會以下列方式發出服務額度：</block>
   <block id="ecbb890e24d251759ba476b9c893862e" category="cell">未在計費期間內達到 SLA 天數</block>
   <block id="499023bc51a126935827ef29f6bd520b" category="cell">服務信用</block>
   <block id="5aebd95c292f266eb59b8073d99a7699" category="paragraph">1 至 2</block>
@@ -1406,7 +1381,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="c41ce7fe395738925814b2d06467e3ec" category="section-title">法規遵循標準</block>
   <block id="03242372ae5b03ca7f547f3cb7dab64f" category="inline-link-macro">資料保護附錄（ DPA ）</block>
   <block id="a58e8ea096956351960d74a5b466e9e0" category="paragraph">Keystone ITOM 監控解決方案符合歐盟通用資料保護規範（ GDPR ）和加州消費者隱私權法案（ CCPA ）。此外，本文件也提供一份<block ref="12861122e9a15898b646770ef3c2b260" category="inline-link-macro-rx"></block>文件來記錄這些承諾。ITOM 監控解決方案不會收集或儲存任何個人資料。</block>
-  <block id="1d15537f2746347dfa1ac4acd53c9adb" category="section-title">NetApp Keystone 支援</block>
   <block id="8851c6fe19bf967cca1a7747c9a0b08e" category="list-text">Keystone IT Operations Management （ ITOM ）監控解決方案：用於監控 Keystone 環境的雲端型 SaaS 應用程式。它內建與 NetApp 儲存平台的整合功能，可收集環境資料，並監控 Keystone 基礎架構的運算，網路和儲存元件。這項監控功能可延伸至內部部署設定，資料中心，雲端環境，或這些環境的任何組合。此服務可透過使用安裝在您站台上的本機 ITOM Collector 來與雲端入口網站通訊來啟用。</block>
   <block id="b9582a9d01a3bb00c5c7df318f3cd4ed" category="summary">美國保護支援是一項附加服務，可在美國境內提供及支援美國公民持續提供的 Keystone 服務。</block>
   <block id="21fe13388dd575bae131356d62eb3d04" category="paragraph">美國保護支援（ USPS ）是 NetApp Keystone 訂閱的附加產品。您可在美國境內收到美國公民持續提供的 Keystone 服務，並獲得支援。</block>
@@ -1516,7 +1490,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="bcd6ed294af34e837c537b83a1a3de21" category="list-text">CentOS 7 （僅適用於現有環境）</block>
   <block id="9dc4e2b4f34e5f118e35019c46b06a4a" category="paragraph">如果偵測到違反 SLA 的情況，請在 NetApp Keystone 支援下開啟優先順序 3 （ P3 ）支援服務單。</block>
   <block id="cac189ace7fac11fbcff63b35adf8770" category="list-text">服務信用申請應在 NetApp Keystone 支援驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。</block>
-  <block id="3a36d2372ffa5421518253f5c68f7c51" category="paragraph">如果偵測到違反 SLA 的情況，請在 NetApp Keystone 支援下開啟優先順序 3 （ P3 ）支援服務單，並依照 Excel 工作表中的要求提供詳細資料，如下所示：</block>
   <block id="cb74be13d3a600957d1ee583265f537d" category="section-title">檢視每日累積的突發資料使用量</block>
   <block id="bc3f9a56f76203c42fc9f8ff6b19fe46" category="inline-image-macro">顯示長條圖的螢幕擷取畫面</block>
   <block id="de75b30d787fc40e53cc46d0b5ab30cf" category="paragraph"><block ref="de75b30d787fc40e53cc46d0b5ab30cf" category="inline-image-macro-rx" type="image"></block></block>
@@ -1586,7 +1559,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="effc5725f73525238563e67c654a7578" category="inline-link-macro">Keystone 中的效能服務級別</block>
   <block id="3baadf2264f6a3ed3c5dfbc1e7a94348" category="paragraph">有關性能服務等級的信息，請參閱<block ref="d2021ebe74ad4577de5c973838fa2a38" category="inline-link-macro-rx"></block> 。</block>
   <block id="d534e2cd061f06b6e0ad742d6dda7fee" category="list-text"><block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block></block>
-  <block id="391d525ac5052ae01c2eb2bf929d6706" category="paragraph">一個訂閱可以包含多個資費方案，每個資費方案對應一個效能服務等級。每個資費方案都包含一個承諾容量，適用於不同的性能服務等級。</block>
   <block id="b1951e8ebdcabd07a41b38adc74988e3" category="admonition">NetApp Keystone STaaS 效能服務等級的詳細服務說明可供查閱<block ref="d71be405d81c1e2747195607ed9eca90" category="inline-link-rx"></block> 。</block>
   <block id="7c917a242507a352850575e21d7b1850" category="paragraph">基本效能服務等級指標取決於以下條件：</block>
   <block id="acfc67d5d434abd61811abf81c0d1571" category="cell">*效能服務水準*</block>
@@ -1594,7 +1566,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="e1a2df339e5e1d4b2b6d447c58823500" category="list-text">*總承諾容量*：Keystone 訂單的效能服務等級的承諾容量。</block>
   <block id="651923524521408d98ff12d09f60af11" category="list-text">*容量費用*：該月受影響性能服務等級的費用。</block>
   <block id="edab02bbfaf3788182e3fa77788a9e44" category="list-text">承諾容量 + 性能服務等級的分配突發容量，或</block>
-  <block id="1ef86c84141cbf98bc2a59eeffa9afd3" category="paragraph">若要深入瞭解、請 <block ref="b7d94ab5747cf2f7821847d435faf714" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="33a7d9c43d0ae3063679287913d61f25" category="summary">查看或取消 Keystone 訂閱服務請求。</block>
   <block id="d1852e78062b5753f2098c5dc933a1cb" category="doc">查看 Keystone 訂閱的服務請求</block>
   <block id="50d5a25394fedc4774cab128322dbb14" category="paragraph">若要查看進度或取消請求，請依照下列步驟操作：</block>
@@ -1723,7 +1694,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="04b6860f42857b6be85ce17b2702d1ee" category="list-text">*容量使用情況*：無使用、消耗量超過承諾容量的 80%、突發使用量、超出突發容量的消耗量等消耗資料。</block>
   <block id="bc6b76aa49ea2853b899d4ef4f641b5b" category="paragraph">您可以按一下「查看所有訂閱」以在「Keystone 訂閱」頁面上查看卷的使用詳情和警報。</block>
   <block id="0ac2603a30f809b1ee224bf6bf74c951" category="paragraph">訂閱的詳細資訊、每個效能服務等級的使用情況圖表以及磁碟區詳細資訊顯示在 *Keystone 訂閱* 螢幕上的不同標籤中。</block>
-  <block id="020f370908e2e8464da46c9ec5591933" category="admonition">Keystone 訂閱的容量使用量會顯示在儀表板和報告的 Tibs 中、並四捨五入至兩位小數位數。如果使用量少於 0.01 TiB，則數值顯示為 0 或無使用量。這些畫面上的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時、系統會自動將其視為 UTC 時間。若要深入瞭解使用量標準、請 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>參閱。如需 Keystone 中使用之不同容量的相關資訊，請參閱 <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>。</block>
   <block id="6d1a758f446f1f9fd581fcc90feed806" category="paragraph">關注清單是 Digital Advisor 的一項功能。如需相關資訊，請參閱<block ref="5d023a7962c7eae7e0af56f6e7f92603" category="inline-link-rx"></block>。有關建立關注清單的信息，請參閱<block ref="2539846485ed670b4851c404ba8cd9b6" category="inline-link-rx"></block> 。</block>
   <block id="0d795ac2b71a9eb357ea37a87aee3d75" category="paragraph">您可以為客戶或訂閱號碼建立關注列表，並在 Digital Advisor 螢幕上使用訂閱號或關注列表名稱的前三個字元搜尋 Keystone 訂閱。按關注清單名稱搜尋時，您可以在 *Keystone 訂閱* 小工具的 *訂閱* 下拉清單中查看客戶及其訂閱。</block>
   <block id="eb8b05f2c3cb48609e4fe07ccdcb9e3e" category="list-text">*摘要*：顯示訂閱、ONTAP 叢集、StorageGRID 節點和 ONTAP 節點的總數。每個類別都有一個 *檢視* 按鈕，可輕鬆導覽至 *訂閱* 或 *資產* 標籤上的詳細部分。</block>
@@ -1800,7 +1770,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="1ae0b00f6871c042811b2ef5f0368dc4" category="summary">使客戶能夠使用超出其承諾容量的額外儲存容量。</block>
   <block id="8a2359cfa062fe95972fc70674d2584a" category="doc">突發容量選項</block>
   <block id="742967428ed77679e00109c8b478ea9d" category="paragraph">您可以選擇將突發容量附加服務新增至 NetApp Keystone 訂閱。此服務可讓您將突發容量限制提升至承諾容量的 40% 或 60%，從而靈活地應對工作負載需求的意外激增。</block>
-  <block id="7f47b8ee067aaac2bc090f2155ebbfb0" category="paragraph">突發容量是指在訂閱承諾容量之外，可額外使用的儲存容量。它按性能服務等級進行計量和計費。預設情況下，突發容量上限設定為承諾容量的 20%。但是，使用此附加服務，您可以將上限提高到 40% 或 60%。</block>
   <block id="aefad734c06988971c818d41e4af2b8c" category="paragraph">若要將突發限制變更為 40% 或 60%，請聯絡 NetApp Keystone 支援團隊。</block>
   <block id="1db1ab512ec07d15bf8d3f03a076139a" category="paragraph">要了解有關突發容量計費的更多信息，請參閱<block ref="da7adc48e3ef5d5cba8270d6542a88e9" category="inline-link-macro-rx"></block> 。</block>
   <block id="17a67557c6c448eedbaeeb25e2409ca8" category="inline-link-macro">突發容量增加選項</block>
@@ -1826,13 +1795,9 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="c072efe8294d1003e257c7dd4fe0687d" category="inline-image-macro">收集器資料流</block>
   <block id="92c812556434526899af3c97a106a849" category="paragraph"><block ref="92c812556434526899af3c97a106a849" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6f93f55b981dd0322ebbd8e3f04d4db1" category="summary">NetApp Keystone STaaS 服務使用數個詞彙來衡量指標。在使用 Keystone 服務第 3 版時，您可能希望了解有關這些術語的更多資訊。</block>
-  <block id="947a74aac556a4978330239679ebabf1" category="list-text">IOPS：每秒處理的輸入/輸出運算元。</block>
   <block id="06270a3cff387fa75ec0294b7ef6f62c" category="list-text">*IOPS 中的操作計數器圖表*：應用程式請求的每秒協定操作數。</block>
-  <block id="e2e6f514a423f7cfe97845b24dae97b3" category="section-title">效能指標</block>
-  <block id="12beeb9989a5699e469400e0bce1c8fb" category="paragraph">*統一服務：*</block>
   <block id="b4c0f0b2da46ea7f6c48938cbb43241d" category="list-text">*IOPS*：對於具有 NFS 的 ONTAP 9.16.1，每個效能等級實例支援隨機訪問，讀取率為 70%，寫入率為 30%，區塊大小為 8 KB，延遲為 1 毫秒（標準為 4 毫秒）。</block>
   <block id="8223729bf5a771d590fde341043bac3d" category="list-text">*吞吐量*：對於具有 NFS 的 ONTAP 9.16.1，每個效能等級實例都支援 100% 讀取和 32 KB 區塊大小的順序存取。</block>
-  <block id="3bb74cf9f4497420cd995b7ac6103817" category="paragraph">*阻止最佳化服務：*</block>
   <block id="3d7debc9f9eb6961623316d3dcefaeb8" category="list-text">*IOPS*：對於具有 FCP 的 ONTAP 9.16.1，每個效能等級實例支援讀取率為 70%、寫入率為 30%、區塊大小為 8 KB 且延遲為 1 毫秒的隨機存取。</block>
   <block id="743bda28c7e3ff71e63d96fad8b96946" category="list-text">*吞吐量*：對於具有 FCP 的 ONTAP 9.16.1，每個效能等級實例都支援 100% 讀取和 64 KB 區塊大小的順序存取。</block>
   <block id="4a71061ce212df640aef8be8d2595397" category="list-text">克隆卷沒有 24 小時的寬限期。僅考慮克隆卷的大小。</block>
@@ -1860,21 +1825,14 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="50e0459d44500ff84b442895fa1a64f1" category="list-text">您可以針對硬體、核心作業系統及支援選擇套裝組合價格、只需支付一美元 / TiB 的價格。對於每種儲存類型、統一儲存、區塊儲存、最佳化儲存、物件儲存或雲端儲存服務，您都有一張發票。</block>
   <block id="6770f961b4c4aaa762fb284da8cafd6f" category="list-text">您可以選擇彈性的服務期限和付款方式，例如按月、按季度、按半年或按年。</block>
   <block id="65f13786054dfad371efd46410aaee0a" category="summary">Keystone STaaS 版本 3 提供預先定義服務等級的儲存容量。由 Keystone 管理的每個磁碟區都與服務層級相關聯。</block>
-  <block id="04d889d69e926414f8e3667e8632108a" category="paragraph">一個效能服務等級可以有多個實例，每個實例代表客戶環境中指派給該效能服務等級的一個獨立儲存陣列。每個效能服務等級由每秒輸入/輸出操作數 (IOPS)、吞吐量 (GBps) 和延遲 (ms) 定義，這些指標會按效能服務等級實例進行測量和應用。</block>
-  <block id="9459562bac413dd151fd642f91cbdf4a" category="paragraph">以下部分介紹了支援的儲存類型、統一、區塊最佳化、物件和雲端服務的基本效能服務等級：</block>
   <block id="ef2cb5595bf65cf069d594658bcda8d1" category="section-title">統一儲存的效能服務級別</block>
-  <block id="26da5e20d8fffab771df9a1d152675cd" category="paragraph">*支援的協定*：FC、iSCSI、NFS、NFSv4/RDMA、NVMe/FC、NVMe/TCP、SMB、S3</block>
-  <block id="ab0b467095242d38a96572434be91251" category="cell">*效能服務等級*（所有規格均基於效能服務等級實例）</block>
   <block id="1542ef6889c18a1989b129e50a4702ca" category="cell">人工智慧/機器學習、高效能運算、記憶體資料庫</block>
   <block id="6aa07a7abeb9497eacc86475d1f571ae" category="cell">分析、EDA、OLTP</block>
   <block id="65d27c5f5a28a4723d2b5a869731821e" category="cell">OLAP、物聯網、容器</block>
   <block id="d81dc8707a0071b49edad10f4d35820d" category="cell">備份、存檔</block>
-  <block id="3406ad4f7a6b25005e23e77c04c6f570" category="cell">*最大 IOPS*^1^</block>
   <block id="7e4bff1b4cafa5451a1b2556c17ce320" category="cell">1M</block>
   <block id="36a4118620111db133b6db7f109f177f" category="cell">55萬</block>
-  <block id="0992220490f77884f02171619d6ad8fb" category="cell">50萬</block>
   <block id="d4cd0dabcf4caa22ad92fab40844c786" category="cell">不適用</block>
-  <block id="e72a135ae0901ed98b9a1dfe21928cc8" category="cell">*最大 GBps*</block>
   <block id="d645920e395fedad7bbbed0eca3fe2e0" category="cell">40</block>
   <block id="98f13708210194c475687be6106a3b84" category="cell">20</block>
   <block id="ec7de9e102294de3292cf2084c92428b" category="cell">≤1毫秒</block>
@@ -1886,13 +1844,11 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="848410028b91634f6c1161e46bdd4c96" category="cell">25TiB</block>
   <block id="417a3d5f9432a8f549b7e2badda11b13" category="cell">邏輯或物理</block>
   <block id="0ff3b7f7b780798f1ee59bb0b482ad2e" category="section-title">區塊優化儲存的效能服務級別</block>
-  <block id="eea910b6cd4c9ee0f0991b5978bcd562" category="paragraph">*支援的協定*：NVMe/TCP、NVMe/FC、FC、iSCSI</block>
   <block id="481e00f01f276ce9adc452f9a0f2a833" category="cell">SAP HANA、Oracle、MS SQL Server、EPIC</block>
   <block id="ecba1997645bca8b56554c817fb1c824" category="cell">85萬</block>
   <block id="12ef337fc67f142f37352b6777711514" category="cell">45萬</block>
   <block id="fc490ca45c00b1249bbe3554a4fdf6fb" category="cell">65</block>
   <block id="89d126c0c19146c11d315a1fd1a7a70b" category="admonition">^1^ 互斥目標。實際效能可能因各種因素而異，包括作業系統版本、硬體、工作負載類型和並發操作數量。</block>
-  <block id="72636530c56b26f6ba3b5fd39091d3c7" category="section-title">有關統一和區塊優化存儲的性能服務級別的更多信息</block>
   <block id="9f820dd2adaf4fc80f5d4c1005e203c8" category="list-text">效能服務等級支援 ONTAP 9.8 及更高版本。</block>
   <block id="851e2b2989102e57853dba158880969f" category="list-text">對於統一存儲，</block>
   <block id="09e9dc682c34129c76fcf2151ab60988" category="list-text">對於區塊優化存儲，</block>
@@ -1900,44 +1856,21 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="b8ab35844a7e9382461ec1ace0bdd467" category="cell">*每份訂單的最低承諾容量*</block>
   <block id="19ba0bee3ead4cf9a87650ff8f2fdf93" category="cell">500 TiB</block>
   <block id="7143d2451eb843694f0db7a7c055bc1c" category="cell">25 TiB</block>
-  <block id="d87640c300795bdb335fb7a02a47b64c" category="paragraph">*支援的協定*：NFS、CIFS、iSCSI 和 S3（僅限 AWS 和 Azure）</block>
   <block id="09db5cf9dee1953ac746dd636e0db3e0" category="cell">4 TiB</block>
   <block id="4e5cad9a39114e168c84b904c78fec9d" category="cell">1 TiB</block>
-  <block id="bc77ca7eec2239d9c8adeac7ce7f82d5" category="summary">可用度 SLO 的目標是在計費期間內、所有部署以交付 Keystone 訂單的 NetApp ONTAP Flash 儲存陣列、都能維持 99.999% 的正常運作時間。</block>
-  <block id="42feb95053e6c0f7f616750b23dd7d6b" category="paragraph">ONTAP 快閃記憶體儲存陣列支援的所有效能服務等級均符合可用性 SLO 的資格。若要深入瞭解、請 <block ref="b7d94ab5747cf2f7821847d435faf714" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="e89bdbf88ea78e787698305e26fb7442" category="summary">Keystone 為每個效能服務等級提供基於延遲的 SLO，如 Keystone 訂單中所述，用於達到突發限制的消耗容量。</block>
-  <block id="9f6ccc631816a7182a52d977c6827823" category="paragraph">NetApp Keystone 根據以下列出的條款和條件，按照 Keystone 訂單中所述的每個效能服務等級提供基於延遲的 SLO，以達到突發限制所消耗的容量。</block>
-  <block id="ee885029cef025cf8095b86bb4f661a1" category="paragraph">ONTAP 快閃記憶體儲存陣列支援的所有效能服務等級均符合效能 SLO 的資格，並保證滿足以下目標延遲：</block>
-  <block id="6f7cc0a1419b02f4c77b218d576fc3c6" category="summary">Keystone 為基於具有可持續性 SLO 的 ONTAP 快閃記憶體儲存陣列的儲存服務提供每太位元組 (W/TiB) 最大實際瓦數的保證測量。</block>
-  <block id="c55e6c034cd841d3f6ae411f366dff41" category="paragraph">NetApp Keystone 保證根據具有永續性 SLO 的 ONTAP Flash 儲存陣列、提供儲存服務的每 TB 實際瓦特數上限（ W/TiB ）。可持續性 SLO 定義了每個合格效能服務等級的最大 W/TiB 消耗量，以幫助組織實現其永續性目標。</block>
-  <block id="a34e28733c3e31c61bc771774cdf1a91" category="paragraph">永續性 SLO 以下列使用條件為基礎：</block>
-  <block id="7649a9c2aa81e74af3af6ce5c9dcb1f7" category="cell">* SLO 標準 *</block>
-  <block id="05a7c939901eab929ebc44c3b2bea033" category="cell">≤8瓦/TiB</block>
-  <block id="a219a5819e6733ccfc6f4bfd2c2de9c4" category="cell">≤4W/TiB</block>
   <block id="8bf4a89637b88a17fe1be4dad5d23488" category="paragraph">請注意以下幾點：</block>
   <block id="aa26b728d618a456dca6365c13707f90" category="summary">了解 NetApp Keystone STaaS 服務版本 3 支援的儲存容量類型。</block>
   <block id="d0178ba7ef0d480555c11a8e0e008358" category="paragraph">這是在應用儲存陣列提供的任何資料效率之前儲存使用者資料所需的儲存容量。</block>
   <block id="cbb9609bde7005fdffcc438e9935f911" category="list-text">承諾容量和額外的效能服務等級可以在期限內添加。</block>
-  <block id="896ba0ddfb3556ea24a8ab69820f732d" category="paragraph">耗用容量是指服務目前使用的容量（以儲存設備的TiB為單位）。根據儲存類型的不同，計算方式也不同：</block>
   <block id="330cf8188d7a3b58592b4c81821c0f57" category="list-text">在儲存陣列資料效率之前計量邏輯容量，用於儲存所有實例和類型的客戶數據，例如副本、鏡像副本、版本和克隆。</block>
   <block id="10bec3c494dd9bec3b24fa97cf339ed5" category="list-text">用於儲存快照和某些克隆的元資料和差異資料的實體容量。</block>
   <block id="16e3fe3518e138a40219bf6cc72c86b0" category="list-text">任何厚配置的物理容量。</block>
-  <block id="fecf90808eeead85938e2c165357060d" category="list-text">計量實體容量，經過儲存陣列數據效率計算，用於儲存所有實例和類型的客戶數據，例如副本、鏡像副本、版本、克隆。</block>
   <block id="b329b0abe6bbbcab63fca174e7088d74" category="list-text">用於儲存快照元資料和差異資料的實體容量。</block>
   <block id="1e36ff768e1131f8fc01f855cb88fb27" category="list-text">*物件儲存*：已消耗容量是指用於儲存所有節點上所有執行個體和客戶資料類型的計量實體容量。此計算基於已配置的資訊生命週期管理 (ILM) 策略。</block>
-  <block id="241017f8581c011a79323f1a8cd28b66" category="list-text">*Cloud Volumes ONTAP*：消耗的容量是根據所有 Cloud Volumes ONTAP 磁碟區的計量配置容量計算。</block>
   <block id="f9bf6144ccb5f45c61042e35d5d4ef56" category="paragraph">NetApp Keystone STaaS 服務可讓您在承諾容量的基礎上使用額外容量，以實現效能服務等級。這稱為突發容量使用。</block>
-  <block id="39e8174efdec154af4f9c69757cc5fee" category="list-text">「基礎概念協議」中已同意「連拍容量」。通常，每個效能服務等級實例的容量設定為承諾容量的 20%，並且有其他選項可供選擇，即選擇承諾容量的 40% 或 60% 的突發容量限制。</block>
-  <block id="ee07c6373035e91351baca56c1404db1" category="list-text">突發容量消耗的計費費率與所選性能服務等級對應的承諾容量的計費費率相同。</block>
   <block id="7cca77e7db25de35fd08005008af1f32" category="list-text">Keystone STaaS 服務自開始日期起提供 60 天的突發豁免期。</block>
-  <block id="2f5118ac9c7b726f2e3fb3f02a8d2bc3" category="list-text">*統一儲存*：包括檔案、區塊和 S3 物件存儲，可在 NetApp ONTAP AFF 和 FAS 系統上使用。</block>
-  <block id="86164c66223c4b45cdcc32b7ef27af38" category="list-text">*物件儲存*：包括 NetApp StorageGRID 系統上可用的物件儲存。</block>
-  <block id="c828c0f1013974e213c30783b2330308" category="paragraph">Keystone STaaS 服務可以同時使用。例如，雲端儲存訂閱的期限可以與統一儲存、區塊最佳化儲存和物件儲存訂閱的期限相同。雲端服務可在現有儲存訂閱的服務期間內隨時納入。但是，如果您不打算續訂現有的統一儲存、區塊最佳化儲存或物件儲存訂閱，則在訂閱的最後 90 天內無法新增雲端儲存訂閱。</block>
-  <block id="e2481d555d88554b2cab041888938da0" category="section-title">統一、區塊最佳化和物件儲存服務</block>
-  <block id="3f67733abd297f18543f9161e15be0d6" category="paragraph">Keystone STaaS 服務適用於統一儲存、區塊最佳化儲存和物件存儲，支援多種功能和協議，如下表所述：</block>
-  <block id="c0916addb4f26afa58c5a6df4f463fa5" category="paragraph">統一化儲存設備</block>
   <block id="732032ab383cc985a4aa8741171d28a2" category="paragraph">支援所有 ONTAP One 功能</block>
-  <block id="6f04d85b3b7ca00da4a82eae698d5b77" category="paragraph">區塊最佳化儲存</block>
   <block id="d9374af96a68f98b2e73d35fada43a6f" category="inline-link-macro">ONTAP 授權總覽</block>
   <block id="c5808afbd20dfa63abd66a2d8a4d9085" category="inline-link-macro">ONTAP One：集 ONTAP 全部功能於一身</block>
   <block id="48253bd066795a2facb396b656e80739" category="paragraph">要了解有關 ONTAP One 的更多信息，請參閱<block ref="2385cd8a90d8020136016b7d34b32baf" category="inline-link-macro-rx"></block>和<block ref="a896c96ece5f68865a35c0c7b3ab15b7" category="inline-link-macro-rx"></block> 。</block>
@@ -2030,10 +1963,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="c1682b4af830f8e1dcda8da16400f7e1" category="doc">查看實例層級消耗數據</block>
   <block id="10d5879ffcf41a017554a80a63e4b46e" category="inline-link-macro">查看Keystone訂閱的消耗量</block>
   <block id="d2c70766af411fb0e8a745645e1d2b86" category="paragraph">您可以透過BlueXP中的Keystone儀表板查看每個效能服務等級實例的目前消耗和歷史資料。如果您擁有Keystone版本 3 (v3) 訂閱，此功能適用於具有多個執行個體的效能服務等級。要了解更多信息，請參閱<block ref="500828148463e083954a63124cb9a7bb" category="inline-link-macro-rx"></block>。</block>
-  <block id="9a074d3c3d3b3789030128089b065c8d" category="paragraph">您可以根據您的儲存環境以及儲存和消費需求選擇效能服務等級。預設情況下，您可以使用基本效能服務等級。如果您選擇了附加服務，也可以獲得特定的效能服務等級。</block>
-  <block id="cc625dd61c8f93252f42b4f3adf096b7" category="paragraph">Keystone STaaS 服務支援NetApp和Cloud Volumes ONTAP的統一儲存、區塊最佳化儲存和物件儲存。</block>
-  <block id="a38c4c1572c8ef4e4dba4054df60c293" category="paragraph">支援的儲存選項有：</block>
-  <block id="6cbacdcb488aa4e37079dcf1d4dc7e92" category="list-text">*區塊最佳化儲存*：包括NetApp ONTAP ASA系統上可用的區塊儲存。</block>
   <block id="4e78bdae86afc20e1dc87f90302287c9" category="paragraph"><block ref="4e78bdae86afc20e1dc87f90302287c9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c1602534a88a762a1ce3972cdede18e6" category="list-text">將此文件透過電子郵件發送至 ng-keystone-secure-site-upload@netapp.com（用於安全的非 USPS 網站）或 ng-keystone-secure-site-usps-upload@netapp.com（用於安全的 USPS 網站）。</block>
   <block id="f554b3f79210a232f43aa1148b762978" category="list-text">收集文件並將其發送至 ng-keystone-secure-site-upload@netapp.com（用於安全的非 USPS 網站）或發送至 ng-keystone-secure-site-usps-upload@netapp.com（用於安全的 USPS 網站）。</block>
@@ -2062,20 +1991,13 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="8282acd43de45bece37539cf9cd85d3e" category="list-text">*每半年結算一次*：每六個月初產生一張發票，用於支付承諾容量的最低付款。每個季度末都會針對任何突發使用情況發送另一張發票。</block>
   <block id="5c0f38443ff2151fb1c13d71699c56d1" category="list-text">*按年計費*：每個訂閱年度開始時都會產生一張發票，用於支付承諾容量的最低付款。每個季度末都會針對任何突發使用情況發送另一張發票。</block>
   <block id="a9ee4095c5a2fc7c776c32332a3eddf8" category="paragraph">對於按季度、半年和年度計費，如果在訂閱期間承諾容量發生變化，則會在同一天發送發票，其中包含該訂閱年度剩餘時間的按比例分配的最低付款。計費從承諾容量變更生效日起計算。</block>
-  <block id="a7af8cd0550a9638bb9f3a3c4e9a4be6" category="paragraph">Keystone STaaS 效能服務等級的容量需求在Keystone STaaS 訂閱支援的統一、區塊最佳化、物件或雲端儲存產品之間有所不同。</block>
-  <block id="ae4fed5779bc20e71bc742b9b20f3572" category="admonition">僅當資料分層到任何非NetApp儲存體（例如 Amazon Web Services (AWS) S3、Azure Blob、Google Cloud Platform (GCP) 和其他Keystone STaaS 支援、與 S3 相容的第三方物件儲存）時才需要分層附加服務。</block>
   <block id="5a7ddcb67d8774d8c3bdc821152d43f1" category="paragraph">附加資料分層服務支援從 Extreme、Premium、Performance、Standard 和 Value 層到物件儲存目標的分層。分層的熱數據和冷數據的比例不是固定的，每個層級都是單獨計量和開立發票的。</block>
   <block id="f02c5e27d3f80e7755fdb672ca0a6235" category="list-text">Keystone STaaS 價值層、 Keystone STaaS StorageGRID物件層或現有StorageGRID Webscale (SGWS) 網格（客戶自有）- 無需額外付費；它是標準服務的一部分。</block>
   <block id="8e4d26d9b322f38152cd72b8fdf2ed25" category="admonition">NetApp不提供Cloud Volumes ONTAP所需的基於超大規模的運算、儲存和網路服務作為Keystone STaaS 訂閱的一部分；這些服務需要直接從超大規模雲端服務供應商處採購。</block>
   <block id="7362a3703ab6814c98fdb90fe873b654" category="paragraph">企業應用程式需要儲存平台來支援快速配置工作流程、保持持續可用性、以低延遲維持高工作負載、提供更高的效能並支援與主要雲端供應商的整合。NetApp有多種產品和技術可以支援這些要求。對於Keystone服務， NetApp使用ONTAP系統（AFF、 ASA和FAS）和StorageGRID系統。</block>
-  <block id="96528977c8366dbda111370e25501602" category="paragraph">NetApp Keystone STaaS 服務使用多個術語來衡量指標。在使用Keystone時，您可能想要了解更多有關這些術語的資訊。</block>
-  <block id="dc2f3454954797b5fb83b2868fdaf36f" category="list-text">容量：以 GiB、TiB 和 PiB 為單位。</block>
   <block id="aefe5d691bbfd5f85d52918fd2b8748f" category="list-text">*以 GiB、TiB 和 PiB 為單位的容量測量*：使用 1024 為基數測量資料儲存容量（1 GiB = 1024^3^ 位元組、1 TiB = 1024^4^ 位元組和 1 PiB = 1024^5^ 位元組）。</block>
-  <block id="06b4fe504fde53b65e7b1a98f18d5dc6" category="paragraph">以下效能指標適用於統一和區塊最佳化服務：</block>
   <block id="fbddd54f90ac215e40b766ce9c3f4612" category="paragraph">了解特定配置的Keystone計費可以幫助您最佳化服務使用並管理成本。配置包括複製磁碟區、臨時磁碟區、 SnapMirror目標、LUN 和系統/根磁碟區。</block>
   <block id="ef379c37057d9a196c5c79f68a141fe6" category="paragraph">Keystone為您提供以下計費功能：</block>
-  <block id="75391a46d0c1b04a9b5062edcf0906ac" category="paragraph">Keystone STaaS 以預先定義的效能服務等級提供資料儲存容量。Keystone服務管理的每個磁碟區都與一個效能服務等級相關聯。</block>
-  <block id="e561d7dfcd6620325c8edbb7b2c1d749" category="paragraph">NetApp Keystone STaaS 服務支援多種類型的儲存容量。了解這些不同的容量術語可以幫助您使用Keystone。</block>
   <block id="52bde02f3e1edb6d6e28dca0d312445a" category="list-text">*統一或區塊最佳化儲存*：消耗的容量是根據訂購過程中選擇的容量類型（邏輯或實體）計算的。計算是按效能服務等級實例執行的。</block>
   <block id="845131517a9dd7f41b73102338bac133" category="list-text">*邏輯容量*：它是以下內容的總和：</block>
   <block id="0649df2b2e490a85273ef7528dbeb91a" category="list-text">*身體能力*：它是以下各項的總和：</block>
@@ -2161,7 +2083,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="468705a461bd39c3c6cc91cf30d78d23" category="list-text">用於管理和操作服務的工具，例如 ITOM 監控解決方案、 NetApp Console、 Active IQ和Active IQ Unified Manager。</block>
   <block id="8a982cf9d4fce545e4c4210341623864" category="paragraph">您可以透過NetApp主機或Digital Advisor查看Keystone訂閱的訂閱和消費詳情。要了解有關Keystone報告的更多信息，請參閱<block ref="5a609c392d8730053e3d7fc9f1d0ffab" category="inline-link-macro-rx"></block>。</block>
   <block id="c3d65a3c50cdc5589b31f6ea38479a67" category="list-text">您可以根據 IOPS 和延遲承諾容量付費，以滿足各種工作負載需求。不同的效能服務層級 - Extreme、Premium、Standard、Value、Object 和Cloud Volumes ONTAP可讓您根據購買的效能服務等級管理儲存。</block>
-  <block id="ba17302e854fad784b3a0f21ef030b25" category="list-text">容量致力於每個效能服務等級。</block>
   <block id="876a76983fba3da801a1f6d2d41a5db3" category="paragraph">您可以使用Keystone Collector 管理 TUI 公用程式建立效能服務等級 (PSL)。透過 TUI 建立 PSL 會自動選擇為每個效能服務等級設定的預設值，從而減少透過Active IQ Unified Manager建立 PSL 時手動設定這些值時可能發生的錯誤的可能性。</block>
   <block id="084a50394b54545f96247d840d02d0cf" category="admonition">您可以反白Keystone訂閱服務版本 1 的 *KFS* 選項。Keystone訂閱服務與Keystone STaaS 在組成效能服務等級、服務產品和計費原則方面有所不同。要了解更多信息，請參閱<block ref="28860fa9118cfd783678772e54f9b578" category="inline-link-macro-rx"></block>。</block>
   <block id="8b8e55daf5c09f217fffc6d663a276de" category="list-text">所有支援的Keystone效能服務等級將顯示在指定Keystone版本的 *選擇Keystone服務等級* 選項中。從清單中啟用所需的效能服務等級。</block>
@@ -2422,12 +2343,10 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026 年 2 月 02 日</block>
   <block id="3173b2ec37a82d2973529cd167d6287e" category="summary">使用進階資料保護附加服務，確保對關鍵任務工作負載進行高效率的資料保護。</block>
   <block id="642f94d714f235631bdda58a0641ee29" category="doc">Keystone 的進階資料保護附加元件</block>
-  <block id="13c48d4700ad4af5c8fd956e1cfe906e" category="paragraph">您可以透過 Keystone STaaS 訂閱來訂購進階資料保護（ADP）附加服務。標準 Keystone 服務包含使用 SnapMirror、SnapVault 和 Snapshot 的預設資料保護，而此附加服務則採用 NetApp MetroCluster 技術，確保您的關鍵任務工作負載能以 0 的復原點目標（RPO）獲得高效的資料保護。</block>
   <block id="71d3312e0355ab7d413073f4793122fc" category="paragraph">Keystone 進階資料保護服務可以將資料同步鏡像到備用站點。如果主站點發生災難，備用站點可以接管，而不會遺失任何資料。此功能利用兩個站點之間的 <block ref="64ff7fce7f50f4f1d4bf30022fac8148" category="inline-link-macro-rx"></block> 配置來實現資料保護。您可以僅為檔案儲存和區塊儲存服務使用進階資料保護附加服務。作為此附加服務的一部分，<block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> 效能服務等級會指派給您的訂閱。</block>
   <block id="88447a30bf60d09ff5ebf0642e6380e8" category="inline-link-macro">查看您的 MetroCluster 訂閱使用情況和健康狀況</block>
   <block id="e799b5eff99a155a4912e68e26db204f" category="paragraph">您可以監控 MetroCluster 配置的消耗和運作狀況指標。如需詳細資訊、請參閱<block ref="0b2e2940da985e8c5260b9ec964b2073" category="inline-link-macro-rx"></block>。</block>
   <block id="738272188927126099f39cbe7024dbf9" category="section-title">了解定價</block>
-  <block id="a9defa509a6012981ff7f002dd53d0e6" category="paragraph">進階資料保護附加服務的價格根據每個站點的已承諾容量而定。這有助於確定進階資料保護服務的實際成本（以美元 /TiB 為單位）。附加費用適用於您訂閱中的所有容量，包括來源資料、鏡像副本和非鏡像資料。</block>
   <block id="880dc4bb6f99da8936686e254cb50669" category="paragraph">對於 MetroCluster 配置，每個站台都需要自己的訂閱，並且您需要為每個站台的承諾容量獨立付費。</block>
   <block id="07a4905cb08550d85832c59c39e6d61c" category="list-text">本服務使用關聯儲存上 100% 的承諾容量作為承諾容量。</block>
   <block id="35837aec92cf4ad38b86eaea542a0d30" category="list-text">費用適用於主要站點和次要站點，涵蓋來源叢集和目標叢集。</block>
@@ -2538,15 +2457,9 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="b3f613e3d8f464b4f2aaf03e58cd7343" category="list-text">*關聯訂閱*：如果您有任何與主訂閱關聯的輔助訂閱、此欄會列出主訂閱的關聯訂閱號碼。</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026 年 2 月 16 日</block>
   <block id="5232623a9d0949665269220e42d1050b" category="list-text">請在 Excel 表格中提供如下所示的詳細資訊，以便向 NetApp Keystone 支援部門開立 P3 工單。</block>
-  <block id="13505dac4434596c4a796389e650eb08" category="list-text">服務抵扣額可用於抵扣未來的帳單。服務抵扣額不適用於已過期的 Keystone 訂閱。如需深入瞭解，請參閱<block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>。</block>
   <block id="1f5595c5befe745db8dadf46b35fce52" category="list-text">*第 90 百分位延遲* 是針對 Keystone 訂單中所有磁碟區的每個磁碟區、每個效能服務等級執行個體進行測量的。延遲每五分鐘採樣一次，並以 24 小時內計算出的第 90 百分位值作為每日指標，同時考慮以下幾點：</block>
   <block id="40f098b2e9bcd6666815272fd1d0b84e" category="list-text">在 24 小時內，至少應有十個有效指標。如果未滿足此條件，則這些指標將被捨棄。</block>
-  <block id="0e20d6162625fb8fb8b7b598f96e52da" category="cell">&lt;=1 毫秒</block>
-  <block id="692ed37295bb7f348009da0eb9d9f9ba" category="cell">&lt;=4ms</block>
-  <block id="6efe08597c08ab2309936c3460daafb5" category="cell">&gt;=4 毫秒</block>
-  <block id="da4bea38cc1244c367fa4751943a1de3" category="paragraph">若要深入瞭解效能服務層級的延遲需求，請參閱 <block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block>。</block>
   <block id="b4508efb1fe09000c916385cb19795aa" category="cell">*受影響的日曆日*</block>
-  <block id="2f8ed0b357b613711aa9e5d215bc6566" category="paragraph">根據計算，服務積分將為 $12。</block>
   <block id="3006a02699b8df924e1d005be208a0d9" category="doc">叢集中的磁碟區標籤中的新欄</block>
   <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">在「資產」的「叢集中的磁碟區」標籤中新增了三個欄位：*Hot data*、*Cold tier (%)*和*Hot tier (%)*。要了解更多信息，請參閱 <block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block> 和 <block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>。</block>
   <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">消費趨勢中的已開立發票、未開立發票和暫定突發使用量</block>
@@ -2668,8 +2581,129 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="ec5cac371498d025c7a80f8462e7d9b0" category="paragraph">在本例中，內部部署支出為每月 30,000 美元。2 月份，將 5,000 美元遷移至雲端服務的請求 A 獲得批准，並於 3 月生效，觸發為期 90 天的鎖定期，直至 5 月。在鎖定期內提交的請求 B 在鎖定期結束後生效，將內部部署支出減少至 20,000 美元，並將雲端服務支出從 7 月起增加至 10,000 美元。在合約期限的最後 90 天內，不允許進行任何重新分配。</block>
   <block id="068c2643291801b07fc0b1d5411c5f44" category="paragraph">此表提供了一組範例值，用於演示費用重新分配的運作方式。在本例中，每月支出中的 USD 5,000 被重新分配給混合雲端儲存服務。</block>
   <block id="06edadfbc4ba35d2e9cfcdbd12cae4dc" category="paragraph">請聯絡您的 Keystone Success Manager（KSM）提交重新分配申請。</block>
-  <block id="fada2eb6c577ac59ac127d87709bdeba" category="inline-link">Keystone STaaS v3 服務說明與補充參考指南</block>
-  <block id="379bdcbc355b1c85f12e4fe26ce9ce52" category="paragraph">如需深入瞭解，請參閱<block ref="713f77483e33d0957b3e04d7bb3c25f3" category="inline-link-rx"></block>。</block>
   <block id="091e308f3acc3715bded09fcb636bf53" category="summary">可用性 SLO 目標是在一個計費期間內，所有部署用於交付 Keystone 訂單的 NetApp ONTAP 快閃儲存陣列達到 99.999 百分比的正常運作時間。</block>
-  <block id="fb3c717f6d7580452350dcd4dcbd5ce8" category="paragraph">訂閱期間，您可以根據特定條件變更已承諾的容量。有關容量增加和減少規則的完整詳情，請參閱 <block ref="7bcdec1ed35620533b43c63b4f4340ca" category="inline-link-macro-rx"></block>。若要申請更改，請聯絡您的 Keystone Success Manager（KSM）或參閱 <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>。</block>
+  <block id="63585ffc081d689ccb5ced7606680dc7" category="paragraph">訂閱 Keystone STaaS 服務時，可同時訂閱進階資料保護（ADP）附加元件。ADP 採用 NetApp MetroCluster 技術進行同步站點對站點資料鏡像。復原點目標（RPO）為 0，可避免站點故障期間的資料遺失。了解 ADP 的工作原理、支援的組態和定價。</block>
+  <block id="c17e666618ba237713ec3af11b06617e" category="admonition">進階資料保護附加服務僅適用於 AFF 儲存陣列上的統一儲存（_Extreme_、_Premium_ 和 _Standard_ 效能服務等級）。FAS 儲存陣列（_Value_ 效能服務等級）不支援此功能。</block>
+  <block id="a7ef462afdec11a1c14e326bda155a59" category="paragraph">進階資料保護附加服務的價格根據每個站點的已承諾容量而定。附加費用適用於您訂閱中的所有容量，包括來源資料、鏡像副本和非鏡像資料。</block>
+  <block id="a4310d73f780750663c3602120bbc3b0" category="paragraph">突發容量是指超出訂閱承諾容量的額外儲存容量。它按效能服務層級進行計量和計費。預設情況下，突發容量限制為承諾容量的 20%。但是，您可以將此限制提高到 40% 或 60% （僅適用於統一儲存和區塊最佳化資料類型）。</block>
+  <block id="1ed342711f67dbf9a9ec0d44d0a87997" category="inline-link-macro">Keystone 中的儲存容量類型</block>
+  <block id="de0a1ffd5945a7c03b043b1b02676ff7" category="paragraph">如需 Keystone 支援的不同容量相關資訊、請參閱 <block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>。</block>
+  <block id="724916146bfc3bc66e8deddecfa76c99" category="doc">Keystone 的容量需求與調整</block>
+  <block id="e7428377a60709c47544d358e09574fb" category="paragraph">Keystone STaaS 效能服務等級的最低容量需求和增量成長幅度會因儲存類型而異。本頁也介紹如何在訂閱期間內增加、減少或重新分配已承諾的容量。</block>
+  <block id="8ed91d5e0c37ad81bec715aab6a2e10e" category="paragraph">每個 PSLI 的最小容量 [單位：TiB]</block>
+  <block id="93a5d11c035d31b33ba55595f21dc177" category="section-title">AFX 儲存的最低容量要求</block>
+  <block id="6972d440546b1041e3eb6f9ad336124f" category="paragraph">您可以在下表中查看 AFF 儲存設備的最低容量需求：</block>
+  <block id="c657fe6d4583f5979133dc07a89798bf" category="paragraph">每個 AFF 叢集的最小容量（單位：TiB）</block>
+  <block id="26e38ecf975660cbeeab3546610f30ab" category="admonition">對於 AFF 儲存設備，容量是在 AFF 叢集層級進行承諾和測量，涵蓋叢集中的所有磁碟機櫃。這與叢集中 AFF 儲存控制器的數量無關。</block>
+  <block id="48b11c6f6db8a6a3328baeb0a51c976d" category="paragraph">Keystone STaaS 的檔案和區塊儲存標準服務包含分層功能，可以識別不常用的資料，並將其分層儲存到 Keystone STaaS 支援的 NetApp 冷儲存中。如果您希望將冷資料分層儲存到任何 Keystone STaaS 支援的非 NetApp 儲存媒體中，可以使用資料分層附加服務。此附加服務僅支援統一資料儲存類型。</block>
+  <block id="75e68181255b1c90bd260488cd15b20b" category="admonition">只有當資料分層儲存到非 NetApp 儲存服務（例如 Amazon Web Services (AWS) S3、Azure Blob、Google Cloud Platform (GCP) 以及其他 Keystone STaaS 支援的、與 S3 相容的第三方物件儲存）時，才需要分層附加服務。此服務僅適用於統一資料儲存類型。</block>
+  <block id="e4939875bf7b1945d089de8588791605" category="doc">了解 Keystone 中的儲存指標與定義</block>
+  <block id="ab111be95a3b1e0a20af6d3cc9835537" category="paragraph">了解 Keystone STaaS 用於衡量和報告您的儲存訂閱的關鍵術語，包括容量單位、效能指標和可用性定義。</block>
+  <block id="b5481634031c8db3579143636cc56f56" category="paragraph">Keystone STaaS 為每種儲存類型提供預先定義的效能服務等級（PSL）。每個 PSL 都明確規定了效能目標（IOPS、處理量和延遲）、支援的協定、平台以及最低容量要求。請查看可用的 PSL，選擇適合您工作負載的服務等級並規劃您的訂閱。</block>
+  <block id="b0dc64ee46414f1cba4fa86cb3cecb46" category="paragraph">Keystone 訂閱可以包含一個或多個儲存類型的多個 PSL。每個 PSL 都有一個承諾容量，即在訂閱期間內該服務等級計費的最小容量。</block>
+  <block id="61d50a4de5460f878250bbbb0807eaa0" category="admonition">AFX 訂閱僅限於 AFX 儲存類型，目前僅提供一種 PSL ， Extreme 。</block>
+  <block id="4e4e6e5b08219061956b8d07df28d2e9" category="section-title">效能服務層級執行個體</block>
+  <block id="6ce1cf2a62e30b759db4d32bd3cfeeb8" category="paragraph">在您的環境中，一個效能服務等級（PSL）可以有多個執行個體，稱為效能服務等級執行個體（PSLI）。每個 PSLI 都是指派給該效能服務等級的個別儲存系統，並以每個 PSLI 測量承諾容量。</block>
+  <block id="94844f9e5a75eef95a3833fe3d0b9f42" category="list-text">對於統一化或區塊最佳化儲存設備、PSLI 是一種儲存陣列、由 HA 配對中的兩個儲存控制器組成、並具有內部或外部連接的儲存媒體。</block>
+  <block id="65d647a32175b690173930855255fd99" category="list-text">對於 AFF 儲存設備，PSLI 是單一 AFF 儲存控制器。AFF 採用分散式架構，其中控制器（運算）和磁碟機櫃（儲存設備）是獨立的，可以分別擴充。IOPS 和處理量目標適用於每個控制器；承諾容量是在 AFF 叢集層級測量，其中包括叢集中的所有控制器和磁碟機櫃。</block>
+  <block id="4dacd00a4da2b12913df6fd2442cb6f3" category="paragraph">效能指標（例如 IOPS、處理量（GBps）和延遲（ms））是按 PSLI 測量的。</block>
+  <block id="0516a0281a553774f8ca5e8a2eeca6d6" category="paragraph">以下各節將介紹支援的資料儲存類型（統一儲存、區塊最佳化儲存、AFF 儲存、物件儲存和雲端儲存）的基本效能服務等級：</block>
+  <block id="7b875953c4f3286c05225742cb19fba5" category="cell">*效能服務等級*（每個效能服務等級執行個體 [HA 配對] 的所有規格）</block>
+  <block id="c30a3f1c136c94528c87e3a5b4a431cf" category="cell">*支援的傳輸協定*</block>
+  <block id="a3dfd161b312ce8d880997c971d62270" category="cell">FC、iSCSI、NFS、NFSv4/RDMA、NVMe/FC、NVMe/TCP、SMB、S3</block>
+  <block id="9f51f3588cd21e5b45f794b9b5789f77" category="cell">*目標最大 IOPS*^1^</block>
+  <block id="5eabc7abd8a276fef32c46137796f3a6" category="cell">25萬</block>
+  <block id="a25328a5a775c1bdf0202f95ebc35f43" category="cell">*目標最大 GBps*^1^</block>
+  <block id="d3d9446802a44259755d38e6d163e820" category="cell">10</block>
+  <block id="8ef73cf5ea5a09bb4cb7393f715d2618" category="cell">AFF A 系列</block>
+  <block id="71642a8ed4161123d0530fb7e39a80f1" category="cell">AFF C-Series</block>
+  <block id="149f0ea389848f479bd80af6375b383b" category="cell">FAS</block>
+  <block id="ae60667b98f75b59ea0bdec9f176a22d" category="cell">NVMe/TCP、NVMe/FC、FC、iSCSI</block>
+  <block id="089179584da8b90531deb9f3894322c8" category="cell">120K</block>
+  <block id="322099edf92b840eea0e581625516366" category="cell">*目標最大 GBps*</block>
+  <block id="1679091c5a880faf6fb5e6087eb1b2dc" category="cell">6</block>
+  <block id="e74e816dd7cc6f70a065fed35442bdba" category="cell">ASA A 系列</block>
+  <block id="eab12603d471c1206ae118fe245f03eb" category="cell">ASA C 系列</block>
+  <block id="c83ab9a191efe5f8a93ef670926ec421" category="section-title">AFF 儲存設備的效能服務層級</block>
+  <block id="cbb2b156759634c1f6e27a9b2b7c3614" category="cell">*效能服務等級*（每個效能服務等級執行個體的所有規格 [一個 AFF 儲存控制器]）</block>
+  <block id="04746c26c149ffd4244aa53c22148df7" category="cell">NFSv3 、 NFSv4/RDMA 、 pNFS 、 SMB 、 S3</block>
+  <block id="49429284b8dce3d22311c8ec810c618d" category="cell">625K</block>
+  <block id="e9d7397e9772df2e11071d57657f4b22" category="cell">AFX</block>
+  <block id="04fb9c9421e769b5b55f0e298c46425d" category="cell">*每個 AFF 叢集的最低承諾容量*^2^</block>
+  <block id="8f05aab381a319cd1244cd3a57264b9f" category="list-text">^2^在 AFX 叢集中，效能目標適用於每個儲存控制器。新增到叢集中的每個控制器都貢獻相同的 IOPS 和處理量。已承諾容量和增量容量適用於整個叢集的總磁碟機櫃容量。</block>
+  <block id="ca207a661decaf8cd1a1d8bedbe2d0d0" category="section-title">統一儲存設備、區塊最佳化儲存設備和 AFF 儲存設備的效能測量條件</block>
+  <block id="12a093634a456612b8fb5ecaa5bdb281" category="list-text">對於 AFX 儲存設備、</block>
+  <block id="d66402519ca1e00b2e9854efcd21d55e" category="list-text">*IOPS*：對於採用 NFSv4 的 ONTAP 9.18.1，每個效能等級實例都支援隨機存取，讀取比例為 70%，寫入比例為 30%，區塊大小為 4 KB。</block>
+  <block id="806eb2c12e313137e16faace53c65074" category="list-text">*處理量*：對於採用 NFSv4 的 ONTAP 9.18.1、每個效能層級執行個體均支援循序存取、100% 讀取及 64 KB 區塊大小。</block>
+  <block id="4145dec9eb95aa77a0a388a7f89aa836" category="cell">*支援的傳輸協定*</block>
+  <block id="a60c7f8a52030dd7cd31f6ef8eda327f" category="cell">SGF6112</block>
+  <block id="3d653a616afd117e668b1ec6d4cda21b" category="cell">SG6160</block>
+  <block id="bd92684886c3b8e5ae4c9d6659e6d2c1" category="cell">*Cloud Volumes ONTAP*</block>
+  <block id="45c845bdacf0df0a1a74d1b82ad96256" category="cell">NFS 、 CIFS 、 iSCSI 和 S3 （僅限 AWS 和 Azure ）</block>
+  <block id="0ea2e5735a73cb1292027bc1604190c4" category="list-text"><block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block></block>
+  <block id="f2166097f138ef9b03ffdc4d7661da74" category="paragraph">可用性服務等級目標（SLO）旨在為統一儲存和區塊最佳化儲存的每個效能服務等級執行個體（PSLI）或每個 AFX 儲存控制器實現 99.999% 的服務可用性。詳細資訊包括可用性的衡量方式、包含的儲存類型和效能服務等級，以及未達到目標時的服務補償。</block>
+  <block id="057e02892456ecd2a8b3705b83c5a2d4" category="list-text">*每月正常運作時間百分比* = [（當月符合條件的秒數 - 當月 PSLI 服務無法使用的秒數）/ 當月符合條件的秒數] x 100%</block>
+  <block id="f8d9817b19a43241d1102db9ef8a06fa" category="list-text">*服務無法使用*：指監控工具報告的 PSLI 無法處理資料讀取或寫入作業的時間段。此時段不包括因計畫內維護、升級或與 NetApp 約定的支援活動，或因 NetApp 無法控制或負責的情況而導致的 STaaS 服務無法使用時間。</block>
+  <block id="f8971c76f1b886f18346b05bcd3f42eb" category="list-text">*符合資格的秒數*：一個月內計入正常運作時間計算的秒數，不包括上述定義的任何服務無法使用期間。</block>
+  <block id="6e99b4605e2844bad11c683ae61a5295" category="list-text">服務無法使用的時間（秒）：95 秒</block>
+  <block id="9d62424c2ca4c3cda958cf473e3fb9f2" category="paragraph">根據計算，每月正常運作時間為 99.996%，服務信用百分比為 5%。</block>
+  <block id="5f9c79bf01a54229f5239d632d0d58be" category="paragraph">根據計算，服務點數為 $5。</block>
+  <block id="a55cec6d826c4a17c522ee2c6e214342" category="list-text">服務抵扣額可用於抵扣未來的帳單。服務抵扣額不適用於已過期的 Keystone 訂閱。如需聯絡 NetApp 支援團隊並提交申請服務抵扣所需的支援案例，請參閱 <block ref="da15ada5eca0cf6d8fba09a6cd49576b" category="inline-link-macro-rx"></block>。</block>
+  <block id="969217a02fe5cd6d0928004fe76c034c" category="paragraph">Keystone STaaS 提供基於延遲的效能服務等級目標 (SLO)，目標是統一儲存（不包括 _Value_ 效能服務等級）、區塊最佳化儲存和 AFX 儲存的每個效能服務等級實例 (PSLI) 的延遲達到第 90 個百分位。了解如何檢查效能、適用哪些規則，以及如果 Keystone 未達到 Keystone 訂單條款和條件中規定的已使用容量延遲目標（最高可達突發限制），如何獲得服務補償。</block>
+  <block id="57d56dc842f4da79392d5bc2178582dc" category="list-text">使用進階資料保護附加服務時，目標延遲僅包含本機儲存陣列的 IO 作業。</block>
+  <block id="3acccb377ba516abf2132c1adc6423bf" category="list-text">僅適用於 NetApp AFF 和 AFX 平台。</block>
+  <block id="a91917c53f37c42ea4f42351b4244d50" category="list-text">Keystone 訂單中規定的每個效能服務等級執行個體的所有最小和最大容量及其他限制均適用。</block>
+  <block id="bdcd0790b387669bdb07fee0a1463b92" category="list-text">所有效能服務等級執行個體都需要完全且持續地啟用監控工具和 AutoSupport （ASUP）。</block>
+  <block id="dce1b40515aa817043b0bf0763077312" category="paragraph">以下範例展示如何計算服務積分：</block>
+  <block id="30ffee792d3072c7be1c949f62571d1a" category="paragraph">根據計算，服務積分為 $12。</block>
+  <block id="f098ec66e0f26f5df7a5592bdb141c0a" category="summary">了解 Keystone 的永續性 SLO 如何為您的 STaaS 部署定義能耗目標，以及如果未達到這些目標，如何申請服務積分。</block>
+  <block id="8d35a7b89502c52082173da04de457f8" category="paragraph">永續性服務等級目標 (SLO) 旨在將 STaaS 產品的功耗控制在額定功率範圍內，以提供統一儲存（不包括 _Value_ 效能服務等級）和區塊最佳化儲存的效能服務等級實例 (PSLI)，或每個 AFX 叢集的功耗控制在額定功率範圍內。了解 Keystone 的永續性目標如何影響您的 STaaS 設定，以及如果未達到限制，如何獲得服務積分。</block>
+  <block id="e5e09031843479ef9ef8cbbd4c2f404c" category="inline-link-macro">NetApp Hardware Universe</block>
+  <block id="0957c568dff0d0f914638526e7f1a262" category="list-text">*瓦特*：儲存陣列或 AFX 叢集消耗的功率，由監控工具報告。參考最大功耗限制在<block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>中提供。</block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">支援的組態</block>
+  <block id="7b734bd95cc612f2180222cd0966d01a" category="paragraph">永續性 SLO 適用於具有以下支援組態的標準 Keystone STaaS 訂單：</block>
+  <block id="d84af230e5256387df720dc6e6401783" category="list-text">僅限 ONTAP AFF A 系列儲存陣列或 AFX 叢集。</block>
+  <block id="eef5e20586564143edd70f950ca5727a" category="list-text">僅限雙節點無交換器叢集組態。</block>
+  <block id="43c0052492b4cf22f1061e8b253a8b7c" category="list-text">僅限非混合組態。</block>
+  <block id="d2278bb8c254ac125b34f0484a6761a2" category="list-text">僅限非 MetroCluster 組態。</block>
+  <block id="6c85a12186f0a6666e6748da41a8b1b5" category="list-text">在所有儲存陣列上全面、持續地啟用監控工具和 AutoSupport （ASUP）。</block>
+  <block id="37e0401ff29d70ff45dc4a329f698232" category="list-text">功耗測量期間的環境工作溫度必須在 25°C 至 27°C 之間。</block>
+  <block id="de8a5d7b6fe1ed65382a0c659b08f09c" category="paragraph">如果計費週期內的功耗超過已部署 STaaS 產品的最大額定瓦數、則 NetApp 會根據承諾容量發放服務積分、如下所示：</block>
+  <block id="82fd6f0d4eac87689d3947d1d64173cf" category="paragraph">如需申請服務積分，請在服務月份結束後的 7 天內向 NetApp Keystone 支援部門提交優先順序為 3 的（P3）支援工單，並按如下 Excel 表格所示提供詳細資訊：</block>
+  <block id="eb0a3518d4d04ab2b4270613e64c483b" category="paragraph">請注意以下服務積分申請條件：</block>
+  <block id="3b7152544c75c62ded24e1fd1a685b73" category="list-text">NetApp 判斷是否發生了服務等級違規事件。</block>
+  <block id="8b45152d7e3ba182c3c6da98ff9554f3" category="list-text">您必須按 NetApp 要求提供其他資訊，包括您的功率消耗資料和測量方法。</block>
+  <block id="29efe66e5d977e648c0b8fe8ded78f64" category="list-text">服務點數僅根據已承諾容量計算。</block>
+  <block id="aef3ca4f7faa27b1414b3600146ecccd" category="list-text">服務抵扣額僅可用於抵扣下個月的帳單。已過期的 Keystone 訂閱不適用。如需聯絡 NetApp 支援團隊並提交申請服務抵扣所需的支援案例，請參閱<block ref="da15ada5eca0cf6d8fba09a6cd49576b" category="inline-link-macro-rx"></block>。</block>
+  <block id="b19633d0cb8d2d57513d2cc23138bc62" category="paragraph">Keystone STaaS 使用多種容量術語來衡量、承諾和計費儲存資源。了解這些術語將有助於您規劃訂閱，並解讀您的使用報告和帳單。</block>
+  <block id="264b7a5ed1f918cbf7c442e0e60373aa" category="list-text">容量會分配給每個效能服務層級執行個體，以供統一或區塊最佳化儲存設備使用，或分配給每個 AFF 叢集。</block>
+  <block id="0659d428df833a806e29e65e632d380a" category="inline-link-macro">NetApp 支援</block>
+  <block id="e5a2be6d0ccccb64a8b7b744fb113602" category="paragraph">訂閱期間、您可以根據特定條件變更已承諾的容量。如需容量增加和減少規則的完整詳細資料、請參閱<block ref="7bcdec1ed35620533b43c63b4f4340ca" category="inline-link-macro-rx"></block>。若要申請變更、請聯絡您的 Keystone Success Manager (KSM) 或<block ref="1c9a6e99a7c2e3996e73f5bc2292ac5b" category="inline-link-macro-rx"></block>。</block>
+  <block id="56ae4bcb822e971e4c40a45fcdc8fe7c" category="paragraph">已使用容量是指服務目前正在使用的容量（以 TiB 儲存為單位）。根據資料儲存類型的不同，其計算方式也不同：</block>
+  <block id="ac24d860f9ed456787c6adde87f5cdec" category="list-text">計量實體容量、儲存陣列資料效率之後、用於儲存所有執行個體和類型的客戶資料、例如複本、鏡射複本、版本和複本。</block>
+  <block id="7a82a6c6825909fc68fecd9286f3ac2e" category="list-text">*AFF 儲存設備*：以 AFF 叢集為單位計算，計算方法為以下項目的總和：</block>
+  <block id="474b185f5d41440b6fd87e927f87c541" category="list-text">*Cloud Volumes ONTAP*：已消耗容量以所有 Cloud Volumes ONTAP 磁碟區的計量配置邏輯容量計算。</block>
+  <block id="f234322ad18556ff16aa01dee7300a47" category="list-text">Keystone 訂單中會約定突發容量限制。通常預設為每個效能服務等級執行個體或每個 AFF 叢集承諾容量的 20% ，對於統一化儲存設備和區塊最佳化儲存設備，也可以選擇將突發容量限制設為承諾容量的 40% 或 60% 。</block>
+  <block id="dbdc1a5faef8b8ddb2e25e6f74f5bcad" category="list-text">突發容量消耗以與所選資料儲存類型（DST）和效能服務等級對應的承諾容量相同的費率計費。</block>
+  <block id="ee8a9a50b86a2c256eab909e35a02e93" category="paragraph">Keystone STaaS 支援 NetApp 平台上的統一儲存、區塊最佳化儲存、AFX 儲存和物件儲存，以及 Cloud Volumes ONTAP。每種儲存類型都被定義為資料儲存類型（DST），並提供包含在基礎訂閱中的標準服務以及可選的附加服務。</block>
+  <block id="cf709c54f33c36288707362879eb2dfc" category="section-title">Keystone STaaS 標準與附加服務</block>
+  <block id="fea9eb0cc582a232ee51b0b1795cb10d" category="paragraph">您可以同時訂閱多個 Keystone STaaS 服務。當雲端服務新增至訂閱時、它們與統一儲存、區塊最佳化儲存和 / 或物件儲存共用相同的訂閱期限。您可以在有效儲存訂閱期間的任何時間新增雲端服務。但是、如果您不打算續訂現有的統一儲存、區塊最佳化儲存或物件儲存訂閱、則在該訂閱的最後 90 天內無法新增雲端服務。</block>
+  <block id="38ae0b328c3e26812a7b700ae678f4fd" category="admonition">AFX 訂閱是獨立的，不能與統一儲存、區塊最佳化儲存或物件儲存組合在同一訂閱中。如果您需要將 AFX 與其他儲存類型一起使用，則必須將它們作為單獨的訂閱訂購。</block>
+  <block id="a23e642130f1faeaf44b0ea678dfb545" category="section-title">支援的資料儲存類型</block>
+  <block id="4b145c1a0a082ca2088077335b5b27ad" category="paragraph">Keystone STaaS 服務適用於統一儲存、區塊最佳化儲存、物件儲存和 AFX 儲存，支援多種功能和傳輸協定，如下表所示：</block>
+  <block id="89c4606de5985538d49b5c4d2de1f372" category="cell">資料儲存類型</block>
+  <block id="1dbd464eef96e9cc4151734185a50c7a" category="paragraph">統一化</block>
+  <block id="6ecc4697f1d9c05f24082ff3ce9e5332" category="paragraph">包括檔案、區塊和 S3 物件儲存設備</block>
+  <block id="7be22e84c6b6dd889b6512a3a909473d" category="paragraph">AFF 和 FAS 系統上的 ONTAP</block>
+  <block id="c8cdbe16cfc746d5d45679b593aa96f9" category="paragraph">區塊最佳化</block>
+  <block id="9fcbe2959ad6ae31dd4236c7692f85a5" category="paragraph">包括區塊儲存設備</block>
+  <block id="0eac61638ee43a0176a5562b3e8d3ee0" category="paragraph">支援所有 ONTAP One for SAN 功能</block>
+  <block id="7ac2c1fb9d73869eb302a675ce9e626a" category="paragraph">包括分離式儲存平台上的檔案和物件儲存設備</block>
+  <block id="31a9d0fc9a4d05dfcf904af47370352a" category="paragraph">AFX 系統上的 ONTAP</block>
+  <block id="497031794414a552435f90151ac3b54b" category="paragraph">物件</block>
+  <block id="210e56fe3363d08baaade2dc0b9e44d3" category="paragraph">包括物件儲存設備</block>
+  <block id="ae566ca3a7090c62a4e64db6763e5fc9" category="paragraph">支援所有 StorageGRID 功能</block>
+  <block id="6d1270d83b59c4d34695059058ba3873" category="admonition">Cloud Volumes ONTAP 所需的基於超大規模雲端的運算、儲存和網路服務並非 NetApp 提供的 Keystone STaaS 訂閱的一部分；這些訂閱需要直接從超大規模雲端服務供應商購買。</block>
+  <block id="c148f39d208183361daf2e5ab75c9a60" category="admonition">Keystone 訂閱的容量消耗量會以 TiBs 顯示在儀表板和報告中，並四捨五入到小數點後兩位。如果使用量小於 0.01 TiB，則該值會顯示為 0 或「無使用」。這些畫面上的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時，系統會自動將其視為 UTC 時間。若要深入瞭解使用量指標，請參閱<block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>。如需 Keystone 中使用的不同容量相關資訊，請參閱<block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>。</block>
+  <block id="e6664e13d8023d762b4d6f2f644a6287" category="sidebar">儲存容量類型</block>
 </blocks>

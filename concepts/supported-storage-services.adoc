@@ -14,14 +14,11 @@ summary: Keystone STaaS 服務支援 ONTAP 和 StorageGRID 。
 
 
 [role="lead"]
-Keystone STaaS 服務支援NetApp和Cloud Volumes ONTAP的統一儲存、區塊最佳化儲存和物件儲存。
+Keystone STaaS 支援 NetApp 平台上的統一儲存、區塊最佳化儲存、AFX 儲存和物件儲存，以及 Cloud Volumes ONTAP。每種儲存類型都被定義為資料儲存類型（DST），並提供包含在基礎訂閱中的標準服務以及可選的附加服務。
 
-支援的儲存選項有：
 
-* *統一儲存*：包括檔案、區塊和 S3 物件存儲，可在 NetApp ONTAP AFF 和 FAS 系統上使用。
-* *區塊最佳化儲存*：包括NetApp ONTAP ASA系統上可用的區塊儲存。
-* *物件儲存*：包括 NetApp StorageGRID 系統上可用的物件儲存。
 
+== Keystone STaaS 標準與附加服務
 
 Keystone STaaS可為您的儲存設備提供標準和選用的服務。
 
@@ -29,48 +26,70 @@ Keystone STaaS可為您的儲存設備提供標準和選用的服務。
 
 * Keystone STaaS附加服務*：這些是可選的收費服務、除了提供標準Keystone STaaS訂閱服務之外、還能提供額外的公用程式與效益。
 
-Keystone STaaS 服務可以同時使用。例如，雲端儲存訂閱的期限可以與統一儲存、區塊最佳化儲存和物件儲存訂閱的期限相同。雲端服務可在現有儲存訂閱的服務期間內隨時納入。但是，如果您不打算續訂現有的統一儲存、區塊最佳化儲存或物件儲存訂閱，則在訂閱的最後 90 天內無法新增雲端儲存訂閱。
+您可以同時訂閱多個 Keystone STaaS 服務。當雲端服務新增至訂閱時、它們與統一儲存、區塊最佳化儲存和 / 或物件儲存共用相同的訂閱期限。您可以在有效儲存訂閱期間的任何時間新增雲端服務。但是、如果您不打算續訂現有的統一儲存、區塊最佳化儲存或物件儲存訂閱、則在該訂閱的最後 90 天內無法新增雲端服務。
+
+
+NOTE: AFX 訂閱是獨立的，不能與統一儲存、區塊最佳化儲存或物件儲存組合在同一訂閱中。如果您需要將 AFX 與其他儲存類型一起使用，則必須將它們作為單獨的訂閱訂購。
 
 
 
-== 統一、區塊最佳化和物件儲存服務
+== 支援的資料儲存類型
 
-Keystone STaaS 服務適用於統一儲存、區塊最佳化儲存和物件存儲，支援多種功能和協議，如下表所述：
+Keystone STaaS 服務適用於統一儲存、區塊最佳化儲存、物件儲存和 AFX 儲存，支援多種功能和傳輸協定，如下表所示：
 
 |===
-| 儲存設備 | 平台 | 通訊協定 | 支援的功能 
+| 資料儲存類型 | 說明 | 平台 | 通訊協定 | 支援的功能 
 
 
  a| 
-統一化儲存設備
+統一化
  a| 
-ONTAP
+包括檔案、區塊和 S3 物件儲存設備
  a| 
-NFS與CIFS
+AFF 和 FAS 系統上的 ONTAP
+ a| 
+FC、iSCSI、NFS、NFSv4/RDMA、NVMe/FC、NVMe/TCP、SMB、S3
  a| 
 支援所有 ONTAP One 功能
 
 
 
  a| 
-區塊最佳化儲存
+區塊最佳化
  a| 
-ONTAP
+包括區塊儲存設備
+ a| 
+NVMe/TCP、NVMe/FC、FC、iSCSI
  a| 
 FC與iSCSI
  a| 
+支援所有 ONTAP One for SAN 功能
+
+
+
+ a| 
+AFX
+ a| 
+包括分離式儲存平台上的檔案和物件儲存設備
+ a| 
+AFX 系統上的 ONTAP
+ a| 
+NFSv3 、 NFSv4/RDMA 、 pNFS 、 SMB 、 S3
+ a| 
 支援所有 ONTAP One 功能
 
 
 
  a| 
-物件儲存
+物件
+ a| 
+包括物件儲存設備
  a| 
 StorageGRID
  a| 
 S3
  a| 
-支援所有 ONTAP One 功能
+支援所有 StorageGRID 功能
 
 |===
 要了解有關 ONTAP One 的更多信息，請參閱link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html#licenses-included-with-ontap-one["ONTAP 授權總覽"^]和link:https://www.netapp.com/blog/ontap-one/["ONTAP One：集 ONTAP 全部功能於一身"^] 。
@@ -82,4 +101,4 @@ S3
 Keystone STaaS提供雲端儲存服務。Keystone STaaS可在Cloud Volumes ONTAP Amazon Web Services（AWS）、Microsoft Azure和Google Cloud Platform上支援「資料不全」管理功能。
 
 
-NOTE: NetApp並未提供由NetApp所需的超純量運算、儲存及網路服務Cloud Volumes ONTAP 、作為Keystone STaaS訂閱的一部分；這些訂閱必須直接向超純量雲端服務供應商購買。
+NOTE: Cloud Volumes ONTAP 所需的基於超大規模雲端的運算、儲存和網路服務並非 NetApp 提供的 Keystone STaaS 訂閱的一部分；這些訂閱需要直接從超大規模雲端服務供應商購買。

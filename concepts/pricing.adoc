@@ -26,7 +26,7 @@ Keystone為您提供以下計費功能：
 
 Keystone計費是根據已提交的容量和可變的突發消耗量來計算。
 
-如需Keystone支援的不同容量資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone中支援的儲存容量"]。
+如需 Keystone 支援的不同容量相關資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone 中的儲存容量類型"]。
 
 *相關資訊*
 

@@ -43,7 +43,7 @@ image:new-db-4.png["全新儀表板"]
 訂閱的詳細資訊、每個效能服務等級的使用情況圖表以及磁碟區詳細資訊顯示在 *Keystone 訂閱* 螢幕上的不同標籤中。
 
 
-NOTE: Keystone 訂閱的容量使用量會顯示在儀表板和報告的 Tibs 中、並四捨五入至兩位小數位數。如果使用量少於 0.01 TiB，則數值顯示為 0 或無使用量。這些畫面上的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時、系統會自動將其視為 UTC 時間。若要深入瞭解使用量標準、請 link:../concepts/metrics.html#metrics-measurement["指標測量"]參閱。如需 Keystone 中使用之不同容量的相關資訊，請參閱 link:../concepts/supported-storage-capacity.html["支援的儲存容量"]。
+NOTE: Keystone 訂閱的容量消耗量會以 TiBs 顯示在儀表板和報告中，並四捨五入到小數點後兩位。如果使用量小於 0.01 TiB，則該值會顯示為 0 或「無使用」。這些畫面上的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時，系統會自動將其視為 UTC 時間。若要深入瞭解使用量指標，請參閱link:../concepts/metrics.html#metrics-measurement["指標測量"]。如需 Keystone 中使用的不同容量相關資訊，請參閱link:../concepts/supported-storage-capacity.html["Keystone 中的儲存容量類型"]。
 
 
 

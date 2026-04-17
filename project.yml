@@ -146,7 +146,7 @@ sidebar:
         url: "/concepts/metrics.html"
       - title: 支援的儲存設備
         url: "/concepts/supported-storage-services.html"
-      - title: 支援的容量
+      - title: 儲存容量類型
         url: "/concepts/supported-storage-capacity.html"
       - title: 績效服務水準
         url: "/concepts/service-levels.html"
