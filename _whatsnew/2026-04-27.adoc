@@ -1,0 +1,17 @@
+= 重新命名已佈建容量標籤
+:allow-uri-read: 
+
+
+NetApp Console中Keystone儀表板的新增強功能：
+
+
+
+=== 重新命名已佈建容量標籤
+
+標籤 *Provisioned capacity* 已重新命名為 *Provisioned volume capacity*。更新後的標籤也已反映在相關的 CSV 和 Excel 報表中。
+
+
+
+=== 累積高載的預測切換
+
+您現在可以在 *Consumption trend* 標籤的 *Accrued burst* 檢視中使用 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的累積突發流量使用量。如需深入瞭解，請參閱 link:./integrations/consumption-tab.html#view-forecast-data["查看預測資料"]。

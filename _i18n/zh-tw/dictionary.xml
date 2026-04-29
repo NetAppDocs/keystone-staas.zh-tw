@@ -2331,7 +2331,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">*訂閱* 標籤包含一個 *使用類型* 欄，該欄顯示訂閱是按已佈建、實體或邏輯使用量計費。如需深入瞭解，請參閱 <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>。</block>
   <block id="77f26dcf71ccd46a1988ad176507362f" category="paragraph">若要設定 DII ，請參閱 <block ref="9c96a8ce2c2de39e18e71cf6b16e737c" category="inline-link-macro-rx"></block> 。</block>
   <block id="46258461c8dd073deb37f9c53353b64e" category="list-text">如果客戶要啟動新的 DII 實例，建議從<block ref="6d36cc4d8aae109cb667709b36f129f9" category="inline-link-macro-rx"></block>開始。若要了解此功能和所需的啟動清單，請參閱<block ref="fa9eb45797f94a182876dd4cce75625a" category="inline-link-macro-rx"></block>。</block>
-  <block id="511d6a0f4f5ad7c5f79e56d010b571b0" category="paragraph">您可以透過 Console 或 Digital Advisor 檢視累計突發流量使用情況。如果您在 Console 的 *Consumption trend* 標籤中的 *View* 下拉式選單中選擇了 *Accrued burst*，或在 Digital Advisor 的 *Consumption Trend* 標籤中選擇了 *Invoiced Accrued Burst* 選項，則可以根據您選擇的計費週期，按月或按季度查看累計突發流量使用情況。此資料涵蓋最近 12 個已計費月份，您還可以按日期範圍查詢最多過去 30 個月的資料。</block>
   <block id="1e007e954fdd7587bcd939b10c21e650" category="list-text">在 Console 中，您可以與累積突發計費圖表進行交互，以篩選每日資料使用量。要了解更多信息，請參閱<block ref="0cc16f2bbc32fd70c68f98b9b0b4296a" category="inline-link-macro-rx"></block>。</block>
   <block id="1b342e2d578a51d6b3d947da95fe0f10" category="paragraph">在 Console 中，您可以透過選擇累積突發計費圖表中代表計費週期的任意長條圖來篩選表格。篩選後，表格將僅顯示所選計費週期內的日期。若要再次查看完整資料集，請使用 *Clear filters* 選項。如果所選週期沒有可用資料，則會顯示一則訊息，指示沒有可用資料。</block>
   <block id="e6f9cff2e05b0c21bfa8eacbea1108b9" category="paragraph"><block ref="e6f9cff2e05b0c21bfa8eacbea1108b9" category="inline-image-macro-rx" type="image"></block></block>
@@ -2474,10 +2473,8 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="951a19f47f142d3bea8b273df96be4b3" category="admonition">*Cold tier %* 和 *Hot tier %* 欄位分別顯示各層資料百分比，計算方法分別為（冷資料 / 總佔用空間）× 100 和（熱資料 / 總佔用空間）× 100。</block>
   <block id="a7a1db0a49d5a7e9bf844061304b61fc" category="paragraph">您可以查看 Keystone 訂閱中所有叢集磁碟區的詳細資訊，包括磁碟區名稱、訂閱號碼、節點序號、符合 QoS 原則、叢集名稱、主機名稱和效能服務層級。您可以監控已配置容量、邏輯和實體使用率、冷資料和熱資料。您還可以獲得以下概覽：</block>
   <block id="34968986368de263575ec0925e1060e6" category="admonition">您選擇的日期範圍決定了圖表底部顯示的詳細程度。對於 30 天或更短的時間段，每個資料點都會顯示日期和時間。對於超過 30 天的時間段，則僅顯示日期。</block>
-  <block id="570959fa3089c0814520564f59d8cd93" category="paragraph">在 Console 中，除了已開立發票的突發流量使用量外，您還可以查看未開立發票的突發流量使用量（已累積但尚未計費）和暫定突發流量使用量（在目前計費週期內累積但尚未開票）。</block>
   <block id="89558667b836c228a8a40c0b9646c294" category="inline-image-macro">螢幕截圖顯示 Console 中累積的突發流量使用情況</block>
   <block id="f263a9088dc54ae9648c1dae3fe993d3" category="paragraph"><block ref="f263a9088dc54ae9648c1dae3fe993d3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9e85accc113cf94c2f026e5ffe3421be" category="paragraph">您也可以下載 Excel 格式的數據，包括突發狀態（已開立發票、未開立發票或暫定）和計費週期。</block>
   <block id="9781ed71d59e0117b4c9dc5a901b029a" category="paragraph">您可以查看 Keystone 訂閱中的所有警告監控器列表，包括監控器名稱、觸發通知的監控條件、嚴重等級、訂閱編號、效能服務等級和狀態。您可以查看 *Created by* 欄，以了解警告監控器是系統產生的還是使用者定義的。</block>
   <block id="5389584b1bf548949de8edaecabfc485" category="admonition">系統產生的監視器無法編輯。</block>
   <block id="acfccb7b9983c50ac70ead28a6be20cb" category="admonition">系統產生的監控器無法刪除。</block>
@@ -2511,12 +2508,8 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="d1d79a1d3945e37b66a6707cd87b9ed0" category="list-text">*突發容量*：您訂閱允許的最大突發限制。</block>
   <block id="39d85a9f5c080a0273cd8ef8892c32b8" category="list-text">*超出突發容量*：儲存消耗超過突發限制。此指標僅在超出突發限制時顯示。</block>
   <block id="c09e069ede7bdb06ea3b9e7615be21b1" category="paragraph">根據查詢的日期範圍，使用情況圖表最多顯示 30 個資料收集點。您可以將滑鼠游標停留在圖表上，查看每個資料收集點的使用情況細分。</block>
-  <block id="dee9a22d9bea2517a6ba3ada8d2b1d61" category="paragraph">您可以透過主控台「消耗趨勢」標籤中「歷史消耗」檢視下的「預測」開關，查看從目前日期起未來 120 天的預期容量使用情況。此開關預設為啟用。</block>
-  <block id="d895d782266d449ca70ee01f77ce836f" category="paragraph">預設情況下，圖表會在同一張圖上顯示過去 30 天的歷史消費量以及從當前日期開始的 120 天預測消費量。總共最多繪製 30 個資料點（20 個歷史資料和 10 個預測資料），並用一條垂直線分隔這兩個部分。</block>
   <block id="98e9fc7499f5ec07bce7ba0ae4c459ea" category="inline-image-macro">顯示預測資料的螢幕擷取畫面</block>
   <block id="aec1b050350c808c951dd08448b9c9ad" category="paragraph"><block ref="aec1b050350c808c951dd08448b9c9ad" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="41ba25ff2c151db2eb81aa97afa993b7" category="paragraph">如果您選擇的日期範圍不包含目前日期，則預測功能將自動停用。若要重新啟用預測功能，系統會跳出確認對話框，告知您預測資料僅在所選時間範圍包含目前日期時可用。確認操作會將視圖重設為預設範圍，即過去 30 天的歷史資料加上未來 120 天的預測資料。</block>
-  <block id="449cacbccdea6e91ca0e477aed1e6767" category="paragraph">如果預計消耗量將超過突發容量，圖表上將出現警示指標，建議進行容量升級。</block>
   <block id="096ba8f18f440795ebc161dce2259d12" category="list-text">*連結的訂閱*：如果您有任何連結至主要訂閱的次要訂閱，此欄會列出主要訂閱的連結訂閱編號。此欄預設為隱藏，僅在有連結的訂閱時才會顯示。</block>
   <block id="ed7ea238eb12e525c819f7503ae42929" category="list-text">*Keystone 版本*：訂閱所使用的 Keystone 服務版本。不同訂閱版本的效能服務等級費率方案規則可能有所不同。要了解有關 v1 版本的更多資訊，請參閱<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block>。此欄預設為隱藏，可以使用欄選擇器 <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> 圖示啟用。</block>
   <block id="a317125c258dec2606079ff63caaadb2" category="paragraph">2026-03-30</block>
@@ -2706,4 +2699,23 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="6d1270d83b59c4d34695059058ba3873" category="admonition">Cloud Volumes ONTAP 所需的基於超大規模雲端的運算、儲存和網路服務並非 NetApp 提供的 Keystone STaaS 訂閱的一部分；這些訂閱需要直接從超大規模雲端服務供應商購買。</block>
   <block id="c148f39d208183361daf2e5ab75c9a60" category="admonition">Keystone 訂閱的容量消耗量會以 TiBs 顯示在儀表板和報告中，並四捨五入到小數點後兩位。如果使用量小於 0.01 TiB，則該值會顯示為 0 或「無使用」。這些畫面上的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時，系統會自動將其視為 UTC 時間。若要深入瞭解使用量指標，請參閱<block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>。如需 Keystone 中使用的不同容量相關資訊，請參閱<block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>。</block>
   <block id="e6664e13d8023d762b4d6f2f644a6287" category="sidebar">儲存容量類型</block>
+  <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">重新命名已佈建容量標籤</block>
+  <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">標籤 *Provisioned capacity* 已重新命名為 *Provisioned volume capacity*。更新後的標籤也已反映在相關的 CSV 和 Excel 報表中。</block>
+  <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">累積高載的預測切換</block>
+  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">您現在可以在 *Consumption trend* 標籤的 *Accrued burst* 檢視中使用 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的累積突發流量使用量。如需深入瞭解，請參閱 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>。</block>
+  <block id="b833fc063470eb72aa05a5570f243c7b" category="admonition">您可以使用 *Forecast* 切換按鈕，在 *Historical consumption* 檢視中查看預期容量使用情況，在 *Accrued burst* 檢視中查看預期累積突發流量。要了解更多資訊，請參閱 <block ref="c3e0115050031e1e905cbb5a43dfe637" category="inline-link-macro-rx"></block>。</block>
+  <block id="f0966c8c81211afb8b1cacba8a9fa525" category="paragraph">您可以透過 Console 或 Digital Advisor 檢視累計突發流量使用情況。如果您在 Console 的 *Consumption trend* 標籤中的 *View* 下拉式選單中選擇了 *Accrued burst*，或在 Digital Advisor 的 *Consumption Trend* 標籤中選擇了 *Invoiced Accrued Burst* 選項，則可以根據您選擇的計費週期，按月或按季度查看累計突發流量使用情況。</block>
+  <block id="30403a0435001d542a0a621f63da7853" category="paragraph">在 Console 中，當 *Forecast* 切換開關停用時，您可以檢視已開立發票的突發使用量、未開立發票的突發使用量（已累計但尚未開立帳單）以及暫定突發使用量（在目前計費期間累計但尚未開立發票）。當 *Forecast* 切換開關啟用時，圖表也會顯示從目前日期起未來 120 天的預計累計突發使用量。若要深入瞭解 *Forecast* 切換開關，請參閱 <block ref="c3e0115050031e1e905cbb5a43dfe637" category="inline-link-macro-rx"></block>。</block>
+  <block id="4951b01aa4815e91bf5e5e1d2f14728e" category="paragraph">在 Console 中，您可以使用 *Consumption trend* 標籤中的 *Forecast* 切換按鈕，在 *Historical consumption* 檢視中查看預期容量使用情況，並在 *Accrued burst* 檢視中查看預期累積突發流量。預設情況下，這兩個檢視中的切換按鈕均已啟用。</block>
+  <block id="30581acd054ace99b93673d52e83f48b" category="paragraph">在 *Historical consumption* 視圖中，圖表會同時顯示過去 30 天的歷史消費量以及從當前日期開始的 120 天預測消費量。最多可繪製 30 個資料點（20 個歷史資料和 10 個預測資料），並以一條垂直線分隔這兩個部分。</block>
+  <block id="c3150ed0c9263aebf6fad206d2bbfa0f" category="paragraph">在 *Accrued burst* 視圖中，圖表顯示了過去 6 個月的累積突發流量歷史記錄以及從當前日期起 120 天的預測資料，一條垂直線分隔了歷史資料和預測資料。目前計費週期長條圖顯示了剩餘天數的暫定突發流量使用量和預測資料。您可以點選任一長條圖，在 *Accrued burst by days* 表中查看每日明細。要了解有關 *Accrued burst by days* 表的更多資訊，請參閱<block ref="0cc16f2bbc32fd70c68f98b9b0b4296a" category="inline-link-macro-rx"></block>。</block>
+  <block id="2c1588a23b3ae26913ca97110590c261" category="inline-image-macro">顯示累積爆發預測的螢幕擷取畫面</block>
+  <block id="fa251514521b15877d660478b5f146da" category="paragraph"><block ref="fa251514521b15877d660478b5f146da" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7fea2236eaf015429aa1139544fbef4b" category="paragraph">如果您選擇的日期範圍不包含目前日期，則預測功能將自動停用。若要重新啟用預測功能，系統會跳出確認對話框，告知您只有當所選時間軸包含目前日期時，預測資料才可用。如果您確認對話框，視圖將重設為所選視圖的預設範圍：在 *Historical consumption* 視圖中，為過去 30 天的歷史資料加上未來 120 天的預測資料；在 *Accrued burst* 視圖中，為過去 6 個月的累積突發消耗量歷史記錄加上未來 120 天的預測資料。</block>
+  <block id="4aadf88f31f4e4fb67909d4a1f8d6fa5" category="paragraph">如果預計使用量將超過已承諾的容量，圖表上會出現橘色警示指標，建議升級容量。如果預計使用量將超過突發容量，則還會出現紅色警示指標，同樣建議升級容量。</block>
+  <block id="20eac3e5793b6f7331d6d7f608939431" category="admonition">圖表中顯示的資料取決於 *Forecast* 開關是否啟用。</block>
+  <block id="42fda15e65e4afa2339de7eff6850159" category="paragraph">您也可以下載 Excel 格式的可用資料，包括突發狀態（已開立發票、未開立發票、暫定或預測，視情況而定）和計費週期。</block>
+  <block id="f649abbfb1fbdf6d16ef1e522e9f0b3f" category="paragraph">預測使用量資料中的下降趨勢不準確</block>
+  <block id="af9ef0b1942bfef1a3c549bcd43ad2d0" category="paragraph">在 *Consumption trend* 標籤中，當在 *Historical consumption* 檢視中啟用 *Forecast* 切換開關時，預期的容量使用會顯示明顯且不準確的下降趨勢。</block>
+  <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026 年 4 月 27 日</block>
 </blocks>
