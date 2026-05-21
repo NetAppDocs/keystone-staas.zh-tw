@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concepts/pricing.html 
-keywords: pricing, billing introduction, Keystone billing 
-summary: Keystone 提供隨成長付費模式、滿足您靈活且可擴充的消費需求。 
+keywords: pricing, Keystone billing, committed capacity, consumed capacity, burst consumption, billing schedules 
+summary: 使用 NetApp Keystone STaaS，您只需為承諾的儲存容量付費，超出部分才需額外付費。本頁面將詳細介紹這種按需付費模式的運作方式——從儲存承諾的定價、容量的計量和計費，到何時產生帳單。 
 ---
-= 了解Keystone定價
+= 了解 Keystone 計費方式
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,13 @@ summary: Keystone 提供隨成長付費模式、滿足您靈活且可擴充的�
 
 
 [role="lead"]
-NetApp Keystone STaaS 按使用量付費訂閱服務提供靈活且可擴展的消費，並為您的儲存需求提供可預測的預付定價。
+使用 NetApp Keystone STaaS，您只需為承諾的儲存容量付費，超出部分才需額外付費。本頁將詳細介紹按需付費模式的運作方式，包括儲存承諾的定價方式、容量的計量和計費方式，以及何時產生帳單。
+
+
+
+== Keystone 定價模式
+
+您的 Keystone 訂閱服務讓您能夠預估成本，並可根據工作負載需求靈活擴充。Keystone 是根據您選擇的效能服務等級和承諾的容量收費。
 
 Keystone為您提供以下計費功能：
 
@@ -28,11 +34,77 @@ Keystone計費是根據已提交的容量和可變的突發消耗量來計算。
 
 如需 Keystone 支援的不同容量相關資訊、請參閱 link:../concepts/supported-storage-capacity.html["Keystone 中的儲存容量類型"]。
 
-*相關資訊*
 
-* link:../concepts/committed-capacity-billing.html["根據已提交的容量進行計費"]
-* link:../concepts/consumed-capacity-billing.html["根據耗用容量進行計量"]
-* link:../concepts/burst-consumption-billing.html["根據尖峰使用量進行計費"]
-* link:../concepts/misc-volume-billing.html["根據雜項Volume類型進行收費"]
-* link:../concepts/billing-schedules.html["帳單排程"]
+
+== Keystone 如何衡量容量
+
+Keystone 使用三種容量概念來計算您的帳單。了解每種概念有助於您避免意外費用。
+
+
+
+=== 承諾容量
+
+承諾容量是指您在簽署 Keystone 訂閱協定時，同意為特定效能服務等級所購買的容量。此容量在您的 Keystone 訂單中是固定的，並且每個計費週期都會全額計費，無論您的工作負載實際使用了多少容量。
+
+例如，如果您在 Premium 服務層級承諾使用 100 TiB，即使當月實際使用量為 80 TiB，您也會被收取 100 TiB 的費用。
+
+承諾容量可以涵蓋單一訂閱內的多個效能服務級別，具體由您和 NetApp 或您的合作夥伴協商確定。
+
+若要檢視您承諾的容量並追蹤實際使用情況，請參閱 link:../integrations/current-usage-tab.html["查看您目前的消費詳情"]。
+
+
+
+=== 已用容量
+
+已使用容量是指您的工作負載在任何時間點實際使用的容量。Keystone 會在整個計費週期內持續監控並衡量您的容量使用。至少每五分鐘產生一次容量使用記錄，記錄您訂閱的目前已使用容量。這些記錄會在整個計費週期內彙總，以產生發票和使用情況報告。
+
+五分鐘的監控間隔確保了精細的追蹤，因此可以偵測到突發使用情況並準確計費，而不是在週期結束時進行估算。
+
+當實際使用容量等於或低於承諾容量時，僅以承諾容量費率計費。當實際使用容量超過承諾容量時，將以突發流量計費。
+
+
+
+=== 突發消耗
+
+突發容量消耗是指您超出承諾容量的使用量。您的突發容量限制由 Keystone 協定決定並指定。預設情況下，突發容量限制為承諾容量的 20% 以上。您也可以選擇承諾容量的 40% 或 60% 作為突發容量限制。要了解更多資訊，請參閱 link:../concepts/burst-capacity.html["突發容量選項"]。
+
+例如，如果您承諾的容量為 100 TiB，而您使用了 115 TiB，則額外的 15 TiB 將按突發速率計費。
+
+當效能服務等級的已使用容量大於已承諾容量時，系統會記錄突發用量並據此計費。超出突發容量限制的使用量會被標記為「超出突發限制」。
+
+突發消耗量是根據計費週期內產生的每個消耗記錄計算的。它反映了您在已承諾容量之外超出消耗的容量數量和持續時間。若要查看訂閱的突發消耗趨勢，請參閱link:../integrations/consumption-tab.html["查看 Keystone 訂閱的消費趨勢"]。
+
+
+
+== 帳單排程
+
+您的計費頻率已在您的 Keystone 協定中設定。下表顯示了在每種方案下，預計何時會收到承諾容量和突發使用量的帳單。
+
+[cols="1,2,2"]
+|===
+| 計費頻率 | 已承諾容量的發票 | 突發使用量發票 
+
+
+| 每月 | 於次月寄出 | 包含在同一張發票中 
+
+
+| 每季 | 在每季初發送 | 在每季末發送 
+
+
+| 每半年 | 在每個 6 個月週期開始時發送 | 在每季末發送 
+
+
+| 每年 | 在每個訂閱年度開始時發送 | 在每季末發送 
+|===
+
+NOTE: 對於按季度、半年或年度計費的訂閱模式，如果您在訂閱期間的已承諾容量發生變更，我們將於當日發送帳單，收取該訂閱年度剩餘時間的按比例計算的最低付款額。帳單將從已承諾容量變更生效日起計算。
+
+
+
+== 相關資訊
+
+* link:../concepts/supported-storage-capacity.html["Keystone 中的儲存容量類型"]
+* link:../concepts/burst-capacity.html["突發容量選項"]
+* link:../integrations/current-usage-tab.html["查看您目前的消費詳情"]
+* link:../integrations/consumption-tab.html["查看 Keystone 訂閱的消費趨勢"]
 

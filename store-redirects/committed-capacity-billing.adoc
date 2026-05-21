@@ -1,0 +1,8 @@
+---
+permalink: concepts/committed-capacity-billing.html 
+redirect: keystone-staas/concepts/pricing.html 
+---
+= 
+:allow-uri-read: 
+
+

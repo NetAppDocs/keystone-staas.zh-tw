@@ -31,8 +31,6 @@
   <block id="5866f5199f36da24870932aa9db6ab49" category="list-text">它提供可預測的計費方式、可針對已提交的容量、以及針對可變（突發）容量使用量的「依使用量付費」。</block>
   <block id="1506e8c7e13ed05e538e60e10a3477b1" category="paragraph">Keystone計費是根據已提交的容量和可變的突發消耗量來計算。</block>
   <block id="b3f5d2a190d6e7bd7689ffbabbb1e2f2" category="inline-link-macro">Keystone中支援的儲存容量</block>
-  <block id="8a73a45becb1972a998dc8490856f730" category="summary">根據尖峰使用量進行計費</block>
-  <block id="83cd48b4617f1e69361a1ecec3f5b3a3" category="summary">根據雜項Volume類型進行收費</block>
   <block id="ff6306dccf086261b36fc9764ec0a69c" category="section-title">複製磁碟區的收費</block>
   <block id="ba4c22a98feebac558bbaac68b704e09" category="section-title">暫用磁碟區收費</block>
   <block id="480da42f59e7a8b523d40d52ba830cb8" category="paragraph">有時 ONTAP 、當搬移 Volume 時、會由現象開發出暫用（ TMP ） Volume 。這些暫存磁碟區的壽命很短、而且不會測量這些磁碟區的使用量以供計費。</block>
@@ -72,8 +70,6 @@
   <block id="a87ff679a2f3e71d9181a67b7542122c" category="cell">4.</block>
   <block id="6872c2b6282a1ff41523f7b84a51d4da" category="section-title">雲端儲存設備</block>
   <block id="dfd0252d57910ac70c5c31013436bba6" category="doc">帳單排程</block>
-  <block id="7f5043ec0394d759e4ce437fc8c9cd52" category="section-title">每月帳單</block>
-  <block id="4984e08f464a2069cf4e4d2bc61ffe7e" category="paragraph">發票每月寄出一次。在下一個月內、系統會寄送一張發票給您提供服務的月份。例如、您在一月份使用的服務發票會在二月初寄送。此發票包含已確認容量的費用、以及任何突發使用量（若適用）。</block>
   <block id="3b8f7696879f77dfc8c74aa8df8db24b" category="cell">容量</block>
   <block id="ba1f6c59525d71aee4c027798d2470fd" category="cell">極致</block>
   <block id="8d5e7e72f12067991186cdf3cb7d5d9d" category="cell">優質</block>
@@ -116,7 +112,6 @@
   <block id="550340cfbad3ac61a634336458de3119" category="list-text">硬體中斷修正</block>
   <block id="9f65492afee4fdfba75618fed6d0f9dd" category="list-text">軟體支援</block>
   <block id="e59aa159238c2e5f491468dabdfd0b62" category="list-text">升級與修補程式</block>
-  <block id="4f0b4700902f5cec62b2b3a60c2d65b9" category="doc">根據耗用容量進行計量</block>
   <block id="f6d7a1a39c7e76b0a2ad7044af130caf" category="cell">支援的功能</block>
   <block id="9985b4390c40137573e6da05caf85874" category="cell">通訊協定</block>
   <block id="e2ab7c65b21ed8cc1c3b642b5e36429e" category="cell">S3</block>
@@ -128,7 +123,6 @@
   <block id="c390ff57b01f3da644988ff384a92bf8" category="list-text">不過、您需要為磁碟機和/或非揮發性記憶體產生銷毀證明、而且無法用於任何其他用途。</block>
   <block id="39fd5e3ddc496ef780ff5e3fe13bb2d1" category="section-title">符合法規SnapLock</block>
   <block id="f14c7b4687be07acacb0f5aeed1474f5" category="inline-link">什麼是呢SnapLock</block>
-  <block id="da0abce09003b51065ed5b06d06021f1" category="doc">根據已提交的容量進行計費</block>
   <block id="e5471403f1b2eefb0fe47b6193a72bbc" category="sidebar">Keystone文件</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
   <block id="05bbb43b3d923283e0b6ffafd088f41f" category="sidebar">元件</block>
@@ -136,8 +130,6 @@
   <block id="895b14af35ea6854d4009fe0ca2d99a9" category="sidebar">什麼是 NetApp Keystone 功能？</block>
   <block id="272552b591277a155ab212d038a32279" category="sidebar">測量單位為何？</block>
   <block id="202e5e87c64fed77827697acb780124e" category="sidebar">支援的基礎儲存設備為何？</block>
-  <block id="7fb6ecbfc2c7172d977f1ac481edef36" category="sidebar">我的帳單排程</block>
-  <block id="e6bdb181d03ed18f61204d6fa6f9e26d" category="sidebar">如果耗用的容量超過承諾容量、會發生什麼情況？</block>
   <block id="0e0fe605239796a7018441e65fa28979" category="sidebar">美國公民支援</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
   <block id="8816d718cde960556e2d767cd7bc6a24" category="paragraph">請閱讀下列各節、瞭解您的訂閱內容受此附加服務約束、並根據NetApp Keystone 《銷售協議》條款提供。註腳：免責聲明1[此處說明的服務與產品受完整執行的Keystone協議約束、且受限且受其管轄。]</block>
@@ -660,9 +652,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="72870aad377aa9744011edff931cfbe7" category="paragraph">此區段會顯示已配置的磁碟區容量和邏輯使用容量。目前的邏輯使用容量（過去五分鐘內、不是根據查詢的日期範圍）、以及時間範圍的最小、最大和平均使用量、都會顯示在 Tibs 中。在此圖表上、灰色區域代表已認可容量、黃色圖表則表示邏輯使用。</block>
   <block id="55501f4ad85eceeadd5249ad583111f6" category="inline-image-macro">已用邏輯容量圖表</block>
   <block id="5d511ef587684e994c938c0e19441988" category="paragraph"><block ref="5d511ef587684e994c938c0e19441988" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0e3a3dc0c3eeb16df240b7eafc4a840c" category="paragraph">如果將磁碟區複製到 ONTAP 支援區中、並將其用於備份及還原資料、您可以繼續使用複本、而無需支付任何額外費用。然而、貴企業長期用於任何其他用途的複製磁碟區則需支付費用。</block>
-  <block id="308838aa7669887098042a1899ce59bc" category="list-text">只要實體磁碟區的大小低於父磁碟區的 10% 、就不需要充電（與父磁碟區中使用的實體容量相比、複製磁碟區中使用的實體容量）。</block>
-  <block id="5e46e614581cd458f9521294062d3783" category="list-text">一旦複製磁碟區超過父磁碟區實體大小的 10% 、複製就會以標準磁碟區（邏輯使用容量）計費。</block>
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">選取查詢的日期範圍。日期範圍可以是月份的開始日期、或是訂閱開始日期到目前日期或訂閱結束日期。您無法選擇未來日期。</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">*目前爆發*：在定義的突發量限制內或以上耗用容量的指標。在訂閱的突發量上限內的任何使用量、例如、超過承諾容量 20% 的使用量、都在突發量上限內。進一步的使用量會被視為超出連拍限制的使用量。此欄位顯示特定色彩：</block>
   <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">部分9.8或更新版本ONTAP</block>
@@ -741,11 +730,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="d7e5ccf918d68bf60a6b52690444d5ea" category="list-text"><block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block></block>
   <block id="df7d31258a77cf6838aec404025cc8f0" category="list-text"><block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block></block>
   <block id="9a951c3d80a9377bd47aaa657c36398a" category="list-text"><block ref="9a951c3d80a9377bd47aaa657c36398a" category="inline-link-macro-rx"></block></block>
-  <block id="fe53175072711abfe4bc0ec0a1c8feda" category="list-text"><block ref="fe53175072711abfe4bc0ec0a1c8feda" category="inline-link-macro-rx"></block></block>
-  <block id="666607765db8e2a230407163fc7ea704" category="list-text"><block ref="666607765db8e2a230407163fc7ea704" category="inline-link-macro-rx"></block></block>
-  <block id="da7adc48e3ef5d5cba8270d6542a88e9" category="list-text"><block ref="da7adc48e3ef5d5cba8270d6542a88e9" category="inline-link-macro-rx"></block></block>
-  <block id="e9fba53fca09f539e7c7027e5b60c861" category="list-text"><block ref="e9fba53fca09f539e7c7027e5b60c861" category="inline-link-macro-rx"></block></block>
-  <block id="98bee96ae0c26b26f72606ccdc5c56ce" category="list-text"><block ref="98bee96ae0c26b26f72606ccdc5c56ce" category="inline-link-macro-rx"></block></block>
   <block id="b08a55fcdae4be7efabe97ebd6da5f96" category="section-title">因累積突發而傳回的發票資料</block>
   <block id="038fa77b2d09a08187d251d11af66fec" category="section-title">特定費率計畫的累積使用詳細資料</block>
   <block id="e8eb002764288209a5c4ba14af40e3c1" category="paragraph">如果您的訂閱具有 _ 零 _ 已認可容量的費率計畫、您可以在 * 容量趨勢 * 標籤中檢視累積的使用量詳細資料。選擇 * 已開票的累計使用 * 選項時、您可以檢視已計費的累計使用資料的每月圖表。</block>
@@ -928,15 +912,9 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="479449c6cb6b88b7c379b1672435686c" category="admonition">在全新安裝 Unified Manager 期間、 MySQL 的預設連接埠 3306 僅限於 localhost 、這會阻止 Keystone Collector 收集效能指標。如需更多資訊、請參閱 <block ref="997798a1af398517058dc0d935faaa2c" category="inline-link-macro-rx"></block>。</block>
   <block id="1b1d9e9b28e55ae75dd476a860b48088" category="inline-link-macro">其他功能表選項</block>
   <block id="915546b63309e4afc31cc6f77934d3f4" category="admonition">在全新安裝 Unified Manager 期間、 MySQL 的預設連接埠 3306 僅限於 localhost 、這會阻止 Keystone ONTAP 收集效能資料。您可以修改此組態、並使用 Unified Manager 維護主控台的選項、讓其他主機可以使用此連線<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> 。如需相關資訊，請參閱 <block ref="df7524dc87f6643f2fa76eb53a86ec87" category="inline-link-macro-rx"></block>。</block>
-  <block id="c9830eb427c91a86a2ded324ba8b803d" category="summary">Keystone STaaS 帳單是以突發容量為基礎、這是您在訂閱的承諾容量之外所消耗的容量。</block>
-  <block id="b1c4c6aab8cd7c824717fc1621d76273" category="paragraph">Keystone STaaS 計費是以 _ 突發容量 _ 為基礎、這是您在訂閱承諾容量的基礎上所消耗的容量。</block>
   <block id="44356560df15caffd928422c99dc9948" category="summary">服務層級的容量需求會因 Keystone STaaS 訂閱所支援的檔案、區塊、物件或雲端儲存設備而異。</block>
-  <block id="d19b993b24e968320c9cf842a96fd2e4" category="summary">承諾容量是指在購買訂閱時、針對特定服務層級所承諾的容量。</block>
   <block id="7053560fccb48096070dc008e686cf8d" category="summary">瞭解在您的環境中啟用 NetApp Keystone STaaS 服務所需的元件。</block>
   <block id="d246f9b425c150eb3d6e174fbc2525d0" category="paragraph">Keystone Collector 可透過下列方法部署：</block>
-  <block id="3332bc574644f77a870b242a631af1e3" category="summary">消耗容量是工作負載在服務使用期間實際使用的容量。</block>
-  <block id="7a6709ab5e3b396814fccf37c263ad1f" category="paragraph">Keystone STaaS會根據您在服務使用期間所耗用的容量進行計量。耗用容量是工作負載實際使用的容量。</block>
-  <block id="35ff061e0e3d6c0c79e597b4d638231e" category="paragraph">作爲Keystone服務部署的一部分，NetApp會持續監控和衡量服務的使用量。每五分鐘至少一次、系統會產生一筆使用記錄、詳述您訂閱的目前使用容量。這些記錄會在計費期間內彙總、以產生發票和使用報告。</block>
   <block id="a0bf4fc3f702627df39c1daec928bb04" category="summary">Keystone STaaS 系統中的資料會流經 Keystone Collector 和 AIOP 解決方案工具、這是相關的監控系統。</block>
   <block id="fd730f411ecf3d749480ce42fb6b5281" category="summary">資料分層附加服務可識別使用頻率較低的資料、並將其分層至支援的儲存設備。</block>
   <block id="9c749342ce1dc8c39f5e67d29a9500ac" category="doc">取得 Keystone 的說明</block>
@@ -944,7 +922,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="7954e225c8bd390ff2168144c5e393c1" category="paragraph">NetApp 完全負責 Keystone 的基礎架構、設計、技術選擇和元件、適用於 NetApp 和客戶營運的環境。</block>
   <block id="adf9ce2fefed448c1faa955a05142679" category="paragraph">NetApp 保留採取下列行動的權利：</block>
   <block id="1e5c40b1bf2557793e21f12b8450b6d8" category="section-title">儲存平台</block>
-  <block id="23b37b253ca769ce608c60059a855b79" category="summary">瞭解特定組態的 Keystone 帳單、包括複製的磁碟區、進階資料保護等。</block>
   <block id="554b9774fcd47c93aacebd604a76b86c" category="summary">NetApp 是 NetApp Keystone 訂閱的一部分、將 NRNVC 產品延伸至您的檔案、區塊和物件服務。</block>
   <block id="6a69842e6e38f4acc01bbde008bf7a4f" category="doc">不可退回、非揮發性元件、以及 SnapLock 法規遵循</block>
   <block id="8db09ad8b057ebdb5478401fb9e32f1c" category="paragraph">作為 NetApp Keystone 訂閱的一部分、 NetApp 將不可退回的非揮發性元件（ NRNVC ）產品延伸至您的檔案、區塊和物件服務。</block>
@@ -953,7 +930,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="5f06e3acb72a6b6d15e07dec8e02541b" category="summary">NetApp Keystone STaaS 提供兩種服務交付作業模式。開始使用 Keystone 之前、您應該先瞭解這些選項。</block>
   <block id="4017209949d03f232ecddb6bf8aea269" category="paragraph">NetApp Keystone STaaS 提供兩種服務交付作業模式：合作夥伴營運模式和客戶營運模式。開始使用 Keystone 之前、您應該先瞭解這些選項。</block>
   <block id="31486f17bb0da292e6faff47c42e27a2" category="summary">Keystone 是一種隨成長付費的訂閱型服務模式、適合偏好營運成本消費模式、而非前期資本支出或租賃模式的企業。</block>
-  <block id="f29d51ebfc7a851025b60dc1bcc5560e" category="summary">Keystone 提供隨成長付費模式、滿足您靈活且可擴充的消費需求。</block>
   <block id="db7ef8b55156f5b6fc1f3807d49d1119" category="summary">Keystone STaaS 服務支援 ONTAP 和 StorageGRID 。</block>
   <block id="4e4be6640d3e6688fbc771ec3b218a39" category="doc">Keystone中支援的儲存設備</block>
   <block id="9bb097552337391bef04a8384c5c2779" category="summary">開始使用 Keystone 之前、您必須確保 ONTAP 叢集和 StorageGRID 系統符合數項需求。</block>
@@ -1543,13 +1519,9 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="7fdbb259eae173e23f83dbc4823d28da" category="list-text">在一個地方查看所有訂閱詳細資訊、容量使用情況和資產。</block>
   <block id="4cc15c3d51785ada1c6ba9fa1e1e13b0" category="list-text">輕鬆管理訂閱並隨著需求的變化請求更改。</block>
   <block id="c946fc133c6959483805e8ee848d8d3c" category="list-text">隨時了解有關您的儲存環境的最新資訊。</block>
-  <block id="9b83bd6bb9b0235168f39a4c45d8529f" category="paragraph">承諾容量是指您在購買訂閱時所承諾的容量。承諾容量和突發容量是按照效能服務等級來衡量的。耗用容量是工作負載實際使用的容量。</block>
   <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">查看 Keystone 訂閱的消費趨勢</block>
-  <block id="60b79d3b7a1433cb62d9ea5b5a5dac01" category="paragraph">產生的每個使用記錄都會執行此程序。因此、「暴增使用量」反映出您的過度使用容量在承諾容量之外的數量和使用期限。若要深入瞭解、請 <block ref="d40818e721dbdfb8ef017a3c524d1def" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="6095900a0be4c21e582c9ce633f3eb3f" category="doc">性能服務等級的容量要求</block>
   <block id="42c6fcaab380d23adc4355ae6bb2df0b" category="paragraph">為 Extreme 效能服務等級分配的容量減少了 (125-108) = 17 TiB。在重新分配支出時、分配的混合雲儲存設備不是 17 TiB 、而是可購買 5000 美元的同等容量。在此範例中，花費 5000 美元，您可以獲得 Extreme 效能服務等級的 17 TiB 本機儲存容量，以及 Cloud Volumes ONTAP 效能服務等級的 47 TiB 混合雲容量。因此、重新分配是關於支出、而非容量。</block>
-  <block id="5f238d7b669564c4a06db9820b17a9c3" category="paragraph">承諾容量是購買訂閱時為特定性能服務等級承諾的容量。</block>
-  <block id="a5e80c8c714cefa82d0f175e2ea8eae1" category="paragraph">承諾容量可以是您和 NetApp/合作夥伴接受的單一訂閱中各種效能服務等級的總容量。此容量會在每個Keystone訂單上註明、而且會計費、無論實際的容量使用量為何。</block>
   <block id="a7e6ac4ae7947619253439c265eec249" category="paragraph">配置完成後，DII 執行個體將開始監控作為 Keystone 一部分部署的 NetApp 儲存資源。</block>
   <block id="abc501d7e199ea4ea077a268557f07c6" category="inline-link-macro">Keystone 儀表板和報告</block>
   <block id="5179c99cf35cfc837a65bf568160b173" category="admonition">雖然 DII 為已部署的硬體提供了廣泛的監控功能，但它無法提供 Keystone 訂閱的洞察信息，例如訂閱使用情況或性能服務級別詳情。如需訂閱洞察信息，請參閱<block ref="0c9f3efee4ad3aaa79c65e2bbafc9a0a" category="inline-link-macro-rx"></block> 。</block>
@@ -1766,15 +1738,10 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="edecc7e6feeced1cf533a9de993dd568" category="list-text"><block ref="edecc7e6feeced1cf533a9de993dd568" category="inline-link-macro-rx"></block></block>
   <block id="904d19fedb40bf9820beb309aafcf17b" category="inline-link-macro">在 Active IQ Digital Advisor 上查看 Keystone 儀表板</block>
   <block id="1749d12df3df2319d3eee218a277ff83" category="inline-link-macro">MetroCluster</block>
-  <block id="6460d354c4ef5c2f34d145689f3906df" category="list-text">*季度計費*：每個訂閱季度初，系統會產生一張發票，用於支付承諾容量的最低付款金額。季度末，系統會針對任何突發用量，再發送一張發票。</block>
   <block id="1ae0b00f6871c042811b2ef5f0368dc4" category="summary">使客戶能夠使用超出其承諾容量的額外儲存容量。</block>
   <block id="8a2359cfa062fe95972fc70674d2584a" category="doc">突發容量選項</block>
   <block id="742967428ed77679e00109c8b478ea9d" category="paragraph">您可以選擇將突發容量附加服務新增至 NetApp Keystone 訂閱。此服務可讓您將突發容量限制提升至承諾容量的 40% 或 60%，從而靈活地應對工作負載需求的意外激增。</block>
   <block id="aefad734c06988971c818d41e4af2b8c" category="paragraph">若要將突發限制變更為 40% 或 60%，請聯絡 NetApp Keystone 支援團隊。</block>
-  <block id="1db1ab512ec07d15bf8d3f03a076139a" category="paragraph">要了解有關突發容量計費的更多信息，請參閱<block ref="da7adc48e3ef5d5cba8270d6542a88e9" category="inline-link-macro-rx"></block> 。</block>
-  <block id="17a67557c6c448eedbaeeb25e2409ca8" category="inline-link-macro">突發容量增加選項</block>
-  <block id="b8ce331afde85a2f9ccc21b17b658035" category="paragraph">您的連拍限制是在Keystone協議中決定和指定的。預設情況下，該容量設定為承諾容量的 20%。您也可以選擇將突發容量限制設定為承諾容量的 40% 或 60%。若要深入瞭解、請 <block ref="c3f852e472538152b8572347bb4a142d" category="inline-link-macro-rx"></block>參閱。</block>
-  <block id="7d38503d78c628f634f345f9649cfdd1" category="paragraph">當消耗的容量大於某一性能服務等級的承諾容量時，將記錄突發消耗並相應收費。超過突發容量的使用量會顯示為「高於突發上限」。</block>
   <block id="f8738727fdc7ce9aa43eb40acba29e13" category="section-title">統一和區塊優化儲存的最低容量要求</block>
   <block id="3a4e4646e77e197efe8a5e44bfd42783" category="paragraph">您可以在下表中看到統一儲存和區塊最佳化儲存每個訂閱允許的最小容量和增量容量：</block>
   <block id="d6f750861d7ae27706ca32ed1f4c1ac8" category="paragraph">*統一化儲存設備*</block>
@@ -1800,7 +1767,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="8223729bf5a771d590fde341043bac3d" category="list-text">*吞吐量*：對於具有 NFS 的 ONTAP 9.16.1，每個效能等級實例都支援 100% 讀取和 32 KB 區塊大小的順序存取。</block>
   <block id="3d7debc9f9eb6961623316d3dcefaeb8" category="list-text">*IOPS*：對於具有 FCP 的 ONTAP 9.16.1，每個效能等級實例支援讀取率為 70%、寫入率為 30%、區塊大小為 8 KB 且延遲為 1 毫秒的隨機存取。</block>
   <block id="743bda28c7e3ff71e63d96fad8b96946" category="list-text">*吞吐量*：對於具有 FCP 的 ONTAP 9.16.1，每個效能等級實例都支援 100% 讀取和 64 KB 區塊大小的順序存取。</block>
-  <block id="4a71061ce212df640aef8be8d2595397" category="list-text">克隆卷沒有 24 小時的寬限期。僅考慮克隆卷的大小。</block>
   <block id="311fa0b14c132cc09ffa0940763ed317" category="paragraph">SnapMirror 目標磁碟區的定價（無論用於災難復原或長期保留）均基於分配給目標磁碟區的效能服務等級。資料保護無需額外付費。</block>
   <block id="043a801e169414534666972af92048c7" category="paragraph">對於 LUN，計費基於磁碟區的效能服務等級。</block>
   <block id="6318e8b902dd302d5ad2e2ac912ca98c" category="list-text">*合作夥伴營運模式*：此模式提供兩種選擇：</block>
@@ -1821,7 +1787,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="9c466ee20ee6cd0a46097868e1e033ae" category="paragraph">Keystone 為檔案、區塊和物件儲存類型提供預先定義效能服務等級的儲存容量。此類儲存可以部署在本地，並由 NetApp、合作夥伴或客戶自行營運。Keystone 可與 NetApp 雲端服務搭配使用、例如 Cloud Volumes ONTAP 、可部署在您選擇的超純量環境中。</block>
   <block id="e6e41564c0eb58e7df450956b2e9d7ef" category="section-title">Keystone 儲存即服務 (STaaS)</block>
   <block id="db1293ec8548c413e40861e5a81d1401" category="paragraph">儲存即服務（ STaaS ）產品旨在提供類似公有雲的模式、以供採購、部署及管理儲存基礎架構。儘管許多企業仍在製定混合雲策略，但 Keystone STaaS 提供了靈活性，讓您可以先從本地服務入手，然後在適當的時機遷移到雲端。這可確保您在不同的部署模式下都能保障您的承諾，並根據需要重新分配支出，而不會增加每月帳單。</block>
-  <block id="b7d43ae1979d8e64c664de0e3d94f3c9" category="paragraph">NetApp Keystone STaaS 按使用量付費訂閱服務提供靈活且可擴展的消費，並為您的儲存需求提供可預測的預付定價。</block>
   <block id="50e0459d44500ff84b442895fa1a64f1" category="list-text">您可以針對硬體、核心作業系統及支援選擇套裝組合價格、只需支付一美元 / TiB 的價格。對於每種儲存類型、統一儲存、區塊儲存、最佳化儲存、物件儲存或雲端儲存服務，您都有一張發票。</block>
   <block id="6770f961b4c4aaa762fb284da8cafd6f" category="list-text">您可以選擇彈性的服務期限和付款方式，例如按月、按季度、按半年或按年。</block>
   <block id="65f13786054dfad371efd46410aaee0a" category="summary">Keystone STaaS 版本 3 提供預先定義服務等級的儲存容量。由 Keystone 管理的每個磁碟區都與服務層級相關聯。</block>
@@ -1984,19 +1949,11 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="f4933584c28adc3bd3ea423ed96920ec" category="sidebar">了解您的支援團隊</block>
   <block id="d59048f21fd887ad520398ce677be586" category="sidebar">了解更多</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
-  <block id="e841475d9b2badb76a0cb7101175ad3b" category="summary">Keystone STaaS 訂閱按月、按季、按半年或按年計費。</block>
-  <block id="56b8dd6b4ae912271d580ebe3e16f322" category="paragraph">Keystone STaaS 訂閱按月、按季、按半年或按年計費。</block>
-  <block id="24dfc9a9e6dc9e4c93638da72a2a2c6a" category="section-title">按季度、半年和年度計費</block>
-  <block id="83712a1507c752579a09f56e78f26a67" category="paragraph">對於每季、每半年和每年的計費，流程類似，只是時間略有不同：</block>
-  <block id="8282acd43de45bece37539cf9cd85d3e" category="list-text">*每半年結算一次*：每六個月初產生一張發票，用於支付承諾容量的最低付款。每個季度末都會針對任何突發使用情況發送另一張發票。</block>
-  <block id="5c0f38443ff2151fb1c13d71699c56d1" category="list-text">*按年計費*：每個訂閱年度開始時都會產生一張發票，用於支付承諾容量的最低付款。每個季度末都會針對任何突發使用情況發送另一張發票。</block>
-  <block id="a9ee4095c5a2fc7c776c32332a3eddf8" category="paragraph">對於按季度、半年和年度計費，如果在訂閱期間承諾容量發生變化，則會在同一天發送發票，其中包含該訂閱年度剩餘時間的按比例分配的最低付款。計費從承諾容量變更生效日起計算。</block>
   <block id="5a7ddcb67d8774d8c3bdc821152d43f1" category="paragraph">附加資料分層服務支援從 Extreme、Premium、Performance、Standard 和 Value 層到物件儲存目標的分層。分層的熱數據和冷數據的比例不是固定的，每個層級都是單獨計量和開立發票的。</block>
   <block id="f02c5e27d3f80e7755fdb672ca0a6235" category="list-text">Keystone STaaS 價值層、 Keystone STaaS StorageGRID物件層或現有StorageGRID Webscale (SGWS) 網格（客戶自有）- 無需額外付費；它是標準服務的一部分。</block>
   <block id="8e4d26d9b322f38152cd72b8fdf2ed25" category="admonition">NetApp不提供Cloud Volumes ONTAP所需的基於超大規模的運算、儲存和網路服務作為Keystone STaaS 訂閱的一部分；這些服務需要直接從超大規模雲端服務供應商處採購。</block>
   <block id="7362a3703ab6814c98fdb90fe873b654" category="paragraph">企業應用程式需要儲存平台來支援快速配置工作流程、保持持續可用性、以低延遲維持高工作負載、提供更高的效能並支援與主要雲端供應商的整合。NetApp有多種產品和技術可以支援這些要求。對於Keystone服務， NetApp使用ONTAP系統（AFF、 ASA和FAS）和StorageGRID系統。</block>
   <block id="aefe5d691bbfd5f85d52918fd2b8748f" category="list-text">*以 GiB、TiB 和 PiB 為單位的容量測量*：使用 1024 為基數測量資料儲存容量（1 GiB = 1024^3^ 位元組、1 TiB = 1024^4^ 位元組和 1 PiB = 1024^5^ 位元組）。</block>
-  <block id="fbddd54f90ac215e40b766ce9c3f4612" category="paragraph">了解特定配置的Keystone計費可以幫助您最佳化服務使用並管理成本。配置包括複製磁碟區、臨時磁碟區、 SnapMirror目標、LUN 和系統/根磁碟區。</block>
   <block id="ef379c37057d9a196c5c79f68a141fe6" category="paragraph">Keystone為您提供以下計費功能：</block>
   <block id="52bde02f3e1edb6d6e28dca0d312445a" category="list-text">*統一或區塊最佳化儲存*：消耗的容量是根據訂購過程中選擇的容量類型（邏輯或實體）計算的。計算是按效能服務等級實例執行的。</block>
   <block id="845131517a9dd7f41b73102338bac133" category="list-text">*邏輯容量*：它是以下內容的總和：</block>
@@ -2282,18 +2239,13 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">儘管實際使用量在允許的突發流量限制之內，Digital Advisor控制面板中訂閱的顯示狀態錯誤地顯示為「超出突發流量限制」。</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
   <block id="ee53a2d144b153a8ad44855abe0429a8" category="list-text">Python 3（3.9.14 至 3.11.8）</block>
-  <block id="40dc71902dbb22353822b7c6f15c3256" category="doc">了解Keystone 的計費時間表</block>
   <block id="584993c35b748425f19f9e50be222b34" category="doc">Keystone訂閱的突發容量附加元件</block>
-  <block id="ffd6b4f303043d2028c208b958f00d68" category="doc">了解Keystone突發流量計費方式</block>
   <block id="e1ae7a5642f41154cb522f32ff888693" category="doc">Keystone效能服務等級的容量要求</block>
-  <block id="43a8976cc8e9860d073f99a10c9863d6" category="doc">了解Keystone承諾容量計費方式</block>
   <block id="a2cec0e19e9a9e466d5734a20002287a" category="doc">Keystone服務所需的元件</block>
   <block id="e6031ccc926a297ed489fed2eb5fc832" category="paragraph">若要啟用NetApp Keystone STaaS 服務，您需要多個元件。在開始之前，請先查看這些組成部分。</block>
-  <block id="58e037d24f45a1e3501979b1777d7d37" category="doc">了解Keystone消耗容量計量</block>
   <block id="7b2a0cab269bf73e47e958a9123402e1" category="doc">Keystone的Data Infrastructure Insights插件</block>
   <block id="f4661181da0130d61f3128498582908f" category="doc">Keystone的資料分層附加服務</block>
   <block id="ac6db46674728d3a4cb59b937dd96ead" category="doc">了解Keystone基礎設施</block>
-  <block id="1bd0df1c0529e8e6ca90f1e4081e2d82" category="doc">了解Keystone針對特定容量配置的計費方式</block>
   <block id="62fb7818da74bdf8e586f11aa4b2f85f" category="doc">Keystone的不可退貨、非揮發性組件以及SnapLock合規性附加服務</block>
   <block id="43b82c4e7e58013ebe91d40fcb3f7718" category="doc">Keystone的可用性 SLO</block>
   <block id="259bdb910694b04b20beea4776938bc1" category="doc">Keystone的性能 SLO</block>
@@ -2314,8 +2266,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="70233a54c59d50201e00e568353b8e42" category="doc">使用Digital Advisor REST API 取得所有Keystone客戶的列表</block>
   <block id="bb9f69edc6b159c2172c134f7b8ec8d9" category="doc">使用Digital Advisor REST API 取得Keystone客戶訂閱</block>
   <block id="1c0706b323b25df07171d935dadca63d" category="sidebar">了解Keystone STaaS SLO</block>
-  <block id="4996475aff4a957b37439e45da70e7da" category="sidebar">了解計費方式</block>
-  <block id="d7343c0d20dd2babfa5f38e0b87a6939" category="sidebar">針對特定容量配置的計費</block>
   <block id="0fa78e8d7c7b076da1f9e1d3fa517845" category="doc">訂閱修改功能不可用</block>
   <block id="252561ea020b2dfb8598526a78a88036" category="inline-link-macro">NetApp Console中的Keystone存取角色</block>
   <block id="cecfedde5e4474302df84ae302547216" category="list-text">雖然 Console 和Digital Advisor提供了一些獨家功能，但 Console 為Keystone提供了管理功能，讓您可以管理訂閱並進行必要的調整。欲了解更多信息，請參閱 <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>。</block>
@@ -2718,4 +2668,62 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="f649abbfb1fbdf6d16ef1e522e9f0b3f" category="paragraph">預測使用量資料中的下降趨勢不準確</block>
   <block id="af9ef0b1942bfef1a3c549bcd43ad2d0" category="paragraph">在 *Consumption trend* 標籤中，當在 *Historical consumption* 檢視中啟用 *Forecast* 切換開關時，預期的容量使用會顯示明顯且不準確的下降趨勢。</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026 年 4 月 27 日</block>
+  <block id="8ebbc3a6a44524610a169b7e4db2ddbc" category="inline-link-macro">了解 Keystone 計費方式</block>
+  <block id="d56b56ae0720370eaf400254df6aa080" category="paragraph">若要深入瞭解突發容量的計費方式，請參閱 <block ref="eebbce9749818e6938a56810fdeb360e" category="inline-link-macro-rx"></block>。</block>
+  <block id="5291334872bb2b7e5cf95536dd3a906c" category="summary">Keystone 的計費規則因特定磁碟區配置而異。本頁說明複製磁碟區、SnapMirror 目的地、LUN、暫存磁碟區和系統磁碟區的計費方式。</block>
+  <block id="6c46cb6cf0652f0fe88be3a6955c9f48" category="doc">Keystone 針對特定磁碟區類型的計費</block>
+  <block id="43fffe4235f6524fab1b0a5220a42095" category="paragraph">Keystone 的計費規則因特定磁碟區配置而異。了解這些例外情況有助於您在使用複製磁碟區、SnapMirror 目的地、LUN 或暫存時避免產生意外費用。</block>
+  <block id="b590799a8ecda393e0cc7a8bf3cb312f" category="paragraph">下表總結了每種磁碟區類型的計費規則。</block>
+  <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="cell">磁碟區類型</block>
+  <block id="d5465dc71da8ae6290b478e8a9b6efbd" category="cell">計費規則</block>
+  <block id="89a4805cbba8ac8682dfebf9ad53ee86" category="cell">複製的磁碟區</block>
+  <block id="f4d32c0a35895df993622e02297abb90" category="cell">按標準磁碟區計費</block>
+  <block id="9a7d9f46f449dbe837214b3a986f0b69" category="cell">臨時磁碟區</block>
+  <block id="2f1ccf9fec47a742b1a8763b78424043" category="cell">未計費</block>
+  <block id="792c728b27c8f25995fae4f4d472c9d7" category="cell">SnapMirror 目的地</block>
+  <block id="8a6ca26650782126e48e5242df9030b8" category="cell">依目的地效能服務層級計費</block>
+  <block id="7b3c6a2d089eb1b6f8959e7e61a50c07" category="cell">LUN</block>
+  <block id="781546ea6acbfdd0e276e47d654c9fe5" category="cell">按包含磁碟區的效能服務層級計費</block>
+  <block id="74657ec129dc15f7fdb526f3f32caf32" category="cell">已監控但不計費</block>
+  <block id="841167ec264a9aa4b443a52ea8c623d4" category="paragraph">複製磁碟區會以標準磁碟區計費，效能服務層級與複製來源磁碟區相同。所有複製磁碟區無論大小或用途如何，都會進行計量和計費。</block>
+  <block id="1019a6badef4a8bfc164197c487e8b15" category="summary">使用 NetApp Keystone STaaS，您只需為承諾的儲存容量付費，超出部分才需額外付費。本頁面將詳細介紹這種按需付費模式的運作方式——從儲存承諾的定價、容量的計量和計費，到何時產生帳單。</block>
+  <block id="218297c180a0d90e1e1e369654e41b5e" category="paragraph">使用 NetApp Keystone STaaS，您只需為承諾的儲存容量付費，超出部分才需額外付費。本頁將詳細介紹按需付費模式的運作方式，包括儲存承諾的定價方式、容量的計量和計費方式，以及何時產生帳單。</block>
+  <block id="d49c791831a337b675eb6b844e7d0282" category="section-title">Keystone 定價模式</block>
+  <block id="f413046b2aeb1ac90c58e030bc21f7e0" category="paragraph">您的 Keystone 訂閱服務讓您能夠預估成本，並可根據工作負載需求靈活擴充。Keystone 是根據您選擇的效能服務等級和承諾的容量收費。</block>
+  <block id="97cadce787615ab45e7a2cbe71a8b2e6" category="section-title">Keystone 如何衡量容量</block>
+  <block id="02c860922ee056a44129d3a15634ef44" category="paragraph">Keystone 使用三種容量概念來計算您的帳單。了解每種概念有助於您避免意外費用。</block>
+  <block id="85ee30eb58111804ef1da0955e8714a2" category="paragraph">承諾容量是指您在簽署 Keystone 訂閱協定時，同意為特定效能服務等級所購買的容量。此容量在您的 Keystone 訂單中是固定的，並且每個計費週期都會全額計費，無論您的工作負載實際使用了多少容量。</block>
+  <block id="f542c7ccfc94126a640cc19da250b095" category="paragraph">例如，如果您在 Premium 服務層級承諾使用 100 TiB，即使當月實際使用量為 80 TiB，您也會被收取 100 TiB 的費用。</block>
+  <block id="bb829dd0a90e99ba1c33e4d10b5b9cf3" category="paragraph">承諾容量可以涵蓋單一訂閱內的多個效能服務級別，具體由您和 NetApp 或您的合作夥伴協商確定。</block>
+  <block id="9326c4fa24781f1e85127f9ee25dc313" category="paragraph">若要檢視您承諾的容量並追蹤實際使用情況，請參閱 <block ref="fdad9ab5c825af5756df523fe50d05f9" category="inline-link-macro-rx"></block>。</block>
+  <block id="356f8759818edc449aaf3d53447c3ec0" category="paragraph">已使用容量是指您的工作負載在任何時間點實際使用的容量。Keystone 會在整個計費週期內持續監控並衡量您的容量使用。至少每五分鐘產生一次容量使用記錄，記錄您訂閱的目前已使用容量。這些記錄會在整個計費週期內彙總，以產生發票和使用情況報告。</block>
+  <block id="42a774fc8ea2c76c7b2098da4a7dd880" category="paragraph">五分鐘的監控間隔確保了精細的追蹤，因此可以偵測到突發使用情況並準確計費，而不是在週期結束時進行估算。</block>
+  <block id="df517e2cdd66029dcf6e03987dde956e" category="paragraph">當實際使用容量等於或低於承諾容量時，僅以承諾容量費率計費。當實際使用容量超過承諾容量時，將以突發流量計費。</block>
+  <block id="5d4997142b44a4ea2d29af472804405b" category="section-title">突發消耗</block>
+  <block id="fa1dec318c98f0c3e194e411ae152b38" category="paragraph">突發容量消耗是指您超出承諾容量的使用量。您的突發容量限制由 Keystone 協定決定並指定。預設情況下，突發容量限制為承諾容量的 20% 以上。您也可以選擇承諾容量的 40% 或 60% 作為突發容量限制。要了解更多資訊，請參閱 <block ref="1fd609a86fb66ce731e012e237757be4" category="inline-link-macro-rx"></block>。</block>
+  <block id="abfc6033092f587889f7cd3d56c79dfd" category="paragraph">例如，如果您承諾的容量為 100 TiB，而您使用了 115 TiB，則額外的 15 TiB 將按突發速率計費。</block>
+  <block id="e685db8b1e3b70f793d57437410741a8" category="paragraph">當效能服務等級的已使用容量大於已承諾容量時，系統會記錄突發用量並據此計費。超出突發容量限制的使用量會被標記為「超出突發限制」。</block>
+  <block id="4fef50059abaef46c09267986c9f7b05" category="paragraph">突發消耗量是根據計費週期內產生的每個消耗記錄計算的。它反映了您在已承諾容量之外超出消耗的容量數量和持續時間。若要查看訂閱的突發消耗趨勢，請參閱<block ref="d40818e721dbdfb8ef017a3c524d1def" category="inline-link-macro-rx"></block>。</block>
+  <block id="6ccc68c5f6ca138e6a78ab2897504207" category="paragraph">您的計費頻率已在您的 Keystone 協定中設定。下表顯示了在每種方案下，預計何時會收到承諾容量和突發使用量的帳單。</block>
+  <block id="e012b96d751c9b601ee6357fc4fc2f75" category="cell">計費頻率</block>
+  <block id="f666f601bec424b7452350a97f2b779e" category="cell">已承諾容量的發票</block>
+  <block id="beaf4024231dad57720731d0d6e3426e" category="cell">突發使用量發票</block>
+  <block id="9030e39f00132d583da4122532e509e9" category="cell">每月</block>
+  <block id="96cffdcf52ce27b2182f8b08d8bf218b" category="cell">於次月寄出</block>
+  <block id="a16345c21c84c29193e0bdd5e794920b" category="cell">包含在同一張發票中</block>
+  <block id="be92c62702dcec6751c101b5adb0ce3b" category="cell">每季</block>
+  <block id="fe2bd72404c48a3af8f23edf96a65542" category="cell">在每季初發送</block>
+  <block id="129b210c38d479a495655af87cce998d" category="cell">在每季末發送</block>
+  <block id="e4811935d78750f8eaaaaef048b51767" category="cell">每半年</block>
+  <block id="4050e6011b9b274c14843df3812e7b18" category="cell">在每個 6 個月週期開始時發送</block>
+  <block id="10b34207c4ef4df0cf0d0cf792e61bf9" category="cell">每年</block>
+  <block id="8cdcc6a939774d249ba9e7fc1a474221" category="cell">在每個訂閱年度開始時發送</block>
+  <block id="e58e313ba5be45646dd4653a5b2eba18" category="admonition">對於按季度、半年或年度計費的訂閱模式，如果您在訂閱期間的已承諾容量發生變更，我們將於當日發送帳單，收取該訂閱年度剩餘時間的按比例計算的最低付款額。帳單將從已承諾容量變更生效日起計算。</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="section-title">相關資訊</block>
+  <block id="1fd609a86fb66ce731e012e237757be4" category="list-text"><block ref="1fd609a86fb66ce731e012e237757be4" category="inline-link-macro-rx"></block></block>
+  <block id="09e174918a2a6089d8327dd34ceafbb1" category="sidebar">Keystone 如何衡量容量？</block>
+  <block id="3679634ac4d56686ec17bf3b53f67247" category="sidebar">什麼是承諾容量？</block>
+  <block id="e6ff8f3b83ecc7de79998d1038e44b10" category="sidebar">當我超出承諾容量時會發生什麼事？</block>
+  <block id="8c4d76fa92f09a8376865002414752f9" category="sidebar">何時產生發票？</block>
+  <block id="58738d2f8ee7ea1370382ef241eb44f2" category="sidebar">了解 Keystone 計費方式</block>
 </blocks>

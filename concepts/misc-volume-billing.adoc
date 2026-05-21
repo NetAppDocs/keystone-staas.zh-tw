@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concepts/misc-volume-billing.html 
-keywords: Billing and miscellaneous scenarios 
-summary: 瞭解特定組態的 Keystone 帳單、包括複製的磁碟區、進階資料保護等。 
+keywords: Keystone billing, special volume types, cloned volumes, SnapMirror destinations, LUNs, temporary volumes 
+summary: Keystone 的計費規則因特定磁碟區配置而異。本頁說明複製磁碟區、SnapMirror 目的地、LUN、暫存磁碟區和系統磁碟區的計費方式。 
 ---
-= 了解Keystone針對特定容量配置的計費方式
+= Keystone 針對特定磁碟區類型的計費
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,20 +14,34 @@ summary: 瞭解特定組態的 Keystone 帳單、包括複製的磁碟區、進�
 
 
 [role="lead"]
-了解特定配置的Keystone計費可以幫助您最佳化服務使用並管理成本。配置包括複製磁碟區、臨時磁碟區、 SnapMirror目標、LUN 和系統/根磁碟區。
+Keystone 的計費規則因特定磁碟區配置而異。了解這些例外情況有助於您在使用複製磁碟區、SnapMirror 目的地、LUN 或暫存時避免產生意外費用。
 
+下表總結了每種磁碟區類型的計費規則。
+
+[cols="1,2"]
+|===
+| 磁碟區類型 | 計費規則 
+
+
+| 複製的磁碟區 | 按標準磁碟區計費 
+
+
+| 臨時磁碟區 | 未計費 
+
+
+| SnapMirror 目的地 | 依目的地效能服務層級計費 
+
+
+| LUN | 按包含磁碟區的效能服務層級計費 
+
+
+| 系統和根磁碟區 | 已監控但不計費 
+|===
 
 
 == 複製磁碟區的收費
 
-如果將磁碟區複製到 ONTAP 支援區中、並將其用於備份及還原資料、您可以繼續使用複本、而無需支付任何額外費用。然而、貴企業長期用於任何其他用途的複製磁碟區則需支付費用。
-
-請注意下列事項：
-
-* 只要實體磁碟區的大小低於父磁碟區的 10% 、就不需要充電（與父磁碟區中使用的實體容量相比、複製磁碟區中使用的實體容量）。
-* 克隆卷沒有 24 小時的寬限期。僅考慮克隆卷的大小。
-* 一旦複製磁碟區超過父磁碟區實體大小的 10% 、複製就會以標準磁碟區（邏輯使用容量）計費。
-
+複製磁碟區會以標準磁碟區計費，效能服務層級與複製來源磁碟區相同。所有複製磁碟區無論大小或用途如何，都會進行計量和計費。
 
 
 

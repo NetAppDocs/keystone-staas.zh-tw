@@ -20,4 +20,4 @@ summary: 使客戶能夠使用超出其承諾容量的額外儲存容量。
 
 若要將突發限制變更為 40% 或 60%，請聯絡 NetApp Keystone 支援團隊。
 
-要了解有關突發容量計費的更多信息，請參閱link:../concepts/burst-consumption-billing.html["根據尖峰使用量進行計費"] 。
+若要深入瞭解突發容量的計費方式，請參閱 link:../concepts/pricing.html["了解 Keystone 計費方式"]。
