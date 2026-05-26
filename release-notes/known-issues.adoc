@@ -24,6 +24,15 @@ NetApp Keystone STaaS 報告下列已知問題：
 
 
  a| 
+已過期訂閱的到期日不正確
+ a| 
+在 *Subscriptions* 標籤中，已過期的訂閱會顯示昨天的日期作為到期日期，而不是實際的訂閱結束日期。
+ a| 
+無
+
+
+
+ a| 
 預測使用量資料中的下降趨勢不準確
  a| 
 在 *Consumption trend* 標籤中，當在 *Historical consumption* 檢視中啟用 *Forecast* 切換開關時，預期的容量使用會顯示明顯且不準確的下降趨勢。
