@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/adp-tab.html 
-keywords: keystone-aiq, digital advisor keystone, advanced data protection, ADP, MetroCluster, consumption data, health status, primary site, mirror site, sync status, ONTAP Mediator, capacity utilization, consumption trends, bluexp, NetApp Console, Console 
-summary: 當您訂閱 Keystone 中的進階資料保護附加服務時，可檢視 MetroCluster 合作夥伴站台的使用量資料並監控健全狀況。 
+keywords: keystone-aiq, digital advisor keystone, advanced data protection, ADP, MetroCluster, consumption data, health status, primary site, mirror site, sync status, ONTAP Mediator, capacity utilization, consumption trends, license distribution, usage insights, license types, v1, v2, v3, bluexp, NetApp Console, Console 
+summary: 訂閱 Keystone 中的進階資料保護附加服務後，即可查看 MetroCluster 合作夥伴站台的消費資料、監控健康狀況並追蹤 ADP 授權分發狀況。 
 ---
 = 查看您的 Keystone MetroCluster 訂閱的使用與健康狀況
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 當您訂閱 Keystone 中的進階資料保護附加服務時，可檢�
 
 
 [role="lead"]
-當你訂閱進階資料保護附加服務時，你可以在 NetApp Console 或 Digital Advisor 中查看你的 MetroCluster 夥伴站點的使用數據。在 NetApp Console 中，你也可以監控你的 MetroCluster 設定的複寫狀態與健康狀況。
+當您訂閱進階資料保護附加服務時，您可以在 NetApp Console 或 Digital Advisor 中檢視 MetroCluster 夥伴站台的使用量資料。在 NetApp Console 中，您還可以監控 MetroCluster 設定的健全狀況，並追蹤進階資料保護授權的分配情況。
 
 
 
@@ -38,7 +38,7 @@ TIP: MetroCluster 訂閱內容會透過 image:metrocluster-icon.png["MetroCluste
 
 . 選擇 *Advanced data protection (ADP)* 標籤。
 +
-在此標籤上，您可以查看主網站和鏡像網站的基本效能服務等級的消耗數據、監控 MetroCluster 設定的運作狀況，並追蹤其同步狀態。
+在此標籤上，您可以查看主要站台和鏡像站台的基本效能服務等級的消耗資料，監控 MetroCluster 設定的運作狀況和同步狀態，並查看兩個叢集的 ADP 授權使用率和分佈情況。
 
 +
 ** 檢視所選時段的使用量分佈圖表。
@@ -50,10 +50,20 @@ TIP: MetroCluster 訂閱內容會透過 image:metrocluster-icon.png["MetroCluste
 NOTE: 對於基本效能服務級別，每個磁碟區在主站點和鏡像站點上的配置都會被計費。因此，圖表會拆分以反映每個站點的使用量。
 
 +
-*範例：* 工具提示顯示消耗值，例如主站點為 1.15 TiB，鏡像站點為 4.22 TiB。
+*範例：* 工具提示顯示消耗值，例如主站點為 109.29 TiB，鏡像站點為 111.97 TiB。
 
 +
-image:adp-consumption-chart.png["折線圖顯示 MetroCluster 消耗分佈情況，主站點消耗 1.15 TiB，鏡像站點消耗 4.22 TiB（以工具提示形式顯示）"]
+image:adp-consumption-chart-1.png["折線圖顯示 MetroCluster 消耗分佈情況，主站點消耗 1.15 TiB，鏡像站點消耗 4.22 TiB（以工具提示形式顯示）"]
+
+** 檢視您所選時段的授權分配圖表。
++
+此圖表顯示叢集 A（主要）和叢集 B（鏡像）的 ADP 授權消耗量。根據您的訂閱對應的授權版本，此圖表會顯示每個網站上每個 ADP 附加效能服務等級（例如 _Advanced data-protect premium tiering_ 和 Data-protect premium tiering）的消耗量。
+
++
+image:adp-license-distribution.png["堆疊長條圖顯示不同授權版本在 Cluster A 和 Cluster B 中的 ADP 授權分佈情況"]
+
++
+您可以利用這些資料來驗證特定日期的帳單是否正確，並核對您的訂閱使用情況扣款金額。
 
 ** 在 *ADP 拓樸* 視圖中監控您的 MetroCluster 設定的健康狀態。
 +
