@@ -20,6 +20,7 @@ summary: 請完成幾個步驟、以便在無法存取網際網路的環境中�
 
 
 
+[[deploy-on-vmware-vsphere]]
 == 在 VMware vSphere 上部署
 
 請遵循下列步驟：
@@ -30,6 +31,7 @@ summary: 請完成幾個步驟、以便在無法存取網際網路的環境中�
 
 
 
+[[install-on-linux]]
 == 在 Linux 上安裝
 
 Keystone Collector 軟體是根據 Linux 套裝作業系統、使用提供的 .dub 或 .rpm 檔案安裝在 Linux 伺服器上。

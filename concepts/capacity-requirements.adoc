@@ -18,6 +18,7 @@ Keystone STaaS 效能服務等級的最低容量需求和增量成長幅度會�
 
 
 
+[[minimum-capacity-requirements-for-unified-and-block-optimized-storage]]
 == 統一和區塊優化儲存的最低容量要求
 
 您可以在下表中看到統一儲存和區塊最佳化儲存每個訂閱允許的最小容量和增量容量：
@@ -70,6 +71,7 @@ Keystone STaaS 效能服務等級的最低容量需求和增量成長幅度會�
 
 
 
+[[minimum-capacity-requirements-for-afx-storage]]
 == AFX 儲存的最低容量要求
 
 您可以在下表中查看 AFF 儲存設備的最低容量需求：
@@ -99,6 +101,7 @@ NOTE: 對於 AFF 儲存設備，容量是在 AFF 叢集層級進行承諾和測�
 
 
 
+[[minimum-capacity-requirements-for-object-storage]]
 == 物件儲存的最低容量需求
 
 您可以在下表中查看物件儲存設備的最低容量需求：
@@ -125,6 +128,7 @@ NOTE: 對於 AFF 儲存設備，容量是在 AFF 叢集層級進行承諾和測�
 |===
 
 
+[[minimum-capacity-requirements-for-cloud-services]]
 == 雲端服務的最低容量要求
 
 您可以在下表中看到雲端服務的最低容量需求：
@@ -151,6 +155,7 @@ NOTE: 對於 AFF 儲存設備，容量是在 AFF 叢集層級進行承諾和測�
 |===
 
 
+[[capacity-adjustments]]
 == 容量調整
 
 及時將任何計畫中的容量變更通知 NetApp，以便進行規劃和部署。以下條件適用於所有容量調整：
@@ -164,6 +169,7 @@ NOTE: 對於 AFF 儲存設備，容量是在 AFF 叢集層級進行承諾和測�
 
 
 
+[[capacity-reduction]]
 === 容量減量
 
 承諾容量縮減僅適用於 _Annual in Advance_ 付款模式和內部部署的 Keystone 部署。最低訂閱期限為 24 個月方可享有此資格。雲端服務和混合雲部署不適用容量縮減。
@@ -192,6 +198,7 @@ image:capacity-reduction.png["說明重新分配邏輯"]
 
 
 
+[[quarterly-spend-reallocation]]
 === 每季重新分配支出
 
 季度支出重新分配僅適用於混合雲服務。它允許您按季度將內部部署服務支出重新分配到雲端服務支出。不允許將支出從雲端服務重新分配回內部部署服務。

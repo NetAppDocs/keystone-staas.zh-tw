@@ -18,6 +18,7 @@ Keystone STaaS 系統中的資料會流經 Keystone Collector 和 ITOM 監控解
 
 
 
+[[keystone-collector-data-flow]]
 == Keystone Collector資料流
 
 Keystone 收集器會對儲存控制器啟動 REST API 呼叫、並定期取得控制器的使用詳細資料、如以下流程圖所示：
@@ -33,6 +34,7 @@ image:data-collector-flow.png["顯示收集器元件內的資料流"]
 
 
 
+[[monitoring-data-flows]]
 == 監控資料流
 
 持續監控儲存基礎架構的健全狀況、是Keystone服務最重要的功能之一。針對監控與報告， Keystone 使用 ITOM 監控解決方案。下圖說明 ITOM 監控解決方案如何保護對客戶位置的遠端存取。客戶可以選擇啟用遠端工作階段功能，以便 Keystone 支援團隊連線至受監控的裝置進行疑難排解。
@@ -50,6 +52,7 @@ image:monitoring-flow-2.png["資料流"]
 
 
 
+[[compliance-standards]]
 == 法規遵循標準
 
 Keystone ITOM 監控解決方案符合歐盟通用資料保護規範（ GDPR ）和加州消費者隱私權法案（ CCPA ）。此外，本文件也提供一份link:https://www.logicmonitor.com/legal/data-processing-addendum["資料保護附錄（ DPA ）"^]文件來記錄這些承諾。ITOM 監控解決方案不會收集或儲存任何個人資料。

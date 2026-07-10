@@ -2375,7 +2375,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="3f20b3134627198be1e0ff879a88cd8f" category="sidebar">進階資料保護</block>
   <block id="ca1d1a0086fee239544c6e4e89b5f8f8" category="doc">Data Infrastructure Insights 附加消耗顯示器</block>
   <block id="4d0aa03b8805975279d25e57b83cad25" category="inline-link-macro">查看 DII 消費狀況</block>
-  <block id="903f10a385ab3936430e26fbc1b90d88" category="paragraph">Data Infrastructure Insights （ DII ） 附加元件使用量現在會顯示在 *目前使用量* 和 *使用量趨勢* 標籤中。若要深入瞭解、請參閱 <block ref="e1ed0a5aaa8506a20b57415cc0717b20" category="inline-link-macro-rx"></block>。</block>
   <block id="ade2f26a9f9c3f533ed70befc7417b6b" category="section-title">關於 Keystone 訂閱的 DII</block>
   <block id="9843f64ed3799d5bdb14dda01a9b5a37" category="paragraph">Data Infrastructure Insights 適用於新訂閱和現有訂閱。它可以作為已承諾容量的附加元件整合到 Keystone 訂閱中。</block>
   <block id="28ee0e8daa391f128672facc133e687f" category="paragraph">當 Data Infrastructure Insights 整合到 Keystone 訂閱中時，它將為訂閱中的每個基礎效能服務等級提供一個對應的效能服務等級。例如、Extreme 對應 Data Infrastructure Insights Extreme、Premium 對應 Data Infrastructure Insights Premium、Performance 對應 Data Infrastructure Insights Performance。這些對應可確保 Data Infrastructure Insights 效能服務等級與您 Keystone 訂閱的基礎效能服務等級一致。</block>
@@ -2402,14 +2401,11 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="40f098b2e9bcd6666815272fd1d0b84e" category="list-text">在 24 小時內，至少應有十個有效指標。如果未滿足此條件，則這些指標將被捨棄。</block>
   <block id="b4508efb1fe09000c916385cb19795aa" category="cell">*受影響的日曆日*</block>
   <block id="3006a02699b8df924e1d005be208a0d9" category="doc">叢集中的磁碟區標籤中的新欄</block>
-  <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">在「資產」的「叢集中的磁碟區」標籤中新增了三個欄位：*Hot data*、*Cold tier (%)*和*Hot tier (%)*。要了解更多信息，請參閱 <block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block> 和 <block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>。</block>
   <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">消費趨勢中的已開立發票、未開立發票和暫定突發使用量</block>
-  <block id="d2de7b158906998c4520b48e1e885356" category="paragraph">*用量趨勢* 標籤中的累積突發計費圖表現在顯示已開立發票、未開立發票和暫定突發用量。如需深入瞭解，請參閱 <block ref="ac1214b73681d020aa16f3f415bc4e23" category="inline-link-macro-rx"></block>。</block>
   <block id="96d0cd446eb21b1af6c182f7aae637fc" category="section-title">監控檢視的增強功能</block>
   <block id="4195f4a8e15a8ca8892e6bf2c9328dfc" category="paragraph">*監控* 視圖包含以下更新：</block>
   <block id="fdfe720b9ab3394f0dd5d8f33c28b35e" category="list-text">*Alerts 標籤*：*Alert* 欄已重新命名為 *Alert type &amp; condition*。現在您也可以使用 *Status* 欄旁的省略號圖示來編輯警報、新增備註或查看警報詳細資料。</block>
   <block id="358e8af2cd36faf26c9af8949d13a966" category="list-text">*Alert monitors tab*：*Condition* 列已重新命名為 *Monitor type &amp; condition*。</block>
-  <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">如需深入瞭解，請參閱 <block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block> 和 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>。</block>
   <block id="699549a6c51c3112d231898402b61156" category="admonition">Keystone Collector 僅支援以上列出的第三方軟體包。安裝其他軟體不受支援，並且可能會影響採集器效能、資料收集和計費準確性。</block>
   <block id="9fc675b55df5c666e277ff0ddb9918bc" category="paragraph">您可以查看叢集中磁碟區的詳細資訊，包括磁碟區名稱、節點序號、叢集名稱、主機名稱和效能服務等級。您還可以監控已配置容量、邏輯和實體使用率、冷資料和熱資料。</block>
   <block id="951a19f47f142d3bea8b273df96be4b3" category="admonition">*Cold tier %* 和 *Hot tier %* 欄位分別顯示各層資料百分比，計算方法分別為（冷資料 / 總佔用空間）× 100 和（熱資料 / 總佔用空間）× 100。</block>
@@ -2433,10 +2429,8 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="c4a7223f29b332fc54d3573ee04a51a1" category="list-text">從 *From Date* 和 *To Date* 欄位中的日曆圖示選擇時間範圍。預設情況下，日期範圍為從今天起的過去 30 天。您可以變更此範圍，但不能選擇未來的日期。</block>
   <block id="9b6f9894a20aba8f70839ec910a9bee6" category="admonition">如果選擇的日期範圍少於 30 天，圖表將只顯示所選日期範圍內每天的一個資料收集點。例如，4 天的範圍將顯示 4 個資料收集點，而不是 30 個。對於任何選定的範圍，圖表底部僅顯示日期。只有當您使用下文所述的放大功能放大圖表時，時間戳才會顯示。</block>
   <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">歷史使用量圖表上高於突發容量</block>
-  <block id="ccb30c6d28628d4a2488596de7e2891b" category="paragraph">「消耗趨勢」標籤中的歷史消耗圖表現在會突顯超出突發限制的使用量。如需深入瞭解，請參閱 <block ref="06dd3a9283773166a29e1b7ff4424218" category="inline-link-macro-rx"></block>。</block>
   <block id="b3dc9240b9d14158cfa1e8c9f006c4cc" category="section-title">容量使用預測</block>
   <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">查看預測資料</block>
-  <block id="0794ebef867392ddd8fde9d8acc33d95" category="paragraph">您可以使用 *Consumption trend* 標籤中 *Historical consumption* 視圖裡的 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的容量使用量。若要深入瞭解，請參閱 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>。</block>
   <block id="3cad4604b833d612cf60efacf78eba67" category="section-title">訂閱匯出中的追蹤 ID</block>
   <block id="7c8889a3dbf6564af66cd90c8d50ab99" category="paragraph">現在，從 *Subscriptions* 頁面下載的訂閱報告在 Excel 和 CSV 格式的效能服務等級資料中包含了 *Tracking ID*。</block>
   <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">訂閱頁面欄可見性更新</block>
@@ -2643,7 +2637,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">重新命名已佈建容量標籤</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">標籤 *Provisioned capacity* 已重新命名為 *Provisioned volume capacity*。更新後的標籤也已反映在相關的 CSV 和 Excel 報表中。</block>
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">累積高載的預測切換</block>
-  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">您現在可以在 *Consumption trend* 標籤的 *Accrued burst* 檢視中使用 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的累積突發流量使用量。如需深入瞭解，請參閱 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>。</block>
   <block id="b833fc063470eb72aa05a5570f243c7b" category="admonition">您可以使用 *Forecast* 切換按鈕，在 *Historical consumption* 檢視中查看預期容量使用情況，在 *Accrued burst* 檢視中查看預期累積突發流量。要了解更多資訊，請參閱 <block ref="c3e0115050031e1e905cbb5a43dfe637" category="inline-link-macro-rx"></block>。</block>
   <block id="f0966c8c81211afb8b1cacba8a9fa525" category="paragraph">您可以透過 Console 或 Digital Advisor 檢視累計突發流量使用情況。如果您在 Console 的 *Consumption trend* 標籤中的 *View* 下拉式選單中選擇了 *Accrued burst*，或在 Digital Advisor 的 *Consumption Trend* 標籤中選擇了 *Invoiced Accrued Burst* 選項，則可以根據您選擇的計費週期，按月或按季度查看累計突發流量使用情況。</block>
   <block id="30403a0435001d542a0a621f63da7853" category="paragraph">在 Console 中，當 *Forecast* 切換開關停用時，您可以檢視已開立發票的突發使用量、未開立發票的突發使用量（已累計但尚未開立帳單）以及暫定突發使用量（在目前計費期間累計但尚未開立發票）。當 *Forecast* 切換開關啟用時，圖表也會顯示從目前日期起未來 120 天的預計累計突發使用量。若要深入瞭解 *Forecast* 切換開關，請參閱 <block ref="c3e0115050031e1e905cbb5a43dfe637" category="inline-link-macro-rx"></block>。</block>
@@ -2718,7 +2711,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="8c4d76fa92f09a8376865002414752f9" category="sidebar">何時產生發票？</block>
   <block id="58738d2f8ee7ea1370382ef241eb44f2" category="sidebar">了解 Keystone 計費方式</block>
   <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">改進了訂閱時間軸中同一天多次更新的顯示方式</block>
-  <block id="fad09c803865d7a730faa5e2a3f20dc6" category="paragraph">訂閱時間軸圖表現在會在同一天發生多個不同類型的訂閱更新時顯示一個數字，而不是顯示單獨的圖示。將滑鼠懸停在該數字上即可查看當天所有更新類型。下載的報告包含每個更新的單獨行，為您提供所有變更的完整記錄。要了解更多信息，請參閱 <block ref="6bdc06544a2a6817dc4209abc6ea98ff" category="inline-link-macro-rx"></block>。</block>
   <block id="0e3e57bffd0893b655bd0cbbfa13b3f1" category="paragraph"><block ref="0e3e57bffd0893b655bd0cbbfa13b3f1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb648f8805fc9b54e9ef8edf7809ab97" category="paragraph">訂閱時間軸預設以折線圖顯示，並以圖示標記重要事件。如果同一天發生多個不同類型的訂閱更新，圖表將顯示一個數字，而不是單獨的圖示。將滑鼠懸停在數字上即可查看當天發生的所有更新類型，將滑鼠懸停在任何事件圖示上即可查看日期和已承諾容量變更等詳細資訊。若要以表格形式檢視這些事件，請從 *View as* 下拉式功能表中選擇 *Table* 選項。若要查看其他訂閱時間軸，請從 *Tracking ID* 下拉式選單中選擇或搜尋。</block>
   <block id="08e7a28380a64fb6e2353778c694c0a9" category="paragraph"><block ref="08e7a28380a64fb6e2353778c694c0a9" category="inline-image-macro-rx" type="image"></block></block>
@@ -2726,17 +2718,14 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="bab3c4cbe1382c763eff57041def5e4a" category="paragraph">在 *Subscriptions* 標籤中，已過期的訂閱會顯示昨天的日期作為到期日期，而不是實際的訂閱結束日期。</block>
   <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">2026 年 5 月 25 日</block>
   <block id="14bea224c3ef88c765b41449933ebeb8" category="doc">查看 MetroCluster 訂閱的 ADP 授權分發狀況</block>
-  <block id="3ad62afeef69f8bc4e30a8bf1cd4ed24" category="paragraph">「進階資料保護 (ADP)」標籤中新增了「授權分發」子選項卡，讓您可以查看 MetroCluster 合作夥伴叢集的 ADP 授權使用情況。若要深入瞭解，請參閱 <block ref="1c707f11dcf40c95719514b3f1835196" category="inline-link-macro-rx"></block>。</block>
   <block id="82ee282c36e597ba42bea56f0d029b9e" category="section-title">檢視磁碟區的勒索軟體防護狀態</block>
   <block id="959a686de018aa5e6a4a2b33d83ab22b" category="inline-link-macro">ONTAP 中的自主勒索軟體防護 (ARP)</block>
-  <block id="1c18f5a662955e3a23a23d54aca043b6" category="paragraph">「資產」中的「叢集中的磁碟區」標籤現在包含一個「ARP 狀態」欄，該欄顯示每個磁碟區是否啟用或停用自主勒索軟體防護 (ARP)，讓您了解受管資產的勒索軟體防護狀況。若要深入瞭解 ARP，請參閱 <block ref="b12af018ff0eb76de3921de73532693b" category="inline-link-macro-rx"></block>。</block>
   <block id="aa2298f4012d00689c6db262f51b627f" category="section-title">使用「回饋」標籤分享回饋</block>
   <block id="6938bc958f8539e0bb0d56145bf54011" category="paragraph">現在，您可以使用 Keystone 控制面板中位於螢幕右下角的全新「回饋」索引標籤，從任何螢幕提供回饋。點擊該索引標籤將開啟一個面板，您可以在其中分享您的體驗並直接向 NetApp 提交意見。</block>
   <block id="03c47a6c52980a6f54e9df7f4c59cb77" category="section-title">改善容量使用情況和訂閱到期提醒</block>
   <block id="00d1cd9fd062313d8bbfe761883837c6" category="paragraph">系統產生的監控器現在可針對容量使用情況和訂閱到期情況提供更精細的警示。</block>
   <block id="ba9431d5ada7b4b6e05b421ef88f8c24" category="paragraph">訂閱到期提醒現在會在到期前五個門檻觸發：到期前 180 天、90 天、60 天、30 天和 7 天，嚴重程度會隨著到期日的臨近而從通知等級升級到緊急等級。</block>
   <block id="8a46b64d28b84f6e9e9f3b9872e38cee" category="paragraph">對於容量使用情況，突發警報閾值現在基於您訂閱的承諾突發百分比，而不是固定的 20%。例如，如果您的承諾突發百分比為 40%，則當承諾容量利用率達到 140% 時，將觸發嚴重警報。</block>
-  <block id="e3d24640551dafdb75a00b4fd537dff8" category="paragraph">若要深入瞭解，請參閱 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>。</block>
   <block id="c1b9720fa055aceaf15e4ae2d736bee4" category="paragraph">Keystone STaaS 為每種儲存類型提供預先定義的效能服務等級 (PSL)，也稱為基本效能服務等級。每個 PSL 都明確規定了效能目標（IOPS、吞吐量和延遲）、支援的協定、平台和最低容量要求。請查看可用的 PSL，選擇適合您工作負載的服務等級並規劃您的訂閱。</block>
   <block id="945427e2b06f5c5b28a97a55a2562518" category="summary">訂閱 Keystone 中的進階資料保護附加服務後，即可查看 MetroCluster 合作夥伴站台的消費資料、監控健康狀況並追蹤 ADP 授權分發狀況。</block>
   <block id="1d06cc542caaddb07154ca467aff5db5" category="paragraph">當您訂閱進階資料保護附加服務時，您可以在 NetApp Console 或 Digital Advisor 中檢視 MetroCluster 夥伴站台的使用量資料。在 NetApp Console 中，您還可以監控 MetroCluster 設定的健全狀況，並追蹤進階資料保護授權的分配情況。</block>
@@ -2749,4 +2738,15 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="b52a8fe5a68b65cd156fdbdd49db6e3f" category="paragraph"><block ref="b52a8fe5a68b65cd156fdbdd49db6e3f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="012c1fa51b2cce435780c63eb94ec4e8" category="paragraph">您可以利用這些資料來驗證特定日期的帳單是否正確，並核對您的訂閱使用情況扣款金額。</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026 年 6 月 29 日</block>
+  <block id="db3bd850e74f5f766861f5bd86ef4fe1" category="paragraph">Data Infrastructure Insights （ DII ） 附加元件使用量現在會顯示在 *目前使用量* 和 *使用量趨勢* 標籤中。若要深入瞭解，請參閱 <block ref="e85da089c52c9c7ee134719c608656f0" category="inline-link-rx"></block>。</block>
+  <block id="f232290b59d55feef549685803343ca2" category="paragraph">在「資產」的「叢集中的磁碟區」標籤中新增了三個欄位：*Hot data*、*Cold tier (%)*和 *Hot tier (%)*。若要深入瞭解，請參閱<block ref="e5507f6e8dbcc07ae7ce3bb876484b8a" category="inline-link-rx"></block>和<block ref="7f77c8bd4b401343bdf134614dcbbc54" category="inline-link-rx"></block>。</block>
+  <block id="06b177e8e58693c82d283c78208b2127" category="paragraph">*用量趨勢* 標籤中的累積突發計費圖表現在顯示已開立發票、未開立發票和暫定突發用量。若要深入瞭解，請參閱 <block ref="31e7618d7776b538d013c0ecba98f3c8" category="inline-link-rx"></block>。</block>
+  <block id="fca5caacfbcacffcbb1ae54a267af000" category="paragraph">要了解更多資訊，請參閱<block ref="1b1ff4fe51e533ed4f70a60bc9d1b098" category="inline-link-rx"></block>和<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>。</block>
+  <block id="d83b5b5f3beaf482542f053de748fcaa" category="paragraph">「消耗趨勢」標籤中的歷史消耗圖表現在會突顯超出突發限制的使用量。若要深入瞭解，請參閱 <block ref="e264c10903bb9a5694a7b9af6dafa638" category="inline-link-rx"></block>。</block>
+  <block id="ee885a60d72aa21cfa1b979efe382e3a" category="paragraph">您可以使用 *Consumption trend* 標籤中 *Historical consumption* 視圖裡的 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的容量使用量。若要深入瞭解，請參閱 <block ref="66d7c7dbf3416596c75cfd488116093b" category="inline-link-rx"></block>。</block>
+  <block id="59cd389cee057923ba31ddf4336c8526" category="paragraph">您現在可以在 *Consumption trend* 標籤的 *Accrued burst* 檢視中使用 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的累積突發流量使用量。若要深入瞭解，請參閱 <block ref="66d7c7dbf3416596c75cfd488116093b" category="inline-link-rx"></block>。</block>
+  <block id="ba5dc947a0339c89568e57148a12b467" category="paragraph">訂閱時間軸圖表現在會在同一天發生多個不同類型的訂閱更新時顯示一個數字，而不是顯示單獨的圖示。將滑鼠懸停在該數字上即可查看當天所有更新類型。下載的報告包含每個更新的單獨行，為您提供所有變更的完整記錄。若要深入瞭解，請參閱 <block ref="1d47dbd375b0b6ee7030543c5313f259" category="inline-link-rx"></block>。</block>
+  <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">「進階資料保護 (ADP)」標籤中新增了「授權分發」子選項卡，讓您可以查看 MetroCluster 合作夥伴叢集的 ADP 授權使用情況。若要深入瞭解，請參閱 <block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>。</block>
+  <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">「資產」中的「叢集中的磁碟區」標籤現在包含一個「ARP 狀態」欄，該欄顯示每個磁碟區是否啟用或停用自主勒索軟體防護 (ARP)，讓您了解受管資產的勒索軟體防護狀況。若要深入瞭解 ARP，請參閱<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>。</block>
+  <block id="86160081a3f709a69c529a9b26266813" category="paragraph">若要深入瞭解，請參閱 <block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>。</block>
 </blocks>

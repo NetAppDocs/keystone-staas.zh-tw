@@ -42,6 +42,7 @@ NOTE: 建議使用的作業系統為 Debian 12 ， Windows Server 2016 或更新
 
 
 
+[[networking-requirements]]
 == 網路需求
 
 下表列出了 ITOM Collector 的網路需求。

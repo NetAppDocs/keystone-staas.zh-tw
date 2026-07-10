@@ -18,6 +18,7 @@ summary: 作為 NetApp Keystone STaaS 訂閱者，您可以搜尋和過濾資料
 
 
 
+[[search-and-filter-data-from-netapp-console]]
 == 從NetApp控制台搜尋和過濾數據
 
 在控制台中，您可以根據標籤內表中可用的列參數搜尋和篩選Keystone資料。例如，在*Subscriptions*頁面下的*Subscriptions*標籤中，您可以透過在搜尋框中輸入Keystone版本來過濾資料。同樣，在「*Assets*」頁面下的「*Volumes in clusters*」標籤中，您可以透過在搜尋方塊中輸入磁碟區名稱來篩選磁碟區。
@@ -26,6 +27,7 @@ summary: 作為 NetApp Keystone STaaS 訂閱者，您可以搜尋和過濾資料
 
 
 
+[[generate-reports-from-netapp-console-or-digital-advisor]]
 == 從NetApp Console 或Digital Advisor產生報告
 
 您可以使用下載按鈕產生並查看Keystone數據報告image:bluexp-download-report-2.png["控制台中的報告下載圖示 2"]可在控制台或數位Digital Advisor內的選項卡中使用。這些標籤可讓您為訂閱、歷史使用情況、突發使用情況、效能、資產、磁碟區和物件產生報表。
@@ -34,6 +36,7 @@ summary: 作為 NetApp Keystone STaaS 訂閱者，您可以搜尋和過濾資料
 
 
 
+[[generate-consolidated-report-from-digital-advisor]]
 == 從數位顧問產生綜合報告
 
 在 Digital Advisor 中，您可以產生並查看您的訂閱、歷史使用情況、突發使用情況、效能、資產以及磁碟區和物件的綜合報告。若要這麼做，請從 Digital Advisor 的報告功能中選取 * 基礎概念訂閱 * 作為報告類型。您可以在客戶，叢集，報價表或訂閱層級產生這些報告。

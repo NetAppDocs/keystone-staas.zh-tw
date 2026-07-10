@@ -18,6 +18,7 @@ Keystone STaaS 支援 NetApp 平台上的統一儲存、區塊最佳化儲存、
 
 
 
+[[keystone-staas-standard-and-add-on-services]]
 == Keystone STaaS 標準與附加服務
 
 Keystone STaaS可為您的儲存設備提供標準和選用的服務。
@@ -33,6 +34,7 @@ NOTE: AFX 訂閱是獨立的，不能與統一儲存、區塊最佳化儲存或�
 
 
 
+[[supported-data-storage-types]]
 == 支援的資料儲存類型
 
 Keystone STaaS 服務適用於統一儲存、區塊最佳化儲存、物件儲存和 AFX 儲存，支援多種功能和傳輸協定，如下表所示：
@@ -96,6 +98,7 @@ S3
 
 
 
+[[services-for-cloud-storage]]
 == 雲端儲存服務
 
 Keystone STaaS提供雲端儲存服務。Keystone STaaS可在Cloud Volumes ONTAP Amazon Web Services（AWS）、Microsoft Azure和Google Cloud Platform上支援「資料不全」管理功能。

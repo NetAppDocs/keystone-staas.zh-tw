@@ -20,24 +20,28 @@ summary: 美國保護支援是一項附加服務，可在美國境內提供及�
 
 
 
+[[netapp-usps-monitoring]]
 == NetApp USPS 監控
 
 NetApp USPS Keystone 支援團隊會監控您產品和訂閱服務的健全狀況，提供遠端支援，並與 Keystone 成功經理合作。所有監控與相關 Keystone 訂閱訂單相關產品的人員均為美國 美國公民在美國境內營運。
 
 
 
+[[keystone-success-manager]]
 == Keystone成功管理程式
 
 Keystone Success Manager（KSM）為美國美國公民土壤。他們的責任請在NetApp Keystone 您的《不確定協議》中說明。
 
 
 
+[[deployment-activities]]
 == 部署活動
 
 如適用、現場與遠端部署與安裝活動均由美國政府執行美國公民土壤。註解：免責聲明 [ 現場活動的適當人員可用度視部署 Keystone 系統的地理位置而定。 ]
 
 
 
+[[support]]
 == 支援
 
 必要的現場疑難排解與支援活動、均由美國政府執行美國公民土壤。註腳：免責聲明[]

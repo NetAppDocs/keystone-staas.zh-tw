@@ -18,6 +18,7 @@ summary: 下載 OVA 範本、部署範本等、在 VMware vSphere 系統上部�
 
 
 
+[[deploying-the-ova-template]]
 == 部署OVA範本
 
 請遵循下列步驟：
@@ -59,6 +60,7 @@ NOTE: 管理密碼以可還原的格式儲存在 vCenter 中、並應作為引�
 
 
 
+[[initial-system-configuration]]
 == 初始系統組態
 
 針對透過 OVA 部署的 Keystone Collector 伺服器、在 VMware vSphere 系統上執行下列步驟：

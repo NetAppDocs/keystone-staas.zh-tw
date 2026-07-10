@@ -20,6 +20,7 @@ NetApp 資料基礎架構洞見（ DII ，前身為 Cloud Insights ）是 Keysto
 
 
 
+[[about-dii-for-keystone-subscriptions]]
 == 關於 Keystone 訂閱的 DII
 
 Data Infrastructure Insights 適用於新訂閱和現有訂閱。它可以作為已承諾容量的附加元件整合到 Keystone 訂閱中。
@@ -28,6 +29,7 @@ Data Infrastructure Insights 適用於新訂閱和現有訂閱。它可以作為
 
 
 
+[[deployment-of-dii-for-keystone]]
 == 針對 Keystone 部署 DII
 
 客戶可透過兩種方式整合 Keystone 的 DII ：將其整合為現有執行個體的一部分，以監控其他非 Keystone 環境，或是作為新執行個體的一部分。客戶有責任設定 DII 。如果在複雜的環境中設置 DII 需要幫助，客戶團隊可以參與link:https://www.netapp.com/services/["NetApp 專業服務"^]。
@@ -62,6 +64,7 @@ NOTE: 雖然 DII 為已部署的硬體提供了廣泛的監控功能，但它無
 
 
 
+[[view-dii-consumption]]
 == 查看 DII 消費狀況
 
 您可以透過 NetApp Console 或 Digital Advisor 檢視 DII 附加服務的使用量。DII 效能服務等級（例如 DII Extreme、DII Premium 和 DII Performance）的使用量資料會與您的基本效能服務等級一起顯示在目前使用量和使用量趨勢檢視中。
@@ -82,6 +85,7 @@ image:keystone-widget-dii.png["Keystone Subscriptions 小工具顯示 DII 服務
 
 
 
+[[billing-and-metering]]
 == 計費和計量
 
 以下概述 DII 附加服務的帳單與計量詳細資料：
@@ -94,6 +98,7 @@ image:keystone-widget-dii.png["Keystone Subscriptions 小工具顯示 DII 服務
 
 
 
+[[support-and-user-access]]
 == 支援與使用者存取
 
 如果客戶啟用 * 允許 NetApp 存取您的資料基礎架構洞見環境 * 選項，則核准的 NetApp 支援團隊成員可以存取客戶的 DII 執行個體。若要這麼做，請前往 * 說明 > 支援 * ，然後啟用選項。

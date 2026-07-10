@@ -31,6 +31,7 @@ NOTE: Keystone Collector 可在不受連線限制的情況下進行設定、也�
 
 
 
+[[keystone-collector-in-private-mode]]
 == Keystone Collector 處於私有模式
 
 Keystone Collector 負責定期從儲存系統收集使用量資料、並將度量匯出至離線使用量報告工具和本機檔案存放區。產生的檔案會以加密和純文字格式建立、然後在驗證檢查後由使用者手動轉送至 NetApp 。NetApp 的 Keystone 計費平台收到後、會驗證及處理這些檔案、並將它們整合至計費與訂閱管理系統、以計算每月費用。

@@ -18,6 +18,7 @@ summary: 使用資產索引標籤可檢視 ONTAP 叢集和節點的詳細資料�
 
 
 
+[[view-keystone-subscription-assets-from-netapp-console]]
 == 從NetApp主機查看Keystone訂閱資產
 
 *訂閱*頁面中的*資產*標籤顯示與訂閱相關的集群、 StorageGRID節點和ONTAP節點中的捲的詳細信息，包括各種詳細資訊和容量狀態。
@@ -106,6 +107,7 @@ TIP: 您可以使用列選擇器自訂表格image:column-selector.png["列選擇
 ====
 
 
+[[view-keystone-subscription-assets-from-digital-advisor]]
 == 從 Digital Advisor 查看 Keystone 訂閱資產
 
 Digital Advisor 中 Keystone 資訊中心的「資產」標籤包含兩個子選項卡：「ONTAP」和「StorageGRID」。此索引標籤會根據您的訂閱內容，針對 ONTAP 和 StorageGRID 網格層級資訊，收集叢集層級資訊，並以準確的詳細資料來分隔和呈現資料。您可以點擊對應的子選項卡查看這些資訊。

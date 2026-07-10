@@ -18,12 +18,14 @@ Keystone STaaS 使用多種容量術語來衡量、承諾和計費儲存資源�
 
 
 
+[[logical-capacity]]
 == 邏輯容量
 
 這是在應用儲存陣列提供的任何資料效率之前儲存使用者資料所需的儲存容量。
 
 
 
+[[committed-capacity]]
 == 承諾容量
 
 訂購期間每月計費的最低邏輯容量：
@@ -34,12 +36,14 @@ Keystone STaaS 使用多種容量術語來衡量、承諾和計費儲存資源�
 
 
 
+[[changes-to-committed-capacity]]
 === 已認可容量的變更
 
 訂閱期間、您可以根據特定條件變更已承諾的容量。如需容量增加和減少規則的完整詳細資料、請參閱link:../concepts/capacity-requirements.html["Keystone效能服務等級的容量要求"]。若要申請變更、請聯絡您的 Keystone Success Manager (KSM) 或link:../concepts/support-services.html["NetApp 支援"]。
 
 
 
+[[consumed-capacity]]
 == 已用容量
 
 已使用容量是指服務目前正在使用的容量（以 TiB 儲存為單位）。根據資料儲存類型的不同，其計算方式也不同：
@@ -75,6 +79,7 @@ Keystone STaaS 使用多種容量術語來衡量、承諾和計費儲存資源�
 
 
 
+[[burst-capacity]]
 == 突發容量
 
 NetApp Keystone STaaS 服務可讓您在承諾容量的基礎上使用額外容量，以實現效能服務等級。這稱為突發容量使用。
@@ -88,6 +93,7 @@ NetApp Keystone STaaS 服務可讓您在承諾容量的基礎上使用額外容�
 
 
 
+[[billed-capacity]]
 == 計費容量
 
 每月帳單 = （提交容量 [TiB] * 提交率 [$/TiB] ） + （每日平均資源配置突發容量 [TiB] * 資源暴增率 [$/TiB] ）。每月帳單包含根據承諾容量所計算的最低費用。

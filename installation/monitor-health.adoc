@@ -38,6 +38,7 @@ NOTE: *問題說明*：Keystone Collector會在使用量測系統中執行多個
 
 
 
+[[view-system-logs]]
 == 檢視系統記錄
 
 您可以檢視Keystone Collector系統記錄、以檢閱系統資訊、並使用這些記錄執行疑難排解。Keystone Collector使用主機的_journalald記錄系統、系統記錄可透過標準_journalctl_系統公用程式檢閱。您可以使用下列關鍵服務來檢查記錄：
@@ -96,6 +97,7 @@ NOTE: *問題說明*：Keystone Collector會在使用量測系統中執行多個
 ----
 
 
+[[generate-and-collect-support-bundles]]
 == 產生並收集支援套裝組合
 
 Keystone Collector TUI可讓您產生支援套裝組合、然後將其新增至服務要求、以解決支援問題。請遵循下列程序：

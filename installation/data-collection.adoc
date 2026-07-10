@@ -18,6 +18,7 @@ Keystone會從Keystone ONTAP和Keystone StorageGRID訂閱中收集配置、狀�
 
 
 
+[[ontap-data-collection]]
 == 資料收集ONTAP
 
 .為 ONTAP 收集的 <strong> 相關資料： Learn </strong>
@@ -325,6 +326,7 @@ Keystone會從Keystone ONTAP和Keystone StorageGRID訂閱中收集配置、狀�
 ====
 
 
+[[storagegrid-data-collection]]
 == 資料收集StorageGRID
 
 .為 StorageGRID 收集的 <strong> 相關資料： Learn </strong>
@@ -372,6 +374,7 @@ Keystone會從Keystone ONTAP和Keystone StorageGRID訂閱中收集配置、狀�
 ====
 
 
+[[telemetry-data-collection]]
 == 遙測數據收集
 
 .<strong>從Keystone Collector VM 收集的遙測資料：了解詳情</strong>

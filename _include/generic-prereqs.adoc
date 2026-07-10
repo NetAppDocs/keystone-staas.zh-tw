@@ -4,12 +4,14 @@
 
 
 
+[[other-requirements]]
 == 其他需求
 
 確保符合下列一般要求：
 
 
 
+[[networking-requirements]]
 === 網路需求
 
 下表列出 Keystone Collector 的網路需求。
@@ -177,6 +179,7 @@ NOTE: 在全新安裝 Unified Manager 期間、 MySQL 的預設連接埠 3306 �
 
 
 
+[[url-access]]
 === URL存取
 
 Keystone Collector需要存取下列網際網路主機：

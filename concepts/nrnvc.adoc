@@ -32,6 +32,7 @@ NetApp不會在整個服務期間或服務終止期間恢復使用的實體儲�
 
 
 
+[[snaplock-compliance]]
 == 符合法規SnapLock
 
 利用此技術、NRNVC功能可在磁碟區中設定的到期日之後、使磁碟機無法使用。SnapLock若要在SnapLock 您的磁碟區上使用支援技術、您必須訂閱NRNVC。這僅適用於檔案和區塊服務。

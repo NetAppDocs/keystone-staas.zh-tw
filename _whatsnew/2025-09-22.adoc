@@ -4,6 +4,7 @@
 
 
 
+[[addition-of-alert-monitoring]]
 === 增加警報監控
 
 BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管理您訂閱中的警報和監視器。此新選項卡使您能夠：
@@ -16,6 +17,7 @@ BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管
 
 
 
+[[streamlined-performance-service-levels-viewing]]
 === 簡化的效能服務等級查看
 
 您可以在“*訂閱*”選項卡中查看性能服務級別信息，現在該信息已從單獨的選項卡移至可擴展視圖。按一下「到期日」欄位旁的向下箭頭可查看每個訂閱的到期日。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["查看您的 Keystone 訂閱的詳細信息"]。

@@ -25,6 +25,7 @@ Keystone 儀表板是您高效監控、分析和管理 Keystone 訂閱的首選�
 
 
 
+[[access-the-keystone-dashboard]]
 == 造訪 Keystone 儀表板
 
 您可以透過以下方式存取 Keystone 儀表板：
@@ -35,6 +36,7 @@ Keystone 儀表板是您高效監控、分析和管理 Keystone 訂閱的首選�
 
 
 
+[[about-netapp-console]]
 == 關於NetApp控制台
 
 可透過NetApp控制台存取Keystone 。
@@ -53,6 +55,7 @@ NetApp控制台可在企業範圍內跨本機和雲端環境集中管理NetApp�
 
 
 
+[[keystone-features-in-netapp-console-and-digital-advisor]]
 == NetApp Console 和Digital Advisor中的Keystone功能
 
 下表顯示了NetApp控制台和Digital Advisor中可用的功能，協助您快速確定適合您需求的平台：

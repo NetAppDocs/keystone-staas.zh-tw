@@ -25,6 +25,7 @@ Keystone 進階資料保護服務可以將資料同步鏡像到備用站點。�
 
 
 
+[[understand-pricing]]
 == 了解定價
 
 進階資料保護附加服務的價格根據每個站點的已承諾容量而定。附加費用適用於您訂閱中的所有容量，包括來源資料、鏡像副本和非鏡像資料。
@@ -40,6 +41,7 @@ Keystone 進階資料保護服務可以將資料同步鏡像到備用站點。�
 
 
 
+[[supported-metrocluster-configurations]]
 == 支援的 MetroCluster 組態
 
 Keystone 支援以下 MetroCluster 部署案例：

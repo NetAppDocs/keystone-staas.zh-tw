@@ -18,48 +18,56 @@ summary: 瞭解在您的環境中啟用 NetApp Keystone STaaS 服務所需的元
 
 
 
+[[site-requirements]]
 == 站台需求
 
 有些站台特定的需求、例如空間、機架、PDU、電力、 以及散熱、以及此處討論的其他網路和安全需求。
 
 
 
+[[space]]
 === 空間
 
 用於裝載Keystone基礎架構設備的場地空間（由客戶提供）。NetApp 會根據最終組態提供重量規格。
 
 
 
+[[racks]]
 === 機架
 
 客戶營運產品中的四個柱式機架（由客戶提供）。在 NetApp 營運的產品中、 NetApp 或客戶可以視需求提供機架。NetApp 提供 42 個深機架。
 
 
 
+[[pdus]]
 === PDU
 
 您應提供電力分配單元（PDU）、連接至兩個獨立且受保護的電路、並具有足夠的C13插座。在客戶營運的產品中、在某些情況下、需要 C19 插座。在NetApp營運的產品中、NetApp或客戶可視需求提供PDU。
 
 
 
+[[power]]
 === 強大威力
 
 您應該提供所需的電力。NetApp 將根據 200V 額定值（典型 A 、 Max A 、典型 W 、最大 W 、電源線類型、 和數量）。所有元件都有備援電源供應器。NetApp 將提供機櫃內的電源線。
 
 
 
+[[cooling]]
 === 散熱
 
 NetApp 可根據最終組態和需求、提供散熱需求規格（一般 BTU 、最大 BTU ）。
 
 
 
+[[virtual-machines]]
 === 虛擬機器
 
 基礎概念收集器和 ITOM 收集器的部署需要虛擬機器。有關安裝先決條件，請參閱link:../installation/installation-overview.html["Keystone Collector 安裝指南"]和link:../installation/itom-prereqs.html["ITOM Collector 的安裝需求"]。其他需求則在部署期間共用。
 
 
 
+[[deployment-options]]
 === 部署選項
 
 Keystone Collector 可透過下列方法部署：
@@ -80,6 +88,7 @@ TIP: 建議使用的作業系統為 Debian 12 ， Windows Server 2016 或更新�
 
 
 
+[[networking]]
 === 網路
 
 上傳軟體更新和使用資料時、需要對 _keystone NetApp ． com_ 進行輸出存取、這對於 Keystone Collector 和 AIOps 解決方案閘道的操作和維護非常重要。
@@ -90,6 +99,7 @@ NetApp僅為NetApp提供的基礎架構裝置提供所需的收發器。您應�
 
 
 
+[[remote-access-requirement]]
 == 遠端存取需求
 
 客戶資料中心安裝的儲存基礎架構或客戶擁有的代管服務、以及Keystone作業中心之間、都需要網路連線。客戶負責提供運算與虛擬機器、以及網際網路服務。客戶還負責作業系統修補（非 OVA 型部署），並根據內部安全原則強化安全性。網路設計應採用安全的傳輸協定、而防火牆原則將由NetApp與客戶雙方核准。

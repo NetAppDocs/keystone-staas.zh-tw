@@ -18,6 +18,7 @@ summary: 使用 NetApp Keystone STaaS，您只需為承諾的儲存容量付費�
 
 
 
+[[keystone-pricing-model]]
 == Keystone 定價模式
 
 您的 Keystone 訂閱服務讓您能夠預估成本，並可根據工作負載需求靈活擴充。Keystone 是根據您選擇的效能服務等級和承諾的容量收費。
@@ -36,12 +37,14 @@ Keystone計費是根據已提交的容量和可變的突發消耗量來計算。
 
 
 
+[[how-keystone-measures-capacity]]
 == Keystone 如何衡量容量
 
 Keystone 使用三種容量概念來計算您的帳單。了解每種概念有助於您避免意外費用。
 
 
 
+[[committed-capacity]]
 === 承諾容量
 
 承諾容量是指您在簽署 Keystone 訂閱協定時，同意為特定效能服務等級所購買的容量。此容量在您的 Keystone 訂單中是固定的，並且每個計費週期都會全額計費，無論您的工作負載實際使用了多少容量。
@@ -54,6 +57,7 @@ Keystone 使用三種容量概念來計算您的帳單。了解每種概念有�
 
 
 
+[[consumed-capacity]]
 === 已用容量
 
 已使用容量是指您的工作負載在任何時間點實際使用的容量。Keystone 會在整個計費週期內持續監控並衡量您的容量使用。至少每五分鐘產生一次容量使用記錄，記錄您訂閱的目前已使用容量。這些記錄會在整個計費週期內彙總，以產生發票和使用情況報告。
@@ -64,6 +68,7 @@ Keystone 使用三種容量概念來計算您的帳單。了解每種概念有�
 
 
 
+[[burst-consumption]]
 === 突發消耗
 
 突發容量消耗是指您超出承諾容量的使用量。您的突發容量限制由 Keystone 協定決定並指定。預設情況下，突發容量限制為承諾容量的 20% 以上。您也可以選擇承諾容量的 40% 或 60% 作為突發容量限制。要了解更多資訊，請參閱 link:../concepts/burst-capacity.html["突發容量選項"]。
@@ -76,6 +81,7 @@ Keystone 使用三種容量概念來計算您的帳單。了解每種概念有�
 
 
 
+[[billing-schedules]]
 == 帳單排程
 
 您的計費頻率已在您的 Keystone 協定中設定。下表顯示了在每種方案下，預計何時會收到承諾容量和突發使用量的帳單。
@@ -101,6 +107,7 @@ NOTE: 對於按季度、半年或年度計費的訂閱模式，如果您在訂�
 
 
 
+[[related-information]]
 == 相關資訊
 
 * link:../concepts/supported-storage-capacity.html["Keystone 中的儲存容量類型"]

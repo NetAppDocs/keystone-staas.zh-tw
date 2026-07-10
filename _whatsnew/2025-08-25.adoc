@@ -4,6 +4,7 @@
 
 
 
+[[enhanced-logical-usage-tracking-with-a-new-column]]
 === 使用新列增強邏輯使用情況跟踪
 
 新增了新欄位“總佔用空間”，以增強對FabricPool磁碟區的Keystone消耗追蹤：

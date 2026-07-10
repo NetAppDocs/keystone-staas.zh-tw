@@ -18,6 +18,7 @@ summary: 訂閱 Keystone 中的進階資料保護附加服務後，即可查看 
 
 
 
+[[view-metrocluster-subscriptions-consumption-and-health-status]]
 == 查看 MetroCluster 訂閱使用情況和健康狀況
 
 請依照以下步驟操作：

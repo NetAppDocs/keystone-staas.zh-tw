@@ -40,6 +40,7 @@ image:cidr-list.png["允許的網路密碼"]
 
 
 
+[[generate-and-collect-support-bundles]]
 == 產生並收集支援套裝組合
 
 若要疑難排解 Keystone 收集器的問題、您可以與 NetApp 支援部門合作、他們可能會要求提供 _.tar_ 檔案。您可以透過 Keystone Collector 管理 TUI 公用程式產生此檔案。

@@ -55,6 +55,7 @@ summary: 完整組態可讓 Keystone Collector 在您的儲存環境中收集使
 
 
 
+[[configure-http-proxy-on-keystone-collector]]
 == 在Keystone Collector上設定HTTP Proxy
 
 Collector軟體支援使用HTTP Proxy與網際網路通訊。這可在TUI中設定。
@@ -68,6 +69,7 @@ Collector軟體支援使用HTTP Proxy與網際網路通訊。這可在TUI中設�
 
 
 
+[[limit-collection-of-private-data]]
 == 限制私有資料的收集
 
 Keystone Collector 會收集執行訂閱計量所需的有限組態、狀態和效能資訊。您可以選擇進一步限制所收集的資訊、方法是從上傳的內容中遮罩敏感資訊。這不會影響計費計算。不過、限制資訊可能會影響報告資訊的使用性、因為使用者可以輕易識別的部分元素（例如Volume名稱）會被UID取代。
@@ -80,6 +82,7 @@ image:tui-4.png["TUI 畫面"]
 
 
 
+[[trust-a-custom-root-ca]]
 == 信任自訂根 CA
 
 針對公共根憑證授權單位（ CA ）驗證憑證是 Keystone Collector 安全性功能的一部分。不過、如果需要、您可以將 Keystone Collector 設定為信任自訂根 CA 。
@@ -111,6 +114,7 @@ image:kc-custom-ca.png["用於 CA 自訂的 TUI 畫面"]
 
 
 
+[[create-performance-service-levels]]
 == 建立效能服務層級
 
 您可以使用Keystone Collector 管理 TUI 公用程式建立效能服務等級 (PSL)。透過 TUI 建立 PSL 會自動選擇為每個效能服務等級設定的預設值，從而減少透過Active IQ Unified Manager建立 PSL 時手動設定這些值時可能發生的錯誤的可能性。

@@ -27,6 +27,7 @@ NetApp Keystone STaaS 提供兩種服務交付作業模式：合作夥伴營運�
 
 
 
+[[roles-and-responsibilities-across-the-service-lifecycle]]
 == 整個服務生命週期的角色與責任
 
 * *合作夥伴營運模式*：角色和職責的分配取決於您與服務提供者或合作夥伴之間的協議。如需相關資訊、請聯絡您的服務供應商。

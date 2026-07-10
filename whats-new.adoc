@@ -18,30 +18,35 @@ summary: NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增�
 
 
 
+[[29-june-2026]]
 == 2026 年 6 月 29 日
 
 NetApp Console中Keystone儀表板的新增強功能：
 
 
 
+[[view-adp-license-distribution-for-metrocluster-subscriptions]]
 === 查看 MetroCluster 訂閱的 ADP 授權分發狀況
 
-「進階資料保護 (ADP)」標籤中新增了「授權分發」子選項卡，讓您可以查看 MetroCluster 合作夥伴叢集的 ADP 授權使用情況。若要深入瞭解，請參閱 link:./integrations/adp-tab.html["查看您的 Keystone MetroCluster 訂閱的使用與健康狀況"]。
+「進階資料保護 (ADP)」標籤中新增了「授權分發」子選項卡，讓您可以查看 MetroCluster 合作夥伴叢集的 ADP 授權使用情況。若要深入瞭解，請參閱  https://docs.netapp.com/us-en/keystone-staas/integrations/adp-tab.html["查看您的 Keystone MetroCluster 訂閱的使用與健康狀況"]。
 
 
 
+[[view-ransomware-protection-status-for-your-volumes]]
 === 檢視磁碟區的勒索軟體防護狀態
 
-「資產」中的「叢集中的磁碟區」標籤現在包含一個「ARP 狀態」欄，該欄顯示每個磁碟區是否啟用或停用自主勒索軟體防護 (ARP)，讓您了解受管資產的勒索軟體防護狀況。若要深入瞭解 ARP，請參閱 link:https://docs.netapp.com/us-en/ontap/anti-ransomware/["ONTAP 中的自主勒索軟體防護 (ARP)"]。
+「資產」中的「叢集中的磁碟區」標籤現在包含一個「ARP 狀態」欄，該欄顯示每個磁碟區是否啟用或停用自主勒索軟體防護 (ARP)，讓您了解受管資產的勒索軟體防護狀況。若要深入瞭解 ARP，請參閱 https://docs.netapp.com/us-en/ontap/anti-ransomware/["ONTAP 中的自主勒索軟體防護 (ARP)"^]。
 
 
 
+[[share-feedback-using-the-feedback-tab]]
 === 使用「回饋」標籤分享回饋
 
 現在，您可以使用 Keystone 控制面板中位於螢幕右下角的全新「回饋」索引標籤，從任何螢幕提供回饋。點擊該索引標籤將開啟一個面板，您可以在其中分享您的體驗並直接向 NetApp 提交意見。
 
 
 
+[[improve-alerting-for-capacity-usage-and-subscription-expiration]]
 === 改善容量使用情況和訂閱到期提醒
 
 系統產生的監控器現在可針對容量使用情況和訂閱到期情況提供更精細的警示。
@@ -50,88 +55,102 @@ NetApp Console中Keystone儀表板的新增強功能：
 
 對於容量使用情況，突發警報閾值現在基於您訂閱的承諾突發百分比，而不是固定的 20%。例如，如果您的承諾突發百分比為 40%，則當承諾容量利用率達到 140% 時，將觸發嚴重警報。
 
-若要深入瞭解，請參閱 link:./integrations/monitoring-alert-monitors.html["查看並建立Keystone訂閱的警報監視器"]。
+若要深入瞭解，請參閱  https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html["查看並建立Keystone訂閱的警報監視器"]。
 
 
 
+[[25-may-2026]]
 == 2026 年 5 月 25 日
 
 NetApp Console中Keystone儀表板的新增強功能：
 
 
 
+[[improved-display-of-multiple-updates-on-the-same-day-in-the-subscription-timeline]]
 === 改進了訂閱時間軸中同一天多次更新的顯示方式
 
-訂閱時間軸圖表現在會在同一天發生多個不同類型的訂閱更新時顯示一個數字，而不是顯示單獨的圖示。將滑鼠懸停在該數字上即可查看當天所有更新類型。下載的報告包含每個更新的單獨行，為您提供所有變更的完整記錄。要了解更多信息，請參閱 link:./integrations/subscription-timeline.html["查看 Keystone 訂閱的時間軸"]。
+訂閱時間軸圖表現在會在同一天發生多個不同類型的訂閱更新時顯示一個數字，而不是顯示單獨的圖示。將滑鼠懸停在該數字上即可查看當天所有更新類型。下載的報告包含每個更新的單獨行，為您提供所有變更的完整記錄。若要深入瞭解，請參閱  https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["查看 Keystone 訂閱的時間軸"]。
 
 
 
+[[27-april-2026]]
 == 2026 年 4 月 27 日
 
 NetApp Console中Keystone儀表板的新增強功能：
 
 
 
+[[renamed-provisioned-capacity-label]]
 === 重新命名已佈建容量標籤
 
 標籤 *Provisioned capacity* 已重新命名為 *Provisioned volume capacity*。更新後的標籤也已反映在相關的 CSV 和 Excel 報表中。
 
 
 
+[[forecast-toggle-for-accrued-burst]]
 === 累積高載的預測切換
 
-您現在可以在 *Consumption trend* 標籤的 *Accrued burst* 檢視中使用 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的累積突發流量使用量。如需深入瞭解，請參閱 link:./integrations/consumption-tab.html#view-forecast-data["查看預測資料"]。
+您現在可以在 *Consumption trend* 標籤的 *Accrued burst* 檢視中使用 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的累積突發流量使用量。若要深入瞭解，請參閱  https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["查看預測資料"]。
 
 
 
+[[30-march-2026]]
 == 2026 年 3 月 30 日
 
 NetApp Console中Keystone儀表板的新增強功能：
 
 
 
+[[above-burst-capacity-on-the-historical-consumption-chart]]
 === 歷史使用量圖表上高於突發容量
 
-「消耗趨勢」標籤中的歷史消耗圖表現在會突顯超出突發限制的使用量。如需深入瞭解，請參閱 link:./integrations/consumption-tab.html["查看 Keystone 訂閱的消費趨勢"]。
+「消耗趨勢」標籤中的歷史消耗圖表現在會突顯超出突發限制的使用量。若要深入瞭解，請參閱  https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html["查看 Keystone 訂閱的消費趨勢"]。
 
 
 
+[[forecast-for-capacity-usage]]
 === 容量使用預測
 
-您可以使用 *Consumption trend* 標籤中 *Historical consumption* 視圖裡的 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的容量使用量。若要深入瞭解，請參閱 link:./integrations/consumption-tab.html#view-forecast-data["查看預測資料"]。
+您可以使用 *Consumption trend* 標籤中 *Historical consumption* 視圖裡的 *Forecast* 切換按鈕，預測從目前日期起未來 120 天的容量使用量。若要深入瞭解，請參閱  https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["查看預測資料"]。
 
 
 
+[[tracking-id-in-subscription-export]]
 === 訂閱匯出中的追蹤 ID
 
 現在，從 *Subscriptions* 頁面下載的訂閱報告在 Excel 和 CSV 格式的效能服務等級資料中包含了 *Tracking ID*。
 
 
 
+[[subscriptions-page-column-visibility-updates]]
 === 訂閱頁面欄可見性更新
 
 在「訂閱」頁面上、「Keystone 版本」欄現在預設為隱藏、而「連結的訂閱」欄僅在有連結的訂閱可用時才會顯示。
 
 
 
+[[march-02-2026]]
 == 2026 年 3 月 2 日
 
 NetApp Console中Keystone儀表板的新增強功能：
 
 
 
+[[new-columns-in-the-volumes-in-clusters-tab]]
 === 叢集中的磁碟區標籤中的新欄
 
-在「資產」的「叢集中的磁碟區」標籤中新增了三個欄位：*Hot data*、*Cold tier (%)*和*Hot tier (%)*。要了解更多信息，請參閱 link:./integrations/assets-tab.html["查看與 Keystone 訂閱相關的資產"] 和 link:./integrations/assets.html["查看 Keystone 訂閱中的資產"]。
+在「資產」的「叢集中的磁碟區」標籤中新增了三個欄位：*Hot data*、*Cold tier (%)*和 *Hot tier (%)*。若要深入瞭解，請參閱 https://docs.netapp.com/us-en/keystone-staas/integrations/assets-tab.html["查看與 Keystone 訂閱相關的資產"]和 https://docs.netapp.com/us-en/keystone-staas/integrations/assets.html["查看 Keystone 訂閱中的資產"]。
 
 
 
+[[invoiced-uninvoiced-and-provisional-burst-usage-in-consumption-trend]]
 === 消費趨勢中的已開立發票、未開立發票和暫定突發使用量
 
-*用量趨勢* 標籤中的累積突發計費圖表現在顯示已開立發票、未開立發票和暫定突發用量。如需深入瞭解，請參閱 link:./integrations/consumption-tab.html#view-accrued-burst["查看累計突發事件"]。
+*用量趨勢* 標籤中的累積突發計費圖表現在顯示已開立發票、未開立發票和暫定突發用量。若要深入瞭解，請參閱  https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-accrued-burst["查看累計突發事件"]。
 
 
 
+[[enhancements-to-the-monitoring-view]]
 === 監控檢視的增強功能
 
 *監控* 視圖包含以下更新：
@@ -140,94 +159,109 @@ NetApp Console中Keystone儀表板的新增強功能：
 * *Alert monitors tab*：*Condition* 列已重新命名為 *Monitor type & condition*。
 
 
-如需深入瞭解，請參閱 link:./integrations/monitoring-alerts.html["查看並管理Keystone訂閱的提醒"] 和 link:./integrations/monitoring-alert-monitors.html["查看並建立Keystone訂閱的警報監視器"]。
+要了解更多資訊，請參閱 https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html["查看並管理Keystone訂閱的提醒"]和 https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html["查看並建立Keystone訂閱的警報監視器"]。
 
 
 
+[[16-february-2026]]
 == 2026 年 2 月 16 日
 
 NetApp Console中Keystone儀表板的新增強功能：
 
 
 
+[[dii-add-on-consumption-display]]
 === Data Infrastructure Insights 附加消耗顯示器
 
-Data Infrastructure Insights （ DII ） 附加元件使用量現在會顯示在 *目前使用量* 和 *使用量趨勢* 標籤中。若要深入瞭解、請參閱 link:./concepts/data-infra-insights.html#view-dii-consumption["查看 DII 消費狀況"]。
+Data Infrastructure Insights （ DII ） 附加元件使用量現在會顯示在 *目前使用量* 和 *使用量趨勢* 標籤中。若要深入瞭解，請參閱  https://docs.netapp.com/us-en/keystone-staas/concepts/data-infra-insights.html#view-dii-consumption["查看 DII 消費狀況"]。
 
 
 
+[[02-february-2026]]
 == 2026 年 2 月 02 日
 
 NetApp Console中Keystone儀表板的新增強功能：
 
 
 
+[[interactive-filtering-for-daily-accrued-burst-data]]
 === 每日累積突發資料的互動式篩選
 
 「消費趨勢」標籤中的「按天計算累積峰值」表格現已支援互動式篩選。選擇累計峰值計費圖表中的任一長條圖，即可僅查看該計費週期內的天數。如需深入瞭解，請參閱 link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["檢視每日累積的突發資料使用量"]。
 
 
 
+[[enhanced-date-range-display-in-accrued-burst-graph]]
 === 增強了累計突發圖表中的日期範圍顯示
 
 *消費趨勢* 標籤中的累積突發帳單圖表現在顯示每個帳單週期的完整日期範圍，例如 Oct 01, 2025 to Oct 31, 2025，而不僅僅是月份和年份。
 
 
 
+[[expandable-subscription-details-view]]
 === 可展開的訂閱詳細資料檢視
 
 *訂閱*標籤包含一個選項，可以展開所有訂閱並同時查看每個訂閱的效能服務等級資訊。要了解更多資訊，請參閱 link:./integrations/subscriptions-tab.html["查看您的 Keystone 訂閱的詳細信息"]。
 
 
 
+[[new-usage-type-column]]
 === 新增使用類型欄
 
 *訂閱* 標籤包含一個 *使用類型* 欄，該欄顯示訂閱是按已佈建、實體或邏輯使用量計費。如需深入瞭解，請參閱 link:./integrations/subscriptions-tab.html["查看您的 Keystone 訂閱的詳細信息"]。
 
 
 
+[[08-december-2025]]
 == 2025年12月8日
 
 NetApp Console中Keystone儀表板的新增強功能：
 
 
 
+[[renamed-accrued-burst-capacity-label]]
 === 更名為「累積突發容量」標籤
 
 標籤「累計突發容量」更名為「累計突發」。
 
 
 
+[[24-november-2025]]
 == 2025年11月24日
 
 NetApp Console中Keystone儀表板的新增強功能：
 
 
 
+[[tracking-id-for-coverage-gap-subscriptions]]
 === 用於追蹤保障缺口訂閱的 ID
 
 在「監控 > 警報監控」上的「完成您的保障」通知框中，現在每個訂閱都會在訂閱編號旁顯示其追蹤 ID。
 
 
 
+[[10-november-2025]]
 == 2025年11月10日
 
 NetApp Console中Keystone儀表板的新增強功能：
 
 
 
+[[complete-your-coverage-notification-box]]
 === 填寫您的保險覆蓋範圍通知框
 
 「監控」頁面上的「警報監控」標籤包含一個「完善您的覆蓋範圍」通知框，當存在覆蓋範圍缺口時，該通知框就會出現。此框列出了缺少容量或到期監控器的訂閱，以及沒有訂閱的監控器。您可以透過向現有監視器新增訂閱、建立新監視器或刪除未使用的監視器來彌補這些差距。欲了解更多信息，請參閱 link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html#manage-coverage-gaps["管理警報監控器的覆蓋範圍缺口"]。
 
 
 
+[[13-october-2025]]
 == 2025年10月13日
 
 NetApp Console中Keystone儀表板的新增強功能：
 
 
 
+[[qos-policy-override-column-in-assets-tab]]
 === 資產標籤中的 QoS 策略覆蓋列
 
 *Assets* 選項卡中的 *Volumes in clusters* 選項卡現在包含一個 *QoS policy override* 列，指示是否繞過備份和鏡像卷的 QoS 規則，顯示 *true*（忽略規則）、*false*（強制執行規則）或 *N/A*（對於鏡像卷）。
@@ -237,16 +271,19 @@ NOTE: 對於Keystone v3 訂閱，此列顯示 *N/A*，因為 QoS 策略不適用
 
 
 
+[[enhanced-alerts-visibility-in-overview-page]]
 === 增強了概覽頁面中的警報可見性
 
 *概覽*頁面現在包括兩個新的警報部分，名為*按嚴重程度排列的未解決警報*和*最早未解決的Keystone警報*。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-console.html["NetApp控制台中的Keystone儀表板"]。
 
 
 
+[[06-october-2025]]
 == 2025年10月6日
 
 
 
+[[bluexp-is-now-netapp-console]]
 === BlueXP現在是NetApp控制台
 
 NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
@@ -255,10 +292,12 @@ NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級�
 
 
 
+[[22-september-2025]]
 == 2025年9月22日
 
 
 
+[[addition-of-alert-monitoring]]
 === 增加警報監控
 
 BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管理您訂閱中的警報和監視器。此新選項卡使您能夠：
@@ -271,16 +310,19 @@ BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管
 
 
 
+[[streamlined-performance-service-levels-viewing]]
 === 簡化的效能服務等級查看
 
 您可以在“*訂閱*”選項卡中查看性能服務級別信息，現在該信息已從單獨的選項卡移至可擴展視圖。按一下「到期日」欄位旁的向下箭頭可查看每個訂閱的到期日。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["查看您的 Keystone 訂閱的詳細信息"]。
 
 
 
+[[28-august-2025]]
 == 2025年8月28日
 
 
 
+[[enhanced-logical-usage-tracking-with-a-new-column]]
 === 使用新列增強邏輯使用情況跟踪
 
 新增了新欄位“總佔用空間”，以增強對FabricPool磁碟區的Keystone消耗追蹤：
@@ -293,20 +335,24 @@ BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管
 
 
 
+[[05-august-2025]]
 == 2025年8月5日
 
 
 
+[[view-instance-level-consumption-data]]
 === 查看實例層級消耗數據
 
 您可以透過BlueXP中的Keystone儀表板查看每個效能服務等級實例的目前消耗和歷史資料。如果您擁有Keystone版本 3 (v3) 訂閱，此功能適用於具有多個執行個體的效能服務等級。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/integrations/current-usage-tab.html["查看Keystone訂閱的消耗量"]。
 
 
 
+[[30-june-2025]]
 == 2025 年 6 月 30 日
 
 
 
+[[keystone-version-3-v3-release]]
 === Keystone 版本 3 (v3) 發布
 
 現在您可以訂閱Keystone版本 3 (v3)，這是NetApp Keystone STaaS 產品的最新版本。此版本引入了多項增強功能，包括簡化的效能服務等級、額外的突發容量選項和靈活的計費頻率。這些改進簡化了儲存解決方案的管理、最佳化和擴充。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html["v3 的 Keystone STaaS 服務"]。
@@ -315,10 +361,12 @@ BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管
 
 
 
+[[19-june-2025]]
 == 2025 年 6 月 19 日
 
 
 
+[[keystone-dashboard-in-bluexp]]
 === BlueXP 中的 Keystone 儀表板
 
 現在您可以直接從 BlueXP 存取 Keystone 儀表板。此整合讓您可以在一個位置監控、管理和追蹤所有 Keystone 訂閱以及其他 NetApp 服務。
@@ -334,48 +382,57 @@ BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管
 
 
 
+[[08-january-2025]]
 == 2025 年 1 月 08 日
 
 
 
+[[addition-of-daily-accrued-data-usage-viewing-options]]
 === 新增每日累積資料使用率檢視選項
 
 您現在可以按一下顯示發票資料的長條圖，以圖表或表格格式檢視每月或每季計費期間的每日累積突發資料用量。若要深入瞭解、請 link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["檢視每日累積的突發資料使用量"]參閱。
 
 
 
+[[12-december-2024]]
 == 2024 年 12 月 12 日
 
 
 
+[[renamed-logical-used-column]]
 === 重新命名的已用邏輯欄
 
 * Volume Details （卷詳細信息） * 選項卡中的 * Logical Used （已用邏輯） * 列現在已重命名爲 * Keystone Logical Used （已用基礎邏輯） * 。
 
 
 
+[[enhanced-assets-tab]]
 === 增強的資產索引標籤
 
 * 基礎概念訂閱 * 畫面中的 * 資產 * 索引標籤現在有兩個新的子索引標籤： * ONTAP * 和 * StorageGRID * 。這些子索引標籤提供詳細的叢集層級洞見，可根據您的訂閱內容提供 ONTAP 和 StorageGRID 網格層級的資訊。若要深入瞭解、請 link:./integrations/assets-tab.html["資產索引標籤"^]參閱。
 
 
 
+[[new-hideshow-columns-option]]
 === 新增隱藏 / 顯示欄選項
 
 * Volume & Objects* 中的 * Volume Details* （卷詳細信息 * ）選項卡現在包含 * 隱藏 / 顯示列 * 選項。此選項可讓您選取或取消選取欄，以根據您的偏好來自訂磁碟區的表格式清單。若要深入瞭解、請 link:./integrations/volumes-objects-tab.html["Volume  ；物件索引標籤"^]參閱。
 
 
 
+[[21-november-2024]]
 == 2024 年 11 月 21 日
 
 
 
+[[enhanced-invoiced-accrued-burst]]
 === 強化發票預提暴增
 
 如果您已選擇每季計費週期，現在可以透過 * 發票預提的突發 * 選項，每季檢視累積的突發使用資料。若要深入瞭解、請 link:./integrations/consumption-tab.html#view-accrued-burst["檢視已開發票的累積爆發"^]參閱。
 
 
 
+[[new-columns-in-the-volumes-details-tab]]
 === 「 Volume 詳細資料」標籤中的新欄
 
 為了提高邏輯使用率的計算清晰度，在 * Volume & Objects* 標籤的 * Volume Details* 標籤中新增了兩個新欄：
@@ -388,36 +445,43 @@ BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管
 
 
 
+[[11-november-2024]]
 == 2024 年 11 月 11 日
 
 
 
+[[enhanced-report-generation]]
 === 增強的報告產生功能
 
 您現在可以使用 Digital Advisor 中的報告功能來產生合併報告，以檢視 Keystone 資料的詳細資料。要了解更多信息，請參閱link:./integrations/options.html#generate-consolidated-report-from-digital-advisor["產生整合式報告"^] 。
 
 
 
+[[10-july-2024]]
 == 2024 年 10 月 7 日
 
 
 
+[[label-modifications]]
 === 標籤修改
 
 標籤 * 目前使用量 * 會變更為 * 目前使用量 * 、而 * 容量趨勢 * 會變更為 * 使用量趨勢 * 。
 
 
 
+[[search-bar-for-subscriptions]]
 === 訂閱搜尋列
 
 * 基礎概念訂閱 * 畫面中所有索引標籤的 * 訂閱 * 下拉式清單現在包含搜尋列。您可以搜尋 * 訂閱 * 下拉式清單中列出的特定訂閱。
 
 
 
+[[27-june-2024]]
 == 2024 年 6 月 27 日
 
 
 
+[[consistent-display-of-subscription]]
 === 一致的訂閱顯示
 
 「 *Keystone Subscriptions * 」畫面會更新、以顯示所有標籤的所選訂閱編號。
@@ -428,16 +492,19 @@ BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管
 
 
 
+[[29-may-2024]]
 == 2024 年 29 月 5 日
 
 
 
+[[enhanced-burst-indicator]]
 === 增強的爆發指標
 
 使用圖索引中的 * 脈衝 * 指標會增強、以顯示脈衝量限制百分比值。此值會根據訂閱的約定突發量上限而有所變更。您也可以將游標移到 * 使用狀態 * 欄中的 * 脈衝使用量 * 指標上、以檢視 * 訂閱 * 索引標籤中的突發量限制值。
 
 
 
+[[addition-of-service-levels]]
 === 新增服務層級
 
 包含服務層級 * CVO Primary * 和 * CVO Secondary * 、可支援 Cloud Volumes ONTAP 、以支援具有零承諾容量的費率方案、或是設定為 Metro 叢集的方案。
@@ -448,56 +515,66 @@ BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管
 
 
 
+[[zoom-in-feature-for-short-term-bursts]]
 === 用於短期突發的放大功能
 
 「 * 容量趨勢 * 」標籤現在包含放大功能、可檢視使用圖表中短期突發的詳細資料。如需更多資訊、請參閱 link:./integrations/consumption-tab.html["容量趨勢索引標籤"^]。
 
 
 
+[[enhanced-display-of-subscriptions]]
 === 增強訂閱顯示
 
 訂閱的預設顯示功能已增強、可依追蹤 ID 進行排序。* 訂閱 * 索引標籤中的訂閱、包括 * 訂閱 * 下拉式清單和 CSV 報告、現在會依照追蹤 ID 的字母順序、依照 A 、 A 、 b 、 B 等順序顯示。
 
 
 
+[[enhanced-accrued-burst-display]]
 === 強化的累積突發顯示
 
 將游標暫留在「 * 容量趨勢 * 」標籤中的容量使用長條圖上時所出現的工具提示、現在會根據已認可的容量、顯示累積突發量的類型。它會區分預提量與發票預提量、顯示 * 預提使用量 * 與 * 發票預提使用量 * 、用於零承諾容量費率方案的訂閱、以及 * 預提突發 * 與 * 發票預提突發 * 、用於非零承諾容量的訂閱。
 
 
 
+[[09-may-2024]]
 == 2024 年 09 月 5 日
 
 
 
+[[new-columns-in-csv-reports]]
 === CSV 報告中的新欄
 
 * 容量趨勢 * 索引標籤的 CSV 報告現在包含 * 訂閱號碼 * 和 * 帳戶名稱 * 欄、以提供更好的詳細資料。
 
 
 
+[[enhanced-usage-type-column]]
 === 增強使用類型欄
 
 「 * 訂閱 * 」標籤中的「 * 使用類型 * 」欄已增強、可將邏輯和實體使用方式顯示為以逗號分隔的值、以涵蓋檔案和物件的服務層級。
 
 
 
+[[access-object-storage-details-from-volume-details-tab]]
 === 從 Volume Details 標籤存取物件儲存詳細資料
 
 「 * 磁碟區與物件 * 」標籤中的「 * 磁碟區詳細資料 * 」標籤現在提供物件儲存詳細資料、以及包含檔案與物件服務層級的訂閱數量資訊。您可以按一下 * Volume Details* 標籤中的 * 物件儲存詳細資料 * 按鈕來檢視詳細資料。
 
 
 
+[[28-march-2024]]
 == 2024 年 3 月 28 日
 
 
 
+[[improvement-to-qos-policy-compliance-display-in-the-volume-details-tab]]
 === 「 Volume Details 」（ Volume 詳細資料）標籤會顯示 QoS 原則符合性的改善
 
 「 * 磁碟區與物件 * 」標籤中的「 * 磁碟區詳細資料 * 」標籤、現在可更清楚地瞭解服務品質（ QoS ）原則法規遵循。先前稱為 *AQoS* 的欄會重新命名為 * 相容 * 、表示 QoS 原則是否符合法規。此外，還會新增一個新欄 *QoS 原則類型 * ，指定原則是固定的還是自適應的。如果兩者皆不適用、欄會顯示 _ 不可用 _ 。如需更多資訊、請參閱 link:./integrations/volumes-objects-tab.html["Volume  ；物件索引標籤"^]。
 
 
 
+[[new-column-and-simplified-subscription-display-in-the-volume-summary-tab]]
 === Volume Summary （ Volume 摘要）選項卡中會顯示新的列和簡化的訂閱
 
 * 「 * 磁碟區與物件 * 」索引標籤中的「 * 磁碟區摘要 * 」索引標籤現在包含標題為 * 受保護 * 的新欄。此欄提供與您訂閱的服務層級相關聯的受保護磁碟區計數。如果您按一下受保護的磁碟區數量、就會進入 * Volume Details* （磁碟區詳細資料）標籤、您可以在其中檢視受保護磁碟區的篩選清單。
@@ -506,12 +583,14 @@ BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管
 
 
 
+[[change-to-accrued-burst-detail-display-in-the-capacity-trend-tab]]
 === 「容量趨勢」標籤中會顯示「累積突發量明細」的變更
 
 將游標暫留在「 * 容量趨勢 * 」標籤中的容量使用長條圖上時所出現的工具提示、將會顯示當月累積突發的詳細資料。前幾個月將無法取得詳細資料。
 
 
 
+[[enhanced-access-to-view-historical-data-for-keystone-subscriptions]]
 === 增強存取功能、可檢視 Keystone 訂閱的歷史資料
 
 如果已修改或更新 Keystone 訂閱、您現在可以檢視歷史資料。您可以將訂閱的開始日期設定為先前的日期以檢視：
@@ -524,70 +603,83 @@ BlueXP中的Keystone儀表板現在包括一個「監控」選項卡，用於管
 
 
 
+[[29-february-2024]]
 == 2024 年 29 月 2 日
 
 
 
+[[addition-of-the-assets-tab]]
 === 新增資產索引標籤
 
 「 * 基礎概念訂閱 * 」畫面現在包含 * 資產 * 索引標籤。這個新索引標籤會根據您的訂閱內容、提供叢集層級的資訊。如需更多資訊、請參閱 link:./integrations/assets-tab.html["資產索引標籤"^]。
 
 
 
+[[improvements-to-the-volumes-objects-tab]]
 === 「 Volume & Objects 」標籤的改良功能
 
 為了讓 ONTAP 系統磁碟區更清晰、 * Volume Summary* 和 * Volume Details* 這兩個新的標籤按鈕已新增至 * Volumes * 標籤。「 * Volume Summary 」（ Volume 摘要）標籤提供與您訂閱服務層級相關的整體磁碟區數、包括其 AQO 法規遵循狀態和容量資訊。「 * Volume 詳細資料 * 」標籤會列出所有磁碟區及其詳細資料。如需更多資訊、請參閱 link:./integrations/volumes-objects-tab.html["Volume  ；物件索引標籤"^]。
 
 
 
+[[enhanced-search-experience-on-digital-advisor]]
 === 增強數位顧問的搜尋體驗
 
 * 數位顧問 * 畫面上的搜尋參數現在包括 Keystone 訂閱號碼和為 Keystone 訂閱所建立的報價表。您可以輸入訂閱號碼或報價表名稱的前三個字元。如需更多資訊、請參閱 link:./integrations/keystone-aiq.html["在 Active IQ Digital Advisor 上查看 Keystone 儀表板"^]。
 
 
 
+[[view-timestamp-of-the-consumption-data]]
 === 檢視使用資料的時間戳記
 
 您可以在 *Keystone Subscriptions * Widget 的舊儀表板上檢視使用資料時間戳記（以 UTC 為單位）。
 
 
 
+[[13-february-2024]]
 == 2024 年 13 月 2 日
 
 
 
+[[ability-to-view-subscriptions-linked-to-a-primary-subscription]]
 === 可檢視連結至主要訂閱的訂閱
 
 您的部分主要訂閱可能有連結的次要訂閱。如果是這種情況、主要訂閱號碼將繼續顯示在 * 訂閱號碼 * 欄中、而連結的訂閱號碼則會列在 * 訂閱 * 索引標籤上的新欄 * 連結訂閱 * 中。「 * 連結訂閱 * 」欄只有在您有連結的訂閱時才可供使用、而且您可以看到通知您的資訊訊息。
 
 
 
+[[11-january-2024]]
 == 2024 年 1 月 11 日
 
 
 
+[[invoiced-data-returned-for-accrued-burst]]
 === 因累積突發而傳回的發票資料
 
 * 累積突發 * 的標籤現已修改為 * 容量趨勢 * 標籤中的 * 發票累積突發 * 。選取此選項可讓您檢視已計費之累積突發資料的每月圖表。如需更多資訊、請參閱 link:./integrations/consumption-tab.html#view-accrued-burst["檢視已開發票的累積爆發"^]。
 
 
 
+[[accrued-consumption-details-for-specific-rate-plans]]
 === 特定費率計畫的累積使用詳細資料
 
 如果您的訂閱具有 _ 零 _ 已認可容量的費率計畫、您可以在 * 容量趨勢 * 標籤中檢視累積的使用量詳細資料。選擇 * 已開票的累計使用 * 選項時、您可以檢視已計費的累計使用資料的每月圖表。
 
 
 
+[[15-december-2023]]
 == 2023 年 12 月 15 日
 
 
 
+[[ability-to-search-by-watchlists]]
 === 能夠依觀察名單進行搜尋
 
 Digital Advisor 中的報價表支援已延伸至 Keystone 系統。您現在可以使用報價表來搜尋多位客戶的訂閱詳細資料。如需 Keystone STaas 中使用報價表的詳細資訊、請參閱 link:./integrations/keystone-aiq.html#search-by-keystone-watchlists["依 Keystone 觀察名單搜尋"^]。
 
 
 
+[[date-converted-to-utc-timezone]]
 === 轉換為 UTC 時區的日期
 
 Digital Advisor 的 *Keystone Subscriptions* 螢幕標籤上傳回的資料以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時、系統會自動將其視為 UTC 時間。如需更多資訊、請參閱 link:./integrations/keystone-aiq.html["Keystone訂閱儀表板與報告"^]。

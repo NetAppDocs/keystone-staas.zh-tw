@@ -141,6 +141,7 @@ NOTE: 空白圖表表示您的環境在該資料收集點沒有可用的資料�
 ====
 
 
+[[accrued-burst-computation]]
 == 累計突發計算
 
 整個月的累積突發使用量計算方式如下：
@@ -155,6 +156,7 @@ NOTE: 空白圖表表示您的環境在該資料收集點沒有可用的資料�
 
 
 
+[[view-accrued-burst]]
 == 查看累計突發事件
 
 您可以透過 Console 或 Digital Advisor 檢視累計突發流量使用情況。如果您在 Console 的 *Consumption trend* 標籤中的 *View* 下拉式選單中選擇了 *Accrued burst*，或在 Digital Advisor 的 *Consumption Trend* 標籤中選擇了 *Invoiced Accrued Burst* 選項，則可以根據您選擇的計費週期，按月或按季度查看累計突發流量使用情況。
@@ -178,6 +180,7 @@ image:accr-burst-2.png["每季累積的突發使用量"]
 
 
 
+[[view-forecast-data]]
 == 查看預測資料
 
 在 Console 中，您可以使用 *Consumption trend* 標籤中的 *Forecast* 切換按鈕，在 *Historical consumption* 檢視中查看預期容量使用情況，並在 *Accrued burst* 檢視中查看預期累積突發流量。預設情況下，這兩個檢視中的切換按鈕均已啟用。
@@ -196,6 +199,7 @@ image:accrued-burst-forecast.png["顯示累積爆發預測的螢幕擷取畫面"
 
 
 
+[[view-daily-accrued-burst-data-usage]]
 == 檢視每日累積的突發資料使用量
 
 您可以透過控制台或Digital Advisor查看每月或每季計費期間的每日累積突發資料使用量。在控制台中，如果您從 *消費趨勢* 選項卡中的 *查看* 下拉選單中選擇 *累積突發*，則 *按天累計突發* 表將提供詳細數據，包括時間戳、已提交、已消耗和累積突發容量。

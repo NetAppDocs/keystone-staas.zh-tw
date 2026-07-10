@@ -39,30 +39,35 @@ Keystone 的計費規則因特定磁碟區配置而異。了解這些例外情�
 |===
 
 
+[[billing-for-cloned-volumes]]
 == 複製磁碟區的收費
 
 複製磁碟區會以標準磁碟區計費，效能服務層級與複製來源磁碟區相同。所有複製磁碟區無論大小或用途如何，都會進行計量和計費。
 
 
 
+[[billing-for-temporary-volumes]]
 == 暫用磁碟區收費
 
 有時 ONTAP 、當搬移 Volume 時、會由現象開發出暫用（ TMP ） Volume 。這些暫存磁碟區的壽命很短、而且不會測量這些磁碟區的使用量以供計費。
 
 
 
+[[billing-for-snapmirror-destinations]]
 == SnapMirror 目的地收費
 
 SnapMirror 目標磁碟區的定價（無論用於災難復原或長期保留）均基於分配給目標磁碟區的效能服務等級。資料保護無需額外付費。
 
 
 
+[[billing-for-luns]]
 == LUN 計費
 
 對於 LUN，計費基於磁碟區的效能服務等級。
 
 
 
+[[system-and-root-volumes]]
 == 系統和根磁碟區
 
 系統和根磁碟區會在Keystone服務的整體監控中受到監控、但不會計入或計費。這些磁碟區的使用量可免除計費。

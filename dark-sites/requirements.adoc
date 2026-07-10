@@ -18,6 +18,7 @@ summary: 在沒有網際網路存取的環境中安裝 Keystone Collector 之前
 
 
 
+[[requirements-for-vmware-vsphere]]
 == VMware vSphere 的需求
 
 * 作業系統：VMware vCenter 伺服器和 ESXi 8.0 或更高版本
@@ -28,6 +29,7 @@ summary: 在沒有網際網路存取的環境中安裝 Keystone Collector 之前
 
 
 
+[[requirements-for-linux]]
 == Linux 的需求
 
 * 作業系統（選擇一項）：
@@ -81,6 +83,7 @@ NOTE: Keystone Collector 僅支援以上列出的第三方軟體包。安裝其�
 
 
 
+[[networking-requirements]]
 == 網路需求
 
 Keystone Collector 的網路需求包括：

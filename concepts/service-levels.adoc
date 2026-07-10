@@ -23,6 +23,7 @@ NOTE: AFX 訂閱僅限於 AFX 儲存類型，目前僅提供一種 PSL ， Extre
 
 
 
+[[performance-service-levels-instances]]
 == 效能服務層級執行個體
 
 在您的環境中，一個效能服務等級（PSL）可以有多個執行個體，稱為效能服務等級執行個體（PSLI）。每個 PSLI 都是指派給該效能服務等級的個別儲存系統，並以每個 PSLI 測量承諾容量。
@@ -40,6 +41,7 @@ TIP: NetApp Keystone STaaS 效能服務等級的詳細服務說明可供查閱 h
 
 
 
+[[performance-service-levels-for-unified-storage]]
 == 統一儲存的效能服務級別
 
 |===
@@ -76,6 +78,7 @@ TIP: NetApp Keystone STaaS 效能服務等級的詳細服務說明可供查閱 h
 |===
 
 
+[[performance-service-levels-for-block-optimized-storage]]
 == 區塊優化儲存的效能服務級別
 
 |===
@@ -112,6 +115,7 @@ TIP: NetApp Keystone STaaS 效能服務等級的詳細服務說明可供查閱 h
 |===
 
 
+[[performance-service-levels-for-afx-storage]]
 == AFF 儲存設備的效能服務層級
 
 |===
@@ -155,6 +159,7 @@ TIP: NetApp Keystone STaaS 效能服務等級的詳細服務說明可供查閱 h
 ====
 
 
+[[performance-measurement-conditions-for-unified-block-optimized-and-afx-storage]]
 == 統一儲存設備、區塊最佳化儲存設備和 AFF 儲存設備的效能測量條件
 
 基本效能服務等級指標取決於以下條件：
@@ -191,6 +196,7 @@ TIP: NetApp Keystone STaaS 效能服務等級的詳細服務說明可供查閱 h
 
 
 
+[[performance-service-levels-for-object-storage]]
 == 對象儲存的效能服務級別
 
 |===
@@ -215,6 +221,7 @@ TIP: NetApp Keystone STaaS 效能服務等級的詳細服務說明可供查閱 h
 |===
 
 
+[[cloud-storage]]
 == 雲端儲存設備
 
 |===

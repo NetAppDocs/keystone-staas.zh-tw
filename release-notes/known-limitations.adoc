@@ -18,10 +18,12 @@ summary: 已知限制指出本產品版本不支援的平台、裝置或功能�
 
 
 
+[[keystone-collector-limitations]]
 == Keystone 收集器限制
 
 
 
+[[keystone-collector-authentication-failure-with-storagegrid-sso-enabled]]
 === 啟用 StorageGRID SSO 時 Keystone 收集器驗證失敗
 
 當 StorageGRID 系統啟用單一登入（ SSO ）時、 Keystone Collector 不支援計量。記錄中會顯示下列錯誤訊息：
@@ -32,6 +34,7 @@ summary: 已知限制指出本產品版本不支援的平台、裝置或功能�
 
 
 
+[[keystone-collector-cannot-start-on-vsphere-8-0-update-1]]
 === Keystone Collector 無法在 vSphere 8.0 Update 1 上啟動
 
 使用 VMware vSphere 8.0 Update 1 版的 Keystone Collector 虛擬機器（ VM ）無法開啟、並顯示下列錯誤訊息：
@@ -42,6 +45,7 @@ summary: 已知限制指出本產品版本不支援的平台、裝置或功能�
 
 
 
+[[support-bundle-cannot-be-generated-over-kerberos]]
 === 無法透過 Kerberos 產生支援套件
 
 如果 Keystone Collector 主目錄是使用 Kerberos 安裝在 NFSv4 上、則不會產生支援套件、並會顯示下列錯誤訊息：
@@ -52,12 +56,14 @@ summary: 已知限制指出本產品版本不支援的平台、裝置或功能�
 
 
 
+[[keystone-collector-cannot-communicate-with-hosts-within-specific-network-range]]
 === Keystone Collector 無法與特定網路範圍內的主機通訊
 
 Keystone Collector 無法與網路範圍 10.88.0/16 內的裝置通訊 `ks-collector` 服務正在執行中。請參閱知識庫文章 link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_container_conflict_with_customer_network["Keystone Collector 容器與客戶網路衝突"^] 以取得資訊與解決方案。
 
 
 
+[[keystone-collector-cannot-verify-customer-root-ssl-ca-certificate]]
 === Keystone Collector 無法驗證客戶根 SSL CA 憑證
 
 如果在環境中的邊界防火牆啟用 SSL/TLS 檢查以檢查 SSL/TLS 流量、則 Keystone Collector 無法建立 HTTPS 連線、因為客戶的根 CA 憑證不受信任。

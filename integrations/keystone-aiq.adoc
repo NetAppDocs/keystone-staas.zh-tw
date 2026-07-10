@@ -47,6 +47,7 @@ NOTE: Keystone 訂閱的容量消耗量會以 TiBs 顯示在儀表板和報告�
 
 
 
+[[search-by-keystone-watchlists]]
 == 依 Keystone 觀察名單搜尋
 
 關注清單是 Digital Advisor 的一項功能。如需相關資訊，請參閱 https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["瞭解觀察名單"^]。有關建立關注清單的信息，請參閱 https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["建立觀察名單"^] 。

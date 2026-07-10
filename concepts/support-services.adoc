@@ -18,6 +18,7 @@ NetApp 為 Keystone 客戶提供營運服務。客戶將獲得專屬的 Keystone
 
 
 
+[[netapp-support-services]]
 == NetApp 支援服務
 
 NetApp 為 Keystone 客戶提供遠端維運服務。這些服務涵蓋一系列儲存管理活動，包括資產和組態管理、容量和效能管理、變更管理、事件和事故管理、服務要求履行以及報告。
@@ -27,6 +28,7 @@ NetApp 為 Keystone 客戶提供遠端維運服務。這些服務涵蓋一系列
 
 
 
+[[contact-support]]
 == 聯絡支援部門
 
 如果您在使用 Keystone 訂閱時遇到問題，請使用您的 NSS 憑證登入 link:https://support.netapp.com["NetApp 支援網站"^] 以建立支援案例。
@@ -45,12 +47,14 @@ NetApp 為 Keystone 客戶提供遠端維運服務。這些服務涵蓋一系列
 
 
 
+[[support-monitoring]]
 == 支援監控
 
 NetApp 使用 ITOM 監控解決方案主動監控您的產品和訂閱服務的運作狀況，並連線到 NetApp Keystone 環境進行故障排除。
 
 
 
+[[additional-resources]]
 == 其他資源
 
 如需Keystone服務的詳細資訊、請參閱：

@@ -18,6 +18,7 @@ summary: 了解 Keystone 的永續性 SLO 如何為您的 STaaS 部署定義能�
 
 
 
+[[metrics]]
 == 指標
 
 * *瓦特*：儲存陣列或 AFX 叢集消耗的功率，由監控工具報告。參考最大功耗限制在link:https://hwu.netapp.com["NetApp Hardware Universe"^]中提供。
@@ -33,6 +34,7 @@ summary: 了解 Keystone 的永續性 SLO 如何為您的 STaaS 部署定義能�
 
 
 
+[[supported-configurations]]
 === 支援的組態
 
 永續性 SLO 適用於具有以下支援組態的標準 Keystone STaaS 訂單：
@@ -47,6 +49,7 @@ summary: 了解 Keystone 的永續性 SLO 如何為您的 STaaS 部署定義能�
 
 
 
+[[service-credits]]
 == 服務點數
 
 
@@ -80,6 +83,7 @@ NOTE: SLA 和保證均以提名方式提供。
 |===
 
 
+[[service-credit-request]]
 === 服務信用申請
 
 如需申請服務積分，請在服務月份結束後的 7 天內向 NetApp Keystone 支援部門提交優先順序為 3 的（P3）支援工單，並按如下 Excel 表格所示提供詳細資訊：
