@@ -59,7 +59,7 @@ NetApp 使用 ITOM 監控解決方案主動監控您的產品和訂閱服務的�
 
 如需Keystone服務的詳細資訊、請參閱：
 
-* link:https://www.netapp.com/us/solutions/keystone/index.aspx["NetApp Keystone"^]
+* link:https://www.netapp.com/keystone/["NetApp Keystone"^]
 * link:https://docs.netapp.com["NetApp 產品文件"^]
 
 

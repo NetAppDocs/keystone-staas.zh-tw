@@ -655,7 +655,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">選取查詢的日期範圍。日期範圍可以是月份的開始日期、或是訂閱開始日期到目前日期或訂閱結束日期。您無法選擇未來日期。</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">*目前爆發*：在定義的突發量限制內或以上耗用容量的指標。在訂閱的突發量上限內的任何使用量、例如、超過承諾容量 20% 的使用量、都在突發量上限內。進一步的使用量會被視為超出連拍限制的使用量。此欄位顯示特定色彩：</block>
   <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">部分9.8或更新版本ONTAP</block>
-  <block id="ad98fcce772f03d25a2b4758c7fbf35c" category="list-text">請確定 Unified Manager 9.10 或更新版本已設定完成。如需安裝Unified Manager的相關資訊、請參閱下列連結：</block>
   <block id="8414d36b2c6d9865a2f13b42f9ef6e91" category="list-text">StorageGRID<block ref="eb0ecbdf20891e5963990e2643405555" prefix=" " category="inline-code"></block> 應安裝或更新版本。如需升級StorageGRID 功能的相關資訊、請參閱 <block ref="97cb3175bb06374adaf739435d4e2f76" category="inline-link-macro-rx"></block>。</block>
   <block id="3b41a0b0d60e10655d8e46d1aa287167" category="paragraph">對於 StorageGRID 、此索引標籤會顯示物件儲存的節點實體使用量。</block>
   <block id="88895084439cc3245895b1c40dc5b078" category="inline-link-macro">使用 Keystone 觀察名單進行搜尋</block>
@@ -721,7 +720,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="c977c72cd7678128aadf339e54fc0498" category="sidebar">我可以如何處理冷資料或使用率較低的資料？</block>
   <block id="3c433d996e071fc968830570a2649830" category="sidebar">如何保護我的 Keystone 資料？</block>
   <block id="b01022ea67a6b913d57f7194fcc72d9d" category="section-title">檢視已開發票的累積爆發</block>
-  <block id="0cd22f9baa25202637cff789fe1dfe9f" category="list-text">Active IQ Unified Manager （ Unified Manager ） 9.10 或更新版本</block>
   <block id="cbe21b6da30db10de9cd33de72b5dc48" category="paragraph">利用此技術、NRNVC功能可在磁碟區中設定的到期日之後、使磁碟機無法使用。SnapLock若要在SnapLock 您的磁碟區上使用支援技術、您必須訂閱NRNVC。這僅適用於檔案和區塊服務。</block>
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">*相關資訊*</block>
   <block id="e6158c69831c3faa8af6ba0dce7118fd" category="list-text"><block ref="e6158c69831c3faa8af6ba0dce7118fd" category="inline-link-macro-rx"></block></block>
@@ -1696,7 +1694,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="7e147d47de92c4a609c07c4bb5e40f29" category="list-text">*計費週期*：訂閱的發票週期。</block>
   <block id="15d3201050b72761174ef874891c70c2" category="list-text">*效能服務等級*：與訂閱相關的費率方案數量，每個費率方案對應特定的效能服務等級和承諾容量。</block>
   <block id="7977aee626f33c6d577f1efc799f2747" category="list-text">*最高容量*：訂閱內消耗的最大容量。</block>
-  <block id="e0e64854d2f2c608544b01e8cc518243" category="list-text">*訂閱到期天數*：訂閱到期前剩餘的天數。</block>
   <block id="e567b31e26c159f427dde0e64b05c3c2" category="admonition">您可以使用列選擇器自訂表中顯示的列<block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block>圖示.對於某些欄位和欄、您可能會看到資訊或警告圖示和工具提示、提供您有關資料的其他資訊。</block>
   <block id="ed4d0852f1703e0820b9637850aeae85" category="paragraph">若要在 Digital Advisor 中查看您的訂閱，請按照以下步驟操作：</block>
   <block id="01bbb3898ca00363b1b5c84f5c112a6e" category="list-text">從 Digital Advisor 左側導覽窗格中，前往 *常規 &gt; Keystone 訂閱 &gt; 訂閱*。</block>
@@ -2281,7 +2278,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="1e007e954fdd7587bcd939b10c21e650" category="list-text">在 Console 中，您可以與累積突發計費圖表進行交互，以篩選每日資料使用量。要了解更多信息，請參閱<block ref="0cc16f2bbc32fd70c68f98b9b0b4296a" category="inline-link-macro-rx"></block>。</block>
   <block id="1b342e2d578a51d6b3d947da95fe0f10" category="paragraph">在 Console 中，您可以透過選擇累積突發計費圖表中代表計費週期的任意長條圖來篩選表格。篩選後，表格將僅顯示所選計費週期內的日期。若要再次查看完整資料集，請使用 *Clear filters* 選項。如果所選週期沒有可用資料，則會顯示一則訊息，指示沒有可用資料。</block>
   <block id="e6f9cff2e05b0c21bfa8eacbea1108b9" category="paragraph"><block ref="e6f9cff2e05b0c21bfa8eacbea1108b9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c4eab7429b9b42ab319272d31567f10b" category="paragraph"><block ref="c4eab7429b9b42ab319272d31567f10b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6331e16cef510e2a7170f77ace7d4d3c" category="list-text">*使用類型*：您可能訂閱了多個 Keystone 版本。不同訂閱版本的效能服務等級費率方案規則可能有所不同。透過查看此欄中的值、您可以了解使用類型是按已配置、實體還是邏輯使用量計費。若要深入瞭解版本 1 、請參閱<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block>。</block>
   <block id="8c4ee08746e9d4d8b64596c87ac3fab1" category="inline-image-macro">展開圖示</block>
   <block id="b3aabf2706f0dd29444a14f90b5b670f" category="admonition">您可以點擊表格標題中的向下箭頭 <block ref="f41a012a2c49083e45aae37ff23f77bc" category="inline-image-macro-rx" type="image"></block> 展開所有訂閱，並同時查看每個訂閱的效能服務等級資訊。這將顯示詳細的容量資訊，包括所有訂閱的目前使用量、已承諾容量、已佈建容量、突發容量和可用容量。或者，您也可以點擊各訂閱列中 *到期日* 欄旁的向下箭頭，逐一展開檢視。</block>
@@ -2472,7 +2468,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="513ac101f78fa63747befb7f73414070" category="paragraph">NetApp 使用 ITOM 監控解決方案主動監控您的產品和訂閱服務的運作狀況，並連線到 NetApp Keystone 環境進行故障排除。</block>
   <block id="8cd58c89ff3d51a256ecfe3fe8bab20f" category="section-title">其他資源</block>
   <block id="bc9d99b4b5c353814419ac4f3a7bcbb9" category="inline-link-macro">NetApp Keystone</block>
-  <block id="07d64f85c46041387234eb4f1b2c6dda" category="list-text"><block ref="07d64f85c46041387234eb4f1b2c6dda" category="inline-link-macro-rx"></block></block>
   <block id="bc4fe2352063642d68529f2aa0ca7ca3" category="inline-link-macro">NetApp 產品文件</block>
   <block id="c4c9ecac280f54a5500192a9efb21c2b" category="list-text"><block ref="c4c9ecac280f54a5500192a9efb21c2b" category="inline-link-macro-rx"></block></block>
   <block id="417de6e21a96febf9dc5f6d95a18c845" category="inline-link-macro">如何識別 ONTAP 平台的序號</block>
@@ -2749,4 +2744,19 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">「進階資料保護 (ADP)」標籤中新增了「授權分發」子選項卡，讓您可以查看 MetroCluster 合作夥伴叢集的 ADP 授權使用情況。若要深入瞭解，請參閱 <block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>。</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">「資產」中的「叢集中的磁碟區」標籤現在包含一個「ARP 狀態」欄，該欄顯示每個磁碟區是否啟用或停用自主勒索軟體防護 (ARP)，讓您了解受管資產的勒索軟體防護狀況。若要深入瞭解 ARP，請參閱<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>。</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">若要深入瞭解，請參閱 <block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>。</block>
+  <block id="74cf60fbdf1e9979b4bc96c9e0974a6b" category="doc">查看訂閱到期日和自動續訂狀態</block>
+  <block id="495b22b0bc55d3822a5ffc86d03d07c9" category="paragraph">訂閱表格（「儲存設備 &gt; Keystone &gt; 訂閱」）中的「訂閱到期天數」欄現在會在到期日旁邊顯示一個圖示。如果自動續約已關閉，圖示顏色會指示到期臨近程度：綠色（&gt;120 天）、橘色（91–120 天）、紅色（&lt;90 天）或灰色（已過期）。對於已啟用自動續約的訂閱，會顯示自動續約圖示，表示訂閱將在當前期限結束時自動續約。此狀態為唯讀，並反映您的合約條款。開啟訂閱後，這些圖示會出現在「目前使用情況」、「使用趨勢」、「訂閱時間軸」和「資產」標籤的訂閱詳情標題中，讓您在瀏覽時可掌握到期與續約狀態的可見度。</block>
+  <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">若要深入瞭解，請參閱 <block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>。</block>
+  <block id="e13f280ffa976818e3580eb46f21ed29" category="list-text"><block ref="e13f280ffa976818e3580eb46f21ed29" category="inline-link-macro-rx"></block></block>
+  <block id="23d4d9cd1c1ff2d6d2933321e5728e41" category="list-text">Active IQ Unified Manager （Unified Manager）版本高於 9.10 且低於 9.16P2</block>
+  <block id="2532e6915fa7b6217c6d00baa817a264" category="list-text">請確保已設定高於 9.10 且低於 9.16P2 的 Unified Manager。有關安裝 Unified Manager 的資訊，請參閱以下連結：</block>
+  <block id="eb471dad784c59f27107be17f79c179b" category="paragraph"><block ref="eb471dad784c59f27107be17f79c179b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7ed9a56ae580bae02af0f4033c1fc03e" category="list-text">*訂閱到期天數*：在到期日旁顯示一個圖示，指示訂閱距離到期還有多久，以及是否會自動續訂。此狀態為唯讀，反映您的合約條款。若要審查合約詳情，請參閱 <block ref="2cf57deab11a97384e65ae3b18f8e059" category="inline-link-macro-rx"></block>。</block>
+  <block id="0f90b275e273c351e98af167ee4042b0" category="paragraph">自動續約關閉時，圖示顏色會指示到期時間臨近程度：</block>
+  <block id="e0646e6cc1521e0d850cfe435090ef1a" category="list-text">*綠色*：距離到期日還有超過 120 天。</block>
+  <block id="2eaf25d8a1f7859cabcfaf2c76ce332d" category="list-text">*橘色*：距離到期日還有 91 至 120 天。</block>
+  <block id="0f256230b1488e77dbb19f67f96d22e7" category="list-text">*紅*：距離到期日不到 90 天。為避免服務中斷，請向 NetApp Keystone 支援提交續約申請。</block>
+  <block id="ec9f6b08367a17a666713d93adc74fa6" category="list-text">*灰色*：訂閱已過期。</block>
+  <block id="9a43c87c7a255c40ac13d4fd963633ae" category="paragraph">對於已開啟自動續訂的訂閱，會顯示自動續訂圖示，表示訂閱將在目前期限結束時自動續訂。</block>
+  <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">2026年7月20日</block>
 </blocks>

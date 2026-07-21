@@ -18,6 +18,22 @@ summary: NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增�
 
 
 
+[[20-july-2026]]
+== 2026年7月20日
+
+NetApp Console中Keystone儀表板的新增強功能：
+
+
+
+[[view-subscription-expiry-and-auto-renewal-status]]
+=== 查看訂閱到期日和自動續訂狀態
+
+訂閱表格（「儲存設備 > Keystone > 訂閱」）中的「訂閱到期天數」欄現在會在到期日旁邊顯示一個圖示。如果自動續約已關閉，圖示顏色會指示到期臨近程度：綠色（>120 天）、橘色（91–120 天）、紅色（<90 天）或灰色（已過期）。對於已啟用自動續約的訂閱，會顯示自動續約圖示，表示訂閱將在當前期限結束時自動續約。此狀態為唯讀，並反映您的合約條款。開啟訂閱後，這些圖示會出現在「目前使用情況」、「使用趨勢」、「訂閱時間軸」和「資產」標籤的訂閱詳情標題中，讓您在瀏覽時可掌握到期與續約狀態的可見度。
+
+若要深入瞭解，請參閱  https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["查看您的 Keystone 訂閱的詳細信息"]。
+
+
+
 [[29-june-2026]]
 == 2026 年 6 月 29 日
 
