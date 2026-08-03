@@ -2171,7 +2171,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="6df7635d9934b92e0bdbe5e5a544fccb" category="doc">填寫您的保險覆蓋範圍通知框</block>
   <block id="8583cba6ee38a66f6e19ca7c15a5c1ed" category="inline-link-macro">管理警報監控器的覆蓋範圍缺口</block>
   <block id="a60761706ec1d12934bfc1dd049da2df" category="paragraph">「監控」頁面上的「警報監控」標籤包含一個「完善您的覆蓋範圍」通知框，當存在覆蓋範圍缺口時，該通知框就會出現。此框列出了缺少容量或到期監控器的訂閱，以及沒有訂閱的監控器。您可以透過向現有監視器新增訂閱、建立新監視器或刪除未使用的監視器來彌補這些差距。欲了解更多信息，請參閱 <block ref="1ef75ae1f09bcc7a95c6bbe07a54229c" category="inline-link-macro-rx"></block>。</block>
-  <block id="39fb73624dac610b8274b1bd6e2c1193" category="paragraph">您可以從NetApp Console中的Keystone控制面板檢視和建立Keystone訂閱的警報監視器。儀表板顯示了系統產生的和使用者定義的容量使用情況和訂閱到期情況的監控器。您可以建立監視器來設定閾值、選擇警報嚴重性以及新增通知的電子郵件收件者。您可以透過向未覆蓋的訂閱新增監視器或解決未使用的監視器問題來解決覆蓋範圍不足的問題。Digital Advisor不提供此功能。</block>
   <block id="ac092a2bcbdb5857ae37a4756db46a49" category="list-text">選擇“建立監視器”按鈕。</block>
   <block id="cb5198d92b18cf007a9117aa50f90c3e" category="list-text">更改所需字段，然後按一下「建立」。</block>
   <block id="2fd74b6a7fe875798408a25e1558c434" category="section-title">管理覆蓋缺口</block>
@@ -2759,4 +2758,8 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="ec9f6b08367a17a666713d93adc74fa6" category="list-text">*灰色*：訂閱已過期。</block>
   <block id="9a43c87c7a255c40ac13d4fd963633ae" category="paragraph">對於已開啟自動續訂的訂閱，會顯示自動續訂圖示，表示訂閱將在目前期限結束時自動續訂。</block>
   <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">2026年7月20日</block>
+  <block id="a57e8f53025c55f550f7149fb9604dfb" category="paragraph">您可以在 NetApp Console 的 Keystone 儀表板中檢視並建立 Keystone 訂閱的警報監控器。儀表板會顯示系統產生和使用者自訂的容量使用率及訂閱到期監控器。系統產生的監控器會自動為所有訂閱建立，並附有預先定義的閾值。您也可以建立使用者自訂監控器，以設定自訂閾值、選擇警報嚴重程度，並新增電子郵件通知收件者。您可以透過為未涵蓋的訂閱新增監控器或解決未使用的監控器問題，來填補涵蓋範圍的缺口。此功能在 Digital Advisor 中不適用。</block>
+  <block id="a24681f321af8a6f649af88394d08b33" category="paragraph">Keystone 會自動為您的所有訂閱建立系統產生的監控器。這些監控器無法刪除。編輯功能僅限於修改容量使用情況監控器的訂閱數量和效能服務層級，以及訂閱到期監控器的訂閱數量。</block>
+  <block id="93c8e847adc98c4e55b9db4e1ae1da42" category="list-text">*訂閱到期監控*：在訂閱到期日前的五個閾值（180 天、90 天、60 天、30 天和 7 天）觸發警報。隨著到期日臨近，嚴重性從資訊性升級至關鍵。</block>
+  <block id="2699cef281fc3da983c3d28aec2a40f0" category="list-text">*容量使用監控*：警報是基於您訂閱的承諾突發容量百分比，而非固定值。例如，如果您的承諾突發容量為 40%，則當容量使用率達到承諾容量的 140% 時，將觸發關鍵警報。</block>
 </blocks>
