@@ -2762,4 +2762,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="a24681f321af8a6f649af88394d08b33" category="paragraph">Keystone 會自動為您的所有訂閱建立系統產生的監控器。這些監控器無法刪除。編輯功能僅限於修改容量使用情況監控器的訂閱數量和效能服務層級，以及訂閱到期監控器的訂閱數量。</block>
   <block id="93c8e847adc98c4e55b9db4e1ae1da42" category="list-text">*訂閱到期監控*：在訂閱到期日前的五個閾值（180 天、90 天、60 天、30 天和 7 天）觸發警報。隨著到期日臨近，嚴重性從資訊性升級至關鍵。</block>
   <block id="2699cef281fc3da983c3d28aec2a40f0" category="list-text">*容量使用監控*：警報是基於您訂閱的承諾突發容量百分比，而非固定值。例如，如果您的承諾突發容量為 40%，則當容量使用率達到承諾容量的 140% 時，將觸發關鍵警報。</block>
+  <block id="68590e28745629d3e9c45d233ec874f4" category="paragraph">在 Digital Advisor 的「消費趨勢」標籤中，消費趨勢圖表不顯示當天的消費資料，只顯示前一天的資料。</block>
+  <block id="c11ff4c4af6e617e0c27f005526215c1" category="paragraph">2026-08-10</block>
 </blocks>
