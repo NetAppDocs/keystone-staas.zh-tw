@@ -79,7 +79,7 @@ TIP: 您可以從 ADP 拓撲中選擇叢集 B 訂閱（鏡像），將其視為�
 
 +
 
-TIP: 如果同步狀態顯示不同步或連線狀態顯示降級，請參閱 link:../concepts/support-services.html["取得 Keystone 的說明"] 以疑難排解此問題。
+TIP: 如果同步狀態顯示不同步或連線狀態顯示降級，請參閱 link:../concepts/support-services.html["Keystone 的支援服務"] 以疑難排解此問題。
 
 ** 查看主站台或鏡像站台的歷史使用趨勢。
 +

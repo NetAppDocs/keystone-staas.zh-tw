@@ -4,7 +4,7 @@ permalink: dark-sites/requirements.html
 keywords: installation, private mode, requirement, vmware vsphere, linux, networking,disk, space 
 summary: 在沒有網際網路存取的環境中安裝 Keystone Collector 之前（也稱為 _Dark 站台 _ 或 _Private 模式 _ ）、請先確保系統已準備好必要的軟體、並符合所有必要的先決條件。 
 ---
-= 準備以私有模式安裝Keystone Collector
+= Keystone Collector 在私有模式下的安裝要求
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -92,5 +92,5 @@ Keystone Collector 的網路需求包括：
 * Keystone Collector 伺服器應可在連接埠 443 （ HTTPS ）上存取 Unified Manager 伺服器。
 * Unified Manager 伺服器上的 Keystone Collector 應設定具有應用程式使用者權限的服務帳戶。
 * 不需要外部網際網路連線。
-* 每個月從Keystone Collector 匯出一個文件並透過電子郵件發送給NetApp支援團隊。如需了解如何聯絡支援團隊的更多信息，請參閱 link:../concepts/support-services.html["取得 Keystone 的說明"]。
+* 每月從 Keystone Collector 匯出一個檔案，並透過電子郵件傳送給 NetApp 支援團隊。如需有關如何聯絡支援團隊的詳細資訊，請參閱 link:../concepts/support-services.html["Keystone 的支援服務"]。
 

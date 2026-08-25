@@ -4,7 +4,7 @@ permalink: concepts/support-services.html
 keywords: Keystone support, service request, support ticket 
 summary: 使用 NetApp 支援網站建立支援案例或尋找 Keystone 訂閱的聯絡資訊。 
 ---
-= 取得 Keystone 的說明
+= Keystone 的支援服務
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

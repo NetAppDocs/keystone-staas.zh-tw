@@ -182,21 +182,21 @@ sidebar:
         url: "/concepts/pricing.html"
       - title: Keystone 針對特定磁碟區類型的計費
         url: "/concepts/misc-volume-billing.html"
-  - title: 從 Digital Advisor REST API 存取 Keystone
+  - title: 適用於 Keystone 的 Digital Advisor REST API
     entries:
-    - title: 開始使用 Digital Advisor REST API 擷取 Keystone 資料
+    - title: 開始使用 Digital Advisor REST API
       url: "/rest-api/retrieve-keystone-data-with-digital-advisor-rest-api.html"
     - title: 產生重新整理和存取權杖
       url: "/rest-api/generate-tokens.html"
-    - title: 取得使用 Digital Advisor REST API 的所有客戶清單
+    - title: 取得 Keystone 客戶清單
       url: "/rest-api/get-customer-list.html"
-    - title: 使用 Digital Advisor REST API 取得客戶訂閱
+    - title: 取得 Keystone 客戶訂閱
       url: "/rest-api/get-customer-subscriptions.html"
-    - title: 使用 Digital Advisor REST API 取得客戶使用量詳細資料
+    - title: 取得 Keystone 客戶的消費詳情
       url: "/rest-api/get-customer-consumption.html"
   - title: Keystone 訂閱服務第 1 版
     url: "/subscription-services-v1.html"
-  - title: 取得 Keystone 的說明
+  - title: Keystone 的支援服務
     url: "/concepts/support-services.html"
   - title: 法律聲明
     url: "/legal-notices.html"

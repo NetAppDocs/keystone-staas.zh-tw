@@ -42,6 +42,6 @@ Keystone 為檔案、區塊和物件儲存類型提供預先定義效能服務�
 * link:../concepts/pricing.html["Keystone定價"]
 * link:../concepts/add-on.html["Keystone STaaS 中的附加服務"]
 * link:../concepts/service-levels.html["Keystone 中的效能服務級別"]
-* link:../concepts/infra.html["Keystone基礎架構"]
+* link:../concepts/infra.html["了解 Keystone 基礎架構"]
 * link:../concepts/operational-models.html["Keystone中的運作模式"]
 

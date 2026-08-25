@@ -120,7 +120,7 @@ image:sla-breach.png["Excel 工作表範本"]
 [NOTE]
 ====
 * 服務信用申請應在 NetApp Keystone 支援驗證資料外洩後的六週內提出。所有服務點數均應由 NetApp 確認和核准。
-* 服務抵扣額可用於抵扣未來的帳單。服務抵扣額不適用於已過期的 Keystone 訂閱。如需聯絡 NetApp 支援團隊並提交申請服務抵扣所需的支援案例，請參閱 link:../concepts/support-services.html["取得 Keystone 的說明"]。
+* 服務抵扣額可用於抵扣未來的帳單。服務抵扣額不適用於已過期的 Keystone 訂閱。如需聯絡 NetApp 支援團隊並提交申請服務抵扣所需的支援案例，請參閱link:../concepts/support-services.html["Keystone 的支援服務"]。
 
 
 ====
