@@ -133,8 +133,6 @@
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
   <block id="8816d718cde960556e2d767cd7bc6a24" category="paragraph">請閱讀下列各節、瞭解您的訂閱內容受此附加服務約束、並根據NetApp Keystone 《銷售協議》條款提供。註腳：免責聲明1[此處說明的服務與產品受完整執行的Keystone協議約束、且受限且受其管轄。]</block>
   <block id="6695ab4bfa1eb6d5122189f790f27577" category="paragraph">訂購期間每月計費的最低邏輯容量：</block>
-  <block id="dda89d5ef0cb22d8ac7b37078e4ba438" category="list-text">*持久性*：存取資料時不損失保真度的百分比、不包括客戶造成的刪除或毀損。</block>
-  <block id="9ffbb75c521c240c36fc4eedce45c367" category="list-text">*延遲*：服務從用戶端接收到I/O要求的時間、以服務標界（儲存控制器I/O連接埠）為測量單位。</block>
   <block id="a7bfd854f2e9dacfba92f6c8e2081c3e" category="list-text">此服務僅適用於檔案、區塊和物件服務。</block>
   <block id="f3cab949200d7bfe230983c92bd7983f" category="list-text">由客戶操作的防火牆允許連線。</block>
   <block id="72a2e26ee3dd7a4431c7b48558a4e647" category="paragraph">您應提供電力分配單元（PDU）、連接至兩個獨立且受保護的電路、並具有足夠的C13插座。在客戶營運的產品中、在某些情況下、需要 C19 插座。在NetApp營運的產品中、NetApp或客戶可視需求提供PDU。</block>
@@ -622,7 +620,6 @@
   <block id="e35bc286817799a8ecac7de0060837be" category="list-text">在服務期限結束時、您不需要歸還任何磁碟機和非揮發性記憶體、也不需要在服務期限內歸還任何故障或發現故障的磁碟機和非揮發性記憶體。</block>
   <block id="b178e2d86eb51156fb8d9a2bd509938c" category="list-text">雲端原生服務、例如運算、儲存設備、網路、都是由雲端供應商開立發票。</block>
   <block id="296ad65314dcbf027a7993304c7a165d" category="list-text">這些服務需視雲端儲存設備和運算特性而定。</block>
-  <block id="2809966e22bd3439cbbfaae3d51268b2" category="list-text">*可用度*：以服務已成功回應的I/O要求數百分比（除以對服務提出的I/O要求總數）計算。這是在一個月內的服務劃分時進行測量、不包括排定的服務停機時間、或客戶所提供設施、網路或其他服務的不可用性。</block>
   <block id="82ed1e96c97e812264424ac485673960" category="paragraph">如適用、現場與遠端部署與安裝活動均由美國政府執行美國公民土壤。註解：免責聲明 [ 現場活動的適當人員可用度視部署 Keystone 系統的地理位置而定。 ]</block>
   <block id="9415cbbaeaf88bca0512bbfe3c3cb334" category="paragraph">根據預設、 Keystone 健全狀況服務不接受來自 localhost 以外任何 IP 的連線。Keystone健全狀況端點為<block ref="b2445934e628b68d6950a1056d38299a" prefix=" " category="inline-code"></block>、並在連接埠上偵聽Keystone Collector伺服器的所有介面<block ref="d79c8788088c2193f0244d8f1f36d2db" prefix=" " category="inline-code"></block>。查詢時、端點會傳回具有Json輸出的HTTP要求狀態代碼作為回應、說明Keystone Collector系統的狀態。
 Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae04ab7c5" prefix=" " category="inline-code"></block> 屬性、為布林值、以及每個元件的詳細狀態清單<block ref="39b49dc5cd8428b510bca14512a16a96" prefix=" " category="inline-code"></block> 屬性。
@@ -722,7 +719,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">*相關資訊*</block>
   <block id="e6158c69831c3faa8af6ba0dce7118fd" category="list-text"><block ref="e6158c69831c3faa8af6ba0dce7118fd" category="inline-link-macro-rx"></block></block>
   <block id="9e38decf152b1fba3ebe0ddbb861a5a3" category="inline-link-macro">Keystone STaaS 中的附加服務</block>
-  <block id="91ad65d98336ef29959957165ed0c9ea" category="list-text"><block ref="91ad65d98336ef29959957165ed0c9ea" category="inline-link-macro-rx"></block></block>
   <block id="df7d31258a77cf6838aec404025cc8f0" category="list-text"><block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block></block>
   <block id="9a951c3d80a9377bd47aaa657c36398a" category="list-text"><block ref="9a951c3d80a9377bd47aaa657c36398a" category="inline-link-macro-rx"></block></block>
   <block id="b08a55fcdae4be7efabe97ebd6da5f96" category="section-title">因累積突發而傳回的發票資料</block>
@@ -1745,8 +1741,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="de0189fb2d8a23d211a49728ea826dc1" category="list-text">Keystone 資料收集器：Keystone 資料收集器收集資料並將其提供給 Keystone 計費平台進行進一步處理。 Active此應用程式隨Active IQ Unified Manager 附於NetApp。它會從 ONTAP 和 StorageGRID 控制器收集資料、時間間隔為五分鐘。資料會經過處理、中繼資料Active IQ 會透過AutoSupport 用於產生帳單資料的流程機制、傳送到集中式的資料湖。IQ 資料湖處理計費資料並將其發送給 Zuora 進行計費。</block>
   <block id="c072efe8294d1003e257c7dd4fe0687d" category="inline-image-macro">收集器資料流</block>
   <block id="92c812556434526899af3c97a106a849" category="paragraph"><block ref="92c812556434526899af3c97a106a849" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6f93f55b981dd0322ebbd8e3f04d4db1" category="summary">NetApp Keystone STaaS 服務使用數個詞彙來衡量指標。在使用 Keystone 服務第 3 版時，您可能希望了解有關這些術語的更多資訊。</block>
-  <block id="06270a3cff387fa75ec0294b7ef6f62c" category="list-text">*IOPS 中的操作計數器圖表*：應用程式請求的每秒協定操作數。</block>
   <block id="b4c0f0b2da46ea7f6c48938cbb43241d" category="list-text">*IOPS*：對於具有 NFS 的 ONTAP 9.16.1，每個效能等級實例支援隨機訪問，讀取率為 70%，寫入率為 30%，區塊大小為 8 KB，延遲為 1 毫秒（標準為 4 毫秒）。</block>
   <block id="8223729bf5a771d590fde341043bac3d" category="list-text">*吞吐量*：對於具有 NFS 的 ONTAP 9.16.1，每個效能等級實例都支援 100% 讀取和 32 KB 區塊大小的順序存取。</block>
   <block id="3d7debc9f9eb6961623316d3dcefaeb8" category="list-text">*IOPS*：對於具有 FCP 的 ONTAP 9.16.1，每個效能等級實例支援讀取率為 70%、寫入率為 30%、區塊大小為 8 KB 且延遲為 1 毫秒的隨機存取。</block>
@@ -1937,7 +1931,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="f02c5e27d3f80e7755fdb672ca0a6235" category="list-text">Keystone STaaS 價值層、 Keystone STaaS StorageGRID物件層或現有StorageGRID Webscale (SGWS) 網格（客戶自有）- 無需額外付費；它是標準服務的一部分。</block>
   <block id="8e4d26d9b322f38152cd72b8fdf2ed25" category="admonition">NetApp不提供Cloud Volumes ONTAP所需的基於超大規模的運算、儲存和網路服務作為Keystone STaaS 訂閱的一部分；這些服務需要直接從超大規模雲端服務供應商處採購。</block>
   <block id="7362a3703ab6814c98fdb90fe873b654" category="paragraph">企業應用程式需要儲存平台來支援快速配置工作流程、保持持續可用性、以低延遲維持高工作負載、提供更高的效能並支援與主要雲端供應商的整合。NetApp有多種產品和技術可以支援這些要求。對於Keystone服務， NetApp使用ONTAP系統（AFF、 ASA和FAS）和StorageGRID系統。</block>
-  <block id="aefe5d691bbfd5f85d52918fd2b8748f" category="list-text">*以 GiB、TiB 和 PiB 為單位的容量測量*：使用 1024 為基數測量資料儲存容量（1 GiB = 1024^3^ 位元組、1 TiB = 1024^4^ 位元組和 1 PiB = 1024^5^ 位元組）。</block>
   <block id="ef379c37057d9a196c5c79f68a141fe6" category="paragraph">Keystone為您提供以下計費功能：</block>
   <block id="52bde02f3e1edb6d6e28dca0d312445a" category="list-text">*統一或區塊最佳化儲存*：消耗的容量是根據訂購過程中選擇的容量類型（邏輯或實體）計算的。計算是按效能服務等級實例執行的。</block>
   <block id="845131517a9dd7f41b73102338bac133" category="list-text">*邏輯容量*：它是以下內容的總和：</block>
@@ -2502,7 +2495,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="26e38ecf975660cbeeab3546610f30ab" category="admonition">對於 AFF 儲存設備，容量是在 AFF 叢集層級進行承諾和測量，涵蓋叢集中的所有磁碟機櫃。這與叢集中 AFF 儲存控制器的數量無關。</block>
   <block id="48b11c6f6db8a6a3328baeb0a51c976d" category="paragraph">Keystone STaaS 的檔案和區塊儲存標準服務包含分層功能，可以識別不常用的資料，並將其分層儲存到 Keystone STaaS 支援的 NetApp 冷儲存中。如果您希望將冷資料分層儲存到任何 Keystone STaaS 支援的非 NetApp 儲存媒體中，可以使用資料分層附加服務。此附加服務僅支援統一資料儲存類型。</block>
   <block id="75e68181255b1c90bd260488cd15b20b" category="admonition">只有當資料分層儲存到非 NetApp 儲存服務（例如 Amazon Web Services (AWS) S3、Azure Blob、Google Cloud Platform (GCP) 以及其他 Keystone STaaS 支援的、與 S3 相容的第三方物件儲存）時，才需要分層附加服務。此服務僅適用於統一資料儲存類型。</block>
-  <block id="ab111be95a3b1e0a20af6d3cc9835537" category="paragraph">了解 Keystone STaaS 用於衡量和報告您的儲存訂閱的關鍵術語，包括容量單位、效能指標和可用性定義。</block>
   <block id="b0dc64ee46414f1cba4fa86cb3cecb46" category="paragraph">Keystone 訂閱可以包含一個或多個儲存類型的多個 PSL。每個 PSL 都有一個承諾容量，即在訂閱期間內該服務等級計費的最小容量。</block>
   <block id="61d50a4de5460f878250bbbb0807eaa0" category="admonition">AFX 訂閱僅限於 AFX 儲存類型，目前僅提供一種 PSL ， Extreme 。</block>
   <block id="4e4e6e5b08219061956b8d07df28d2e9" category="section-title">效能服務層級執行個體</block>
@@ -2744,7 +2736,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="68590e28745629d3e9c45d233ec874f4" category="paragraph">在 Digital Advisor 的「消費趨勢」標籤中，消費趨勢圖表不顯示當天的消費資料，只顯示前一天的資料。</block>
   <block id="c11ff4c4af6e617e0c27f005526215c1" category="paragraph">2026-08-10</block>
   <block id="92f0ca3d130ab33a16d28b57af2ef1fa" category="doc">了解 Keystone 基礎架構</block>
-  <block id="af8ce1366fa4c20969881474e68d69d4" category="doc">Keystone 中的儲存計量與定義</block>
   <block id="efc51c397e61250c642c86d68b092174" category="doc">Keystone 的 NRNVC 和 SnapLock 法規遵循附加服務</block>
   <block id="7e09a61a4369064a74afa38f6e7a8c9a" category="paragraph">有關 部署 的詳細資訊，請參閱 <block ref="d03ef5b6e8b6191ac72b7ae5462d2546" category="inline-link-macro-rx"></block> 和 <block ref="79f76dbd81e71f36d15d1dac3766b8c8" category="inline-link-macro-rx"></block>。</block>
   <block id="d03ef5b6e8b6191ac72b7ae5462d2546" category="list-text"><block ref="d03ef5b6e8b6191ac72b7ae5462d2546" category="inline-link-macro-rx"></block></block>
@@ -2764,4 +2755,19 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="d23d8e4208389cdbfa05c473cb8410ad" category="sidebar">取得 Keystone 客戶清單</block>
   <block id="7544c020cb246587d47ad73d1598a7e4" category="sidebar">取得 Keystone 客戶訂閱</block>
   <block id="0fb6871a30d0a0891c81661a4c790079" category="sidebar">取得 Keystone 客戶的消費詳情</block>
+  <block id="8a90a5578fe3c0a1bf0c36a2ff8e39c6" category="summary">了解 Keystone STaaS 如何衡量您的儲存設備訂閱的容量、效能和可用度。</block>
+  <block id="ce554340b5d358edd16adc582cbd1e9f" category="doc">Keystone STaaS 儲存設備計量與定義</block>
+  <block id="2637ea81c49feab6407426cc8e45cb57" category="paragraph">Keystone STaaS 使用特定術語來衡量和報告您的儲存設備訂閱。了解這些術語有助於您解讀儀表板資料和訂閱報告。</block>
+  <block id="cf5f3091e30dee6597885d8c0e0c357f" category="cell">期限</block>
+  <block id="0b890b1926b90387673882e6ccae7fdc" category="cell">定義</block>
+  <block id="c1b1d0f81a92a33cb13a455458cba18f" category="cell">容量（GiB、TiB、PiB）</block>
+  <block id="be4e5e7304cce0a3f092bf09f988e5c7" category="cell">資料儲存容量以 1024 的冪來衡量：1 GiB = 1024^3^ 位元組，1 TiB = 1024^4^ 位元組，1 PiB = 1024^5^ 位元組。</block>
+  <block id="58e7610d09b9f2e839011184d76819fe" category="cell">IOPS（每秒 I/O 運算元）是指應用程式每秒請求的協定運算元。IOPS 顯示在 Keystone 儀表板的操作計數器圖表中。</block>
+  <block id="419d9cc5de330a52a416271c0e55b303" category="cell">可用度是指服務在一個月內成功回應的 I/O 請求數佔總 I/O 請求數的百分比。此計量在每月的服務分界點進行測量，不包括計畫內的服務停機或客戶提供的設施、網路或其他服務的不可用時間。</block>
+  <block id="2166e76dc88d642260416a536b06a412" category="cell">耐久性</block>
+  <block id="7207796055990c2fdf24c8139ff9cd48" category="cell">持久性是指在不遺失資料完整性的情況下可以存取的資料百分比，不包括客戶造成的刪除或毀損。</block>
+  <block id="67636cabf90c8bc5f88a58c653bd06ef" category="cell">延遲是指處理從用戶端接收的 I/O 請求所需的時間，在服務分界點（儲存控制器 I/O 連接埠）處測量。</block>
+  <block id="9e1f1d9a0941c4381482b8b0522725a2" category="list-text"><block ref="9e1f1d9a0941c4381482b8b0522725a2" category="inline-link-macro-rx"></block></block>
+  <block id="9af3a80255b1f2badb4f52464dc42a1a" category="paragraph">在 Digital Advisor 的「消費趨勢」標籤中，已開立發票的累計突發圖表在選擇不同日期範圍時，顯示同一計費週期的值各有不同。</block>
+  <block id="46c131fa48958e881a135770d82d1ed2" category="paragraph">2026-08-31</block>
 </blocks>
