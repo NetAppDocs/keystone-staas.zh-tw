@@ -2597,7 +2597,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="210e56fe3363d08baaade2dc0b9e44d3" category="paragraph">包括物件儲存設備</block>
   <block id="ae566ca3a7090c62a4e64db6763e5fc9" category="paragraph">支援所有 StorageGRID 功能</block>
   <block id="6d1270d83b59c4d34695059058ba3873" category="admonition">Cloud Volumes ONTAP 所需的基於超大規模雲端的運算、儲存和網路服務並非 NetApp 提供的 Keystone STaaS 訂閱的一部分；這些訂閱需要直接從超大規模雲端服務供應商購買。</block>
-  <block id="c148f39d208183361daf2e5ab75c9a60" category="admonition">Keystone 訂閱的容量消耗量會以 TiBs 顯示在儀表板和報告中，並四捨五入到小數點後兩位。如果使用量小於 0.01 TiB，則該值會顯示為 0 或「無使用」。這些畫面上的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時，系統會自動將其視為 UTC 時間。若要深入瞭解使用量指標，請參閱<block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>。如需 Keystone 中使用的不同容量相關資訊，請參閱<block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>。</block>
   <block id="e6664e13d8023d762b4d6f2f644a6287" category="sidebar">儲存容量類型</block>
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">重新命名已佈建容量標籤</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">標籤 *Provisioned capacity* 已重新命名為 *Provisioned volume capacity*。更新後的標籤也已反映在相關的 CSV 和 Excel 報表中。</block>
@@ -2770,4 +2769,5 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="9e1f1d9a0941c4381482b8b0522725a2" category="list-text"><block ref="9e1f1d9a0941c4381482b8b0522725a2" category="inline-link-macro-rx"></block></block>
   <block id="9af3a80255b1f2badb4f52464dc42a1a" category="paragraph">在 Digital Advisor 的「消費趨勢」標籤中，已開立發票的累計突發圖表在選擇不同日期範圍時，顯示同一計費週期的值各有不同。</block>
   <block id="46c131fa48958e881a135770d82d1ed2" category="paragraph">2026-08-31</block>
+  <block id="ad931b1068f269c0ef3c383147ccdc53" category="admonition">Keystone 訂閱的容量消耗量會以 TiBs 顯示在儀表板和報告中，並四捨五入到小數點後兩位。如果使用量小於 0.01 TiB，則該值會顯示為 0 或「無使用」。這些畫面上的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時，系統會自動將其視為 UTC 時間。若要深入瞭解使用量指標，請參閱<block ref="9b55f40c1987bcafac5b8c4a6068e0eb" category="inline-link-macro-rx"></block>。如需 Keystone 中使用的不同容量相關資訊，請參閱<block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>。</block>
 </blocks>
