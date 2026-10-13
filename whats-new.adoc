@@ -18,6 +18,27 @@ summary: NetApp 在每個 Keystone STaaas 服務版本中都提供全新且增�
 
 
 
+[[12-october-2026]]
+== 2026年10月12日
+
+此 Keystone STaaS 版本在 NetApp Console 的 Keystone 儀表板中包含以下更新。
+
+
+
+[[generate-health-insights-for-keystone-subscriptions]]
+=== 為 Keystone 訂閱產生健全狀況洞察
+
+您可以從 NetApp Console 的 *Storage > Keystone > Monitoring > Health reports* 下載隨需 PowerPoint 報告，或排程一次性、每週、每月或每季的傳送。每份報告整合了所選訂閱的訂閱使用量、運作健全狀況、風險及漏洞，協助您識別問題並與收件者共享可行的見解。如需深入瞭解，請參閱 https://docs.netapp.com/us-en/keystone-staas/integrations/health-assessment-reports.html["產生並安排 Keystone 訂閱的健全狀況報告"]。
+
+
+
+[[view-ontap-cluster-and-aggregate-capacity]]
+=== 檢視 ONTAP 叢集和彙總容量
+
+您可以在 *資產 > 叢集與彙總* 中檢視 ONTAP 叢集及其彙總的實體容量、邏輯容量和儲存效率。此功能僅適用於以實體容量計費的 Keystone STaaS 訂閱。若要深入瞭解，請參閱 https://docs.netapp.com/us-en/keystone-staas/integrations/assets.html["查看 Keystone 訂閱中的資產"]與 https://docs.netapp.com/us-en/keystone-staas/integrations/assets-tab.html["查看與 Keystone 訂閱相關的資產"]。
+
+
+
 [[20-july-2026]]
 == 2026年7月20日
 

@@ -2023,15 +2023,12 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="ca0d168dfc9d3eec3e502042fa77ec2f" category="admonition">您可以同時選擇多個效能服務等級來建立 PSL。</block>
   <block id="b3eed4304ada05a16ec5ec8b501efe72" category="admonition">如果所選效能服務等級的 PSL 已存在於指定的Active IQ Unified Manger 伺服器上，則無法再次建立它。如果您嘗試這樣做，您將收到一條錯誤訊息。<block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea25018c2d045851b6c9e6567fb76051" category="paragraph">您可以透過NetApp控制台檢視和追蹤修改Keystone訂閱的服務要求，提供快速摘要並監控進度。</block>
-  <block id="aaaea723208b33ae079e357878d9a9cb" category="paragraph">您可以查看由單一Keystone訂閱管理的ONTAP叢集和節點以及StorageGRID網格、網站和節點的詳細資訊。您可以從NetApp控制台或Digital Advisor在Keystone儀表板中存取這些訂閱資產。</block>
   <block id="d1c3a83a967f6dcdc9a6ad9e94a8bbed" category="section-title">從NetApp主機查看Keystone訂閱資產</block>
-  <block id="d79f885d7740bdd0320f954c06a36686" category="paragraph">*訂閱*頁面中的*資產*標籤顯示與訂閱相關的集群、 StorageGRID節點和ONTAP節點中的捲的詳細信息，包括各種詳細資訊和容量狀態。</block>
   <block id="0f05cad44de93b9ae51d0faab82ddf96" category="admonition">此檢視每次僅限一個Keystone訂閱。您也可以從*追蹤 ID* 下拉清單中選擇來查看其他訂閱的資產。NetApp控制台中的Keystone儀表板可讓您查看跨多個Keystone訂閱的資產。要了解更多信息，請參閱<block ref="5fe743b586c50b2c4c63c54967e2b587" category="inline-link-macro-rx"></block>。</block>
   <block id="6ad1754a0bf091736b7eaeb7b3f62c28" category="list-text">從控制台左側導覽選單中，選擇*儲存&gt; Keystone &gt;訂閱*。</block>
   <block id="faf81a172b05b574a00b455b36f81124" category="paragraph">系統開啟*目前消耗*標籤。</block>
   <block id="5521c544829f1dc100d359936dfe7589" category="list-text">選擇 *常規 &gt; Keystone訂閱 &gt; 資產 &gt; ONTAP*。</block>
   <block id="2e74dd182df85e5efdcab206a5bb39aa" category="list-text">選擇*常規&gt; Keystone訂閱&gt; 資產&gt; StorageGRID*。</block>
-  <block id="722a86c8a2d2a94e76387a8dfcb77c75" category="paragraph">NetApp控制台中的Keystone儀表板可讓您根據您的存取權限查看有關跨多個Keystone訂閱的叢集、設定磁碟區和StorageGRID節點中的節點的詳細資訊。此視圖在Digital Advisor中不可用。</block>
   <block id="5280fdba34096a28b0a045aa4d088574" category="list-text">從控制台左側導覽功能表中，選擇*儲存&gt; Keystone &gt;資產*。</block>
   <block id="168a7f531362f0071a0d1ecd8963c4fa" category="paragraph">*資產*頁面顯示*叢集中的節點*標籤。</block>
   <block id="8942b04e12a7cd6446730a97caf54479" category="paragraph"><block ref="8942b04e12a7cd6446730a97caf54479" category="inline-image-macro-rx" type="image"></block></block>
@@ -2207,8 +2204,6 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="89982b0af4c1ad3b86da7a82b021fed7" category="paragraph">vCenter 根信任庫僅包含 VMware 憑證。NetApp使用 Entrust 作為認證機構，這些憑證需要加入到 vCenter 信任庫中。</block>
   <block id="6421324a362bee91e5fee16704e6b0e5" category="admonition">對於 vCenter 7.x 及更早版本，您必須將 vCenter 和 ESXi 更新至 8.0 或更高版本。早期版本已不再支援。</block>
   <block id="21f65ffde9511843c6e3b86b7a0de865" category="list-text">作業系統：VMware vCenter 伺服器和 ESXi 8.0 或更高版本</block>
-  <block id="effa0f06c02c1da56e0eada86a5982ec" category="list-text">「檢視」下拉式選單選項取決於您的Keystone訂閱平台。ONTAP支援叢集中的磁碟區和叢集中的節點。對於StorageGRID，*檢視*下拉選單不可用，*網格中的節點*表格會自動顯示。如果您的訂閱包含這兩個平台，則所有三種選項均可使用。</block>
-  <block id="a71fbcfaa67815b8c0edea5059cb96fb" category="admonition">「資產」頁面會根據您的Keystone訂閱關聯的平台顯示標籤。對於ONTAP，同時提供「叢集中的節點」和「叢集中的磁碟區」標籤。對於StorageGRID，無需選擇選項卡即可直接顯示「網格中的節點」表。如果訂閱包含這兩個平台，則所有三個標籤頁都可用。</block>
   <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">儘管實際使用量在允許的突發流量限制之內，Digital Advisor控制面板中訂閱的顯示狀態錯誤地顯示為「超出突發流量限制」。</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
   <block id="ee53a2d144b153a8ad44855abe0429a8" category="list-text">Python 3（3.9.14 至 3.11.8）</block>
@@ -2770,4 +2765,78 @@ Json實體提供的整體健全狀況狀態<block ref="39c3fbc3fb647215fe5fedcae
   <block id="9af3a80255b1f2badb4f52464dc42a1a" category="paragraph">在 Digital Advisor 的「消費趨勢」標籤中，已開立發票的累計突發圖表在選擇不同日期範圍時，顯示同一計費週期的值各有不同。</block>
   <block id="46c131fa48958e881a135770d82d1ed2" category="paragraph">2026-08-31</block>
   <block id="ad931b1068f269c0ef3c383147ccdc53" category="admonition">Keystone 訂閱的容量消耗量會以 TiBs 顯示在儀表板和報告中，並四捨五入到小數點後兩位。如果使用量小於 0.01 TiB，則該值會顯示為 0 或「無使用」。這些畫面上的資料會以 UTC 時間（伺服器時區）顯示。當您輸入查詢日期時，系統會自動將其視為 UTC 時間。若要深入瞭解使用量指標，請參閱<block ref="9b55f40c1987bcafac5b8c4a6068e0eb" category="inline-link-macro-rx"></block>。如需 Keystone 中使用的不同容量相關資訊，請參閱<block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>。</block>
+  <block id="73c20ad627e7f815932cb8837d70e1e8" category="doc">為 Keystone 訂閱產生健全狀況洞察</block>
+  <block id="ae638b3203053916360a0f228b8b54d7" category="paragraph">此 Keystone STaaS 版本在 NetApp Console 的 Keystone 儀表板中包含以下更新。</block>
+  <block id="a0c062a66e58943547f514904ae51daa" category="inline-link">產生並安排 Keystone 訂閱的健全狀況報告</block>
+  <block id="6da38bfefa907461e0fc0e4cbf32c236" category="paragraph">您可以從 NetApp Console 的 *Storage &gt; Keystone &gt; Monitoring &gt; Health reports* 下載隨需 PowerPoint 報告，或排程一次性、每週、每月或每季的傳送。每份報告整合了所選訂閱的訂閱使用量、運作健全狀況、風險及漏洞，協助您識別問題並與收件者共享可行的見解。如需深入瞭解，請參閱<block ref="d2f756b41ddff582298cd4e997cfe66a" category="inline-link-rx"></block>。</block>
+  <block id="bebf4a0b6cd7d09b5a94da709f1d8c60" category="section-title">檢視 ONTAP 叢集和彙總容量</block>
+  <block id="e411d22d2770471ccb53afad75a6607f" category="paragraph">您可以在 *資產 &gt; 叢集與彙總* 中檢視 ONTAP 叢集及其彙總的實體容量、邏輯容量和儲存效率。此功能僅適用於以實體容量計費的 Keystone STaaS 訂閱。若要深入瞭解，請參閱<block ref="7f77c8bd4b401343bdf134614dcbbc54" category="inline-link-rx"></block>與<block ref="e5507f6e8dbcc07ae7ce3bb876484b8a" category="inline-link-rx"></block>。</block>
+  <block id="242675f82977e2b732509b6acf8667db" category="summary">使用「資產」標籤檢視由您的 Keystone 訂閱代管的 ONTAP 磁碟區、叢集、彙總和節點，以及 StorageGRID 網格、站台和節點的詳細資訊。</block>
+  <block id="0efe9eaf14acac86472298cdd5f5109d" category="paragraph">您可以檢視由單一 Keystone 訂閱代管的 ONTAP 磁碟區、叢集、彙總和節點，以及 StorageGRID 網格、站台和節點的詳細資訊。您可以從 NetApp Console 或 Digital Advisor 在 Keystone 儀表板中存取這些訂閱資產。</block>
+  <block id="b4d0e97d122ef07cd548b9187fdc510c" category="paragraph">「訂閱」頁面中的「資產」標籤顯示有關 ONTAP 磁碟區、叢集、彙總和節點，以及與訂閱關聯的 StorageGRID 節點的詳細資訊，包括容量狀態。</block>
+  <block id="b6672104a5edc2ee268695649b7efc83" category="list-text">*檢視*下拉式選單中的選項取決於您的 Keystone 訂閱平台。*叢集中的磁碟區*和*叢集中的節點*適用於 ONTAP。只有在您擁有以實體容量計費的 Keystone STaaS 訂閱時，*叢集與彙總*才適用於 ONTAP。對於 StorageGRID，*檢視*下拉式選單無法使用，並且會自動顯示*網格中的節點*表格。如果您的訂閱同時包含這兩個平台，則所有檢視都會在*檢視*下拉式選單中顯示。</block>
+  <block id="d239adbb3056939632516d1d08d120d8" category="open-title">叢集和彙總</block>
+  <block id="ae2bc834f9936477344838e8948bdb0d" category="admonition">*叢集與彙總*檢視僅適用於以實體容量計費的 Keystone STaaS 訂閱。</block>
+  <block id="09b83f5220bf0da2cb80807cd2bb8e96" category="list-text">從 *檢視* 下拉式選單中選取 *叢集與彙總*。</block>
+  <block id="66dd1782272dfc032045b2159f99214d" category="inline-image-macro">Keystone 訂閱的叢集和彙總容量詳情</block>
+  <block id="585c164f60d0e210ad340364d9015a24" category="paragraph"><block ref="585c164f60d0e210ad340364d9015a24" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="af72db9328b73a9e4a9d56c0171a5cc3" category="paragraph">您可以看到實體已使用容量、實體可用容量、實體可用空間、儲存效率比率、邏輯有效容量、邏輯已使用容量和 ONTAP 版本。展開叢集即可檢視其彙總的相應詳細資訊。</block>
+  <block id="fade075752cf0e88fd17391fb2667903" category="paragraph">此檢視可協助您識別驅動使用量和計費消耗的叢集和彙總，比較可用容量，並將基礎架構使用量與訂閱消耗連結起來。</block>
+  <block id="bd5e17dce4ac42cb2bdb3cebdf28ba1c" category="paragraph">NetApp Console 中的 Keystone 儀表板可讓您根據您的存取權限，檢視跨多個 Keystone 訂閱的 ONTAP 節點、磁碟區、叢集和彙總，以及 StorageGRID 節點的詳細資訊。此檢視在 Digital Advisor 中無法使用。</block>
+  <block id="e353e5a4fc32bc945b4e295d4939757e" category="admonition">「資產」頁面會根據與您的 Keystone 訂閱關聯的平台顯示標籤。對於 ONTAP，可以使用「叢集中的節點」和「叢集中的磁碟區」標籤。「叢集和彙總」標籤僅在您擁有以實體容量計費的 Keystone STaaS 訂閱時才對 ONTAP 可用。對於 StorageGRID，無需選擇標籤即可直接顯示「網格中的節點」表格。如果您的訂閱同時包含這兩個平台，則所有標籤都可用。</block>
+  <block id="764f1b2acdb9954fdcf286f81598b392" category="admonition">*叢集和彙總*標籤僅針對以實體容量計費的 Keystone STaaS 訂閱顯示。</block>
+  <block id="0b5c7c82501660ba2ce96581f1092498" category="list-text">選取 *叢集與彙總* 索引標籤。</block>
+  <block id="3fa43161310f791ddad5b7842b7a822f" category="inline-image-macro">跨多個 Keystone 訂閱的叢集和彙總</block>
+  <block id="1eccb2779e3e22d7205f2688edb4fff3" category="paragraph"><block ref="1eccb2779e3e22d7205f2688edb4fff3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ba3ae12ee592f23e17ca4c40deca1397" category="paragraph">您可以檢視 Keystone 訂閱中各 ONTAP 叢集的容量詳細資料。每個叢集的表格會顯示實體已用容量、實體可用容量、實體可用容量、儲存效率比率、邏輯有效容量、邏輯已用容量及 ONTAP 版本。展開叢集即可檢視其彙總的對應詳細資料。</block>
+  <block id="26f2e17ff10ab700018054fc4030a1b3" category="paragraph">這些資訊可協助您識別哪些叢集和彙總會驅動容量消耗，比較已部署基礎架構中的可用容量，並了解叢集和彙總層級的使用情況如何影響整體訂閱消耗。</block>
+  <block id="c6709f36c2ce949dfd5b2354653575bc" category="admonition">您可以使用欄選擇器<block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block>圖示自訂表格，並使用搜尋列按可用欄值篩選表格。</block>
+  <block id="d9488e4902ac8163ee538f8e5bfe01c8" category="inline-link-macro">產生並排程健全狀況報告</block>
+  <block id="ea034e7c3ada4fd5285144ae8a2f1ec3" category="list-text"><block ref="ea034e7c3ada4fd5285144ae8a2f1ec3" category="inline-link-macro-rx"></block></block>
+  <block id="6cceac6cd41854fc33cca3191e462847" category="list-text">*產生健全狀況報告*：建立隨需或定期健全狀況評估報告，以審查訂閱使用情況、營運健全狀況、風險和漏洞。</block>
+  <block id="bcd6194438a86161f86a66b169dcae08" category="summary">在 NetApp Console 中使用 Keystone 健全狀況評估報告來檢視訂閱詳情、評估健全狀況、分析使用趨勢，並識別一個或多個訂閱中的風險和漏洞。您可以隨需產生報告或排程產生報告，以便與利害關係人共享準確的營運和法規遵循資訊。</block>
+  <block id="43c438a5f171a0070565c9a3ce412632" category="paragraph">從 NetApp Console 的 Keystone 儀表板中，產生或排程一個或多個 Keystone 訂閱的健全狀況報告。這些報告提供訂閱使用情況、運作健全狀況、風險和漏洞的整合檢視，您可以與指定的接收者共享。此功能在 Digital Advisor 中無法使用。</block>
+  <block id="ed90fab979b1c2338f266823f485f606" category="paragraph">健全狀況報告可讓您檢視所選訂閱的使用情況、運作健全狀況以及已識別的風險。在 *新報告* 頁面上，使用 *報告組態* 面板定義報告的範圍和選項。在產生或排程報告之前，請使用預覽區域審查投影片順序和版面配置。預覽僅顯示報告結構，不顯示實際的訂閱資料。</block>
+  <block id="805e040836078c98207014459ce00fe4" category="paragraph">請按照以下步驟產生報告以供立即下載，或安排一次性或定期報告以供稍後發送：</block>
+  <block id="8b033bd96006a357396469d2d12002ff" category="list-text">從控制台左側導覽功能表中，選擇 *儲存 &gt; Keystone &gt; 監控 &gt; 報告*。</block>
+  <block id="bc32ee3dafd98cfab55839d1a1ad173d" category="list-text">選擇 *新增報告*。</block>
+  <block id="db73c44d8bba03212ad21e123d47d5dd" category="list-text">在 *報告組態面板* 中，在 *報告名稱* 欄位中輸入名稱。</block>
+  <block id="d99d4ce092a8b9f4aff4e17d7603bfe2" category="list-text">從 *時間範圍* 下拉式選單中選擇時間範圍。</block>
+  <block id="6a03b07232e58a0d22244bd78e9ee309" category="paragraph">選擇預設範圍，例如 *過去 60 天*，或選擇 *自訂* 來輸入您自己的日期。所選範圍決定了 *消費趨勢* 區段和其他時間型區段中顯示的歷史資料。如果您選擇 *自訂*，則無法排程報告。</block>
+  <block id="b9b414179e1f9c10b9cf39dc76d45554" category="inline-image-macro">健全狀況報告組態顯示選擇自訂日期範圍時排程已停用</block>
+  <block id="e84931d18314142b08f9bd586d2d273d" category="paragraph"><block ref="e84931d18314142b08f9bd586d2d273d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="55c22e502f5cfc9d2f8d74e22b0c8e98" category="list-text">從「訂閱」下拉式選單中選擇一個或多個訂閱。</block>
+  <block id="de710d1f96079b8408fcc93a084d21ca" category="admonition">NetApp 合作夥伴可以跨其代管的一個或多個 Keystone 客戶帳戶選擇訂閱。</block>
+  <block id="2494369c3bace34f8d03d3b0f6b35714" category="list-text">在「報告章節」下，選擇您要包含的章節。</block>
+  <block id="c7c7753bafb710361f57e4327c1cd332" category="paragraph">您選擇的每個部分都會顯示在預覽區域中，並包含在產生的報告中。例如，您可以包含訂閱總結、目前容量使用量、消耗趨勢、實體容量、系統健全狀況，以及風險和漏洞。對於 *消耗趨勢*，您可以包含歷史消耗圖表，也可以選擇包含未來消耗預測。</block>
+  <block id="73edafd21beaaf25a3c4b463e7301486" category="list-text">選擇簡報主題。</block>
+  <block id="e79541eac81a9b39cbfa8f8f8515ac14" category="list-text">請審查預覽區域中顯示的各個部分，以確認它們與您的選擇相符。</block>
+  <block id="c33cd459680d55a97ffee84381838d90" category="list-text">選擇您希望如何建立報告。</block>
+  <block id="7fb99d2c520fc85b9123d1d2daf9e796" category="list-text">*產生報告*</block>
+  <block id="d3cd467451f595793563586a695d9c1c" category="paragraph">選擇 *產生報告* 即可立即下載報告。</block>
+  <block id="8ab8d739fddb8825d819131cf0c36e7a" category="paragraph">報告已提交產生，您將返回 *報告* 標籤。報告顯示的狀態為 *執行中*。</block>
+  <block id="9dabac9e7f2d642811e0cf62d3e18002" category="paragraph">當狀態變更為 *已產生* 後，選取報告列末尾的省略號圖示，然後選取 *下載*。</block>
+  <block id="00555bd07173f7d9c242e377dc1e4afe" category="list-text">*排程報告*</block>
+  <block id="6cebac50d1a7bff739e4a52a8cedaa57" category="paragraph">選擇 *排程* 以建立一次性或定期報告，並完成下列步驟：</block>
+  <block id="8b7ea71302f67c6f0966ac6f0f8efc8f" category="list-text">選擇頻率：*一次性*、*每週*、*每月*或*每季*。</block>
+  <block id="83fb650baf1f2bfaabf37d0b01f8b198" category="list-text">請選擇 *開始日期*。</block>
+  <block id="86b7782bce140b306301378eb75d320f" category="inline-image-macro">排程報告對話方塊顯示已選取每週頻率、空白的開始日期與結束日期欄位、收件者欄位，以及已選取 PPT 格式</block>
+  <block id="65de2e1080fef3c60cec4997218e5994" category="paragraph"><block ref="65de2e1080fef3c60cec4997218e5994" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1a65d24447c848fed1b1282d04274bcc" category="paragraph">開始日期決定報告首次執行的時間。對於重複頻率，報告會根據所選的每週、每月或每季排程再次執行。</block>
+  <block id="a4f1fd8e2247116044a0a9ef4e9401ae" category="list-text">（可選）選擇*結束日期*。</block>
+  <block id="a0e32eed5feb418713b52f7739a1f7de" category="paragraph">如果您未選擇結束日期，排程將持續進行，直到您變更為止。</block>
+  <block id="45fdcaf864d7e16c4c277f710fe9214c" category="list-text">選擇 *排程報告*。</block>
+  <block id="dda29f572e1f01fb24ef9fbb9567dcae" category="paragraph">排程已建立，報告會顯示在 *報告* 索引標籤上，執行類型為 *排程執行*。使用 *上次執行*、*下次執行* 和 *狀態* 欄來追蹤每次執行。</block>
+  <block id="04091b33f99194409a3e638fb720ccd7" category="paragraph">若要編輯每週、每月或每季的排程，請選取報告列末尾的省略符號圖示，然後選取 *編輯排程*。無論狀態為 *已排程* 還是 *已產生*，您都可以執行此操作。在報告產生後，您無法編輯 *一次性* 排程。</block>
+  <block id="3d8502ba652cf0b8dda71ea1d23775d9" category="paragraph">狀態變更為 *已產生* 後，選取報告旁的省略符號圖示，然後選取 *下載*。</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
+  <block id="cf3e1ddb292882536f57277035f7ccdf" category="paragraph">產生的報告將以 PowerPoint 簡報的形式下載。您可以從省略號選單中選擇 *再次產生*，以建立具有相同組態的新報告。</block>
+  <block id="74a2518355991b0460124194339aa262" category="inline-link-macro">檢視目前使用情況</block>
+  <block id="05a9cc32ea53864df9d04304930c39b2" category="list-text"><block ref="05a9cc32ea53864df9d04304930c39b2" category="inline-link-macro-rx"></block></block>
+  <block id="ff0355703598e77f5d53ad567098e540" category="inline-link-macro">檢視與您的訂閱相關的資產</block>
+  <block id="122bb916bdbca193871c1c238a8ad494" category="list-text"><block ref="122bb916bdbca193871c1c238a8ad494" category="inline-link-macro-rx"></block></block>
+  <block id="e9585bf2660bfde75b6f0a2b54b179ac" category="section-title">從 NetApp Console 產生健全狀況報告</block>
+  <block id="d2fc234fa58b5424fb66e69d6f37ea37" category="paragraph">使用 NetApp Console 產生或排程一個或多個訂閱的健全狀況報告。這些 PowerPoint 報告整合了訂閱使用情況、運作健全狀況、風險和漏洞。Digital Advisor 不支援健全狀況評估報告的產生或排程。</block>
+  <block id="0557e64d44b59ed5a4145771c544da91" category="paragraph">若要深入瞭解，請參閱 <block ref="1f95c525270767ec0581ce04383996f5" category="inline-link-macro-rx"></block>。</block>
+  <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026年10月12日</block>
 </blocks>

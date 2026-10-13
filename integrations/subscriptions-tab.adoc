@@ -113,6 +113,7 @@ image:icon-grey.png["灰點圖示"] *無消耗*：沒有記錄效能服務等級
 * link:../integrations/dashboard-overview.html["了解 Keystone 儀表板"]
 * link:../integrations/current-usage-tab.html["查看您目前的消費詳情"]
 * link:../integrations/consumption-tab.html["檢視消費趨勢"]
+* link:../integrations/health-assessment-reports.html["產生並排程健全狀況報告"]
 * link:../integrations/subscription-timeline.html["查看您的訂閱時間表"]
 * link:../integrations/assets-tab.html["查看您的 Keystone 訂閱資產"]
 * link:../integrations/assets.html["查看 Keystone 訂閱中的資產"]

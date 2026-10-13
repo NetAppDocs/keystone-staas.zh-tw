@@ -14,10 +14,10 @@ summary: 使用資產索引標籤可檢視 ONTAP 叢集和節點的詳細資料�
 
 
 [role="lead"]
-NetApp控制台中的Keystone儀表板可讓您根據您的存取權限查看有關跨多個Keystone訂閱的叢集、設定磁碟區和StorageGRID節點中的節點的詳細資訊。此視圖在Digital Advisor中不可用。
+NetApp Console 中的 Keystone 儀表板可讓您根據您的存取權限，檢視跨多個 Keystone 訂閱的 ONTAP 節點、磁碟區、叢集和彙總，以及 StorageGRID 節點的詳細資訊。此檢視在 Digital Advisor 中無法使用。
 
 
-NOTE: 「資產」頁面會根據您的Keystone訂閱關聯的平台顯示標籤。對於ONTAP，同時提供「叢集中的節點」和「叢集中的磁碟區」標籤。對於StorageGRID，無需選擇選項卡即可直接顯示「網格中的節點」表。如果訂閱包含這兩個平台，則所有三個標籤頁都可用。
+NOTE: 「資產」頁面會根據與您的 Keystone 訂閱關聯的平台顯示標籤。對於 ONTAP，可以使用「叢集中的節點」和「叢集中的磁碟區」標籤。「叢集和彙總」標籤僅在您擁有以實體容量計費的 Keystone STaaS 訂閱時才對 ONTAP 可用。對於 StorageGRID，無需選擇標籤即可直接顯示「網格中的節點」表格。如果您的訂閱同時包含這兩個平台，則所有標籤都可用。
 
 [role="tabbed-block"]
 ====
@@ -73,6 +73,30 @@ TIP: 您可以使用列選擇器自訂表格image:column-selector.png["列選擇
 點選「訂閱號」欄位中的訂閱號，即可進入「訂閱」頁籤，查看訂閱消費詳情、時間軸及相關資產資訊。若要深入瞭解、請 link:../integrations/current-usage-tab.html["查看您目前的消費詳情"]參閱。
 
 
+
+
+
+--
+.叢集和彙總
+--
+
+NOTE: *叢集和彙總*標籤僅針對以實體容量計費的 Keystone STaaS 訂閱顯示。
+
+.步驟
+. 從控制台左側導覽功能表中，選擇*儲存> Keystone >資產*。
+. 選取 *叢集與彙總* 索引標籤。
++
+image:console-clusters-aggregates-multiple-subscriptions.png["跨多個 Keystone 訂閱的叢集和彙總"]
+
++
+您可以檢視 Keystone 訂閱中各 ONTAP 叢集的容量詳細資料。每個叢集的表格會顯示實體已用容量、實體可用容量、實體可用容量、儲存效率比率、邏輯有效容量、邏輯已用容量及 ONTAP 版本。展開叢集即可檢視其彙總的對應詳細資料。
+
++
+這些資訊可協助您識別哪些叢集和彙總會驅動容量消耗，比較已部署基礎架構中的可用容量，並了解叢集和彙總層級的使用情況如何影響整體訂閱消耗。
+
++
+
+TIP: 您可以使用欄選擇器image:column-selector.png["列選擇器圖示"]圖示自訂表格，並使用搜尋列按可用欄值篩選表格。
 
 
 

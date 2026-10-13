@@ -18,6 +18,7 @@ Keystone 儀表板是您高效監控、分析和管理 Keystone 訂閱的首選�
 
 * *監控訂閱詳細資料*：檢視有關 Keystone 訂閱的詳細資訊，包括效能服務層級（基礎服務和附加服務，例如進階資料保護和 Data Infrastructure Insights）、容量使用量、資產和警示。
 * *追蹤容量使用情況並產生報告*：追蹤當前和歷史容量使用情況，並產生報告以分析訂閱數據並做出明智的決策。
+* *產生健全狀況報告*：建立隨需或定期健全狀況評估報告，以審查訂閱使用情況、營運健全狀況、風險和漏洞。
 * *查看訂閱時間表*：透過監控訂閱時間表，隨時了解關鍵日期和事件。
 * *管理訂閱*：根據您的需求變更提交修改效能服務等級或其他訂閱參數的請求。
 * *分析捲和對象*：深入了解訂閱的捲和對象，包括其捲和對象級別的容量。
@@ -100,6 +101,11 @@ link:../integrations/options.html#generate-reports-from-netapp-console-or-digita
 
 
  a| 
+link:../integrations/health-assessment-reports.html["產生並排程健全狀況報告"]
+| 是的 | 否 
+
+
+ a| 
 link:../integrations/volumes-objects-tab.html["檢視磁碟區和物件詳細資料"]
 | 是的 | 是的 
 
@@ -116,6 +122,7 @@ link:../integrations/performance-tab.html["檢視效能指標"]
 *相關資訊*
 
 * link:../integrations/dashboard-access.html["開始使用 Keystone 儀表板"]
+* link:../integrations/health-assessment-reports.html["產生並排程健全狀況報告"]
 * link:../integrations/keystone-console.html["NetApp控制台中的Keystone儀表板"]
 * link:..//integrations/keystone-aiq.html["Digital Advisor 中的 Keystone 儀表板"]
 

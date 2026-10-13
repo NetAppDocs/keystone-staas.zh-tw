@@ -36,6 +36,15 @@ summary: 作為 NetApp Keystone STaaS 訂閱者，您可以搜尋和過濾資料
 
 
 
+[[generate-health-reports-from-netapp-console]]
+== 從 NetApp Console 產生健全狀況報告
+
+使用 NetApp Console 產生或排程一個或多個訂閱的健全狀況報告。這些 PowerPoint 報告整合了訂閱使用情況、運作健全狀況、風險和漏洞。Digital Advisor 不支援健全狀況評估報告的產生或排程。
+
+若要深入瞭解，請參閱 link:../integrations/health-assessment-reports.html["產生並安排 Keystone 訂閱的健全狀況報告"]。
+
+
+
 [[generate-consolidated-report-from-digital-advisor]]
 == 從數位顧問產生綜合報告
 

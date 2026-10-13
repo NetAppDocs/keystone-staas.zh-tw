@@ -80,6 +80,7 @@ NOTE: 如果效能服務等級有多個實例，您可以選擇「實例」標�
 * link:../integrations/dashboard-overview.html["了解 Keystone 儀表板"]
 * link:../integrations/subscriptions-tab.html["查看您的訂閱詳情"]
 * link:../integrations/consumption-tab.html["檢視消費趨勢"]
+* link:../integrations/health-assessment-reports.html["產生並排程健全狀況報告"]
 * link:../integrations/subscription-timeline.html["查看您的訂閱時間表"]
 * link:../integrations/assets-tab.html["查看您的 Keystone 訂閱資產"]
 * link:../integrations/assets.html["查看 Keystone 訂閱中的資產"]

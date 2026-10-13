@@ -132,6 +132,8 @@ sidebar:
         url: "/integrations/monitoring-alerts.html"
       - title: 查看和建立警報監視器
         url: "/integrations/monitoring-alert-monitors.html"
+    - title: 產生並排程健全狀況報告
+      url: "/integrations/health-assessment-reports.html"
     - title: 查看您的服務請求
       url: "/integrations/administration-tab.html"
     - title: 查看捲和物件儲存詳細信息

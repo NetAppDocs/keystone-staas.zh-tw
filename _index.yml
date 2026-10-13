@@ -26,6 +26,8 @@ indexpage:
       url: "/integrations/subscriptions-tab.html"
     - title: 檢視資產
       url: "/integrations/assets-tab.html"
+    - title: 產生並排程健全狀況報告
+      url: "/integrations/health-assessment-reports.html"
     - title: 搜尋數據並產生報告
       url: "/integrations/options.html"
   - title: Keystone中支援的服務
