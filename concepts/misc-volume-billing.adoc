@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/misc-volume-billing.html 
 keywords: Keystone billing, special volume types, cloned volumes, SnapMirror destinations, LUNs, temporary volumes 
-summary: Keystone 的計費規則因特定磁碟區配置而異。本頁說明複製磁碟區、SnapMirror 目的地、LUN、暫存磁碟區和系統磁碟區的計費方式。 
+summary: Keystone STaaS 的計費規則因某些 Volume 組態而異。本頁說明複製的 Volume、SnapMirror 目的地、LUN、暫存 Volume 及系統 Volume 的計費方式。 
 ---
-= Keystone 針對特定磁碟區類型的計費
+= Keystone STaaS 針對特定 Volume 類型的計費
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystone 的計費規則因特定磁碟區配置而異。本頁說明�
 
 
 [role="lead"]
-Keystone 的計費規則因特定磁碟區配置而異。了解這些例外情況有助於您在使用複製磁碟區、SnapMirror 目的地、LUN 或暫存時避免產生意外費用。
+Keystone STaaS 的計費規則因某些 Volume 組態而異。了解這些例外情況有助於您在使用複製的 Volume、SnapMirror 目的地、LUN 或暫時儲存設備時，避免產生意外費用。
 
 下表總結了每種磁碟區類型的計費規則。
 

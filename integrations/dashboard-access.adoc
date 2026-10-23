@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: integrations/dashboard-access.html 
 keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions, NetApp Console, Console 
-summary: 作為NetApp Keystone STaaS 訂閱者，您可以透過NetApp Console 或Digital Advisor存取Keystone儀表板 
+summary: 身為 NetApp Keystone STaaS 訂閱者，您可以透過 NetApp Console 或 Digital Advisor 存取 Keystone 儀表板。 
 ---
 = 開始使用 Keystone 儀表板
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 作為NetApp Keystone STaaS 訂閱者，您可以透過NetApp Console �
 
 
 [role="lead"]
-訂閱NetApp Keystone服務後，您可以透過NetApp Console 或Digital Advisor存取Keystone儀表板。
+您可以透過 NetApp Console 或 Digital Advisor 存取 Keystone STaaS 訂閱的 Keystone 儀表板。
 
 [role="tabbed-block"]
 ====

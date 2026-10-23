@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/support-services.html 
 keywords: Keystone support, service request, support ticket 
-summary: 使用 NetApp 支援網站建立支援案例或尋找 Keystone 訂閱的聯絡資訊。 
+summary: 使用 NetApp 支援網站建立支援案例或尋找 Keystone STaaS 訂閱的聯絡資訊。 
 ---
-= Keystone 的支援服務
+= Keystone STaaS 的支援服務
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,14 +14,14 @@ summary: 使用 NetApp 支援網站建立支援案例或尋找 Keystone 訂閱�
 
 
 [role="lead"]
-NetApp 為 Keystone 客戶提供營運服務。客戶將獲得專屬的 Keystone Success Manager（KSM）、直接支援聯絡資訊以及透過 ITOM 解決方案實現的主動監控。
+NetApp 為 Keystone STaaS 客戶提供營運服務。客戶將獲得專用的 Keystone 成功經理（KSM）、直接支援聯絡選項，以及透過 ITOM 解決方案進行的主動式監控。
 
 
 
 [[netapp-support-services]]
 == NetApp 支援服務
 
-NetApp 為 Keystone 客戶提供遠端維運服務。這些服務涵蓋一系列儲存管理活動，包括資產和組態管理、容量和效能管理、變更管理、事件和事故管理、服務要求履行以及報告。
+NetApp 為 Keystone STaaS 客戶提供遠端維運服務。這些服務涵蓋一系列儲存管理活動，包括資產和組態管理、容量和效能管理、變更管理、事件和事故管理、服務請求履行以及報告。
 
 .Keystone成功管理程式
 您的 KSM 將與您緊密合作，負責您的 Keystone 服務，並提供每週或每月的帳單和營運報告。具體職責已在您的 NetApp Keystone 協議中明確規定。

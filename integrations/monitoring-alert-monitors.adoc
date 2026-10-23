@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: integrations/monitoring-alert-monitors.html 
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, netapp console 
-summary: 使用「監控」標籤檢視並建立Keystone訂閱的警報監控器。 
+summary: 使用「監控」標籤檢視和建立 Keystone 訂閱的警報監控器。 
 ---
 = 查看並建立Keystone訂閱的警報監視器
 :hardbreaks:

@@ -1,10 +1,10 @@
 ---
 indexpage:
   title: Keystone 文件
-  summary: NetApp Keystone 是一種按需付費的儲存即服務產品，只需一次訂閱即可提供本機和雲端資料儲存服務，並能夠在雲端之間重新分配儲存支出。
-  keywords: Keystone STaaS
-  lead: NetApp Keystone是一種靈活的按使用量付費的訂閱式服務，可為那些更傾向於營運支出而非資本支出或租賃的客戶提供無縫的混合雲體驗。它使您能夠消除管理資源的
-    IT 負擔並避免冗長的採購週期，從而加快價值實現時間。瀏覽此庫中的文件以了解有關NetApp Keystone儲存即服務 (STaaS) 產品的更多資訊。
+  summary: Keystone STaaS 是 NetApp Keystone 平台下的訂閱產品，透過隨用隨付模式提供檔案、區塊和物件儲存服務。
+  keywords: NetApp Keystone, Keystone STaaS, storage as a service, subscription
+  lead: NetApp Keystone 是 NetApp 的以服務形式的儲存設備平台。Keystone 以服務形式的儲存設備 (STaaS) 是 Keystone
+    旗下的訂閱產品，透過隨用隨付模式提供檔案、區塊和物件儲存服務。Keystone STaaS 使組織能夠以營運費用來使用儲存設備，而無需預先進行資本投資。
   tiles:
   - title: 開始使用
     links:
@@ -30,7 +30,7 @@ indexpage:
       url: "/integrations/health-assessment-reports.html"
     - title: 搜尋數據並產生報告
       url: "/integrations/options.html"
-  - title: Keystone中支援的服務
+  - title: Keystone STaaS 中支援的服務
     links:
     - title: Keystone 績效服務水平
       url: "/concepts/service-levels.html"
@@ -40,9 +40,9 @@ indexpage:
       url: "/concepts/supported-storage-services.html"
     - title: 我可以將支出從內部部署重新分配到雲端嗎？
       url: "/concepts/capacity-requirements.html#capacity-adjustments"
-  - title: Keystone 定價與計費
+  - title: Keystone STaaS 定價與計費
     links:
-    - title: 了解Keystone定價
+    - title: 了解 Keystone STaaS 計費方式
       url: "/concepts/pricing.html"
     - title: Keystone 如何衡量容量？
       url: "/concepts/pricing.html#how-keystone-measures-capacity"
@@ -52,7 +52,7 @@ indexpage:
       url: "/concepts/pricing.html#burst-consumption"
     - title: 何時產生發票？
       url: "/concepts/pricing.html#billing-schedules"
-  - title: 利用 Keystone 服務完成更多工作
+  - title: Keystone STaaS 的附加服務
     links:
     - title: 了解您的支援團隊
       url: "/concepts/support-services.html"
@@ -64,9 +64,9 @@ indexpage:
       url: "/concepts/adp.html"
     - title: 監控，疑難排解及強化儲存設備
       url: "/concepts/data-infra-insights.html"
-    - title: 美國公民支援
+    - title: 美國保護支援（ USPS ）
       url: "/concepts/usps.html"
-  - title: 了解更多
+  - title: 更多資源
     links:
     - title: Active IQ Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html

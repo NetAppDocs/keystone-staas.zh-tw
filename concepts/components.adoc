@@ -4,7 +4,7 @@ permalink: concepts/components.html
 keywords: infrastructure component, deployment requirement, installation requirement 
 summary: 瞭解在您的環境中啟用 NetApp Keystone STaaS 服務所需的元件。 
 ---
-= Keystone服務所需的元件
+= Keystone STaaS 服務所需的元件
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

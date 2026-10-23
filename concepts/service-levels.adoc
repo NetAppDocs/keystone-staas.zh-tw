@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/service-levels.html 
 keywords: service levels, service level, rate plan or service level 
-summary: Keystone STaaS 版本 3 提供預先定義服務等級的儲存容量。由 Keystone 管理的每個磁碟區都與服務層級相關聯。 
+summary: Keystone STaaS 版本 3 提供預先定義服務層級的儲存容量。Keystone STaaS 代管的每個 Volume 都與一個服務層級相關聯。 
 ---
-= Keystone 中的效能服務級別
+= Keystone STaaS 中的效能服務層級
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

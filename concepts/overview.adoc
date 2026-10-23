@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: concepts/overview.html 
-keywords: learn about keystone, keystone introduction, keystone, STaaS, service, offering, overview 
-summary: Keystone 是一種隨成長付費的訂閱型服務模式、適合偏好營運成本消費模式、而非前期資本支出或租賃模式的企業。 
+keywords: learn about keystone, keystone introduction, keystone platform, keystone STaaS, storage as a service, subscription, overview 
+summary: NetApp Keystone 是 NetApp 的儲存即服務平台與品牌。Keystone STaaS 是其針對檔案、區塊與物件儲存服務的主要訂閱產品。 
 ---
 = 深入瞭解NetApp Keystone
 :hardbreaks:
@@ -14,34 +14,47 @@ summary: Keystone 是一種隨成長付費的訂閱型服務模式、適合偏�
 
 
 [role="lead"]
-NetApp Keystone 是一種按使用量付費的基於訂閱的服務模式，為那些傾向於採用營運費用消費模式而非前期資本支出或租賃來滿足其資料儲存和保護需求的企業提供無縫的混合雲端體驗。
-
-使用 Keystone，您將受益於：
-
-* *成本效益*：只需為您需要的儲存付費，並可靈活處理額外的容量。
-* *資本效率*：無需前期投資即可存取企業級儲存。
-* *可擴充性*：隨著業務的成長，輕鬆擴充儲存容量。
-* *客製化*：根據需要調整您的儲存計劃並轉移到雲端，從而優化您的整體成本。
-* *雲端整合*：在一個訂閱下結合本地服務和雲端服務。
-* *安全*：使用先進的安全措施保護您的資料並保證從威脅中恢復。
-
-
-image:keystone-benefit-1.png["Keystone 優勢"]
-
-Keystone 為檔案、區塊和物件儲存類型提供預先定義效能服務等級的儲存容量。此類儲存可以部署在本地，並由 NetApp、合作夥伴或客戶自行營運。Keystone 可與 NetApp 雲端服務搭配使用、例如 Cloud Volumes ONTAP 、可部署在您選擇的超純量環境中。
+NetApp Keystone 是一個提供 Keystone 儲存設備以服務形式 (STaaS) 的平台，這是一項隨用隨付的訂閱產品，適合偏好以營運費用方式使用，而非預付資本支出或租賃的企業。
 
 
 
-[[keystone-storage-as-a-service-staas]]
-== Keystone 儲存即服務 (STaaS)
+[[keystone-staas-offering-and-services]]
+== Keystone STaaS 產品與服務
 
-儲存即服務（ STaaS ）產品旨在提供類似公有雲的模式、以供採購、部署及管理儲存基礎架構。儘管許多企業仍在製定混合雲策略，但 Keystone STaaS 提供了靈活性，讓您可以先從本地服務入手，然後在適當的時機遷移到雲端。這可確保您在不同的部署模式下都能保障您的承諾，並根據需要重新分配支出，而不會增加每月帳單。
+Keystone STaaS 提供類似公有雲的儲存基礎架構採購、部署和管理模式。訂閱 Keystone STaaS 時，您可以選擇滿足您需求的資料儲存設備類型和效能服務層級。
+
+Keystone STaaS 是定義儲存功能如何交付與使用的產品。服務是該產品可用的功能，標準服務包含在基礎訂閱中，而附加服務則可在您需要額外功能時購買。例如，進階資料保護（ADP）是一項附加服務，可為支援的組態提供同步的站台間鏡射。
+
+這種區分有助於您了解訂閱包含哪些功能，以及哪些功能需要額外購買。如需標準與附加服務的相關資訊，請參閱 link:../concepts/supported-storage-services.html["Keystone STaaS服務"]。
+
+
+
+[[storage-flexibility-and-operational-models]]
+== 儲存設備靈活度和營運模式
+
+Keystone STaaS 支援多種資料儲存設備類型和效能服務層級。您可以從內部部署儲存設備開始，並隨著需求變更來新增雲端服務。容量調整和雲端重新分配受您的訂閱條款規範。
+
+Keystone STaaS 可以採用合作夥伴營運模式或客戶營運模式。詳情請參閱 link:../concepts/operational-models.html["Keystone中的運作模式"]。
+
+
+
+[[key-benefits-of-keystone-staas]]
+== Keystone STaaS 的主要優勢
+
+* *成本效率*：針對承諾容量獲得可預測的成本，超出該承諾的使用量則依使用量計費。
+* *資本效率*：無需大量前期投資即可存取企業儲存設備。
+* *可擴充性*：隨著業務成長，增加儲存容量。
+* *靈活度*：根據實際情況調整儲存設備方案，並將工作負載遷移到雲端。
+* *雲端整合*：在單一訂閱下使用內部部署與雲端服務。
+* *安全性*：利用進階的安全性措施與恢復功能來保護您的資料。
+
 
 *相關資訊*
 
-* link:../concepts/pricing.html["Keystone定價"]
-* link:../concepts/adp.html["Keystone STaaS 中的附加服務"]
-* link:../concepts/service-levels.html["Keystone 中的效能服務級別"]
-* link:../concepts/infra.html["了解 Keystone 基礎架構"]
+* link:../concepts/pricing.html["Keystone STaaS 計費"]
+* link:../concepts/adp.html["進階資料保護附加服務"]
+* link:../concepts/supported-storage-services.html["Keystone STaaS服務"]
+* link:../concepts/service-levels.html["Keystone STaaS 中的效能服務層級"]
+* link:../concepts/infra.html["了解 Keystone STaaS 基礎架構"]
 * link:../concepts/operational-models.html["Keystone中的運作模式"]
 

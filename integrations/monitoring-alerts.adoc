@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: integrations/monitoring-alerts.html 
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, console 
-summary: 使用「監控」標籤來查看和管理Keystone訂閱的警報。 
+summary: 使用「監控」標籤檢視和管理 Keystone 訂閱的警報。 
 ---
 = 查看並管理Keystone訂閱的提醒
 :hardbreaks:

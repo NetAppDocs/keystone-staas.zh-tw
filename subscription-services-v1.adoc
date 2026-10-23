@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: subscription-services-v1.html 
 keywords: Keystone Flex Subscriptions, kfs v1, keystone legacy, Keystone subscription services version 1 
-summary: Keystone STaaS over Keystone Flex 訂閱服務 
+summary: 了解 Keystone 傳統訂閱服務與 Keystone STaaS 的差異 
 ---
 = Keystone 訂閱服務 | 版本 1
 :hardbreaks:
